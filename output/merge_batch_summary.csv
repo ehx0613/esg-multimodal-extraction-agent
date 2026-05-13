@@ -1,0 +1,13 @@
+﻿report_name,success,total_fields,route_a_extracted_fields,route_b_matched_fields,route_b_filled_fields,merged_extracted_fields,missing_fields,coverage_rate,output_dir,error
+001_000858_五_粮_液_2024_五_粮_液：2024年度环境、社会及公司治理（ESG）报告,True,68,36,5,5,41,27,0.6029,C:\Users\18130\PycharmProjects\爬虫\esg-multimodal-extraction-agent\output\reports\001_000858_五_粮_液_2024_五_粮_液：2024年度环境、社会及公司治理（ESG）报告,
+002_000923_河钢资源_2024_河钢资源：2024年度环境、社会及公司治理报告,True,68,25,5,5,30,38,0.4412,C:\Users\18130\PycharmProjects\爬虫\esg-multimodal-extraction-agent\output\reports\002_000923_河钢资源_2024_河钢资源：2024年度环境、社会及公司治理报告,
+003_002083_孚日股份_2025_孚日股份：社会责任报告,True,68,29,0,0,29,39,0.4265,C:\Users\18130\PycharmProjects\爬虫\esg-multimodal-extraction-agent\output\reports\003_002083_孚日股份_2025_孚日股份：社会责任报告,
+004_002249_大洋电机_2024_大洋电机：大洋电机2024年度环境、社会及公司治理（ESG）报告,True,68,20,5,5,25,43,0.3676,C:\Users\18130\PycharmProjects\爬虫\esg-multimodal-extraction-agent\output\reports\004_002249_大洋电机_2024_大洋电机：大洋电机2024年度环境、社会及公司治理（ESG）报告,
+005_002302_西部建设_2024_西部建设：2024年度环境、社会和公司治理（ESG）报告,True,68,22,4,4,26,42,0.3824,C:\Users\18130\PycharmProjects\爬虫\esg-multimodal-extraction-agent\output\reports\005_002302_西部建设_2024_西部建设：2024年度环境、社会和公司治理（ESG）报告,
+006_002431_棕榈股份_2024_棕榈股份：棕榈股份2024年度环境、社会及公司治理（ESG）报告,True,68,24,4,4,28,40,0.4118,C:\Users\18130\PycharmProjects\爬虫\esg-multimodal-extraction-agent\output\reports\006_002431_棕榈股份_2024_棕榈股份：棕榈股份2024年度环境、社会及公司治理（ESG）报告,
+007_002486_嘉麟杰_2024_嘉麟杰：2024年社会责任报告,True,68,16,4,4,20,48,0.2941,C:\Users\18130\PycharmProjects\爬虫\esg-multimodal-extraction-agent\output\reports\007_002486_嘉麟杰_2024_嘉麟杰：2024年社会责任报告,
+008_002649_博彦科技_2024_博彦科技：2024年度环境、社会及公司治理（ESG）报告,True,68,29,5,5,34,34,0.5,C:\Users\18130\PycharmProjects\爬虫\esg-multimodal-extraction-agent\output\reports\008_002649_博彦科技_2024_博彦科技：2024年度环境、社会及公司治理（ESG）报告,
+009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告,True,68,15,2,2,17,51,0.25,C:\Users\18130\PycharmProjects\爬虫\esg-multimodal-extraction-agent\output\reports\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告,
+010_002913_奥士康_2025_奥士康：社会责任报告,True,68,23,5,5,28,40,0.4118,C:\Users\18130\PycharmProjects\爬虫\esg-multimodal-extraction-agent\output\reports\010_002913_奥士康_2025_奥士康：社会责任报告,
+011_002939_长城证券_2024_长城证券：2024年度社会责任暨环境、社会及公司治理（ESG）报告,True,68,24,5,5,29,39,0.4265,C:\Users\18130\PycharmProjects\爬虫\esg-multimodal-extraction-agent\output\reports\011_002939_长城证券_2024_长城证券：2024年度社会责任暨环境、社会及公司治理（ESG）报告,
+012_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告,True,68,17,3,3,20,48,0.2941,C:\Users\18130\PycharmProjects\爬虫\esg-multimodal-extraction-agent\output\reports\012_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告,

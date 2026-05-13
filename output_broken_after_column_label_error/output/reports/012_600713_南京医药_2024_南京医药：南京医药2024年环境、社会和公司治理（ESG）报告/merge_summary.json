@@ -1,0 +1,11 @@
+{
+  "total_fields": 68,
+  "route_a_extracted_fields": 16,
+  "route_b_matched_fields": 3,
+  "route_b_filled_fields": 3,
+  "merged_extracted_fields": 19,
+  "missing_fields": 49,
+  "coverage_rate": 0.2794,
+  "route_a_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\012_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告\\standard_esg_results.csv",
+  "route_b_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\012_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告\\route_b_text_results.csv"
+}

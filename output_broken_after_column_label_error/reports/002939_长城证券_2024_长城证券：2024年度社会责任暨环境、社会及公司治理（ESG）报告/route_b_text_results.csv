@@ -1,0 +1,6 @@
+﻿field_key,field_name_cn,category,matched,value,summary,evidence,source_pages,confidence,reason,route
+board_esg_oversight,董事会 ESG 监督机制,G,True,True,公司董事会设立了战略发展与ESG委员会，履行ESG监督职责。,将“董事会战略与发展委员会”更名为“董事会战略发展与ESG委员会”，落实董事会ESG治理职责。,[13],0.95,正文明确披露了董事会层面设立ESG相关委员会，属于董事会ESG监督机制。,B_text_rag
+esg_committee,ESG 委员会或可持续发展委员会,G,True,True,公司设立了ESG委员会或可持续发展相关委员会。,公司设立了“战略发展与ESG委员会”及“ESG建设与发展委员会”。,"[6, 13, 20]",0.95,正文明确披露了董事会层面和经营管理层面的ESG相关委员会。,B_text_rag
+anti_corruption_policy,反腐败政策,G,True,True,公司建立了反腐败或举报相关制度。,公司制定《廉洁从业管理办法》《重点业务廉洁风险防控操作指引》等制度，设立反腐败协调工作组。,[16],0.86,正文明确披露了该机制。,B_text_rag
+whistleblowing_mechanism,举报机制,G,True,True,公司建立了反腐败或举报相关制度。,公司制定《信访工作管理办法》《信访事项办理工作细则（试行）》，明确举报人权利并保护检举材料。,[17],0.86,正文明确披露了该机制。,B_text_rag
+supplier_esg_assessment,供应商 ESG 评估机制,S,True,True,公司建立了供应商ESG评估机制，包括准入标准、考核评价体系及处罚措施。,公司制定供应商考核评价体系，对供应商开展项目执行和年度综合评价，结果作为采购寻源依据。,[36],0.92,正文明确披露了供应商评价机制及相关流程。,B_text_rag

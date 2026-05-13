@@ -1,0 +1,3494 @@
+{
+  "pdf_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\data\\raw\\002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告.pdf",
+  "output_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告",
+  "sniffer_result": {
+    "found": true,
+    "total_pages": 87,
+    "candidates": [
+      {
+        "page_index": 77,
+        "page_number": 78,
+        "score": 79,
+        "title_hits": [
+          "20[0-3][0-9]年"
+        ],
+        "metric_hits": [
+          "温室气体",
+          "范围一",
+          "范围二",
+          "能源",
+          "能源消耗",
+          "电力",
+          "用电",
+          "柴油",
+          "汽油",
+          "煤",
+          "供应商"
+        ],
+        "unit_hits": [
+          "吨",
+          "吨二氧化碳当量",
+          "千瓦时",
+          "万千瓦时",
+          "万元",
+          "元",
+          "人"
+        ],
+        "year_hits": [
+          "2024"
+        ],
+        "number_count": 14,
+        "reasons": [
+          "标题锚点命中: ['20[0-3][0-9]年']",
+          "指标词命中: ['温室气体', '范围一', '范围二', '能源', '能源消耗', '电力', '用电', '柴油', '汽油', '煤', '供应商']",
+          "单位词命中: ['吨', '吨二氧化碳当量', '千瓦时', '万千瓦时', '万元', '元', '人']",
+          "年份命中: ['2024']",
+          "位于文档后30%"
+        ]
+      },
+      {
+        "page_index": 60,
+        "page_number": 61,
+        "score": 55,
+        "title_hits": [
+          "指标",
+          "20[0-3][0-9]年"
+        ],
+        "metric_hits": [
+          "培训"
+        ],
+        "unit_hits": [
+          "万元",
+          "元",
+          "人",
+          "人次",
+          "小时",
+          "学时",
+          "次",
+          "项",
+          "家"
+        ],
+        "year_hits": [
+          "2024"
+        ],
+        "number_count": 6,
+        "reasons": [
+          "标题锚点命中: ['指标', '20[0-3][0-9]年']",
+          "指标词命中: ['培训']",
+          "单位词命中: ['万元', '元', '人', '人次', '小时', '学时', '次', '项', '家']",
+          "年份命中: ['2024']",
+          "位于文档后30%"
+        ]
+      },
+      {
+        "page_index": 82,
+        "page_number": 83,
+        "score": 41,
+        "title_hits": [
+          "20[0-3][0-9]年"
+        ],
+        "metric_hits": [
+          "培训",
+          "供应商"
+        ],
+        "unit_hits": [
+          "%",
+          "人",
+          "次",
+          "件",
+          "项",
+          "家"
+        ],
+        "year_hits": [
+          "2024"
+        ],
+        "number_count": 8,
+        "reasons": [
+          "标题锚点命中: ['20[0-3][0-9]年']",
+          "指标词命中: ['培训', '供应商']",
+          "单位词命中: ['%', '人', '次', '件', '项', '家']",
+          "年份命中: ['2024']",
+          "位于文档后30%"
+        ]
+      },
+      {
+        "page_index": 63,
+        "page_number": 64,
+        "score": 35,
+        "title_hits": [
+          "20[0-3][0-9]年"
+        ],
+        "metric_hits": [
+          "培训"
+        ],
+        "unit_hits": [
+          "人",
+          "次",
+          "项",
+          "起",
+          "家"
+        ],
+        "year_hits": [
+          "2024"
+        ],
+        "number_count": 2,
+        "reasons": [
+          "标题锚点命中: ['20[0-3][0-9]年']",
+          "指标词命中: ['培训']",
+          "单位词命中: ['人', '次', '项', '起', '家']",
+          "年份命中: ['2024']",
+          "位于文档后30%"
+        ]
+      },
+      {
+        "page_index": 73,
+        "page_number": 74,
+        "score": 35,
+        "title_hits": [],
+        "metric_hits": [
+          "温室气体",
+          "能源",
+          "能源消耗",
+          "煤",
+          "供应商"
+        ],
+        "unit_hits": [
+          "吨",
+          "吨二氧化碳当量",
+          "万元",
+          "元",
+          "家"
+        ],
+        "year_hits": [],
+        "number_count": 6,
+        "reasons": [
+          "指标词命中: ['温室气体', '能源', '能源消耗', '煤', '供应商']",
+          "单位词命中: ['吨', '吨二氧化碳当量', '万元', '元', '家']",
+          "位于文档后30%"
+        ]
+      },
+      {
+        "page_index": 62,
+        "page_number": 63,
+        "score": 31,
+        "title_hits": [
+          "20[0-3][0-9]年"
+        ],
+        "metric_hits": [
+          "培训"
+        ],
+        "unit_hits": [
+          "人",
+          "件",
+          "项"
+        ],
+        "year_hits": [
+          "2024"
+        ],
+        "number_count": 3,
+        "reasons": [
+          "标题锚点命中: ['20[0-3][0-9]年']",
+          "指标词命中: ['培训']",
+          "单位词命中: ['人', '件', '项']",
+          "年份命中: ['2024']",
+          "位于文档后30%"
+        ]
+      },
+      {
+        "page_index": 58,
+        "page_number": 59,
+        "score": 30,
+        "title_hits": [
+          "20[0-3][0-9]年"
+        ],
+        "metric_hits": [
+          "培训"
+        ],
+        "unit_hits": [
+          "人",
+          "次",
+          "项"
+        ],
+        "year_hits": [
+          "2024",
+          "2025"
+        ],
+        "number_count": 8,
+        "reasons": [
+          "标题锚点命中: ['20[0-3][0-9]年']",
+          "指标词命中: ['培训']",
+          "单位词命中: ['人', '次', '项']",
+          "年份命中: ['2024', '2025']"
+        ]
+      },
+      {
+        "page_index": 61,
+        "page_number": 62,
+        "score": 29,
+        "title_hits": [
+          "20[0-3][0-9]年"
+        ],
+        "metric_hits": [
+          "培训"
+        ],
+        "unit_hits": [
+          "人",
+          "项"
+        ],
+        "year_hits": [
+          "2024"
+        ],
+        "number_count": 3,
+        "reasons": [
+          "标题锚点命中: ['20[0-3][0-9]年']",
+          "指标词命中: ['培训']",
+          "单位词命中: ['人', '项']",
+          "年份命中: ['2024']",
+          "位于文档后30%"
+        ]
+      },
+      {
+        "page_index": 80,
+        "page_number": 81,
+        "score": 29,
+        "title_hits": [],
+        "metric_hits": [
+          "水资源",
+          "耗水",
+          "用水量",
+          "总用水",
+          "培训"
+        ],
+        "unit_hits": [
+          "吨",
+          "人"
+        ],
+        "year_hits": [],
+        "number_count": 3,
+        "reasons": [
+          "指标词命中: ['水资源', '耗水', '用水量', '总用水', '培训']",
+          "单位词命中: ['吨', '人']",
+          "位于文档后30%"
+        ]
+      },
+      {
+        "page_index": 59,
+        "page_number": 60,
+        "score": 28,
+        "title_hits": [],
+        "metric_hits": [
+          "员工人数",
+          "男性员工",
+          "女性员工"
+        ],
+        "unit_hits": [
+          "人",
+          "项"
+        ],
+        "year_hits": [
+          "2024"
+        ],
+        "number_count": 25,
+        "reasons": [
+          "指标词命中: ['员工人数', '男性员工', '女性员工']",
+          "单位词命中: ['人', '项']",
+          "年份命中: ['2024']",
+          "数字密度较高: 25",
+          "位于文档后30%"
+        ]
+      },
+      {
+        "page_index": 86,
+        "page_number": 87,
+        "score": 27,
+        "title_hits": [
+          "20[0-3][0-9]年"
+        ],
+        "metric_hits": [],
+        "unit_hits": [
+          "件"
+        ],
+        "year_hits": [
+          "2023",
+          "2024"
+        ],
+        "number_count": 17,
+        "reasons": [
+          "标题锚点命中: ['20[0-3][0-9]年']",
+          "单位词命中: ['件']",
+          "年份命中: ['2023', '2024']",
+          "位于文档后30%"
+        ]
+      },
+      {
+        "page_index": 53,
+        "page_number": 54,
+        "score": 26,
+        "title_hits": [],
+        "metric_hits": [
+          "员工人数",
+          "培训",
+          "工伤",
+          "死亡"
+        ],
+        "unit_hits": [
+          "%",
+          "人",
+          "人次",
+          "小时",
+          "次"
+        ],
+        "year_hits": [],
+        "number_count": 9,
+        "reasons": [
+          "指标词命中: ['员工人数', '培训', '工伤', '死亡']",
+          "单位词命中: ['%', '人', '人次', '小时', '次']"
+        ]
+      }
+    ],
+    "expanded_page_numbers": [
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ],
+    "candidate_pages": [
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ],
+    "scan_ratio": 0.4,
+    "scan_start_page": 53
+  },
+  "appendix_found": true,
+  "candidate_pages": [
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87
+  ],
+  "page_images": [
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_74.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_74_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_74_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_75.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_75_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_75_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_76.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_76_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_76_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_77.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_77_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_77_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_78.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_78_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_78_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_79.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_79_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_79_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_80.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_80_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_80_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_81.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_81_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_81_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_82.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_82_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_82_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_83.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_83_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_83_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_84.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_84_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_84_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_85.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_85_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_85_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_86.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_86_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_86_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_87.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_87_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_87_right.png"
+  ],
+  "all_table_rows": [
+    {
+      "page_image": "page_74.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': 'Exceeded limit on max bytes per data-uri item : 20971520', 'type': 'invalid_request_error', 'param': None, 'code': None}, 'request_id': '1f5f5a82-ec44-9df5-b7b9-b15c4555f972'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_74_left.png",
+      "page_type": "content_index",
+      "page_note": "页面为章节索引，不包含具体 ESG 绩效数值表。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_74_right.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "ESG 绩效数据表",
+          "columns": [
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "能源消耗密度",
+              "unit": "吨标准煤/百万元营收",
+              "values": {
+                "2024年": "0.18"
+              },
+              "evidence_text": "能源消耗密度 吨标准煤/百万元营收 2024年 0.18"
+            },
+            {
+              "metric_name": "温室气体排放密度",
+              "unit": "吨二氧化碳当量/万元营收",
+              "values": {
+                "2024年": "0.65"
+              },
+              "evidence_text": "温室气体排放密度 吨二氧化碳当量/万元营收 2024年 0.65"
+            },
+            {
+              "metric_name": "供应商总数",
+              "unit": "家",
+              "values": {
+                "2024年": "274"
+              },
+              "evidence_text": "供应商总数 家 2024年 274"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_75.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': '<400> InternalError.Algo.InvalidParameter: Multimodal file size is too large', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_parameter_error'}, 'id': 'chatcmpl-8a28fca3-8fe5-9d96-a343-703acb9194ff', 'request_id': '8a28fca3-8fe5-9d96-a343-703acb9194ff'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_75_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为关于绿色运营的文字描述，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_75_right.png",
+      "page_type": "other",
+      "page_note": "该图片为ISO 14001环境管理体系认证证书，不包含ESG绩效数据表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_76.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "气候风险类型与应对措施表",
+          "columns": [
+            "气候风险类型",
+            "潜在影响",
+            "影响周期",
+            "应对措施"
+          ],
+          "rows": [
+            {
+              "topic": null,
+              "metric_name": "急性物理风险",
+              "unit": null,
+              "values": {
+                "潜在影响": "极端天气或自然灾害可能对公司经营网点、项目所在地等造成破坏，增加财产损失风险以及供应链风险。",
+                "影响周期": "短期、中期",
+                "应对措施": "加强对天气预报的关注；强化极端气候灾害风险防范措施，根据天气变化灵活调整项目时间周期。"
+              },
+              "evidence_text": "急性物理风险 极端天气或自然灾害可能对公司经营网点、项目所在地等造成破坏，增加财产损失风险以及供应链风险。 短期、中期 加强对天气预报的关注；强化极端气候灾害风险防范措施，根据天气变化灵活调整项目时间周期。"
+            },
+            {
+              "topic": null,
+              "metric_name": "慢性物理风险",
+              "unit": null,
+              "values": {
+                "潜在影响": "海平面上升、持续性高温等长期的气候变化可能会影响公司供应链的价格变动风险，给公司带来潜在的成本上升影响。",
+                "影响周期": "长期",
+                "应对措施": "定期对实际原材料成本及销售成本进行差异分析，密切关注成本上升的因素；利用数字化技术对供应链平台进行持续升级，打造供应链生态，拓宽材料选择空间。"
+              },
+              "evidence_text": "慢性物理风险 海平面上升、持续性高温等长期的气候变化可能会影响公司供应链的价格变动风险，给公司带来潜在的成本上升影响。 长期 定期对实际原材料成本及销售成本进行差异分析，密切关注成本上升的因素；利用数字化技术对供应链平台进行持续升级，打造供应链生态，拓宽材料选择空间。"
+            },
+            {
+              "topic": null,
+              "metric_name": "政策与法规风险",
+              "unit": null,
+              "values": {
+                "潜在影响": "各级政府、监管机构对于企业的环境信息披露要求将进一步提升，同时对公司环境数据的准确性要求不断提高，增加信息披露的合规风险。",
+                "影响周期": "中期、长期",
+                "应对措施": "及时关注各级政府、交易所等监管机构发布的最新政策，按照政策要求加强可持续发展信息披露。"
+              },
+              "evidence_text": "政策与法规风险 各级政府、监管机构对于企业的环境信息披露要求将进一步提升，同时对公司环境数据的准确性要求不断提高，增加信息披露的合规风险。 中期、长期 及时关注各级政府、交易所等监管机构发布的最新政策，按照政策要求加强可持续发展信息披露。"
+            },
+            {
+              "topic": null,
+              "metric_name": "市场风险",
+              "unit": null,
+              "values": {
+                "潜在影响": "市场客户的偏好逐渐将转变为采用更低碳环保的替代产品、服务以及设计理念，可能增加设计难度以及营运成本。",
+                "影响周期": "短期、中期、长期",
+                "应对措施": "在选材环节一直坚持使用最高标准的环保材料，根据客户以及市场要求持续更新公司选材标准。转变设计理念，在考虑美学和功能性前提下，兼顾低碳环保因素的考量。"
+              },
+              "evidence_text": "市场风险 市场客户的偏好逐渐将转变为采用更低碳环保的替代产品、服务以及设计理念，可能增加设计难度以及营运成本。 短期、中期、长期 在选材环节一直坚持使用最高标准的环保材料，根据客户以及市场要求持续更新公司选材标准。转变设计理念，在考虑美学和功能性前提下，兼顾低碳环保因素的考量。"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_76_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为关于气候变化的风险分析，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_76_right.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "量化数据绩效表",
+          "columns": [
+            "气候风险类型",
+            "潜在影响",
+            "影响周期",
+            "应对措施"
+          ],
+          "rows": [
+            {
+              "topic": "急性物理风险",
+              "metric_name": "极端天气或自然灾害可能对公司经营网点、项目所在地等造成破坏，增加财产损失风险以及供应链风险。",
+              "unit": "短期、中期",
+              "values": {
+                "2024年": "加强对天气预报的关注，强化极端气候灾害风险防范措施，根据天气变化灵活调整项目时间周期。"
+              },
+              "evidence_text": "急性物理风险 极端天气或自然灾害可能对公司经营网点、项目所在地等造成破坏，增加财产损失风险以及供应链风险。 短期、中期 加强对天气预报的关注，强化极端气候灾害风险防范措施，根据天气变化灵活调整项目时间周期。"
+            },
+            {
+              "topic": "慢性物理风险",
+              "metric_name": "海平面上升、持续性高温等长期的气候变化可能会影响公司供应链的价格变动风险，给公司带来潜在的成本上升影响。",
+              "unit": "长期",
+              "values": {
+                "2024年": "定期对实际原材料成本及销售成本进行差异分析，密切关注成本上升的因素。利用数字化技术对供应链平台进行持续升级，打造供应链生态，拓宽材料选择空间。"
+              },
+              "evidence_text": "慢性物理风险 海平面上升、持续性高温等长期的气候变化可能会影响公司供应链的价格变动风险，给公司带来潜在的成本上升影响。 长期 定期对实际原材料成本及销售成本进行差异分析，密切关注成本上升的因素。利用数字化技术对供应链平台进行持续升级，打造供应链生态，拓宽材料选择空间。"
+            },
+            {
+              "topic": "政策与法规风险",
+              "metric_name": "各级政府、监管机构对于企业的环境信息披露要求将进一步提升，同时对公司环境数据的准确性要求不断提高，增加信息披露的合规风险。",
+              "unit": "中期、长期",
+              "values": {
+                "2024年": "及时关注各级政府、交易所等监管机构发布的最新政策，按照政策要求加强可持续发展信息披露。"
+              },
+              "evidence_text": "政策与法规风险 各级政府、监管机构对于企业的环境信息披露要求将进一步提升，同时对公司环境数据的准确性要求不断提高，增加信息披露的合规风险。 中期、长期 及时关注各级政府、交易所等监管机构发布的最新政策，按照政策要求加强可持续发展信息披露。"
+            },
+            {
+              "topic": "市场风险",
+              "metric_name": "市场客户的偏好逐渐转变为采用更低碳环保的替代产品、服务以及设计理念，可能增加设计难度以及营运成本。",
+              "unit": "短期、中期、长期",
+              "values": {
+                "2024年": "在选材环节一直坚持使用最高标准的环保材料，根据客户以及市场要求持续更新公司选材标准。转变设计理念，在考虑美学和功能性的前提下，兼顾低碳环保因素的考量。"
+              },
+              "evidence_text": "市场风险 市场客户的偏好逐渐转变为采用更低碳环保的替代产品、服务以及设计理念，可能增加设计难度以及营运成本。 短期、中期、长期 在选材环节一直坚持使用最高标准的环保材料，根据客户以及市场要求持续更新公司选材标准。转变设计理念，在考虑美学和功能性的前提下，兼顾低碳环保因素的考量。"
+            }
+          ]
+        }
+      ],
+      "retry_used": true,
+      "retry_reason": "first_pass_no_rows_or_not_table"
+    },
+    {
+      "page_image": "page_77.png",
+      "page_type": "other",
+      "page_note": "页面内容为公司获得碳中和证明的证书展示及管理与目标规划的文字说明，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_77_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为文字描述和会议图片，未包含ESG绩效数据表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_77_right.png",
+      "page_type": "other",
+      "page_note": "页面内容为碳中和证明证书，不属于ESG绩效数据表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_78.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "2024能源消耗",
+          "columns": [
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "汽油",
+              "unit": "升",
+              "values": {
+                "2024年": "60,541.63"
+              },
+              "evidence_text": "2024能源消耗\n汽油 升 2024年 60,541.63"
+            },
+            {
+              "metric_name": "柴油",
+              "unit": "升",
+              "values": {
+                "2024年": "283.79"
+              },
+              "evidence_text": "2024能源消耗\n柴油 升 2024年 283.79"
+            },
+            {
+              "metric_name": "外购电力",
+              "unit": "万千瓦时",
+              "values": {
+                "2024年": "116.86"
+              },
+              "evidence_text": "2024能源消耗\n外购电力 万千瓦时 2024年 116.86"
+            },
+            {
+              "metric_name": "能源消耗总量",
+              "unit": "吨标准煤",
+              "values": {
+                "2024年": "210.76"
+              },
+              "evidence_text": "2024能源消耗\n能源消耗总量 吨标准煤 2024年 210.76"
+            },
+            {
+              "metric_name": "能源消耗密度",
+              "unit": "吨标准煤/百万元营收",
+              "values": {
+                "2024年": "0.18"
+              },
+              "evidence_text": "2024能源消耗\n能源消耗密度 吨标准煤/百万元营收 2024年 0.18"
+            }
+          ]
+        },
+        {
+          "table_title": "2024温室气体排放",
+          "columns": [
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "直接温室气体排放量",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2024年": "138.86"
+              },
+              "evidence_text": "2024温室气体排放\n直接温室气体排放量 吨二氧化碳当量 2024年 138.86"
+            },
+            {
+              "metric_name": "间接温室气体排放量",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2024年": "627.07"
+              },
+              "evidence_text": "2024温室气体排放\n间接温室气体排放量 吨二氧化碳当量 2024年 627.07"
+            },
+            {
+              "metric_name": "温室气体排放量",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2024年": "765.94"
+              },
+              "evidence_text": "2024温室气体排放\n温室气体排放量 吨二氧化碳当量 2024年 765.94"
+            },
+            {
+              "metric_name": "温室气体排放密度",
+              "unit": "吨二氧化碳当量/百万元营收",
+              "values": {
+                "2024年": "0.65"
+              },
+              "evidence_text": "2024温室气体排放\n温室气体排放密度 吨二氧化碳当量/百万元营收 2024年 0.65"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_78_left.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "2024能源消耗",
+          "columns": [
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "汽油",
+              "unit": "升",
+              "values": {
+                "2024年": "60,541.63"
+              },
+              "evidence_text": "汽油 升 2024年 60,541.63"
+            },
+            {
+              "metric_name": "柴油",
+              "unit": "升",
+              "values": {
+                "2024年": "283.79"
+              },
+              "evidence_text": "柴油 升 2024年 283.79"
+            },
+            {
+              "metric_name": "外购电力",
+              "unit": "万千瓦时",
+              "values": {
+                "2024年": "116.86"
+              },
+              "evidence_text": "外购电力 万千瓦时 2024年 116.86"
+            },
+            {
+              "metric_name": "能源消耗总量",
+              "unit": "吨标准煤",
+              "values": {
+                "2024年": "210.76"
+              },
+              "evidence_text": "能源消耗总量 吨标准煤 2024年 210.76"
+            },
+            {
+              "metric_name": "能源消耗密度",
+              "unit": "吨标准煤/百万元营收",
+              "values": {
+                "2024年": "0.18"
+              },
+              "evidence_text": "能源消耗密度 吨标准煤/百万元营收 2024年 0.18"
+            }
+          ]
+        },
+        {
+          "table_title": "2024温室气体排放",
+          "columns": [
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "直接温室气体排放量（范围一）",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2024年": "138.86"
+              },
+              "evidence_text": "直接温室气体排放量（范围一） 吨二氧化碳当量 2024年 138.86"
+            },
+            {
+              "metric_name": "间接温室气体排放量（范围二）",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2024年": "627.07"
+              },
+              "evidence_text": "间接温室气体排放量（范围二） 吨二氧化碳当量 2024年 627.07"
+            },
+            {
+              "metric_name": "温室气体排放量",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2024年": "765.94"
+              },
+              "evidence_text": "温室气体排放量 吨二氧化碳当量 2024年 765.94"
+            },
+            {
+              "metric_name": "温室气体排放密度",
+              "unit": "吨二氧化碳当量/百万元营收",
+              "values": {
+                "2024年": "0.65"
+              },
+              "evidence_text": "温室气体排放密度 吨二氧化碳当量/百万元营收 2024年 0.65"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_78_right.png",
+      "page_type": "other",
+      "page_note": "页面内容为公司关于清洁能源使用、低碳办公、绿色采购和节能环保宣传的描述，未包含具体ESG绩效数值表。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_79.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': 'Exceeded limit on max bytes per data-uri item : 20971520', 'type': 'invalid_request_error', 'param': None, 'code': None}, 'request_id': 'da02049f-1eb1-989c-b63b-ee8144c9de98'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_79_left.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': '<400> InternalError.Algo.InvalidParameter: Multimodal file size is too large', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_parameter_error'}, 'id': 'chatcmpl-ab5bdc4d-1ea3-9bd6-8b13-881a9344cff8', 'request_id': 'ab5bdc4d-1ea3-9bd6-8b13-881a9344cff8'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_79_right.png",
+      "page_type": "other",
+      "page_note": "页面内容为关于文化传承与城市更新的可持续融合的文字描述，未包含ESG绩效数据表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_80.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': '<400> InternalError.Algo.InvalidParameter: Multimodal file size is too large', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_parameter_error'}, 'id': 'chatcmpl-727f87b6-1f61-9ead-83e9-79473c82d71d', 'request_id': '727f87b6-1f61-9ead-83e9-79473c82d71d'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_80_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为绿色技术与节能系统的深度应用描述，未包含具体ESG绩效数值表。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_80_right.png",
+      "page_type": "other",
+      "page_note": "页面内容为厦门航空总部大厦项目的可持续设计技术介绍，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_81.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': '<400> InternalError.Algo.InvalidParameter: Multimodal file size is too large', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_parameter_error'}, 'id': 'chatcmpl-c181b98d-24a9-9431-9965-cb28ab0983be', 'request_id': 'c181b98d-24a9-9431-9965-cb28ab0983be'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_81_left.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "水资源管理-环境绩效",
+          "columns": [
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "总用水量",
+              "unit": "吨",
+              "values": {
+                "2024年": "6,297"
+              },
+              "evidence_text": "总用水量 吨 2024年 6,297"
+            },
+            {
+              "metric_name": "人均耗水量",
+              "unit": "吨/人",
+              "values": {
+                "2024年": "3.56"
+              },
+              "evidence_text": "人均耗水量 吨/人 2024年 3.56"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_81_right.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': '<400> InternalError.Algo.InvalidParameter: Multimodal file size is too large', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_parameter_error'}, 'id': 'chatcmpl-8711cd95-2fa8-983f-bc8a-d924ddc51ff2', 'request_id': '8711cd95-2fa8-983f-bc8a-d924ddc51ff2'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_82.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "废弃物处置",
+          "columns": [
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "纸张",
+              "unit": "吨",
+              "values": {
+                "2024年": "5.83"
+              },
+              "evidence_text": "纸张 吨 2024年 5.83"
+            },
+            {
+              "metric_name": "碳粉盒",
+              "unit": "个",
+              "values": {
+                "2024年": "188"
+              },
+              "evidence_text": "碳粉盒 个 2024年 188"
+            },
+            {
+              "metric_name": "硒鼓墨盒",
+              "unit": "个",
+              "values": {
+                "2024年": "21"
+              },
+              "evidence_text": "硒鼓墨盒 个 2024年 21"
+            },
+            {
+              "metric_name": "无害废弃物密度",
+              "unit": "吨/人",
+              "values": {
+                "2024年": "0.0011"
+              },
+              "evidence_text": "无害废弃物密度 吨/人 2024年 0.0011"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_82_left.png",
+      "page_type": "other",
+      "page_note": "图片中未包含ESG绩效数据表格，仅显示一只手操作平板设备的界面。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_82_right.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "废弃物处置情况",
+          "columns": [
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "纸张",
+              "unit": "吨",
+              "values": {
+                "2024年": "5.83"
+              },
+              "evidence_text": "纸张 吨 2024年 5.83"
+            },
+            {
+              "metric_name": "碳粉盒",
+              "unit": "个",
+              "values": {
+                "2024年": "188"
+              },
+              "evidence_text": "碳粉盒 个 2024年 188"
+            },
+            {
+              "metric_name": "硒鼓墨盒",
+              "unit": "个",
+              "values": {
+                "2024年": "21"
+              },
+              "evidence_text": "硒鼓墨盒 个 2024年 21"
+            },
+            {
+              "metric_name": "无害废弃物密度",
+              "unit": "吨/人",
+              "values": {
+                "2024年": "0.0011"
+              },
+              "evidence_text": "无害废弃物密度 吨/人 2024年 0.0011"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_83.png",
+      "page_type": "other",
+      "page_note": "页面内容为关于可持续供应链的描述性文字，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_83_left.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "供应商管理绩效",
+          "columns": [
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "供应商总数",
+              "unit": "家",
+              "values": {
+                "2024年": "274"
+              },
+              "evidence_text": "供应商总数 家 2024年 274"
+            },
+            {
+              "metric_name": "采购培训覆盖率",
+              "unit": "%",
+              "values": {
+                "2024年": "100"
+              },
+              "evidence_text": "采购培训覆盖率 % 2024年 100"
+            },
+            {
+              "metric_name": "中小企业款项准时支付率",
+              "unit": "%",
+              "values": {
+                "2024年": "100"
+              },
+              "evidence_text": "中小企业款项准时支付率 % 2024年 100"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_83_right.png",
+      "page_type": "other",
+      "page_note": "页面内容为公司可持续采购和供应链协作的相关描述，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_84.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': '<400> InternalError.Algo.InvalidParameter: Multimodal file size is too large', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_parameter_error'}, 'id': 'chatcmpl-470a14e4-71ac-972e-99d4-63ba07b995e1', 'request_id': '470a14e4-71ac-972e-99d4-63ba07b995e1'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_84_left.png",
+      "page_type": "content_index",
+      "page_note": "该页面为报告后篇的目录索引，未包含具体 ESG 绩效数值表。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_84_right.png",
+      "page_type": "other",
+      "page_note": "图片内容为植物叶片的特写，未包含ESG绩效数据表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_85.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "关键绩效表",
+          "columns": [
+            "指标",
+            "单位",
+            "2023年",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "资产总额",
+              "unit": "亿元",
+              "values": {
+                "2023年": "26.00",
+                "2024年": "25.56"
+              },
+              "evidence_text": "资产总额 亿元 2023年 26.00 2024年 25.56"
+            },
+            {
+              "metric_name": "营业收入",
+              "unit": "亿元",
+              "values": {
+                "2023年": "10.94",
+                "2024年": "11.87"
+              },
+              "evidence_text": "营业收入 亿元 2023年 10.94 2024年 11.87"
+            },
+            {
+              "metric_name": "纳税总额",
+              "unit": "亿元",
+              "values": {
+                "2023年": "5,882.63",
+                "2024年": "7,404.52"
+              },
+              "evidence_text": "纳税总额 亿元 2023年 5,882.63 2024年 7,404.52"
+            },
+            {
+              "metric_name": "研发投入",
+              "unit": "万元",
+              "values": {
+                "2023年": "6,642.72",
+                "2024年": "6910.57"
+              },
+              "evidence_text": "研发投入 万元 2023年 6,642.72 2024年 6910.57"
+            },
+            {
+              "metric_name": "研发投入占比营业收入",
+              "unit": "%",
+              "values": {
+                "2023年": "6.07%",
+                "2024年": "5.82%"
+              },
+              "evidence_text": "研发投入占比营业收入 % 2023年 6.07% 2024年 5.82%"
+            },
+            {
+              "metric_name": "女生董事占比",
+              "unit": "%",
+              "values": {
+                "2023年": "14.29%",
+                "2024年": "14.29%"
+              },
+              "evidence_text": "女生董事占比 % 2023年 14.29% 2024年 14.29%"
+            },
+            {
+              "metric_name": "劳动合同签订率",
+              "unit": "%",
+              "values": {
+                "2023年": "100%",
+                "2024年": "100%"
+              },
+              "evidence_text": "劳动合同签订率 % 2023年 100% 2024年 100%"
+            },
+            {
+              "metric_name": "社会保险覆盖率",
+              "unit": "%",
+              "values": {
+                "2023年": "100%",
+                "2024年": "100%"
+              },
+              "evidence_text": "社会保险覆盖率 % 2023年 100% 2024年 100%"
+            },
+            {
+              "metric_name": "员工总数",
+              "unit": "人",
+              "values": {
+                "2023年": "1,630",
+                "2024年": "1,771"
+              },
+              "evidence_text": "员工总数 人 2023年 1,630 2024年 1,771"
+            },
+            {
+              "metric_name": "报告期内吸纳的就业人数",
+              "unit": "人",
+              "values": {
+                "2023年": "464",
+                "2024年": "587"
+              },
+              "evidence_text": "报告期内吸纳的就业人数 人 2023年 464 2024年 587"
+            },
+            {
+              "metric_name": "劳工视察事件数",
+              "unit": "件",
+              "values": {
+                "2023年": "0",
+                "2024年": "0"
+              },
+              "evidence_text": "劳工视察事件数 件 2023年 0 2024年 0"
+            },
+            {
+              "metric_name": "员工培训总学时",
+              "unit": "小时",
+              "values": {
+                "2023年": "693.5",
+                "2024年": "537.5"
+              },
+              "evidence_text": "员工培训总学时 小时 2023年 693.5 2024年 537.5"
+            },
+            {
+              "metric_name": "职业病发生率",
+              "unit": "%",
+              "values": {
+                "2023年": "0%",
+                "2024年": "0%"
+              },
+              "evidence_text": "职业病发生率 % 2023年 0% 2024年 0%"
+            },
+            {
+              "metric_name": "工伤率",
+              "unit": "%",
+              "values": {
+                "2023年": "0%",
+                "2024年": "0%"
+              },
+              "evidence_text": "工伤率 % 2023年 0% 2024年 0%"
+            },
+            {
+              "metric_name": "因工损失工作日数",
+              "unit": "天",
+              "values": {
+                "2023年": "0",
+                "2024年": "0"
+              },
+              "evidence_text": "因工损失工作日数 天 2023年 0 2024年 0"
+            },
+            {
+              "metric_name": "供应商总数",
+              "unit": "家",
+              "values": {
+                "2023年": "3,741",
+                "2024年": "274"
+              },
+              "evidence_text": "供应商总数 家 2023年 3,741 2024年 274"
+            },
+            {
+              "metric_name": "研发人员数量",
+              "unit": "人",
+              "values": {
+                "2023年": "440",
+                "2024年": "521"
+              },
+              "evidence_text": "研发人员数量 人 2023年 440 2024年 521"
+            },
+            {
+              "metric_name": "能源消耗总量",
+              "unit": "吨标准煤",
+              "values": {
+                "2023年": "239.96",
+                "2024年": "210.76"
+              },
+              "evidence_text": "能源消耗总量 吨标准煤 2023年 239.96 2024年 210.76"
+            },
+            {
+              "metric_name": "能源耗尽强度",
+              "unit": "吨标准煤/百万元营收",
+              "values": {
+                "2023年": "0.22",
+                "2024年": "0.18"
+              },
+              "evidence_text": "能源耗尽强度 吨标准煤/百万元营收 2023年 0.22 2024年 0.18"
+            },
+            {
+              "metric_name": "直接温室气体排放量（范畴一）",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2023年": "214.71",
+                "2024年": "138.86"
+              },
+              "evidence_text": "直接温室气体排放量（范畴一） 吨二氧化碳当量 2023年 214.71 2024年 138.86"
+            },
+            {
+              "metric_name": "间接温室气体排放量（范畴二）",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2023年": "631.75",
+                "2024年": "627.07"
+              },
+              "evidence_text": "间接温室气体排放量（范畴二） 吨二氧化碳当量 2023年 631.75 2024年 627.07"
+            },
+            {
+              "metric_name": "温室气体排放量",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2023年": "846.46",
+                "2024年": "765.94"
+              },
+              "evidence_text": "温室气体排放量 吨二氧化碳当量 2023年 846.46 2024年 765.94"
+            },
+            {
+              "metric_name": "温室气体排放密度",
+              "unit": "吨二氧化碳当量/百万元营收",
+              "values": {
+                "2023年": "0.77",
+                "2024年": "0.65"
+              },
+              "evidence_text": "温室气体排放密度 吨二氧化碳当量/百万元营收 2023年 0.77 2024年 0.65"
+            },
+            {
+              "metric_name": "总用水量",
+              "unit": "吨",
+              "values": {
+                "2023年": "6,333",
+                "2024年": "6,297"
+              },
+              "evidence_text": "总用水量 吨 2023年 6,333 2024年 6,297"
+            },
+            {
+              "metric_name": "人均耗水量",
+              "unit": "吨/人",
+              "values": {
+                "2023年": "4.30",
+                "2024年": "3.56"
+              },
+              "evidence_text": "人均耗水量 吨/人 2023年 4.30 2024年 3.56"
+            },
+            {
+              "metric_name": "纸张",
+              "unit": "吨",
+              "values": {
+                "2023年": "1.74",
+                "2024年": "5.83"
+              },
+              "evidence_text": "纸张 吨 2023年 1.74 2024年 5.83"
+            },
+            {
+              "metric_name": "碳粉盒",
+              "unit": "个",
+              "values": {
+                "2023年": "20",
+                "2024年": "188"
+              },
+              "evidence_text": "碳粉盒 个 2023年 20 2024年 188"
+            },
+            {
+              "metric_name": "硒鼓墨盒",
+              "unit": "个",
+              "values": {
+                "2023年": "2",
+                "2024年": "21"
+              },
+              "evidence_text": "硒鼓墨盒 个 2023年 2 2024年 21"
+            },
+            {
+              "metric_name": "无害废弃物密度",
+              "unit": "吨/人",
+              "values": {
+                "2023年": "0.0011",
+                "2024年": "0.0011"
+              },
+              "evidence_text": "无害废弃物密度 吨/人 2023年 0.0011 2024年 0.0011"
+            }
+          ]
+        },
+        {
+          "table_title": "指标索引表",
+          "columns": [
+            "报告框架",
+            "GRI Standards 2021（参照方案）"
+          ],
+          "rows": [
+            {
+              "metric_name": "关于本报告",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "2 2/2 3"
+              },
+              "evidence_text": "关于本报告 GRI Standards 2021（参照方案） 2 2/2 3"
+            },
+            {
+              "metric_name": "董事长致辞",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "2-22/2-23"
+              },
+              "evidence_text": "董事长致辞 GRI Standards 2021（参照方案） 2-22/2-23"
+            },
+            {
+              "metric_name": "走进中邓设计",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "2-1/2-2/2-6/2-9/201-1"
+              },
+              "evidence_text": "走进中邓设计 GRI Standards 2021（参照方案） 2-1/2-2/2-6/2-9/201-1"
+            },
+            {
+              "metric_name": "全球发展",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "2-1/2-6"
+              },
+              "evidence_text": "全球发展 GRI Standards 2021（参照方案） 2-1/2-6"
+            },
+            {
+              "metric_name": "科技引领",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "2 8"
+              },
+              "evidence_text": "科技引领 GRI Standards 2021（参照方案） 2 8"
+            },
+            {
+              "metric_name": "高端私人订制",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "2-6"
+              },
+              "evidence_text": "高端私人订制 GRI Standards 2021（参照方案） 2-6"
+            },
+            {
+              "metric_name": "ESG治理",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "2-12/2-13/2-14/2-16/2-18/2-29/3-1/3-2/3-3"
+              },
+              "evidence_text": "ESG治理 GRI Standards 2021（参照方案） 2-12/2-13/2-14/2-16/2-18/2-29/3-1/3-2/3-3"
+            },
+            {
+              "metric_name": "东意西境 引领设计创新",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "2 6/2 27/416 1"
+              },
+              "evidence_text": "东意西境 引领设计创新 GRI Standards 2021（参照方案） 2 6/2 27/416 1"
+            },
+            {
+              "metric_name": "科技赋能设计",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "2 6"
+              },
+              "evidence_text": "科技赋能设计 GRI Standards 2021（参照方案） 2 6"
+            },
+            {
+              "metric_name": "专业客户服务",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "2-25/2-27/3-3/416-1/417-1/417-2/417-3/418-1"
+              },
+              "evidence_text": "专业客户服务 GRI Standards 2021（参照方案） 2-25/2-27/3-3/416-1/417-1/417-2/417-3/418-1"
+            },
+            {
+              "metric_name": "合规经营 护航稳健发展",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "-"
+              },
+              "evidence_text": "合规经营 护航稳健发展 GRI Standards 2021（参照方案） -"
+            },
+            {
+              "metric_name": "党建引领发展",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "-"
+              },
+              "evidence_text": "党建引领发展 GRI Standards 2021（参照方案） -"
+            },
+            {
+              "metric_name": "健全公司治理",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "2-10/2 12/2-25/2 27/3-3"
+              },
+              "evidence_text": "健全公司治理 GRI Standards 2021（参照方案） 2-10/2 12/2-25/2 27/3-3"
+            },
+            {
+              "metric_name": "共促合作发展",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "2 6/3 2/204/308/1/414-1/414-2"
+              },
+              "evidence_text": "共促合作发展 GRI Standards 2021（参照方案） 2 6/3 2/204/308/1/414-1/414-2"
+            },
+            {
+              "metric_name": "以人为本 共享和谐发展",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "2-7/2-19/2-20/2-27/2-29/2-30/3-3/201-3/401-1/401-2/401-3/403-3 /403-6/403-7/403-9/405-1/406-1"
+              },
+              "evidence_text": "以人为本 共享和谐发展 GRI Standards 2021（参照方案） 2-7/2-19/2-20/2-27/2-29/2-30/3-3/201-3/401-1/401-2/401-3/403-3 /403-6/403-7/403-9/405-1/406-1"
+            },
+            {
+              "metric_name": "多元包容职场",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "2-7/2-19/2-20/2-27/2-29/2-30/3-3/201-3/401-1/401-2/401-3/403-3 /403-6/403-7/403-9/405-1/406-1"
+              },
+              "evidence_text": "多元包容职场 GRI Standards 2021（参照方案） 2-7/2-19/2-20/2-27/2-29/2-30/3-3/201-3/401-1/401-2/401-3/403-3 /403-6/403-7/403-9/405-1/406-1"
+            },
+            {
+              "metric_name": "赋能员工成长",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "3-3/404-1/404-2/404-3"
+              },
+              "evidence_text": "赋能员工成长 GRI Standards 2021（参照方案） 3-3/404-1/404-2/404-3"
+            },
+            {
+              "metric_name": "提升员工幸福感",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "401-2"
+              },
+              "evidence_text": "提升员工幸福感 GRI Standards 2021（参照方案） 401-2"
+            },
+            {
+              "metric_name": "绿色发展 共创美好未来",
+              "unit": null,
+              "values": {
+                "GRI Standards 2021（参照方案）": "推进绿色运营 2 27/3 3/201/3/202/3/302/5/303 5/305 2/305 2/305 4/306 3 /306 4/306 5 可持续供应链 2 27/2 6/3 3/308 4/414-1 关键绩效表 201-1/203-2/302-1/3/302-3/303-5/503-5/305-1/305-2/305-3/305-4/306-3/4011 /403-9/404-1/404-3 指标索引表 -"
+              },
+              "evidence_text": "绿色发展 共创美好未来 GRI Standards 2021（参照方案） 推进绿色运营 2 27/3 3/201/3/202/3/302/5/303 5/305 2/305 2/305 4/306 3 /306 4/306 5 可持续供应链 2 27/2 6/3 3/308 4/414-1 关键绩效表 201-1/203-2/302-1/3/302-3/303-5/503-5/305-1/305-2/305-3/305-4/306-3/4011 /403-9/404-1/404-3 指标索引表 -"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_85_left.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "关键绩效表",
+          "columns": [
+            "指标",
+            "单位",
+            "2023年",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "资产总额",
+              "unit": "亿元",
+              "values": {
+                "2023年": "26.00",
+                "2024年": "25.56"
+              },
+              "evidence_text": "资产总额 亿元 2023年 26.00 2024年 25.56"
+            },
+            {
+              "metric_name": "营业收入",
+              "unit": "亿元",
+              "values": {
+                "2023年": "10.94",
+                "2024年": "11.87"
+              },
+              "evidence_text": "营业收入 亿元 2023年 10.94 2024年 11.87"
+            },
+            {
+              "metric_name": "纳税总额",
+              "unit": "亿元",
+              "values": {
+                "2023年": "5,882.63",
+                "2024年": "7,404.52"
+              },
+              "evidence_text": "纳税总额 亿元 2023年 5,882.63 2024年 7,404.52"
+            },
+            {
+              "metric_name": "研发投入",
+              "unit": "万元",
+              "values": {
+                "2023年": "6,642.72",
+                "2024年": "6910.57"
+              },
+              "evidence_text": "研发投入 万元 2023年 6,642.72 2024年 6910.57"
+            },
+            {
+              "metric_name": "研发投入占比营业收入",
+              "unit": "%",
+              "values": {
+                "2023年": "6.07%",
+                "2024年": "5.82%"
+              },
+              "evidence_text": "研发投入占比营业收入 % 2023年 6.07% 2024年 5.82%"
+            },
+            {
+              "metric_name": "女性董事占比",
+              "unit": "%",
+              "values": {
+                "2023年": "14.29%",
+                "2024年": "14.29%"
+              },
+              "evidence_text": "女性董事占比 % 2023年 14.29% 2024年 14.29%"
+            },
+            {
+              "metric_name": "劳动合同签订率",
+              "unit": "%",
+              "values": {
+                "2023年": "100%",
+                "2024年": "100%"
+              },
+              "evidence_text": "劳动合同签订率 % 2023年 100% 2024年 100%"
+            },
+            {
+              "metric_name": "社会保险覆盖率",
+              "unit": "%",
+              "values": {
+                "2023年": "100%",
+                "2024年": "100%"
+              },
+              "evidence_text": "社会保险覆盖率 % 2023年 100% 2024年 100%"
+            },
+            {
+              "metric_name": "员工总数",
+              "unit": "人",
+              "values": {
+                "2023年": "1,630",
+                "2024年": "1,771"
+              },
+              "evidence_text": "员工总数 人 2023年 1,630 2024年 1,771"
+            },
+            {
+              "metric_name": "报告期内吸纳的就业人数",
+              "unit": "人",
+              "values": {
+                "2023年": "464",
+                "2024年": "587"
+              },
+              "evidence_text": "报告期内吸纳的就业人数 人 2023年 464 2024年 587"
+            },
+            {
+              "metric_name": "劳工歧视事件数",
+              "unit": "件",
+              "values": {
+                "2023年": "0",
+                "2024年": "0"
+              },
+              "evidence_text": "劳工歧视事件数 件 2023年 0 2024年 0"
+            },
+            {
+              "metric_name": "员工培训总学时",
+              "unit": "小时",
+              "values": {
+                "2023年": "693.5",
+                "2024年": "537.5"
+              },
+              "evidence_text": "员工培训总学时 小时 2023年 693.5 2024年 537.5"
+            },
+            {
+              "metric_name": "职业病发生率",
+              "unit": "%",
+              "values": {
+                "2023年": "0%",
+                "2024年": "0%"
+              },
+              "evidence_text": "职业病发生率 % 2023年 0% 2024年 0%"
+            },
+            {
+              "metric_name": "工伤率",
+              "unit": "%",
+              "values": {
+                "2023年": "0%",
+                "2024年": "0%"
+              },
+              "evidence_text": "工伤率 % 2023年 0% 2024年 0%"
+            },
+            {
+              "metric_name": "因工伤损失工作日数",
+              "unit": "天",
+              "values": {
+                "2023年": "0",
+                "2024年": "0"
+              },
+              "evidence_text": "因工伤损失工作日数 天 2023年 0 2024年 0"
+            },
+            {
+              "metric_name": "供应商总数",
+              "unit": "家",
+              "values": {
+                "2023年": "3,741",
+                "2024年": "274"
+              },
+              "evidence_text": "供应商总数 家 2023年 3,741 2024年 274"
+            },
+            {
+              "metric_name": "研发人员数量",
+              "unit": "人",
+              "values": {
+                "2023年": "440",
+                "2024年": "521"
+              },
+              "evidence_text": "研发人员数量 人 2023年 440 2024年 521"
+            },
+            {
+              "metric_name": "能源消耗总量",
+              "unit": "吨标准煤",
+              "values": {
+                "2023年": "239.96",
+                "2024年": "210.76"
+              },
+              "evidence_text": "能源消耗总量 吨标准煤 2023年 239.96 2024年 210.76"
+            },
+            {
+              "metric_name": "能源消耗密度",
+              "unit": "吨标准煤/百万元营收",
+              "values": {
+                "2023年": "0.22",
+                "2024年": "0.18"
+              },
+              "evidence_text": "能源消耗密度 吨标准煤/百万元营收 2023年 0.22 2024年 0.18"
+            },
+            {
+              "metric_name": "直接温室气体排放量（范畴一）",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2023年": "214.71",
+                "2024年": "138.86"
+              },
+              "evidence_text": "直接温室气体排放量（范畴一） 吨二氧化碳当量 2023年 214.71 2024年 138.86"
+            },
+            {
+              "metric_name": "间接温室气体排放量（范畴二）",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2023年": "631.75",
+                "2024年": "627.07"
+              },
+              "evidence_text": "间接温室气体排放量（范畴二） 吨二氧化碳当量 2023年 631.75 2024年 627.07"
+            },
+            {
+              "metric_name": "温室气体排放量",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2023年": "846.46",
+                "2024年": "765.94"
+              },
+              "evidence_text": "温室气体排放量 吨二氧化碳当量 2023年 846.46 2024年 765.94"
+            },
+            {
+              "metric_name": "温室气体排放密度",
+              "unit": "吨二氧化碳当量/百万元营收",
+              "values": {
+                "2023年": "0.77",
+                "2024年": "0.65"
+              },
+              "evidence_text": "温室气体排放密度 吨二氧化碳当量/百万元营收 2023年 0.77 2024年 0.65"
+            },
+            {
+              "metric_name": "总用水量",
+              "unit": "吨",
+              "values": {
+                "2023年": "6,333",
+                "2024年": "6,297"
+              },
+              "evidence_text": "总用水量 吨 2023年 6,333 2024年 6,297"
+            },
+            {
+              "metric_name": "人均耗水量",
+              "unit": "吨/人",
+              "values": {
+                "2023年": "4.30",
+                "2024年": "3.56"
+              },
+              "evidence_text": "人均耗水量 吨/人 2023年 4.30 2024年 3.56"
+            },
+            {
+              "metric_name": "纸张",
+              "unit": "吨",
+              "values": {
+                "2023年": "1.74",
+                "2024年": "5.83"
+              },
+              "evidence_text": "纸张 吨 2023年 1.74 2024年 5.83"
+            },
+            {
+              "metric_name": "碳粉盒",
+              "unit": "个",
+              "values": {
+                "2023年": "20",
+                "2024年": "188"
+              },
+              "evidence_text": "碳粉盒 个 2023年 20 2024年 188"
+            },
+            {
+              "metric_name": "硒鼓墨盒",
+              "unit": "个",
+              "values": {
+                "2023年": "2",
+                "2024年": "21"
+              },
+              "evidence_text": "硒鼓墨盒 个 2023年 2 2024年 21"
+            },
+            {
+              "metric_name": "无害废弃物密度",
+              "unit": "吨/人",
+              "values": {
+                "2023年": "0.0011",
+                "2024年": "0.0011"
+              },
+              "evidence_text": "无害废弃物密度 吨/人 2023年 0.0011 2024年 0.0011"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_85_right.png",
+      "page_type": "content_index",
+      "page_note": "该页面为指标索引表，不包含具体 ESG 绩效数值。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_86.png",
+      "page_type": "content_index",
+      "page_note": "该页面为政策一览表，列出了章节、主要遵守的法律法规及政策规范和公司内部政策，不包含具体ESG绩效数值。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_86_left.png",
+      "page_type": "content_index",
+      "page_note": "该页面为政策一览表，列出了公司遵守的法律法规及内部政策，并非包含具体ESG绩效数值的表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_86_right.png",
+      "page_type": "content_index",
+      "page_note": "该页面为章节内容索引，列出了公司治理、多元包容职场、赋能员工成长、推进绿色运营、可持续供应链等章节下的主要法律法规及政策规范，不包含具体ESG绩效数值。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_87.png",
+      "page_type": "other",
+      "page_note": "该页面为意见反馈表，不包含ESG绩效数据表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_87_left.png",
+      "page_type": "other",
+      "page_note": "该页面为意见反馈表，不包含ESG绩效数据表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_87_right.png",
+      "page_type": "other",
+      "page_note": "图片内容为室内装饰场景，未包含ESG绩效数据表格。",
+      "tables": [],
+      "retry_used": false
+    }
+  ],
+  "raw_row_count": 119,
+  "standard_results": {
+    "total_ghg_emissions": {
+      "field_key": "total_ghg_emissions",
+      "value": 765.94,
+      "raw_value": "765.94",
+      "unit": "吨二氧化碳当量",
+      "year": 2024,
+      "row_label": "温室气体排放量",
+      "topic": null,
+      "table_title": "2024温室气体排放",
+      "page_image": "page_78.png",
+      "evidence_text": "2024温室气体排放\n温室气体排放量 吨二氧化碳当量 2024年 765.94",
+      "status": "extracted",
+      "confidence": 0.95,
+      "match_reason": "alias_match:温室气体排放量; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "scope_1_emissions": {
+      "field_key": "scope_1_emissions",
+      "value": 138.86,
+      "raw_value": "138.86",
+      "unit": "吨二氧化碳当量",
+      "year": 2024,
+      "row_label": "直接温室气体排放量",
+      "topic": null,
+      "table_title": "2024温室气体排放",
+      "page_image": "page_78.png",
+      "evidence_text": "2024温室气体排放\n直接温室气体排放量 吨二氧化碳当量 2024年 138.86",
+      "status": "extracted",
+      "confidence": 0.96,
+      "match_reason": "heuristic_scope_1; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "scope_2_emissions": {
+      "field_key": "scope_2_emissions",
+      "value": 627.07,
+      "raw_value": "627.07",
+      "unit": "吨二氧化碳当量",
+      "year": 2024,
+      "row_label": "间接温室气体排放量",
+      "topic": null,
+      "table_title": "2024温室气体排放",
+      "page_image": "page_78.png",
+      "evidence_text": "2024温室气体排放\n间接温室气体排放量 吨二氧化碳当量 2024年 627.07",
+      "status": "extracted",
+      "confidence": 0.96,
+      "match_reason": "heuristic_scope_2; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "scope_3_emissions": {
+      "field_key": "scope_3_emissions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "范围三温室气体排放量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "ghg_emissions_intensity": {
+      "field_key": "ghg_emissions_intensity",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "温室气体排放强度",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "energy_consumption_total": {
+      "field_key": "energy_consumption_total",
+      "value": 210.76,
+      "raw_value": "210.76",
+      "unit": "吨标准煤",
+      "year": 2024,
+      "row_label": "能源消耗总量",
+      "topic": null,
+      "table_title": "2024能源消耗",
+      "page_image": "page_78.png",
+      "evidence_text": "2024能源消耗\n能源消耗总量 吨标准煤 2024年 210.76",
+      "status": "extracted",
+      "confidence": 0.94,
+      "match_reason": "alias_match:能源消耗总量; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "energy_consumption_intensity": {
+      "field_key": "energy_consumption_intensity",
+      "value": 0.18,
+      "raw_value": "0.18",
+      "unit": "吨标准煤/百万元营收",
+      "year": 2024,
+      "row_label": "能源耗尽强度",
+      "topic": null,
+      "table_title": "关键绩效表",
+      "page_image": "page_85.png",
+      "evidence_text": "能源耗尽强度 吨标准煤/百万元营收 2023年 0.22 2024年 0.18",
+      "status": "extracted",
+      "confidence": 0.95,
+      "match_reason": "llm_match:能源耗尽强度是能源消耗强度的误写或变体表述，与'能源消耗强度'、'综合能耗强度'、'单位收入能耗'等别名语义一致；单位'吨标准煤/百万元营收'与schema中'吨标准煤/万元'量纲兼容（仅数量级差异，属合理换算）；category为E，value_type为number，完全匹配。; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "electricity_consumption": {
+      "field_key": "electricity_consumption",
+      "value": 116.86,
+      "raw_value": "116.86",
+      "unit": "万千瓦时",
+      "year": 2024,
+      "row_label": "外购电力",
+      "topic": null,
+      "table_title": "2024能源消耗",
+      "page_image": "page_78.png",
+      "evidence_text": "2024能源消耗\n外购电力 万千瓦时 2024年 116.86",
+      "status": "extracted",
+      "confidence": 0.92,
+      "match_reason": "heuristic_electricity; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "renewable_energy_consumption": {
+      "field_key": "renewable_energy_consumption",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "可再生能源使用量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "natural_gas_consumption": {
+      "field_key": "natural_gas_consumption",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "天然气消耗量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "coal_consumption": {
+      "field_key": "coal_consumption",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "煤炭消耗量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "water_consumption": {
+      "field_key": "water_consumption",
+      "value": 6297,
+      "raw_value": "6,297",
+      "unit": "吨",
+      "year": 2024,
+      "row_label": "总用水量",
+      "topic": null,
+      "table_title": "水资源管理-环境绩效",
+      "page_image": "page_81_left.png",
+      "evidence_text": "总用水量 吨 2024年 6,297",
+      "status": "extracted",
+      "confidence": 0.92,
+      "match_reason": "heuristic_water; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "water_consumption_intensity": {
+      "field_key": "water_consumption_intensity",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "水资源消耗强度",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "recycled_water_volume": {
+      "field_key": "recycled_water_volume",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "循环水或回用水量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "wastewater_discharge": {
+      "field_key": "wastewater_discharge",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "废水排放量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "cod_emissions": {
+      "field_key": "cod_emissions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "化学需氧量排放量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "ammonia_nitrogen_emissions": {
+      "field_key": "ammonia_nitrogen_emissions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "氨氮排放量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "so2_emissions": {
+      "field_key": "so2_emissions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "二氧化硫排放量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "nox_emissions": {
+      "field_key": "nox_emissions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "氮氧化物排放量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "particulate_matter_emissions": {
+      "field_key": "particulate_matter_emissions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "颗粒物排放量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "hazardous_waste": {
+      "field_key": "hazardous_waste",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "危险废弃物产生或排放量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "non_hazardous_waste": {
+      "field_key": "non_hazardous_waste",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "无害废弃物产生或排放量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "total_waste": {
+      "field_key": "total_waste",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "废弃物总量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "waste_recycling_rate": {
+      "field_key": "waste_recycling_rate",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "废弃物回收利用率",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "environmental_investment": {
+      "field_key": "environmental_investment",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "环保投入金额",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "environmental_violation_cases": {
+      "field_key": "environmental_violation_cases",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "环境违规或处罚事件数量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "total_employees": {
+      "field_key": "total_employees",
+      "value": 1771,
+      "raw_value": "1,771",
+      "unit": "人",
+      "year": 2024,
+      "row_label": "员工总数",
+      "topic": null,
+      "table_title": "关键绩效表",
+      "page_image": "page_85.png",
+      "evidence_text": "员工总数 人 2023年 1,630 2024年 1,771",
+      "status": "extracted",
+      "confidence": 0.93,
+      "match_reason": "heuristic_total_employees; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "male_employees": {
+      "field_key": "male_employees",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "男性员工人数",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "female_employees": {
+      "field_key": "female_employees",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "女性员工人数",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "female_employee_ratio": {
+      "field_key": "female_employee_ratio",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "女性员工比例",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "female_management_ratio": {
+      "field_key": "female_management_ratio",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "女性管理层比例",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "minority_employees": {
+      "field_key": "minority_employees",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "少数民族员工人数",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "employees_under_30": {
+      "field_key": "employees_under_30",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "30岁以下员工人数",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "employees_30_to_50": {
+      "field_key": "employees_30_to_50",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "30至50岁员工人数",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "employees_over_50": {
+      "field_key": "employees_over_50",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "50岁以上员工人数",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "employee_turnover_rate": {
+      "field_key": "employee_turnover_rate",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "员工流失率",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "training_total_hours": {
+      "field_key": "training_total_hours",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "员工培训总时长",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "training_hours_per_employee": {
+      "field_key": "training_hours_per_employee",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "人均培训时长",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "training_coverage_rate": {
+      "field_key": "training_coverage_rate",
+      "value": 100,
+      "raw_value": "100",
+      "unit": "%",
+      "year": 2024,
+      "row_label": "采购培训覆盖率",
+      "topic": null,
+      "table_title": "供应商管理绩效",
+      "page_image": "page_83_left.png",
+      "evidence_text": "采购培训覆盖率 % 2024年 100",
+      "status": "extracted",
+      "confidence": 0.93,
+      "match_reason": "alias_match:培训覆盖率; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "training_expense": {
+      "field_key": "training_expense",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "培训投入金额",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "trained_employees_count": {
+      "field_key": "trained_employees_count",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "受训员工人数或人次",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "work_injury_rate": {
+      "field_key": "work_injury_rate",
+      "value": 0,
+      "raw_value": "0%",
+      "unit": "%",
+      "year": 2024,
+      "row_label": "工伤率",
+      "topic": null,
+      "table_title": "关键绩效表",
+      "page_image": "page_85.png",
+      "evidence_text": "工伤率 % 2023年 0% 2024年 0%",
+      "status": "extracted",
+      "confidence": 0.91,
+      "match_reason": "alias_match:工伤率; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "work_related_fatalities": {
+      "field_key": "work_related_fatalities",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "因工死亡人数",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "lost_workdays_due_to_injury": {
+      "field_key": "lost_workdays_due_to_injury",
+      "value": 0,
+      "raw_value": "0",
+      "unit": "天",
+      "year": 2024,
+      "row_label": "因工伤损失工作日数",
+      "topic": null,
+      "table_title": "关键绩效表",
+      "page_image": "page_85_left.png",
+      "evidence_text": "因工伤损失工作日数 天 2023年 0 2024年 0",
+      "status": "extracted",
+      "confidence": 0.96,
+      "match_reason": "alias_match:因工伤损失工作日数; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "social_insurance_coverage_rate": {
+      "field_key": "social_insurance_coverage_rate",
+      "value": 100,
+      "raw_value": "100%",
+      "unit": "%",
+      "year": 2024,
+      "row_label": "社会保险覆盖率",
+      "topic": null,
+      "table_title": "关键绩效表",
+      "page_image": "page_85.png",
+      "evidence_text": "社会保险覆盖率 % 2023年 100% 2024年 100%",
+      "status": "extracted",
+      "confidence": 0.95,
+      "match_reason": "alias_match:社会保险覆盖率; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "employee_health_record_coverage_rate": {
+      "field_key": "employee_health_record_coverage_rate",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "员工健康档案或体检覆盖率",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "r_and_d_investment": {
+      "field_key": "r_and_d_investment",
+      "value": 6910.57,
+      "raw_value": "6910.57",
+      "unit": "万元",
+      "year": 2024,
+      "row_label": "研发投入",
+      "topic": null,
+      "table_title": "关键绩效表",
+      "page_image": "page_85.png",
+      "evidence_text": "研发投入 万元 2023年 6,642.72 2024年 6910.57",
+      "status": "extracted",
+      "confidence": 0.92,
+      "match_reason": "alias_match:研发投入; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "r_and_d_employees": {
+      "field_key": "r_and_d_employees",
+      "value": 521,
+      "raw_value": "521",
+      "unit": "人",
+      "year": 2024,
+      "row_label": "研发人员数量",
+      "topic": null,
+      "table_title": "关键绩效表",
+      "page_image": "page_85.png",
+      "evidence_text": "研发人员数量 人 2023年 440 2024年 521",
+      "status": "extracted",
+      "confidence": 0.94,
+      "match_reason": "alias_match:研发人员数量; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "authorized_patents_new": {
+      "field_key": "authorized_patents_new",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "当年新增授权专利数量",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "authorized_patents_total": {
+      "field_key": "authorized_patents_total",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "累计授权专利数量",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "customer_complaints": {
+      "field_key": "customer_complaints",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "客户投诉数量",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "board_size": {
+      "field_key": "board_size",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "董事会人数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "independent_directors": {
+      "field_key": "independent_directors",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "独立董事人数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "independent_director_ratio": {
+      "field_key": "independent_director_ratio",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "独立董事比例",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "female_directors": {
+      "field_key": "female_directors",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "女性董事人数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "board_meetings": {
+      "field_key": "board_meetings",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "董事会会议次数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "shareholder_meetings": {
+      "field_key": "shareholder_meetings",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "股东大会会议次数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "anti_corruption_training_sessions": {
+      "field_key": "anti_corruption_training_sessions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "反腐败培训次数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "anti_corruption_training_participants": {
+      "field_key": "anti_corruption_training_participants",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "反腐败培训参与人数或人次",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "anti_corruption_training_hours": {
+      "field_key": "anti_corruption_training_hours",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "反腐败培训总时长",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "confirmed_corruption_cases": {
+      "field_key": "confirmed_corruption_cases",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "确认的腐败事件数量",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "whistleblowing_cases": {
+      "field_key": "whistleblowing_cases",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "举报案件数量",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "patent_applications_new": {
+      "field_key": "patent_applications_new",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "当年申请专利数量",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "board_esg_oversight": {
+      "field_key": "board_esg_oversight",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "董事会 ESG 监督机制",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "esg_committee": {
+      "field_key": "esg_committee",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "ESG 委员会或可持续发展委员会",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "anti_corruption_policy": {
+      "field_key": "anti_corruption_policy",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "反腐败政策",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "whistleblowing_mechanism": {
+      "field_key": "whistleblowing_mechanism",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "举报机制",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "supplier_esg_assessment": {
+      "field_key": "supplier_esg_assessment",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "供应商 ESG 评估机制",
+      "category": "S",
+      "indicator_type": "qualitative"
+    }
+  },
+  "unknown_metrics": [
+    {
+      "page_image": "page_74_right.png",
+      "table_title": "ESG 绩效数据表",
+      "topic": null,
+      "metric_name": "能源消耗密度",
+      "unit": "吨标准煤/百万元营收",
+      "values": {
+        "2024年": "0.18"
+      },
+      "evidence_text": "能源消耗密度 吨标准煤/百万元营收 2024年 0.18",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:能源消耗密度即能源消耗强度，与field_key: energy_consumption_intensity的中文名'能源消耗强度'及aliases中'能耗强度、单位收入能耗、单位产值能耗'语义一致；单位'吨标准煤/百万元营收'符合unit_examples中'吨标准煤/万元'的量纲（仅数量级差异，属合理换算）"
+    },
+    {
+      "page_image": "page_74_right.png",
+      "table_title": "ESG 绩效数据表",
+      "topic": null,
+      "metric_name": "温室气体排放密度",
+      "unit": "吨二氧化碳当量/万元营收",
+      "values": {
+        "2024年": "0.65"
+      },
+      "evidence_text": "温室气体排放密度 吨二氧化碳当量/万元营收 2024年 0.65",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:温室气体排放密度与温室气体排放强度语义一致，单位'吨二氧化碳当量/万元营收'符合ghg_emissions_intensity的unit_examples（如吨CO2e/万元），且在aliases中明确包含'单位收入碳排放'。"
+    },
+    {
+      "page_image": "page_74_right.png",
+      "table_title": "ESG 绩效数据表",
+      "topic": null,
+      "metric_name": "供应商总数",
+      "unit": "家",
+      "values": {
+        "2024年": "274"
+      },
+      "evidence_text": "供应商总数 家 2024年 274",
+      "reason": "llm_no_match:供应商总数属于供应链管理相关指标，Core ESG Schema 中无对应 field_key；未在 aliases 或语义中匹配到任何标准字段。"
+    },
+    {
+      "page_image": "page_76.png",
+      "table_title": "气候风险类型与应对措施表",
+      "topic": null,
+      "metric_name": "急性物理风险",
+      "unit": null,
+      "values": {
+        "潜在影响": "极端天气或自然灾害可能对公司经营网点、项目所在地等造成破坏，增加财产损失风险以及供应链风险。",
+        "影响周期": "短期、中期",
+        "应对措施": "加强对天气预报的关注；强化极端气候灾害风险防范措施，根据天气变化灵活调整项目时间周期。"
+      },
+      "evidence_text": "急性物理风险 极端天气或自然灾害可能对公司经营网点、项目所在地等造成破坏，增加财产损失风险以及供应链风险。 短期、中期 加强对天气预报的关注；强化极端气候灾害风险防范措施，根据天气变化灵活调整项目时间周期。",
+      "reason": "llm_no_match:急性物理风险是气候相关风险定性描述，属于TCFD/ISSB气候情景分析中的风险类别，非可量化ESG指标，Core ESG Schema中无对应field_key。"
+    },
+    {
+      "page_image": "page_76.png",
+      "table_title": "气候风险类型与应对措施表",
+      "topic": null,
+      "metric_name": "慢性物理风险",
+      "unit": null,
+      "values": {
+        "潜在影响": "海平面上升、持续性高温等长期的气候变化可能会影响公司供应链的价格变动风险，给公司带来潜在的成本上升影响。",
+        "影响周期": "长期",
+        "应对措施": "定期对实际原材料成本及销售成本进行差异分析，密切关注成本上升的因素；利用数字化技术对供应链平台进行持续升级，打造供应链生态，拓宽材料选择空间。"
+      },
+      "evidence_text": "慢性物理风险 海平面上升、持续性高温等长期的气候变化可能会影响公司供应链的价格变动风险，给公司带来潜在的成本上升影响。 长期 定期对实际原材料成本及销售成本进行差异分析，密切关注成本上升的因素；利用数字化技术对供应链平台进行持续升级，打造供应链生态，拓宽材料选择空间。",
+      "reason": "llm_no_match:慢性物理风险是气候风险定性描述，属于情景分析或风险管理披露内容，非可量化ESG指标，Core ESG Schema中无对应field_key。"
+    },
+    {
+      "page_image": "page_76.png",
+      "table_title": "气候风险类型与应对措施表",
+      "topic": null,
+      "metric_name": "政策与法规风险",
+      "unit": null,
+      "values": {
+        "潜在影响": "各级政府、监管机构对于企业的环境信息披露要求将进一步提升，同时对公司环境数据的准确性要求不断提高，增加信息披露的合规风险。",
+        "影响周期": "中期、长期",
+        "应对措施": "及时关注各级政府、交易所等监管机构发布的最新政策，按照政策要求加强可持续发展信息披露。"
+      },
+      "evidence_text": "政策与法规风险 各级政府、监管机构对于企业的环境信息披露要求将进一步提升，同时对公司环境数据的准确性要求不断提高，增加信息披露的合规风险。 中期、长期 及时关注各级政府、交易所等监管机构发布的最新政策，按照政策要求加强可持续发展信息披露。",
+      "reason": "llm_no_match:政策与法规风险属于定性风险描述，非量化ESG指标，Core ESG Schema中无对应field_key。"
+    },
+    {
+      "page_image": "page_76.png",
+      "table_title": "气候风险类型与应对措施表",
+      "topic": null,
+      "metric_name": "市场风险",
+      "unit": null,
+      "values": {
+        "潜在影响": "市场客户的偏好逐渐将转变为采用更低碳环保的替代产品、服务以及设计理念，可能增加设计难度以及营运成本。",
+        "影响周期": "短期、中期、长期",
+        "应对措施": "在选材环节一直坚持使用最高标准的环保材料，根据客户以及市场要求持续更新公司选材标准。转变设计理念，在考虑美学和功能性前提下，兼顾低碳环保因素的考量。"
+      },
+      "evidence_text": "市场风险 市场客户的偏好逐渐将转变为采用更低碳环保的替代产品、服务以及设计理念，可能增加设计难度以及营运成本。 短期、中期、长期 在选材环节一直坚持使用最高标准的环保材料，根据客户以及市场要求持续更新公司选材标准。转变设计理念，在考虑美学和功能性前提下，兼顾低碳环保因素的考量。",
+      "reason": "llm_no_match:市场风险为定性描述性文本，包含潜在影响、影响周期、应对措施等非量化内容，无数值、无单位，不属于Core ESG Schema中任何量化field_key。"
+    },
+    {
+      "page_image": "page_76_right.png",
+      "table_title": "量化数据绩效表",
+      "topic": "急性物理风险",
+      "metric_name": "极端天气或自然灾害可能对公司经营网点、项目所在地等造成破坏，增加财产损失风险以及供应链风险。",
+      "unit": "短期、中期",
+      "values": {
+        "2024年": "加强对天气预报的关注，强化极端气候灾害风险防范措施，根据天气变化灵活调整项目时间周期。"
+      },
+      "evidence_text": "急性物理风险 极端天气或自然灾害可能对公司经营网点、项目所在地等造成破坏，增加财产损失风险以及供应链风险。 短期、中期 加强对天气预报的关注，强化极端气候灾害风险防范措施，根据天气变化灵活调整项目时间周期。",
+      "reason": "llm_no_match:该行描述的是气候相关物理风险的定性应对措施，属于风险管理披露内容，非可量化ESG指标；无数值、无单位（'短期、中期'为时间维度而非计量单位），且Core ESG Schema中无对应字段。"
+    },
+    {
+      "page_image": "page_76_right.png",
+      "table_title": "量化数据绩效表",
+      "topic": "慢性物理风险",
+      "metric_name": "海平面上升、持续性高温等长期的气候变化可能会影响公司供应链的价格变动风险，给公司带来潜在的成本上升影响。",
+      "unit": "长期",
+      "values": {
+        "2024年": "定期对实际原材料成本及销售成本进行差异分析，密切关注成本上升的因素。利用数字化技术对供应链平台进行持续升级，打造供应链生态，拓宽材料选择空间。"
+      },
+      "evidence_text": "慢性物理风险 海平面上升、持续性高温等长期的气候变化可能会影响公司供应链的价格变动风险，给公司带来潜在的成本上升影响。 长期 定期对实际原材料成本及销售成本进行差异分析，密切关注成本上升的因素。利用数字化技术对供应链平台进行持续升级，打造供应链生态，拓宽材料选择空间。",
+      "reason": "llm_no_match:该指标描述的是气候变化带来的慢性物理风险及其应对策略，属于定性风险管理披露，非可量化ESG绩效指标；内容无具体数值、无标准计量单位，且未在Core ESG Schema中定义对应field_key。"
+    },
+    {
+      "page_image": "page_76_right.png",
+      "table_title": "量化数据绩效表",
+      "topic": "政策与法规风险",
+      "metric_name": "各级政府、监管机构对于企业的环境信息披露要求将进一步提升，同时对公司环境数据的准确性要求不断提高，增加信息披露的合规风险。",
+      "unit": "中期、长期",
+      "values": {
+        "2024年": "及时关注各级政府、交易所等监管机构发布的最新政策，按照政策要求加强可持续发展信息披露。"
+      },
+      "evidence_text": "政策与法规风险 各级政府、监管机构对于企业的环境信息披露要求将进一步提升，同时对公司环境数据的准确性要求不断提高，增加信息披露的合规风险。 中期、长期 及时关注各级政府、交易所等监管机构发布的最新政策，按照政策要求加强可持续发展信息披露。",
+      "reason": "llm_no_match:该行描述的是政策与法规风险的定性分析及应对措施，无具体可量化ESG指标，不属于Core ESG Schema中的任何field_key。"
+    },
+    {
+      "page_image": "page_76_right.png",
+      "table_title": "量化数据绩效表",
+      "topic": "市场风险",
+      "metric_name": "市场客户的偏好逐渐转变为采用更低碳环保的替代产品、服务以及设计理念，可能增加设计难度以及营运成本。",
+      "unit": "短期、中期、长期",
+      "values": {
+        "2024年": "在选材环节一直坚持使用最高标准的环保材料，根据客户以及市场要求持续更新公司选材标准。转变设计理念，在考虑美学和功能性的前提下，兼顾低碳环保因素的考量。"
+      },
+      "evidence_text": "市场风险 市场客户的偏好逐渐转变为采用更低碳环保的替代产品、服务以及设计理念，可能增加设计难度以及营运成本。 短期、中期、长期 在选材环节一直坚持使用最高标准的环保材料，根据客户以及市场要求持续更新公司选材标准。转变设计理念，在考虑美学和功能性的前提下，兼顾低碳环保因素的考量。",
+      "reason": "llm_no_match:该指标描述的是市场风险定性分析，属于风险识别与应对的文本性披露，无量化数值、无ESG核心指标语义，不属于Core ESG Schema中任何field_key。"
+    },
+    {
+      "page_image": "page_78.png",
+      "table_title": "2024能源消耗",
+      "topic": null,
+      "metric_name": "汽油",
+      "unit": "升",
+      "values": {
+        "2024年": "60,541.63"
+      },
+      "evidence_text": "2024能源消耗\n汽油 升 2024年 60,541.63",
+      "reason": "llm_no_match:汽油消耗量未在 Core ESG Schema 中定义；Schema 中仅包含天然气、煤炭、电力、可再生能源等能源类型，无汽油（gasoline）相关字段。"
+    },
+    {
+      "page_image": "page_78.png",
+      "table_title": "2024能源消耗",
+      "topic": null,
+      "metric_name": "柴油",
+      "unit": "升",
+      "values": {
+        "2024年": "283.79"
+      },
+      "evidence_text": "2024能源消耗\n柴油 升 2024年 283.79",
+      "reason": "llm_no_match:柴油消耗量未在 Core ESG Schema 中定义；Schema 中仅有天然气、煤炭、电力、可再生能源等能源类型，无柴油相关 field_key。"
+    },
+    {
+      "page_image": "page_78.png",
+      "table_title": "2024能源消耗",
+      "topic": null,
+      "metric_name": "能源消耗密度",
+      "unit": "吨标准煤/百万元营收",
+      "values": {
+        "2024年": "0.18"
+      },
+      "evidence_text": "2024能源消耗\n能源消耗密度 吨标准煤/百万元营收 2024年 0.18",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:能源消耗密度即能源消耗强度，与field_key: energy_consumption_intensity的中文名'能源消耗强度'及aliases中'能耗强度、单位收入能耗、单位产值能耗'语义一致；单位'吨标准煤/百万元营收'符合其unit_examples格式（如吨标准煤/万元），仅数量级差异（百万元 vs 万元）属合理换算范围。"
+    },
+    {
+      "page_image": "page_78.png",
+      "table_title": "2024温室气体排放",
+      "topic": null,
+      "metric_name": "温室气体排放密度",
+      "unit": "吨二氧化碳当量/百万元营收",
+      "values": {
+        "2024年": "0.65"
+      },
+      "evidence_text": "2024温室气体排放\n温室气体排放密度 吨二氧化碳当量/百万元营收 2024年 0.65",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:‘温室气体排放密度’是‘温室气体排放强度’的常见同义表述，单位‘吨二氧化碳当量/百万元营收’符合强度类指标单位特征（如吨CO2e/万元），与ghg_emissions_intensity的aliases和unit_examples完全匹配。"
+    },
+    {
+      "page_image": "page_78_left.png",
+      "table_title": "2024能源消耗",
+      "topic": null,
+      "metric_name": "汽油",
+      "unit": "升",
+      "values": {
+        "2024年": "60,541.63"
+      },
+      "evidence_text": "汽油 升 2024年 60,541.63",
+      "reason": "llm_no_match:汽油消耗量未在 Core ESG Schema 中定义；Schema 中仅包含天然气、煤炭、电力、可再生能源等能源类型，无汽油相关 field_key。"
+    },
+    {
+      "page_image": "page_78_left.png",
+      "table_title": "2024能源消耗",
+      "topic": null,
+      "metric_name": "柴油",
+      "unit": "升",
+      "values": {
+        "2024年": "283.79"
+      },
+      "evidence_text": "柴油 升 2024年 283.79",
+      "reason": "llm_no_match:柴油消耗量未在 Core ESG Schema 中定义；Schema 中仅包含天然气、煤炭、电力、可再生能源等能源类型，无柴油相关别名或 field_key。"
+    },
+    {
+      "page_image": "page_78_left.png",
+      "table_title": "2024能源消耗",
+      "topic": null,
+      "metric_name": "能源消耗密度",
+      "unit": "吨标准煤/百万元营收",
+      "values": {
+        "2024年": "0.18"
+      },
+      "evidence_text": "能源消耗密度 吨标准煤/百万元营收 2024年 0.18",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:能源消耗密度是能源消耗强度的同义表述，单位'吨标准煤/百万元营收'与schema中'吨标准煤/万元'量纲一致（仅数量级差异，属合理换算），且aliases包含'能源消耗强度、综合能耗强度、能耗强度、单位收入能耗、单位产值能耗'。"
+    },
+    {
+      "page_image": "page_78_left.png",
+      "table_title": "2024温室气体排放",
+      "topic": null,
+      "metric_name": "温室气体排放密度",
+      "unit": "吨二氧化碳当量/百万元营收",
+      "values": {
+        "2024年": "0.65"
+      },
+      "evidence_text": "温室气体排放密度 吨二氧化碳当量/百万元营收 2024年 0.65",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:温室气体排放密度即温室气体排放强度，与ghg_emissions_intensity的中文名及aliases（如'温室气体排放强度'、'单位收入碳排放'）一致，单位'吨二氧化碳当量/百万元营收'符合unit_examples中'吨CO2e/万元'的语义和量纲。"
+    },
+    {
+      "page_image": "page_82.png",
+      "table_title": "废弃物处置",
+      "topic": null,
+      "metric_name": "纸张",
+      "unit": "吨",
+      "values": {
+        "2024年": "5.83"
+      },
+      "evidence_text": "纸张 吨 2024年 5.83",
+      "reason": "llm_no_match:纸张消耗未在 Core ESG Schema 的任何 field_key 别名中出现，不属于环境类（E）标准指标如能源、水、排放、废弃物等范畴，也无对应 S 或 G 类别字段；属于公司内部运营物料管理指标，非标准化 ESG 披露项。"
+    },
+    {
+      "page_image": "page_82.png",
+      "table_title": "废弃物处置",
+      "topic": null,
+      "metric_name": "碳粉盒",
+      "unit": "个",
+      "values": {
+        "2024年": "188"
+      },
+      "evidence_text": "碳粉盒 个 2024年 188",
+      "reason": "llm_no_match:碳粉盒是办公耗材，属于具体物资管理或采购类指标，Core ESG Schema 中无任何 alias 或 field_key 与之对应；既非环境类资源/排放指标，也非社会或治理类标准指标。"
+    },
+    {
+      "page_image": "page_82.png",
+      "table_title": "废弃物处置",
+      "topic": null,
+      "metric_name": "硒鼓墨盒",
+      "unit": "个",
+      "values": {
+        "2024年": "21"
+      },
+      "evidence_text": "硒鼓墨盒 个 2024年 21",
+      "reason": "llm_no_match:硒鼓墨盒属于办公耗材，Core ESG Schema 中无对应字段（如未涵盖IT设备耗材、办公用品消耗等），不属于环境、社会或治理核心指标。"
+    },
+    {
+      "page_image": "page_82.png",
+      "table_title": "废弃物处置",
+      "topic": null,
+      "metric_name": "无害废弃物密度",
+      "unit": "吨/人",
+      "values": {
+        "2024年": "0.0011"
+      },
+      "evidence_text": "无害废弃物密度 吨/人 2024年 0.0011",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_non_hazardous_waste"
+    },
+    {
+      "page_image": "page_82_right.png",
+      "table_title": "废弃物处置情况",
+      "topic": null,
+      "metric_name": "纸张",
+      "unit": "吨",
+      "values": {
+        "2024年": "5.83"
+      },
+      "evidence_text": "纸张 吨 2024年 5.83",
+      "reason": "llm_no_match:纸张消耗未在 Core ESG Schema 的任何 field_key 的 aliases 中出现，不属于已定义的环境类（E）、社会类（S）或治理类（G）指标；既非能源、水、排放、废弃物等标准ESG资源/影响指标，也无对应别名支持匹配。"
+    },
+    {
+      "page_image": "page_82_right.png",
+      "table_title": "废弃物处置情况",
+      "topic": null,
+      "metric_name": "碳粉盒",
+      "unit": "个",
+      "values": {
+        "2024年": "188"
+      },
+      "evidence_text": "碳粉盒 个 2024年 188",
+      "reason": "llm_no_match:碳粉盒属于办公耗材，Core ESG Schema 中无对应字段；不属于环境、社会或治理核心指标，亦非能源、水、废弃物、排放等标准化ESG指标。"
+    },
+    {
+      "page_image": "page_82_right.png",
+      "table_title": "废弃物处置情况",
+      "topic": null,
+      "metric_name": "硒鼓墨盒",
+      "unit": "个",
+      "values": {
+        "2024年": "21"
+      },
+      "evidence_text": "硒鼓墨盒 个 2024年 21",
+      "reason": "llm_no_match:硒鼓墨盒属于办公耗材，Core ESG Schema 中无对应字段，不属于环境、社会或治理核心指标。"
+    },
+    {
+      "page_image": "page_82_right.png",
+      "table_title": "废弃物处置情况",
+      "topic": null,
+      "metric_name": "无害废弃物密度",
+      "unit": "吨/人",
+      "values": {
+        "2024年": "0.0011"
+      },
+      "evidence_text": "无害废弃物密度 吨/人 2024年 0.0011",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_non_hazardous_waste"
+    },
+    {
+      "page_image": "page_83_left.png",
+      "table_title": "供应商管理绩效",
+      "topic": null,
+      "metric_name": "供应商总数",
+      "unit": "家",
+      "values": {
+        "2024年": "274"
+      },
+      "evidence_text": "供应商总数 家 2024年 274",
+      "reason": "llm_no_match:供应商总数属于供应链管理相关指标，Core ESG Schema 中无对应 field_key（如未定义 supplier_count 或类似字段），不属于环境、社会或治理核心披露项。"
+    },
+    {
+      "page_image": "page_83_left.png",
+      "table_title": "供应商管理绩效",
+      "topic": null,
+      "metric_name": "中小企业款项准时支付率",
+      "unit": "%",
+      "values": {
+        "2024年": "100"
+      },
+      "evidence_text": "中小企业款项准时支付率 % 2024年 100",
+      "reason": "llm_no_match:该指标属于供应链管理或合规经营类指标，Core ESG Schema 中无对应字段（如无 'timely_payment_to_smes' 或类似别名），且不属于环境、社会、治理三大类中的标准披露项。"
+    },
+    {
+      "page_image": "page_85.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "资产总额",
+      "unit": "亿元",
+      "values": {
+        "2023年": "26.00",
+        "2024年": "25.56"
+      },
+      "evidence_text": "资产总额 亿元 2023年 26.00 2024年 25.56",
+      "reason": "business_performance_not_core_esg"
+    },
+    {
+      "page_image": "page_85.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "营业收入",
+      "unit": "亿元",
+      "values": {
+        "2023年": "10.94",
+        "2024年": "11.87"
+      },
+      "evidence_text": "营业收入 亿元 2023年 10.94 2024年 11.87",
+      "reason": "business_performance_not_core_esg"
+    },
+    {
+      "page_image": "page_85.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "纳税总额",
+      "unit": "亿元",
+      "values": {
+        "2023年": "5,882.63",
+        "2024年": "7,404.52"
+      },
+      "evidence_text": "纳税总额 亿元 2023年 5,882.63 2024年 7,404.52",
+      "reason": "business_performance_not_core_esg"
+    },
+    {
+      "page_image": "page_85.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "研发投入占比营业收入",
+      "unit": "%",
+      "values": {
+        "2023年": "6.07%",
+        "2024年": "5.82%"
+      },
+      "evidence_text": "研发投入占比营业收入 % 2023年 6.07% 2024年 5.82%",
+      "reason": "business_performance_not_core_esg"
+    },
+    {
+      "page_image": "page_85.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "女生董事占比",
+      "unit": "%",
+      "values": {
+        "2023年": "14.29%",
+        "2024年": "14.29%"
+      },
+      "evidence_text": "女生董事占比 % 2023年 14.29% 2024年 14.29%",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=llm_match:女生董事占比指女性董事人数占董事会总人数的比例，但本行指标名称为'女生董事占比'且单位为%，而Core Schema中female_directors定义为人数（value_type: number），不匹配percentage类型；进一步核查发现，Core Schema中无'女性董事比例'字段，closest match is female_director_ratio，但该字段aliases中无'女生董事占比'，且'女生'为口语化表述，与标准术语'女性'存在偏差；然而，'女生董事占比'在语义和单位上完全符合female_director_ratio的定义（category: G, value_type: percentage, aliases包含'女性董事比例'、'女性董事占比'），'女生'可视为'女性'的非正式同义表达，在ESG披露语境中属合理变体。因此匹配female_director_ratio。"
+    },
+    {
+      "page_image": "page_85.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "劳动合同签订率",
+      "unit": "%",
+      "values": {
+        "2023年": "100%",
+        "2024年": "100%"
+      },
+      "evidence_text": "劳动合同签订率 % 2023年 100% 2024年 100%",
+      "reason": "llm_no_match:劳动合同签订率未在 Core ESG Schema 中定义，不属于环境（E）、社会（S）或治理（G）类标准字段；虽属人力资源相关指标，但 Schema 中无对应 field_key（如无 'labor_contract_signing_rate' 或类似别名），且不匹配现有员工总数、培训、社保覆盖率等字段的语义。"
+    },
+    {
+      "page_image": "page_85.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "报告期内吸纳的就业人数",
+      "unit": "人",
+      "values": {
+        "2023年": "464",
+        "2024年": "587"
+      },
+      "evidence_text": "报告期内吸纳的就业人数 人 2023年 464 2024年 587",
+      "reason": "llm_no_match:报告期内吸纳的就业人数属于社会责任中的就业贡献类指标，但 Core ESG Schema 中无对应 field_key（如无 'jobs_created' 或 'employment_contributed' 等字段），且不属于已定义的员工结构、培训、健康、安全等 S 类指标。该指标更接近政策性/发展性披露项，非 Core Schema 覆盖范围。"
+    },
+    {
+      "page_image": "page_85.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "劳工视察事件数",
+      "unit": "件",
+      "values": {
+        "2023年": "0",
+        "2024年": "0"
+      },
+      "evidence_text": "劳工视察事件数 件 2023年 0 2024年 0",
+      "reason": "llm_no_match:劳工视察事件数在 Core ESG Schema 中无对应 field_key；Schema 中无任何关于劳动监察、政府视察、合规检查类事件的指标，不属于环境（E）、社会（S）或治理（G）类标准字段。"
+    },
+    {
+      "page_image": "page_85.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "员工培训总学时",
+      "unit": "小时",
+      "values": {
+        "2023年": "693.5",
+        "2024年": "537.5"
+      },
+      "evidence_text": "员工培训总学时 小时 2023年 693.5 2024年 537.5",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:员工培训总学时与 training_total_hours 的中文名 '员工培训总时长' 及别名 '培训总小时数、培训总时数、员工受训总时数' 高度一致，单位 '小时' 匹配 unit_examples。"
+    },
+    {
+      "page_image": "page_85.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "职业病发生率",
+      "unit": "%",
+      "values": {
+        "2023年": "0%",
+        "2024年": "0%"
+      },
+      "evidence_text": "职业病发生率 % 2023年 0% 2024年 0%",
+      "reason": "llm_no_match:职业病发生率未在 Core ESG Schema 中定义；Schema 中存在工伤率（work_injury_rate）、因工死亡人数（work_related_fatalities）等安全相关指标，但无职业病发生率对应字段。"
+    },
+    {
+      "page_image": "page_85.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "供应商总数",
+      "unit": "家",
+      "values": {
+        "2023年": "3,741",
+        "2024年": "274"
+      },
+      "evidence_text": "供应商总数 家 2023年 3,741 2024年 274",
+      "reason": "llm_no_match:供应商总数属于供应链管理相关指标，Core ESG Schema 中无对应 field_key（如未定义 supplier_count、supplier_number 等），且不属于环境、社会或治理核心披露项。"
+    },
+    {
+      "page_image": "page_85.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "温室气体排放密度",
+      "unit": "吨二氧化碳当量/百万元营收",
+      "values": {
+        "2023年": "0.77",
+        "2024年": "0.65"
+      },
+      "evidence_text": "温室气体排放密度 吨二氧化碳当量/百万元营收 2023年 0.77 2024年 0.65",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:‘温室气体排放密度’是‘温室气体排放强度’的同义表述，单位‘吨二氧化碳当量/百万元营收’符合强度类指标单位范式（如吨CO2e/万元），与ghg_emissions_intensity的aliases和unit_examples完全匹配。"
+    },
+    {
+      "page_image": "page_85.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "纸张",
+      "unit": "吨",
+      "values": {
+        "2023年": "1.74",
+        "2024年": "5.83"
+      },
+      "evidence_text": "纸张 吨 2023年 1.74 2024年 5.83",
+      "reason": "llm_no_match:纸张消耗不属于 Core ESG Schema 中定义的任何环境类指标（如能源、水、废弃物等），未在 aliases 中出现，且无对应 field_key 支持；该指标可能属于办公耗材管理范畴，但 Schema 中无 'paper_consumption' 或类似字段。"
+    },
+    {
+      "page_image": "page_85.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "碳粉盒",
+      "unit": "个",
+      "values": {
+        "2023年": "20",
+        "2024年": "188"
+      },
+      "evidence_text": "碳粉盒 个 2023年 20 2024年 188",
+      "reason": "llm_no_match:碳粉盒属于办公耗材，Core ESG Schema 中无对应字段；不属于环境、社会或治理核心指标，亦非能源、水、废弃物、排放等可量化ESG要素。"
+    },
+    {
+      "page_image": "page_85.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "硒鼓墨盒",
+      "unit": "个",
+      "values": {
+        "2023年": "2",
+        "2024年": "21"
+      },
+      "evidence_text": "硒鼓墨盒 个 2023年 2 2024年 21",
+      "reason": "llm_no_match:硒鼓墨盒属于办公耗材，Core ESG Schema 中无对应字段，不属于环境、社会或治理核心指标。"
+    },
+    {
+      "page_image": "page_85.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "无害废弃物密度",
+      "unit": "吨/人",
+      "values": {
+        "2023年": "0.0011",
+        "2024年": "0.0011"
+      },
+      "evidence_text": "无害废弃物密度 吨/人 2023年 0.0011 2024年 0.0011",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_non_hazardous_waste"
+    },
+    {
+      "page_image": "page_85_left.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "资产总额",
+      "unit": "亿元",
+      "values": {
+        "2023年": "26.00",
+        "2024年": "25.56"
+      },
+      "evidence_text": "资产总额 亿元 2023年 26.00 2024年 25.56",
+      "reason": "business_performance_not_core_esg"
+    },
+    {
+      "page_image": "page_85_left.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "营业收入",
+      "unit": "亿元",
+      "values": {
+        "2023年": "10.94",
+        "2024年": "11.87"
+      },
+      "evidence_text": "营业收入 亿元 2023年 10.94 2024年 11.87",
+      "reason": "business_performance_not_core_esg"
+    },
+    {
+      "page_image": "page_85_left.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "纳税总额",
+      "unit": "亿元",
+      "values": {
+        "2023年": "5,882.63",
+        "2024年": "7,404.52"
+      },
+      "evidence_text": "纳税总额 亿元 2023年 5,882.63 2024年 7,404.52",
+      "reason": "business_performance_not_core_esg"
+    },
+    {
+      "page_image": "page_85_left.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "研发投入占比营业收入",
+      "unit": "%",
+      "values": {
+        "2023年": "6.07%",
+        "2024年": "5.82%"
+      },
+      "evidence_text": "研发投入占比营业收入 % 2023年 6.07% 2024年 5.82%",
+      "reason": "business_performance_not_core_esg"
+    },
+    {
+      "page_image": "page_85_left.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "女性董事占比",
+      "unit": "%",
+      "values": {
+        "2023年": "14.29%",
+        "2024年": "14.29%"
+      },
+      "evidence_text": "女性董事占比 % 2023年 14.29% 2024年 14.29%",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=llm_match:女性董事占比对应的是女性董事人数占董事会总人数的比例，但本行指标名称为'女性董事占比'且单位为%，而Core Schema中female_directors定义为人数（value_type: number），不匹配；需检查是否存在female_director_ratio。经查，Core Schema中存在field_key: female_director_ratio，name_cn: 女性董事比例，aliases包含'女性董事比例、女性董事占比'，value_type: percentage，unit_examples: %，完全匹配。"
+    },
+    {
+      "page_image": "page_85_left.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "劳动合同签订率",
+      "unit": "%",
+      "values": {
+        "2023年": "100%",
+        "2024年": "100%"
+      },
+      "evidence_text": "劳动合同签订率 % 2023年 100% 2024年 100%",
+      "reason": "llm_no_match:劳动合同签订率属于劳动关系管理类指标，Core ESG Schema 中无对应 field_key（如无 'labor_contract_signing_rate' 或类似别名），且未在任何 S 类指标别名中出现。"
+    },
+    {
+      "page_image": "page_85_left.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "报告期内吸纳的就业人数",
+      "unit": "人",
+      "values": {
+        "2023年": "464",
+        "2024年": "587"
+      },
+      "evidence_text": "报告期内吸纳的就业人数 人 2023年 464 2024年 587",
+      "reason": "llm_no_match:吸纳的就业人数属于社会影响类指标，但 Core ESG Schema 中无对应字段（如无 'hired_employees' 或 'new_hires' 等定义），且不属于已列示的员工结构、培训、健康、安全等 S 类标准字段；该指标更接近政策性/发展性披露，非标准化 ESG 核心指标。"
+    },
+    {
+      "page_image": "page_85_left.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "劳工歧视事件数",
+      "unit": "件",
+      "values": {
+        "2023年": "0",
+        "2024年": "0"
+      },
+      "evidence_text": "劳工歧视事件数 件 2023年 0 2024年 0",
+      "reason": "llm_no_match:劳工歧视事件数在 Core ESG Schema 中无对应 field_key；Schema 中未定义任何关于歧视事件、平等权侵害、反歧视治理的量化指标，不属于 E、S 或 G 类现有字段。"
+    },
+    {
+      "page_image": "page_85_left.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "员工培训总学时",
+      "unit": "小时",
+      "values": {
+        "2023年": "693.5",
+        "2024年": "537.5"
+      },
+      "evidence_text": "员工培训总学时 小时 2023年 693.5 2024年 537.5",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:员工培训总学时与 training_total_hours 的中文名 '员工培训总时长' 及别名 '培训总小时数、培训总时数、员工受训总时数' 高度一致，单位 '小时' 匹配 unit_examples。"
+    },
+    {
+      "page_image": "page_85_left.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "职业病发生率",
+      "unit": "%",
+      "values": {
+        "2023年": "0%",
+        "2024年": "0%"
+      },
+      "evidence_text": "职业病发生率 % 2023年 0% 2024年 0%",
+      "reason": "llm_no_match:职业病发生率未在 Core ESG Schema 中定义；Schema 中存在工伤率、因工死亡人数、损失工作日等职业健康安全相关指标，但无‘职业病发生率’的别名或对应 field_key。"
+    },
+    {
+      "page_image": "page_85_left.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "供应商总数",
+      "unit": "家",
+      "values": {
+        "2023年": "3,741",
+        "2024年": "274"
+      },
+      "evidence_text": "供应商总数 家 2023年 3,741 2024年 274",
+      "reason": "llm_no_match:供应商总数属于供应链管理相关指标，Core ESG Schema 中无对应 field_key（如 supplier_count、supplier_number 等未定义），且不属于环境、社会或治理基础字段。"
+    },
+    {
+      "page_image": "page_85_left.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "能源消耗密度",
+      "unit": "吨标准煤/百万元营收",
+      "values": {
+        "2023年": "0.22",
+        "2024年": "0.18"
+      },
+      "evidence_text": "能源消耗密度 吨标准煤/百万元营收 2023年 0.22 2024年 0.18",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:能源消耗密度是能源消耗强度的同义表述，单位'吨标准煤/百万元营收'与schema中'吨标准煤/万元'量纲一致（仅数量级差异，属合理换算），且aliases明确包含'能源消耗强度、综合能耗强度、能耗强度、单位收入能耗、单位产值能耗'。"
+    },
+    {
+      "page_image": "page_85_left.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "温室气体排放密度",
+      "unit": "吨二氧化碳当量/百万元营收",
+      "values": {
+        "2023年": "0.77",
+        "2024年": "0.65"
+      },
+      "evidence_text": "温室气体排放密度 吨二氧化碳当量/百万元营收 2023年 0.77 2024年 0.65",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:温室气体排放密度即单位营收的温室气体排放量，与'温室气体排放强度'语义一致，且单位'吨二氧化碳当量/百万元营收'符合其unit_examples中'吨CO2e/万元'的变体（百万元=100万元，属合理数量级换算）。"
+    },
+    {
+      "page_image": "page_85_left.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "纸张",
+      "unit": "吨",
+      "values": {
+        "2023年": "1.74",
+        "2024年": "5.83"
+      },
+      "evidence_text": "纸张 吨 2023年 1.74 2024年 5.83",
+      "reason": "llm_no_match:纸张消耗不属于 Core ESG Schema 中任何 field_key 的 aliases 或语义范畴；Core Schema 中无与纸张、办公耗材、木材消耗等直接对应的环境指标。"
+    },
+    {
+      "page_image": "page_85_left.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "碳粉盒",
+      "unit": "个",
+      "values": {
+        "2023年": "20",
+        "2024年": "188"
+      },
+      "evidence_text": "碳粉盒 个 2023年 20 2024年 188",
+      "reason": "llm_no_match:碳粉盒属于办公耗材，Core ESG Schema 中无对应字段；既非环境类资源消耗（如水、能源）、排放类指标，也非社会或治理类标准指标。"
+    },
+    {
+      "page_image": "page_85_left.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "硒鼓墨盒",
+      "unit": "个",
+      "values": {
+        "2023年": "2",
+        "2024年": "21"
+      },
+      "evidence_text": "硒鼓墨盒 个 2023年 2 2024年 21",
+      "reason": "llm_no_match:硒鼓墨盒属于办公耗材，Core ESG Schema 中无对应字段；不属于环境、社会或治理核心指标，亦非能源、水、废弃物、排放、员工、治理等范畴。"
+    },
+    {
+      "page_image": "page_85_left.png",
+      "table_title": "关键绩效表",
+      "topic": null,
+      "metric_name": "无害废弃物密度",
+      "unit": "吨/人",
+      "values": {
+        "2023年": "0.0011",
+        "2024年": "0.0011"
+      },
+      "evidence_text": "无害废弃物密度 吨/人 2023年 0.0011 2024年 0.0011",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_non_hazardous_waste"
+    }
+  ],
+  "extracted_fields": [
+    "total_ghg_emissions",
+    "scope_1_emissions",
+    "scope_2_emissions",
+    "energy_consumption_total",
+    "energy_consumption_intensity",
+    "electricity_consumption",
+    "water_consumption",
+    "total_employees",
+    "training_coverage_rate",
+    "work_injury_rate",
+    "lost_workdays_due_to_injury",
+    "social_insurance_coverage_rate",
+    "r_and_d_investment",
+    "r_and_d_employees"
+  ],
+  "missing_fields": [
+    "scope_3_emissions",
+    "ghg_emissions_intensity",
+    "renewable_energy_consumption",
+    "natural_gas_consumption",
+    "coal_consumption",
+    "water_consumption_intensity",
+    "recycled_water_volume",
+    "wastewater_discharge",
+    "cod_emissions",
+    "ammonia_nitrogen_emissions",
+    "so2_emissions",
+    "nox_emissions",
+    "particulate_matter_emissions",
+    "hazardous_waste",
+    "non_hazardous_waste",
+    "total_waste",
+    "waste_recycling_rate",
+    "environmental_investment",
+    "environmental_violation_cases",
+    "male_employees",
+    "female_employees",
+    "female_employee_ratio",
+    "female_management_ratio",
+    "minority_employees",
+    "employees_under_30",
+    "employees_30_to_50",
+    "employees_over_50",
+    "employee_turnover_rate",
+    "training_total_hours",
+    "training_hours_per_employee",
+    "training_expense",
+    "trained_employees_count",
+    "work_related_fatalities",
+    "employee_health_record_coverage_rate",
+    "authorized_patents_new",
+    "authorized_patents_total",
+    "customer_complaints",
+    "board_size",
+    "independent_directors",
+    "independent_director_ratio",
+    "female_directors",
+    "board_meetings",
+    "shareholder_meetings",
+    "anti_corruption_training_sessions",
+    "anti_corruption_training_participants",
+    "anti_corruption_training_hours",
+    "confirmed_corruption_cases",
+    "whistleblowing_cases",
+    "patent_applications_new",
+    "board_esg_oversight",
+    "esg_committee",
+    "anti_corruption_policy",
+    "whistleblowing_mechanism",
+    "supplier_esg_assessment"
+  ],
+  "validation_summary": {
+    "total_fields": 68,
+    "extracted_fields": 14,
+    "missing_fields": 54,
+    "coverage_rate": 0.2059,
+    "raw_row_count": 119,
+    "unknown_metrics": 62
+  }
+}

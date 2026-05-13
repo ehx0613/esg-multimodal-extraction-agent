@@ -1,0 +1,3470 @@
+[
+  {
+    "page_image": "page_49.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "隐患排查整改达标率",
+        "columns": [
+          "报告期间",
+          "隐患排查整改达标率"
+        ],
+        "rows": [
+          {
+            "topic": null,
+            "metric_name": "隐患排查整改达标率",
+            "unit": "%",
+            "values": {
+              "2024年": "100"
+            },
+            "evidence_text": "报告期间 隐患排查整改达标率 100%"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_49_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为隐患排查和应急管理的描述，未包含具体ESG绩效数值表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_49_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为安全事故发生应急处置流程图及相关案例说明，未包含具体 ESG 绩效数值表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_50.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "安全教育绩效表",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "安全教育",
+            "metric_name": "安全教育培训覆盖人次",
+            "unit": "人次",
+            "values": {
+              "2024年": "63,932"
+            },
+            "evidence_text": "安全教育培训覆盖人次 人次 2024年 63,932"
+          },
+          {
+            "topic": "安全教育",
+            "metric_name": "安全教育培训覆盖率",
+            "unit": "%",
+            "values": {
+              "2024年": "100%"
+            },
+            "evidence_text": "安全教育培训覆盖率 % 2024年 100%"
+          },
+          {
+            "topic": "安全教育",
+            "metric_name": "开展安全教育培训场次",
+            "unit": "场",
+            "values": {
+              "2024年": "2,212"
+            },
+            "evidence_text": "开展安全教育培训场次 场 2024年 2,212"
+          }
+        ]
+      },
+      {
+        "table_title": "职业健康绩效表",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "职业健康",
+            "metric_name": "职业病发生",
+            "unit": "起",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "职业病发生 起 2024年 0"
+          },
+          {
+            "topic": "职业健康",
+            "metric_name": "特殊作业人员持证上岗率",
+            "unit": "%",
+            "values": {
+              "2024年": "100%"
+            },
+            "evidence_text": "特殊作业人员持证上岗率 % 2024年 100%"
+          },
+          {
+            "topic": "职业健康",
+            "metric_name": "工伤保险人员覆盖率",
+            "unit": "%",
+            "values": {
+              "2024年": "100%"
+            },
+            "evidence_text": "工伤保险人员覆盖率 % 2024年 100%"
+          },
+          {
+            "topic": "职业健康",
+            "metric_name": "安全生产责任人员覆盖率",
+            "unit": "%",
+            "values": {
+              "2024年": "100%"
+            },
+            "evidence_text": "安全生产责任人员覆盖率 % 2024年 100%"
+          },
+          {
+            "topic": "职业健康",
+            "metric_name": "员工职业健康体检覆盖率",
+            "unit": "%",
+            "values": {
+              "2024年": "100%"
+            },
+            "evidence_text": "员工职业健康体检覆盖率 % 2024年 100%"
+          },
+          {
+            "topic": "职业健康",
+            "metric_name": "职业病危害因素检测率",
+            "unit": "%",
+            "values": {
+              "2024年": "100%"
+            },
+            "evidence_text": "职业病危害因素检测率 % 2024年 100%"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_50_left.png",
+    "page_type": "performance_data_table",
+    "page_note": "页面包含安全教育培训的相关绩效数据。",
+    "tables": [
+      {
+        "table_title": "安全教育培训绩效表",
+        "columns": [
+          "报告期间",
+          "安全教育培训参与人次",
+          "安全教育培训覆盖比率",
+          "开展安全教育培训场"
+        ],
+        "rows": [
+          {
+            "topic": null,
+            "metric_name": null,
+            "unit": null,
+            "values": {
+              "安全教育培训参与人次": "63,932",
+              "安全教育培训覆盖比率": "100%",
+              "开展安全教育培训场": "2,212"
+            },
+            "evidence_text": "报告期间 安全教育培训参与人次 安全教育培训覆盖比率 开展安全教育培训场 63,932 人次 100% 2,212 场"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_50_right.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "报告期内职业健康绩效",
+        "columns": [
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "职业病发生",
+            "unit": "起",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "职业病发生 起 2024年 0"
+          },
+          {
+            "metric_name": "特殊作业人员持证上岗率",
+            "unit": "%",
+            "values": {
+              "2024年": "100"
+            },
+            "evidence_text": "特殊作业人员持证上岗率 % 2024年 100"
+          },
+          {
+            "metric_name": "工伤保险人员覆盖率",
+            "unit": "%",
+            "values": {
+              "2024年": "100"
+            },
+            "evidence_text": "工伤保险人员覆盖率 % 2024年 100"
+          },
+          {
+            "metric_name": "安全生产责任险人员覆盖率",
+            "unit": "%",
+            "values": {
+              "2024年": "100"
+            },
+            "evidence_text": "安全生产责任险人员覆盖率 % 2024年 100"
+          },
+          {
+            "metric_name": "员工职业健康体检覆盖率",
+            "unit": "%",
+            "values": {
+              "2024年": "100"
+            },
+            "evidence_text": "员工职业健康体检覆盖率 % 2024年 100"
+          },
+          {
+            "metric_name": "职业病危害因素检测率",
+            "unit": "%",
+            "values": {
+              "2024年": "100"
+            },
+            "evidence_text": "职业病危害因素检测率 % 2024年 100"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_51.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "员工构成情况",
+        "columns": [
+          "指标",
+          "单位",
+          "2024"
+        ],
+        "rows": [
+          {
+            "metric_name": "员工总人数",
+            "unit": "人",
+            "values": {
+              "2024": "13,443"
+            },
+            "evidence_text": "员工总人数 人 2024 13,443"
+          },
+          {
+            "metric_name": "按性别划分员工数",
+            "unit": "",
+            "values": {
+              "2024": ""
+            },
+            "evidence_text": "按性别划分员工数 单位 2024",
+            "sub_rows": [
+              {
+                "metric_name": "女性",
+                "unit": "人",
+                "values": {
+                  "2024": "4,075"
+                },
+                "evidence_text": "女性 人 2024 4,075"
+              },
+              {
+                "metric_name": "男性",
+                "unit": "人",
+                "values": {
+                  "2024": "8,570"
+                },
+                "evidence_text": "男性 人 2024 8,570"
+              }
+            ]
+          },
+          {
+            "metric_name": "按生产状况划分员工数",
+            "unit": "",
+            "values": {
+              "2024": ""
+            },
+            "evidence_text": "按生产状况划分员工数 单位 2024",
+            "sub_rows": [
+              {
+                "metric_name": "生产",
+                "unit": "人",
+                "values": {
+                  "2024": "10,438"
+                },
+                "evidence_text": "生产 人 2024 10,438"
+              },
+              {
+                "metric_name": "销售",
+                "unit": "人",
+                "values": {
+                  "2024": "239"
+                },
+                "evidence_text": "销售 人 2024 239"
+              }
+            ]
+          },
+          {
+            "metric_name": "按专业划分员工数",
+            "unit": "",
+            "values": {
+              "2024": ""
+            },
+            "evidence_text": "按专业划分员工数 单位 2024",
+            "sub_rows": [
+              {
+                "metric_name": "技术",
+                "unit": "人",
+                "values": {
+                  "2024": "2,149"
+                },
+                "evidence_text": "技术 人 2024 2,149"
+              },
+              {
+                "metric_name": "财务",
+                "unit": "人",
+                "values": {
+                  "2024": "132"
+                },
+                "evidence_text": "财务 人 2024 132"
+              },
+              {
+                "metric_name": "行政",
+                "unit": "人",
+                "values": {
+                  "2024": "487"
+                },
+                "evidence_text": "行政 人 2024 487"
+              }
+            ]
+          },
+          {
+            "metric_name": "员工中30岁以下占比",
+            "unit": "%",
+            "values": {
+              "2024": "31.11"
+            },
+            "evidence_text": "员工中30岁以下占比 % 2024 31.11"
+          },
+          {
+            "metric_name": "员工中30～50岁占比",
+            "unit": "%",
+            "values": {
+              "2024": "61.77"
+            },
+            "evidence_text": "员工中30～50岁占比 % 2024 61.77"
+          },
+          {
+            "metric_name": "员工中50岁以上占比",
+            "unit": "%",
+            "values": {
+              "2024": "7.12"
+            },
+            "evidence_text": "员工中50岁以上占比 % 2024 7.12"
+          },
+          {
+            "metric_name": "国内员工占比",
+            "unit": "%",
+            "values": {
+              "2024": "78.94"
+            },
+            "evidence_text": "国内员工占比 % 2024 78.94"
+          },
+          {
+            "metric_name": "国外员工占比",
+            "unit": "%",
+            "values": {
+              "2024": "21.06"
+            },
+            "evidence_text": "国外员工占比 % 2024 21.06"
+          }
+        ]
+      },
+      {
+        "table_title": "报告期内",
+        "columns": [
+          "报告内容",
+          "",
+          ""
+        ],
+        "rows": [
+          {
+            "metric_name": "正式员工劳动合同签订率",
+            "unit": "%",
+            "values": {
+              "2024": "100"
+            },
+            "evidence_text": "正式员工劳动合同签订率 % 2024 100"
+          },
+          {
+            "metric_name": "使用童工事件数",
+            "unit": "宗",
+            "values": {
+              "2024": "0"
+            },
+            "evidence_text": "使用童工事件数 宗 2024 0"
+          },
+          {
+            "metric_name": "劳动歧视事件数",
+            "unit": "宗",
+            "values": {
+              "2024": "0"
+            },
+            "evidence_text": "劳动歧视事件数 宗 2024 0"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_51_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为相关方安全管理流程介绍，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_51_right.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "员工构成情况",
+        "columns": [
+          "指标",
+          "单位",
+          "2024"
+        ],
+        "rows": [
+          {
+            "metric_name": "员工总人数",
+            "unit": "人",
+            "values": {
+              "2024": "13,445"
+            },
+            "evidence_text": "员工总人数 人 2024 13,445"
+          },
+          {
+            "metric_name": "女性",
+            "unit": "人",
+            "values": {
+              "2024": "4,875"
+            },
+            "evidence_text": "按性别划分员工数 女性 人 2024 4,875"
+          },
+          {
+            "metric_name": "男性",
+            "unit": "人",
+            "values": {
+              "2024": "8,570"
+            },
+            "evidence_text": "按性别划分员工数 男性 人 2024 8,570"
+          },
+          {
+            "metric_name": "生产",
+            "unit": "人",
+            "values": {
+              "2024": "10,438"
+            },
+            "evidence_text": "按专业划分员工数 生产 人 2024 10,438"
+          },
+          {
+            "metric_name": "销售",
+            "unit": "人",
+            "values": {
+              "2024": "239"
+            },
+            "evidence_text": "按专业划分员工数 销售 人 2024 239"
+          },
+          {
+            "metric_name": "技术",
+            "unit": "人",
+            "values": {
+              "2024": "2,149"
+            },
+            "evidence_text": "按专业划分员工数 技术 人 2024 2,149"
+          },
+          {
+            "metric_name": "财务",
+            "unit": "人",
+            "values": {
+              "2024": "132"
+            },
+            "evidence_text": "按专业划分员工数 财务 人 2024 132"
+          },
+          {
+            "metric_name": "行政",
+            "unit": "人",
+            "values": {
+              "2024": "487"
+            },
+            "evidence_text": "按专业划分员工数 行政 人 2024 487"
+          },
+          {
+            "metric_name": "员工中30岁以下占比",
+            "unit": "%",
+            "values": {
+              "2024": "31.11"
+            },
+            "evidence_text": "员工中30岁以下占比 % 2024 31.11"
+          },
+          {
+            "metric_name": "员工中30～50岁占比",
+            "unit": "%",
+            "values": {
+              "2024": "61.77"
+            },
+            "evidence_text": "员工中30～50岁占比 % 2024 61.77"
+          },
+          {
+            "metric_name": "员工中50岁以上占比",
+            "unit": "%",
+            "values": {
+              "2024": "7.12"
+            },
+            "evidence_text": "员工中50岁以上占比 % 2024 7.12"
+          },
+          {
+            "metric_name": "国内员工占比",
+            "unit": "%",
+            "values": {
+              "2024": "78.94"
+            },
+            "evidence_text": "国内员工占比 % 2024 78.94"
+          },
+          {
+            "metric_name": "国外员工占比",
+            "unit": "%",
+            "values": {
+              "2024": "21.06"
+            },
+            "evidence_text": "国外员工占比 % 2024 21.06"
+          }
+        ]
+      },
+      {
+        "table_title": "合规雇佣",
+        "columns": [
+          "正式员工劳动合同签订率",
+          "雇用童工事件数",
+          "劳工歧视事件数"
+        ],
+        "rows": [
+          {
+            "metric_name": "正式员工劳动合同签订率",
+            "unit": "%",
+            "values": {
+              "2024": "100"
+            },
+            "evidence_text": "正式员工劳动合同签订率 % 2024 100"
+          },
+          {
+            "metric_name": "雇用童工事件数",
+            "unit": "宗",
+            "values": {
+              "2024": "0"
+            },
+            "evidence_text": "雇用童工事件数 宗 2024 0"
+          },
+          {
+            "metric_name": "劳工歧视事件数",
+            "unit": "宗",
+            "values": {
+              "2024": "0"
+            },
+            "evidence_text": "劳工歧视事件数 宗 2024 0"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_52.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司人权保护和多元招聘的相关描述，以及两个案例介绍（四川外国语大学开展访企就业交流活动和同济大学携手上海电驱动共建产教融合创新实践基地），未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_52_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为大洋电机的人权保护和社会招聘相关内容，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_52_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为案例介绍，未包含具体 ESG 绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_53.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "量化数据绩效表-员工培训",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "员工",
+            "metric_name": "开展员工培训",
+            "unit": "次",
+            "values": {
+              "2024年": "3,665"
+            },
+            "evidence_text": "员工开展员工培训 次 2024年 3,665"
+          },
+          {
+            "topic": "员工",
+            "metric_name": "员工培训参与人次",
+            "unit": "人次",
+            "values": {
+              "2024年": "99,794"
+            },
+            "evidence_text": "员工员工培训参与人次 人次 2024年 99,794"
+          },
+          {
+            "topic": "员工",
+            "metric_name": "员工培训覆盖率",
+            "unit": "%",
+            "values": {
+              "2024年": "100"
+            },
+            "evidence_text": "员工员工培训覆盖率 % 2024年 100"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_53_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为薪酬福利和社会绩效描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_53_right.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "员工培训绩效表",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "员工",
+            "metric_name": "开展员工培训",
+            "unit": "次",
+            "values": {
+              "2024年": "3,665"
+            },
+            "evidence_text": "员工 开展员工培训 次 2024年 3,665"
+          },
+          {
+            "topic": "员工",
+            "metric_name": "员工培训参与人次",
+            "unit": "人次",
+            "values": {
+              "2024年": "99,794"
+            },
+            "evidence_text": "员工 员工培训参与人次 人次 2024年 99,794"
+          },
+          {
+            "topic": "员工",
+            "metric_name": "员工培训覆盖率",
+            "unit": "%",
+            "values": {
+              "2024年": "100"
+            },
+            "evidence_text": "员工 员工培训覆盖率 % 2024年 100"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_54.png",
+    "page_type": "other",
+    "page_note": "页面内容为人才发展和民主管理的描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_54_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为人才发展和人文关怀的描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_54_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为民主管理介绍及员工畅言管理流程图，未包含具体 ESG 绩效数值表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_55.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "员工满意度改善流程",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "员工满意度",
+            "metric_name": "报告期内员工满意度",
+            "unit": "%",
+            "values": {
+              "2024年": "82.8%"
+            },
+            "evidence_text": "员工满意度 报告期内员工满意度 % 2024年 82.8%"
+          },
+          {
+            "topic": "员工满意度",
+            "metric_name": "操作类员工满意度",
+            "unit": "%",
+            "values": {
+              "2024年": "79%"
+            },
+            "evidence_text": "员工满意度 操作类员工满意度 % 2024年 79%"
+          },
+          {
+            "topic": "员工满意度",
+            "metric_name": "满意度同比提高",
+            "unit": "%",
+            "values": {
+              "2024年": "4%"
+            },
+            "evidence_text": "员工满意度 满意度同比提高 % 2024年 4%"
+          },
+          {
+            "topic": "员工满意度",
+            "metric_name": "满意度同比提高",
+            "unit": "%",
+            "values": {
+              "2024年": "5%"
+            },
+            "evidence_text": "员工满意度 满意度同比提高 % 2024年 5%"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_55_left.png",
+    "page_type": "performance_data_table",
+    "page_note": "页面包含员工满意度改善流程及满意度数据，属于ESG绩效数据表。",
+    "tables": [
+      {
+        "table_title": "员工满意度改善流程",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "报告期内",
+            "metric_name": "职员满意度",
+            "unit": "%",
+            "values": {
+              "2024年": "82.8%"
+            },
+            "evidence_text": "报告期内 职员满意度 % 2024年 82.8%"
+          },
+          {
+            "topic": "报告期内",
+            "metric_name": "满意度同比提高",
+            "unit": "%",
+            "values": {
+              "2024年": "4%"
+            },
+            "evidence_text": "报告期内 满意度同比提高 % 2024年 4%"
+          },
+          {
+            "topic": "报告期内",
+            "metric_name": "操作类员工满意度",
+            "unit": "%",
+            "values": {
+              "2024年": "79%"
+            },
+            "evidence_text": "报告期内 操作类员工满意度 % 2024年 79%"
+          },
+          {
+            "topic": "报告期内",
+            "metric_name": "满意度同比提高",
+            "unit": "%",
+            "values": {
+              "2024年": "5%"
+            },
+            "evidence_text": "报告期内 满意度同比提高 % 2024年 5%"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_55_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为关于女性员工权益保护的描述及三八妇女节系列活动案例，未包含具体ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_56.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "公益总投入",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": null,
+            "metric_name": "公益总投入",
+            "unit": "万元",
+            "values": {
+              "2024年": "155.5"
+            },
+            "evidence_text": "公益总投入 万元 2024年 155.5"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_56_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为员工关爱和多元活动的描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_56_right.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "公益投入情况",
+        "columns": [
+          "报告期间",
+          "公益总投入"
+        ],
+        "rows": [
+          {
+            "reporting_period": "报告期间",
+            "metric_name": "公益总投入",
+            "unit": "万元",
+            "values": {
+              "2024年": "155.5"
+            },
+            "evidence_text": "报告期间 公益总投入 万元 2024年 155.5"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_57.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "关键绩效表-经济绩效",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "资产总额",
+            "unit": "万元",
+            "values": {
+              "2022年": "1,516,156.50",
+              "2023年": "1,809,425.85",
+              "2024年": "1,794,136.10"
+            },
+            "evidence_text": "资产总额 万元 2022年 1,516,156.50 2023年 1,809,425.85 2024年 1,794,136.10"
+          },
+          {
+            "metric_name": "营业收入",
+            "unit": "万元",
+            "values": {
+              "2022年": "1,093,014.37",
+              "2023年": "1,128,822.41",
+              "2024年": "1,211,340.81"
+            },
+            "evidence_text": "营业收入 万元 2022年 1,093,014.37 2023年 1,128,822.41 2024年 1,211,340.81"
+          },
+          {
+            "metric_name": "营业收入增长率",
+            "unit": "%",
+            "values": {
+              "2022年": "9.11",
+              "2023年": "3.28",
+              "2024年": "7.31"
+            },
+            "evidence_text": "营业收入增长率 % 2022年 9.11 2023年 3.28 2024年 7.31"
+          },
+          {
+            "metric_name": "归母净利润",
+            "unit": "万元",
+            "values": {
+              "2022年": "42,709.23",
+              "2023年": "63,026.37",
+              "2024年": "88,754.91"
+            },
+            "evidence_text": "归母净利润 万元 2022年 42,709.23 2023年 63,026.37 2024年 88,754.91"
+          },
+          {
+            "metric_name": "归母净利润增长率",
+            "unit": "%",
+            "values": {
+              "2022年": "70.57",
+              "2023年": "47.57",
+              "2024年": "40.82"
+            },
+            "evidence_text": "归母净利润增长率 % 2022年 70.57 2023年 47.57 2024年 40.82"
+          },
+          {
+            "metric_name": "每股收益",
+            "unit": "元/股",
+            "values": {
+              "2022年": "0.18",
+              "2023年": "0.26",
+              "2024年": "0.37"
+            },
+            "evidence_text": "每股收益 元/股 2022年 0.18 2023年 0.26 2024年 0.37"
+          }
+        ]
+      },
+      {
+        "table_title": "治理绩效",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "董事会人数",
+            "unit": "人",
+            "values": {
+              "2022年": "9",
+              "2023年": "9",
+              "2024年": "9"
+            },
+            "evidence_text": "董事会人数 人 2022年 9 2023年 9 2024年 9"
+          },
+          {
+            "metric_name": "独立董事人数",
+            "unit": "人",
+            "values": {
+              "2022年": "4",
+              "2023年": "4",
+              "2024年": "4"
+            },
+            "evidence_text": "独立董事人数 人 2022年 4 2023年 4 2024年 4"
+          },
+          {
+            "metric_name": "股东大会召开次数",
+            "unit": "次",
+            "values": {
+              "2022年": "3",
+              "2023年": "4",
+              "2024年": "3"
+            },
+            "evidence_text": "股东大会召开次数 次 2022年 3 2023年 4 2024年 3"
+          },
+          {
+            "metric_name": "董事会召开次数",
+            "unit": "次",
+            "values": {
+              "2022年": "9",
+              "2023年": "7",
+              "2024年": "13"
+            },
+            "evidence_text": "董事会召开次数 次 2022年 9 2023年 7 2024年 13"
+          },
+          {
+            "metric_name": "董事会讨论企业社会责任议题的次数",
+            "unit": "次/年",
+            "values": {
+              "2022年": "1",
+              "2023年": "1",
+              "2024年": "1"
+            },
+            "evidence_text": "董事会讨论企业社会责任议题的次数 次/年 2022年 1 2023年 1 2024年 1"
+          },
+          {
+            "metric_name": "当年传达给董事会重要议题数量",
+            "unit": "件",
+            "values": {
+              "2022年": "7",
+              "2023年": "7",
+              "2024年": "8"
+            },
+            "evidence_text": "当年传达给董事会重要议题数量 件 2022年 7 2023年 7 2024年 8"
+          },
+          {
+            "metric_name": "监事会会议召开次数",
+            "unit": "次",
+            "values": {
+              "2022年": "8",
+              "2023年": "7",
+              "2024年": "9"
+            },
+            "evidence_text": "监事会会议召开次数 次 2022年 8 2023年 7 2024年 9"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_57_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为展望未来部分的文字描述，未包含具体ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_57_right.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "经济绩效",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "资产总额",
+            "unit": "万元",
+            "values": {
+              "2022年": "1,516,156.50",
+              "2023年": "1,609,425.85",
+              "2024年": "1,794,136.10"
+            },
+            "evidence_text": "资产总额 万元 2022年 1,516,156.50 2023年 1,609,425.85 2024年 1,794,136.10"
+          },
+          {
+            "metric_name": "营业收入",
+            "unit": "万元",
+            "values": {
+              "2022年": "1,093,014.37",
+              "2023年": "1,128,822.41",
+              "2024年": "1,211,340.81"
+            },
+            "evidence_text": "营业收入 万元 2022年 1,093,014.37 2023年 1,128,822.41 2024年 1,211,340.81"
+          },
+          {
+            "metric_name": "营业收入增长率",
+            "unit": "%",
+            "values": {
+              "2022年": "9.11",
+              "2023年": "3.28",
+              "2024年": "7.31"
+            },
+            "evidence_text": "营业收入增长率 % 2022年 9.11 2023年 3.28 2024年 7.31"
+          },
+          {
+            "metric_name": "归母净利润",
+            "unit": "万元",
+            "values": {
+              "2022年": "42,709.23",
+              "2023年": "63,026.37",
+              "2024年": "88,754.91"
+            },
+            "evidence_text": "归母净利润 万元 2022年 42,709.23 2023年 63,026.37 2024年 88,754.91"
+          },
+          {
+            "metric_name": "归母净利润增长率",
+            "unit": "%",
+            "values": {
+              "2022年": "70.57",
+              "2023年": "47.57",
+              "2024年": "40.82"
+            },
+            "evidence_text": "归母净利润增长率 % 2022年 70.57 2023年 47.57 2024年 40.82"
+          },
+          {
+            "metric_name": "每股收益",
+            "unit": "元/股",
+            "values": {
+              "2022年": "0.18",
+              "2023年": "0.26",
+              "2024年": "0.37"
+            },
+            "evidence_text": "每股收益 元/股 2022年 0.18 2023年 0.26 2024年 0.37"
+          }
+        ]
+      },
+      {
+        "table_title": "治理绩效",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "董事会人数",
+            "unit": "人",
+            "values": {
+              "2022年": "9",
+              "2023年": "9",
+              "2024年": "9"
+            },
+            "evidence_text": "董事会人数 人 2022年 9 2023年 9 2024年 9"
+          },
+          {
+            "metric_name": "独立董事人数",
+            "unit": "人",
+            "values": {
+              "2022年": "4",
+              "2023年": "4",
+              "2024年": "4"
+            },
+            "evidence_text": "独立董事人数 人 2022年 4 2023年 4 2024年 4"
+          },
+          {
+            "metric_name": "股东大会召开次数",
+            "unit": "次",
+            "values": {
+              "2022年": "3",
+              "2023年": "4",
+              "2024年": "3"
+            },
+            "evidence_text": "股东大会召开次数 次 2022年 3 2023年 4 2024年 3"
+          },
+          {
+            "metric_name": "董事会召开次数",
+            "unit": "次",
+            "values": {
+              "2022年": "9",
+              "2023年": "7",
+              "2024年": "13"
+            },
+            "evidence_text": "董事会召开次数 次 2022年 9 2023年 7 2024年 13"
+          },
+          {
+            "metric_name": "董事会讨论企业社会责任议题的次数",
+            "unit": "次/年",
+            "values": {
+              "2022年": "1",
+              "2023年": "1",
+              "2024年": "1"
+            },
+            "evidence_text": "董事会讨论企业社会责任议题的次数 次/年 2022年 1 2023年 1 2024年 1"
+          },
+          {
+            "metric_name": "当年传达给董事会重要实质议题总数",
+            "unit": "件",
+            "values": {
+              "2022年": "7",
+              "2023年": "7",
+              "2024年": "8"
+            },
+            "evidence_text": "当年传达给董事会重要实质议题总数 件 2022年 7 2023年 7 2024年 8"
+          },
+          {
+            "metric_name": "监事会会议召开次数",
+            "unit": "次",
+            "values": {
+              "2022年": "8",
+              "2023年": "7",
+              "2024年": "9"
+            },
+            "evidence_text": "监事会会议召开次数 次 2022年 8 2023年 7 2024年 9"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_58.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "信息披露",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "披露公告及文件数量",
+            "unit": "份",
+            "values": {
+              "2022年": "155",
+              "2023年": "168",
+              "2024年": "205"
+            },
+            "evidence_text": "披露公告及文件数量 份 2022年 155 2023年 168 2024年 205"
+          },
+          {
+            "metric_name": "因信息披露违规而受到处罚次数",
+            "unit": "次",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "因信息披露违规而受到处罚次数 次 2022年 0 2023年 0 2024年 0"
+          },
+          {
+            "metric_name": "利用内幕信息从事内幕交易事件",
+            "unit": "件",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "利用内幕信息从事内幕交易事件 件 2022年 0 2023年 0 2024年 0"
+          }
+        ]
+      },
+      {
+        "table_title": "投关管理",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "接待投资有调示",
+            "unit": "次",
+            "values": {
+              "2022年": "1",
+              "2023年": "4",
+              "2024年": "1"
+            },
+            "evidence_text": "接待投资有调示 次 2022年 1 2023年 4 2024年 1"
+          },
+          {
+            "metric_name": "召开业绩说明会",
+            "unit": "次",
+            "values": {
+              "2022年": "2",
+              "2023年": "2",
+              "2024年": "2"
+            },
+            "evidence_text": "召开业绩说明会 次 2022年 2 2023年 2 2024年 2"
+          },
+          {
+            "metric_name": "在互动易平台回复投资者问题",
+            "unit": "次",
+            "values": {
+              "2022年": "124",
+              "2023年": "113",
+              "2024年": "102"
+            },
+            "evidence_text": "在互动易平台回复投资者问题 次 2022年 124 2023年 113 2024年 102"
+          },
+          {
+            "metric_name": "在互动易平台投资者问答回复率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "99.12",
+              "2024年": "100"
+            },
+            "evidence_text": "在互动易平台投资者问答回复率 % 2022年 100 2023年 99.12 2024年 100"
+          }
+        ]
+      },
+      {
+        "table_title": "商业道德",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "组织反腐败政策和程序传达给管治机构成员的总数",
+            "unit": "个",
+            "values": {
+              "2022年": "15",
+              "2023年": "13",
+              "2024年": "13"
+            },
+            "evidence_text": "组织反腐败政策和程序传达给管治机构成员的总数 个 2022年 15 2023年 13 2024年 13"
+          },
+          {
+            "metric_name": "管治机构成员接受反腐教育和程序百分比",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "管治机构成员接受反腐教育和程序百分比 % 2022年 100 2023年 100 2024年 100"
+          },
+          {
+            "metric_name": "已授权反腐教育培训的员工总数",
+            "unit": "人",
+            "values": {
+              "2022年": "11,698",
+              "2023年": "11,464",
+              "2024年": "13,445"
+            },
+            "evidence_text": "已授权反腐教育培训的员工总数 人 2022年 11,698 2023年 11,464 2024年 13,445"
+          },
+          {
+            "metric_name": "员工已接收反腐培训百分比",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "员工已接收反腐培训百分比 % 2022年 100 2023年 100 2024年 100"
+          },
+          {
+            "metric_name": "业务合作伙伴接收反腐培训和稽核百分比",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "业务合作伙伴接收反腐培训和稽核百分比 % 2022年 100 2023年 100 2024年 100"
+          }
+        ]
+      },
+      {
+        "table_title": "环境保护",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "环境领域违法违事件",
+            "unit": "件",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "环境领域违法违事件 件 2022年 0 2023年 0 2024年 0"
+          },
+          {
+            "metric_name": "环境污染事件次数",
+            "unit": "次",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "环境污染事件次数 次 2022年 0 2023年 0 2024年 0"
+          },
+          {
+            "metric_name": "环境投诉事件次数",
+            "unit": "次",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "环境投诉事件次数 次 2022年 0 2023年 0 2024年 0"
+          },
+          {
+            "metric_name": "重大环境污染事故",
+            "unit": "起",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "重大环境污染事故 起 2022年 0 2023年 0 2024年 0"
+          },
+          {
+            "metric_name": "环保培训次数",
+            "unit": "次",
+            "values": {
+              "2022年": "244",
+              "2023年": "242",
+              "2024年": "245"
+            },
+            "evidence_text": "环保培训次数 次 2022年 244 2023年 242 2024年 245"
+          }
+        ]
+      },
+      {
+        "table_title": "能源与水资源",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "能源消耗总量",
+            "unit": "吨标煤",
+            "values": {
+              "2022年": "401,475.21",
+              "2023年": "421,012.01",
+              "2024年": "478,139.30"
+            },
+            "evidence_text": "能源消耗总量 吨标煤 2022年 401,475.21 2023年 421,012.01 2024年 478,139.30"
+          },
+          {
+            "metric_name": "能源消耗强度",
+            "unit": "吨标煤/万元营收",
+            "values": {
+              "2022年": "0.37",
+              "2023年": "0.37",
+              "2024年": "0.39"
+            },
+            "evidence_text": "能源消耗强度 吨标煤/万元营收 2022年 0.37 2023年 0.37 2024年 0.39"
+          },
+          {
+            "metric_name": "总用水量",
+            "unit": "吨",
+            "values": {
+              "2022年": "186,512.10",
+              "2023年": "190,117.98",
+              "2024年": "205,939.00"
+            },
+            "evidence_text": "总用水量 吨 2022年 186,512.10 2023年 190,117.98 2024年 205,939.00"
+          },
+          {
+            "metric_name": "用水强度",
+            "unit": "吨/万元营收",
+            "values": {
+              "2022年": "0.17",
+              "2023年": "0.17",
+              "2024年": "0.17"
+            },
+            "evidence_text": "用水强度 吨/万元营收 2022年 0.17 2023年 0.17 2024年 0.17"
+          }
+        ]
+      },
+      {
+        "table_title": "温室气体排放",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "直接温室气体排放量（范围一）",
+            "unit": "吨二氧化碳当量",
+            "values": {
+              "2022年": "633,588.51",
+              "2023年": "666,885.98",
+              "2024年": "754,163.65"
+            },
+            "evidence_text": "直接温室气体排放量（范围一） 吨二氧化碳当量 2022年 633,588.51 2023年 666,885.98 2024年 754,163.65"
+          },
+          {
+            "metric_name": "间接温室气体排放量（范围二）",
+            "unit": "吨二氧化碳当量",
+            "values": {
+              "2022年": "42,647.44",
+              "2023年": "45,958.04",
+              "2024年": "50,116.53"
+            },
+            "evidence_text": "间接温室气体排放量（范围二） 吨二氧化碳当量 2022年 42,647.44 2023年 45,958.04 2024年 50,116.53"
+          },
+          {
+            "metric_name": "温室气体排放总量",
+            "unit": "吨二氧化碳当量",
+            "values": {
+              "2022年": "676,235.95",
+              "2023年": "709,844.02",
+              "2024年": "804,280.18"
+            },
+            "evidence_text": "温室气体排放总量 吨二氧化碳当量 2022年 676,235.95 2023年 709,844.02 2024年 804,280.18"
+          },
+          {
+            "metric_name": "温室气体排放强度",
+            "unit": "吨二氧化碳当量/万元营收",
+            "values": {
+              "2022年": "0.62",
+              "2023年": "0.63",
+              "2024年": "0.66"
+            },
+            "evidence_text": "温室气体排放强度 吨二氧化碳当量/万元营收 2022年 0.62 2023年 0.63 2024年 0.66"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_58_left.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "信息披露",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "披露公告及文件数量",
+            "unit": "份",
+            "values": {
+              "2022年": "155",
+              "2023年": "168",
+              "2024年": "205"
+            },
+            "evidence_text": "披露公告及文件数量 份 155 168 205"
+          },
+          {
+            "metric_name": "因信息披露违规而受到处罚次数",
+            "unit": "次",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "因信息披露违规而受到处罚次数 次 0 0 0"
+          },
+          {
+            "metric_name": "利用内幕信息从事内幕交易事件",
+            "unit": "件",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "利用内幕信息从事内幕交易事件 件 0 0 0"
+          }
+        ]
+      },
+      {
+        "table_title": "投关管理",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "接待投资者调研",
+            "unit": "次",
+            "values": {
+              "2022年": "1",
+              "2023年": "4",
+              "2024年": "1"
+            },
+            "evidence_text": "接待投资者调研 次 1 4 1"
+          },
+          {
+            "metric_name": "召开业绩说明会",
+            "unit": "次",
+            "values": {
+              "2022年": "2",
+              "2023年": "2",
+              "2024年": "2"
+            },
+            "evidence_text": "召开业绩说明会 次 2 2 2"
+          },
+          {
+            "metric_name": "在互动易平台回复投资者问题",
+            "unit": "次",
+            "values": {
+              "2022年": "124",
+              "2023年": "113",
+              "2024年": "102"
+            },
+            "evidence_text": "在互动易平台回复投资者问题 次 124 113 102"
+          },
+          {
+            "metric_name": "在互动易平台投资者问题回复率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "99.12",
+              "2024年": "100"
+            },
+            "evidence_text": "在互动易平台投资者问题回复率 % 100 99.12 100"
+          }
+        ]
+      },
+      {
+        "table_title": "商业道德",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "组织反腐败政策和程序传达给管治机构成员的总数",
+            "unit": "个",
+            "values": {
+              "2022年": "15",
+              "2023年": "13",
+              "2024年": "13"
+            },
+            "evidence_text": "组织反腐败政策和程序传达给管治机构成员的总数 个 15 13 13"
+          },
+          {
+            "metric_name": "管治机构成员接受反腐败政策和程序百分比",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "管治机构成员接受反腐败政策和程序百分比 % 100 100 100"
+          },
+          {
+            "metric_name": "已接收反腐败培训的员工总数",
+            "unit": "人",
+            "values": {
+              "2022年": "11,698",
+              "2023年": "11,464",
+              "2024年": "13,445"
+            },
+            "evidence_text": "已接收反腐败培训的员工总数 人 11,698 11,464 13,445"
+          },
+          {
+            "metric_name": "员工已接收反腐败培训百分比",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "员工已接收反腐败培训百分比 % 100 100 100"
+          },
+          {
+            "metric_name": "业务合作伙伴接收反腐败政策和程序百分比",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "业务合作伙伴接收反腐败政策和程序百分比 % 100 100 100"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_58_right.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "环境保护",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "环境领域违法违规事件",
+            "unit": "件",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "环境领域违法违规事件 件 2022年 0 2023年 0 2024年 0"
+          },
+          {
+            "metric_name": "环境污染事件次数",
+            "unit": "次",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "环境污染事件次数 次 2022年 0 2023年 0 2024年 0"
+          },
+          {
+            "metric_name": "环境投诉事件次数",
+            "unit": "次",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "环境投诉事件次数 次 2022年 0 2023年 0 2024年 0"
+          },
+          {
+            "metric_name": "重大环境污染事故",
+            "unit": "起",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "重大环境污染事故 起 2022年 0 2023年 0 2024年 0"
+          },
+          {
+            "metric_name": "环保培训次数",
+            "unit": "次",
+            "values": {
+              "2022年": "244",
+              "2023年": "242",
+              "2024年": "245"
+            },
+            "evidence_text": "环保培训次数 次 2022年 244 2023年 242 2024年 245"
+          }
+        ]
+      },
+      {
+        "table_title": "能源与水资源",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "能源消耗总量",
+            "unit": "吨标准煤",
+            "values": {
+              "2022年": "401,475.21",
+              "2023年": "421,012.01",
+              "2024年": "478,139.30"
+            },
+            "evidence_text": "能源消耗总量 吨标准煤 2022年 401,475.21 2023年 421,012.01 2024年 478,139.30"
+          },
+          {
+            "metric_name": "能源消耗强度",
+            "unit": "吨标准煤/万元营收",
+            "values": {
+              "2022年": "0.37",
+              "2023年": "0.37",
+              "2024年": "0.39"
+            },
+            "evidence_text": "能源消耗强度 吨标准煤/万元营收 2022年 0.37 2023年 0.37 2024年 0.39"
+          },
+          {
+            "metric_name": "总用水量",
+            "unit": "吨",
+            "values": {
+              "2022年": "188,512.10",
+              "2023年": "190,117.98",
+              "2024年": "205,939.00"
+            },
+            "evidence_text": "总用水量 吨 2022年 188,512.10 2023年 190,117.98 2024年 205,939.00"
+          },
+          {
+            "metric_name": "用水强度",
+            "unit": "吨/万元营收",
+            "values": {
+              "2022年": "0.17",
+              "2023年": "0.17",
+              "2024年": "0.17"
+            },
+            "evidence_text": "用水强度 吨/万元营收 2022年 0.17 2023年 0.17 2024年 0.17"
+          }
+        ]
+      },
+      {
+        "table_title": "温室气体排放",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "直接温室气体排放量（范围一）",
+            "unit": "吨二氧化碳当量",
+            "values": {
+              "2022年": "633,588.51",
+              "2023年": "663,885.98",
+              "2024年": "754,163.65"
+            },
+            "evidence_text": "直接温室气体排放量（范围一） 吨二氧化碳当量 2022年 633,588.51 2023年 663,885.98 2024年 754,163.65"
+          },
+          {
+            "metric_name": "间接温室气体排放量（范围二）",
+            "unit": "吨二氧化碳当量",
+            "values": {
+              "2022年": "42,641.44",
+              "2023年": "45,958.04",
+              "2024年": "50,116.53"
+            },
+            "evidence_text": "间接温室气体排放量（范围二） 吨二氧化碳当量 2022年 42,641.44 2023年 45,958.04 2024年 50,116.53"
+          },
+          {
+            "metric_name": "温室气体排放总量",
+            "unit": "吨二氧化碳当量",
+            "values": {
+              "2022年": "676,229.95",
+              "2023年": "709,844.02",
+              "2024年": "804,280.18"
+            },
+            "evidence_text": "温室气体排放总量 吨二氧化碳当量 2022年 676,229.95 2023年 709,844.02 2024年 804,280.18"
+          },
+          {
+            "metric_name": "温室气体排放强度",
+            "unit": "吨二氧化碳当量/万元营收",
+            "values": {
+              "2022年": "0.62",
+              "2023年": "0.63",
+              "2024年": "0.66"
+            },
+            "evidence_text": "温室气体排放强度 吨二氧化碳当量/万元营收 2022年 0.62 2023年 0.63 2024年 0.66"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_59.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "员工雇佣",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "员工总人数",
+            "unit": "人",
+            "values": {
+              "2022年": "11,698",
+              "2023年": "11,464",
+              "2024年": "13,445"
+            },
+            "evidence_text": "员工总人数 人 11,698 11,464 13,445"
+          },
+          {
+            "metric_name": "男性员工",
+            "unit": "人",
+            "values": {
+              "2022年": "7,506",
+              "2023年": "7,498",
+              "2024年": "8,570"
+            },
+            "evidence_text": "男性员工 人 7,506 7,498 8,570"
+          },
+          {
+            "metric_name": "女性员工",
+            "unit": "人",
+            "values": {
+              "2022年": "4,192",
+              "2023年": "3,966",
+              "2024年": "4,875"
+            },
+            "evidence_text": "女性员工 人 4,192 3,966 4,875"
+          },
+          {
+            "metric_name": "员工中男性占比",
+            "unit": "%",
+            "values": {
+              "2022年": "64.16",
+              "2023年": "65.40",
+              "2024年": "63.74"
+            },
+            "evidence_text": "员工中男性占比 % 64.16 65.40 63.74"
+          },
+          {
+            "metric_name": "员工中女性占比",
+            "unit": "%",
+            "values": {
+              "2022年": "35.84",
+              "2023年": "34.60",
+              "2024年": "36.26"
+            },
+            "evidence_text": "员工中女性占比 % 35.84 34.60 36.26"
+          },
+          {
+            "metric_name": "员工中30岁以下占比",
+            "unit": "%",
+            "values": {
+              "2022年": "29.81",
+              "2023年": "31.12",
+              "2024年": "31.11"
+            },
+            "evidence_text": "员工中30岁以下占比 % 29.81 31.12 31.11"
+          },
+          {
+            "metric_name": "员工中30～50岁占比",
+            "unit": "%",
+            "values": {
+              "2022年": "60.90",
+              "2023年": "62.15",
+              "2024年": "61.77"
+            },
+            "evidence_text": "员工中30～50岁占比 % 60.90 62.15 61.77"
+          },
+          {
+            "metric_name": "员工中50岁以上占比",
+            "unit": "%",
+            "values": {
+              "2022年": "9.29",
+              "2023年": "6.73",
+              "2024年": "7.12"
+            },
+            "evidence_text": "员工中50岁以上占比 % 9.29 6.73 7.12"
+          },
+          {
+            "metric_name": "国内员工占比",
+            "unit": "%",
+            "values": {
+              "2022年": "79.82",
+              "2023年": "79.61",
+              "2024年": "78.04"
+            },
+            "evidence_text": "国内员工占比 % 79.82 79.61 78.04"
+          },
+          {
+            "metric_name": "国外员工占比",
+            "unit": "%",
+            "values": {
+              "2022年": "20.18",
+              "2023年": "20.39",
+              "2024年": "21.96"
+            },
+            "evidence_text": "国外员工占比 % 20.18 20.39 21.96"
+          },
+          {
+            "metric_name": "生产",
+            "unit": "人",
+            "values": {
+              "2022年": "8,827",
+              "2023年": "8,591",
+              "2024年": "10,438"
+            },
+            "evidence_text": "按专业划分的员工人数 生产 人 8,827 8,591 10,438"
+          },
+          {
+            "metric_name": "销售",
+            "unit": "人",
+            "values": {
+              "2022年": "279",
+              "2023年": "236",
+              "2024年": "239"
+            },
+            "evidence_text": "按专业划分的员工人数 销售 人 279 236 239"
+          },
+          {
+            "metric_name": "技术",
+            "unit": "人",
+            "values": {
+              "2022年": "1,996",
+              "2023年": "2,054",
+              "2024年": "2,149"
+            },
+            "evidence_text": "按专业划分的员工人数 技术 人 1,996 2,054 2,149"
+          },
+          {
+            "metric_name": "财务",
+            "unit": "人",
+            "values": {
+              "2022年": "139",
+              "2023年": "130",
+              "2024年": "132"
+            },
+            "evidence_text": "按专业划分的员工人数 财务 人 139 130 132"
+          },
+          {
+            "metric_name": "行政",
+            "unit": "人",
+            "values": {
+              "2022年": "457",
+              "2023年": "453",
+              "2024年": "487"
+            },
+            "evidence_text": "按专业划分的员工人数 行政 人 457 453 487"
+          },
+          {
+            "metric_name": "硕士及以上",
+            "unit": "人",
+            "values": {
+              "2022年": "230",
+              "2023年": "308",
+              "2024年": "330"
+            },
+            "evidence_text": "按学历划分的员工人数 硕士及以上 人 230 308 330"
+          },
+          {
+            "metric_name": "本科",
+            "unit": "人",
+            "values": {
+              "2022年": "1,232",
+              "2023年": "1,542",
+              "2024年": "1,710"
+            },
+            "evidence_text": "按学历划分的员工人数 本科 人 1,232 1,542 1,710"
+          },
+          {
+            "metric_name": "大专及以下",
+            "unit": "人",
+            "values": {
+              "2022年": "10,236",
+              "2023年": "9,614",
+              "2024年": "11,405"
+            },
+            "evidence_text": "按学历划分的员工人数 大专及以下 人 10,236 9,614 11,405"
+          },
+          {
+            "metric_name": "董监高人员中男性占比",
+            "unit": "%",
+            "values": {
+              "2022年": "71.33",
+              "2023年": "69.23",
+              "2024年": "69.23"
+            },
+            "evidence_text": "董监高人员中男性占比 % 71.33 69.23 69.23"
+          },
+          {
+            "metric_name": "董监高人员中女性占比",
+            "unit": "%",
+            "values": {
+              "2022年": "26.67",
+              "2023年": "30.77",
+              "2024年": "30.77"
+            },
+            "evidence_text": "董监高人员中女性占比 % 26.67 30.77 30.77"
+          },
+          {
+            "metric_name": "董监高人员中30～50岁占比",
+            "unit": "%",
+            "values": {
+              "2022年": "76.67",
+              "2023年": "23.08",
+              "2024年": "73.08"
+            },
+            "evidence_text": "董监高人员中30～50岁占比 % 76.67 23.08 73.08"
+          },
+          {
+            "metric_name": "董监高人员中50岁以上占比",
+            "unit": "%",
+            "values": {
+              "2022年": "73.33",
+              "2023年": "76.92",
+              "2024年": "76.92"
+            },
+            "evidence_text": "董监高人员中50岁以上占比 % 73.33 76.92 76.92"
+          }
+        ]
+      },
+      {
+        "table_title": "员工权益",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "正式员工劳动合同签订率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "正式员工劳动合同签订率 % 100 100 100"
+          },
+          {
+            "metric_name": "雇用童工事件数",
+            "unit": "次",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "雇用童工事件数 次 0 0 0"
+          },
+          {
+            "metric_name": "劳工违规事件数",
+            "unit": "次",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "劳工违规事件数 次 0 0 0"
+          },
+          {
+            "metric_name": "劳动合同制员工社会保障覆盖率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "劳动合同制员工社会保障覆盖率 % 100 100 100"
+          },
+          {
+            "metric_name": "员工体检覆盖率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "员工体检覆盖率 % 100 100 100"
+          }
+        ]
+      },
+      {
+        "table_title": "员工培训",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "员工培训总场次",
+            "unit": "次",
+            "values": {
+              "2022年": "2,546",
+              "2023年": "3,911",
+              "2024年": "3,665"
+            },
+            "evidence_text": "员工培训总场次 次 2,546 3,911 3,665"
+          },
+          {
+            "metric_name": "员工培训参与人次",
+            "unit": "人次",
+            "values": {
+              "2022年": "105,743",
+              "2023年": "97,675",
+              "2024年": "99,794"
+            },
+            "evidence_text": "员工培训参与人次 人次 105,743 97,675 99,794"
+          }
+        ]
+      },
+      {
+        "table_title": "职业健康与安全",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "安全教育培训覆盖人次",
+            "unit": "人次",
+            "values": {
+              "2022年": "63,853",
+              "2023年": "58,111",
+              "2024年": "63,932"
+            },
+            "evidence_text": "安全教育培训覆盖人次 人次 63,853 58,111 63,932"
+          },
+          {
+            "metric_name": "安全教育培训覆盖率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "安全教育培训覆盖率 % 100 100 100"
+          },
+          {
+            "metric_name": "重大安全事故及环境污染事故件数",
+            "unit": "件",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "重大安全事故及环境污染事故件数 件 0 0 0"
+          },
+          {
+            "metric_name": "员工因工死亡人数",
+            "unit": "人",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "员工因工死亡人数 人 0 0 0"
+          },
+          {
+            "metric_name": "员工因工死亡率",
+            "unit": "%",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "员工因工死亡率 % 0 0 0"
+          },
+          {
+            "metric_name": "职业病发病率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "职业病发病率 % 100 100 100"
+          },
+          {
+            "metric_name": "职业病发生",
+            "unit": "起",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "职业病发生 起 0 0 0"
+          },
+          {
+            "metric_name": "特殊作业人员持证上岗率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "特殊作业人员持证上岗率 % 100 100 100"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_59_left.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "员工雇佣-社会绩效",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "员工总人数",
+            "unit": "人",
+            "values": {
+              "2022年": "11,698",
+              "2023年": "11,464",
+              "2024年": "13,445"
+            },
+            "evidence_text": "员工总人数 人 11,698 11,464 13,445"
+          },
+          {
+            "metric_name": "男性员工",
+            "unit": "人",
+            "values": {
+              "2022年": "7,506",
+              "2023年": "7,498",
+              "2024年": "8,570"
+            },
+            "evidence_text": "男性员工 人 7,506 7,498 8,570"
+          },
+          {
+            "metric_name": "女性员工",
+            "unit": "人",
+            "values": {
+              "2022年": "4,192",
+              "2023年": "3,966",
+              "2024年": "4,875"
+            },
+            "evidence_text": "女性员工 人 4,192 3,966 4,875"
+          },
+          {
+            "metric_name": "员工中男性占比",
+            "unit": "%",
+            "values": {
+              "2022年": "64.16",
+              "2023年": "65.40",
+              "2024年": "63.74"
+            },
+            "evidence_text": "员工中男性占比 % 64.16 65.40 63.74"
+          },
+          {
+            "metric_name": "员工中女性占比",
+            "unit": "%",
+            "values": {
+              "2022年": "35.84",
+              "2023年": "34.60",
+              "2024年": "36.26"
+            },
+            "evidence_text": "员工中女性占比 % 35.84 34.60 36.26"
+          },
+          {
+            "metric_name": "员工中 30岁以下占比",
+            "unit": "%",
+            "values": {
+              "2022年": "29.81",
+              "2023年": "31.12",
+              "2024年": "31.11"
+            },
+            "evidence_text": "员工中 30岁以下占比 % 29.81 31.12 31.11"
+          },
+          {
+            "metric_name": "员工中 30~50岁占比",
+            "unit": "%",
+            "values": {
+              "2022年": "60.90",
+              "2023年": "62.15",
+              "2024年": "61.77"
+            },
+            "evidence_text": "员工中 30~50岁占比 % 60.90 62.15 61.77"
+          },
+          {
+            "metric_name": "员工中 50岁以上占比",
+            "unit": "%",
+            "values": {
+              "2022年": "9.29",
+              "2023年": "6.73",
+              "2024年": "7.12"
+            },
+            "evidence_text": "员工中 50岁以上占比 % 9.29 6.73 7.12"
+          },
+          {
+            "metric_name": "国内员工占比",
+            "unit": "%",
+            "values": {
+              "2022年": "79.82",
+              "2023年": "79.61",
+              "2024年": "78.94"
+            },
+            "evidence_text": "国内员工占比 % 79.82 79.61 78.94"
+          },
+          {
+            "metric_name": "国外员工占比",
+            "unit": "%",
+            "values": {
+              "2022年": "20.18",
+              "2023年": "20.39",
+              "2024年": "21.06"
+            },
+            "evidence_text": "国外员工占比 % 20.18 20.39 21.06"
+          },
+          {
+            "metric_name": "生产",
+            "unit": "人",
+            "values": {
+              "2022年": "8,827",
+              "2023年": "8,591",
+              "2024年": "10,438"
+            },
+            "evidence_text": "按专业划分的员工人数 生产 人 8,827 8,591 10,438"
+          },
+          {
+            "metric_name": "销售",
+            "unit": "人",
+            "values": {
+              "2022年": "279",
+              "2023年": "236",
+              "2024年": "239"
+            },
+            "evidence_text": "按专业划分的员工人数 销售 人 279 236 239"
+          },
+          {
+            "metric_name": "技术",
+            "unit": "人",
+            "values": {
+              "2022年": "1,996",
+              "2023年": "2,054",
+              "2024年": "2,149"
+            },
+            "evidence_text": "按专业划分的员工人数 技术 人 1,996 2,054 2,149"
+          },
+          {
+            "metric_name": "财务",
+            "unit": "人",
+            "values": {
+              "2022年": "139",
+              "2023年": "130",
+              "2024年": "132"
+            },
+            "evidence_text": "按专业划分的员工人数 财务 人 139 130 132"
+          },
+          {
+            "metric_name": "行政",
+            "unit": "人",
+            "values": {
+              "2022年": "457",
+              "2023年": "453",
+              "2024年": "487"
+            },
+            "evidence_text": "按专业划分的员工人数 行政 人 457 453 487"
+          },
+          {
+            "metric_name": "硕士及以上",
+            "unit": "人",
+            "values": {
+              "2022年": "230",
+              "2023年": "308",
+              "2024年": "330"
+            },
+            "evidence_text": "按学历划分的员工人数 硕士及以上 人 230 308 330"
+          },
+          {
+            "metric_name": "本科",
+            "unit": "人",
+            "values": {
+              "2022年": "1,232",
+              "2023年": "1,542",
+              "2024年": "1,710"
+            },
+            "evidence_text": "按学历划分的员工人数 本科 人 1,232 1,542 1,710"
+          },
+          {
+            "metric_name": "大专及以下",
+            "unit": "人",
+            "values": {
+              "2022年": "10,236",
+              "2023年": "9,614",
+              "2024年": "11,405"
+            },
+            "evidence_text": "按学历划分的员工人数 大专及以下 人 10,236 9,614 11,405"
+          },
+          {
+            "metric_name": "董监高人员中男性占比",
+            "unit": "%",
+            "values": {
+              "2022年": "73.33",
+              "2023年": "69.23",
+              "2024年": "69.23"
+            },
+            "evidence_text": "董监高人员中男性占比 % 73.33 69.23 69.23"
+          },
+          {
+            "metric_name": "董监高人员中女性占比",
+            "unit": "%",
+            "values": {
+              "2022年": "26.67",
+              "2023年": "30.77",
+              "2024年": "30.77"
+            },
+            "evidence_text": "董监高人员中女性占比 % 26.67 30.77 30.77"
+          },
+          {
+            "metric_name": "董监高人员中 30~50岁占比",
+            "unit": "%",
+            "values": {
+              "2022年": "26.67",
+              "2023年": "23.08",
+              "2024年": "23.08"
+            },
+            "evidence_text": "董监高人员中 30~50岁占比 % 26.67 23.08 23.08"
+          },
+          {
+            "metric_name": "董监高人员中 50岁以上占比",
+            "unit": "%",
+            "values": {
+              "2022年": "73.33",
+              "2023年": "76.92",
+              "2024年": "76.92"
+            },
+            "evidence_text": "董监高人员中 50岁以上占比 % 73.33 76.92 76.92"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_59_right.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "员工权益",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "正式员工劳动合同签订率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "正式员工劳动合同签订率 % 100 100 100"
+          },
+          {
+            "metric_name": "雇用童工事件数",
+            "unit": "宗",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "雇用童工事件数 宗 0 0 0"
+          },
+          {
+            "metric_name": "劳工歧视事件数",
+            "unit": "宗",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "劳工歧视事件数 宗 0 0 0"
+          },
+          {
+            "metric_name": "劳动合同制员工社会保险覆盖率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "劳动合同制员工社会保险覆盖率 % 100 100 100"
+          },
+          {
+            "metric_name": "员工体检覆盖率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "员工体检覆盖率 % 100 100 100"
+          }
+        ]
+      },
+      {
+        "table_title": "员工培训",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "员工培训总场次",
+            "unit": "次",
+            "values": {
+              "2022年": "2,546",
+              "2023年": "3,911",
+              "2024年": "3,665"
+            },
+            "evidence_text": "员工培训总场次 次 2,546 3,911 3,665"
+          },
+          {
+            "metric_name": "员工培训参与人次",
+            "unit": "人次",
+            "values": {
+              "2022年": "105,743",
+              "2023年": "97,675",
+              "2024年": "99,794"
+            },
+            "evidence_text": "员工培训参与人次 人次 105,743 97,675 99,794"
+          }
+        ]
+      },
+      {
+        "table_title": "职业健康与安全",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "安全教育培训覆盖人次",
+            "unit": "人次",
+            "values": {
+              "2022年": "63,853",
+              "2023年": "58,111",
+              "2024年": "63,932"
+            },
+            "evidence_text": "安全教育培训覆盖人次 人次 63,853 58,111 63,932"
+          },
+          {
+            "metric_name": "安全教育培训覆盖率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "安全教育培训覆盖率 % 100 100 100"
+          },
+          {
+            "metric_name": "重大安全事故及环境污染事件数",
+            "unit": "件",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "重大安全事故及环境污染事件数 件 0 0 0"
+          },
+          {
+            "metric_name": "员工因工死亡人数",
+            "unit": "人",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "员工因工死亡人数 人 0 0 0"
+          },
+          {
+            "metric_name": "员工因工死亡率",
+            "unit": "%",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "员工因工死亡率 % 0 0 0"
+          },
+          {
+            "metric_name": "隐患排查整改率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "隐患排查整改率 % 100 100 100"
+          },
+          {
+            "metric_name": "职业病发生",
+            "unit": "起",
+            "values": {
+              "2022年": "0",
+              "2023年": "0",
+              "2024年": "0"
+            },
+            "evidence_text": "职业病发生 起 0 0 0"
+          },
+          {
+            "metric_name": "特殊作业人员持证上岗率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "特殊作业人员持证上岗率 % 100 100 100"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_60.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "产品与质量",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "培训场次",
+            "unit": "次",
+            "values": {
+              "2022年": "150",
+              "2023年": "163",
+              "2024年": "221"
+            },
+            "evidence_text": "培训场次 次 2022年 150 2023年 163 2024年 221"
+          },
+          {
+            "metric_name": "质量培训人次",
+            "unit": "人次",
+            "values": {
+              "2022年": "6,247",
+              "2023年": "7,003",
+              "2024年": "12,169"
+            },
+            "evidence_text": "质量培训人次 人次 2022年 6,247 2023年 7,003 2024年 12,169"
+          },
+          {
+            "metric_name": "客户服务投诉处理率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "客户服务投诉处理率 % 2022年 100 2023年 100 2024年 100"
+          }
+        ]
+      },
+      {
+        "table_title": "研发创新",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "研发投入金额",
+            "unit": "万元",
+            "values": {
+              "2022年": "52,642.27",
+              "2023年": "55,217.10",
+              "2024年": "58,807.54"
+            },
+            "evidence_text": "研发投入金额 万元 2022年 52,642.27 2023年 55,217.10 2024年 58,807.54"
+          },
+          {
+            "metric_name": "研发人员人数",
+            "unit": "人",
+            "values": {
+              "2022年": "1,996",
+              "2023年": "2,054",
+              "2024年": "2,149"
+            },
+            "evidence_text": "研发人员人数 人 2022年 1,996 2023年 2,054 2024年 2,149"
+          },
+          {
+            "metric_name": "研发投入占营收比率",
+            "unit": "%",
+            "values": {
+              "2022年": "4.82",
+              "2023年": "4.89",
+              "2024年": "4.85"
+            },
+            "evidence_text": "研发投入占营收比率 % 2022年 4.82 2023年 4.89 2024年 4.85"
+          },
+          {
+            "metric_name": "已授权专利项目数",
+            "unit": "项",
+            "values": {
+              "2022年": "2,880",
+              "2023年": "3,053",
+              "2024年": "3,232"
+            },
+            "evidence_text": "已授权专利项目数 项 2022年 2,880 2023年 3,053 2024年 3,232"
+          },
+          {
+            "metric_name": "累计申请专利项目数",
+            "unit": "项",
+            "values": {
+              "2022年": "3,785",
+              "2023年": "3,991",
+              "2024年": "4,258"
+            },
+            "evidence_text": "累计申请专利项目数 项 2022年 3,785 2023年 3,991 2024年 4,258"
+          }
+        ]
+      },
+      {
+        "table_title": "供应链",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "供应商总数",
+            "unit": "个",
+            "values": {
+              "2022年": "1,010",
+              "2023年": "7,013",
+              "2024年": "1,043"
+            },
+            "evidence_text": "供应商总数 个 2022年 1,010 2023年 7,013 2024年 1,043"
+          },
+          {
+            "metric_name": "中国内地供应商采购比例",
+            "unit": "%",
+            "values": {
+              "2022年": "97.62",
+              "2023年": "96.13",
+              "2024年": "95.78"
+            },
+            "evidence_text": "中国内地供应商采购比例 % 2022年 97.62 2023年 96.13 2024年 95.78"
+          },
+          {
+            "metric_name": "港澳台及海外供应商采购比例",
+            "unit": "%",
+            "values": {
+              "2022年": "2.38",
+              "2023年": "3.87",
+              "2024年": "4.22"
+            },
+            "evidence_text": "港澳台及海外供应商采购比例 % 2022年 2.38 2023年 3.87 2024年 4.22"
+          },
+          {
+            "metric_name": "供应商签署合规协议覆盖率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "供应商签署合规协议覆盖率 % 2022年 100 2023年 100 2024年 100"
+          }
+        ]
+      },
+      {
+        "table_title": "指标索引表",
+        "columns": [
+          "目录",
+          "中国企业社会责任报告指南 CASS-ESG 6.0",
+          "GRI 可持续发展报告标准 (GRI Standards)",
+          "深圳证券交易所上市公司自律监管指引第 17号——可持续发展报告（试行）"
+        ],
+        "rows": [
+          {
+            "metric_name": "关于本报告",
+            "unit": "",
+            "values": {
+              "中国企业社会责任报告指南 CASS-ESG 6.0": "P1.1-P1.2",
+              "GRI 可持续发展报告标准 (GRI Standards)": "2-2/2-3",
+              "深圳证券交易所上市公司自律监管指引第 17号——可持续发展报告（试行）": "第四条 第六条"
+            },
+            "evidence_text": "关于本报告 P1.1-P1.2 2-2/2-3 第四条 第六条"
+          },
+          {
+            "metric_name": "重要披露事项",
+            "unit": "",
+            "values": {
+              "中国企业社会责任报告指南 CASS-ESG 6.0": "P2.1",
+              "GRI 可持续发展报告标准 (GRI Standards)": "/",
+              "深圳证券交易所上市公司自律监管指引第 17号——可持续发展报告（试行）": "/"
+            },
+            "evidence_text": "重要披露事项 P2.1 / /"
+          },
+          {
+            "metric_name": "聚焦2024",
+            "unit": "",
+            "values": {
+              "中国企业社会责任报告指南 CASS-ESG 6.0": "P3.1",
+              "GRI 可持续发展报告标准 (GRI Standards)": "201-1",
+              "深圳证券交易所上市公司自律监管指引第 17号——可持续发展报告（试行）": "/"
+            },
+            "evidence_text": "聚焦2024 P3.1 201-1 /"
+          },
+          {
+            "metric_name": "公司简介",
+            "unit": "",
+            "values": {
+              "中国企业社会责任报告指南 CASS-ESG 6.0": "P1.1",
+              "GRI 可持续发展报告标准 (GRI Standards)": "2-1",
+              "深圳证券交易所上市公司自律监管指引第 17号——可持续发展报告（试行）": "/"
+            },
+            "evidence_text": "公司简介 P1.1 2-1 /"
+          },
+          {
+            "metric_name": "全球布局",
+            "unit": "",
+            "values": {
+              "中国企业社会责任报告指南 CASS-ESG 6.0": "P3.3",
+              "GRI 可持续发展报告标准 (GRI Standards)": "2-6",
+              "深圳证券交易所上市公司自律监管指引第 17号——可持续发展报告（试行）": "/"
+            },
+            "evidence_text": "全球布局 P3.3 2-6 /"
+          },
+          {
+            "metric_name": "企业文化",
+            "unit": "",
+            "values": {
+              "中国企业社会责任报告指南 CASS-ESG 6.0": "P3.2",
+              "GRI 可持续发展报告标准 (GRI Standards)": "2-1",
+              "深圳证券交易所上市公司自律监管指引第 17号——可持续发展报告（试行）": "/"
+            },
+            "evidence_text": "企业文化 P3.2 2-1 /"
+          },
+          {
+            "metric_name": "发展历程",
+            "unit": "",
+            "values": {
+              "中国企业社会责任报告指南 CASS-ESG 6.0": "P3.1",
+              "GRI 可持续发展报告标准 (GRI Standards)": "2-1",
+              "深圳证券交易所上市公司自律监管指引第 17号——可持续发展报告（试行）": "/"
+            },
+            "evidence_text": "发展历程 P3.1 2-1 /"
+          },
+          {
+            "metric_name": "年度报告",
+            "unit": "",
+            "values": {
+              "中国企业社会责任报告指南 CASS-ESG 6.0": "P1.1",
+              "GRI 可持续发展报告标准 (GRI Standards)": "2-1",
+              "深圳证券交易所上市公司自律监管指引第 17号——可持续发展报告（试行）": "/"
+            },
+            "evidence_text": "年度报告 P1.1 2-1 /"
+          },
+          {
+            "metric_name": "初心不改 表彰奋进者",
+            "unit": "",
+            "values": {
+              "中国企业社会责任报告指南 CASS-ESG 6.0": "P3.1",
+              "GRI 可持续发展报告标准 (GRI Standards)": "2-1",
+              "深圳证券交易所上市公司自律监管指引第 17号——可持续发展报告（试行）": "/"
+            },
+            "evidence_text": "初心不改 表彰奋进者 P3.1 2-1 /"
+          },
+          {
+            "metric_name": "责任专题：二十而励 向往而行",
+            "unit": "",
+            "values": {
+              "中国企业社会责任报告指南 CASS-ESG 6.0": "数字赋能 坚定价值引领 G1112",
+              "GRI 可持续发展报告标准 (GRI Standards)": "/",
+              "深圳证券交易所上市公司自律监管指引第 17号——可持续发展报告（试行）": "第六条"
+            },
+            "evidence_text": "责任专题：二十而励 向往而行 数字赋能 坚定价值引领 G1112 / 第六条"
+          },
+          {
+            "metric_name": "低碳环保 拥抱绿色未来",
+            "unit": "",
+            "values": {
+              "中国企业社会责任报告指南 CASS-ESG 6.0": "P3.2",
+              "GRI 可持续发展报告标准 (GRI Standards)": "302-4",
+              "深圳证券交易所上市公司自律监管指引第 17号——可持续发展报告（试行）": "/"
+            },
+            "evidence_text": "低碳环保 拥抱绿色未来 P3.2 302-4 /"
+          },
+          {
+            "metric_name": "ESG治理体系",
+            "unit": "",
+            "values": {
+              "中国企业社会责任报告指南 CASS-ESG 6.0": "G11.1-G11.3",
+              "GRI 可持续发展报告标准 (GRI Standards)": "2-2",
+              "深圳证券交易所上市公司自律监管指引第 17号——可持续发展报告（试行）": "第十一章 第十二条"
+            },
+            "evidence_text": "ESG治理体系 G11.1-G11.3 2-2 第十一章 第十二条"
+          },
+          {
+            "metric_name": "利益相关方沟通",
+            "unit": "",
+            "values": {
+              "中国企业社会责任报告指南 CASS-ESG 6.0": "G13.2",
+              "GRI 可持续发展报告标准 (GRI Standards)": "2-16/2-29",
+              "深圳证券交易所上市公司自律监管指引第 17号——可持续发展报告（试行）": "第九章 第五十三条"
+            },
+            "evidence_text": "利益相关方沟通 G13.2 2-16/2-29 第九章 第五十三条"
+          },
+          {
+            "metric_name": "关键议题管理",
+            "unit": "",
+            "values": {
+              "中国企业社会责任报告指南 CASS-ESG 6.0": "G11.9",
+              "GRI 可持续发展报告标准 (GRI Standards)": "3-1/3-2/3-3",
+              "深圳证券交易所上市公司自律监管指引第 17号——可持续发展报告（试行）": "第五条"
+            },
+            "evidence_text": "关键议题管理 G11.9 3-1/3-2/3-3 第五条"
+          },
+          {
+            "metric_name": "可持续发展目标",
+            "unit": "",
+            "values": {
+              "中国企业社会责任报告指南 CASS-ESG 6.0": "G11.11",
+              "GRI 可持续发展报告标准 (GRI Standards)": "2-22",
+              "深圳证券交易所上市公司自律监管指引第 17号——可持续发展报告（试行）": "第十一章 第十九条"
+            },
+            "evidence_text": "可持续发展目标 G11.11 2-22 第十一章 第十九条"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_60_left.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "产品与质量",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "质量培训场次",
+            "unit": "次",
+            "values": {
+              "2022年": "150",
+              "2023年": "163",
+              "2024年": "221"
+            },
+            "evidence_text": "质量培训场次 次 2022年 150 2023年 163 2024年 221"
+          },
+          {
+            "metric_name": "质量培训人次",
+            "unit": "人次",
+            "values": {
+              "2022年": "6,247",
+              "2023年": "7,803",
+              "2024年": "12,169"
+            },
+            "evidence_text": "质量培训人次 人次 2022年 6,247 2023年 7,803 2024年 12,169"
+          },
+          {
+            "metric_name": "客户服务投诉处理率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "客户服务投诉处理率 % 2022年 100 2023年 100 2024年 100"
+          }
+        ]
+      },
+      {
+        "table_title": "研发创新",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "研发投入金额",
+            "unit": "万元",
+            "values": {
+              "2022年": "52,642.27",
+              "2023年": "55,217.10",
+              "2024年": "58,807.54"
+            },
+            "evidence_text": "研发投入金额 万元 2022年 52,642.27 2023年 55,217.10 2024年 58,807.54"
+          },
+          {
+            "metric_name": "研发人员人数",
+            "unit": "人",
+            "values": {
+              "2022年": "1,996",
+              "2023年": "2,054",
+              "2024年": "2,149"
+            },
+            "evidence_text": "研发人员人数 人 2022年 1,996 2023年 2,054 2024年 2,149"
+          },
+          {
+            "metric_name": "研发投入占营收比率",
+            "unit": "%",
+            "values": {
+              "2022年": "4.82",
+              "2023年": "4.89",
+              "2024年": "4.85"
+            },
+            "evidence_text": "研发投入占营收比率 % 2022年 4.82 2023年 4.89 2024年 4.85"
+          },
+          {
+            "metric_name": "已授权专利项目数",
+            "unit": "项",
+            "values": {
+              "2022年": "2,880",
+              "2023年": "3,053",
+              "2024年": "3,232"
+            },
+            "evidence_text": "已授权专利项目数 项 2022年 2,880 2023年 3,053 2024年 3,232"
+          },
+          {
+            "metric_name": "累计申请专利项目数",
+            "unit": "项",
+            "values": {
+              "2022年": "3,785",
+              "2023年": "3,991",
+              "2024年": "4,258"
+            },
+            "evidence_text": "累计申请专利项目数 项 2022年 3,785 2023年 3,991 2024年 4,258"
+          }
+        ]
+      },
+      {
+        "table_title": "供应链",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "供应商总数",
+            "unit": "个",
+            "values": {
+              "2022年": "1,010",
+              "2023年": "1,033",
+              "2024年": "1,043"
+            },
+            "evidence_text": "供应商总数 个 2022年 1,010 2023年 1,033 2024年 1,043"
+          },
+          {
+            "metric_name": "中国内地供应商采购比例",
+            "unit": "%",
+            "values": {
+              "2022年": "97.62",
+              "2023年": "96.13",
+              "2024年": "95.78"
+            },
+            "evidence_text": "中国内地供应商采购比例 % 2022年 97.62 2023年 96.13 2024年 95.78"
+          },
+          {
+            "metric_name": "港澳台及海外供应商采购比例",
+            "unit": "%",
+            "values": {
+              "2022年": "2.38",
+              "2023年": "3.87",
+              "2024年": "4.22"
+            },
+            "evidence_text": "港澳台及海外供应商采购比例 % 2022年 2.38 2023年 3.87 2024年 4.22"
+          },
+          {
+            "metric_name": "供应商廉洁协议签署率",
+            "unit": "%",
+            "values": {
+              "2022年": "100",
+              "2023年": "100",
+              "2024年": "100"
+            },
+            "evidence_text": "供应商廉洁协议签署率 % 2022年 100 2023年 100 2024年 100"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_60_right.png",
+    "page_type": "content_index",
+    "page_note": "该页面为指标索引表，列出了不同报告框架下的章节和页码对应关系，不包含具体ESG绩效数值。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_61.png",
+    "page_type": "content_index",
+    "page_note": "页面为ESG报告的目录索引，不包含具体ESG绩效数值。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_61_left.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "ESG 报告附录表格",
+        "columns": [
+          "目录",
+          "中国企业社会责任报告指南 CASS-ESG 6.0",
+          "GRI 可持续发展报告标准 (GRI Standards)",
+          "《深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）》"
+        ],
+        "rows": [
+          {
+            "topic": null,
+            "metric_name": "党建引领",
+            "unit": null,
+            "values": {
+              "2024年": "/"
+            },
+            "evidence_text": "党建引领 / 2-23/2-27 /"
+          },
+          {
+            "topic": null,
+            "metric_name": "规范治理",
+            "unit": null,
+            "values": {
+              "2024年": "/"
+            },
+            "evidence_text": "规范治理 / 2-9/2-27 /"
+          },
+          {
+            "topic": null,
+            "metric_name": "薪酬管理",
+            "unit": null,
+            "values": {
+              "2024年": "/"
+            },
+            "evidence_text": "薪酬管理 / 2-19/2-20 /"
+          },
+          {
+            "topic": "卓越治理筑牢发展基石",
+            "metric_name": "风险管控",
+            "unit": null,
+            "values": {
+              "2024年": "/"
+            },
+            "evidence_text": "卓越治理筑牢发展基石 风险管控 / 2-27/2-25 /"
+          },
+          {
+            "topic": null,
+            "metric_name": "投关管理",
+            "unit": null,
+            "values": {
+              "2024年": "/"
+            },
+            "evidence_text": "投关管理 / 2-16/2-27/2-29 /"
+          },
+          {
+            "topic": null,
+            "metric_name": "商业道德",
+            "unit": null,
+            "values": {
+              "2024年": "G2.1.1-G2.1.3/G2.1.6-G2.1.8"
+            },
+            "evidence_text": "商业道德 G2.1.1-G2.1.3/G2.1.6-G2.1.8 2-27/205-2 第五十五条"
+          },
+          {
+            "topic": null,
+            "metric_name": "依法纳税",
+            "unit": null,
+            "values": {
+              "2024年": "/"
+            },
+            "evidence_text": "依法纳税 / 2-27/207-1/207-2 /"
+          },
+          {
+            "topic": "低碳发展守护绿水青山",
+            "metric_name": "应对气候变化",
+            "unit": null,
+            "values": {
+              "2024年": "E1.1.1-E1.1.8/E1.1.15"
+            },
+            "evidence_text": "低碳发展守护绿水青山 应对气候变化 E1.1.1-E1.1.8/E1.1.15 2-27/201-2/305-1/305-2/302-4/302-5 第二十一条/第二十二条/第二十三条/第二十四条/第二十五条/第二十六条/第二十七条/第二十八条"
+          },
+          {
+            "topic": null,
+            "metric_name": "环境合规管理",
+            "unit": null,
+            "values": {
+              "2024年": "E2.1.1-E2.1.3/E2.1.5-E2.1.9/E2.2.5-E2.2.7/E2.3.1/E2.4.1-E2.4.3"
+            },
+            "evidence_text": "环境合规管理 E2.1.1-E2.1.3/E2.1.5-E2.1.9/E2.2.5-E2.2.7/E2.3.1/E2.4.1-E2.4.3 2-27/303-4/305-7/306-1/306-2/306-3/306-4/306-5 第二十九条/第三十条/第三十一条/第三十三条"
+          },
+          {
+            "topic": null,
+            "metric_name": "能源资源管理",
+            "unit": null,
+            "values": {
+              "2024年": "E3.1.1-E3.1.5/E3.2.3/E3.3.2-E3.3.4"
+            },
+            "evidence_text": "能源资源管理 E3.1.1-E3.1.5/E3.2.3/E3.3.2-E3.3.4 2-27/301-3/302-1/302-3/302-4/302-5/303-3/303-5 第三十五条/第三十六条/第三十七条"
+          },
+          {
+            "topic": null,
+            "metric_name": "绿色低碳发展",
+            "unit": null,
+            "values": {
+              "2024年": "S3.1.4-S3.1.5"
+            },
+            "evidence_text": "绿色低碳发展 S3.1.4-S3.1.5 302-4 第三十五条"
+          },
+          {
+            "topic": null,
+            "metric_name": "生态系统保护",
+            "unit": null,
+            "values": {
+              "2024年": "E2.3.1/E2.3.3"
+            },
+            "evidence_text": "生态系统保护 E2.3.1/E2.3.3 2-27/304-2 第三十二条"
+          },
+          {
+            "topic": "创新引领打造优质服务",
+            "metric_name": "智慧研发 创新驱动",
+            "unit": null,
+            "values": {
+              "2024年": "S2.1.1-S2.1.13"
+            },
+            "evidence_text": "创新引领打造优质服务 智慧研发 创新驱动 S2.1.1-S2.1.13 2-27 第四十二条"
+          },
+          {
+            "topic": null,
+            "metric_name": "优选严管 共筑未来",
+            "unit": null,
+            "values": {
+              "2024年": "S3.1.1-S3.1.4"
+            },
+            "evidence_text": "优选严管 共筑未来 S3.1.1-S3.1.4 2-27/308-1/414-1 第四十五条"
+          },
+          {
+            "topic": null,
+            "metric_name": "服务卓越 品质领先",
+            "unit": null,
+            "values": {
+              "2024年": "S3.3.1-S3.3.2/S3.3.4-S3.3.6"
+            },
+            "evidence_text": "服务卓越 品质领先 S3.3.1-S3.3.2/S3.3.4-S3.3.6 2-27/417-1 第四十七条"
+          },
+          {
+            "topic": null,
+            "metric_name": "信息数据 安全共筑",
+            "unit": null,
+            "values": {
+              "2024年": "S3.41-S3.4.4"
+            },
+            "evidence_text": "信息数据 安全共筑 S3.41-S3.4.4 2-27 第四十八条"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_61_right.png",
+    "page_type": "content_index",
+    "page_note": "该页面为 ESG 报告的目录索引，列出了不同标准下的披露项，并未包含具体的 ESG 绩效数值。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_62.png",
+    "page_type": "other",
+    "page_note": "该页面为意见反馈表，不包含ESG绩效数值，因此不属于performance_data_table。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_62_left.png",
+    "page_type": "other",
+    "page_note": "该页面为意见反馈表，不包含ESG绩效数值，因此不属于performance_data_table。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_62_right.png",
+    "page_type": "other",
+    "page_note": "页面中未发现ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  }
+]

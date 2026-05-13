@@ -1,0 +1,11 @@
+{
+  "total_fields": 68,
+  "route_a_extracted_fields": 14,
+  "route_b_matched_fields": 2,
+  "route_b_filled_fields": 2,
+  "merged_extracted_fields": 16,
+  "missing_fields": 52,
+  "coverage_rate": 0.2353,
+  "route_a_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\standard_esg_results.csv",
+  "route_b_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告\\route_b_text_results.csv"
+}

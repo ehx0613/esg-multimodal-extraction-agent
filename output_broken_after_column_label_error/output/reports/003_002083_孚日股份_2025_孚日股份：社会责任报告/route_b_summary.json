@@ -1,0 +1,7 @@
+{
+  "route_b_available": false,
+  "reason": "no_text_layer_or_too_little_text",
+  "total_pages": 50,
+  "target_fields": 5,
+  "matched_fields": 0
+}

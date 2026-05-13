@@ -1,0 +1,11 @@
+{
+  "total_fields": 1,
+  "route_a_extracted_fields": 0,
+  "route_b_matched_fields": 0,
+  "route_b_filled_fields": 0,
+  "merged_extracted_fields": 0,
+  "missing_fields": 1,
+  "coverage_rate": 0.0,
+  "route_a_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\007_002486_嘉麟杰_2024_嘉麟杰：2024年社会责任报告\\standard_esg_results.csv",
+  "route_b_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\007_002486_嘉麟杰_2024_嘉麟杰：2024年社会责任报告\\route_b_text_results.csv"
+}

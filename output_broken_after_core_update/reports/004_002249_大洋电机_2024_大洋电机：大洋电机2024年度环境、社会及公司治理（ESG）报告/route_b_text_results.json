@@ -1,0 +1,77 @@
+[
+  {
+    "field_key": "board_esg_oversight",
+    "field_name_cn": "董事会 ESG 监督机制",
+    "category": "G",
+    "matched": true,
+    "value": true,
+    "summary": "董事会负责审议和批准公司的ESG管理制度、ESG报告及重大事项。",
+    "evidence": "董事会决定公司ESG发展方向、战略和目标，审议和批准公司的ESG管理制度、ESG报告和ESG重大事项。",
+    "source_pages": [
+      14
+    ],
+    "confidence": 0.95,
+    "reason": "正文明确披露了董事会在ESG管理中的监督职责。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "esg_committee",
+    "field_name_cn": "ESG 委员会或可持续发展委员会",
+    "category": "G",
+    "matched": true,
+    "value": true,
+    "summary": "公司建立了ESG委员会或可持续发展委员会机制。",
+    "evidence": "公司建立由董事会、战略与ESG委员会、ESG工作小组构成的ESG管理架构。",
+    "source_pages": [
+      14
+    ],
+    "confidence": 0.95,
+    "reason": "正文明确披露了战略与ESG委员会作为ESG管理架构的一部分。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "anti_corruption_policy",
+    "field_name_cn": "反腐败政策",
+    "category": "G",
+    "matched": true,
+    "value": true,
+    "summary": "公司建立了反腐败或举报相关制度。",
+    "evidence": "公司将《反舞弊与举报管理制度》与《廉洁管理制度》整合为《廉洁与反舞弊管理制度》，对腐败、商业贿赂等行为持“零容忍”态度。",
+    "source_pages": [
+      23
+    ],
+    "confidence": 0.86,
+    "reason": "正文明确披露了该机制。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "whistleblowing_mechanism",
+    "field_name_cn": "举报机制",
+    "category": "G",
+    "matched": true,
+    "value": true,
+    "summary": "公司建立了反腐败或举报相关制度。",
+    "evidence": "公司建立畅通的举报渠道和举报人保护机制，鼓励通过电话、邮件等多种方式举报舞弊案件。",
+    "source_pages": [
+      23
+    ],
+    "confidence": 0.86,
+    "reason": "正文明确披露了该机制。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "supplier_esg_assessment",
+    "field_name_cn": "供应商 ESG 评估机制",
+    "category": "S",
+    "matched": true,
+    "value": true,
+    "summary": "公司建立了供应商ESG评估机制，将环境、社会、治理因素纳入考核体系，并开展ESG实践评估问卷。",
+    "evidence": "公司高度关注供应商的可持续发展与ESG治理，将环境影响、污染排放、职业安全、社会公益、商业道德等纳入供应商评估考核体系。报告期内，公司向60家供应商发放《供应商ESG实践评估问卷》。",
+    "source_pages": [
+      42
+    ],
+    "confidence": 0.95,
+    "reason": "正文明确披露了该机制。",
+    "route": "B_text_rag"
+  }
+]

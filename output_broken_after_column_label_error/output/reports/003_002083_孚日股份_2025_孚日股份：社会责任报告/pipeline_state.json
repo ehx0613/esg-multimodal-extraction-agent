@@ -1,0 +1,3081 @@
+{
+  "pdf_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\data\\raw\\002083_孚日股份_2025_孚日股份：社会责任报告.pdf",
+  "output_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告",
+  "sniffer_result": {
+    "found": true,
+    "total_pages": 50,
+    "candidates": [],
+    "expanded_page_numbers": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "candidate_pages": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+    ],
+    "scan_ratio": 0.4,
+    "scan_start_page": 31
+  },
+  "appendix_found": true,
+  "candidate_pages": [
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+  ],
+  "page_images": [
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_39.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_39_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_39_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_40.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_40_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_40_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_41.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_41_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_41_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_42.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_42_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_42_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_43.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_43_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_43_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_44.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_44_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_44_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_45.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_45_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_45_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_46.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_46_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_46_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_47.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_47_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_47_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_48.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_48_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_48_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_49.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_49_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_49_right.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_50.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_50_left.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告\\page_images\\page_50_right.png"
+  ],
+  "all_table_rows": [
+    {
+      "page_image": "page_39.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': 'String value length (28049408) exceeds the maximum allowed (28000000, from `StreamReadConstraints.getMaxStringLength()`)', 'type': 'invalid_request_error', 'param': None, 'code': None}, 'request_id': '069b7c61-735b-9171-83f8-71366658e4b2'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_39_left.png",
+      "page_type": "other",
+      "page_note": "该页面为Sunvim孚日股份2024年度可持续发展报告的智能化制造和产品质量相关内容，未包含具体ESG绩效数值表。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_39_right.png",
+      "page_type": "other",
+      "page_note": "该页面主要展示了公司的质量管理架构和相关认证信息，未包含具体的 ESG 绩效数值表。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_40.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': 'String value length (28049408) exceeds the maximum allowed (28000000, from `StreamReadConstraints.getMaxStringLength()`)', 'type': 'invalid_request_error', 'param': None, 'code': None}, 'request_id': '876d7208-2bd6-966d-8a07-d6b3db4d8439'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_40_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为质量改进工作的描述，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_40_right.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "2024年质量目标及达成情况",
+          "columns": [
+            "类别",
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "topic": null,
+              "metric_name": "出厂产品批次合格率",
+              "unit": "%",
+              "values": {
+                "2024年": "100"
+              },
+              "evidence_text": "目标 出厂产品批次合格率 % 2024年 100"
+            },
+            {
+              "topic": null,
+              "metric_name": "顾客满意度",
+              "unit": "%",
+              "values": {
+                "2024年": "80"
+              },
+              "evidence_text": "目标 顾客满意度 % 2024年 80"
+            },
+            {
+              "topic": null,
+              "metric_name": "产品综合一等品率",
+              "unit": "%",
+              "values": {
+                "2024年": "94"
+              },
+              "evidence_text": "目标 产品综合一等品率 % 2024年 94"
+            },
+            {
+              "topic": null,
+              "metric_name": "出厂产品批次合格率",
+              "unit": "%",
+              "values": {
+                "2024年": "100"
+              },
+              "evidence_text": "完成情况 出厂产品批次合格率 % 2024年 100"
+            },
+            {
+              "topic": null,
+              "metric_name": "顾客满意度",
+              "unit": "%",
+              "values": {
+                "2024年": "95.04"
+              },
+              "evidence_text": "完成情况 顾客满意度 % 2024年 95.04"
+            },
+            {
+              "topic": null,
+              "metric_name": "产品综合一等品率",
+              "unit": "%",
+              "values": {
+                "2024年": "98.15"
+              },
+              "evidence_text": "完成情况 产品综合一等品率 % 2024年 98.15"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_41.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': 'Exceeded limit on max bytes per data-uri item : 20971520', 'type': 'invalid_request_error', 'param': None, 'code': None}, 'request_id': '4cecff14-6592-9dd6-9cfc-c5197d9a039f'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_41_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为客户服务管理体系介绍，未包含具体ESG绩效数值表。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_41_right.png",
+      "page_type": "other",
+      "page_note": "页面内容为售后服务政策和服务认证描述，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_42.png",
+      "page_type": "error",
+      "page_note": "Connection error.",
+      "tables": []
+    },
+    {
+      "page_image": "page_42_left.png",
+      "page_type": "other",
+      "page_note": "图片中未包含ESG绩效数据表格，仅显示多只手叠放的图像，无法进行ESG报告附录表格的OCR抽取。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_42_right.png",
+      "page_type": "other",
+      "page_note": "该页面为章节标题页，未包含ESG绩效数据表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_43.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': 'Exceeded limit on max bytes per data-uri item : 20971520', 'type': 'invalid_request_error', 'param': None, 'code': None}, 'request_id': '38202f55-30a2-9df6-a176-b83648ff1094'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_43_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为供应链管理相关描述，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_43_right.png",
+      "page_type": "other",
+      "page_note": "页面内容为公司开展数字化采购和供应商分级管理的描述，未包含具体ESG绩效数值表。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_44.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': '<400> InternalError.Algo.InvalidParameter: Multimodal file size is too large', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_parameter_error'}, 'id': 'chatcmpl-a0c26ae3-125d-92f3-9f6f-7a6e24164135', 'request_id': 'a0c26ae3-125d-92f3-9f6f-7a6e24164135'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_44_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为可持续采购的描述性文字，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_44_right.png",
+      "page_type": "other",
+      "page_note": "页面内容为绿色供应链建设的相关描述，未包含具体ESG绩效数值表。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_45.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': 'String value length (28049408) exceeds the maximum allowed (28000000, from `StreamReadConstraints.getMaxStringLength()`)', 'type': 'invalid_request_error', 'param': None, 'code': None}, 'request_id': '653d3fef-e232-9667-becf-2aa9e485d8b0'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_45_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为可持续发展报告的文字描述，未包含具体ESG绩效数据表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_45_right.png",
+      "page_type": "other",
+      "page_note": "页面内容为行业合作与共进的描述，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_46.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': 'Exceeded limit on max bytes per data-uri item : 20971520', 'type': 'invalid_request_error', 'param': None, 'code': None}, 'request_id': 'cb928b88-6736-91ff-ab5e-5aa69e72ed29'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_46_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为公司对待中小企业政策及乡村振兴与社会贡献的描述，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_46_right.png",
+      "page_type": "other",
+      "page_note": "页面内容为集团社会责任介绍，包含公益捐赠活动、资金投入详情及所获荣誉奖项，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_47.png",
+      "page_type": "error",
+      "page_note": "Connection error.",
+      "tables": []
+    },
+    {
+      "page_image": "page_47_left.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': '<400> InternalError.Algo.InvalidParameter: Multimodal file size is too large', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_parameter_error'}, 'id': 'chatcmpl-43fd0da7-ab52-9a48-a185-c3b94ec66e90', 'request_id': '43fd0da7-ab52-9a48-a185-c3b94ec66e90'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_47_right.png",
+      "page_type": "other",
+      "page_note": "该页面为报告附录章节的标题页，未包含ESG绩效数据表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_48.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': '<400> InternalError.Algo.InvalidParameter: Multimodal file size is too large', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_parameter_error'}, 'id': 'chatcmpl-fa567fda-3d91-9928-897c-15293d52fd83', 'request_id': 'fa567fda-3d91-9928-897c-15293d52fd83'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_48_left.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "量化数据绩效表-环境绩效",
+          "columns": [
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "环保总投入",
+              "unit": "万元",
+              "values": {
+                "2024年": "11,661.00"
+              },
+              "evidence_text": "环保总投入 万元 2024年 11,661.00"
+            },
+            {
+              "metric_name": "环境行政处罚金额",
+              "unit": "万元",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "环境行政处罚金额 万元 2024年 0"
+            },
+            {
+              "topic": "能源总量情况",
+              "metric_name": "综合能源消耗总量",
+              "unit": "吨标煤",
+              "values": {
+                "2024年": "100,051.00"
+              },
+              "evidence_text": "能源总量情况 综合能源消耗总量 吨标煤 2024年 100,051.00"
+            },
+            {
+              "metric_name": "直接能源消耗量",
+              "unit": "吨标煤",
+              "values": {
+                "2024年": "100,051.00"
+              },
+              "evidence_text": "直接能源消耗量 吨标煤 2024年 100,051.00"
+            },
+            {
+              "metric_name": "间接能源消耗量",
+              "unit": "吨标煤",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "间接能源消耗量 吨标煤 2024年 0"
+            },
+            {
+              "topic": "综合能源消耗总量按能源类型区分",
+              "metric_name": "煤炭",
+              "unit": "吨",
+              "values": {
+                "2024年": "482,484.00"
+              },
+              "evidence_text": "综合能源消耗总量按能源类型区分 煤炭 吨 2024年 482,484.00"
+            },
+            {
+              "metric_name": "汽油",
+              "unit": "升",
+              "values": {
+                "2024年": "16,483.00"
+              },
+              "evidence_text": "汽油 升 2024年 16,483.00"
+            },
+            {
+              "metric_name": "柴油",
+              "unit": "升",
+              "values": {
+                "2024年": "379,720.00"
+              },
+              "evidence_text": "柴油 升 2024年 379,720.00"
+            },
+            {
+              "metric_name": "热力",
+              "unit": "百万千焦",
+              "values": {
+                "2024年": "1,329,091.00"
+              },
+              "evidence_text": "热力 百万千焦 2024年 1,329,091.00"
+            },
+            {
+              "metric_name": "电力",
+              "unit": "兆瓦时",
+              "values": {
+                "2024年": "91,040.00"
+              },
+              "evidence_text": "电力 兆瓦时 2024年 91,040.00"
+            },
+            {
+              "metric_name": "生物质能（用于燃料）",
+              "unit": "吨标准煤",
+              "values": {
+                "2024年": "4,037.00"
+              },
+              "evidence_text": "生物质能（用于燃料） 吨标准煤 2024年 4,037.00"
+            },
+            {
+              "metric_name": "其他燃料",
+              "unit": "吨标准煤",
+              "values": {
+                "2024年": "18,081.00"
+              },
+              "evidence_text": "其他燃料 吨标准煤 2024年 18,081.00"
+            },
+            {
+              "topic": "水资源使用",
+              "metric_name": "取水总量",
+              "unit": "吨",
+              "values": {
+                "2024年": "16,582,429.00"
+              },
+              "evidence_text": "水资源使用 取水总量 吨 2024年 16,582,429.00"
+            },
+            {
+              "metric_name": "耗水量",
+              "unit": "吨",
+              "values": {
+                "2024年": "1,623,804.00"
+              },
+              "evidence_text": "耗水量 吨 2024年 1,623,804.00"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "温室气体排放总量",
+              "unit": "吨",
+              "values": {
+                "2024年": "1,035,977.00"
+              },
+              "evidence_text": "应对气候变化 温室气体排放总量 吨 2024年 1,035,977.00"
+            },
+            {
+              "metric_name": "废气总量",
+              "unit": "万立方米",
+              "values": {
+                "2024年": "608,761.77"
+              },
+              "evidence_text": "废气总量 万立方米 2024年 608,761.77"
+            },
+            {
+              "topic": "大气污染排放",
+              "metric_name": "氮氧化物 (NOx)",
+              "unit": "吨",
+              "values": {
+                "2024年": "171.60"
+              },
+              "evidence_text": "大气污染排放 氮氧化物 (NOx) 吨 2024年 171.60"
+            },
+            {
+              "metric_name": "氧化硫 (SOx)",
+              "unit": "吨",
+              "values": {
+                "2024年": "79.30"
+              },
+              "evidence_text": "氧化硫 (SOx) 吨 2024年 79.30"
+            },
+            {
+              "metric_name": "颗粒物质(PM)",
+              "unit": "吨",
+              "values": {
+                "2024年": "7.48"
+              },
+              "evidence_text": "颗粒物质(PM) 吨 2024年 7.48"
+            },
+            {
+              "topic": "废水排放",
+              "metric_name": "工业废水总量",
+              "unit": "立方米",
+              "values": {
+                "2024年": "6,976,449.00"
+              },
+              "evidence_text": "废水排放 工业废水总量 立方米 2024年 6,976,449.00"
+            },
+            {
+              "metric_name": "生活废水总量",
+              "unit": "立方米",
+              "values": {
+                "2024年": "34,838.00"
+              },
+              "evidence_text": "生活废水总量 立方米 2024年 34,838.00"
+            },
+            {
+              "metric_name": "化学需氧量 (COD)",
+              "unit": "吨",
+              "values": {
+                "2024年": "545.78"
+              },
+              "evidence_text": "化学需氧量 (COD) 吨 2024年 545.78"
+            },
+            {
+              "metric_name": "氨氮 (NH3-N)",
+              "unit": "吨",
+              "values": {
+                "2024年": "2.12"
+              },
+              "evidence_text": "氨氮 (NH3-N) 吨 2024年 2.12"
+            },
+            {
+              "metric_name": "总氮 (TN)",
+              "unit": "吨",
+              "values": {
+                "2024年": "66.76"
+              },
+              "evidence_text": "总氮 (TN) 吨 2024年 66.76"
+            },
+            {
+              "topic": "固体废弃物排放",
+              "metric_name": "废弃物产生总量",
+              "unit": "吨",
+              "values": {
+                "2024年": "16,578.53"
+              },
+              "evidence_text": "固体废弃物排放 废弃物产生总量 吨 2024年 16,578.53"
+            },
+            {
+              "metric_name": "无害废弃物产生总量",
+              "unit": "吨",
+              "values": {
+                "2024年": "16,535.40"
+              },
+              "evidence_text": "无害废弃物产生总量 吨 2024年 16,535.40"
+            },
+            {
+              "metric_name": "有害废弃物产生总量",
+              "unit": "吨",
+              "values": {
+                "2024年": "43.13"
+              },
+              "evidence_text": "有害废弃物产生总量 吨 2024年 43.13"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_48_right.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "社会绩效",
+          "columns": [
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "劳动合同签订率",
+              "unit": "%",
+              "values": {
+                "2024年": "100"
+              },
+              "evidence_text": "劳动合同签订率 % 2024年 100"
+            },
+            {
+              "metric_name": "社会保险覆盖率",
+              "unit": "%",
+              "values": {
+                "2024年": "100"
+              },
+              "evidence_text": "社会保险覆盖率 % 2024年 100"
+            },
+            {
+              "metric_name": "员工总数",
+              "unit": "人",
+              "values": {
+                "2024年": "11,000"
+              },
+              "evidence_text": "员工总数 人 2024年 11,000"
+            },
+            {
+              "metric_name": "男性员工数量",
+              "unit": "人",
+              "values": {
+                "2024年": "5,402"
+              },
+              "evidence_text": "男性员工数量 人 2024年 5,402"
+            },
+            {
+              "metric_name": "女性员工数量",
+              "unit": "人",
+              "values": {
+                "2024年": "5,598"
+              },
+              "evidence_text": "女性员工数量 人 2024年 5,598"
+            },
+            {
+              "metric_name": "30岁以下员工数量",
+              "unit": "人",
+              "values": {
+                "2024年": "1,182"
+              },
+              "evidence_text": "30岁以下员工数量 人 2024年 1,182"
+            },
+            {
+              "metric_name": "30-50岁员工数量",
+              "unit": "人",
+              "values": {
+                "2024年": "8,714"
+              },
+              "evidence_text": "30-50岁员工数量 人 2024年 8,714"
+            },
+            {
+              "metric_name": "50岁以上员工数量",
+              "unit": "人",
+              "values": {
+                "2024年": "1,104"
+              },
+              "evidence_text": "50岁以上员工数量 人 2024年 1,104"
+            },
+            {
+              "metric_name": "本科学历及以上员工数量",
+              "unit": "人",
+              "values": {
+                "2024年": "566"
+              },
+              "evidence_text": "本科学历及以上员工数量 人 2024年 566"
+            },
+            {
+              "metric_name": "大专学历员工数量",
+              "unit": "人",
+              "values": {
+                "2024年": "1,207"
+              },
+              "evidence_text": "大专学历员工数量 人 2024年 1,207"
+            },
+            {
+              "metric_name": "高中中专学历员工数量",
+              "unit": "人",
+              "values": {
+                "2024年": "2,115"
+              },
+              "evidence_text": "高中中专学历员工数量 人 2024年 2,115"
+            },
+            {
+              "metric_name": "初中学历员工数量",
+              "unit": "人",
+              "values": {
+                "2024年": "6,969"
+              },
+              "evidence_text": "初中学历员工数量 人 2024年 6,969"
+            },
+            {
+              "metric_name": "员工流失率",
+              "unit": "%",
+              "values": {
+                "2024年": "10"
+              },
+              "evidence_text": "员工流失率 % 2024年 10"
+            },
+            {
+              "metric_name": "新增就业人数",
+              "unit": "人",
+              "values": {
+                "2024年": "1,167"
+              },
+              "evidence_text": "新增就业人数 人 2024年 1,167"
+            },
+            {
+              "metric_name": "新增职业病例数",
+              "unit": "例",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "新增职业病例数 例 2024年 0"
+            },
+            {
+              "metric_name": "人均带薪年休假天数",
+              "unit": "天",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "人均带薪年休假天数 天 2024年 0"
+            },
+            {
+              "metric_name": "人均培训时长",
+              "unit": "小时",
+              "values": {
+                "2024年": "14"
+              },
+              "evidence_text": "人均培训时长 小时 2024年 14"
+            },
+            {
+              "metric_name": "员工培训覆盖率",
+              "unit": "%",
+              "values": {
+                "2024年": "100"
+              },
+              "evidence_text": "员工培训覆盖率 % 2024年 100"
+            },
+            {
+              "metric_name": "员工满意度",
+              "unit": "%",
+              "values": {
+                "2024年": "100"
+              },
+              "evidence_text": "员工满意度 % 2024年 100"
+            },
+            {
+              "metric_name": "劳动纠纷案件数量",
+              "unit": "件",
+              "values": {
+                "2024年": "12"
+              },
+              "evidence_text": "劳动纠纷案件数量 件 2024年 12"
+            },
+            {
+              "metric_name": "安全生产",
+              "unit": null,
+              "values": null,
+              "evidence_text": "安全生产"
+            },
+            {
+              "metric_name": "安全培训人次",
+              "unit": "人次",
+              "values": {
+                "2024年": "11,000"
+              },
+              "evidence_text": "安全培训人次 人次 2024年 11,000"
+            },
+            {
+              "metric_name": "安全培训覆盖率",
+              "unit": "%",
+              "values": {
+                "2024年": "100"
+              },
+              "evidence_text": "安全培训覆盖率 % 2024年 100"
+            },
+            {
+              "metric_name": "连续安全运行天数",
+              "unit": "天",
+              "values": {
+                "2024年": "365"
+              },
+              "evidence_text": "连续安全运行天数 天 2024年 365"
+            },
+            {
+              "metric_name": "员工工伤人数",
+              "unit": "人",
+              "values": {
+                "2024年": "27"
+              },
+              "evidence_text": "员工工伤人数 人 2024年 27"
+            },
+            {
+              "metric_name": "事故员工千人死亡率",
+              "unit": "‰",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "事故员工千人死亡率 ‰ 2024年 0"
+            },
+            {
+              "metric_name": "重大安全事故发生次数",
+              "unit": "次",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "重大安全事故发生次数 次 2024年 0"
+            },
+            {
+              "metric_name": "产品责任",
+              "unit": null,
+              "values": null,
+              "evidence_text": "产品责任"
+            },
+            {
+              "metric_name": "产品召回比例",
+              "unit": "%",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "产品召回比例 % 2024年 0"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_49.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': 'Exceeded limit on max bytes per data-uri item : 20971520', 'type': 'invalid_request_error', 'param': None, 'code': None}, 'request_id': '2f6245a6-9d2d-952b-ae9b-aa2e38850ea7'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_49_left.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "社会绩效",
+          "columns": [
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "产品合格率",
+              "unit": "%",
+              "values": {
+                "2024年": "98.46"
+              },
+              "evidence_text": "产品责任 产品合格率 % 2024年 98.46"
+            },
+            {
+              "metric_name": "产品退货率",
+              "unit": "%",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "产品责任 产品退货率 % 2024年 0"
+            },
+            {
+              "metric_name": "客户满意度",
+              "unit": "%",
+              "values": {
+                "2024年": "95.04"
+              },
+              "evidence_text": "产品责任 客户满意度 % 2024年 95.04"
+            },
+            {
+              "metric_name": "投诉数量",
+              "unit": "%",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "产品责任 投诉数量 % 2024年 0"
+            },
+            {
+              "metric_name": "投诉处理率",
+              "unit": "人",
+              "values": {
+                "2024年": "100"
+              },
+              "evidence_text": "产品责任 投诉处理率 人 2024年 100"
+            },
+            {
+              "metric_name": "公益慈善捐赠总金额",
+              "unit": "万元",
+              "values": {
+                "2024年": "10"
+              },
+              "evidence_text": "慈善捐赠 公益慈善捐赠总金额 万元 2024年 10"
+            },
+            {
+              "metric_name": "供应商总数",
+              "unit": "家",
+              "values": {
+                "2024年": "2307"
+              },
+              "evidence_text": "供应商管理 供应商总数 家 2024年 2307"
+            },
+            {
+              "metric_name": "省内供应商总数",
+              "unit": "家",
+              "values": {
+                "2024年": "1368"
+              },
+              "evidence_text": "供应商管理 省内供应商总数 家 2024年 1368"
+            },
+            {
+              "metric_name": "国内供应商总数",
+              "unit": "家",
+              "values": {
+                "2024年": "2268"
+              },
+              "evidence_text": "供应商管理 国内供应商总数 家 2024年 2268"
+            },
+            {
+              "metric_name": "海外（含港澳台）供应商总数",
+              "unit": "家",
+              "values": {
+                "2024年": "39"
+              },
+              "evidence_text": "供应商管理 海外（含港澳台）供应商总数 家 2024年 39"
+            },
+            {
+              "metric_name": "本省供应商采购比例",
+              "unit": "%",
+              "values": {
+                "2024年": "60.3"
+              },
+              "evidence_text": "供应商管理 本省供应商采购比例 % 2024年 60.3"
+            },
+            {
+              "metric_name": "签订廉洁条款的供应商比例",
+              "unit": "%",
+              "values": {
+                "2024年": "100"
+              },
+              "evidence_text": "供应商管理 签订廉洁条款的供应商比例 % 2024年 100"
+            },
+            {
+              "metric_name": "研发投入金额",
+              "unit": "万元",
+              "values": {
+                "2024年": "28,671.57"
+              },
+              "evidence_text": "研发创新 研发投入金额 万元 2024年 28,671.57"
+            },
+            {
+              "metric_name": "研发人员人数",
+              "unit": "人",
+              "values": {
+                "2024年": "324"
+              },
+              "evidence_text": "研发创新 研发人员人数 人 2024年 324"
+            },
+            {
+              "metric_name": "研发员工比例",
+              "unit": "%",
+              "values": {
+                "2024年": "2.98"
+              },
+              "evidence_text": "研发创新 研发员工比例 % 2024年 2.98"
+            },
+            {
+              "metric_name": "研发投入占营收比例",
+              "unit": "%",
+              "values": {
+                "2024年": "5.36"
+              },
+              "evidence_text": "研发创新 研发投入占营收比例 % 2024年 5.36"
+            },
+            {
+              "metric_name": "报告期内有效专利数",
+              "unit": "项",
+              "values": {
+                "2024年": "87"
+              },
+              "evidence_text": "研发创新 报告期内有效专利数 项 2024年 87"
+            },
+            {
+              "metric_name": "报告期内发明专利的申请数",
+              "unit": "项",
+              "values": {
+                "2024年": "4"
+              },
+              "evidence_text": "研发创新 报告期内发明专利的申请数 项 2024年 4"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_49_right.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "治理绩效",
+          "columns": [
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "董事会成员的人数",
+              "unit": "人",
+              "values": {
+                "2024年": "9"
+              },
+              "evidence_text": "董事会成员的人数 人 2024年 9"
+            },
+            {
+              "metric_name": "不兼任高管职务的董事人数",
+              "unit": "人",
+              "values": {
+                "2024年": "5"
+              },
+              "evidence_text": "不兼任高管职务的董事人数 人 2024年 5"
+            },
+            {
+              "metric_name": "独董人数",
+              "unit": "人",
+              "values": {
+                "2024年": "3"
+              },
+              "evidence_text": "独董人数 人 2024年 3"
+            },
+            {
+              "metric_name": "独董人均薪酬",
+              "unit": "万元",
+              "values": {
+                "2024年": "8"
+              },
+              "evidence_text": "独董人均薪酬 万元 2024年 8"
+            },
+            {
+              "metric_name": "独立董事比例",
+              "unit": "%",
+              "values": {
+                "2024年": "33.30"
+              },
+              "evidence_text": "独立董事比例 % 2024年 33.30"
+            },
+            {
+              "metric_name": "审计委员会独董占比",
+              "unit": "%",
+              "values": {
+                "2024年": "66.60"
+              },
+              "evidence_text": "审计委员会独董占比 % 2024年 66.60"
+            },
+            {
+              "metric_name": "提名委员会独董占比",
+              "unit": "%",
+              "values": {
+                "2024年": "66.60"
+              },
+              "evidence_text": "提名委员会独董占比 % 2024年 66.60"
+            },
+            {
+              "metric_name": "薪酬与考核委员会独董占比",
+              "unit": "%",
+              "values": {
+                "2024年": "66.60"
+              },
+              "evidence_text": "薪酬与考核委员会独董占比 % 2024年 66.60"
+            },
+            {
+              "metric_name": "女性董事占比",
+              "unit": "%",
+              "values": {
+                "2024年": "22.20"
+              },
+              "evidence_text": "女性董事占比 % 2024年 22.20"
+            },
+            {
+              "metric_name": "召开董事会会议次数",
+              "unit": "次",
+              "values": {
+                "2024年": "7"
+              },
+              "evidence_text": "召开董事会会议次数 次 2024年 7"
+            },
+            {
+              "metric_name": "审议董事会案个数",
+              "unit": "次",
+              "values": {
+                "2024年": "37"
+              },
+              "evidence_text": "审议董事会案个数 次 2024年 37"
+            },
+            {
+              "metric_name": "董事参会比例",
+              "unit": "%",
+              "values": {
+                "2024年": "100"
+              },
+              "evidence_text": "董事参会比例 % 2024年 100"
+            },
+            {
+              "metric_name": "召开监事会会议次数",
+              "unit": "次",
+              "values": {
+                "2024年": "2"
+              },
+              "evidence_text": "召开监事会会议次数 次 2024年 2"
+            },
+            {
+              "metric_name": "审议监事会案个数",
+              "unit": "次",
+              "values": {
+                "2024年": "9"
+              },
+              "evidence_text": "审议监事会案个数 次 2024年 9"
+            },
+            {
+              "metric_name": "监事参会比例",
+              "unit": "%",
+              "values": {
+                "2024年": "100"
+              },
+              "evidence_text": "监事参会比例 % 2024年 100"
+            },
+            {
+              "metric_name": "召开股东大会、临时股东大会次数",
+              "unit": "次",
+              "values": {
+                "2024年": "2"
+              },
+              "evidence_text": "召开股东大会、临时股东大会次数 次 2024年 2"
+            },
+            {
+              "metric_name": "参与股东大会、临时股东大会人数",
+              "unit": "次",
+              "values": {
+                "2024年": "2"
+              },
+              "evidence_text": "参与股东大会、临时股东大会人数 次 2024年 2"
+            },
+            {
+              "metric_name": "召开投资者电话会次数",
+              "unit": "次",
+              "values": {
+                "2024年": "6"
+              },
+              "evidence_text": "召开投资者电话会次数 次 2024年 6"
+            },
+            {
+              "metric_name": "交易所互动平台回复投资人问题次数",
+              "unit": "次",
+              "values": {
+                "2024年": "51"
+              },
+              "evidence_text": "交易所互动平台回复投资人问题次数 次 2024年 51"
+            },
+            {
+              "metric_name": "对外发布公告数量",
+              "unit": "份",
+              "values": {
+                "2024年": "83"
+              },
+              "evidence_text": "对外发布公告数量 份 2024年 83"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_50.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': '<400> InternalError.Algo.InvalidParameter: Multimodal file size is too large', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_parameter_error'}, 'id': 'chatcmpl-92a95b76-107e-9e52-818f-e1bf76448f01', 'request_id': '92a95b76-107e-9e52-818f-e1bf76448f01'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_50_left.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "指标索引",
+          "columns": [
+            "维度",
+            "序号",
+            "议题",
+            "对应条款",
+            "对应章节"
+          ],
+          "rows": [
+            {
+              "topic": "环境",
+              "metric_name": "应对气候变化",
+              "unit": "",
+              "values": {
+                "2024年": "第二十一条至第二十八条"
+              },
+              "evidence_text": "环境 1 应对气候变化 第二十一条至第二十八条 环境管理——应对气候变化"
+            },
+            {
+              "topic": "环境",
+              "metric_name": "污染物排放",
+              "unit": "",
+              "values": {
+                "2024年": "第三十条"
+              },
+              "evidence_text": "环境 2 污染物排放 第三十条 环境管理——污染排放"
+            },
+            {
+              "topic": "环境",
+              "metric_name": "废弃物处理",
+              "unit": "",
+              "values": {
+                "2024年": "第三十一条"
+              },
+              "evidence_text": "环境 3 废弃物处理 第三十一条 环境管理——污染排放"
+            },
+            {
+              "topic": "环境",
+              "metric_name": "生态系统和生物多样性保护",
+              "unit": "",
+              "values": {
+                "2024年": "第三十二条"
+              },
+              "evidence_text": "环境 4 生态系统和生物多样性保护 第三十二条 环境保护与生物多样性"
+            },
+            {
+              "topic": "环境",
+              "metric_name": "环境合规管理",
+              "unit": "",
+              "values": {
+                "2024年": "第三十三条"
+              },
+              "evidence_text": "环境 5 环境合规管理 第三十三条 环境管理体系"
+            },
+            {
+              "topic": "环境",
+              "metric_name": "能源利用",
+              "unit": "",
+              "values": {
+                "2024年": "第三十五条"
+              },
+              "evidence_text": "环境 6 能源利用 第三十五条 环境管理——资源消耗与循环利用"
+            },
+            {
+              "topic": "环境",
+              "metric_name": "水资源利用",
+              "unit": "",
+              "values": {
+                "2024年": "第三十六条"
+              },
+              "evidence_text": "环境 7 水资源利用 第三十六条 环境管理——资源消耗与循环利用"
+            },
+            {
+              "topic": "环境",
+              "metric_name": "循环经济",
+              "unit": "",
+              "values": {
+                "2024年": "第三十七条"
+              },
+              "evidence_text": "环境 8 循环经济 第三十七条 环境管理——资源消耗与循环利用"
+            },
+            {
+              "topic": "社会",
+              "metric_name": "乡村振兴",
+              "unit": "",
+              "values": {
+                "2024年": "第三十九条"
+              },
+              "evidence_text": "社会 9 乡村振兴 第三十九条 伙伴合作与行业共进——乡村振兴与社会贡献"
+            },
+            {
+              "topic": "社会",
+              "metric_name": "社会贡献",
+              "unit": "",
+              "values": {
+                "2024年": "第四十条"
+              },
+              "evidence_text": "社会 10 社会贡献 第四十条 伙伴合作与行业共进——乡村振兴与社会贡献"
+            },
+            {
+              "topic": "社会",
+              "metric_name": "创新驱动",
+              "unit": "",
+              "values": {
+                "2024年": "第四十二条"
+              },
+              "evidence_text": "社会 11 创新驱动 第四十二条 产品责任——科技创新"
+            },
+            {
+              "topic": "社会",
+              "metric_name": "科技伦理",
+              "unit": "",
+              "values": {
+                "2024年": "第四十三条"
+              },
+              "evidence_text": "社会 12 科技伦理 第四十三条 产品责任——科技创新"
+            },
+            {
+              "topic": "社会",
+              "metric_name": "供应链安全",
+              "unit": "",
+              "values": {
+                "2024年": "第四十五条"
+              },
+              "evidence_text": "社会 13 供应链安全 第四十五条 伙伴合作与行业共进——供应链管理"
+            },
+            {
+              "topic": "社会",
+              "metric_name": "平等对待中小企业",
+              "unit": "",
+              "values": {
+                "2024年": "第四十六条"
+              },
+              "evidence_text": "社会 14 平等对待中小企业 第四十六条 伙伴合作与行业共进——平等对待中小企业"
+            },
+            {
+              "topic": "社会",
+              "metric_name": "产品和服务安全与质量",
+              "unit": "",
+              "values": {
+                "2024年": "第四十七条"
+              },
+              "evidence_text": "社会 15 产品和服务安全与质量 第四十七条 产品责任——产品质量"
+            },
+            {
+              "topic": "社会",
+              "metric_name": "数据安全与客户隐私保护",
+              "unit": "",
+              "values": {
+                "2024年": "第四十八条"
+              },
+              "evidence_text": "社会 16 数据安全与客户隐私保护 第四十八条 公司治理——合规经营"
+            },
+            {
+              "topic": "可持续发展相关治理",
+              "metric_name": "员工",
+              "unit": "",
+              "values": {
+                "2024年": "第五十条"
+              },
+              "evidence_text": "可持续发展相关治理 17 员工 第五十条 员工雇佣与发展"
+            },
+            {
+              "topic": "可持续发展相关治理",
+              "metric_name": "尽职调查",
+              "unit": "",
+              "values": {
+                "2024年": "第五十二条"
+              },
+              "evidence_text": "可持续发展相关治理 18 尽职调查 第五十二条 可持续发展（ESG）管理——议题重要性分析流程"
+            },
+            {
+              "topic": "可持续发展相关治理",
+              "metric_name": "利益相关方沟通",
+              "unit": "",
+              "values": {
+                "2024年": "第五十三条"
+              },
+              "evidence_text": "可持续发展相关治理 19 利益相关方沟通 第五十三条 可持续发展（ESG）管理——利益相关方沟通"
+            },
+            {
+              "topic": "可持续发展相关治理",
+              "metric_name": "反商业贿赂及反贪污",
+              "unit": "",
+              "values": {
+                "2024年": "第五十五条"
+              },
+              "evidence_text": "可持续发展相关治理 20 反商业贿赂及反贪污 第五十五条 公司治理——商业道德"
+            },
+            {
+              "topic": "可持续发展相关治理",
+              "metric_name": "反不正当竞争",
+              "unit": "",
+              "values": {
+                "2024年": "第五十六条"
+              },
+              "evidence_text": "可持续发展相关治理 21 反不正当竞争 第五十六条 公司治理——商业道德"
+            }
+          ]
+        }
+      ],
+      "retry_used": true,
+      "retry_reason": "first_pass_no_rows_or_not_table"
+    },
+    {
+      "page_image": "page_50_right.png",
+      "page_type": "other",
+      "page_note": "该页面为意见反馈表，不包含ESG绩效数值，因此不属于performance_data_table。",
+      "tables": [],
+      "retry_used": false
+    }
+  ],
+  "raw_row_count": 121,
+  "standard_results": {
+    "total_ghg_emissions": {
+      "field_key": "total_ghg_emissions",
+      "value": 1035977,
+      "raw_value": "1,035,977.00",
+      "unit": "吨",
+      "year": 2024,
+      "row_label": "温室气体排放总量",
+      "topic": "应对气候变化",
+      "table_title": "量化数据绩效表-环境绩效",
+      "page_image": "page_48_left.png",
+      "evidence_text": "应对气候变化 温室气体排放总量 吨 2024年 1,035,977.00",
+      "status": "extracted",
+      "confidence": 0.94,
+      "match_reason": "heuristic_total_ghg; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "scope_1_emissions": {
+      "field_key": "scope_1_emissions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "范围一温室气体排放量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "scope_2_emissions": {
+      "field_key": "scope_2_emissions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "范围二温室气体排放量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "scope_3_emissions": {
+      "field_key": "scope_3_emissions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "范围三温室气体排放量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "ghg_emissions_intensity": {
+      "field_key": "ghg_emissions_intensity",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "温室气体排放强度",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "energy_consumption_total": {
+      "field_key": "energy_consumption_total",
+      "value": 100051,
+      "raw_value": "100,051.00",
+      "unit": "吨标煤",
+      "year": 2024,
+      "row_label": "综合能源消耗总量",
+      "topic": "能源总量情况",
+      "table_title": "量化数据绩效表-环境绩效",
+      "page_image": "page_48_left.png",
+      "evidence_text": "能源总量情况 综合能源消耗总量 吨标煤 2024年 100,051.00",
+      "status": "extracted",
+      "confidence": 0.94,
+      "match_reason": "alias_match:能源消耗总量; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "energy_consumption_intensity": {
+      "field_key": "energy_consumption_intensity",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "能源消耗强度",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "electricity_consumption": {
+      "field_key": "electricity_consumption",
+      "value": 91040,
+      "raw_value": "91,040.00",
+      "unit": "兆瓦时",
+      "year": 2024,
+      "row_label": "电力",
+      "topic": null,
+      "table_title": "量化数据绩效表-环境绩效",
+      "page_image": "page_48_left.png",
+      "evidence_text": "电力 兆瓦时 2024年 91,040.00",
+      "status": "extracted",
+      "confidence": 0.9,
+      "match_reason": "alias_match:电力; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "renewable_energy_consumption": {
+      "field_key": "renewable_energy_consumption",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "可再生能源使用量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "natural_gas_consumption": {
+      "field_key": "natural_gas_consumption",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "天然气消耗量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "coal_consumption": {
+      "field_key": "coal_consumption",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "煤炭消耗量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "water_consumption": {
+      "field_key": "water_consumption",
+      "value": 1623804,
+      "raw_value": "1,623,804.00",
+      "unit": "吨",
+      "year": 2024,
+      "row_label": "耗水量",
+      "topic": null,
+      "table_title": "量化数据绩效表-环境绩效",
+      "page_image": "page_48_left.png",
+      "evidence_text": "耗水量 吨 2024年 1,623,804.00",
+      "status": "extracted",
+      "confidence": 0.91,
+      "match_reason": "alias_match:耗水量; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "water_consumption_intensity": {
+      "field_key": "water_consumption_intensity",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "水资源消耗强度",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "recycled_water_volume": {
+      "field_key": "recycled_water_volume",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "循环水或回用水量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "wastewater_discharge": {
+      "field_key": "wastewater_discharge",
+      "value": 6976449,
+      "raw_value": "6,976,449.00",
+      "unit": "立方米",
+      "year": 2024,
+      "row_label": "工业废水总量",
+      "topic": "废水排放",
+      "table_title": "量化数据绩效表-环境绩效",
+      "page_image": "page_48_left.png",
+      "evidence_text": "废水排放 工业废水总量 立方米 2024年 6,976,449.00",
+      "status": "extracted",
+      "confidence": 0.95,
+      "match_reason": "llm_match:工业废水总量属于废水排放量，与field_key 'wastewater_discharge'的中文名'废水排放量'及别名'污水排放量'语义一致，单位'立方米'在unit_examples中明确列出。; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "cod_emissions": {
+      "field_key": "cod_emissions",
+      "value": 545.78,
+      "raw_value": "545.78",
+      "unit": "吨",
+      "year": 2024,
+      "row_label": "化学需氧量 (COD)",
+      "topic": null,
+      "table_title": "量化数据绩效表-环境绩效",
+      "page_image": "page_48_left.png",
+      "evidence_text": "化学需氧量 (COD) 吨 2024年 545.78",
+      "status": "extracted",
+      "confidence": 0.93,
+      "match_reason": "alias_match:化学需氧量; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "ammonia_nitrogen_emissions": {
+      "field_key": "ammonia_nitrogen_emissions",
+      "value": 2.12,
+      "raw_value": "2.12",
+      "unit": "吨",
+      "year": 2024,
+      "row_label": "氨氮 (NH3-N)",
+      "topic": null,
+      "table_title": "量化数据绩效表-环境绩效",
+      "page_image": "page_48_left.png",
+      "evidence_text": "氨氮 (NH3-N) 吨 2024年 2.12",
+      "status": "extracted",
+      "confidence": 0.9,
+      "match_reason": "alias_match:氨氮; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "so2_emissions": {
+      "field_key": "so2_emissions",
+      "value": 79.3,
+      "raw_value": "79.30",
+      "unit": "吨",
+      "year": 2024,
+      "row_label": "氧化硫 (SOx)",
+      "topic": null,
+      "table_title": "量化数据绩效表-环境绩效",
+      "page_image": "page_48_left.png",
+      "evidence_text": "氧化硫 (SOx) 吨 2024年 79.30",
+      "status": "extracted",
+      "confidence": 0.91,
+      "match_reason": "alias_match:氧化硫; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "nox_emissions": {
+      "field_key": "nox_emissions",
+      "value": 171.6,
+      "raw_value": "171.60",
+      "unit": "吨",
+      "year": 2024,
+      "row_label": "氮氧化物 (NOx)",
+      "topic": "大气污染排放",
+      "table_title": "量化数据绩效表-环境绩效",
+      "page_image": "page_48_left.png",
+      "evidence_text": "大气污染排放 氮氧化物 (NOx) 吨 2024年 171.60",
+      "status": "extracted",
+      "confidence": 0.92,
+      "match_reason": "alias_match:氮氧化物; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "particulate_matter_emissions": {
+      "field_key": "particulate_matter_emissions",
+      "value": 7.48,
+      "raw_value": "7.48",
+      "unit": "吨",
+      "year": 2024,
+      "row_label": "颗粒物质(PM)",
+      "topic": null,
+      "table_title": "量化数据绩效表-环境绩效",
+      "page_image": "page_48_left.png",
+      "evidence_text": "颗粒物质(PM) 吨 2024年 7.48",
+      "status": "extracted",
+      "confidence": 0.91,
+      "match_reason": "alias_match:颗粒物; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "hazardous_waste": {
+      "field_key": "hazardous_waste",
+      "value": 43.13,
+      "raw_value": "43.13",
+      "unit": "吨",
+      "year": 2024,
+      "row_label": "有害废弃物产生总量",
+      "topic": null,
+      "table_title": "量化数据绩效表-环境绩效",
+      "page_image": "page_48_left.png",
+      "evidence_text": "有害废弃物产生总量 吨 2024年 43.13",
+      "status": "extracted",
+      "confidence": 0.93,
+      "match_reason": "heuristic_hazardous_waste; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "non_hazardous_waste": {
+      "field_key": "non_hazardous_waste",
+      "value": 16535.4,
+      "raw_value": "16,535.40",
+      "unit": "吨",
+      "year": 2024,
+      "row_label": "无害废弃物产生总量",
+      "topic": null,
+      "table_title": "量化数据绩效表-环境绩效",
+      "page_image": "page_48_left.png",
+      "evidence_text": "无害废弃物产生总量 吨 2024年 16,535.40",
+      "status": "extracted",
+      "confidence": 0.93,
+      "match_reason": "heuristic_non_hazardous_waste; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "total_waste": {
+      "field_key": "total_waste",
+      "value": 16578.53,
+      "raw_value": "16,578.53",
+      "unit": "吨",
+      "year": 2024,
+      "row_label": "废弃物产生总量",
+      "topic": "固体废弃物排放",
+      "table_title": "量化数据绩效表-环境绩效",
+      "page_image": "page_48_left.png",
+      "evidence_text": "固体废弃物排放 废弃物产生总量 吨 2024年 16,578.53",
+      "status": "extracted",
+      "confidence": 0.95,
+      "match_reason": "alias_match:废弃物产生总量; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "waste_recycling_rate": {
+      "field_key": "waste_recycling_rate",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "废弃物回收利用率",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "environmental_investment": {
+      "field_key": "environmental_investment",
+      "value": 11661,
+      "raw_value": "11,661.00",
+      "unit": "万元",
+      "year": 2024,
+      "row_label": "环保总投入",
+      "topic": null,
+      "table_title": "量化数据绩效表-环境绩效",
+      "page_image": "page_48_left.png",
+      "evidence_text": "环保总投入 万元 2024年 11,661.00",
+      "status": "extracted",
+      "confidence": 0.93,
+      "match_reason": "alias_match:环保总投入; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "environmental_violation_cases": {
+      "field_key": "environmental_violation_cases",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "环境违规或处罚事件数量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "total_employees": {
+      "field_key": "total_employees",
+      "value": 11000,
+      "raw_value": "11,000",
+      "unit": "人",
+      "year": 2024,
+      "row_label": "员工总数",
+      "topic": null,
+      "table_title": "社会绩效",
+      "page_image": "page_48_right.png",
+      "evidence_text": "员工总数 人 2024年 11,000",
+      "status": "extracted",
+      "confidence": 0.93,
+      "match_reason": "heuristic_total_employees; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "male_employees": {
+      "field_key": "male_employees",
+      "value": 5402,
+      "raw_value": "5,402",
+      "unit": "人",
+      "year": 2024,
+      "row_label": "男性员工数量",
+      "topic": null,
+      "table_title": "社会绩效",
+      "page_image": "page_48_right.png",
+      "evidence_text": "男性员工数量 人 2024年 5,402",
+      "status": "extracted",
+      "confidence": 0.92,
+      "match_reason": "heuristic_male_employees; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "female_employees": {
+      "field_key": "female_employees",
+      "value": 5598,
+      "raw_value": "5,598",
+      "unit": "人",
+      "year": 2024,
+      "row_label": "女性员工数量",
+      "topic": null,
+      "table_title": "社会绩效",
+      "page_image": "page_48_right.png",
+      "evidence_text": "女性员工数量 人 2024年 5,598",
+      "status": "extracted",
+      "confidence": 0.92,
+      "match_reason": "heuristic_female_employees; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "female_employee_ratio": {
+      "field_key": "female_employee_ratio",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "女性员工比例",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "female_management_ratio": {
+      "field_key": "female_management_ratio",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "女性管理层比例",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "minority_employees": {
+      "field_key": "minority_employees",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "少数民族员工人数",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "employees_under_30": {
+      "field_key": "employees_under_30",
+      "value": 1182,
+      "raw_value": "1,182",
+      "unit": "人",
+      "year": 2024,
+      "row_label": "30岁以下员工数量",
+      "topic": null,
+      "table_title": "社会绩效",
+      "page_image": "page_48_right.png",
+      "evidence_text": "30岁以下员工数量 人 2024年 1,182",
+      "status": "extracted",
+      "confidence": 0.93,
+      "match_reason": "alias_match:30岁以下; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "employees_30_to_50": {
+      "field_key": "employees_30_to_50",
+      "value": 8714,
+      "raw_value": "8,714",
+      "unit": "人",
+      "year": 2024,
+      "row_label": "30-50岁员工数量",
+      "topic": null,
+      "table_title": "社会绩效",
+      "page_image": "page_48_right.png",
+      "evidence_text": "30-50岁员工数量 人 2024年 8,714",
+      "status": "extracted",
+      "confidence": 0.95,
+      "match_reason": "llm_match:指标名称'30-50岁员工数量'与field_key 'employees_30_to_50'的aliases完全匹配，单位'人'符合unit_examples，且属于Core ESG Schema中S类人口结构指标。; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "employees_over_50": {
+      "field_key": "employees_over_50",
+      "value": 1104,
+      "raw_value": "1,104",
+      "unit": "人",
+      "year": 2024,
+      "row_label": "50岁以上员工数量",
+      "topic": null,
+      "table_title": "社会绩效",
+      "page_image": "page_48_right.png",
+      "evidence_text": "50岁以上员工数量 人 2024年 1,104",
+      "status": "extracted",
+      "confidence": 0.95,
+      "match_reason": "llm_match:指标名称'50岁以上员工数量'与field_key 'employees_over_50'的aliases完全匹配，单位'人'符合unit_examples，属于S类社会维度指标。; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "employee_turnover_rate": {
+      "field_key": "employee_turnover_rate",
+      "value": 10,
+      "raw_value": "10",
+      "unit": "%",
+      "year": 2024,
+      "row_label": "员工流失率",
+      "topic": null,
+      "table_title": "社会绩效",
+      "page_image": "page_48_right.png",
+      "evidence_text": "员工流失率 % 2024年 10",
+      "status": "extracted",
+      "confidence": 0.93,
+      "match_reason": "alias_match:员工流失率; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "training_total_hours": {
+      "field_key": "training_total_hours",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "员工培训总时长",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "training_hours_per_employee": {
+      "field_key": "training_hours_per_employee",
+      "value": 14,
+      "raw_value": "14",
+      "unit": "小时",
+      "year": 2024,
+      "row_label": "人均培训时长",
+      "topic": null,
+      "table_title": "社会绩效",
+      "page_image": "page_48_right.png",
+      "evidence_text": "人均培训时长 小时 2024年 14",
+      "status": "extracted",
+      "confidence": 0.9,
+      "match_reason": "heuristic_training_hours_per_employee; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "training_coverage_rate": {
+      "field_key": "training_coverage_rate",
+      "value": 100,
+      "raw_value": "100",
+      "unit": "%",
+      "year": 2024,
+      "row_label": "员工培训覆盖率",
+      "topic": null,
+      "table_title": "社会绩效",
+      "page_image": "page_48_right.png",
+      "evidence_text": "员工培训覆盖率 % 2024年 100",
+      "status": "extracted",
+      "confidence": 0.95,
+      "match_reason": "alias_match:员工培训覆盖率; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "training_expense": {
+      "field_key": "training_expense",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "培训投入金额",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "trained_employees_count": {
+      "field_key": "trained_employees_count",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "受训员工人数或人次",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "work_injury_rate": {
+      "field_key": "work_injury_rate",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "工伤率",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "work_related_fatalities": {
+      "field_key": "work_related_fatalities",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "因工死亡人数",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "lost_workdays_due_to_injury": {
+      "field_key": "lost_workdays_due_to_injury",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "因工伤损失工作日数",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "social_insurance_coverage_rate": {
+      "field_key": "social_insurance_coverage_rate",
+      "value": 100,
+      "raw_value": "100",
+      "unit": "%",
+      "year": 2024,
+      "row_label": "社会保险覆盖率",
+      "topic": null,
+      "table_title": "社会绩效",
+      "page_image": "page_48_right.png",
+      "evidence_text": "社会保险覆盖率 % 2024年 100",
+      "status": "extracted",
+      "confidence": 0.95,
+      "match_reason": "alias_match:社会保险覆盖率; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "employee_health_record_coverage_rate": {
+      "field_key": "employee_health_record_coverage_rate",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "员工健康档案或体检覆盖率",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "r_and_d_investment": {
+      "field_key": "r_and_d_investment",
+      "value": 28671.57,
+      "raw_value": "28,671.57",
+      "unit": "万元",
+      "year": 2024,
+      "row_label": "研发投入金额",
+      "topic": null,
+      "table_title": "社会绩效",
+      "page_image": "page_49_left.png",
+      "evidence_text": "研发创新 研发投入金额 万元 2024年 28,671.57",
+      "status": "extracted",
+      "confidence": 0.92,
+      "match_reason": "alias_match:研发投入; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "r_and_d_employees": {
+      "field_key": "r_and_d_employees",
+      "value": 324,
+      "raw_value": "324",
+      "unit": "人",
+      "year": 2024,
+      "row_label": "研发人员人数",
+      "topic": null,
+      "table_title": "社会绩效",
+      "page_image": "page_49_left.png",
+      "evidence_text": "研发创新 研发人员人数 人 2024年 324",
+      "status": "extracted",
+      "confidence": 0.95,
+      "match_reason": "llm_match:研发人员人数在Core ESG Schema中明确列为r_and_d_employees的别名，单位为人，符合value_type: number。; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "authorized_patents_new": {
+      "field_key": "authorized_patents_new",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "当年新增授权专利数量",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "authorized_patents_total": {
+      "field_key": "authorized_patents_total",
+      "value": 87,
+      "raw_value": "87",
+      "unit": "项",
+      "year": 2024,
+      "row_label": "报告期内有效专利数",
+      "topic": null,
+      "table_title": "社会绩效",
+      "page_image": "page_49_left.png",
+      "evidence_text": "研发创新 报告期内有效专利数 项 2024年 87",
+      "status": "extracted",
+      "confidence": 0.96,
+      "match_reason": "alias_match:报告期内有效专利数; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "customer_complaints": {
+      "field_key": "customer_complaints",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "客户投诉数量",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "board_size": {
+      "field_key": "board_size",
+      "value": 9,
+      "raw_value": "9",
+      "unit": "人",
+      "year": 2024,
+      "row_label": "董事会成员的人数",
+      "topic": null,
+      "table_title": "治理绩效",
+      "page_image": "page_49_right.png",
+      "evidence_text": "董事会成员的人数 人 2024年 9",
+      "status": "extracted",
+      "confidence": 0.95,
+      "match_reason": "llm_match:董事会成员的人数与field_key 'board_size'的中文名称'董事会人数'及别名完全语义一致，单位'人'匹配，属于G类治理指标。; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "independent_directors": {
+      "field_key": "independent_directors",
+      "value": 3,
+      "raw_value": "3",
+      "unit": "人",
+      "year": 2024,
+      "row_label": "独董人数",
+      "topic": null,
+      "table_title": "治理绩效",
+      "page_image": "page_49_right.png",
+      "evidence_text": "独董人数 人 2024年 3",
+      "status": "extracted",
+      "confidence": 0.92,
+      "match_reason": "alias_match:独董人数; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "independent_director_ratio": {
+      "field_key": "independent_director_ratio",
+      "value": 33.3,
+      "raw_value": "33.30",
+      "unit": "%",
+      "year": 2024,
+      "row_label": "独立董事比例",
+      "topic": null,
+      "table_title": "治理绩效",
+      "page_image": "page_49_right.png",
+      "evidence_text": "独立董事比例 % 2024年 33.30",
+      "status": "extracted",
+      "confidence": 0.94,
+      "match_reason": "alias_match:独立董事比例; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "female_directors": {
+      "field_key": "female_directors",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "女性董事人数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "board_meetings": {
+      "field_key": "board_meetings",
+      "value": 7,
+      "raw_value": "7",
+      "unit": "次",
+      "year": 2024,
+      "row_label": "召开董事会会议次数",
+      "topic": null,
+      "table_title": "治理绩效",
+      "page_image": "page_49_right.png",
+      "evidence_text": "召开董事会会议次数 次 2024年 7",
+      "status": "extracted",
+      "confidence": 0.95,
+      "match_reason": "heuristic_board_meetings; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "shareholder_meetings": {
+      "field_key": "shareholder_meetings",
+      "value": 2,
+      "raw_value": "2",
+      "unit": "次",
+      "year": 2024,
+      "row_label": "召开股东大会、临时股东大会次数",
+      "topic": null,
+      "table_title": "治理绩效",
+      "page_image": "page_49_right.png",
+      "evidence_text": "召开股东大会、临时股东大会次数 次 2024年 2",
+      "status": "extracted",
+      "confidence": 0.94,
+      "match_reason": "alias_match:股东大会次数; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "anti_corruption_training_sessions": {
+      "field_key": "anti_corruption_training_sessions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "反腐败培训次数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "anti_corruption_training_participants": {
+      "field_key": "anti_corruption_training_participants",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "反腐败培训参与人数或人次",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "anti_corruption_training_hours": {
+      "field_key": "anti_corruption_training_hours",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "反腐败培训总时长",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "confirmed_corruption_cases": {
+      "field_key": "confirmed_corruption_cases",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "确认的腐败事件数量",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "whistleblowing_cases": {
+      "field_key": "whistleblowing_cases",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "举报案件数量",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "patent_applications_new": {
+      "field_key": "patent_applications_new",
+      "value": 4,
+      "raw_value": "4",
+      "unit": "项",
+      "year": 2024,
+      "row_label": "报告期内发明专利的申请数",
+      "topic": null,
+      "table_title": "社会绩效",
+      "page_image": "page_49_left.png",
+      "evidence_text": "研发创新 报告期内发明专利的申请数 项 2024年 4",
+      "status": "extracted",
+      "confidence": 0.96,
+      "match_reason": "alias_match:报告期内发明专利的申请数; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "board_esg_oversight": {
+      "field_key": "board_esg_oversight",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "董事会 ESG 监督机制",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "esg_committee": {
+      "field_key": "esg_committee",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "ESG 委员会或可持续发展委员会",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "anti_corruption_policy": {
+      "field_key": "anti_corruption_policy",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "反腐败政策",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "whistleblowing_mechanism": {
+      "field_key": "whistleblowing_mechanism",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "举报机制",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "supplier_esg_assessment": {
+      "field_key": "supplier_esg_assessment",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "供应商 ESG 评估机制",
+      "category": "S",
+      "indicator_type": "qualitative"
+    }
+  },
+  "unknown_metrics": [
+    {
+      "page_image": "page_40_right.png",
+      "table_title": "2024年质量目标及达成情况",
+      "topic": null,
+      "metric_name": "出厂产品批次合格率",
+      "unit": "%",
+      "values": {
+        "2024年": "100"
+      },
+      "evidence_text": "目标 出厂产品批次合格率 % 2024年 100",
+      "reason": "llm_no_match:出厂产品批次合格率属于产品质量或运营绩效指标，Core ESG Schema 中无对应字段（如 customer_complaints 属于客户维度但不等价于合格率），且未在 aliases 或语义中覆盖。"
+    },
+    {
+      "page_image": "page_40_right.png",
+      "table_title": "2024年质量目标及达成情况",
+      "topic": null,
+      "metric_name": "顾客满意度",
+      "unit": "%",
+      "values": {
+        "2024年": "80"
+      },
+      "evidence_text": "目标 顾客满意度 % 2024年 80",
+      "reason": "llm_no_match:顾客满意度属于客户关系或服务质量类指标，Core ESG Schema 中无对应 field_key；党建活动、投资者教育、绿色融资、客户满意度等明确要求 matched=false。"
+    },
+    {
+      "page_image": "page_40_right.png",
+      "table_title": "2024年质量目标及达成情况",
+      "topic": null,
+      "metric_name": "产品综合一等品率",
+      "unit": "%",
+      "values": {
+        "2024年": "94"
+      },
+      "evidence_text": "目标 产品综合一等品率 % 2024年 94",
+      "reason": "llm_no_match:该指标属于产品质量绩效类指标，不属于 Core ESG Schema。"
+    },
+    {
+      "page_image": "page_40_right.png",
+      "table_title": "2024年质量目标及达成情况",
+      "topic": null,
+      "metric_name": "出厂产品批次合格率",
+      "unit": "%",
+      "values": {
+        "2024年": "100"
+      },
+      "evidence_text": "完成情况 出厂产品批次合格率 % 2024年 100",
+      "reason": "llm_no_match:出厂产品批次合格率属于产品质量或运营绩效指标，Core ESG Schema 中无对应字段，不属于环境、社会或治理核心议题的标准化ESG指标。"
+    },
+    {
+      "page_image": "page_40_right.png",
+      "table_title": "2024年质量目标及达成情况",
+      "topic": null,
+      "metric_name": "顾客满意度",
+      "unit": "%",
+      "values": {
+        "2024年": "95.04"
+      },
+      "evidence_text": "完成情况 顾客满意度 % 2024年 95.04",
+      "reason": "llm_no_match:顾客满意度属于客户关系或服务质量类指标，Core ESG Schema 中无对应 field_key；党建活动、投资者教育、绿色融资、客户满意度等明确要求 matched=false。"
+    },
+    {
+      "page_image": "page_40_right.png",
+      "table_title": "2024年质量目标及达成情况",
+      "topic": null,
+      "metric_name": "产品综合一等品率",
+      "unit": "%",
+      "values": {
+        "2024年": "98.15"
+      },
+      "evidence_text": "完成情况 产品综合一等品率 % 2024年 98.15",
+      "reason": "llm_no_match:产品综合一等品率属于产品质量或经营绩效类指标，Core ESG Schema 中无对应字段，且未在任何 aliases 中出现。"
+    },
+    {
+      "page_image": "page_48_left.png",
+      "table_title": "量化数据绩效表-环境绩效",
+      "topic": null,
+      "metric_name": "环境行政处罚金额",
+      "unit": "万元",
+      "values": {
+        "2024年": "0"
+      },
+      "evidence_text": "环境行政处罚金额 万元 2024年 0",
+      "reason": "llm_no_match:环境行政处罚金额属于处罚结果的经济量化，Core ESG Schema 中仅包含环境违规或处罚事件数量（environmental_violation_cases），不包含处罚金额，且无任何 alias 或 field_key 涵盖‘金额’维度。"
+    },
+    {
+      "page_image": "page_48_left.png",
+      "table_title": "量化数据绩效表-环境绩效",
+      "topic": null,
+      "metric_name": "汽油",
+      "unit": "升",
+      "values": {
+        "2024年": "16,483.00"
+      },
+      "evidence_text": "汽油 升 2024年 16,483.00",
+      "reason": "llm_no_match:汽油消耗量未在 Core ESG Schema 中定义；Schema 中仅包含天然气、煤炭、电力、可再生能源等能源类型，无汽油（gasoline）相关字段。"
+    },
+    {
+      "page_image": "page_48_left.png",
+      "table_title": "量化数据绩效表-环境绩效",
+      "topic": null,
+      "metric_name": "柴油",
+      "unit": "升",
+      "values": {
+        "2024年": "379,720.00"
+      },
+      "evidence_text": "柴油 升 2024年 379,720.00",
+      "reason": "llm_no_match:柴油消耗量未在 Core ESG Schema 中定义；Schema 中仅有 natural_gas_consumption、coal_consumption、electricity_consumption 和 renewable_energy_consumption 等明确能源类型，但无柴油（diesel）相关别名或 field_key。"
+    },
+    {
+      "page_image": "page_48_left.png",
+      "table_title": "量化数据绩效表-环境绩效",
+      "topic": null,
+      "metric_name": "热力",
+      "unit": "百万千焦",
+      "values": {
+        "2024年": "1,329,091.00"
+      },
+      "evidence_text": "热力 百万千焦 2024年 1,329,091.00",
+      "reason": "llm_no_match:热力不属于 Core ESG Schema 中定义的任何 field_key；Schema 中无对应别名或语义匹配项（如能源消耗总量 alias 包含'综合能耗'等，但'热力'单独出现且无上下文表明其为综合能源组成部分），且未在 aliases 列表中出现。"
+    },
+    {
+      "page_image": "page_48_left.png",
+      "table_title": "量化数据绩效表-环境绩效",
+      "topic": null,
+      "metric_name": "生物质能（用于燃料）",
+      "unit": "吨标准煤",
+      "values": {
+        "2024年": "4,037.00"
+      },
+      "evidence_text": "生物质能（用于燃料） 吨标准煤 2024年 4,037.00",
+      "reason": "llm_no_match:生物质能（用于燃料）未在 Core ESG Schema 的 aliases 中出现，且不属于已定义的能源类字段（如 energy_consumption_total、renewable_energy_consumption 等）的明确别名；schema 中 renewable_energy_consumption 的 aliases 包含‘绿色电力’‘光伏等新能源发电量’‘新能源发电量’，但未涵盖‘生物质能（用于燃料）’这一具体燃料用途表述，无法确定其是否等同于可再生能源使用量；单位‘吨标准煤’虽与 energy_consumption_total 的 unit_examples 一致，但指标名称无足够语义支持指向该 field_key；按规则3和9，不确定时 confidence 不高于 0.5，故置为 0.3。"
+    },
+    {
+      "page_image": "page_48_left.png",
+      "table_title": "量化数据绩效表-环境绩效",
+      "topic": null,
+      "metric_name": "其他燃料",
+      "unit": "吨标准煤",
+      "values": {
+        "2024年": "18,081.00"
+      },
+      "evidence_text": "其他燃料 吨标准煤 2024年 18,081.00",
+      "reason": "llm_no_match:“其他燃料”未在 Core ESG Schema 的任何 field_key 的 aliases 中出现，且不属于已定义的能源类型（如煤炭、天然气、电力、可再生能源等），无法明确映射到 energy_consumption_total 或其他具体燃料字段；Schema 中无泛化为“其他燃料”的字段。"
+    },
+    {
+      "page_image": "page_48_left.png",
+      "table_title": "量化数据绩效表-环境绩效",
+      "topic": "水资源使用",
+      "metric_name": "取水总量",
+      "unit": "吨",
+      "values": {
+        "2024年": "16,582,429.00"
+      },
+      "evidence_text": "水资源使用 取水总量 吨 2024年 16,582,429.00",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:取水总量在Core ESG Schema中明确列为water_consumption的别名（aliases: 总耗水量、用水量、取水量、耗水量、新鲜水用量、营业办公耗水、水资源消耗量），单位'吨'属于unit_examples（吨、万吨、立方米、万立方米）之一。"
+    },
+    {
+      "page_image": "page_48_left.png",
+      "table_title": "量化数据绩效表-环境绩效",
+      "topic": null,
+      "metric_name": "废气总量",
+      "unit": "万立方米",
+      "values": {
+        "2024年": "608,761.77"
+      },
+      "evidence_text": "废气总量 万立方米 2024年 608,761.77",
+      "reason": "llm_no_match:废气总量不属于 Core ESG Schema 中定义的任何 field_key；Core Schema 包含具体污染物排放量（如 SO2、NOx、颗粒物等），但不包含笼统的‘废气总量’，且无对应 aliases 或语义匹配。"
+    },
+    {
+      "page_image": "page_48_left.png",
+      "table_title": "量化数据绩效表-环境绩效",
+      "topic": null,
+      "metric_name": "生活废水总量",
+      "unit": "立方米",
+      "values": {
+        "2024年": "34,838.00"
+      },
+      "evidence_text": "生活废水总量 立方米 2024年 34,838.00",
+      "reason": "llm_no_match:生活废水总量属于废水排放类指标，但 Core ESG Schema 中对应的是 wastewater_discharge（废水排放量），其 aliases 仅包含'废水排放量''污水排放量'，未涵盖'生活废水总量'；且该表述强调来源（生活）而非总量性质，缺乏足够证据表明其等同于一般性废水排放量，故不匹配。"
+    },
+    {
+      "page_image": "page_48_left.png",
+      "table_title": "量化数据绩效表-环境绩效",
+      "topic": null,
+      "metric_name": "总氮 (TN)",
+      "unit": "吨",
+      "values": {
+        "2024年": "66.76"
+      },
+      "evidence_text": "总氮 (TN) 吨 2024年 66.76",
+      "reason": "llm_no_match:总氮(TN)是水污染物指标，但Core ESG Schema中未包含TN排放量字段；Schema中仅列出了COD、氨氮、SO2、NOx等特定污染物，未涵盖总氮，因此不匹配。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "劳动合同签订率",
+      "unit": "%",
+      "values": {
+        "2024年": "100"
+      },
+      "evidence_text": "劳动合同签订率 % 2024年 100",
+      "reason": "llm_no_match:劳动合同签订率属于人力资源合规性指标，Core ESG Schema 中无对应 field_key；虽与员工管理相关，但未在 S 类指标中定义该具体字段。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "本科学历及以上员工数量",
+      "unit": "人",
+      "values": {
+        "2024年": "566"
+      },
+      "evidence_text": "本科学历及以上员工数量 人 2024年 566",
+      "reason": "llm_no_match:本科学历及以上员工数量不属于 Core ESG Schema 中任何 field_key；Schema 中无教育程度相关字段，仅包含年龄、性别、民族、管理层比例等基础人口统计维度。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "大专学历员工数量",
+      "unit": "人",
+      "values": {
+        "2024年": "1,207"
+      },
+      "evidence_text": "大专学历员工数量 人 2024年 1,207",
+      "reason": "llm_no_match:大专学历员工数量属于人力资源细分结构指标，Core ESG Schema 中无对应 field_key（如教育程度、学历构成等未被纳入标准字段），不属于环境、社会或治理核心披露项。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "高中中专学历员工数量",
+      "unit": "人",
+      "values": {
+        "2024年": "2,115"
+      },
+      "evidence_text": "高中中专学历员工数量 人 2024年 2,115",
+      "reason": "llm_no_match:高中中专学历员工数量属于员工教育背景细分指标，Core ESG Schema 中无对应 field_key；Schema 中仅包含性别、年龄、民族、管理层比例等基础人口统计维度，未涵盖学历层级细分。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "初中学历员工数量",
+      "unit": "人",
+      "values": {
+        "2024年": "6,969"
+      },
+      "evidence_text": "初中学历员工数量 人 2024年 6,969",
+      "reason": "llm_no_match:初中学历员工数量不属于 Core ESG Schema 中任何 field_key；Schema 中无教育程度细分相关字段（如仅包含年龄、性别、民族等基础人口统计维度），且该指标未在 aliases 或 category 中覆盖。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "新增就业人数",
+      "unit": "人",
+      "values": {
+        "2024年": "1,167"
+      },
+      "evidence_text": "新增就业人数 人 2024年 1,167",
+      "reason": "llm_no_match:新增就业人数属于社会影响类衍生指标，但 Core ESG Schema 中无对应 field_key；未在 aliases 中出现，且不属于员工总数、年龄结构、培训、工伤等已定义的 S 类标准指标。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "新增职业病例数",
+      "unit": "例",
+      "values": {
+        "2024年": "0"
+      },
+      "evidence_text": "新增职业病例数 例 2024年 0",
+      "reason": "llm_no_match:新增职业病例数未在 Core ESG Schema 中定义；Schema 中有工伤率、因工死亡人数、损失工作日等职业健康安全相关指标，但无‘职业病例数’或其别名，且该指标未出现在任何 aliases 列表中。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "人均带薪年休假天数",
+      "unit": "天",
+      "values": {
+        "2024年": "0"
+      },
+      "evidence_text": "人均带薪年休假天数 天 2024年 0",
+      "reason": "llm_no_match:人均带薪年休假天数属于劳动权益或人力资源管理细节指标，Core ESG Schema 中无对应 field_key；未在任何 aliases 中出现，且不属于环境（E）、社会（S）或治理（G）类标准指标。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "员工满意度",
+      "unit": "%",
+      "values": {
+        "2024年": "100"
+      },
+      "evidence_text": "员工满意度 % 2024年 100",
+      "reason": "llm_no_match:员工满意度不属于 Core ESG Schema 中的任何 field_key；Schema 中无对应社会类（S）或治理类（G）指标涵盖员工满意度，且该指标未在 aliases 中出现。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "劳动纠纷案件数量",
+      "unit": "件",
+      "values": {
+        "2024年": "12"
+      },
+      "evidence_text": "劳动纠纷案件数量 件 2024年 12",
+      "reason": "llm_no_match:劳动纠纷案件数量未在 Core ESG Schema 中定义；Schema 中无对应 field_key（如 labor_disputes、labor_litigation 等），且不属于已列示的 S 类或 G 类指标。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "安全生产",
+      "unit": null,
+      "values": null,
+      "evidence_text": "安全生产",
+      "reason": "llm_no_match:安全生产是综合性管理目标或领域名称，非具体可量化ESG指标；Core ESG Schema中无对应field_key，且未提供数值、单位或可映射的别名。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "安全培训人次",
+      "unit": "人次",
+      "values": {
+        "2024年": "11,000"
+      },
+      "evidence_text": "安全培训人次 人次 2024年 11,000",
+      "reason": "llm_no_match:安全培训人次不属于 Core ESG Schema 中定义的任何 S 类指标（如 training_total_hours、trained_employees_count 等），Schema 中无‘安全培训’相关别名，且未在 aliases 中出现；该指标聚焦于安全专项而非通用员工培训，无法可靠映射到 trained_employees_count（其 aliases 为‘参加培训的员工总数’‘受训员工人数’等，未限定安全领域），故不匹配。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "连续安全运行天数",
+      "unit": "天",
+      "values": {
+        "2024年": "365"
+      },
+      "evidence_text": "连续安全运行天数 天 2024年 365",
+      "reason": "llm_no_match:连续安全运行天数属于安全生产管理绩效指标，Core ESG Schema 中无对应 field_key；未在 aliases 或语义上匹配任何环境、社会或治理标准字段。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "员工工伤人数",
+      "unit": "人",
+      "values": {
+        "2024年": "27"
+      },
+      "evidence_text": "员工工伤人数 人 2024年 27",
+      "reason": "llm_no_match:员工工伤人数描述的是发生工伤的员工数量，而 Core ESG Schema 中对应的安全类指标为 work_injury_rate（工伤率）、work_related_fatalities（因工死亡人数）和 lost_workdays_due_to_injury（因工伤损失工作日数），无直接对应‘工伤人数’的 field_key；且该指标未在 aliases 中出现，不属于标准化字段。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "事故员工千人死亡率",
+      "unit": "‰",
+      "values": {
+        "2024年": "0"
+      },
+      "evidence_text": "事故员工千人死亡率 ‰ 2024年 0",
+      "reason": "llm_no_match:事故员工千人死亡率不属于 Core ESG Schema 中定义的任何 field_key；Core Schema 中仅有 work_related_fatalities（因工死亡人数，绝对数量）和 work_injury_rate（工伤率，单位多为%或次/百万工时），但无按‘千人’为基数的死亡率指标，且该指标名称、单位（‰）及计算逻辑未在 aliases 或 unit_examples 中覆盖。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "重大安全事故发生次数",
+      "unit": "次",
+      "values": {
+        "2024年": "0"
+      },
+      "evidence_text": "重大安全事故发生次数 次 2024年 0",
+      "reason": "llm_no_match:重大安全事故发生次数未在 Core ESG Schema 中定义；Schema 中仅有工伤率、因工死亡人数、因工伤损失工作日数等职业健康与安全相关指标，但无‘重大安全事故’这一标准字段，且其语义宽泛、边界不清，无法可靠映射。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "产品责任",
+      "unit": null,
+      "values": null,
+      "evidence_text": "产品责任",
+      "reason": "llm_no_match:产品责任是宽泛的定性主题，未对应 Core ESG Schema 中任何具体可量化 field_key；Schema 中无名为 '产品责任' 或其等效别名的指标，亦无归属 S 或 G 类别的直接匹配项。"
+    },
+    {
+      "page_image": "page_48_right.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "产品召回比例",
+      "unit": "%",
+      "values": {
+        "2024年": "0"
+      },
+      "evidence_text": "产品召回比例 % 2024年 0",
+      "reason": "llm_no_match:产品召回比例属于产品质量与消费者权益相关指标，Core ESG Schema 中无对应 field_key（如 customer_complaints 仅覆盖投诉数量，不涵盖召回比例），且未在 aliases 或语义范围内匹配任何标准字段。"
+    },
+    {
+      "page_image": "page_49_left.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "产品合格率",
+      "unit": "%",
+      "values": {
+        "2024年": "98.46"
+      },
+      "evidence_text": "产品责任 产品合格率 % 2024年 98.46",
+      "reason": "llm_no_match:产品合格率属于产品质量或经营绩效类指标，Core ESG Schema 中无对应字段。"
+    },
+    {
+      "page_image": "page_49_left.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "产品退货率",
+      "unit": "%",
+      "values": {
+        "2024年": "0"
+      },
+      "evidence_text": "产品责任 产品退货率 % 2024年 0",
+      "reason": "llm_no_match:产品退货率属于产品质量或客户服务类指标，Core ESG Schema 中无对应 field_key；未在 aliases 或语义范畴中覆盖，不属于环境、社会或治理核心披露项。"
+    },
+    {
+      "page_image": "page_49_left.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "客户满意度",
+      "unit": "%",
+      "values": {
+        "2024年": "95.04"
+      },
+      "evidence_text": "产品责任 客户满意度 % 2024年 95.04",
+      "reason": "llm_no_match:客户满意度不属于 Core ESG Schema 中定义的任何 field_key；Core Schema 中无对应 S 类或 G 类指标，且明确说明客户满意度若未在 Schema 中列出则 matched=false。"
+    },
+    {
+      "page_image": "page_49_left.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "投诉数量",
+      "unit": "%",
+      "values": {
+        "2024年": "0"
+      },
+      "evidence_text": "产品责任 投诉数量 % 2024年 0",
+      "reason": "rejected_by_schema_validator:unit_type_mismatch:count; original_reason=llm_match:投诉数量与 customer_complaints 的别名完全匹配，且 category S 下该字段明确涵盖客户投诉数量，unit 为件/起/次；此处 unit 标注为 % 属于数据录入错误或误标，但 metric_name 和 evidence_text 中语义清晰指向客户投诉事件数量，不影响高置信度匹配。"
+    },
+    {
+      "page_image": "page_49_left.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "投诉处理率",
+      "unit": "人",
+      "values": {
+        "2024年": "100"
+      },
+      "evidence_text": "产品责任 投诉处理率 人 2024年 100",
+      "reason": "llm_no_match:投诉处理率未在 Core ESG Schema 中定义；Schema 中仅有客户投诉数量（customer_complaints），无处理率相关字段；该指标属于服务质量或运营效率类，不属于 E/S/G 核心环境、社会或治理实质性指标。"
+    },
+    {
+      "page_image": "page_49_left.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "公益慈善捐赠总金额",
+      "unit": "万元",
+      "values": {
+        "2024年": "10"
+      },
+      "evidence_text": "慈善捐赠 公益慈善捐赠总金额 万元 2024年 10",
+      "reason": "llm_no_match:公益慈善捐赠总金额属于社会贡献类活动，但 Core ESG Schema 中无对应 field_key（如无 'charitable_donations' 或类似字段），且不属于环境、社会（员工、健康、安全、研发、客户投诉等）、治理（董事会、反腐败等）的标准化指标。"
+    },
+    {
+      "page_image": "page_49_left.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "供应商总数",
+      "unit": "家",
+      "values": {
+        "2024年": "2307"
+      },
+      "evidence_text": "供应商管理 供应商总数 家 2024年 2307",
+      "reason": "llm_no_match:供应商总数属于供应链管理范畴，但 Core ESG Schema 中无对应 field_key（如未定义 supplier_count、supplier_number 等字段），且不属于环境、社会或治理核心披露指标。"
+    },
+    {
+      "page_image": "page_49_left.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "省内供应商总数",
+      "unit": "家",
+      "values": {
+        "2024年": "1368"
+      },
+      "evidence_text": "供应商管理 省内供应商总数 家 2024年 1368",
+      "reason": "llm_no_match:该指标属于供应链管理中的地域性供应商统计，Core ESG Schema 中无对应 field_key；省内供应商总数不属于环境、社会或治理核心议题的标准化披露指标。"
+    },
+    {
+      "page_image": "page_49_left.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "国内供应商总数",
+      "unit": "家",
+      "values": {
+        "2024年": "2268"
+      },
+      "evidence_text": "供应商管理 国内供应商总数 家 2024年 2268",
+      "reason": "llm_no_match:该指标属于供应链管理范畴，但 Core ESG Schema 中无任何关于供应商数量的字段（如国内供应商总数、供应商总数、合格供应商数等均未列入），不属于环境、社会或治理核心指标。"
+    },
+    {
+      "page_image": "page_49_left.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "海外（含港澳台）供应商总数",
+      "unit": "家",
+      "values": {
+        "2024年": "39"
+      },
+      "evidence_text": "供应商管理 海外（含港澳台）供应商总数 家 2024年 39",
+      "reason": "llm_no_match:该指标属于供应链管理范畴，但 Core ESG Schema 中无任何关于供应商数量（尤其是海外供应商）的字段；不属于环境、社会或治理核心披露项。"
+    },
+    {
+      "page_image": "page_49_left.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "本省供应商采购比例",
+      "unit": "%",
+      "values": {
+        "2024年": "60.3"
+      },
+      "evidence_text": "供应商管理 本省供应商采购比例 % 2024年 60.3",
+      "reason": "llm_no_match:该指标属于供应链地域偏好类经营绩效指标，Core ESG Schema 中无对应 field_key（如无 'local_supplier_procurement_ratio' 或类似字段），且不属于环境、社会或治理核心披露项。"
+    },
+    {
+      "page_image": "page_49_left.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "签订廉洁条款的供应商比例",
+      "unit": "%",
+      "values": {
+        "2024年": "100"
+      },
+      "evidence_text": "供应商管理 签订廉洁条款的供应商比例 % 2024年 100",
+      "reason": "llm_no_match:签订廉洁条款的供应商比例属于供应链廉洁管理范畴，Core ESG Schema 中无对应 field_key；反腐败相关字段仅覆盖培训、举报、腐败事件等内部治理活动，不包含供应商廉洁条款履约类指标。"
+    },
+    {
+      "page_image": "page_49_left.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "研发员工比例",
+      "unit": "%",
+      "values": {
+        "2024年": "2.98"
+      },
+      "evidence_text": "研发创新 研发员工比例 % 2024年 2.98",
+      "reason": "llm_no_match:研发员工比例不属于 Core ESG Schema 中的任何 field_key；Schema 中有 r_and_d_employees（研发人员数量）和 female_management_ratio 等比例类指标，但无‘研发员工比例’这一标准化字段，且其定义模糊（分母未明确，可能是总员工、技术人员等），无对应 aliases 或语义匹配。"
+    },
+    {
+      "page_image": "page_49_left.png",
+      "table_title": "社会绩效",
+      "topic": null,
+      "metric_name": "研发投入占营收比例",
+      "unit": "%",
+      "values": {
+        "2024年": "5.36"
+      },
+      "evidence_text": "研发创新 研发投入占营收比例 % 2024年 5.36",
+      "reason": "llm_no_match:研发投入占营收比例是研发强度类指标，Core ESG Schema 中仅包含研发投入金额（r_and_d_investment）和研发人员数量（r_and_d_employees），未定义或别名覆盖任何‘研发投入占比’‘占营收比例’类比率指标；该指标属于经营绩效衍生指标，不属于 Core ESG Schema。"
+    },
+    {
+      "page_image": "page_49_right.png",
+      "table_title": "治理绩效",
+      "topic": null,
+      "metric_name": "不兼任高管职务的董事人数",
+      "unit": "人",
+      "values": {
+        "2024年": "5"
+      },
+      "evidence_text": "不兼任高管职务的董事人数 人 2024年 5",
+      "reason": "llm_no_match:不兼任高管职务的董事人数不属于 Core ESG Schema 中任何 field_key；Core Schema 中仅包含董事会人数、独立董事人数及比例、女性董事人数、董事会会议次数等，未定义‘不兼任高管职务的董事人数’这一细分结构指标。"
+    },
+    {
+      "page_image": "page_49_right.png",
+      "table_title": "治理绩效",
+      "topic": null,
+      "metric_name": "独董人均薪酬",
+      "unit": "万元",
+      "values": {
+        "2024年": "8"
+      },
+      "evidence_text": "独董人均薪酬 万元 2024年 8",
+      "reason": "llm_no_match:独董人均薪酬属于公司治理相关薪酬信息，但 Core ESG Schema 中无任何关于董事薪酬、人均薪酬或薪酬水平的字段；该指标不属于 G 类现有 field_key（如 board_size、independent_directors 等），亦非 E 或 S 类指标。"
+    },
+    {
+      "page_image": "page_49_right.png",
+      "table_title": "治理绩效",
+      "topic": null,
+      "metric_name": "审计委员会独董占比",
+      "unit": "%",
+      "values": {
+        "2024年": "66.60"
+      },
+      "evidence_text": "审计委员会独董占比 % 2024年 66.60",
+      "reason": "llm_no_match:审计委员会独董占比不属于 Core ESG Schema 中定义的任何 field_key；Core Schema 中仅包含董事会整体独立董事比例（independent_director_ratio），未涵盖专门委员会（如审计委员会）的独董占比，该指标属于公司治理细分实践，但无对应标准字段。"
+    },
+    {
+      "page_image": "page_49_right.png",
+      "table_title": "治理绩效",
+      "topic": null,
+      "metric_name": "提名委员会独董占比",
+      "unit": "%",
+      "values": {
+        "2024年": "66.60"
+      },
+      "evidence_text": "提名委员会独董占比 % 2024年 66.60",
+      "reason": "llm_no_match:提名委员会独董占比不属于 Core ESG Schema 中任何 field_key；Core Schema 仅包含董事会整体独立董事比例（independent_director_ratio），未涵盖专门委员会（如提名委员会）的独董占比，该指标属于公司治理细分实践，未在标准中定义。"
+    },
+    {
+      "page_image": "page_49_right.png",
+      "table_title": "治理绩效",
+      "topic": null,
+      "metric_name": "薪酬与考核委员会独董占比",
+      "unit": "%",
+      "values": {
+        "2024年": "66.60"
+      },
+      "evidence_text": "薪酬与考核委员会独董占比 % 2024年 66.60",
+      "reason": "llm_no_match:薪酬与考核委员会独董占比属于公司治理细分结构指标，Core ESG Schema 中仅包含董事会整体层面的独立董事比例（independent_director_ratio），未定义专门针对某一专门委员会（如薪酬与考核委员会）的独董占比字段。该指标超出 Core Schema 范围。"
+    },
+    {
+      "page_image": "page_49_right.png",
+      "table_title": "治理绩效",
+      "topic": null,
+      "metric_name": "女性董事占比",
+      "unit": "%",
+      "values": {
+        "2024年": "22.20"
+      },
+      "evidence_text": "女性董事占比 % 2024年 22.20",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=llm_match:女性董事占比对应女性董事人数，但该行指标名为'女性董事占比'且单位为%，与female_director_ratio字段的定义（女性董事比例，percentage类型）更匹配；然而Core Schema中female_director_ratio字段未定义，只有female_directors（人数）和female_director_ratio缺失；核查Schema发现：field_key 'female_director_ratio' 不存在于提供的Core ESG Schema中；Schema中仅有'female_directors'（人数）、'female_management_ratio'（女性管理层比例）、'female_employee_ratio'（女性员工比例），但无'female_director_ratio'；因此'女性董事占比'在Core Schema中无对应field_key；故不能匹配。"
+    },
+    {
+      "page_image": "page_49_right.png",
+      "table_title": "治理绩效",
+      "topic": null,
+      "metric_name": "审议董事会案个数",
+      "unit": "次",
+      "values": {
+        "2024年": "37"
+      },
+      "evidence_text": "审议董事会案个数 次 2024年 37",
+      "reason": "llm_no_match:审议董事会案个数不属于 Core ESG Schema 中任何 field_key；Core Schema 中无与董事会议案数量相关的指标，仅包含董事会会议次数（board_meetings），而非议案个数。"
+    },
+    {
+      "page_image": "page_49_right.png",
+      "table_title": "治理绩效",
+      "topic": null,
+      "metric_name": "董事参会比例",
+      "unit": "%",
+      "values": {
+        "2024年": "100"
+      },
+      "evidence_text": "董事参会比例 % 2024年 100",
+      "reason": "llm_no_match:董事参会比例未在 Core ESG Schema 中定义；Schema 中仅有董事会会议次数、独立董事比例等治理类指标，但无参会率或出席率相关字段。"
+    },
+    {
+      "page_image": "page_49_right.png",
+      "table_title": "治理绩效",
+      "topic": null,
+      "metric_name": "召开监事会会议次数",
+      "unit": "次",
+      "values": {
+        "2024年": "2"
+      },
+      "evidence_text": "召开监事会会议次数 次 2024年 2",
+      "reason": "llm_no_match:监事会会议次数属于公司治理类补充指标，但 Core ESG Schema 中未定义任何与监事会相关的 field_key（如 board_meetings 仅指董事会，不包含监事会），因此不属于 Core ESG Schema。"
+    },
+    {
+      "page_image": "page_49_right.png",
+      "table_title": "治理绩效",
+      "topic": null,
+      "metric_name": "审议监事会案个数",
+      "unit": "次",
+      "values": {
+        "2024年": "9"
+      },
+      "evidence_text": "审议监事会案个数 次 2024年 9",
+      "reason": "llm_no_match:该指标涉及监事会工作事项，属于公司治理过程性活动，但 Core ESG Schema 中无对应字段（如无 'supervisory_board_cases_reviewed' 或类似 field_key）；'审议监事会案个数' 不在任何 field_key 的 aliases 中，且不属于已定义的 G 类指标（如 board_meetings、shareholder_meetings 等均不涵盖监事会议案审议）。"
+    },
+    {
+      "page_image": "page_49_right.png",
+      "table_title": "治理绩效",
+      "topic": null,
+      "metric_name": "监事参会比例",
+      "unit": "%",
+      "values": {
+        "2024年": "100"
+      },
+      "evidence_text": "监事参会比例 % 2024年 100",
+      "reason": "llm_no_match:监事参会比例属于公司治理过程性指标，Core ESG Schema 中无对应 field_key（如 board_meetings、independent_director_ratio 等均不涵盖监事参会比例），且未在 aliases 中出现任何相关表述。"
+    },
+    {
+      "page_image": "page_49_right.png",
+      "table_title": "治理绩效",
+      "topic": null,
+      "metric_name": "参与股东大会、临时股东大会人数",
+      "unit": "次",
+      "values": {
+        "2024年": "2"
+      },
+      "evidence_text": "参与股东大会、临时股东大会人数 次 2024年 2",
+      "reason": "llm_no_match:参与股东大会、临时股东大会人数属于公司治理活动的参与度统计，但 Core ESG Schema 中无对应 field_key；board_meetings 和 shareholder_meetings 均指会议次数，而非参会人数，故不匹配。"
+    },
+    {
+      "page_image": "page_49_right.png",
+      "table_title": "治理绩效",
+      "topic": null,
+      "metric_name": "召开投资者电话会次数",
+      "unit": "次",
+      "values": {
+        "2024年": "6"
+      },
+      "evidence_text": "召开投资者电话会次数 次 2024年 6",
+      "reason": "llm_no_match:该指标属于投资者关系活动，Core ESG Schema 中无对应字段（如 investor_engagement、investor_meetings 等未被纳入），不属于环境、社会或治理核心指标。"
+    },
+    {
+      "page_image": "page_49_right.png",
+      "table_title": "治理绩效",
+      "topic": null,
+      "metric_name": "交易所互动平台回复投资人问题次数",
+      "unit": "次",
+      "values": {
+        "2024年": "51"
+      },
+      "evidence_text": "交易所互动平台回复投资人问题次数 次 2024年 51",
+      "reason": "llm_no_match:该指标涉及投资者关系管理，属于公司治理或沟通实践范畴，但 Core ESG Schema 中无对应字段（如无 'investor_engagement_count'、'investor_relations_responses' 等 field_key）；交易所互动平台回复次数不属于已定义的 G 类指标（如董事会会议、股东大会、反腐败培训、举报案件等），亦不属 E 或 S 类。因此不匹配。"
+    },
+    {
+      "page_image": "page_49_right.png",
+      "table_title": "治理绩效",
+      "topic": null,
+      "metric_name": "对外发布公告数量",
+      "unit": "份",
+      "values": {
+        "2024年": "83"
+      },
+      "evidence_text": "对外发布公告数量 份 2024年 83",
+      "reason": "llm_no_match:该指标属于信息披露或公司治理过程性活动，但 Core ESG Schema 中无对应字段（如无 'announcements_published' 或类似 field_key），不属于环境、社会或治理核心实质性指标。"
+    }
+  ],
+  "extracted_fields": [
+    "total_ghg_emissions",
+    "energy_consumption_total",
+    "electricity_consumption",
+    "water_consumption",
+    "wastewater_discharge",
+    "cod_emissions",
+    "ammonia_nitrogen_emissions",
+    "so2_emissions",
+    "nox_emissions",
+    "particulate_matter_emissions",
+    "hazardous_waste",
+    "non_hazardous_waste",
+    "total_waste",
+    "environmental_investment",
+    "total_employees",
+    "male_employees",
+    "female_employees",
+    "employees_under_30",
+    "employees_30_to_50",
+    "employees_over_50",
+    "employee_turnover_rate",
+    "training_hours_per_employee",
+    "training_coverage_rate",
+    "social_insurance_coverage_rate",
+    "r_and_d_investment",
+    "r_and_d_employees",
+    "authorized_patents_total",
+    "board_size",
+    "independent_directors",
+    "independent_director_ratio",
+    "board_meetings",
+    "shareholder_meetings",
+    "patent_applications_new"
+  ],
+  "missing_fields": [
+    "scope_1_emissions",
+    "scope_2_emissions",
+    "scope_3_emissions",
+    "ghg_emissions_intensity",
+    "energy_consumption_intensity",
+    "renewable_energy_consumption",
+    "natural_gas_consumption",
+    "coal_consumption",
+    "water_consumption_intensity",
+    "recycled_water_volume",
+    "waste_recycling_rate",
+    "environmental_violation_cases",
+    "female_employee_ratio",
+    "female_management_ratio",
+    "minority_employees",
+    "training_total_hours",
+    "training_expense",
+    "trained_employees_count",
+    "work_injury_rate",
+    "work_related_fatalities",
+    "lost_workdays_due_to_injury",
+    "employee_health_record_coverage_rate",
+    "authorized_patents_new",
+    "customer_complaints",
+    "female_directors",
+    "anti_corruption_training_sessions",
+    "anti_corruption_training_participants",
+    "anti_corruption_training_hours",
+    "confirmed_corruption_cases",
+    "whistleblowing_cases",
+    "board_esg_oversight",
+    "esg_committee",
+    "anti_corruption_policy",
+    "whistleblowing_mechanism",
+    "supplier_esg_assessment"
+  ],
+  "validation_summary": {
+    "total_fields": 68,
+    "extracted_fields": 33,
+    "missing_fields": 35,
+    "coverage_rate": 0.4853,
+    "raw_row_count": 121,
+    "unknown_metrics": 63
+  }
+}

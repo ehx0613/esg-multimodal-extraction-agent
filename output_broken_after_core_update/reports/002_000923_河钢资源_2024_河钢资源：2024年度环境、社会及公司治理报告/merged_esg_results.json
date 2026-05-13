@@ -1,0 +1,31 @@
+[
+  {
+    "field_key": "total_ghg_emissions",
+    "field_name_cn": "温室气体排放总量",
+    "category": "E",
+    "indicator_type": "quantitative",
+    "value_type": "number",
+    "status": "missing",
+    "value": "",
+    "raw_value": "",
+    "unit": "",
+    "year": "",
+    "source_route": "missing",
+    "confidence": "0.0",
+    "evidence": "",
+    "source_pages": "",
+    "row_label": "",
+    "topic": "",
+    "table_title": "",
+    "page_image": "",
+    "route_a_status": "missing",
+    "route_a_confidence": "0.0",
+    "route_a_reason": "not_found",
+    "route_b_matched": "",
+    "route_b_confidence": "",
+    "route_b_summary": "",
+    "route_b_evidence": "",
+    "route_b_source_pages": "",
+    "route_b_reason": ""
+  }
+]

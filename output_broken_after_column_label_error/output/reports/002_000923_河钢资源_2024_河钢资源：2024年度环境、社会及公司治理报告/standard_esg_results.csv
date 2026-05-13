@@ -1,0 +1,69 @@
+﻿field_key,name_cn,category,indicator_type,status,value,raw_value,unit,year,row_label,topic,confidence,match_reason,page_image,evidence_text
+total_ghg_emissions,温室气体排放总量,E,quantitative,missing,,,,,,,0.0,,,
+scope_1_emissions,范围一温室气体排放量,E,quantitative,extracted,70033.12,"70,033.12",吨二氧化碳当量,2024,范围一温室气体排放量,应对气候变化,0.96,heuristic_scope_1; schema_match_validated,page_43.png,"范围一温室气体排放量 吨二氧化碳当量 2022年 60,423.00 2023年 65,130.78 2024年 70,033.12"
+scope_2_emissions,范围二温室气体排放量,E,quantitative,extracted,466843.18,"466,843.18",吨二氧化碳当量,2024,范围二温室气体排放量,应对气候变化,0.96,heuristic_scope_2; schema_match_validated,page_43.png,"范围二温室气体排放量 吨二氧化碳当量 2022年 479,456.00 2023年 470,871.86 2024年 466,843.18"
+scope_3_emissions,范围三温室气体排放量,E,quantitative,missing,,,,,,,0.0,,,
+ghg_emissions_intensity,温室气体排放强度,E,quantitative,missing,,,,,,,0.0,,,
+energy_consumption_total,能源消耗总量,E,quantitative,extracted,47435.7,"47,435.7",万千瓦时,2024,非化石能源消耗量（电力）,能源利用,0.93,alias_match:能源消耗量; schema_match_validated,page_43.png,"非化石能源消耗量（电力） 万千瓦时 2022年 48,732.0 2023年 48,574.2 2024年 47,435.7"
+energy_consumption_intensity,能源消耗强度,E,quantitative,extracted,137.17,137.17,兆瓦时/百万元营收,2024,企业总能耗强度,能源利用,0.92,alias_match:能耗强度; schema_match_validated,page_43.png,企业总能耗强度 兆瓦时/百万元营收 2022年 134.15 2023年 114.31 2024年 137.17
+electricity_consumption,电力消耗量,E,quantitative,extracted,159.56,159.56,万千瓦时,2024,办公用电量,能源利用,0.92,heuristic_electricity; schema_match_validated,page_43.png,办公用电量 万千瓦时 2022年 101.47 2023年 97.11 2024年 159.56
+renewable_energy_consumption,可再生能源使用量,E,quantitative,extracted,0,0,万千瓦时,2024,清洁能源使用量,能源利用,0.95,alias_match:清洁能源使用量; schema_match_validated,page_43.png,清洁能源使用量 万千瓦时 2022年 0 2023年 0 2024年 0
+natural_gas_consumption,天然气消耗量,E,quantitative,missing,,,,,,,0.0,,,
+coal_consumption,煤炭消耗量,E,quantitative,missing,,,,,,,0.0,,,
+water_consumption,水资源消耗量,E,quantitative,extracted,84.9,84.90,万立方米,2024,新鲜水用水量,水资源利用,0.92,heuristic_water; schema_match_validated,page_43.png,新鲜水用水量 万立方米 2022年 89.25 2023年 83.39 2024年 84.90
+water_consumption_intensity,水资源消耗强度,E,quantitative,missing,,,,,,,0.0,,,
+recycled_water_volume,循环水或回用水量,E,quantitative,extracted,3597.54,"3,597.54",万立方米,2024,循环用水量,水资源利用,0.93,alias_match:循环用水量; schema_match_validated,page_43.png,"循环用水量 万立方米 2022年 3,935.79 2023年 3,388.66 2024年 3,597.54"
+wastewater_discharge,废水排放量,E,quantitative,extracted,12.57,12.57,万立方米,2024,废水排放量,水资源利用,0.93,alias_match:废水排放量; schema_match_validated,page_43.png,废水排放量 万立方米 2022年 16.06 2023年 13.77 2024年 12.57
+cod_emissions,化学需氧量排放量,E,quantitative,missing,,,,,,,0.0,,,
+ammonia_nitrogen_emissions,氨氮排放量,E,quantitative,missing,,,,,,,0.0,,,
+so2_emissions,二氧化硫排放量,E,quantitative,extracted,2.27,2.27,吨,2024,二氧化硫（SO₂）排放量,污染物排放,0.91,alias_match:氧化硫; schema_match_validated,page_43.png,二氧化硫（SO₂）排放量 吨 2022年 - 2023年 2.27 2024年 2.27
+nox_emissions,氮氧化物排放量,E,quantitative,extracted,53.28,53.28,吨,2024,氮氧化物（NOx）排放量,污染物排放,0.92,alias_match:氮氧化物; schema_match_validated,page_43.png,氮氧化物（NOx）排放量 吨 2022年 - 2023年 54.26 2024年 53.28
+particulate_matter_emissions,颗粒物排放量,E,quantitative,extracted,196.16,196.16,吨,2024,颗粒物（PM）排放量,污染物排放,0.91,alias_match:颗粒物; schema_match_validated,page_43.png,颗粒物（PM）排放量 吨 2022年 - 2023年 201.22 2024年 196.16
+hazardous_waste,危险废弃物产生或排放量,E,quantitative,extracted,133,133.0,吨,2024,有害废弃物排放量,废弃物管理,0.93,heuristic_hazardous_waste; schema_match_validated,page_43.png,有害废弃物排放量 吨 2022年 96.0 2023年 82.1 2024年 133.0
+non_hazardous_waste,无害废弃物产生或排放量,E,quantitative,extracted,1177,"1,177",吨,2024,无害废弃物排放量,废弃物管理,0.93,heuristic_non_hazardous_waste; schema_match_validated,page_43.png,"无害废弃物排放量 吨 2022年 792 2023年 756 2024年 1,177"
+total_waste,废弃物总量,E,quantitative,missing,,,,,,,0.0,,,
+waste_recycling_rate,废弃物回收利用率,E,quantitative,missing,,,,,,,0.0,,,
+environmental_investment,环保投入金额,E,quantitative,extracted,488.78,488.78,万元,2024,环保投入,环境管理,0.92,heuristic_environmental_investment; schema_match_validated,page_43.png,环保投入 万元 2022年 292.02 2023年 522.09 2024年 488.78
+environmental_violation_cases,环境违规或处罚事件数量,E,quantitative,missing,,,,,,,0.0,,,
+total_employees,员工总数,S,quantitative,missing,,,,,,,0.0,,,
+male_employees,男性员工人数,S,quantitative,missing,,,,,,,0.0,,,
+female_employees,女性员工人数,S,quantitative,extracted,807,807,人,2024,女性员工数,员工权益保障,0.92,alias_match:女性员工; schema_match_validated,page_43.png,女性员工数 人 2022年 623 2023年 652 2024年 807
+female_employee_ratio,女性员工比例,S,quantitative,extracted,20,20.00,%,2024,女性员工比例,员工权益保障,0.94,alias_match:女性员工比例; schema_match_validated,page_43.png,女性员工比例 % 2022年 15.29 2023年 16.53 2024年 20.00
+female_management_ratio,女性管理层比例,S,quantitative,extracted,19.4,19.40,%,2024,中层管理者中女性管理者占比,员工权益保障,0.95,llm_match:中层管理者中女性管理者占比与female_management_ratio的中文名'女性管理层比例'及别名'中层管理层中的女性员工比例'、'女性管理者比例'语义完全一致，单位为%，符合percentage类型。; schema_match_validated,page_43.png,中层管理者中女性管理者占比 % 2022年 17.00 2023年 16.43 2024年 19.40
+minority_employees,少数民族员工人数,S,quantitative,missing,,,,,,,0.0,,,
+employees_under_30,30岁以下员工人数,S,quantitative,missing,,,,,,,0.0,,,
+employees_30_to_50,30至50岁员工人数,S,quantitative,missing,,,,,,,0.0,,,
+employees_over_50,50岁以上员工人数,S,quantitative,missing,,,,,,,0.0,,,
+employee_turnover_rate,员工流失率,S,quantitative,extracted,3.2,3.2,%,2024,员工流失率,,0.93,alias_match:员工流失率; schema_match_validated,page_36.png,员工流失率 % 2024年 3.2
+training_total_hours,员工培训总时长,S,quantitative,missing,,,,,,,0.0,,,
+training_hours_per_employee,人均培训时长,S,quantitative,extracted,32.4,32.4,小时,2024,人均培训时长,,0.9,heuristic_training_hours_per_employee; schema_match_validated,page_36.png,人均培训时长 小时 2024年 32.4
+training_coverage_rate,员工培训覆盖率,S,quantitative,extracted,89.3,89.3,%,2024,员工培训覆盖率,,0.95,alias_match:员工培训覆盖率; schema_match_validated,page_36.png,员工培训覆盖率 % 2024年 89.3
+training_expense,培训投入金额,S,quantitative,extracted,3256.7,"3,256.7",万元,2024,员工培训投入,,0.9,heuristic_training_expense; schema_match_validated,page_36.png,"员工培训投入 万元 2024年 3,256.7"
+trained_employees_count,受训员工人数或人次,S,quantitative,missing,,,,,,,0.0,,,
+work_injury_rate,工伤率,S,quantitative,missing,,,,,,,0.0,,,
+work_related_fatalities,因工死亡人数,S,quantitative,extracted,0,0,人,2024,工亡人数,职业健康与安全生产,0.92,alias_match:工亡人数; schema_match_validated,page_43_right.png,职业健康与安全生产 工亡人数 人 2022年 0 2023年 0 2024年 0
+lost_workdays_due_to_injury,因工伤损失工作日数,S,quantitative,missing,,,,,,,0.0,,,
+social_insurance_coverage_rate,社会保险覆盖率,S,quantitative,extracted,100,100,%,2024,社会保险覆盖率（医疗补助）,员工权益保障,0.95,alias_match:社会保险覆盖率; schema_match_validated,page_43.png,社会保险覆盖率（医疗补助） % 2022年 100 2023年 100 2024年 100
+employee_health_record_coverage_rate,员工健康档案或体检覆盖率,S,quantitative,extracted,100,100,%,2024,体检覆盖率,员工权益保障,0.93,alias_match:体检覆盖率; schema_match_validated,page_43.png,体检覆盖率 % 2022年 100 2023年 100 2024年 100
+r_and_d_investment,研发投入金额,S,quantitative,missing,,,,,,,0.0,,,
+r_and_d_employees,研发人员数量,S,quantitative,missing,,,,,,,0.0,,,
+authorized_patents_new,当年新增授权专利数量,S,quantitative,missing,,,,,,,0.0,,,
+authorized_patents_total,累计授权专利数量,S,quantitative,missing,,,,,,,0.0,,,
+customer_complaints,客户投诉数量,S,quantitative,extracted,0,0,次,2024,客户投诉数量,客户,0.94,alias_match:客户投诉数量; schema_match_validated,page_44.png,客户投诉数量 次 2022年 1 2023年 1 2024年 0
+board_size,董事会人数,G,quantitative,missing,,,,,,,0.0,,,
+independent_directors,独立董事人数,G,quantitative,missing,,,,,,,0.0,,,
+independent_director_ratio,独立董事比例,G,quantitative,missing,,,,,,,0.0,,,
+female_directors,女性董事人数,G,quantitative,missing,,,,,,,0.0,,,
+board_meetings,董事会会议次数,G,quantitative,missing,,,,,,,0.0,,,
+shareholder_meetings,股东大会会议次数,G,quantitative,missing,,,,,,,0.0,,,
+anti_corruption_training_sessions,反腐败培训次数,G,quantitative,missing,,,,,,,0.0,,,
+anti_corruption_training_participants,反腐败培训参与人数或人次,G,quantitative,missing,,,,,,,0.0,,,
+anti_corruption_training_hours,反腐败培训总时长,G,quantitative,missing,,,,,,,0.0,,,
+confirmed_corruption_cases,确认的腐败事件数量,G,quantitative,missing,,,,,,,0.0,,,
+whistleblowing_cases,举报案件数量,G,quantitative,missing,,,,,,,0.0,,,
+patent_applications_new,当年申请专利数量,S,quantitative,missing,,,,,,,0.0,,,
+board_esg_oversight,董事会 ESG 监督机制,G,qualitative,missing,,,,,,,0.0,,,
+esg_committee,ESG 委员会或可持续发展委员会,G,qualitative,missing,,,,,,,0.0,,,
+anti_corruption_policy,反腐败政策,G,qualitative,missing,,,,,,,0.0,,,
+whistleblowing_mechanism,举报机制,G,qualitative,missing,,,,,,,0.0,,,
+supplier_esg_assessment,供应商 ESG 评估机制,S,qualitative,missing,,,,,,,0.0,,,

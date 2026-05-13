@@ -1,0 +1,5 @@
+pymupdf
+openai
+python-dotenv
+pandas
+numpy

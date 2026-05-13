@@ -1,0 +1,8 @@
+{
+  "total_fields": 68,
+  "extracted_fields": 26,
+  "missing_fields": 42,
+  "coverage_rate": 0.3824,
+  "raw_row_count": 200,
+  "unknown_metrics": 104
+}

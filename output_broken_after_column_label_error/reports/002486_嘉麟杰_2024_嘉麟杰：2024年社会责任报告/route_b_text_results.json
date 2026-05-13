@@ -1,0 +1,75 @@
+[
+  {
+    "field_key": "board_esg_oversight",
+    "field_name_cn": "董事会 ESG 监督机制",
+    "category": "G",
+    "matched": true,
+    "value": true,
+    "summary": "董事会设立ESG领导小组，董事长任组长，推进ESG管理，董事会深度参与ESG风险评估和管理流程。",
+    "evidence": "在董事会层面设立ESG领导小组，董事长担任领导小组组长，高效推进公司ESG管理工作；持续优化ESG管治水平。",
+    "source_pages": [
+      28
+    ],
+    "confidence": 0.95,
+    "reason": "正文明确披露了董事会层面的ESG监督机制。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "esg_committee",
+    "field_name_cn": "ESG 委员会或可持续发展委员会",
+    "category": "G",
+    "matched": true,
+    "value": true,
+    "summary": "公司设立了ESG工作小组，作为ESG委员会的类似机制。",
+    "evidence": "在董事会层面设立ESG领导小组，下设ESG工作小组，由董事、总裁担任组长。",
+    "source_pages": [
+      28
+    ],
+    "confidence": 0.95,
+    "reason": "正文明确披露了ESG工作小组的设立及职责，属于ESG委员会的别名机制。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "anti_corruption_policy",
+    "field_name_cn": "反腐败政策",
+    "category": "G",
+    "matched": true,
+    "value": true,
+    "summary": "公司建立了反腐败或举报相关制度。",
+    "evidence": "采购实施层面，与供应商明确反腐败条款，要求供应商签署《商业道德承诺书》。",
+    "source_pages": [
+      23
+    ],
+    "confidence": 0.86,
+    "reason": "正文明确披露了该机制。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "whistleblowing_mechanism",
+    "field_name_cn": "举报机制",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "summary": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.25,
+    "reason": "未找到足够证据。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "supplier_esg_assessment",
+    "field_name_cn": "供应商 ESG 评估机制",
+    "category": "S",
+    "matched": true,
+    "value": true,
+    "summary": "公司建立了供应商ESG评估机制，实施准入尽职调查、现场审核、第三方评估，并基于ESG绩效进行分级管理。",
+    "evidence": "实施供应商准入ESG尽职调查，通过现场审核、第三方评估确保标准；实行ESG绩效对供应商进行分级（A/B/C级）。",
+    "source_pages": [
+      23
+    ],
+    "confidence": 0.95,
+    "reason": "正文明确披露了该机制。",
+    "route": "B_text_rag"
+  }
+]

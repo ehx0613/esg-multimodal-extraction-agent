@@ -1,0 +1,11 @@
+{
+  "total_fields": 68,
+  "route_a_extracted_fields": 29,
+  "route_b_matched_fields": 5,
+  "route_b_filled_fields": 5,
+  "merged_extracted_fields": 34,
+  "missing_fields": 34,
+  "coverage_rate": 0.5,
+  "route_a_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\010_002913_奥士康_2025_奥士康：社会责任报告\\standard_esg_results.csv",
+  "route_b_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\010_002913_奥士康_2025_奥士康：社会责任报告\\route_b_text_results.csv"
+}

@@ -1,0 +1,6 @@
+﻿field_key,field_name_cn,category,matched,value,summary,evidence,source_pages,confidence,reason,route
+board_esg_oversight,董事会 ESG 监督机制,G,False,,,,[],0.0,no_text_layer_or_too_little_text,B_text_rag
+esg_committee,ESG 委员会或可持续发展委员会,G,False,,,,[],0.0,no_text_layer_or_too_little_text,B_text_rag
+anti_corruption_policy,反腐败政策,G,False,,,,[],0.0,no_text_layer_or_too_little_text,B_text_rag
+whistleblowing_mechanism,举报机制,G,False,,,,[],0.0,no_text_layer_or_too_little_text,B_text_rag
+supplier_esg_assessment,供应商 ESG 评估机制,S,False,,,,[],0.0,no_text_layer_or_too_little_text,B_text_rag

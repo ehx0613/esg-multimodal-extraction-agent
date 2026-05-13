@@ -1,0 +1,11 @@
+{
+  "total_fields": 68,
+  "route_a_extracted_fields": 38,
+  "route_b_matched_fields": 5,
+  "route_b_filled_fields": 5,
+  "merged_extracted_fields": 43,
+  "missing_fields": 25,
+  "coverage_rate": 0.6324,
+  "route_a_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\001_000858_五_粮_液_2024_五_粮_液：2024年度环境、社会及公司治理（ESG）报告\\standard_esg_results.csv",
+  "route_b_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\001_000858_五_粮_液_2024_五_粮_液：2024年度环境、社会及公司治理（ESG）报告\\route_b_text_results.csv"
+}

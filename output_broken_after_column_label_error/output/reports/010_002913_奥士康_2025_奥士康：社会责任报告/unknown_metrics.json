@@ -1,0 +1,4742 @@
+[
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "二氧化碳 (CO2)",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "7,854.28",
+      "2024年": "6,818.93"
+    },
+    "evidence_text": "二氧化碳 (CO2) 吨二氧化碳当量 2023年 7,854.28 2024年 6,818.93",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:二氧化碳(CO2)在ESG语境中常作为温室气体排放的代表性指标，且单位为吨二氧化碳当量，符合total_ghg_emissions的unit_examples；其aliases包含'温室气体排放总量''碳排放总量'等，'二氧化碳'属于该字段的合理简写和常见指代。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "甲烷 (CH4)",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "4,163.45",
+      "2024年": "2,164.04"
+    },
+    "evidence_text": "甲烷 (CH4) 吨二氧化碳当量 2023年 4,163.45 2024年 2,164.04",
+    "reason": "llm_no_match:甲烷(CH4)是单一温室气体组分，Core ESG Schema中所有温室气体相关字段（total_ghg_emissions、scope_1_emissions等）均要求为CO2当量总量或按范围划分的综合排放量，不包含单独的CH4质量或CH4折算量；Schema中无针对特定温室气体组分（如CH4、N2O）的独立field_key。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "一氧化二氮 (N2O)",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "13.61",
+      "2024年": "72.76"
+    },
+    "evidence_text": "一氧化二氮 (N2O) 吨二氧化碳当量 2023年 13.61 2024年 72.76",
+    "reason": "llm_no_match:一氧化二氮(N2O)是特定温室气体，但Core ESG Schema中未定义单独的N2O排放字段；所有温室气体相关指标仅覆盖总量及范围1/2/3排放、强度，以及COD、SO2、NOx等常规污染物，不包含单一气体如N2O的细分项。因此不属于Core ESG Schema。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "氢氟碳化物 (HFC)",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "404.05",
+      "2024年": "9,150.56"
+    },
+    "evidence_text": "氢氟碳化物 (HFC) 吨二氧化碳当量 2023年 404.05 2024年 9,150.56",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:氢氟碳化物（HFC）是典型的温室气体，属于范围一（直接排放）范畴；单位‘吨二氧化碳当量’与scope_1_emissions的unit_examples一致；aliases中包含‘直接温室气体排放量’，HFC作为直接排放的含氟温室气体，符合该字段语义。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "全氟化碳 (PFC)",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "136.29",
+      "2024年": "170.37"
+    },
+    "evidence_text": "全氟化碳 (PFC) 吨二氧化碳当量 2023年 136.29 2024年 170.37",
+    "reason": "llm_no_match:全氟化碳(PFC)是特定温室气体种类，但Core ESG Schema中未定义细分气体种类字段（如PFC、HFC、SF6等），仅包含范围一、二、三及总量等聚合层级的温室气体指标；该指标既不匹配scope_1_emissions（未说明是否属直接排放）、也不匹配total_ghg_emissions（非总量，而是单一气体组分），且无对应aliases支持。因此不属于Core ESG Schema。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "六氟化硫 (SF6)",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "六氟化硫 (SF6) 吨二氧化碳当量 2023年 0 2024年 0",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:六氟化硫 (SF6) 是典型的范围一温室气体（直接排放），常用于电力设备等，其排放量按二氧化碳当量折算后属于范围一温室气体排放量，匹配 scope_1_emissions。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "三氟化氮 (NF3)",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "三氟化氮 (NF3) 吨二氧化碳当量 2023年 0 2024年 0",
+    "reason": "llm_no_match:三氟化氮 (NF3) 是一种特定温室气体，但 Core ESG Schema 中未包含其专属字段；虽属温室气体范畴，但所有现有 scope_1/2/3 和 total_ghg_emissions 字段均未在 aliases 中涵盖 NF3，且无证据表明该值被归入范围一、二或三排放的统计口径，故无法可靠匹配。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "外购商品和服务",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "357,845.18",
+      "2024年": "514,211.21"
+    },
+    "evidence_text": "外购商品和服务 吨二氧化碳当量 2023年 357,845.18 2024年 514,211.21",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:外购商品和服务是范围三排放的核心类别之一，Core ESG Schema 中 scope_3_emissions 的别名明确包含‘范围三温室气体排放量’，且单位‘吨二氧化碳当量’完全匹配。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "资本货物",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "资本货物 吨二氧化碳当量 2023年 0 2024年 0",
+    "reason": "llm_no_match:资本货物是供应链相关概念，可能指向范围三排放的子类别，但‘资本货物’本身不是 Core ESG Schema 中定义的 field_key；Schema 中仅包含 scope_3_emissions 作为整体字段，不支持细分至具体类别如资本货物。无匹配别名，且未在 aliases 中出现。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "燃料和能源相关活动（不包括范畴一或范畴二）",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "71,170.60"
+    },
+    "evidence_text": "燃料和能源相关活动（不包括范畴一或范畴二） 吨二氧化碳当量 2023年 0 2024年 71,170.60",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:指标名称'燃料和能源相关活动（不包括范畴一或范畴二）'明确排除了范围一和范围二，属于范围三排放的典型描述；单位为吨二氧化碳当量，与scope_3_emissions的unit_examples一致；aliases中包含'范围三温室气体排放量'等表述。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "上游运输和分销",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "7,630.36",
+      "2024年": "10,567.25"
+    },
+    "evidence_text": "上游运输和分销 吨二氧化碳当量 2023年 7,630.36 2024年 10,567.25",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:上游运输和分销属于范围三（Scope 3）排放的典型类别，单位为吨二氧化碳当量，与scope_3_emissions的定义、aliases（如'范围三温室气体排放量'）及unit_examples完全一致。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "运营中产生的废弃物",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "8,404.54",
+      "2024年": "1,131.48"
+    },
+    "evidence_text": "运营中产生的废弃物 吨二氧化碳当量 2023年 8,404.54 2024年 1,131.48",
+    "reason": "llm_no_match:“运营中产生的废弃物”语义模糊，未明确指代危险/无害/总废弃物，且单位为吨二氧化碳当量（CO2e）错误——废弃物量应为质量单位（吨、万吨），而非温室气体当量单位；Core ESG Schema 中所有废弃物相关字段（hazardous_waste、non_hazardous_waste、total_waste）均要求质量单位，不接受CO2e，故无法匹配。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "商务旅行",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "66.02",
+      "2024年": "305.33"
+    },
+    "evidence_text": "商务旅行 吨二氧化碳当量 2023年 66.02 2024年 305.33",
+    "reason": "llm_no_match:商务旅行本身不是标准ESG指标；虽单位为吨二氧化碳当量，但未明确归属范围一、二或三，且'商务旅行'不在任何scope_emissions的aliases中，无法确定对应排放范围，按规则不确定时matched=false。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "员工通勤",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "20.54",
+      "2024年": "369.08"
+    },
+    "evidence_text": "员工通勤 吨二氧化碳当量 2023年 20.54 2024年 369.08",
+    "reason": "llm_no_match:员工通勤产生的碳排放属于范围三（Scope 3）温室气体排放中的‘员工通勤’子类，但Core ESG Schema中scope_3_emissions的aliases未明确包含‘员工通勤’；且该指标名称未在任何field_key的aliases中出现，无法确信匹配scope_3_emissions，故按规则不强行匹配。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "上游租赁资产",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0.00",
+      "2024年": "55.04"
+    },
+    "evidence_text": "上游租赁资产 吨二氧化碳当量 2023年 0.00 2024年 55.04",
+    "reason": "llm_no_match:上游租赁资产不属于 Core ESG Schema 中任何 field_key 的定义范畴；虽单位为吨二氧化碳当量，但‘上游租赁资产’并非标准温室气体排放范围（如 scope_1/2/3）的规范表述，且未在 scope_3_emissions 的 aliases 中出现（aliases 明确包含‘范围三’‘Scope 3’等术语，但不含‘上游租赁资产’）；该表述更可能指向特定业务场景下的自定义指标，非标准化 ESG 字段。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "下游运输和分销",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "6,388.46",
+      "2024年": "13.25"
+    },
+    "evidence_text": "下游运输和分销 吨二氧化碳当量 2023年 6,388.46 2024年 13.25",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:下游运输和分销属于范围三排放的典型活动类别，单位为吨二氧化碳当量，与scope_3_emissions的定义、aliases（如范围三温室气体排放量）和unit_examples完全一致。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "售出商品加工",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "售出商品加工 吨二氧化碳当量 2023年 0 2024年 0",
+    "reason": "llm_no_match:售出商品加工 不在 Core ESG Schema 的任何 aliases 中，且语义不明（非标准排放范围定义），无法对应 scope_1/2/3 或 total_ghg_emissions；单位虽为吨二氧化碳当量，但无上下文表明其为温室气体排放指标，可能为错误命名或业务特有指标。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "售出商品使用",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "售出商品使用 吨二氧化碳当量 2023年 0 2024年 0",
+    "reason": "llm_no_match:售出商品使用 不在 Core ESG Schema 的任何 field_key 别名中，且不属于已定义的温室气体排放范围（如 scope_1/2/3）、强度指标或产品碳足迹相关标准字段；Core Schema 中无对应别名或语义匹配项。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "售出产品报废处理",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "售出产品报废处理 吨二氧化碳当量 2023年 0 2024年 0",
+    "reason": "llm_no_match:售出产品报废处理不属于 Core ESG Schema 中定义的任何 field_key；Core Schema 中无与产品报废处理相关的温室气体排放归类（如 scope_3_emissions 要求明确为范围三排放，且需符合其 aliases 描述，而该指标名称未体现‘范围三’‘Scope 3’‘供应链’‘下游’等语义），且单位虽为吨二氧化碳当量，但无足够上下文支持其属于 scope_3_emissions 或其他 GHG 字段。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "下游租赁资产",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "147.23"
+    },
+    "evidence_text": "下游租赁资产 吨二氧化碳当量 2023年 0 2024年 147.23",
+    "reason": "llm_no_match:下游租赁资产不属于 Core ESG Schema 中任何 field_key 的定义或别名，既非环境类排放/资源指标，也非社会或治理类标准指标；其名称和上下文未在 aliases 或语义上匹配任何现有字段。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "特许经营",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "特许经营 吨二氧化碳当量 2023年 0 2024年 0",
+    "reason": "llm_no_match:‘特许经营’是商业模式或业务类型描述，非ESG环境、社会或治理绩效指标，Core ESG Schema中无任何字段与此相关。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "投资",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "投资 吨二氧化碳当量 2023年 0 2024年 0",
+    "reason": "llm_no_match:指标名称'投资'与Core ESG Schema中所有field_key的name_cn及aliases均无语义关联；单位'吨二氧化碳当量'虽为温室气体排放常用单位，但'投资'本身不表示任何排放、能耗或资源消耗行为，无法对应任何ESG环境类指标；该指标极可能为数据提取错误或误标。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "能源管理",
+    "topic": null,
+    "metric_name": "光伏发电量占比",
+    "unit": "%",
+    "values": {
+      "2023年": "0.17",
+      "2024年": "0.17"
+    },
+    "evidence_text": "光伏发电量占比 % 2023年 0.17 2024年 0.17",
+    "reason": "llm_no_match:光伏发电量占比未在 Core ESG Schema 的任何 field_key 的 aliases 中出现；renewable_energy_consumption 的别名包含‘光伏等新能源发电量’，但该字段指绝对用量（单位为千瓦时等），而非占比（%）；Schema 中无任何关于‘占比’类可再生能源结构指标的定义。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "能源管理",
+    "topic": null,
+    "metric_name": "可再生能源占能源消耗总量百分比",
+    "unit": "%",
+    "values": {
+      "2023年": "0.17",
+      "2024年": "14.64"
+    },
+    "evidence_text": "可再生能源占能源消耗总量百分比 % 2023年 0.17 2024年 14.64",
+    "reason": "llm_no_match:Core ESG Schema 中无‘可再生能源占能源消耗总量百分比’或类似强度类比率指标；renewable_energy_consumption 和 energy_consumption_total 均为绝对量，其比值未被定义为标准 field_key。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "能源管理",
+    "topic": null,
+    "metric_name": "柴油使用量",
+    "unit": "升",
+    "values": {
+      "2023年": "56,258.32",
+      "2024年": "52,774.05"
+    },
+    "evidence_text": "柴油使用量 升 2023年 56,258.32 2024年 52,774.05",
+    "reason": "llm_no_match:柴油使用量未在 Core ESG Schema 的 aliases 中出现，且无对应 field_key（如 schema 中仅有 natural_gas_consumption、coal_consumption，但无 diesel_consumption 或类似别名），不属于标准化 ESG 指标。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "能源管理",
+    "topic": null,
+    "metric_name": "汽油使用量",
+    "unit": "升",
+    "values": {
+      "2023年": "38,463.76",
+      "2024年": "79,633.40"
+    },
+    "evidence_text": "汽油使用量 升 2023年 38,463.76 2024年 79,633.40",
+    "reason": "llm_no_match:汽油使用量未在 Core ESG Schema 的任何 field_key 的 aliases 中出现，且不属于已定义的能源类指标（如 electricity_consumption、natural_gas_consumption、coal_consumption 等），Schema 中无‘汽油’相关别名或字段。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "能源管理",
+    "topic": null,
+    "metric_name": "生物质燃料使用量",
+    "unit": "吨",
+    "values": {
+      "2023年": "4,078.163",
+      "2024年": "3,198.77"
+    },
+    "evidence_text": "生物质燃料使用量 吨 2023年 4,078.163 2024年 3,198.77",
+    "reason": "llm_no_match:生物质燃料使用量未在 Core ESG Schema 的 aliases 中出现，且无对应 field_key（如 schema 中仅有 coal_consumption、natural_gas_consumption 等具体燃料类型，但无 biomass_fuel_consumption 或类似字段）。"
+  },
+  {
+    "page_image": "page_93.png",
+    "table_title": "能源管理",
+    "topic": null,
+    "metric_name": "蒸汽使用量",
+    "unit": "吨",
+    "values": {
+      "2023年": "0",
+      "2024年": "5,514"
+    },
+    "evidence_text": "蒸汽使用量 吨 2023年 0 2024年 5,514",
+    "reason": "llm_no_match:蒸汽使用量未在 Core ESG Schema 的任何 field_key 的 aliases 中出现，且不属于已定义的能源、水、排放等标准 ESG 指标；蒸汽是二次能源载体，Schema 中无对应字段（如 energy_consumption_total、natural_gas_consumption 等均不涵盖蒸汽），故无法匹配。"
+  },
+  {
+    "page_image": "page_93_left.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "二氧化碳（CO2）",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "7,854.28",
+      "2024年": "6,878.93"
+    },
+    "evidence_text": "二氧化碳（CO2） 吨二氧化碳当量 2023年 7,854.28 2024年 6,878.93",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:二氧化碳（CO2）在ESG语境中常作为温室气体排放的代表性指标，且单位为吨二氧化碳当量，符合total_ghg_emissions的unit_examples和aliases中'碳排放总量'等表述。"
+  },
+  {
+    "page_image": "page_93_left.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "甲烷（CH4）",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "4,163.45",
+      "2024年": "2,164.04"
+    },
+    "evidence_text": "甲烷（CH4） 吨二氧化碳当量 2023年 4,163.45 2024年 2,164.04",
+    "reason": "llm_no_match:甲烷（CH4）是单一温室气体组分，Core ESG Schema 中未定义针对特定温室气体（如CH4、N2O等）的独立 field_key；所有温室气体排放均应汇总为 CO2e 形式并归入 total_ghg_emissions、scope_1_emissions 等范围字段，而非按气体种类拆分。该指标未在 aliases 或语义上匹配任何现有 field_key。"
+  },
+  {
+    "page_image": "page_93_left.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "一氧化二氮（N2O）",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "13.61",
+      "2024年": "72.76"
+    },
+    "evidence_text": "一氧化二氮（N2O） 吨二氧化碳当量 2023年 13.61 2024年 72.76",
+    "reason": "llm_no_match:一氧化二氮（N2O）是特定温室气体，Core ESG Schema 中未定义针对单一气体（如 N2O）的独立 field_key；所有温室气体相关指标均需归入 scope_1_emissions、scope_2_emissions、scope_3_emissions 或 total_ghg_emissions 等聚合性字段，而此处未说明排放范围或是否已折算为总量，无法可靠映射。"
+  },
+  {
+    "page_image": "page_93_left.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "氟氯碳化物（HFC）",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "404.05",
+      "2024年": "9,150.58"
+    },
+    "evidence_text": "氟氯碳化物（HFC） 吨二氧化碳当量 2023年 404.05 2024年 9,150.58",
+    "reason": "llm_no_match:氟氯碳化物（HFC）虽属温室气体，但 Core ESG Schema 中未将其列为独立 field_key；所有现有温室气体相关字段（total_ghg_emissions、scope_1_emissions 等）均要求指标为‘总量’或按范围划分的综合排放量，而非单一物质（如 HFC）的排放量。HFC 作为特定温室气体种类，未在任何 aliases 中出现，且无对应 field_key 支持细分气体种类计量。"
+  },
+  {
+    "page_image": "page_93_left.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "全氟碳（PFC）",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "136.29",
+      "2024年": "170.37"
+    },
+    "evidence_text": "全氟碳（PFC） 吨二氧化碳当量 2023年 136.29 2024年 170.37",
+    "reason": "llm_no_match:全氟碳（PFC）是特定温室气体种类，Core ESG Schema 中未包含细分气体种类（如PFC、HFC、SF6等）的独立字段；所有温室气体相关指标仅覆盖总量及范围一、二、三排放，以及强度类指标，不支持按具体气体成分拆分匹配。"
+  },
+  {
+    "page_image": "page_93_left.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "六氟化硫（SF6）",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "六氟化硫（SF6） 吨二氧化碳当量 2023年 0 2024年 0",
+    "reason": "llm_no_match:六氟化硫（SF6）是特定温室气体，但Core ESG Schema中未包含针对单一气体（如SF6）的独立字段；其排放量若计入温室气体范畴，应归属scope_1_emissions、scope_2_emissions或scope_3_emissions之一，但原始指标名称未指明排放范围，且无上下文表明其属于直接/间接/价值链排放，无法可靠映射。"
+  },
+  {
+    "page_image": "page_93_left.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "三氟化氮（NF3）",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "三氟化氮（NF3） 吨二氧化碳当量 2023年 0 2024年 0",
+    "reason": "llm_no_match:三氟化氮（NF3）虽为温室气体，但Core ESG Schema中未将其列为独立字段；所有现有ghg相关字段（total_ghg_emissions、scope_1_emissions等）均未在aliases中包含NF3，且NF3通常需单独核算、不直接等同于范围一/二/三排放总量或强度，故无法可靠匹配。"
+  },
+  {
+    "page_image": "page_93_left.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "外购商品和服务",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "357,945.18",
+      "2024年": "514,211.21"
+    },
+    "evidence_text": "外购商品和服务 吨二氧化碳当量 2023年 357,945.18 2024年 514,211.21",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:外购商品和服务是范围三温室气体排放的核心组成部分，Core ESG Schema中scope_3_emissions的aliases明确包含'范围三温室气体排放量'等表述，且单位'吨二氧化碳当量'完全匹配。"
+  },
+  {
+    "page_image": "page_93_left.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "资本货物",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "资本货物 吨二氧化碳当量 2023年 0 2024年 0",
+    "reason": "llm_no_match:资本货物不属于 Core ESG Schema 中任何 field_key 的别名或语义范畴，既非环境、社会亦非治理类标准指标，也无对应别名或单位匹配。"
+  },
+  {
+    "page_image": "page_93_left.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "燃料和能源相关活动（不包括范围一或范围二）",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "71,170.60"
+    },
+    "evidence_text": "燃料和能源相关活动（不包括范围一或范围二） 吨二氧化碳当量 2023年 0 2024年 71,170.60",
+    "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_scope_1"
+  },
+  {
+    "page_image": "page_93_left.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "上游运输和分销",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "7,630.36",
+      "2024年": "10,567.25"
+    },
+    "evidence_text": "上游运输和分销 吨二氧化碳当量 2023年 7,630.36 2024年 10,567.25",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:上游运输和分销属于范围三（Scope 3）排放的典型类别，单位为吨二氧化碳当量，与scope_3_emissions的定义、aliases（如范围三温室气体排放量）和unit_examples完全一致。"
+  },
+  {
+    "page_image": "page_93_left.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "运营中产生的废弃物",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "8,404.54",
+      "2024年": "1,131.48"
+    },
+    "evidence_text": "运营中产生的废弃物 吨二氧化碳当量 2023年 8,404.54 2024年 1,131.48",
+    "reason": "llm_no_match:指标名称'运营中产生的废弃物'语义模糊，未明确指代危险/无害/总废弃物，且单位'吨二氧化碳当量'明显错误（废弃物应以吨为单位，CO2e是温室气体单位），与Core ESG Schema中所有废弃物相关field_key（hazardous_waste、non_hazardous_waste、total_waste）的aliases、unit_examples均不匹配。"
+  },
+  {
+    "page_image": "page_93_left.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "商务旅行",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "66.02",
+      "2024年": "305.33"
+    },
+    "evidence_text": "商务旅行 吨二氧化碳当量 2023年 66.02 2024年 305.33",
+    "reason": "llm_no_match:商务旅行产生的排放属于范围三温室气体排放的子类，但‘商务旅行’本身不是 Core ESG Schema 中定义的 field_key；Schema 中仅有 scope_3_emissions 作为整体字段，未将商务旅行单独列为标准指标，且该行未明确标注为‘范围三’或含任何 scope_3_emissions 别名，因此不满足精确匹配条件。"
+  },
+  {
+    "page_image": "page_93_left.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "员工通勤",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "20.54",
+      "2024年": "369.08"
+    },
+    "evidence_text": "员工通勤 吨二氧化碳当量 2023年 20.54 2024年 369.08",
+    "reason": "llm_no_match:员工通勤产生的碳排放属于范围三温室气体排放的子类，但'员工通勤'本身不是Core ESG Schema中定义的field_key；Schema中仅有scope_3_emissions（范围三温室气体排放量），未单独列出'员工通勤'作为独立指标，且该表述未在scope_3_emissions的aliases中出现，匹配依据不足。"
+  },
+  {
+    "page_image": "page_93_left.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "上游租赁资产",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0.00",
+      "2024年": "55.04"
+    },
+    "evidence_text": "上游租赁资产 吨二氧化碳当量 2023年 0.00 2024年 55.04",
+    "reason": "llm_no_match:上游租赁资产不属于 Core ESG Schema 中任何 field_key 的别名或语义范畴；该表述未在任何 aliases 中出现，且不对应温室气体排放范围（如 scope_1/2/3）的规范定义——'上游租赁资产'非标准排放范围术语，Core Schema 中 scope_3_emissions 的 aliases 明确包含'范围三'相关表述，但不含'上游租赁资产'；单位虽为吨CO2e，但指标名称本身无排放属性指向，匹配风险高，故严格判定为不匹配。"
+  },
+  {
+    "page_image": "page_93_left.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "下游运输和分销",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "6,398.46",
+      "2024年": "13.25"
+    },
+    "evidence_text": "下游运输和分销 吨二氧化碳当量 2023年 6,398.46 2024年 13.25",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:下游运输和分销属于范围三排放的典型活动类别，单位为吨二氧化碳当量，与scope_3_emissions的aliases（如范围三温室气体排放量）和unit_examples完全一致。"
+  },
+  {
+    "page_image": "page_93_right.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "售出商品加工",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "售出商品加工 吨二氧化碳当量 2023年 0 2024年 0",
+    "reason": "llm_no_match:“售出商品加工”语义不明，未在Core ESG Schema任何aliases中出现；单位虽为吨二氧化碳当量，但该名称不指向任何明确的温室气体排放范围（如scope_1/2/3）或总量，也不符合total_ghg_emissions等标准字段的命名逻辑；属于模糊或自定义指标，无法可靠匹配。"
+  },
+  {
+    "page_image": "page_93_right.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "售出商品使用",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "售出商品使用 吨二氧化碳当量 2023年 0 2024年 0",
+    "reason": "llm_no_match:售出商品使用”语义模糊，未在Core ESG Schema任何aliases中出现；既非标准温室气体排放范围（如scope_1/2/3），也非已定义的ghg_emissions_intensity或total_ghg_emissions；无上下文表明其指代产品碳足迹或范围三排放的具体子项，且Core Schema中scope_3_emissions的aliases未包含该表述。匹配风险高，故拒绝匹配。"
+  },
+  {
+    "page_image": "page_93_right.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "售出商品报废处理",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "售出商品报废处理 吨二氧化碳当量 2023年 0 2024年 0",
+    "reason": "llm_no_match:售出商品报废处理不属于 Core ESG Schema 中定义的任何 field_key；该表述未在任何 aliases 中出现，且不对应温室气体排放（如 scope_3_emissions）的明确核算边界（如未指明是范围三排放），亦无足够依据匹配 total_ghg_emissions 或其他排放类字段。"
+  },
+  {
+    "page_image": "page_93_right.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "下游租赁资产",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "147.23"
+    },
+    "evidence_text": "下游租赁资产 吨二氧化碳当量 2023年 0 2024年 147.23",
+    "reason": "llm_no_match:下游租赁资产不属于 Core ESG Schema 中任何 field_key 的语义范畴；其名称和上下文未对应任何环境、社会或治理标准指标，亦非温室气体排放范围（如 scope_3_emissions）的规范表述，且 Core Schema 中无'下游租赁资产'或类似别名。"
+  },
+  {
+    "page_image": "page_93_right.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "特许经营",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "特许经营 吨二氧化碳当量 2023年 0 2024年 0",
+    "reason": "llm_no_match:‘特许经营’是商业模式或业务类型描述，非ESG环境、社会或治理维度的量化指标，Core ESG Schema中无任何字段与其语义或别名匹配。"
+  },
+  {
+    "page_image": "page_93_right.png",
+    "table_title": "温室气体排放",
+    "topic": null,
+    "metric_name": "投资",
+    "unit": "吨二氧化碳当量",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "投资 吨二氧化碳当量 2023年 0 2024年 0",
+    "reason": "llm_no_match:指标名称'投资'与Core ESG Schema中所有field_key的name_cn及aliases均无语义关联；单位'吨二氧化碳当量'虽为温室气体类单位，但'投资'本身不表示任何排放、能耗或资源消耗行为，属于语义完全不匹配。该指标可能为数据提取错误或非ESG指标。"
+  },
+  {
+    "page_image": "page_93_right.png",
+    "table_title": "能源管理",
+    "topic": null,
+    "metric_name": "外购电网用电",
+    "unit": "兆瓦时",
+    "values": {
+      "2023年": "342,913.67",
+      "2024年": "403,149.47"
+    },
+    "evidence_text": "外购电网用电 兆瓦时 2023年 342,913.67 2024年 403,149.47",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:外购电网用电属于电力消耗量，是 electricity_consumption 的明确别名之一，单位兆瓦时（MWh）在 unit_examples 中列出。"
+  },
+  {
+    "page_image": "page_93_right.png",
+    "table_title": "能源管理",
+    "topic": null,
+    "metric_name": "光伏发电量占比",
+    "unit": "%",
+    "values": {
+      "2023年": "0.17",
+      "2024年": "0.17"
+    },
+    "evidence_text": "光伏发电量占比 % 2023年 0.17 2024年 0.17",
+    "reason": "llm_no_match:光伏发电量占比属于能源结构或绿色能源使用效率指标，Core ESG Schema 中无对应 field_key；renewable_energy_consumption 指绝对用量而非占比，且其 aliases 中未包含‘占比’类表述；ghg_emissions_intensity 或 energy_consumption_intensity 均为强度指标（单位/万元等），不匹配百分比形式的构成占比。"
+  },
+  {
+    "page_image": "page_93_right.png",
+    "table_title": "能源管理",
+    "topic": null,
+    "metric_name": "可再生能源占能源消耗总量百分比",
+    "unit": "%",
+    "values": {
+      "2023年": "0.17",
+      "2024年": "14.64"
+    },
+    "evidence_text": "可再生能源占能源消耗总量百分比 % 2023年 0.17 2024年 14.64",
+    "reason": "llm_no_match:Core ESG Schema 中无‘可再生能源占能源消耗总量百分比’或类似强度类比率指标；renewable_energy_consumption 和 energy_consumption_total 均为绝对量，其比值未被定义为标准字段；该指标属于衍生计算指标，非 Core Schema 支持的原始度量。"
+  },
+  {
+    "page_image": "page_93_right.png",
+    "table_title": "能源管理",
+    "topic": null,
+    "metric_name": "柴油使用量",
+    "unit": "升",
+    "values": {
+      "2023年": "56,258.32",
+      "2024年": "52,774.95"
+    },
+    "evidence_text": "柴油使用量 升 2023年 56,258.32 2024年 52,774.95",
+    "reason": "llm_no_match:柴油使用量未在 Core ESG Schema 的 aliases 中出现，且无对应 field_key（如 schema 中仅有天然气、煤炭、电力、可再生能源等能源类型，未包含柴油）；柴油虽属能源，但 schema 中未定义 diesel_consumption 字段，不可强行匹配至 energy_consumption_total 或其他能源字段。"
+  },
+  {
+    "page_image": "page_93_right.png",
+    "table_title": "能源管理",
+    "topic": null,
+    "metric_name": "汽油使用量",
+    "unit": "升",
+    "values": {
+      "2023年": "39,463.76",
+      "2024年": "29,633.40"
+    },
+    "evidence_text": "汽油使用量 升 2023年 39,463.76 2024年 29,633.40",
+    "reason": "llm_no_match:汽油使用量未在 Core ESG Schema 的任何 field_key 的 aliases 中出现，且不属于已定义的能源类指标（如 electricity_consumption、natural_gas_consumption、coal_consumption 等），Schema 中无对应字段。"
+  },
+  {
+    "page_image": "page_93_right.png",
+    "table_title": "能源管理",
+    "topic": null,
+    "metric_name": "生物质燃料使用量",
+    "unit": "吨",
+    "values": {
+      "2023年": "4,078.163",
+      "2024年": "3,198.77"
+    },
+    "evidence_text": "生物质燃料使用量 吨 2023年 4,078.163 2024年 3,198.77",
+    "reason": "llm_no_match:生物质燃料使用量未在 Core ESG Schema 的 aliases 中出现，且无对应 field_key（如 renewable_energy_consumption 的别名包含‘绿色电力’‘光伏等新能源发电量’‘清洁能源使用量’，但不涵盖‘生物质燃料’）；该指标虽属能源相关，但 Schema 中无专门针对生物质燃料的字段，强行匹配到 renewable_energy_consumption 风险高、依据不足。"
+  },
+  {
+    "page_image": "page_93_right.png",
+    "table_title": "能源管理",
+    "topic": null,
+    "metric_name": "蒸汽使用量",
+    "unit": "吨",
+    "values": {
+      "2023年": "0",
+      "2024年": "6,514"
+    },
+    "evidence_text": "蒸汽使用量 吨 2023年 0 2024年 6,514",
+    "reason": "llm_no_match:蒸汽使用量未在 Core ESG Schema 的任何 field_key 的 aliases 中出现，且不属于已定义的能源、水、排放等标准环境类指标；蒸汽是二次能源载体，其消耗不等同于电力、天然气、煤炭或水等直接计量项，Schema 中无对应字段。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "水资源管理",
+    "topic": null,
+    "metric_name": "第三万水（市政给水）",
+    "unit": "吨",
+    "values": {
+      "2024年": "3,158,558"
+    },
+    "evidence_text": "其中，按照来源统计 第三万水（市政给水） 吨 2024年 3,158,558",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:第三万水（市政给水）属于新鲜水用量，是水资源消耗量的典型来源之一，单位‘吨’符合water_consumption的unit_examples；别名中包含‘新鲜水用量’，语义高度一致。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "水资源管理",
+    "topic": null,
+    "metric_name": "地下水",
+    "unit": "吨",
+    "values": {
+      "2024年": "285,703"
+    },
+    "evidence_text": "其中，按照来源统计 地下水 吨 2024年 285,703",
+    "reason": "llm_no_match:地下水是水源类型，非消耗量指标；Core ESG Schema 中 water_consumption 指新鲜水用量/耗水量，强调‘使用’或‘消耗’行为，而‘地下水’仅为取水来源描述，未体现消耗量，且无别名支持该匹配。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "水资源管理",
+    "topic": null,
+    "metric_name": "雨水",
+    "unit": "吨",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "其中，按照来源统计 雨水 吨 2024年 0",
+    "reason": "llm_no_match:雨水不属于新鲜水用量、取水量或水资源消耗量的常规统计范畴，Core ESG Schema 中无对应字段；其采集与利用通常属非常规水管理实践，未在 water_consumption 或其他字段别名中覆盖。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "水资源管理",
+    "topic": null,
+    "metric_name": "其他",
+    "unit": "吨",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "其中，按照来源统计 其他 吨 2024年 0",
+    "reason": "llm_no_match:指标名称为'其他'，无具体含义，无法对应任何 Core ESG Schema 中的 field_key；单位'吨'过于宽泛，缺乏上下文支持匹配。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "水资源管理",
+    "topic": null,
+    "metric_name": "总排水量",
+    "unit": "吨",
+    "values": {
+      "2024年": "3,232,106"
+    },
+    "evidence_text": "总排水量 吨 2024年 3,232,106",
+    "reason": "llm_no_match:总排水量指排放的水量，对应废水排放行为，但Core ESG Schema中'wastewater_discharge'的aliases明确为'废水排放量、污水排放量'，未包含'总排水量'；且'总排水量'语义模糊，可能包含清洁排水、雨水排泄等非污水类排水，与wastewater_discharge定义不严格一致，匹配风险高，故不匹配。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "水资源管理",
+    "topic": null,
+    "metric_name": "第三万水（输送到第三方的水）",
+    "unit": "吨",
+    "values": {
+      "2024年": "2,037,233"
+    },
+    "evidence_text": "总排水量 第三万水（输送到第三方的水） 吨 2024年 2,037,233",
+    "reason": "llm_no_match:第三万水（输送到第三方的水）指外排水/输送给第三方的水量，属于废水去向或水资源转移范畴，Core ESG Schema 中无对应字段；wastewater_discharge 指企业排放的废水总量，不特指输送至第三方的部分，且语义不匹配；water_consumption 指企业自身消耗的新鲜水量，与‘输送到第三方’方向相反、性质不同。因此无法可靠匹配。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "水资源管理",
+    "topic": null,
+    "metric_name": "地表水",
+    "unit": "吨",
+    "values": {
+      "2024年": "1,164,873"
+    },
+    "evidence_text": "总排水量 地表水 吨 2024年 1,164,873",
+    "reason": "llm_no_match:地表水未在Core ESG Schema的aliases中出现，且不属于已定义的水资源相关字段（如water_consumption指新鲜水用量，wastewater_discharge指废水排放量），'地表水'语义模糊，无法确定是取水、排水、回用或环境监测指标，匹配依据不足。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "水资源管理",
+    "topic": null,
+    "metric_name": "其他",
+    "unit": "吨",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "总排水量 其他 吨 2024年 0",
+    "reason": "llm_no_match:指标名称为'其他'，无明确语义指向，且'evidence_text'中'总排水量 其他'表述模糊，无法确定是否对应Core ESG Schema中的wastewater_discharge或其他字段；'其他'不属于任何field_key的aliases，也不符合标准指标命名规范。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "废弃物处置",
+    "topic": null,
+    "metric_name": "废弃物总体排放量",
+    "unit": "吨",
+    "values": {
+      "2023年": "64,986.28",
+      "2024年": "49,735.35"
+    },
+    "evidence_text": "废弃物处置 废弃物总体排放量 吨 2023年 64,986.28 2024年 49,735.35",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:废弃物总体排放量与 total_waste 的中文名'废弃物总量'及别名'废弃物产生总量''废弃物排放总量'语义一致，单位'吨'符合 unit_examples。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "废弃物处置",
+    "topic": null,
+    "metric_name": "废弃物再利用率",
+    "unit": "%",
+    "values": {
+      "2023年": "98.35",
+      "2024年": "96.39"
+    },
+    "evidence_text": "废弃物处置 废弃物再利用率 % 2023年 98.35 2024年 96.39",
+    "reason": "llm_no_match:Core ESG Schema 中无 '废弃物再利用率' 对应字段；存在 'waste_recycling_rate'（废弃物回收利用率），但 '再利用率' 与 '回收利用率' 概念不等同，且无别名覆盖，匹配依据不足。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "男性员工比例",
+    "unit": "%",
+    "values": {
+      "2023年": "64.05",
+      "2024年": "64.33"
+    },
+    "evidence_text": "员工画像 男性员工比例 % 2023年 64.05 2024年 64.33",
+    "reason": "llm_no_match:Core ESG Schema 中无 '男性员工比例' 对应字段；仅有女性员工比例（female_employee_ratio）、男性员工人数（male_employees）等，但无比例类男性指标。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "30岁-50岁",
+    "unit": "人",
+    "values": {
+      "2023年": "3,544",
+      "2024年": "3,581"
+    },
+    "evidence_text": "员工画像 30岁-50岁 人 2023年 3,544 2024年 3,581",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:指标名称'30岁-50岁'与field_key 'employees_30_to_50'的aliases中'30至50岁员工人数'、'30-50岁员工人数'等高度一致，单位'人'匹配，且属于S类人口结构指标。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "硕士及以上学历",
+    "unit": "人",
+    "values": {
+      "2023年": "16",
+      "2024年": "27"
+    },
+    "evidence_text": "员工画像 硕士及以上学历 人 2023年 16 2024年 27",
+    "reason": "llm_no_match:硕士及以上学历属于员工教育背景结构指标，Core ESG Schema 中无对应 field_key；虽有员工总数、性别、年龄等人口统计字段，但学历层级（如硕士及以上）未被纳入标准字段。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "本科学历",
+    "unit": "人",
+    "values": {
+      "2023年": "445",
+      "2024年": "603"
+    },
+    "evidence_text": "员工画像 本科学历 人 2023年 445 2024年 603",
+    "reason": "llm_no_match:本科学历属于员工教育背景结构，Core ESG Schema 中无对应字段（如学历构成、本科员工数等未被定义），不属于现有 S 类指标范畴。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "专科学历",
+    "unit": "人",
+    "values": {
+      "2023年": "933",
+      "2024年": "965"
+    },
+    "evidence_text": "员工画像 专科学历 人 2023年 933 2024年 965",
+    "reason": "llm_no_match:专科学历属于员工教育背景细分，Core ESG Schema 中无对应字段（如学历结构、员工受教育程度等未被纳入标准字段），不属于环境、社会或治理核心指标。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "其他学历",
+    "unit": "人",
+    "values": {
+      "2023年": "3,285",
+      "2024年": "3,502"
+    },
+    "evidence_text": "员工画像 其他学历 人 2023年 3,285 2024年 3,502",
+    "reason": "llm_no_match:学历构成（如'其他学历'）属于人力资源结构细分，Core ESG Schema 中无对应字段；Schema 中仅包含员工总数、性别、年龄、民族等基础人口统计维度，未涵盖学历分类指标。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "生产人员",
+    "unit": "人",
+    "values": {
+      "2024年": "3,803"
+    },
+    "evidence_text": "员工画像 生产人员 人 2024年 3,803",
+    "reason": "llm_no_match:生产人员属于岗位/职能分类的员工子集，Core ESG Schema 中无对应 field_key；Schema 中仅包含按性别、年龄、管理层、民族等维度统计的员工总数或比例，不包括按岗位（如生产、销售、研发）划分的人数。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "销售人员",
+    "unit": "人",
+    "values": {
+      "2024年": "62"
+    },
+    "evidence_text": "员工画像 销售人员 人 2024年 62",
+    "reason": "llm_no_match:销售人员属于职能/岗位分类人员数量，Core ESG Schema 中无对应 field_key；员工总数、性别、年龄、管理层等维度均有明确定义字段，但‘销售人员’未被纳入标准人力结构指标。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "财务人员",
+    "unit": "人",
+    "values": {
+      "2024年": "32"
+    },
+    "evidence_text": "员工画像 财务人员 人 2024年 32",
+    "reason": "llm_no_match:财务人员属于职能岗位分类，非 Core ESG Schema 中任何 S 类或 G 类指标（如员工总数、性别构成、培训、治理结构等），且未在 aliases 中出现匹配项。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "行政人员",
+    "unit": "人",
+    "values": {
+      "2024年": "525"
+    },
+    "evidence_text": "员工画像 行政人员 人 2024年 525",
+    "reason": "llm_no_match:行政人员属于组织架构或人力资源细分口径，Core ESG Schema 中无对应字段；员工总数（total_employees）、性别/年龄等结构指标有定义，但‘行政人员’未被列为标准ESG指标。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "中国内地",
+    "unit": "人",
+    "values": {
+      "2024年": "4,822"
+    },
+    "evidence_text": "员工画像 中国内地 人 2024年 4,822",
+    "reason": "llm_no_match:该指标'中国内地'为地域标签，非ESG实质性指标，不属于Core ESG Schema中任何field_key。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "港澳台地区",
+    "unit": "人",
+    "values": {
+      "2024年": "15"
+    },
+    "evidence_text": "员工画像 港澳台地区 人 2024年 15",
+    "reason": "llm_no_match:港澳台地区员工人数未在 Core ESG Schema 的任何 field_key 别名中出现，不属于标准 ESG 人力结构指标（如 gender、age、ethnicity 等），且 Schema 中无对应字段。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "海外地区",
+    "unit": "人",
+    "values": {
+      "2024年": "260"
+    },
+    "evidence_text": "员工画像 海外地区 人 2024年 260",
+    "reason": "llm_no_match:该指标描述的是员工地域分布（海外地区），Core ESG Schema 中无对应字段；员工地域分布不属于标准ESG核心指标，未在任何 field_key 的 aliases 或语义范围内覆盖。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "弱势群体员工",
+    "unit": "人",
+    "values": {
+      "2023年": "41",
+      "2024年": "0"
+    },
+    "evidence_text": "员工画像 弱势群体员工 人 2023年 41 2024年 0",
+    "reason": "llm_no_match:弱势群体员工未在 Core ESG Schema 中定义，无对应 field_key；不属于环境（E）、社会（S）或治理（G）类标准指标中的任何一项。"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "高级管理层的女性员工数量",
+    "unit": "人",
+    "values": {
+      "2023年": "14",
+      "2024年": "36"
+    },
+    "evidence_text": "员工画像 高级管理层的女性员工数量 人 2023年 14 2024年 36",
+    "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_female_employees"
+  },
+  {
+    "page_image": "page_94.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "高级管理层的男性员工数量",
+    "unit": "人",
+    "values": {
+      "2023年": "48",
+      "2024年": "141"
+    },
+    "evidence_text": "员工画像 高级管理层的男性员工数量 人 2023年 48 2024年 141",
+    "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_male_employees"
+  },
+  {
+    "page_image": "page_94_left.png",
+    "table_title": "水资源管理",
+    "topic": null,
+    "metric_name": "第三方水（市政供水）",
+    "unit": "吨",
+    "values": {
+      "2024年": "3,158,559"
+    },
+    "evidence_text": "其中，按照来源统计\n第三方水（市政供水） 吨 2024年 3,158,559",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:第三方水（市政供水）属于新鲜水用量，是水资源消耗量的典型来源之一，与 aliases 中‘新鲜水用量’、‘用水量’、‘耗水量’语义一致，单位‘吨’符合 unit_examples。"
+  },
+  {
+    "page_image": "page_94_left.png",
+    "table_title": "水资源管理",
+    "topic": null,
+    "metric_name": "地下水",
+    "unit": "吨",
+    "values": {
+      "2024年": "285,703"
+    },
+    "evidence_text": "其中，按照来源统计\n地下水 吨 2024年 285,703",
+    "reason": "llm_no_match:地下水是水源类型，非消耗量指标；Core ESG Schema 中 water_consumption 指新鲜水用量/耗水量，需明确为‘消耗’或‘取用’行为，仅列‘地下水’且无动词或上下文表明其为消耗量，匹配依据不足。"
+  },
+  {
+    "page_image": "page_94_left.png",
+    "table_title": "水资源管理",
+    "topic": null,
+    "metric_name": "雨水",
+    "unit": "吨",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "其中，按照来源统计\n雨水 吨 2024年 0",
+    "reason": "llm_no_match:雨水不属于新鲜水用量，未在 Core ESG Schema 的 water_consumption 或其他字段的 aliases 中定义；Core Schema 中无‘雨水’相关别名或语义映射。"
+  },
+  {
+    "page_image": "page_94_left.png",
+    "table_title": "水资源管理",
+    "topic": null,
+    "metric_name": "其他",
+    "unit": "吨",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "其中，按照来源统计\n其他 吨 2024年 0",
+    "reason": "llm_no_match:指标名称为'其他'，无明确语义指向，未在Core ESG Schema的任何aliases中出现，无法对应任何标准field_key。"
+  },
+  {
+    "page_image": "page_94_left.png",
+    "table_title": "水资源管理",
+    "topic": null,
+    "metric_name": "总排水量",
+    "unit": "吨",
+    "values": {
+      "2024年": "3,232,106"
+    },
+    "evidence_text": "总排水量 吨 2024年 3,232,106",
+    "reason": "llm_no_match:总排水量指排放的水量，对应废水排放行为，应匹配 wastewater_discharge；但‘总排水量’未在 wastewater_discharge 的 aliases 中明确列出，且其语义更接近‘排水’而非‘废水排放’，存在歧义（如可能包含清洁排水、雨水等非废水），不符合严格匹配规则。Core Schema 中无‘总排水量’的直接别名，故不匹配。"
+  },
+  {
+    "page_image": "page_94_left.png",
+    "table_title": "水资源管理",
+    "topic": null,
+    "metric_name": "第三方水（输送到第三方的水）",
+    "unit": "吨",
+    "values": {
+      "2024年": "2,037,233"
+    },
+    "evidence_text": "第三方水（输送到第三方的水） 吨 2024年 2,037,233",
+    "reason": "llm_no_match:第三方水（输送到第三方的水）属于水资源输出或外供水，Core ESG Schema 中 water_consumption 指企业自身消耗的新鲜水用量，不包含输送给第三方的水量；Schema 中无对应字段描述外供水或第三方用水，故不匹配。"
+  },
+  {
+    "page_image": "page_94_left.png",
+    "table_title": "水资源管理",
+    "topic": null,
+    "metric_name": "地表水",
+    "unit": "吨",
+    "values": {
+      "2024年": "1,194,873"
+    },
+    "evidence_text": "地表水 吨 2024年 1,194,873",
+    "reason": "llm_no_match:地表水是水源类型描述，非消耗量、取水量或用水量等可量化ESG环境指标；Core ESG Schema中无对应field_key，且未在aliases中出现，无法确定其是否等同于water_consumption。"
+  },
+  {
+    "page_image": "page_94_left.png",
+    "table_title": "水资源管理",
+    "topic": null,
+    "metric_name": "其他",
+    "unit": "吨",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "其他 吨 2024年 0",
+    "reason": "llm_no_match:指标名称为'其他'，无具体语义指向，不在Core ESG Schema任何field_key的aliases中，且无上下文支持其对应任一ESG环境、社会或治理维度的具体指标。"
+  },
+  {
+    "page_image": "page_94_left.png",
+    "table_title": "废弃物处置",
+    "topic": null,
+    "metric_name": "废弃物总排放量",
+    "unit": "吨",
+    "values": {
+      "2023年": "64,986.28",
+      "2024年": "49,735.35"
+    },
+    "evidence_text": "废弃物总排放量 吨 2023年 64,986.28 2024年 49,735.35",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:废弃物总排放量与Core ESG Schema中field_key 'total_waste'的中文名'废弃物总量'及别名'废弃物排放总量'语义一致，单位'吨'符合unit_examples。"
+  },
+  {
+    "page_image": "page_94_left.png",
+    "table_title": "废弃物处置",
+    "topic": null,
+    "metric_name": "废弃物再利用率",
+    "unit": "%",
+    "values": {
+      "2023年": "98.35",
+      "2024年": "96.39"
+    },
+    "evidence_text": "废弃物再利用率 % 2023年 98.35 2024年 96.39",
+    "reason": "llm_no_match:Core ESG Schema 中无 '废弃物再利用率' 对应字段；存在 'waste_recycling_rate'（废弃物回收利用率），但 '再利用' 与 '回收利用' 概念不等同，且别名中未覆盖 '再利用率'，匹配依据不足。"
+  },
+  {
+    "page_image": "page_94_right.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "男性员工比例",
+    "unit": "%",
+    "values": {
+      "2023年": "64.05",
+      "2024年": "64.33"
+    },
+    "evidence_text": "男性员工比例 % 64.05 64.33",
+    "reason": "llm_no_match:Core ESG Schema 中无 '男性员工比例' 对应字段；仅有女性员工比例（female_employee_ratio）、男性员工人数（male_employees）等，但无男性员工比例的定义或别名。"
+  },
+  {
+    "page_image": "page_94_right.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "30岁-50岁",
+    "unit": "人",
+    "values": {
+      "2023年": "3,544",
+      "2024年": "3,581"
+    },
+    "evidence_text": "30岁-50岁 人 3,544 3,581",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:指标名称'30岁-50岁'与field_key 'employees_30_to_50'的aliases中'30至50岁员工人数'、'30-50岁员工人数'等高度一致，单位'人'匹配，且属于Core ESG Schema中S类人口结构指标。"
+  },
+  {
+    "page_image": "page_94_right.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "硕士及以上学历",
+    "unit": "人",
+    "values": {
+      "2023年": "16",
+      "2024年": "27"
+    },
+    "evidence_text": "硕士及以上学历 人 16 27",
+    "reason": "llm_no_match:硕士及以上学历属于人力资源结构细分指标，Core ESG Schema 中无对应 field_key（如 education_level_distribution、highly_educated_employees 等未被定义），不属于现有 S 类标准字段。"
+  },
+  {
+    "page_image": "page_94_right.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "本科学历",
+    "unit": "人",
+    "values": {
+      "2023年": "445",
+      "2024年": "603"
+    },
+    "evidence_text": "本科学历 人 445 603",
+    "reason": "llm_no_match:本科学历属于员工教育背景构成，Core ESG Schema 中无对应字段（如学历结构、本科员工数等未被纳入标准字段），不属于环境、社会或治理核心指标。"
+  },
+  {
+    "page_image": "page_94_right.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "专科学历",
+    "unit": "人",
+    "values": {
+      "2023年": "933",
+      "2024年": "965"
+    },
+    "evidence_text": "专科学历 人 933 965",
+    "reason": "llm_no_match:专科学历属于员工教育背景构成，Core ESG Schema 中无对应字段（如学历结构、员工学历分布等未被纳入标准字段），不属于环境、社会或治理核心指标。"
+  },
+  {
+    "page_image": "page_94_right.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "其他学历",
+    "unit": "人",
+    "values": {
+      "2023年": "3,285",
+      "2024年": "3,502"
+    },
+    "evidence_text": "其他学历 人 3,285 3,502",
+    "reason": "llm_no_match:“其他学历”属于员工教育背景分类指标，Core ESG Schema 中无对应 field_key；员工学历结构未被纳入当前标准字段体系。"
+  },
+  {
+    "page_image": "page_94_right.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "生产人员",
+    "unit": "人",
+    "values": {
+      "2024年": "3,803"
+    },
+    "evidence_text": "生产人员 人 / 3,803",
+    "reason": "llm_no_match:生产人员属于细分岗位类型员工数，Core ESG Schema 中无对应字段；总员工数（total_employees）、按年龄/性别/管理层等维度的员工结构指标均有定义，但‘生产人员’未在 aliases 或语义范围内覆盖，不属于标准 ESG 指标。"
+  },
+  {
+    "page_image": "page_94_right.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "销售人员",
+    "unit": "人",
+    "values": {
+      "2024年": "62"
+    },
+    "evidence_text": "销售人员 人 / 62",
+    "reason": "llm_no_match:销售人员属于人力资源细分或业务部门人员统计，Core ESG Schema 中无对应字段（如 total_employees 是全体员工总数，不区分岗位），且未在任何 aliases 中出现。"
+  },
+  {
+    "page_image": "page_94_right.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "财务人员",
+    "unit": "人",
+    "values": {
+      "2024年": "32"
+    },
+    "evidence_text": "财务人员 人 / 32",
+    "reason": "llm_no_match:财务人员属于职能岗位分类，非 Core ESG Schema 中任何 S 类（如员工总数、性别、年龄结构等）或 G 类指标；Core Schema 中无‘财务人员’相关 field_key，且该指标不反映环境、社会或治理实质性议题。"
+  },
+  {
+    "page_image": "page_94_right.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "行政人员",
+    "unit": "人",
+    "values": {
+      "2024年": "525"
+    },
+    "evidence_text": "行政人员 人 / 525",
+    "reason": "llm_no_match:行政人员属于组织架构或人力资源细分口径，Core ESG Schema 中无对应字段；员工总数（total_employees）等标准字段未限定职能类别，'行政人员'不属于任何已定义的 S 类 field_key 的别名或语义范畴。"
+  },
+  {
+    "page_image": "page_94_right.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "中国内地",
+    "unit": "人",
+    "values": {
+      "2024年": "4,822"
+    },
+    "evidence_text": "中国内地 人 / 4,822",
+    "reason": "llm_no_match:该指标为地域性员工数量描述（'中国内地'），无明确ESG语义，未在Core ESG Schema中定义对应field_key；且不属于员工总数、性别、年龄等标准人力结构字段，无法可靠映射。"
+  },
+  {
+    "page_image": "page_94_right.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "港澳台地区",
+    "unit": "人",
+    "values": {
+      "2024年": "15"
+    },
+    "evidence_text": "港澳台地区 人 / 15",
+    "reason": "llm_no_match:港澳台地区员工人数未在 Core ESG Schema 中定义；Schema 中无任何关于地域来源员工的字段（如港澳台、外籍、本地等），不属于 S 类标准指标。"
+  },
+  {
+    "page_image": "page_94_right.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "海外地区",
+    "unit": "人",
+    "values": {
+      "2024年": "260"
+    },
+    "evidence_text": "海外地区 人 / 260",
+    "reason": "llm_no_match:该指标‘海外地区’描述地理分布维度，无对应ESG环境、社会或治理实质性议题含义，不属于Core ESG Schema中任何field_key。"
+  },
+  {
+    "page_image": "page_94_right.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "少数群体员工",
+    "unit": "人",
+    "values": {
+      "2023年": "289",
+      "2024年": "349"
+    },
+    "evidence_text": "少数群体员工 人 289 349",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:“少数群体员工”与 field_key: minority_employees 的别名“少数民族员工人数、少数民族员工数量、少数民族人数、少数民族”语义高度一致，单位“人”匹配，且属于 Core ESG Schema 中 S 类指标。"
+  },
+  {
+    "page_image": "page_94_right.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "弱势群体员工",
+    "unit": "人",
+    "values": {
+      "2023年": "41",
+      "2024年": "0"
+    },
+    "evidence_text": "弱势群体员工 人 41 0",
+    "reason": "llm_no_match:弱势群体员工未在 Core ESG Schema 中定义，无对应 field_key；不属于环境（E）、社会（S）或治理（G）类标准指标中的任何一项。"
+  },
+  {
+    "page_image": "page_94_right.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "高级管理层的女性员工数量",
+    "unit": "人",
+    "values": {
+      "2023年": "14",
+      "2024年": "36"
+    },
+    "evidence_text": "高级管理层的女性员工数量 人 14 36",
+    "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_female_employees"
+  },
+  {
+    "page_image": "page_94_right.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "高级管理层的男性员工数量",
+    "unit": "人",
+    "values": {
+      "2023年": "48",
+      "2024年": "141"
+    },
+    "evidence_text": "高级管理层的男性员工数量 人 48 141",
+    "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_male_employees"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "高级管理层的男性员工比例",
+    "unit": "%",
+    "values": {
+      "2023年": "77.42",
+      "2024年": "79.66"
+    },
+    "evidence_text": "高级管理层的男性员工比例 % 2023年 77.42 2024年 79.66",
+    "reason": "llm_no_match:Core ESG Schema 中无关于‘高级管理层的男性员工比例’的对应字段；仅有女性管理层比例（female_management_ratio），但无男性对应指标，且未定义‘高级管理层男性比例’为标准字段。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "高级管理层的少数群体/弱势群体员工数量",
+    "unit": "人",
+    "values": {
+      "2023年": "2",
+      "2024年": "5"
+    },
+    "evidence_text": "高级管理层的少数群体/弱势群体员工数量 人 2023年 2 2024年 5",
+    "reason": "llm_no_match:Core ESG Schema 中无关于‘高级管理层的少数群体/弱势群体员工数量’的对应字段；虽有 minority_employees 字段，但其定义为全体员工中的少数民族员工人数，未限定管理层层级，且‘少数群体/弱势群体’语义宽泛、超出 schema 中明确界定的‘少数民族’范畴，匹配依据不足。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "高级管理层的少数群体/弱势群体员工比例",
+    "unit": "%",
+    "values": {
+      "2023年": "3.23",
+      "2024年": "2.82"
+    },
+    "evidence_text": "高级管理层的少数群体/弱势群体员工比例 % 2023年 3.23 2024年 2.82",
+    "reason": "llm_no_match:Core ESG Schema 中无关于‘高级管理层的少数群体/弱势群体员工比例’的对应字段；虽有 minority_employees、female_management_ratio 等细分字段，但未定义‘少数群体/弱势群体’在管理层中的比例，且该表述为复合性、非标准化定义，不属于现有 field_key 的 aliases 范围。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "执行管理层的女性员工数量",
+    "unit": "人",
+    "values": {
+      "2023年": "21",
+      "2024年": "36"
+    },
+    "evidence_text": "执行管理层的女性员工数量 人 2023年 21 2024年 36",
+    "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_female_employees"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "执行管理层的男性员工数量",
+    "unit": "人",
+    "values": {
+      "2023年": "94",
+      "2024年": "184"
+    },
+    "evidence_text": "执行管理层的男性员工数量 人 2023年 94 2024年 184",
+    "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_male_employees"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "员工流失总人数",
+    "unit": "人",
+    "values": {
+      "2023年": "3,186",
+      "2024年": "2,108"
+    },
+    "evidence_text": "员工流失总人数 人 2023年 3,186 2024年 2,108",
+    "reason": "llm_no_match:员工流失总人数是绝对人数指标，而 Core ESG Schema 中对应的社会类指标为员工流失率（employee_turnover_rate），属百分比类型；Schema 中无‘员工流失总人数’或类似绝对人数形式的流失量字段，且未在 aliases 中覆盖。因此不匹配。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "其中，按性别统计",
+    "unit": "",
+    "values": {
+      "2023年": "",
+      "2024年": ""
+    },
+    "evidence_text": "其中，按性别统计 2023年 2024年",
+    "reason": "llm_no_match:该指标仅为分组标题（'其中，按性别统计'），未指明具体度量对象（如男性/女性员工人数或比例），无数值、无单位、无实质ESG含义，无法对应任何Core ESG Schema字段。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "其中，按年龄统计",
+    "unit": "",
+    "values": {
+      "2023年": "",
+      "2024年": ""
+    },
+    "evidence_text": "其中，按年龄统计 2023年 2024年",
+    "reason": "llm_no_match:该行仅为分组标题（'其中，按年龄统计'），无实际指标含义，未指明具体ESG字段，也无数值或单位信息，无法匹配任何Core ESG Schema字段。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "30岁-50岁",
+    "unit": "人",
+    "values": {
+      "2023年": "1,677",
+      "2024年": "1,187"
+    },
+    "evidence_text": "30岁-50岁 人 2023年 1,677 2024年 1,187",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:指标名称'30岁-50岁'与field_key 'employees_30_to_50'的aliases中'30至50岁员工人数'、'30-50岁员工人数'等高度一致，单位'人'匹配，且属于S类人口结构指标。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "其中，按派驻地区统计",
+    "unit": "",
+    "values": {
+      "2023年": "",
+      "2024年": ""
+    },
+    "evidence_text": "其中，按派驻地区统计 2023年 2024年",
+    "reason": "llm_no_match:该指标为分组标题性描述，无实质ESG量化含义，不属于Core ESG Schema中任何field_key。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "中国内地",
+    "unit": "人",
+    "values": {
+      "2023年": "/",
+      "2024年": "2,053"
+    },
+    "evidence_text": "中国内地 人 2023年 / 2024年 2,053",
+    "reason": "llm_no_match:‘中国内地’是地域描述，非ESG指标；数值‘2,053’配单位‘人’可能指某类人员数量，但无上下文表明其对应Core ESG Schema中任一标准化员工类字段（如total_employees、female_employees等），且‘中国内地’本身不在任何field_key的aliases中。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "港台白地区",
+    "unit": "人",
+    "values": {
+      "2023年": "/",
+      "2024年": "0"
+    },
+    "evidence_text": "港台白地区 人 2023年 / 2024年 0",
+    "reason": "llm_no_match:港台白地区”语义不明，疑似文本识别错误或地域分类标签，非标准ESG指标；单位为人，但无对应员工结构类字段（如少数民族、港澳台员工等）的别名匹配；Core ESG Schema中无任何field_key包含‘港台白地区’或类似表述，且不属于已定义的S类人口统计维度。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "海外地区",
+    "unit": "人",
+    "values": {
+      "2023年": "/",
+      "2024年": "55"
+    },
+    "evidence_text": "海外地区 人 2023年 / 2024年 55",
+    "reason": "llm_no_match:该指标‘海外地区’描述的是地理分布维度的员工数量，Core ESG Schema 中无对应 field_key；既非标准 E/S/G 类量化指标（如 total_employees 未限定地域），也无任何 alias 或语义匹配，属于公司自定义或经营分析类指标。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "其中，按派驻性别统计",
+    "unit": "",
+    "values": {
+      "2023年": "",
+      "2024年": ""
+    },
+    "evidence_text": "其中，按派驻性别统计 2023年 2024年",
+    "reason": "llm_no_match:该行仅为分组标题（'其中，按派驻性别统计'），无实际指标数值，未指明具体度量对象（如男性/女性派驻人数或比例），且无单位和有效数值，无法对应任何 Core ESG Schema 字段。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "男性员工",
+    "unit": "%",
+    "values": {
+      "2023年": "47.47",
+      "2024年": "28.13"
+    },
+    "evidence_text": "男性员工 % 2023年 47.47 2024年 28.13",
+    "reason": "llm_no_match:单位为%，但'男性员工'在Core ESG Schema中对应的是人数（value_type: number），其标准字段male_employees的unit_examples为'人、名'，而非'%'；此处数据实为男性员工比例，但Schema中无'男性员工比例'字段，female_employee_ratio存在而male_employee_ratio不存在，因此不匹配。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "女性员工",
+    "unit": "%",
+    "values": {
+      "2023年": "20.62",
+      "2024年": "13.22"
+    },
+    "evidence_text": "女性员工 % 2023年 20.62 2024年 13.22",
+    "reason": "llm_no_match:指标名称为'女性员工'，单位为%，但未明确表示是比例或人数；Core ESG Schema 中对应女性员工比例的 field_key 是 'female_employee_ratio'，其 aliases 明确包含'女性员工比例''女性员工占比'等表述，而'女性员工'单独出现且单位为%时语义模糊，可能被误读为人数（但人数单位应为'人'），不符合 aliases 中任一规范表述，匹配不确定性高。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "其中，按派驻年龄统计",
+    "unit": "",
+    "values": {
+      "2023年": "",
+      "2024年": ""
+    },
+    "evidence_text": "其中，按派驻年龄统计 2023年 2024年",
+    "reason": "llm_no_match:该指标仅为分组标题（'其中，按派驻年龄统计'），无实际ESG数值含义，未指代任何Core ESG Schema中的具体环境、社会或治理指标。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "30岁以下",
+    "unit": "%",
+    "values": {
+      "2023年": "31.25",
+      "2024年": "17.74"
+    },
+    "evidence_text": "30岁以下 % 2023年 31.25 2024年 17.74",
+    "reason": "llm_no_match:指标名称'30岁以下'为年龄分段描述，但单位是%，而Core ESG Schema中employees_under_30的unit_examples为'人、名'，value_type为number；该行数据为百分比形式，未匹配到任何field_key的value_type=percentage且aliases覆盖'30岁以下'的S类指标（如employees_under_30要求人数，非比例），故无法可靠匹配。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "30岁-50岁",
+    "unit": "%",
+    "values": {
+      "2023年": "35.84",
+      "2024年": "23.29"
+    },
+    "evidence_text": "30岁-50岁 % 2023年 35.84 2024年 23.29",
+    "reason": "llm_no_match:指标名称'30岁-50岁'与Core ESG Schema中所有field_key的aliases均不匹配；且单位为%，而Schema中对应年龄段员工人数类指标（如employees_30_to_50）的value_type为number、unit_examples为'人、名'，非percentage；该行实际表示30至50岁员工占比，但Schema中无年龄结构比例类字段，仅有绝对人数字段，故无法匹配。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "50岁以上",
+    "unit": "%",
+    "values": {
+      "2023年": "1.00",
+      "2024年": "0.33"
+    },
+    "evidence_text": "50岁以上 % 2023年 1.00 2024年 0.33",
+    "reason": "rejected_by_schema_validator:unit_type_mismatch:person_count; original_reason=llm_match:指标名称'50岁以上'与field_key 'employees_over_50'的aliases完全匹配，且unit为'%'符合该字段允许的value_type: number（年龄分段人数为绝对数，但此处unit为%属数据录入错误或比例表达误标；然而evidence_text和metric_name上下文明确指向员工年龄结构分段，且Core Schema中employees_over_50的aliases包含'50岁及以上''50周岁以上'等，语义高度一致；结合ESG报告常见实践，该行实际应为50岁以上员工占总员工比例，而field_key employees_over_50在Schema中value_type为number，但alias未限定必须为绝对人数——需注意：Schema中employees_over_50定义value_type: number，unit_examples: '人、名'，但本行unit为'%'，存在单位冲突。然而，严格遵循规则6'如果不确定，matched=false，confidence不要高于0.5'，此处单位矛盾构成不确定性。重新判断：Schema明确unit_examples为'人、名'，无'%'；且field_key employees_over_50语义是人数，非比例；而本行unit='%'，数值极小（1.00, 0.33），明显为百分比。因此，它更可能对应'employees_over_50_ratio'，但该field_key不在Core Schema中。故不能匹配。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "其中，按派驻地区统计",
+    "unit": "",
+    "values": {
+      "2023年": "",
+      "2024年": ""
+    },
+    "evidence_text": "其中，按派驻地区统计 2023年 2024年",
+    "reason": "llm_no_match:该指标为分组标题性描述，无实质ESG量化含义，不属于 Core ESG Schema 中的任何 field_key。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "中国内地",
+    "unit": "%",
+    "values": {
+      "2023年": "/",
+      "2024年": "40.28"
+    },
+    "evidence_text": "中国内地 % 2023年 / 2024年 40.28",
+    "reason": "llm_no_match:指标名称'中国内地'为地理区域描述，无实质ESG含义；单位'%'与数值'40.28'缺乏上下文语义，无法对应任何Core ESG Schema字段。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "港台白地区",
+    "unit": "%",
+    "values": {
+      "2023年": "/",
+      "2024年": "0"
+    },
+    "evidence_text": "港台白地区 % 2023年 / 2024年 0",
+    "reason": "llm_no_match:‘港台白地区’语义不明，无对应ESG含义，不在Core ESG Schema任何field_key的aliases中，且非标准ESG指标名称。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "海外地区",
+    "unit": "%",
+    "values": {
+      "2023年": "/",
+      "2024年": "1.08"
+    },
+    "evidence_text": "海外地区 % 2023年 / 2024年 1.08",
+    "reason": "llm_no_match:该指标‘海外地区’为地理分布类描述性指标，未在 Core ESG Schema 中定义，不属于环境、社会或治理核心披露项。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "30岁-50岁",
+    "unit": "人",
+    "values": {
+      "2023年": "1,411",
+      "2024年": "1,365"
+    },
+    "evidence_text": "30岁-50岁 人 2023年 1,411 2024年 1,365",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:指标名称'30岁-50岁'与field_key 'employees_30_to_50'的aliases中'30至50岁员工人数'、'30-50岁员工人数'等高度一致，单位'人'匹配，且属于S类人口结构指标。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "硕士及以上学历",
+    "unit": "人",
+    "values": {
+      "2023年": "/",
+      "2024年": "12"
+    },
+    "evidence_text": "硕士及以上学历 人 2023年 / 2024年 12",
+    "reason": "llm_no_match:硕士及以上学历属于员工教育背景结构指标，Core ESG Schema 中无对应 field_key；未在 aliases 或语义上匹配任何 S 类或其它类字段。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "本科学历",
+    "unit": "人",
+    "values": {
+      "2023年": "/",
+      "2024年": "290"
+    },
+    "evidence_text": "本科学历 人 2023年 / 2024年 290",
+    "reason": "llm_no_match:本科学历属于员工教育背景构成，Core ESG Schema 中无对应字段（如学历结构、本科员工数等未被纳入标准字段），不属于环境、社会或治理核心指标。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "专科学历",
+    "unit": "人",
+    "values": {
+      "2023年": "/",
+      "2024年": "331"
+    },
+    "evidence_text": "专科学历 人 2023年 / 2024年 331",
+    "reason": "llm_no_match:专科学历属于员工教育背景构成，Core ESG Schema 中无任何关于学历结构（如专科、本科、硕士等）的字段，不属于环境、社会或治理标准指标。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "其他学历",
+    "unit": "人",
+    "values": {
+      "2023年": "/",
+      "2024年": "1,997"
+    },
+    "evidence_text": "其他学历 人 2023年 / 2024年 1,997",
+    "reason": "llm_no_match:‘其他学历’属于员工教育背景分类指标，Core ESG Schema 中无对应字段（如无 education_level_breakdown、other_education 等字段），且不属于已定义的任何 S 类人口结构、培训或健康相关 field_key。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "中国内地",
+    "unit": "人",
+    "values": {
+      "2023年": "/",
+      "2024年": "2,326"
+    },
+    "evidence_text": "中国内地 人 2023年 / 2024年 2,326",
+    "reason": "llm_no_match:指标名称'中国内地'为地理区域描述，非ESG实质性指标；数值'2,326'配单位'人'，但未指明具体人员类别（如员工、女性员工、少数民族员工等），无法对应任何Core ESG Schema中的S类人员字段。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "港台白地区",
+    "unit": "人",
+    "values": {
+      "2023年": "/",
+      "2024年": "3"
+    },
+    "evidence_text": "港台白地区 人 2023年 / 2024年 3",
+    "reason": "llm_no_match:港台白地区”语义不明，疑似文本识别错误或非标准指标名称，且无任何ESG语义关联；Core ESG Schema中无任何字段涉及地域性员工分类（如港台、白族等）的独立字段，亦无别名匹配。该指标不属于Core ESG Schema。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "海外地区",
+    "unit": "人",
+    "values": {
+      "2023年": "/",
+      "2024年": "301"
+    },
+    "evidence_text": "海外地区 人 2023年 / 2024年 301",
+    "reason": "llm_no_match:该指标‘海外地区’描述的是地理分布维度的员工数量，但未明确指向任何 Core ESG Schema 中定义的员工结构类字段（如 total_employees、minority_employees 等），且无对应别名或语义匹配；属于公司运营特征或地域分布信息，不属于 Core ESG Schema。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "少数群体员工",
+    "unit": "人",
+    "values": {
+      "2023年": "/",
+      "2024年": "295"
+    },
+    "evidence_text": "少数群体员工 人 2023年 / 2024年 295",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:少数群体员工与'少数民族员工人数'语义高度一致，属于S类社会指标，单位'人'匹配，且Core Schema中field_key: minority_employees的aliases明确包含'少数民族员工人数、少数民族员工数量、少数民族人数、少数民族'。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "弱势群体员工",
+    "unit": "人",
+    "values": {
+      "2023年": "/",
+      "2024年": "0"
+    },
+    "evidence_text": "弱势群体员工 人 2023年 / 2024年 0",
+    "reason": "llm_no_match:弱势群体员工未在 Core ESG Schema 中定义，无对应 field_key；不属于已列示的员工结构类指标（如性别、年龄、民族等），也无别名覆盖，故不匹配。"
+  },
+  {
+    "page_image": "page_95.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "新入职员工的少数群体/弱势群体员工比例",
+    "unit": "%",
+    "values": {
+      "2023年": "/",
+      "2024年": "11.22"
+    },
+    "evidence_text": "新入职员工的少数群体/弱势群体员工比例 % 2023年 / 2024年 11.22",
+    "reason": "llm_no_match:Core ESG Schema 中无关于‘新入职员工中少数群体/弱势群体员工比例’的对应字段；该指标属于细分人群招聘结构指标，未在标准 schema 的员工构成、性别、民族、年龄等维度中定义，且 aliases 中无匹配项。"
+  },
+  {
+    "page_image": "page_95_left.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "高级管理层的男性员工比例",
+    "unit": "%",
+    "values": {
+      "2023 年": "77.42",
+      "2024 年": "79.66"
+    },
+    "evidence_text": "高级管理层的男性员工比例 % 2023 年 77.42 2024 年 79.66",
+    "reason": "llm_no_match:Core ESG Schema 中无‘高级管理层的男性员工比例’对应字段；虽有 female_management_ratio，但无男性管理层比例的对称字段，且未在 aliases 中覆盖；该指标属于衍生性、非标准性别结构指标，不属于 Core Schema。"
+  },
+  {
+    "page_image": "page_95_left.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "高级管理层的少数群体 / 弱势群体员工数量",
+    "unit": "人",
+    "values": {
+      "2023 年": "2",
+      "2024 年": "5"
+    },
+    "evidence_text": "高级管理层的少数群体 / 弱势群体员工数量 人 2023 年 2 2024 年 5",
+    "reason": "llm_no_match:Core ESG Schema 中无关于‘高级管理层的少数群体/弱势群体员工数量’的对应字段；虽有 minority_employees 字段，但其定义为全体员工中的少数民族员工人数，未限定管理层层级，且‘少数群体/弱势群体’语义宽泛、非标准术语，无法可靠映射。"
+  },
+  {
+    "page_image": "page_95_left.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "高级管理层的少数群体 / 弱势群体员工比例",
+    "unit": "%",
+    "values": {
+      "2023 年": "3.23",
+      "2024 年": "2.82"
+    },
+    "evidence_text": "高级管理层的少数群体 / 弱势群体员工比例 % 2023 年 3.23 2024 年 2.82",
+    "reason": "llm_no_match:Core ESG Schema 中无关于‘高级管理层的少数群体/弱势群体员工比例’的对应字段；虽有 minority_employees、female_management_ratio 等细分字段，但未定义‘少数群体/弱势群体’在管理层中的比例，且该表述属扩展性、非标准化定义，无法可靠映射。"
+  },
+  {
+    "page_image": "page_95_left.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "执行管理层的女性员工数量",
+    "unit": "人",
+    "values": {
+      "2023 年": "21",
+      "2024 年": "36"
+    },
+    "evidence_text": "执行管理层的女性员工数量 人 2023 年 21 2024 年 36",
+    "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_female_employees"
+  },
+  {
+    "page_image": "page_95_left.png",
+    "table_title": "员工画像",
+    "topic": null,
+    "metric_name": "执行管理层的男性员工数量",
+    "unit": "人",
+    "values": {
+      "2023 年": "94",
+      "2024 年": "184"
+    },
+    "evidence_text": "执行管理层的男性员工数量 人 2023 年 94 2024 年 184",
+    "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_male_employees"
+  },
+  {
+    "page_image": "page_95_left.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "30 岁 -50 岁",
+    "unit": "人",
+    "values": {
+      "2023 年": "1,411",
+      "2024 年": "1,365"
+    },
+    "evidence_text": "30 岁 -50 岁 人 2023 年 1,411 2024 年 1,365",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:指标名称'30 岁 -50 岁'与field_key employees_30_to_50的aliases'30至50岁员工人数、30-50岁员工人数、30岁至50岁员工人数、大于30岁且小于50岁'语义完全一致，单位'人'匹配，且属于S类人口结构指标。"
+  },
+  {
+    "page_image": "page_95_left.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "硕士及以上学历",
+    "unit": "人",
+    "values": {
+      "2023 年": "/",
+      "2024 年": "12"
+    },
+    "evidence_text": "硕士及以上学历 人 2023 年 / 2024 年 12",
+    "reason": "llm_no_match:硕士及以上学历属于员工教育背景结构指标，Core ESG Schema 中无对应 field_key；未在 aliases 或语义上匹配任何现有 S 类字段（如 total_employees、r_and_d_employees 等均不等价）。"
+  },
+  {
+    "page_image": "page_95_left.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "本科学历",
+    "unit": "人",
+    "values": {
+      "2023 年": "/",
+      "2024 年": "290"
+    },
+    "evidence_text": "本科学历 人 2023 年 / 2024 年 290",
+    "reason": "llm_no_match:本科学历属于员工教育背景构成，Core ESG Schema 中无对应字段（如学历结构、本科员工数、员工学历分布等均未列入），不属于环境、社会或治理核心指标。"
+  },
+  {
+    "page_image": "page_95_left.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "专科学历",
+    "unit": "人",
+    "values": {
+      "2023 年": "/",
+      "2024 年": "331"
+    },
+    "evidence_text": "专科学历 人 2023 年 / 2024 年 331",
+    "reason": "llm_no_match:专科学历属于员工教育背景细分，Core ESG Schema 中无对应字段（如无 education_level_breakdown、employee_education_distribution 等），不属于现有任何 S 类或其它类别 field_key。"
+  },
+  {
+    "page_image": "page_95_left.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "其他学历",
+    "unit": "人",
+    "values": {
+      "2023 年": "/",
+      "2024 年": "1,997"
+    },
+    "evidence_text": "其他学历 人 2023 年 / 2024 年 1,997",
+    "reason": "llm_no_match:其他学历属于员工教育背景分类指标，Core ESG Schema 中无对应 field_key；未在任何 aliases 或 category 中定义学历结构类指标。"
+  },
+  {
+    "page_image": "page_95_left.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "中国内地",
+    "unit": "人",
+    "values": {
+      "2023 年": "/",
+      "2024 年": "2,326"
+    },
+    "evidence_text": "中国内地 人 2023 年 / 2024 年 2,326",
+    "reason": "llm_no_match:‘中国内地’是地理区域名称，非ESG指标，不属于Core ESG Schema中任何field_key。"
+  },
+  {
+    "page_image": "page_95_left.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "港澳台地区",
+    "unit": "人",
+    "values": {
+      "2023 年": "/",
+      "2024 年": "3"
+    },
+    "evidence_text": "港澳台地区 人 2023 年 / 2024 年 3",
+    "reason": "llm_no_match:港澳台地区员工人数未在 Core ESG Schema 中定义；Schema 中仅有 total_employees、male_employees、female_employees、minority_employees 等明确人口统计维度，但无按港澳台地区划分的独立字段。"
+  },
+  {
+    "page_image": "page_95_left.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "海外地区",
+    "unit": "人",
+    "values": {
+      "2023 年": "/",
+      "2024 年": "301"
+    },
+    "evidence_text": "海外地区 人 2023 年 / 2024 年 301",
+    "reason": "llm_no_match:该指标‘海外地区’描述的是地理分布维度的员工数量，但未明确指代员工总数、境外员工人数或类似标准字段；Core ESG Schema 中无对应 field_key（如 total_employees、international_employees 等），且‘海外地区’本身是模糊的上下文标签而非标准化指标名称。"
+  },
+  {
+    "page_image": "page_95_left.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "少数群体员工",
+    "unit": "人",
+    "values": {
+      "2023 年": "/",
+      "2024 年": "295"
+    },
+    "evidence_text": "少数群体员工 人 2023 年 / 2024 年 295",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:“少数群体员工”与 field_key: minority_employees 的中文名“少数民族员工人数”及别名“少数民族员工人数、少数民族员工数量、少数民族人数、少数民族”语义高度一致，单位“人”匹配，且属于 S 类社会维度指标。"
+  },
+  {
+    "page_image": "page_95_left.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "弱势群体员工",
+    "unit": "人",
+    "values": {
+      "2023 年": "/",
+      "2024 年": "0"
+    },
+    "evidence_text": "弱势群体员工 人 2023 年 / 2024 年 0",
+    "reason": "llm_no_match:弱势群体员工不属于 Core ESG Schema 中定义的任何 S 类指标（如性别、年龄、民族等具体人口统计维度），Schema 中无对应 field_key 或别名，且未在 aliases 中出现。"
+  },
+  {
+    "page_image": "page_95_left.png",
+    "table_title": "新入职员工",
+    "topic": null,
+    "metric_name": "新入职员工的少数群体 / 弱势群体员工比例",
+    "unit": "%",
+    "values": {
+      "2023 年": "/",
+      "2024 年": "11.22"
+    },
+    "evidence_text": "新入职员工的少数群体 / 弱势群体员工比例 % 2023 年 / 2024 年 11.22",
+    "reason": "llm_no_match:Core ESG Schema 中无关于‘新入职员工中少数群体/弱势群体比例’的字段；该指标不属于现有 S 类（如 minority_employees、female_employee_ratio 等）的定义范畴，亦非标准化 ESG 报告常见核心指标。"
+  },
+  {
+    "page_image": "page_95_right.png",
+    "table_title": "员工流失",
+    "topic": null,
+    "metric_name": "员工流失总人数",
+    "unit": "人",
+    "values": {
+      "2023年": "3,186",
+      "2024年": "2,108"
+    },
+    "evidence_text": "员工流失总人数 人 2023年 3,186 2024年 2,108",
+    "reason": "llm_no_match:员工流失总人数是绝对人数指标，而 Core ESG Schema 中对应的社会类指标为员工流失率（percentage），无‘员工流失总人数’这一 field_key；且该指标未在任何 aliases 中出现，不属于标准化 ESG 字段。"
+  },
+  {
+    "page_image": "page_95_right.png",
+    "table_title": "员工流失",
+    "topic": "其中，按照年龄统计",
+    "metric_name": "30岁-50岁",
+    "unit": "人",
+    "values": {
+      "2023年": "1,677",
+      "2024年": "1,187"
+    },
+    "evidence_text": "其中，按照年龄统计 30岁-50岁 人 2023年 1,677 2024年 1,187",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:指标名称'30岁-50岁'与field_key employees_30_to_50的aliases'30至50岁员工人数、30-50岁员工人数、30岁至50岁员工人数、大于30岁且小于50岁'语义完全一致，单位'人'匹配，属于S类人口结构指标。"
+  },
+  {
+    "page_image": "page_95_right.png",
+    "table_title": "员工流失",
+    "topic": "其中，按照地区统计",
+    "metric_name": "中国内地",
+    "unit": "人",
+    "values": {
+      "2023年": "/",
+      "2024年": "2,053"
+    },
+    "evidence_text": "其中，按照地区统计 中国内地 人 2023年 / 2024年 2,053",
+    "reason": "llm_no_match:该指标为按地区统计的员工人数（中国内地），但未明确标识为总员工数、性别、年龄等可映射至 Core ESG Schema 中 S 类字段的结构化人口属性；'中国内地'是地理维度标签，非指标名称，且 metric_name 本身不构成标准 field_key 的别名。Core Schema 中无地域分拆类员工指标，故不匹配。"
+  },
+  {
+    "page_image": "page_95_right.png",
+    "table_title": "员工流失",
+    "topic": "其中，按照地区统计",
+    "metric_name": "港澳台地区",
+    "unit": "人",
+    "values": {
+      "2023年": "/",
+      "2024年": "0"
+    },
+    "evidence_text": "其中，按照地区统计 港澳台地区 人 2023年 / 2024年 0",
+    "reason": "llm_no_match:该指标为按地区统计的员工人数（港澳台地区），虽与员工总数相关，但 Core ESG Schema 中无按地域细分的员工分布字段；'港澳台地区'不属于任何定义的 field_key 的 aliases 或语义范畴，且非标准 ESG 披露指标。"
+  },
+  {
+    "page_image": "page_95_right.png",
+    "table_title": "员工流失",
+    "topic": "其中，按照地区统计",
+    "metric_name": "海外地区",
+    "unit": "人",
+    "values": {
+      "2023年": "/",
+      "2024年": "55"
+    },
+    "evidence_text": "其中，按照地区统计 海外地区 人 2023年 / 2024年 55",
+    "reason": "llm_no_match:该指标为按地区统计的员工人数（海外地区），但 Core ESG Schema 中无按地域维度细分的员工数量字段；total_employees、male_employees、female_employees 等均为总量或人口学属性维度，不包含地理分布。因此不属于 Core ESG Schema。"
+  },
+  {
+    "page_image": "page_95_right.png",
+    "table_title": "员工流失",
+    "topic": "其中，按照性别统计",
+    "metric_name": "男性员工",
+    "unit": "%",
+    "values": {
+      "2023年": "47.47",
+      "2024年": "28.13"
+    },
+    "evidence_text": "其中，按照性别统计 男性员工 % 2023年 47.47 2024年 28.13",
+    "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=llm_match:指标名称'男性员工'与field_key male_employees的aliases完全匹配，但单位为'%'，而male_employees的value_type为number、unit_examples为'人、名'；然而，values中数值为百分比（47.47, 28.13），结合topic'按照性别统计'及常见披露实践，此处实为男性员工比例，但Core Schema中男性员工比例无对应field_key——male_employees定义为人数（number），其比例应由total_employees和male_employees推导；而female_employee_ratio存在，但male_employee_ratio不存在。因此，该行实际表示的是比例，但male_employees字段不支持percentage value_type，故不能匹配male_employees。重新判断：'男性员工' + unit '%' + 数值<100 → 实为男性员工占比，但Core Schema中无male_employee_ratio字段，且aliases中无任何男性比例相关表述，因此不匹配任何field_key。"
+  },
+  {
+    "page_image": "page_95_right.png",
+    "table_title": "员工流失",
+    "topic": "其中，按照性别统计",
+    "metric_name": "女性员工",
+    "unit": "%",
+    "values": {
+      "2023年": "20.62",
+      "2024年": "13.22"
+    },
+    "evidence_text": "其中，按照性别统计 女性员工 % 2023年 20.62 2024年 13.22",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:指标名称为'女性员工'，单位为%，且上下文明确为按性别统计的比例数据，与female_employee_ratio的中文名'女性员工比例'及其别名'女性员工占比'完全匹配。"
+  },
+  {
+    "page_image": "page_95_right.png",
+    "table_title": "员工流失",
+    "topic": "其中，按照年龄统计",
+    "metric_name": "30岁以下",
+    "unit": "%",
+    "values": {
+      "2023年": "31.25",
+      "2024年": "17.74"
+    },
+    "evidence_text": "其中，按照年龄统计 30岁以下 % 2023年 31.25 2024年 17.74",
+    "reason": "rejected_by_schema_validator:unit_type_mismatch:person_count; original_reason=llm_match:指标名称'30岁以下'与aliases中'30岁以下员工人数'、'30岁以下'等高度一致；虽单位为%，但values为具体百分比数值，结合上下文'topic: 其中，按照年龄统计'，该行实际表示30岁以下员工占员工总数的比例，但field_key employees_under_30定义为人数，非比例。需重新判断：Core Schema中employees_under_30的value_type为number，unit_examples为'人、名'，而本行unit为'%'，values为百分比数值，因此不匹配employees_under_30。进一步核查Schema，无任何field_key定义为'30岁以下员工比例'或类似percentage型年龄结构指标。故该指标不属于Core ESG Schema。"
+  },
+  {
+    "page_image": "page_95_right.png",
+    "table_title": "员工流失",
+    "topic": "其中，按照年龄统计",
+    "metric_name": "30岁-50岁",
+    "unit": "%",
+    "values": {
+      "2023年": "35.84",
+      "2024年": "23.29"
+    },
+    "evidence_text": "其中，按照年龄统计 30岁-50岁 % 2023年 35.84 2024年 23.29",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:指标名称'30岁-50岁'与field_key 'employees_30_to_50'的aliases中'30至50岁员工人数'、'30-50岁员工人数'等高度一致；单位为%，符合该字段value_type为number（此处为占比数值，但schema中未定义employees_30_to_50的value_type为percentage，需注意：查看schema发现employees_30_to_50的value_type为number，unit_examples为'人、名'，而本行unit为'%'，存在单位不匹配。但evidence_text和metric_name表明该值为占比（35.84%、23.29%），因此实际语义是30-50岁员工占总员工比例，而非人数。schema中无对应percentage类年龄结构字段，仅有employees_30_to_50（value_type: number, unit_examples: 人、名）。因此，该行表示的是比例，而非人数，不能匹配employees_30_to_50。重新判断：Core Schema中无任何年龄分段比例字段（如'30至50岁员工比例'），所有年龄相关字段均为人数型（number）且unit_examples均为'人、名'。因此，该指标虽主题相关，但value_type（percentage）与schema中所有年龄字段均不匹配，且无对应percentage别名字段。故应matched=false。"
+  },
+  {
+    "page_image": "page_95_right.png",
+    "table_title": "员工流失",
+    "topic": "其中，按照年龄统计",
+    "metric_name": "50岁以上",
+    "unit": "%",
+    "values": {
+      "2023年": "1.00",
+      "2024年": "0.33"
+    },
+    "evidence_text": "其中，按照年龄统计 50岁以上 % 2023年 1.00 2024年 0.33",
+    "reason": "rejected_by_schema_validator:unit_type_mismatch:person_count; original_reason=llm_match:指标名称'50岁以上'与field_key employees_over_50的aliases完全匹配，且单位为%，符合该字段value_type为number、unit_examples含'%'的上下文（实际该字段value_type为number，但values中为百分比数值，属常见统计口径；Core Schema中employees_over_50的aliases明确包含'50岁以上员工人数'、'50岁及以上'等，此处虽单位标为%，但结合topic'按照年龄统计'及evidence_text，可合理推断为50岁以上员工占总员工比例的简化表述，而Core Schema中无专门的employees_over_50_ratio字段，故仍匹配employees_over_50——因该字段在实践中常以绝对人数或占比形式披露，且aliases未限定必须为绝对人数，且其他年龄分段字段（如employees_under_30）同理。"
+  },
+  {
+    "page_image": "page_95_right.png",
+    "table_title": "员工流失",
+    "topic": "其中，按照地区统计",
+    "metric_name": "中国内地",
+    "unit": "%",
+    "values": {
+      "2023年": "/",
+      "2024年": "40.28"
+    },
+    "evidence_text": "其中，按照地区统计 中国内地 % 2023年 / 2024年 40.28",
+    "reason": "llm_no_match:该指标为按地区统计的占比（中国内地%），无明确ESG物理量或社会/治理内涵，不属于Core ESG Schema中任何field_key的语义范畴。"
+  },
+  {
+    "page_image": "page_95_right.png",
+    "table_title": "员工流失",
+    "topic": "其中，按照地区统计",
+    "metric_name": "港澳台地区",
+    "unit": "%",
+    "values": {
+      "2023年": "/",
+      "2024年": "0"
+    },
+    "evidence_text": "其中，按照地区统计 港澳台地区 % 2023年 / 2024年 0",
+    "reason": "llm_no_match:该指标为按地区划分的占比（港澳台地区%），属于地域分布类描述性统计，未在 Core ESG Schema 中定义，且不对应任何环境、社会或治理实质性议题字段。"
+  },
+  {
+    "page_image": "page_95_right.png",
+    "table_title": "员工流失",
+    "topic": "其中，按照地区统计",
+    "metric_name": "海外地区",
+    "unit": "%",
+    "values": {
+      "2023年": "/",
+      "2024年": "1.08"
+    },
+    "evidence_text": "其中，按照地区统计 海外地区 % 2023年 / 2024年 1.08",
+    "reason": "llm_no_match:该指标描述的是收入或业务的地区分布比例（海外地区%），属于经营绩效或市场拓展类指标，Core ESG Schema 中无对应字段。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "年原因除工伤事故成数量",
+    "unit": "起",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "年原因除工伤事故成数量 起 2024年 0",
+    "reason": "llm_no_match:指标名称'年原因除工伤事故成数量'语义不通，疑似OCR或录入错误，无法对应Core ESG Schema中任何标准字段；且无合理别名、单位或上下文支持匹配至work_injury_rate、work_related_fatalities等S类安全指标。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "年因工伤死亡员工数",
+    "unit": "人",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "年因工伤死亡员工数 人 2024年 0",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:年因工伤死亡员工数与 field_key 'work_related_fatalities' 的中文名 '因工死亡人数' 及别名 '工亡人数'、'工作相关死亡人数' 高度一致，单位为'人'，语义和计量单位完全匹配。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "年因工伤员工占比",
+    "unit": "%",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "年因工伤员工占比 % 2024年 0",
+    "reason": "llm_no_match:年因工伤员工占比不属于 Core ESG Schema 中定义的任何标准字段；Schema 中存在 work_injury_rate（工伤率）和 work_related_fatalities（因工死亡人数）等字段，但‘年因工伤员工占比’未在 aliases 中出现，且语义不明确（是受伤员工占总员工比？还是受伤事件发生率？），无足够依据匹配到 work_injury_rate，故 matched=false。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "因工造成人员重伤事故数量",
+    "unit": "起",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "因工造成人员重伤事故数量 起 2024年 0",
+    "reason": "llm_no_match:Core ESG Schema 中无对应字段；'因工造成人员重伤事故数量' 不等同于工伤率、因工死亡人数或损失工作日数等已有字段，属于细分安全事件指标，未在标准中定义。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "因工造成严重后果的工伤人数",
+    "unit": "人",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "因工造成严重后果的工伤人数 人 2024年 0",
+    "reason": "llm_no_match:Core ESG Schema 中无 '因工造成严重后果的工伤人数' 对应字段；已有工伤相关字段为 work_injury_rate（工伤率）、work_related_fatalities（因工死亡人数）、lost_workdays_due_to_injury（因工伤损失工作日数），但该指标语义特指‘严重后果的工伤人数’，未在 aliases 中覆盖，且不属于标准披露项。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "因工造成严重后果的工伤占比",
+    "unit": "%",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "因工造成严重后果的工伤占比 % 2024年 0",
+    "reason": "llm_no_match:‘因工造成严重后果的工伤占比’在 Core ESG Schema 中无对应 field_key；Schema 中仅有 work_injury_rate（工伤率）、work_related_fatalities（因工死亡人数）、lost_workdays_due_to_injury（因工伤损失工作日数）等基础指标，未定义‘严重后果’子类占比，不属于标准化字段。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "员工因工伤损失总天数",
+    "unit": "天",
+    "values": {
+      "2024年": "328"
+    },
+    "evidence_text": "员工因工伤损失总天数 天 2024年 328",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:指标名称'员工因工伤损失总天数'与field_key 'lost_workdays_due_to_injury'的中文名'因工伤损失工作日数'语义一致，单位'天'匹配unit_examples，且属于S类社会维度核心指标。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "安全演练活动",
+    "unit": "次",
+    "values": {
+      "2024年": "9"
+    },
+    "evidence_text": "安全演练活动 次 2024年 9",
+    "reason": "llm_no_match:安全演练活动属于企业内部安全管理实践，Core ESG Schema 中无对应 field_key；未在 aliases 或语义上匹配任何 S 类或 G 类指标（如 work_injury_rate、whistleblowing_cases 等均不涵盖演练频次），不属于标准化 ESG 报告核心指标。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "员工工伤保险投入金额",
+    "unit": "万元",
+    "values": {
+      "2024年": "257.7"
+    },
+    "evidence_text": "员工工伤保险投入金额 万元 2024年 257.7",
+    "reason": "llm_no_match:员工工伤保险投入金额属于社保相关支出细项，Core ESG Schema 中仅有社会保险覆盖率（social_insurance_coverage_rate），未包含具体险种的投入金额指标；该指标不属于环境（E）、社会（S）或治理（G）类标准字段。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "员工安全生产责任险投入金额",
+    "unit": "万元",
+    "values": {
+      "2024年": "68"
+    },
+    "evidence_text": "员工安全生产责任险投入金额 万元 2024年 68",
+    "reason": "llm_no_match:员工安全生产责任险投入金额属于保险支出类经营行为，Core ESG Schema 中无对应字段（如 environmental_investment 仅指环保投入，work_injury_rate 等为结果性指标，不涵盖保险费用），不属于环境、社会或治理核心披露项。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "员工安全生产责任险覆盖率",
+    "unit": "%",
+    "values": {
+      "2024年": "100"
+    },
+    "evidence_text": "员工安全生产责任险覆盖率 % 2024年 100",
+    "reason": "llm_no_match:员工安全生产责任险覆盖率不属于 Core ESG Schema 中的任何 field_key；Schema 中无保险覆盖率相关字段，且该指标属于风险管理或福利保障衍生指标，未在 S 或 G 类别中定义。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "采取员工健康与安全风险净估的营运地占比",
+    "unit": "%",
+    "values": {
+      "2024年": "100"
+    },
+    "evidence_text": "采取员工健康与安全风险净估的营运地占比 % 2024年 100",
+    "reason": "llm_no_match:该指标描述的是‘采取员工健康与安全风险净估的营运地占比’，Core ESG Schema 中无对应 field_key；虽涉及员工健康与安全，但 Schema 中相关字段为工伤率、因工死亡人数、健康档案覆盖率等具体结果性或行动性指标，而非‘风险评估覆盖比例’这一过程性管理指标，且其名称、别名均未在任何 field_key 的 aliases 中出现。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "有正式企业管理与劳工联合的健康与安全委员会所代表的场所占比",
+    "unit": "%",
+    "values": {
+      "2024年": "100"
+    },
+    "evidence_text": "有正式企业管理与劳工联合的健康与安全委员会所代表的场所占比 % 2024年 100",
+    "reason": "llm_no_match:该指标描述的是健康与安全委员会覆盖场所的比例，属于劳工关系治理实践的定性或结构性指标，Core ESG Schema 中无对应 field_key（如无 'health_and_safety_committee_coverage' 或类似字段），且不属于已定义的 S 类量化指标（如工伤率、体检覆盖率等）。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "员工受训总人次",
+    "unit": "人次",
+    "values": {
+      "2024年": "188,234"
+    },
+    "evidence_text": "员工受训总人次 人次 2024年 188,234",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:员工受训总人次与 field_key 'trained_employees_count' 的别名 '培训总人次'、'受训员工人次' 高度一致，且单位 '人次' 匹配。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "男性员工培训占比",
+    "unit": "%",
+    "values": {
+      "2024年": "65.80"
+    },
+    "evidence_text": "男性员工培训占比 % 2024年 65.80",
+    "reason": "llm_no_match:男性员工培训占比不在 Core ESG Schema 中定义；Schema 中有女性员工比例、培训覆盖率等字段，但无按性别细分的培训占比指标。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "女性员工培训占比",
+    "unit": "%",
+    "values": {
+      "2024年": "34.20"
+    },
+    "evidence_text": "女性员工培训占比 % 2024年 34.20",
+    "reason": "llm_no_match:女性员工培训占比不属于 Core ESG Schema 中定义的任何 field_key；Schema 中有女性员工比例、培训覆盖率、人均培训时长等指标，但无按性别细分的培训占比指标。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "生产人员",
+    "unit": "人次",
+    "values": {
+      "2024年": "161,858"
+    },
+    "evidence_text": "生产人员 人次 2024年 161,858",
+    "reason": "llm_no_match:生产人员属于人力资源细分口径，但 Core ESG Schema 中无对应 field_key；'生产人员'未在任何员工相关 aliases（如 total_employees、male_employees 等）中出现，且不等同于员工总数或某类员工人数（如未指明性别、年龄、管理层等），亦非培训、健康、安全等 S 类衍生指标。不属于 Core ESG Schema。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "销售人员",
+    "unit": "人次",
+    "values": {
+      "2024年": "1,860"
+    },
+    "evidence_text": "销售人员 人次 2024年 1,860",
+    "reason": "llm_no_match:销售人员属于人力资源细分或业务运营指标，Core ESG Schema 中无对应字段（如 total_employees 是员工总数，不区分岗位职能），且未在任何 aliases 中出现。该指标不属于环境、社会或治理核心议题的标准化披露项。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "财务人员",
+    "unit": "人次",
+    "values": {
+      "2024年": "613"
+    },
+    "evidence_text": "财务人员 人次 2024年 613",
+    "reason": "llm_no_match:财务人员属于职能岗位人数，Core ESG Schema 中无对应 field_key；员工相关指标仅涵盖总人数、性别、年龄、培训、健康、安全等维度，不包括按职能（如财务、人力、IT）划分的人员统计。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "行政人员",
+    "unit": "人次",
+    "values": {
+      "2024年": "9,251"
+    },
+    "evidence_text": "行政人员 人次 2024年 9,251",
+    "reason": "llm_no_match:行政人员人次属于组织管理或人力资源内部统计口径，非ESG核心指标；Core ESG Schema中无任何关于‘行政人员’的字段，且该指标不反映环境、社会或治理实质性议题。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "全体员工总受训时长",
+    "unit": "小时",
+    "values": {
+      "2024年": "891,703"
+    },
+    "evidence_text": "全体员工总受训时长 小时 2024年 891,703",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:全体员工总受训时长 与 training_total_hours 的中文名 '员工培训总时长' 及别名 '培训总小时数'、'培训总时数' 高度一致，单位为小时，符合 value_type: number 和 unit_examples: 小时。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "男性员工受训总时长",
+    "unit": "小时",
+    "values": {
+      "2024年": "577,774.77"
+    },
+    "evidence_text": "男性员工受训总时长 小时 2024年 577,774.77",
+    "reason": "llm_no_match:Core ESG Schema 中无针对特定性别员工的培训时长指标；仅有通用培训类指标（如 training_total_hours、training_hours_per_employee 等），不区分性别。该指标属于细分维度衍生指标，未在 aliases 中覆盖，故不匹配。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "女性员工受训总时长",
+    "unit": "小时",
+    "values": {
+      "2024年": "313,928.23"
+    },
+    "evidence_text": "女性员工受训总时长 小时 2024年 313,928.23",
+    "reason": "llm_no_match:Core ESG Schema 中无针对‘女性员工’细分维度的培训时长指标；仅有通用培训类指标（如 training_total_hours、training_hours_per_employee 等），未定义性别限定的培训时长，因此不属于 Core Schema。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "生产人员",
+    "unit": "小时",
+    "values": {
+      "2024年": "755,090"
+    },
+    "evidence_text": "生产人员 小时 2024年 755,090",
+    "reason": "llm_no_match:生产人员（单位：小时）是工时类指标，Core ESG Schema 中无对应字段；类似指标如培训时长、工作日损失等均有明确语义限定（如 training_total_hours、lost_workdays_due_to_injury），而‘生产人员 小时’未指明是总工时、人均工时或与安全/健康/效率相关的特定工时，无法可靠映射到任何 field_key。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "销售人员",
+    "unit": "小时",
+    "values": {
+      "2024年": "1,718"
+    },
+    "evidence_text": "销售人员 小时 2024年 1,718",
+    "reason": "llm_no_match:该指标名称为'销售人员'，单位为'小时'，数值为1,718，语义不清且不符合任何Core ESG Schema字段的名称、别名或业务含义；既非员工总数/结构类（如total_employees），也非培训时长类（training_total_hours等），'销售人员'是岗位类别而非可量化ESG指标，且单位'小时'与该名称无合理对应关系，属于数据错误或上下文缺失项。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "技术人员（研发人员）",
+    "unit": "小时",
+    "values": {
+      "2024年": "90,001"
+    },
+    "evidence_text": "技术人员（研发人员） 小时 2024年 90,001",
+    "reason": "llm_no_match:指标名称'技术人员（研发人员）'与单位'小时'存在明显矛盾：名称指代人数，单位却是时间单位；且该表述不属于Core ESG Schema中任何字段的aliases，亦不匹配r_and_d_employees（要求单位为人）或training相关字段（如training_total_hours的aliases不含'技术人员'）。无法可靠映射。"
+  },
+  {
+    "page_image": "page_96.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "财务人员",
+    "unit": "小时",
+    "values": {
+      "2024年": "904.18"
+    },
+    "evidence_text": "财务人员 小时 2024年 904.18",
+    "reason": "llm_no_match:财务人员 小时 是培训时长类指标，但未指明是员工培训总时长、人均培训时长或某类员工培训时长；'财务人员'为特定岗位，非 Core ESG Schema 中定义的通用培训指标（如 training_total_hours、training_hours_per_employee 等），且无对应别名支持。不属于经营绩效但属于公司内部管理细分维度，Core Schema 无匹配字段。"
+  },
+  {
+    "page_image": "page_96_left.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "年度因工死亡事故数量",
+    "unit": "起",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "年度因工死亡事故数量 起 2024年 0",
+    "reason": "rejected_by_schema_validator:unit_type_mismatch:person_count; original_reason=llm_match:‘年度因工死亡事故数量’与‘因工死亡人数’语义一致，属于 Core ESG Schema 中 S 类指标 work_related_fatalities，aliases 明确包含‘因工死亡人数’‘工亡人数’‘工作相关死亡人数’等表述，单位‘起’可合理对应‘人/次’。"
+  },
+  {
+    "page_image": "page_96_left.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "年度因工死亡员工占比",
+    "unit": "%",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "年度因工死亡员工占比 % 2024年 0",
+    "reason": "llm_no_match:Core ESG Schema 中无 '因工死亡员工占比' 字段；仅有 '因工死亡人数'（field_key: work_related_fatalities），其 value_type 为 number，单位为 '人'，而非百分比；'占比' 意味着分母为员工总数，属衍生比率指标，Schema 中未定义该强度型指标。"
+  },
+  {
+    "page_image": "page_96_left.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "因工造成人员重伤事故数量",
+    "unit": "起",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "因工造成人员重伤事故数量 起 2024年 0",
+    "reason": "llm_no_match:Core ESG Schema 中无对应字段；工伤相关指标仅包含工伤率、因工死亡人数、因工伤损失工作日数，未涵盖‘因工造成人员重伤事故数量’，且该指标未在 aliases 中出现，不属于标准 ESG 指标。"
+  },
+  {
+    "page_image": "page_96_left.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "因工造成严重后果的工伤人数",
+    "unit": "人",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "因工造成严重后果的工伤人数 人 2024年 0",
+    "reason": "llm_no_match:Core ESG Schema 中无‘因工造成严重后果的工伤人数’对应字段；已有工伤相关字段为 work_injury_rate（工伤率）、work_related_fatalities（因工死亡人数）、lost_workdays_due_to_injury（因工伤损失工作日数），但该指标语义特指‘严重后果的工伤人数’，未在 aliases 中覆盖，且不属于标准披露项。"
+  },
+  {
+    "page_image": "page_96_left.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "因工造成严重后果的工伤占比",
+    "unit": "%",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "因工造成严重后果的工伤占比 % 2024年 0",
+    "reason": "llm_no_match:‘因工造成严重后果的工伤占比’在 Core ESG Schema 中无对应 field_key；Schema 中仅有 work_injury_rate（工伤率）和 work_related_fatalities（因工死亡人数）等基础安全指标，未定义细分严重程度的工伤占比，且该指标非标准ESG披露项。"
+  },
+  {
+    "page_image": "page_96_left.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "员工因工伤损失总天数",
+    "unit": "天",
+    "values": {
+      "2024年": "328"
+    },
+    "evidence_text": "员工因工伤损失总天数 天 2024年 328",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:员工因工伤损失总天数与 field_key 'lost_workdays_due_to_injury' 的中文名 '因工伤损失工作日数' 及别名 '损失工作日' 高度一致，单位'天'匹配 unit_examples，且属于 S 类社会维度核心指标。"
+  },
+  {
+    "page_image": "page_96_left.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "安全演练活动",
+    "unit": "次",
+    "values": {
+      "2024年": "9"
+    },
+    "evidence_text": "安全演练活动 次 2024年 9",
+    "reason": "llm_no_match:安全演练活动属于企业内部安全管理实践，Core ESG Schema 中无对应 field_key；虽与员工安全相关，但 Schema 中未定义演练次数类指标，仅包含工伤率、工亡人数、损失工作日等结果性安全绩效指标。"
+  },
+  {
+    "page_image": "page_96_left.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "员工工伤保险投入金额",
+    "unit": "万元",
+    "values": {
+      "2024年": "257.7"
+    },
+    "evidence_text": "员工工伤保险投入金额 万元 2024年 257.7",
+    "reason": "llm_no_match:员工工伤保险投入金额属于社保相关财务支出，Core ESG Schema 中仅有社会保险覆盖率（social_insurance_coverage_rate）和工伤率、工亡人数等结果性指标，无任何‘投入金额’类财务支出字段；该指标不属于环境、社会或治理核心实质性指标，匹配失败。"
+  },
+  {
+    "page_image": "page_96_left.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "员工安全生产责任险投入金额¹",
+    "unit": "万元",
+    "values": {
+      "2024年": "68"
+    },
+    "evidence_text": "员工安全生产责任险投入金额¹ 万元 2024年 68",
+    "reason": "llm_no_match:员工安全生产责任险投入金额属于保险费用类经营支出，Core ESG Schema 中无对应字段；虽与员工安全相关，但 Schema 中未定义保险投入类指标，不属于环境、社会或治理核心披露项。"
+  },
+  {
+    "page_image": "page_96_left.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "员工安全生产责任险覆盖率",
+    "unit": "%",
+    "values": {
+      "2024年": "100"
+    },
+    "evidence_text": "员工安全生产责任险覆盖率 % 2024年 100",
+    "reason": "llm_no_match:员工安全生产责任险覆盖率不属于 Core ESG Schema 中任何 field_key；Schema 中无保险覆盖率相关字段，且该指标属于风险管理或人力资源保障的衍生指标，未在标准中定义。"
+  },
+  {
+    "page_image": "page_96_left.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "采取员工健康与安全风险评估的营运地占比",
+    "unit": "%",
+    "values": {
+      "2024年": "100"
+    },
+    "evidence_text": "采取员工健康与安全风险评估的营运地占比 % 2024年 100",
+    "reason": "llm_no_match:该指标描述的是实施员工健康与安全风险评估的营运地覆盖比例，Core ESG Schema 中无对应字段；虽涉及员工健康与安全，但 schema 中相关指标为工伤率、因工死亡人数、健康档案覆盖率等具体结果性或行动投入类指标，而非‘风险评估覆盖比例’这一过程性管理指标。"
+  },
+  {
+    "page_image": "page_96_left.png",
+    "table_title": "职业健康与安全",
+    "topic": null,
+    "metric_name": "有正式企业管理与劳工联合的健康与安全委员会所代表的场所百分比",
+    "unit": "%",
+    "values": {
+      "2024年": "100"
+    },
+    "evidence_text": "有正式企业管理与劳工联合的健康与安全委员会所代表的场所百分比 % 2024年 100",
+    "reason": "llm_no_match:该指标描述的是健康与安全委员会覆盖场所的百分比，属于劳工关系治理实践类指标，Core ESG Schema 中无对应 field_key（如无 'health_and_safety_committee_coverage' 或类似字段），且不属于已定义的 S 类或 G 类指标。"
+  },
+  {
+    "page_image": "page_96_right.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "员工受训总人次",
+    "unit": "人次",
+    "values": {
+      "2024年": "188,234"
+    },
+    "evidence_text": "员工受训总人次 人次 2024年 188,234",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:员工受训总人次与 trained_employees_count 的别名 '受训员工人次'、'培训总人次' 高度一致，单位 '人次' 匹配，属于 S 类社会维度指标。"
+  },
+  {
+    "page_image": "page_96_right.png",
+    "table_title": "员工培训与发展",
+    "topic": "其中，按照性别统计",
+    "metric_name": "男性员工培训占比",
+    "unit": "%",
+    "values": {
+      "2024年": "65.80"
+    },
+    "evidence_text": "其中，按照性别统计 男性员工培训占比 % 2024年 65.80",
+    "reason": "llm_no_match:男性员工培训占比不属于 Core ESG Schema 中定义的任何 field_key；Schema 中有 training_coverage_rate、female_employee_ratio 等比例指标，但无按性别划分的培训占比细分指标，且该指标未在 aliases 中出现，也不符合现有 S 类指标的语义定义。"
+  },
+  {
+    "page_image": "page_96_right.png",
+    "table_title": "员工培训与发展",
+    "topic": "其中，按照性别统计",
+    "metric_name": "女性员工培训占比",
+    "unit": "%",
+    "values": {
+      "2024年": "34.20"
+    },
+    "evidence_text": "其中，按照性别统计 女性员工培训占比 % 2024年 34.20",
+    "reason": "llm_no_match:女性员工培训占比不属于 Core ESG Schema 中定义的任何字段；Schema 中有 female_employee_ratio、training_coverage_rate、trained_employees_count 等细分指标，但无按性别划分的培训占比指标，且该组合维度未在 aliases 或 field definitions 中出现。"
+  },
+  {
+    "page_image": "page_96_right.png",
+    "table_title": "员工培训与发展",
+    "topic": "其中，按照岗位统计",
+    "metric_name": "生产人员",
+    "unit": "人次",
+    "values": {
+      "2024年": "161,858"
+    },
+    "evidence_text": "其中，按照岗位统计 生产人员 人次 2024年 161,858",
+    "reason": "llm_no_match:生产人员（人次）属于岗位分类统计，反映人力资源结构或用工规模，但 Core ESG Schema 中无对应字段；其既非员工总数、年龄/性别/民族等人口统计维度，也非培训、健康、安全等S类绩效指标，不属于标准ESG披露项。"
+  },
+  {
+    "page_image": "page_96_right.png",
+    "table_title": "员工培训与发展",
+    "topic": "其中，按照岗位统计",
+    "metric_name": "销售人员",
+    "unit": "人次",
+    "values": {
+      "2024年": "1,860"
+    },
+    "evidence_text": "其中，按照岗位统计 销售人员 人次 2024年 1,860",
+    "reason": "llm_no_match:销售人员人次属于人力资源结构或业务运营类指标，Core ESG Schema 中无对应字段；既非环境（E）、社会（S）核心人力质量/健康/安全指标（如培训、工伤、性别比例等），也非治理（G）相关指标。"
+  },
+  {
+    "page_image": "page_96_right.png",
+    "table_title": "员工培训与发展",
+    "topic": "其中，按照岗位统计",
+    "metric_name": "财务人员",
+    "unit": "人次",
+    "values": {
+      "2024年": "613"
+    },
+    "evidence_text": "其中，按照岗位统计 财务人员 人次 2024年 613",
+    "reason": "llm_no_match:该指标为按岗位统计的财务人员培训人次，属于公司内部管理或人力资源细分维度，Core ESG Schema 中无对应字段（如 trained_employees_count 为总人次，不区分岗位；且未定义岗位类细分指标），不属于标准 ESG 指标。"
+  },
+  {
+    "page_image": "page_96_right.png",
+    "table_title": "员工培训与发展",
+    "topic": "其中，按照岗位统计",
+    "metric_name": "行政人员",
+    "unit": "人次",
+    "values": {
+      "2024年": "9,251"
+    },
+    "evidence_text": "其中，按照岗位统计 行政人员 人次 2024年 9,251",
+    "reason": "llm_no_match:行政人员人次属于岗位统计类内部管理数据，未在 Core ESG Schema 中定义；既非环境（E）、社会（S）或治理（G）标准指标，也无对应 aliases 或语义匹配。"
+  },
+  {
+    "page_image": "page_96_right.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "全体员工总受训时长",
+    "unit": "小时",
+    "values": {
+      "2024年": "891,703"
+    },
+    "evidence_text": "全体员工总受训时长 小时 2024年 891,703",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:全体员工总受训时长 与 '员工培训总时长' 语义完全一致，属于 S 类指标，aliases 中包含 '员工培训总时长、培训总小时数、培训总时数、员工受训总时数'，单位为小时，匹配度高。"
+  },
+  {
+    "page_image": "page_96_right.png",
+    "table_title": "员工培训与发展",
+    "topic": "其中，按照性别统计",
+    "metric_name": "男性员工受训总时长",
+    "unit": "小时",
+    "values": {
+      "2024年": "577,724.77"
+    },
+    "evidence_text": "其中，按照性别统计 男性员工受训总时长 小时 2024年 577,724.77",
+    "reason": "llm_no_match:Core ESG Schema 中无按性别细分的培训时长指标；'男性员工受训总时长' 是 'training_total_hours' 的子集，但 Schema 不支持性别维度拆分，且无对应 field_key。"
+  },
+  {
+    "page_image": "page_96_right.png",
+    "table_title": "员工培训与发展",
+    "topic": "其中，按照性别统计",
+    "metric_name": "女性员工受训总时长",
+    "unit": "小时",
+    "values": {
+      "2024年": "313,978.23"
+    },
+    "evidence_text": "其中，按照性别统计 女性员工受训总时长 小时 2024年 313,978.23",
+    "reason": "llm_no_match:Core ESG Schema 中无 '女性员工受训总时长' 对应字段；存在 'training_total_hours'（员工培训总时长）和 'female_employees'，但无按性别细分的培训时长指标，该指标属于衍生或交叉维度，未在标准 schema 中定义。"
+  },
+  {
+    "page_image": "page_96_right.png",
+    "table_title": "员工培训与发展",
+    "topic": "其中，按照岗位统计",
+    "metric_name": "生产人员",
+    "unit": "小时",
+    "values": {
+      "2024年": "755,090"
+    },
+    "evidence_text": "其中，按照岗位统计 生产人员 小时 2024年 755,090",
+    "reason": "llm_no_match:该指标为按岗位统计的生产人员工时，属于人力资源运营细节或内部管理数据，Core ESG Schema 中无对应字段；既非标准ESG环境、社会或治理指标（如培训时长、工伤率等），也未在任何 aliases 中出现，且单位‘小时’与已定义的员工培训类指标（如 training_total_hours）语义不匹配（此处无‘培训’上下文）。"
+  },
+  {
+    "page_image": "page_96_right.png",
+    "table_title": "员工培训与发展",
+    "topic": "其中，按照岗位统计",
+    "metric_name": "销售人员",
+    "unit": "小时",
+    "values": {
+      "2024年": "1,718"
+    },
+    "evidence_text": "其中，按照岗位统计 销售人员 小时 2024年 1,718",
+    "reason": "llm_no_match:该指标为按岗位统计的销售人员培训时长，但未明确标注为‘培训’，且‘销售人员’是岗位维度而非ESG标准指标；Core ESG Schema中无岗位细分的培训时长字段，最接近的training_total_hours或training_hours_per_employee均不包含岗位限定，因此不属于Core ESG Schema。"
+  },
+  {
+    "page_image": "page_96_right.png",
+    "table_title": "员工培训与发展",
+    "topic": "其中，按照岗位统计",
+    "metric_name": "技术人员（研发人员）",
+    "unit": "小时",
+    "values": {
+      "2024年": "90,001"
+    },
+    "evidence_text": "其中，按照岗位统计 技术人员（研发人员） 小时 2024年 90,001",
+    "reason": "llm_no_match:该指标为‘技术人员（研发人员）’的小时数，语义不明确——既非培训时长（无‘培训’关键词），也非研发工时（未说明是研发工作小时，且Core Schema中无研发工时字段）；Core ESG Schema中与之最接近的S类指标为training_total_hours、training_hours_per_employee、r_and_d_employees等，但均不匹配：r_and_d_employees是人数而非小时数，training类指标明确要求含‘培训’语义。此处无足够依据确认其为ESG标准指标。"
+  },
+  {
+    "page_image": "page_96_right.png",
+    "table_title": "员工培训与发展",
+    "topic": "其中，按照岗位统计",
+    "metric_name": "财务人员",
+    "unit": "小时",
+    "values": {
+      "2024年": "904.18"
+    },
+    "evidence_text": "其中，按照岗位统计 财务人员 小时 2024年 904.18",
+    "reason": "llm_no_match:该指标为按岗位统计的财务人员培训时长，属于内部管理细分维度，Core ESG Schema 中无对应字段；'财务人员'非标准员工分类（如性别、年龄、管理层等），且未明确归属 S 类标准指标如 training_hours_per_employee 或 trained_employees_count；单位'小时'虽与培训时长相关，但缺乏'培训'语义锚点，证据文本中无培训关键词。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "行政人员",
+    "unit": "小时",
+    "values": {
+      "2024年": "43,950"
+    },
+    "evidence_text": "行政人员 小时 2024年 43,950",
+    "reason": "llm_no_match:行政人员 小时 是描述行政人员工时的指标，不属于 Core ESG Schema 中任何环境、社会或治理标准字段；既非员工总数、培训时长等 S 类指标（无培训语义），也无对应别名或业务逻辑支持匹配，属于内部管理或经营统计口径，不满足 ESG 核心披露要求。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "全体员工平均受训时长",
+    "unit": "小时",
+    "values": {
+      "2024年": "174.95"
+    },
+    "evidence_text": "全体员工平均受训时长 小时 2024年 174.95",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:全体员工平均受训时长与 training_hours_per_employee 的中文名 '人均培训时长' 及别名 '员工平均培训时数'、'人均培训小时数' 高度一致，单位为小时，符合 value_type: number 和 unit_examples: 小时。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "男性员工平均受训时长",
+    "unit": "小时",
+    "values": {
+      "2024年": "176.19"
+    },
+    "evidence_text": "男性员工平均受训时长 小时 2024年 176.19",
+    "reason": "llm_no_match:Core ESG Schema 中无‘男性员工平均受训时长’对应字段；虽有 training_hours_per_employee（人均培训时长），但该字段未区分性别，且无‘男性员工平均’的别名或语义覆盖，强行匹配违反规则3和规则5。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "女性员工平均受训时长",
+    "unit": "小时",
+    "values": {
+      "2024年": "172.71"
+    },
+    "evidence_text": "女性员工平均受训时长 小时 2024年 172.71",
+    "reason": "llm_no_match:Core ESG Schema 中无 '女性员工平均受训时长' 对应字段；存在 'training_hours_per_employee'（人均培训时长）和 'female_employees'，但无性别细分的培训时长指标，该指标属于衍生或定制化指标，不属于 Core Schema。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "生产人员",
+    "unit": "小时",
+    "values": {
+      "2024年": "198.55"
+    },
+    "evidence_text": "生产人员 小时 2024年 198.55",
+    "reason": "llm_no_match:生产人员（单位：小时）含义不明确，既非员工人数（无量纲/人），也非工时总量（缺少'总工时'或'工作小时数'等明确表述），且Core ESG Schema中无匹配字段；'生产人员 小时'疑似数据格式错误或指标命名不规范，不属于任何ESG环境、社会或治理标准字段。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "销售人员",
+    "unit": "小时",
+    "values": {
+      "2024年": "27.71"
+    },
+    "evidence_text": "销售人员 小时 2024年 27.71",
+    "reason": "llm_no_match:该指标名称为'销售人员'，单位为'小时'，数值为27.71，语义不清且不符合任何Core ESG Schema中字段的名称、别名或业务含义；既非员工总数/结构类（如total_employees），也非培训时长类（training_total_hours等），'销售人员'是岗位类别而非可量化ESG指标，单位'小时'与之不匹配。不属于Core ESG Schema。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "技术人员（研发人员）",
+    "unit": "小时",
+    "values": {
+      "2024年": "133.33"
+    },
+    "evidence_text": "技术人员（研发人员） 小时 2024年 133.33",
+    "reason": "llm_no_match:该指标名称为'技术人员（研发人员）'，单位为'小时'，数值为133.33，明显与人员数量或培训时长相关，但既非员工总数、研发人员数量（应为'人'），也非培训时长（'技术人员'非'培训'语义，且无培训行为动词或上下文支持），Core Schema中无匹配字段；'技术人员'本身是岗位类别，非ESG标准指标。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "财务人员",
+    "unit": "小时",
+    "values": {
+      "2024年": "28.26"
+    },
+    "evidence_text": "财务人员 小时 2024年 28.26",
+    "reason": "llm_no_match:该指标'财务人员'与单位'小时'组合语义不明，既非标准ESG环境、社会或治理类指标，也不在Core ESG Schema任何field_key的aliases中；可能为误标或内部管理指标，不属于Core ESG Schema。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "行政人员",
+    "unit": "小时",
+    "values": {
+      "2024年": "83.79"
+    },
+    "evidence_text": "行政人员 小时 2024年 83.79",
+    "reason": "llm_no_match:行政人员（单位：小时）语义不清，既非标准ESG环境、社会或治理指标，也不在Core ESG Schema任何字段的aliases中；'行政人员'通常指岗位类别，与'小时'组合无法对应任一ESG field_key（如培训时长需明确为'员工培训总时长'等），且无上下文表明其为培训、工时统计等ESG相关活动。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "年度培训开展场次",
+    "unit": "次",
+    "values": {
+      "2024年": "1,955"
+    },
+    "evidence_text": "年度培训开展场次 次 2024年 1,955",
+    "reason": "llm_no_match:‘年度培训开展场次’在 Core ESG Schema 中无对应 field_key；Schema 中仅包含培训相关指标如培训总时长、人均培训时长、培训覆盖率、培训投入金额、受训员工人次等，但不包括‘场次’这一维度，且无任何 alias 涵盖‘场次’或‘开展次数’。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "人均培训支出金额",
+    "unit": "万元",
+    "values": {
+      "2024年": "0.039"
+    },
+    "evidence_text": "人均培训支出金额 万元 2024年 0.039",
+    "reason": "llm_no_match:人均培训支出金额未在 Core ESG Schema 的任何 field_key 的 aliases 中出现；Schema 中存在 training_expense（培训投入金额）和 training_hours_per_employee（人均培训时长），但无对应‘人均培训支出’或‘人均培训费用’的别名；该指标属于人力资源成本细分项，非标准 ESG 字段。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "新员工培训参培人次",
+    "unit": "人次",
+    "values": {
+      "2024年": "7,890"
+    },
+    "evidence_text": "新员工培训参培人次 人次 2024年 7,890",
+    "reason": "llm_no_match:新员工培训参培人次属于细分培训场景的统计口径，Core ESG Schema 中仅定义通用培训相关指标（如 trained_employees_count、training_coverage_rate 等），但未包含‘新员工’这一限定人群的专用字段；且该指标未在任何 field_key 的 aliases 中出现，不满足标准化匹配条件。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "新员工培训期数",
+    "unit": "期数",
+    "values": {
+      "2024年": "271"
+    },
+    "evidence_text": "新员工培训期数 期数 2024年 271",
+    "reason": "llm_no_match:新员工培训期数不属于 Core ESG Schema 中任何字段的别名或语义范畴；Schema 中培训相关指标聚焦于培训时长、覆盖率、费用、人次等，未涵盖‘期数’这一维度，且无对应 aliases 支持。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "新员工培训时长",
+    "unit": "小时",
+    "values": {
+      "2024年": "189,360"
+    },
+    "evidence_text": "新员工培训时长 小时 2024年 189,360",
+    "reason": "llm_no_match:新员工培训时长是细分人群的培训时长，Core ESG Schema 中仅定义了通用性培训指标（如 training_total_hours、training_hours_per_employee、trained_employees_count），未包含按员工类型（如新员工）划分的专项培训时长，因此不属于 Core ESG Schema。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "员工绩效和职业发展定期评估覆盖率",
+    "unit": "%",
+    "values": {
+      "2024年": "100"
+    },
+    "evidence_text": "员工绩效和职业发展定期评估覆盖率 % 2024年 100",
+    "reason": "llm_no_match:员工绩效和职业发展定期评估覆盖率不属于 Core ESG Schema 中任何标准 field_key；Schema 中无对应的人力资源管理评估覆盖率类指标，相关字段仅涵盖培训、性别/年龄结构、健康档案、社保等具体可量化维度，不包含绩效评估覆盖。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "湖南基地和广东基地靠前条款集体协议（集体谈判协议）的员工覆盖比例",
+    "unit": "%",
+    "values": {
+      "2024年": "100"
+    },
+    "evidence_text": "湖南基地和广东基地靠前条款集体协议（集体谈判协议）的员工覆盖比例 % 2024年 100",
+    "reason": "llm_no_match:集体协议员工覆盖比例属于劳资关系或集体协商范畴，Core ESG Schema 中无对应 field_key；未在 aliases 中出现类似表述，且不属于已定义的 S 类指标（如培训覆盖率、社保覆盖率等）的语义范畴。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "湖南基地和广东基地通过正式选举产生职工代表的员工覆盖比例",
+    "unit": "%",
+    "values": {
+      "2024年": "100"
+    },
+    "evidence_text": "湖南基地和广东基地通过正式选举产生职工代表的员工覆盖比例 % 2024年 100",
+    "reason": "llm_no_match:该指标描述的是职工代表选举的员工覆盖比例，属于公司治理实践中的民主管理或员工参与类细节，Core ESG Schema 中无对应 field_key（如 board_size、independent_directors 等均不涵盖职工代表选举覆盖率），且未在 aliases 中出现任何匹配项。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "接受多元化歧视或骚扰培训的员工占比",
+    "unit": "%",
+    "values": {
+      "2024年": "100"
+    },
+    "evidence_text": "接受多元化歧视或骚扰培训的员工占比 % 2024年 100",
+    "reason": "llm_no_match:‘接受多元化歧视或骚扰培训的员工占比’在 Core ESG Schema 中无对应 field_key；Schema 中虽有培训相关指标（如 training_coverage_rate、anti_corruption_training_participants 等），但均未涵盖‘多元化歧视或骚扰培训’这一特定主题，且无 alias 或语义覆盖；该指标属于更细分的 DEI（多元、公平与包容）范畴，当前 Schema 未标准化定义。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "采取过校审查或人权影响评估的场所占比",
+    "unit": "%",
+    "values": {
+      "2024年": "100"
+    },
+    "evidence_text": "采取过校审查或人权影响评估的场所占比 % 2024年 100",
+    "reason": "llm_no_match:‘采取过校审查或人权影响评估的场所占比’涉及人权尽职调查覆盖范围，Core ESG Schema 中无对应 field_key（如无 ‘human_rights_due_diligence_coverage’ 或类似字段）；该指标不属于环境（E）、社会（S）或治理（G）类现有标准字段，亦非 aliases 中任一字段的变体。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "年度发生工伤或职业病事件的数量",
+    "unit": "件",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "年度发生工伤或职业病事件的数量 件 2024年 0",
+    "reason": "llm_no_match:‘年度发生工伤或职业病事件的数量’描述的是事件频次，而 Core ESG Schema 中对应安全类指标为 work_injury_rate（工伤率）、work_related_fatalities（因工死亡人数）、lost_workdays_due_to_injury（因工伤损失工作日数），均不匹配‘事件数量’这一计数口径；且无字段 alias 包含‘工伤事件数量’‘职业病事件数量’或类似表述。因此不属于 Core ESG Schema。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "年度举报腐败或违规事件人数",
+    "unit": "人",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "年度举报腐败或违规事件人数 人 2024年 0",
+    "reason": "llm_no_match:Core ESG Schema 中无‘举报腐败或违规事件人数’字段；whistleblowing_cases 指举报案件数量（件/起/次），而非举报人数，且‘人数’与该字段的 value_type 和 unit_examples 不匹配。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "年度查明公司发生歧视或骚扰事件数量",
+    "unit": "件",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "年度查明公司发生歧视或骚扰事件数量 件 2024年 0",
+    "reason": "llm_no_match:‘年度查明公司发生歧视或骚扰事件数量’在 Core ESG Schema 中无对应 field_key；Schema 中未定义歧视、骚扰类事件指标，相关 S 类指标仅涵盖员工结构、培训、健康、工伤、社保等，不包含歧视/骚扰事件统计。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "同工同酬",
+    "topic": null,
+    "metric_name": "高层管理",
+    "unit": null,
+    "values": {
+      "2023年": "1.00",
+      "2024年": "0.97"
+    },
+    "evidence_text": "高层管理 2023年 1.00 2024年 0.97",
+    "reason": "llm_no_match:该指标名称'高层管理'含义模糊，未在Core ESG Schema中任何field_key的aliases中出现；数值为小数（1.00、0.97），可能表示比例或评分，但无对应标准字段（如女性管理层比例、独立董事比例等均有明确限定语义），且无单位佐证，无法可靠匹配。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "同工同酬",
+    "topic": null,
+    "metric_name": "中层管理",
+    "unit": null,
+    "values": {
+      "2023年": null,
+      "2024年": null
+    },
+    "evidence_text": "中层管理 2023年 - 2024年 -",
+    "reason": "llm_no_match:中层管理是组织架构描述，非量化ESG指标，Core ESG Schema中无对应field_key；不属于环境、社会或治理类标准量化指标（如女性管理层比例等需明确为比例或人数），且无单位和有效数值，无法匹配任何标准字段。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "同工同酬",
+    "topic": null,
+    "metric_name": "职员",
+    "unit": null,
+    "values": {
+      "2023年": null,
+      "2024年": null
+    },
+    "evidence_text": "职员 2023年 - 2024年 -",
+    "reason": "llm_no_match:“职员”表述过于宽泛、不规范，未明确指代员工总数或任何具体ESG相关人力指标（如总员工数、性别构成、年龄结构等），且无单位和有效数值，不符合Core ESG Schema中任何field_key的aliases或语义定义。"
+  },
+  {
+    "page_image": "page_97.png",
+    "table_title": "同工同酬",
+    "topic": null,
+    "metric_name": "一线员工",
+    "unit": null,
+    "values": {
+      "2023年": null,
+      "2024年": null
+    },
+    "evidence_text": "一线员工 2023年 - 2024年 -",
+    "reason": "llm_no_match:一线员工未在 Core ESG Schema 中定义，不属于标准 ESG 指标；Schema 中无对应 field_key，且不匹配任何员工结构、培训、健康、安全等已定义的 S 类指标（如 total_employees、trained_employees_count 等），亦非经营绩效类可排除项，而是模糊岗位描述，无法标准化映射。"
+  },
+  {
+    "page_image": "page_97_left.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "行政人员",
+    "unit": "小时",
+    "values": {
+      "2024年": "43,990"
+    },
+    "evidence_text": "行政人员 小时 43,990",
+    "reason": "llm_no_match:行政人员 小时 是描述行政人员工作时长的指标，不属于 Core ESG Schema 中任何 field_key；Core Schema 中无与‘行政人员’或‘岗位类别工时’相关的社会类指标，且该表述未出现在任何 aliases 中。"
+  },
+  {
+    "page_image": "page_97_left.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "全体员工人平均受训时长",
+    "unit": "小时",
+    "values": {
+      "2024年": "174.95"
+    },
+    "evidence_text": "全体员工人平均受训时长 小时 174.95",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:“全体员工人平均受训时长”与 field_key: training_hours_per_employee 的中文名“人均培训时长”及别名“人均培训小时数”“员工平均培训时数”等语义完全一致，单位“小时”匹配，属于 S 类社会维度指标。"
+  },
+  {
+    "page_image": "page_97_left.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "男性员工人均受训时长",
+    "unit": "小时",
+    "values": {
+      "2024年": "176.19"
+    },
+    "evidence_text": "男性员工人均受训时长 小时 176.19",
+    "reason": "llm_no_match:Core ESG Schema 中无‘男性员工人均受训时长’对应字段；虽有 training_hours_per_employee（人均培训时长），但未按性别细分；性别分层的人均培训时长不属于标准 field_key。"
+  },
+  {
+    "page_image": "page_97_left.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "女性员工人均受训时长",
+    "unit": "小时",
+    "values": {
+      "2024年": "172.71"
+    },
+    "evidence_text": "女性员工人均受训时长 小时 172.71",
+    "reason": "llm_no_match:Core ESG Schema 中无 '女性员工人均受训时长' 对应字段；虽有 'training_hours_per_employee'（人均培训时长）和 'female_employees' 等细分字段，但该指标为交叉维度（女性员工+人均+受训时长），Schema 中未定义此类组合指标，不属于标准 field_key。"
+  },
+  {
+    "page_image": "page_97_left.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "生产人员",
+    "unit": "小时",
+    "values": {
+      "2024年": "198.55"
+    },
+    "evidence_text": "生产人员 小时 198.55",
+    "reason": "llm_no_match:生产人员（单位：小时）语义不清，既非员工总数/结构类指标（如 total_employees），也非培训时长（training_total_hours）或工时相关ESG指标；Core ESG Schema中无'生产人员小时'对应字段，且该表述未出现在任何field_key的aliases中。"
+  },
+  {
+    "page_image": "page_97_left.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "销售人员",
+    "unit": "小时",
+    "values": {
+      "2024年": "27.71"
+    },
+    "evidence_text": "销售人员 小时 27.71",
+    "reason": "llm_no_match:销售人员小时数不属于 Core ESG Schema 中任何 field_key；该指标既非环境（E）、社会（S）亦非治理（G）类标准ESG指标，无对应别名、类别或语义匹配。"
+  },
+  {
+    "page_image": "page_97_left.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "技术人员（研发人员）",
+    "unit": "小时",
+    "values": {
+      "2024年": "133.33"
+    },
+    "evidence_text": "技术人员（研发人员） 小时 133.33",
+    "reason": "llm_no_match:指标名称'技术人员（研发人员）'与单位'小时'存在明显矛盾：名称指代人数，单位却是时间单位；且该表述不属于Core ESG Schema中任何field_key的aliases，亦不匹配研发人员数量（r_and_d_employees，单位应为'人'）或培训时长类指标（如training_total_hours，但名称不含'培训'语义）。无法可靠映射。"
+  },
+  {
+    "page_image": "page_97_left.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "财务人员",
+    "unit": "小时",
+    "values": {
+      "2024年": "28.26"
+    },
+    "evidence_text": "财务人员 小时 28.26",
+    "reason": "llm_no_match:财务人员 小时 是描述财务人员工作时长的指标，与ESG核心议题无关；Core ESG Schema中无任何关于岗位类别（如财务人员）的工作时长字段，不属于环境、社会或治理标准指标。"
+  },
+  {
+    "page_image": "page_97_left.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "行政人员",
+    "unit": "小时",
+    "values": {
+      "2024年": "83.79"
+    },
+    "evidence_text": "行政人员 小时 83.79",
+    "reason": "llm_no_match:行政人员 小时 是描述人员工时的非标准指标，Core ESG Schema 中无对应 field_key；既非环境类（E）、社会类（S）或治理类（G）标准指标，也不在任何 aliases 列表中。"
+  },
+  {
+    "page_image": "page_97_left.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "年度培训开展场次",
+    "unit": "次",
+    "values": {
+      "2024年": "1,955"
+    },
+    "evidence_text": "年度培训开展场次 次 1,955",
+    "reason": "llm_no_match:‘年度培训开展场次’描述的是培训活动频次，Core ESG Schema 中无对应 field_key；相关培训指标均围绕时长、人数、覆盖率、费用等维度，不包含‘场次’这一计数维度，且 aliases 中无任何匹配项。"
+  },
+  {
+    "page_image": "page_97_left.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "人均培训支出金额",
+    "unit": "万元",
+    "values": {
+      "2024年": "0.039"
+    },
+    "evidence_text": "人均培训支出金额 万元 0.039",
+    "reason": "llm_no_match:人均培训支出金额未在 Core ESG Schema 的任何 field_key 的 aliases 中出现；Schema 中存在 training_expense（培训投入金额）和 training_hours_per_employee（人均培训时长），但无对应‘人均培训支出’或‘人均培训费用’的别名，且该指标属于人力成本细分项，不属于标准 ESG 核心字段。"
+  },
+  {
+    "page_image": "page_97_left.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "新员工培训参培",
+    "unit": "人次",
+    "values": {
+      "2024年": "7,890"
+    },
+    "evidence_text": "新员工培训参培 人次 7,890",
+    "reason": "llm_no_match:‘新员工培训参培’未在 Core ESG Schema 的任何 aliases 中出现；Schema 中与培训相关的字段（如 trained_employees_count、training_coverage_rate 等）均强调‘员工培训’整体性或覆盖率/时长/投入，而‘新员工培训参培’特指新员工群体且无对应别名支持，不属于标准化 ESG 字段。"
+  },
+  {
+    "page_image": "page_97_left.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "新员工培训期数",
+    "unit": "期数",
+    "values": {
+      "2024年": "271"
+    },
+    "evidence_text": "新员工培训期数 期数 271",
+    "reason": "llm_no_match:新员工培训期数不属于 Core ESG Schema 中任何字段的别名或语义范畴；Schema 中相关培训类指标均围绕总时长、人均时长、覆盖率、投入金额、受训人次等维度，未包含‘期数’这一计数维度，且无对应 aliases 支持。"
+  },
+  {
+    "page_image": "page_97_left.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "新员工培训时长",
+    "unit": "小时",
+    "values": {
+      "2024年": "189,360"
+    },
+    "evidence_text": "新员工培训时长 小时 189,360",
+    "reason": "llm_no_match:新员工培训时长是细分人群的培训时长，Core ESG Schema 中仅定义了通用性培训指标（如培训总时长、人均培训时长、培训覆盖率等），未包含‘新员工’这一限定维度，无对应 field_key。"
+  },
+  {
+    "page_image": "page_97_left.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "员工绩效和职业发展定期评估覆盖率",
+    "unit": "%",
+    "values": {
+      "2024年": "100"
+    },
+    "evidence_text": "员工绩效和职业发展定期评估覆盖率 % 100",
+    "reason": "llm_no_match:员工绩效和职业发展定期评估覆盖率属于人力资源管理实践类指标，Core ESG Schema 中无对应 field_key；未在 aliases 中出现，且不属于已定义的培训、性别平等、管理层构成等 S 类标准字段。"
+  },
+  {
+    "page_image": "page_97_right.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "湖南基地和广东基地雇佣条款集体协议（集体谈判协议）的员工覆盖比例",
+    "unit": "%",
+    "values": {
+      "2024年": "100"
+    },
+    "evidence_text": "湖南基地和广东基地雇佣条款集体协议（集体谈判协议）的员工覆盖比例 % 100",
+    "reason": "llm_no_match:集体协议员工覆盖比例属于劳工关系实践类指标，Core ESG Schema 中无对应 field_key（如无 'collective_bargaining_coverage' 或类似字段）；该指标未在任何 aliases 中出现，且不属于现有 S 类指标定义范围。"
+  },
+  {
+    "page_image": "page_97_right.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "湖南基地和广东基地通过正式选举产生职工代表的员工覆盖比例",
+    "unit": "%",
+    "values": {
+      "2024年": "100"
+    },
+    "evidence_text": "湖南基地和广东基地通过正式选举产生职工代表的员工覆盖比例 % 100",
+    "reason": "llm_no_match:该指标描述的是职工代表选举的员工覆盖比例，属于公司治理实践中的民主管理或员工参与范畴，但 Core ESG Schema 中无对应 field_key（如 board_size、independent_directors 等均不涵盖职工代表选举覆盖率），且未在 aliases 中出现任何匹配表述。"
+  },
+  {
+    "page_image": "page_97_right.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "接受多元化歧视或骚扰培训的员工占比",
+    "unit": "%",
+    "values": {
+      "2024年": "100"
+    },
+    "evidence_text": "接受多元化歧视或骚扰培训的员工占比 % 100",
+    "reason": "llm_no_match:‘接受多元化歧视或骚扰培训的员工占比’在 Core ESG Schema 中无对应 field_key；Schema 中虽有培训相关指标（如 training_coverage_rate、training_hours_per_employee 等），但均未特指‘多元化歧视或骚扰培训’，且该主题未被现有 aliases 覆盖，不属于标准化 ESG 指标。"
+  },
+  {
+    "page_image": "page_97_right.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "采取过人权审查或人权影响评估的场所占比",
+    "unit": "%",
+    "values": {
+      "2024年": "100"
+    },
+    "evidence_text": "采取过人权审查或人权影响评估的场所占比 % 100",
+    "reason": "llm_no_match:‘采取过人权审查或人权影响评估的场所占比’在 Core ESG Schema 中无对应 field_key；Schema 中无任何人权审查、人权影响评估、场所覆盖率等相关字段，不属于环境（E）、社会（S）或治理（G）类标准指标。"
+  },
+  {
+    "page_image": "page_97_right.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "年度发生童工或强迫劳动事件的数量",
+    "unit": "件",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "年度发生童工或强迫劳动事件的数量 件 0",
+    "reason": "llm_no_match:童工或强迫劳动事件数量属于劳工权益相关指标，但 Core ESG Schema 中未定义对应 field_key（如无 'child_labor_cases' 或 'forced_labor_cases' 等字段），且不属于现有 S 类指标范畴。该指标虽具重要性，但不在当前标准化 Schema 覆盖范围内。"
+  },
+  {
+    "page_image": "page_97_right.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "年度举报歧视或骚扰事件人数",
+    "unit": "人",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "年度举报歧视或骚扰事件人数 人 0",
+    "reason": "llm_no_match:‘年度举报歧视或骚扰事件人数’在 Core ESG Schema 中无对应 field_key；Schema 中虽有 whistleblower_cases（举报案件数量），但其语义聚焦于腐败/贪污类举报，不涵盖歧视或骚扰事件；且该指标以‘人数’为单位，而 whistleblower_cases 明确为事件数量（次/件），单位与语义均不匹配。"
+  },
+  {
+    "page_image": "page_97_right.png",
+    "table_title": "员工培训与发展",
+    "topic": null,
+    "metric_name": "年度查明公司发生歧视或骚扰事件数量",
+    "unit": "件",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "年度查明公司发生歧视或骚扰事件数量 件 0",
+    "reason": "llm_no_match:‘年度查明公司发生歧视或骚扰事件数量’在 Core ESG Schema 中无对应 field_key；Schema 中虽含性别、少数群体等维度，但未定义‘歧视或骚扰事件数量’这一具体指标，亦无相关别名覆盖。该指标属于社会议题下的特定治理实践表现，但未被纳入当前标准字段。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "供应商管理",
+    "topic": null,
+    "metric_name": "供应商总数",
+    "unit": "家",
+    "values": {
+      "2023年": "287",
+      "2024年": "378"
+    },
+    "evidence_text": "供应商总数 家 2023年 287 2024年 378",
+    "reason": "llm_no_match:供应商总数属于供应链管理相关指标，Core ESG Schema 中无对应 field_key；未在 aliases 或语义范畴中覆盖该概念。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "供应商管理",
+    "topic": null,
+    "metric_name": "材料类供应商数量",
+    "unit": "家",
+    "values": {
+      "2023年": "287",
+      "2024年": "378"
+    },
+    "evidence_text": "材料类供应商数量 家 2023年 287 2024年 378",
+    "reason": "llm_no_match:该指标属于供应链管理类指标，Core ESG Schema 中无对应 field_key（如供应商数量、材料类供应商等未在 aliases 或定义中出现），不属于环境、社会或治理核心披露项。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "供应商管理",
+    "topic": null,
+    "metric_name": "中国内地供应商",
+    "unit": "家",
+    "values": {
+      "2024年": "346"
+    },
+    "evidence_text": "中国内地供应商 家 2024年 346",
+    "reason": "llm_no_match:该指标描述供应商地域分布，属于供应链管理或经营特征类信息，Core ESG Schema 中无对应 field_key。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "供应商管理",
+    "topic": null,
+    "metric_name": "港澳台供应商",
+    "unit": "家",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "港澳台供应商 家 2024年 0",
+    "reason": "llm_no_match:该指标属于供应链地域构成类信息，Core ESG Schema 中无对应字段（如无 'hong_kong_macau_taiwan_suppliers' 或类似别名），且不属于环境、社会、治理三大维度的标准披露指标。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "供应商管理",
+    "topic": null,
+    "metric_name": "海外数量",
+    "unit": "家",
+    "values": {
+      "2024年": "32"
+    },
+    "evidence_text": "海外数量 家 2024年 32",
+    "reason": "llm_no_match:该指标属于经营绩效或公司特色指标，不属于 Core ESG Schema。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "研发与创新",
+    "topic": null,
+    "metric_name": "年度授权专利",
+    "unit": "件",
+    "values": {
+      "2023年": "42",
+      "2024年": "97"
+    },
+    "evidence_text": "年度授权专利 件 2023年 42 2024年 97",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:年度授权专利与'当年新增授权专利数量'语义一致，属于Core ESG Schema中S类指标authorized_patents_new，单位'件'匹配unit_examples。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "研发与创新",
+    "topic": null,
+    "metric_name": "报告期内：有效专利数",
+    "unit": "件",
+    "values": {
+      "2023年": "372",
+      "2024年": "419"
+    },
+    "evidence_text": "报告期内：有效专利数 件 2023年 372 2024年 419",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:“有效专利数”明确对应 Core ESG Schema 中 authorized_patents_total 的别名“有效专利数量”“截至报告期末有效专利数量”等，且单位“件”匹配 unit_examples。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "研发与创新",
+    "topic": null,
+    "metric_name": "研发投入占营业收入比例",
+    "unit": "%",
+    "values": {
+      "2023年": "5.13",
+      "2024年": "4.61"
+    },
+    "evidence_text": "研发投入占营业收入比例 % 2023年 5.13 2024年 4.61",
+    "reason": "business_performance_not_core_esg"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "研发与创新",
+    "topic": null,
+    "metric_name": "研发员工比例",
+    "unit": "%",
+    "values": {
+      "2023年": "14.08",
+      "2024年": "14.50"
+    },
+    "evidence_text": "研发员工比例 % 2023年 14.08 2024年 14.50",
+    "reason": "llm_no_match:研发员工比例未在 Core ESG Schema 中定义；Schema 中仅有研发人员数量（r_and_d_employees）、女性员工比例（female_employee_ratio）等具体人口结构或绝对数量指标，但无‘研发员工比例’这一相对比例字段。该指标属于公司人力资源结构分析，但非标准ESG披露项。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "可持续供应链",
+    "topic": null,
+    "metric_name": "可追溯原材料的产品百分比",
+    "unit": "%",
+    "values": {
+      "2023年": "100",
+      "2024年": "100"
+    },
+    "evidence_text": "可追溯原材料的产品百分比 % 2023年 100 2024年 100",
+    "reason": "llm_no_match:可追溯原材料的产品百分比不属于 Core ESG Schema 中任何 field_key 的 aliases 或语义范畴，未在环境、社会或治理标准字段中定义。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "可持续供应链",
+    "topic": null,
+    "metric_name": "新供应商 CSR 审核数量",
+    "unit": "家",
+    "values": {
+      "2024年": "11"
+    },
+    "evidence_text": "新供应商 CSR 审核数量 家 2024年 11",
+    "reason": "llm_no_match:新供应商CSR审核数量属于供应链ESG管理活动指标，Core ESG Schema中无对应field_key（如无'supplier_csr_audit_count'或类似字段），且不属于环境、社会、治理三大类中的任何标准指标。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "可持续供应链",
+    "topic": null,
+    "metric_name": "存量供应商 CSR 审核数量",
+    "unit": "家",
+    "values": {
+      "2024年": "38"
+    },
+    "evidence_text": "存量供应商 CSR 审核数量 家 2024年 38",
+    "reason": "llm_no_match:存量供应商CSR审核数量属于供应链ESG管理活动指标，Core ESG Schema中无对应field_key（如无supplier_csr_audit_count、supplier_esg_assessment_count等），且不属于环境、社会、治理基础字段范畴。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "可持续供应链",
+    "topic": null,
+    "metric_name": "接受冲突矿产审核的供应商数量",
+    "unit": "家",
+    "values": {
+      "2023年": "23",
+      "2024年": "146"
+    },
+    "evidence_text": "接受冲突矿产审核的供应商数量 家 2023年 23 2024年 146",
+    "reason": "llm_no_match:接受冲突矿产审核的供应商数量属于供应链尽职调查或负责任采购相关指标，Core ESG Schema 中无对应 field_key；该指标未在任何 aliases 或定义中出现，且不属于环境、社会、治理三大类中的标准字段。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "可持续供应链",
+    "topic": null,
+    "metric_name": "签订包含环境、劳工和人权要求条款合同的供应商的百分比",
+    "unit": "%",
+    "values": {
+      "2023年": "100",
+      "2024年": "100"
+    },
+    "evidence_text": "签订包含环境、劳工和人权要求条款合同的供应商的百分比 % 2023年 100 2024年 100",
+    "reason": "llm_no_match:该指标涉及供应链ESG条款覆盖比例，Core ESG Schema中无对应field_key（如无'supplier_esg_clause_coverage'或类似字段），不属于现有环境、社会、治理类标准指标。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "可持续供应链",
+    "topic": null,
+    "metric_name": "识别出供应商存在童工和强迫劳工事件数量",
+    "unit": "件",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "识别出供应商存在童工和强迫劳工事件数量 件 2024年 0",
+    "reason": "llm_no_match:该指标涉及供应链劳工问题（童工和强迫劳工），但 Core ESG Schema 中无对应 field_key；现有 S 类字段聚焦于自身员工（如员工总数、性别、培训、工伤等），未涵盖供应商劳工合规事件。不属于标准 E/S/G 指标范畴。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "可持续供应链",
+    "topic": null,
+    "metric_name": "年度供应商会议",
+    "unit": "次",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "年度供应商会议 次 2024年 0",
+    "reason": "llm_no_match:该指标属于供应链管理活动类描述，Core ESG Schema 中无对应字段（如无 'supplier_meetings' 或类似别名），不属于环境、社会或治理核心披露指标。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "公益项目数量",
+    "unit": "个",
+    "values": {
+      "2023年": "11",
+      "2024年": "5"
+    },
+    "evidence_text": "公益项目数量 个 2023年 11 2024年 5",
+    "reason": "llm_no_match:公益项目数量属于社会类活动指标，但 Core ESG Schema 中无对应 field_key（如 community_investment、community_projects 等未被定义），不属于已列示的 S 类指标（如员工、培训、健康、投诉等），也不属于 E 或 G 类。因此不匹配。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "公益项目投入资金",
+    "unit": "万元",
+    "values": {
+      "2023年": "592.44",
+      "2024年": "240.26"
+    },
+    "evidence_text": "公益项目投入资金 万元 2023年 592.44 2024年 240.26",
+    "reason": "llm_no_match:公益项目投入资金属于社会公益类支出，Core ESG Schema 中无对应 field_key；未在 aliases 中出现，且不属于环境（E）、社会（S）或治理（G）类标准指标（如环保投入、员工培训、反腐败等），故不匹配。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "公益项目捐赠资金",
+    "unit": "万元",
+    "values": {
+      "2024年": "234.76"
+    },
+    "evidence_text": "公益项目捐赠资金 万元 2024年 234.76",
+    "reason": "llm_no_match:公益项目捐赠资金属于社会责任履行中的慈善行为，但 Core ESG Schema 中无对应 field_key（如无 'charitable_donations' 或类似字段），且不属于环境、社会或治理类标准指标。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "组织并开展志愿者活动",
+    "unit": "场",
+    "values": {
+      "2023年": "18",
+      "2024年": "13"
+    },
+    "evidence_text": "组织并开展志愿者活动 场 2023年 18 2024年 13",
+    "reason": "llm_no_match:组织并开展志愿者活动属于社会责任实践类活动，Core ESG Schema 中无对应 field_key；未在 aliases 中匹配到任何标准字段，且不属于环境、社会或治理类标准化量化指标。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "员工志愿者数量",
+    "unit": "人",
+    "values": {
+      "2024年": "22"
+    },
+    "evidence_text": "员工志愿者数量 人 2024年 22",
+    "reason": "llm_no_match:员工志愿者数量未在 Core ESG Schema 中定义，不属于环境（E）、社会（S）或治理（G）类标准字段；Schema 中无任何 aliases 或 field_key 涉及志愿服务、志愿者人数等概念。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "参与活动的志愿者总人次",
+    "unit": "人次",
+    "values": {
+      "2023年": "70",
+      "2024年": "65"
+    },
+    "evidence_text": "参与活动的志愿者总人次 人次 2023年 70 2024年 65",
+    "reason": "llm_no_match:志愿者活动人次属于社会责任实践类指标，但 Core ESG Schema 中无对应 field_key（如无 'volunteer_hours'、'volunteer_participation' 等字段），且不属于已定义的 S 类员工、培训、健康、投诉等范畴。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "志愿服务总时长",
+    "unit": "小时",
+    "values": {
+      "2023年": "406",
+      "2024年": "340"
+    },
+    "evidence_text": "志愿服务总时长 小时 2023年 406 2024年 340",
+    "reason": "llm_no_match:志愿服务总时长不属于 Core ESG Schema 中任何 field_key；Core Schema 中无与志愿服务、公益时长、社会贡献时长等相关的指标。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "员工志愿服务人均时长",
+    "unit": "小时/人",
+    "values": {
+      "2024年": "15.5"
+    },
+    "evidence_text": "员工志愿服务人均时长 小时/人 2024年 15.5",
+    "reason": "llm_no_match:员工志愿服务人均时长不属于 Core ESG Schema 中任何 field_key 的 aliases 或语义范畴，未在环境、社会、治理三大类标准指标中定义。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "乡村振兴捐款资金",
+    "unit": "万元",
+    "values": {
+      "2023年": "329.78",
+      "2024年": "73"
+    },
+    "evidence_text": "乡村振兴捐款资金 万元 2023年 329.78 2024年 73",
+    "reason": "llm_no_match:乡村振兴捐款资金属于社会公益捐赠类指标，Core ESG Schema 中无对应 field_key；虽属 S 类范畴，但未在标准字段中定义（如无 'rural振兴_donation' 或 'community_investment' 等字段），且不属于员工、培训、健康、供应链等已列示的 S 类指标。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "乡村振兴惠及人数",
+    "unit": "人",
+    "values": {
+      "2024年": "730"
+    },
+    "evidence_text": "乡村振兴惠及人数 人 2024年 730",
+    "reason": "llm_no_match:乡村振兴惠及人数属于社会影响类特色指标，Core ESG Schema 中无对应 field_key；既非标准环境（E）、社会（S）或治理（G）基础指标（如员工数、培训、投诉、董事会等），也未在 aliases 中出现任何相关表述。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "客户服务",
+    "topic": null,
+    "metric_name": "客户满意度",
+    "unit": "%",
+    "values": {
+      "2023年": "91",
+      "2024年": "94"
+    },
+    "evidence_text": "客户满意度 % 2023年 91 2024年 94",
+    "reason": "llm_no_match:客户满意度属于经营绩效或公司特色指标，Core ESG Schema 中无对应 field_key。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "产品质量",
+    "topic": null,
+    "metric_name": "外部质量体系审核一次性通过率",
+    "unit": "%",
+    "values": {
+      "2023年": "100",
+      "2024年": "100"
+    },
+    "evidence_text": "外部质量体系审核一次性通过率 % 2023年 100 2024年 100",
+    "reason": "llm_no_match:外部质量体系审核一次性通过率属于质量管理或运营绩效指标，Core ESG Schema 中无对应字段（如无 quality_system_audit_pass_rate 或类似别名），且不涉及环境、社会或治理核心议题的标准化披露项。"
+  },
+  {
+    "page_image": "page_98.png",
+    "table_title": "产品质量",
+    "topic": null,
+    "metric_name": "产品召回事件数量",
+    "unit": "件",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "产品召回事件数量 件 2024年 0",
+    "reason": "llm_no_match:产品召回事件数量属于产品质量与消费者责任范畴，Core ESG Schema 中无对应 field_key（如 customer_complaints 仅覆盖投诉，不涵盖召回；且召回涉及安全、合规、品牌风险等多维影响，未被标准化纳入当前 Schema）。"
+  },
+  {
+    "page_image": "page_98_left.png",
+    "table_title": "供应商管理",
+    "topic": null,
+    "metric_name": "供应商总数",
+    "unit": "家",
+    "values": {
+      "2023年": "287",
+      "2024年": "378"
+    },
+    "evidence_text": "供应商总数 家 287 378",
+    "reason": "llm_no_match:供应商总数属于供应链管理相关指标，Core ESG Schema 中无对应 field_key；未在 aliases 或语义中覆盖该概念，不属于环境、社会或治理核心披露项。"
+  },
+  {
+    "page_image": "page_98_left.png",
+    "table_title": "供应商管理",
+    "topic": null,
+    "metric_name": "材料类供应商数量",
+    "unit": "家",
+    "values": {
+      "2023年": "287",
+      "2024年": "378"
+    },
+    "evidence_text": "材料类供应商数量 家 287 378",
+    "reason": "llm_no_match:该指标属于供应链管理类指标，Core ESG Schema 中无对应 field_key（如无 'material_supplier_count' 或类似字段），且不属于环境、社会、治理基础披露项。"
+  },
+  {
+    "page_image": "page_98_left.png",
+    "table_title": "供应商管理",
+    "topic": null,
+    "metric_name": "中国内地供应商",
+    "unit": "家",
+    "values": {
+      "2023年": "/",
+      "2024年": "346"
+    },
+    "evidence_text": "中国内地供应商 家 / 346",
+    "reason": "llm_no_match:该指标描述的是中国内地供应商数量，属于供应链地理分布类信息，Core ESG Schema 中无对应 field_key；不属于环境、社会或治理核心披露项。"
+  },
+  {
+    "page_image": "page_98_left.png",
+    "table_title": "供应商管理",
+    "topic": null,
+    "metric_name": "港澳台供应商",
+    "unit": "家",
+    "values": {
+      "2023年": "/",
+      "2024年": "0"
+    },
+    "evidence_text": "港澳台供应商 家 / 0",
+    "reason": "llm_no_match:该指标属于供应链地域构成类信息，Core ESG Schema 中无任何关于港澳台供应商、供应商地域分布或供应商数量的字段，不属于环境、社会或治理核心披露项。"
+  },
+  {
+    "page_image": "page_98_left.png",
+    "table_title": "供应商管理",
+    "topic": null,
+    "metric_name": "海外数量",
+    "unit": "家",
+    "values": {
+      "2023年": "/",
+      "2024年": "32"
+    },
+    "evidence_text": "海外数量 家 / 32",
+    "reason": "llm_no_match:该指标‘海外数量’描述的是公司海外机构或子公司数量，属于经营布局或公司治理结构信息，Core ESG Schema 中无对应 field_key；既非环境（E）、社会（S）亦非治理（G）类标准指标（如董事会、反腐败等），且不属于已定义的任何 G 类字段（如 board_size、shareholder_meetings 等）。"
+  },
+  {
+    "page_image": "page_98_left.png",
+    "table_title": "可持续供应链",
+    "topic": null,
+    "metric_name": "可追溯原材料的产品百分比",
+    "unit": "%",
+    "values": {
+      "2023年": "100",
+      "2024年": "100"
+    },
+    "evidence_text": "可追溯原材料的产品百分比 % 100 100",
+    "reason": "llm_no_match:可追溯原材料的产品百分比属于供应链可持续性或产品可追溯性指标，Core ESG Schema 中无对应 field_key（如无 'traceable_raw_materials_ratio' 或类似字段），且未在任何 aliases 中出现。"
+  },
+  {
+    "page_image": "page_98_left.png",
+    "table_title": "可持续供应链",
+    "topic": null,
+    "metric_name": "新供应商 CSR 审核数量",
+    "unit": "家",
+    "values": {
+      "2023年": "/",
+      "2024年": "11"
+    },
+    "evidence_text": "新供应商 CSR 审核数量 家 / 11",
+    "reason": "llm_no_match:新供应商CSR审核数量属于供应链ESG管理活动指标，Core ESG Schema中无对应field_key（如无'supplier_csr_audit_count'或类似字段），且不属于环境、社会、治理三大类中的任何标准指标。"
+  },
+  {
+    "page_image": "page_98_left.png",
+    "table_title": "可持续供应链",
+    "topic": null,
+    "metric_name": "存量供应商 CSR 审核数量",
+    "unit": "家",
+    "values": {
+      "2023年": "/",
+      "2024年": "38"
+    },
+    "evidence_text": "存量供应商 CSR 审核数量 家 / 38",
+    "reason": "llm_no_match:存量供应商CSR审核数量属于供应链ESG管理活动指标，Core ESG Schema中无对应field_key（如无'supplier_csr_audit_count'或类似字段），且不属于环境、社会、治理基础指标范畴。"
+  },
+  {
+    "page_image": "page_98_left.png",
+    "table_title": "可持续供应链",
+    "topic": null,
+    "metric_name": "接受冲突矿产审核的供应商数量",
+    "unit": "家",
+    "values": {
+      "2023年": "23",
+      "2024年": "146"
+    },
+    "evidence_text": "接受冲突矿产审核的供应商数量 家 23 146",
+    "reason": "llm_no_match:接受冲突矿产审核的供应商数量属于供应链尽职调查类指标，Core ESG Schema 中无对应 field_key；未在 aliases 或语义范畴中覆盖该概念。"
+  },
+  {
+    "page_image": "page_98_left.png",
+    "table_title": "可持续供应链",
+    "topic": null,
+    "metric_name": "签订包含环境、劳工和人权要求条款合同的供应商百分比",
+    "unit": "%",
+    "values": {
+      "2023年": "100",
+      "2024年": "100"
+    },
+    "evidence_text": "签订包含环境、劳工和人权要求条款合同的供应商百分比 % 100 100",
+    "reason": "llm_no_match:该指标涉及供应链ESG条款覆盖情况，Core ESG Schema中无对应field_key（如无'supplier_esg_clause_coverage'或类似字段），不属于现有环境、社会、治理标准字段。"
+  },
+  {
+    "page_image": "page_98_left.png",
+    "table_title": "可持续供应链",
+    "topic": null,
+    "metric_name": "识别出供应商存在童工和强迫劳工事件数量",
+    "unit": "件",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "识别出供应商存在童工和强迫劳工事件数量 件 0 0",
+    "reason": "llm_no_match:供应商童工和强迫劳工事件数量在 Core ESG Schema 中无对应 field_key；虽属社会议题，但 Schema 中未定义供应链劳工合规类指标（如 supplier_child_labor_cases、supplier_forced_labor_cases 等），且 aliases 中无任何相关表述。"
+  },
+  {
+    "page_image": "page_98_left.png",
+    "table_title": "可持续供应链",
+    "topic": null,
+    "metric_name": "年度供应商大会",
+    "unit": "次",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "年度供应商大会 次 0 0",
+    "reason": "llm_no_match:该指标属于供应链管理活动类描述，Core ESG Schema 中无对应字段（如无 'supplier_engagement_events' 或 'supplier_conference_count' 等），不属于环境、社会或治理核心披露指标。"
+  },
+  {
+    "page_image": "page_98_left.png",
+    "table_title": "客户服务",
+    "topic": null,
+    "metric_name": "客户满意度",
+    "unit": "%",
+    "values": {
+      "2023年": "91",
+      "2024年": "94"
+    },
+    "evidence_text": "客户满意度 % 91 94",
+    "reason": "llm_no_match:客户满意度不属于 Core ESG Schema 中的任何 field_key；Core Schema 中无对应社会类（S）或治理类（G）指标，且明确规则指出客户满意度若未在 Schema 中定义则 matched=false。"
+  },
+  {
+    "page_image": "page_98_left.png",
+    "table_title": "产品质量",
+    "topic": null,
+    "metric_name": "外部质量体系审核一次性通过率",
+    "unit": "%",
+    "values": {
+      "2023年": "100",
+      "2024年": "100"
+    },
+    "evidence_text": "外部质量体系审核一次性通过率 % 100 100",
+    "reason": "llm_no_match:外部质量体系审核一次性通过率属于质量管理或运营绩效指标，Core ESG Schema 中无对应字段（如无 quality_audit_pass_rate 或类似别名），且不属于环境、社会或治理核心披露项。"
+  },
+  {
+    "page_image": "page_98_left.png",
+    "table_title": "产品质量",
+    "topic": null,
+    "metric_name": "产品召回事件数量",
+    "unit": "件",
+    "values": {
+      "2023年": "0",
+      "2024年": "0"
+    },
+    "evidence_text": "产品召回事件数量 件 0 0",
+    "reason": "llm_no_match:产品召回事件数量不属于 Core ESG Schema 中任何 field_key 的 aliases 或语义范畴，未在环境、社会或治理标准字段中定义。"
+  },
+  {
+    "page_image": "page_98_right.png",
+    "table_title": "研发与创新",
+    "topic": null,
+    "metric_name": "年度授权专利",
+    "unit": "件",
+    "values": {
+      "2023年": "42",
+      "2024年": "97"
+    },
+    "evidence_text": "年度授权专利 件 2023年 42 2024年 97",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:年度授权专利与'当年新增授权专利数量'语义一致，属于S类指标，unit_examples包含'件'，且aliases中包含'新增授权专利数量'、'当年授权专利数量'等高度匹配表述。"
+  },
+  {
+    "page_image": "page_98_right.png",
+    "table_title": "研发与创新",
+    "topic": null,
+    "metric_name": "报告期内累计有效专利数",
+    "unit": "件",
+    "values": {
+      "2023年": "322",
+      "2024年": "419"
+    },
+    "evidence_text": "报告期内累计有效专利数 件 2023年 322 2024年 419",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=llm_match:报告期内累计有效专利数与 authorized_patents_total 的别名 '累计授权专利数量'、'截至报告期末有效专利数量'、'有效期内的专利数' 等语义完全一致，且单位 '件' 符合 unit_examples。"
+  },
+  {
+    "page_image": "page_98_right.png",
+    "table_title": "研发与创新",
+    "topic": null,
+    "metric_name": "研发投入金额占营业收入比例",
+    "unit": "%",
+    "values": {
+      "2023年": "5.13",
+      "2024年": "4.61"
+    },
+    "evidence_text": "研发投入金额占营业收入比例 % 2023年 5.13 2024年 4.61",
+    "reason": "business_performance_not_core_esg"
+  },
+  {
+    "page_image": "page_98_right.png",
+    "table_title": "研发与创新",
+    "topic": null,
+    "metric_name": "研发员工比例",
+    "unit": "%",
+    "values": {
+      "2023年": "14.08",
+      "2024年": "14.50"
+    },
+    "evidence_text": "研发员工比例 % 2023年 14.08 2024年 14.50",
+    "reason": "llm_no_match:研发员工比例未在 Core ESG Schema 中定义；Schema 中仅有 'r_and_d_employees'（研发人员数量，绝对值）和 'female_management_ratio' 等比例类指标，但无'研发员工比例'这一字段及其别名。该指标属于人力资源结构细分指标，非标准ESG核心字段。"
+  },
+  {
+    "page_image": "page_98_right.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "公益项目数量",
+    "unit": "个",
+    "values": {
+      "2023年": "11",
+      "2024年": "5"
+    },
+    "evidence_text": "公益项目数量 个 2023年 11 2024年 5",
+    "reason": "llm_no_match:公益项目数量属于社会贡献类活动指标，Core ESG Schema 中无对应 field_key（如未定义 'community_investment_count' 或 'charity_projects_count' 等），且不属于环境、社会或治理基础字段。"
+  },
+  {
+    "page_image": "page_98_right.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "公益项目投入资金",
+    "unit": "万元",
+    "values": {
+      "2023年": "592.44",
+      "2024年": "240.26"
+    },
+    "evidence_text": "公益项目投入资金 万元 2023年 592.44 2024年 240.26",
+    "reason": "llm_no_match:公益项目投入资金属于社会责任类非标准化支出，Core ESG Schema 中无对应 field_key（如无 'social_investment'、'charity_expenditure' 等字段），且不属于环境、社会或治理核心量化指标。"
+  },
+  {
+    "page_image": "page_98_right.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "公益项目捐赠资金",
+    "unit": "万元",
+    "values": {
+      "2023年": "592.44",
+      "2024年": "234.76"
+    },
+    "evidence_text": "公益项目捐赠资金 万元 2023年 592.44 2024年 234.76",
+    "reason": "llm_no_match:公益项目捐赠资金属于社会责任履行中的慈善活动支出，Core ESG Schema 中无对应 field_key（如 'charitable_donations' 等未被定义），且不属于已列示的 S 类指标（如员工培训、社保覆盖、客户投诉等），故不匹配。"
+  },
+  {
+    "page_image": "page_98_right.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "组织开展志愿者活动",
+    "unit": "场",
+    "values": {
+      "2023年": "18",
+      "2024年": "13"
+    },
+    "evidence_text": "组织开展志愿者活动 场 2023年 18 2024年 13",
+    "reason": "llm_no_match:组织开展志愿者活动属于社会责任实践类活动，Core ESG Schema 中无对应 field_key（如无 'volunteer_activities' 或类似字段），且未在任何 aliases 中出现。"
+  },
+  {
+    "page_image": "page_98_right.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "员工志愿者数量",
+    "unit": "人",
+    "values": {
+      "2023年": "/",
+      "2024年": "22"
+    },
+    "evidence_text": "员工志愿者数量 人 2023年 / 2024年 22",
+    "reason": "llm_no_match:员工志愿者数量未在 Core ESG Schema 中定义，不属于环境（E）、社会（S）或治理（G）类标准字段；Schema 中无任何关于志愿服务、志愿者人数或社区参与的字段。"
+  },
+  {
+    "page_image": "page_98_right.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "参与活动的志愿者总人次",
+    "unit": "人次",
+    "values": {
+      "2023年": "70",
+      "2024年": "65"
+    },
+    "evidence_text": "参与活动的志愿者总人次 人次 2023年 70 2024年 65",
+    "reason": "llm_no_match:志愿者总人次属于社会责任类活动指标，但 Core ESG Schema 中无对应 field_key（如无 'volunteer_hours' 或 'volunteer_participation' 等字段），且不属于已定义的 S 类指标（如员工培训、工伤、社保等）。该指标未在 aliases 中出现，也不符合任何现有 field_key 的语义和范畴。"
+  },
+  {
+    "page_image": "page_98_right.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "志愿服务总时长",
+    "unit": "小时",
+    "values": {
+      "2023年": "406",
+      "2024年": "340"
+    },
+    "evidence_text": "志愿服务总时长 小时 2023年 406 2024年 340",
+    "reason": "llm_no_match:志愿服务总时长不属于 Core ESG Schema 中任何 field_key 的 aliases 或语义范畴，未在环境（E）、社会（S）或治理（G）类标准指标中定义。"
+  },
+  {
+    "page_image": "page_98_right.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "员工志愿活动人均时长",
+    "unit": "小时/人",
+    "values": {
+      "2023年": "/",
+      "2024年": "15.5"
+    },
+    "evidence_text": "员工志愿活动人均时长 小时/人 2023年 / 2024年 15.5",
+    "reason": "llm_no_match:员工志愿活动人均时长属于社会公益类特色指标，Core ESG Schema 中无对应 field_key（如 aliases 中无任何与志愿服务、志愿时长、公益时长相关的表述），且不属于 S 类标准人力或培训指标（training_hours_per_employee 指职业培训，非志愿活动）。"
+  },
+  {
+    "page_image": "page_98_right.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "乡村振兴捐赠资金",
+    "unit": "万元",
+    "values": {
+      "2023年": "329.78",
+      "2024年": "73"
+    },
+    "evidence_text": "乡村振兴捐赠资金 万元 2023年 329.78 2024年 73",
+    "reason": "llm_no_match:乡村振兴捐赠资金属于社会公益捐赠类指标，Core ESG Schema 中无对应 field_key（如 charitable_donations、community_investment 等未被定义），且不属于环境、社会或治理核心披露项。"
+  },
+  {
+    "page_image": "page_98_right.png",
+    "table_title": "公益慈善与乡村振兴",
+    "topic": null,
+    "metric_name": "乡村振兴惠及人数",
+    "unit": "人",
+    "values": {
+      "2023年": "/",
+      "2024年": "730"
+    },
+    "evidence_text": "乡村振兴惠及人数 人 2023年 / 2024年 730",
+    "reason": "llm_no_match:乡村振兴惠及人数属于社会影响类特色指标，Core ESG Schema 中无对应 field_key；未在 aliases 或语义上匹配任何 S 类或 G 类字段（如 community_investment、beneficiaries 等均未定义），不属于标准化 ESG 指标。"
+  },
+  {
+    "page_image": "page_99.png",
+    "table_title": "管理体系认证 / 核查声明一览表",
+    "topic": null,
+    "metric_name": "ISO 9001:2015质量管理体系认证",
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "-"
+    },
+    "evidence_text": "ISO 9001:2015质量管理体系认证 √ √ -",
+    "reason": "llm_no_match:ISO 9001:2015质量管理体系认证属于质量管理合规性或运营资质类信息，Core ESG Schema 中无对应字段；不属于环境（E）、社会（S）或治理（G）维度的量化指标，亦非标准ESG披露项。"
+  },
+  {
+    "page_image": "page_99.png",
+    "table_title": "管理体系认证 / 核查声明一览表",
+    "topic": null,
+    "metric_name": "IATF 16949:2016汽车行业质量管理体系认证",
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "-"
+    },
+    "evidence_text": "IATF 16949:2016汽车行业质量管理体系认证 √ √ -",
+    "reason": "llm_no_match:IATF 16949:2016是汽车行业质量管理体系认证，属于质量管理或合规性认证范畴，Core ESG Schema 中无对应 field_key；其值为定性符号（√/-），非数值型ESG指标，且不涉及环境、社会或治理核心量化维度。"
+  },
+  {
+    "page_image": "page_99.png",
+    "table_title": "管理体系认证 / 核查声明一览表",
+    "topic": null,
+    "metric_name": "ISO 13485:2016医疗器械管理体系认证",
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "-"
+    },
+    "evidence_text": "ISO 13485:2016医疗器械管理体系认证 √ √ -",
+    "reason": "llm_no_match:ISO 13485:2016认证属于质量管理体系合规性指标，Core ESG Schema中无对应field_key；既非环境、社会、治理核心量化指标，也不在aliases列表中，且为定性认证状态（√/-），非数值型ESG绩效指标。"
+  },
+  {
+    "page_image": "page_99.png",
+    "table_title": "管理体系认证 / 核查声明一览表",
+    "topic": null,
+    "metric_name": "AS9100D航空航天质量管理体系认证",
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "/",
+      "泰国基地": "/"
+    },
+    "evidence_text": "AS9100D航空航天质量管理体系认证 √ / /",
+    "reason": "llm_no_match:AS9100D航空航天质量管理体系认证属于质量管理认证类信息，反映企业质量管理体系合规性，Core ESG Schema 中无对应 field_key；该指标不属于环境（E）、社会（S）或治理（G）维度的标准化量化指标，亦非 Schema 中任一字段的别名或语义等价表述。"
+  },
+  {
+    "page_image": "page_99.png",
+    "table_title": "管理体系认证 / 核查声明一览表",
+    "topic": null,
+    "metric_name": "ISO 14001:2015环境管理体系认证",
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "√"
+    },
+    "evidence_text": "ISO 14001:2015环境管理体系认证 √ √ √",
+    "reason": "llm_no_match:ISO 14001:2015环境管理体系认证属于管理体系认证状态类信息，Core ESG Schema 中无对应 field_key；既非量化环境绩效指标（如排放、能耗、水耗等），也非人员、治理类结构化数值指标，不属于标准化 ESG 度量范畴。"
+  },
+  {
+    "page_image": "page_99.png",
+    "table_title": "管理体系认证 / 核查声明一览表",
+    "topic": null,
+    "metric_name": "ISO 45001:2018职业健康安全管理体系认证",
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "√"
+    },
+    "evidence_text": "ISO 45001:2018职业健康安全管理体系认证 √ √ √",
+    "reason": "llm_no_match:ISO 45001认证状态属于管理体系合规性信息，Core ESG Schema中无对应field_key；该指标为定性认证标识（√），非量化ESG绩效指标，且未在aliases或语义上匹配任何现有字段。"
+  },
+  {
+    "page_image": "page_99.png",
+    "table_title": "管理体系认证 / 核查声明一览表",
+    "topic": null,
+    "metric_name": "ISO 27001:2013信息安全管理体系认证",
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "-"
+    },
+    "evidence_text": "ISO 27001:2013信息安全管理体系认证 √ √ -",
+    "reason": "llm_no_match:ISO 27001:2013信息安全管理体系认证属于信息安全合规认证，Core ESG Schema 中无对应字段；该指标不属于环境（E）、社会（S）或治理（G）核心实质性指标，亦非 Schema 中任何 field_key 的别名或语义匹配项。"
+  },
+  {
+    "page_image": "page_99.png",
+    "table_title": "管理体系认证 / 核查声明一览表",
+    "topic": null,
+    "metric_name": "ISO 50001:2018能源管理体系认证",
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "-"
+    },
+    "evidence_text": "ISO 50001:2018能源管理体系认证 √ √ -",
+    "reason": "llm_no_match:ISO 50001:2018能源管理体系认证是管理体系认证状态（定性、二值或符号标记），非量化ESG绩效指标，Core ESG Schema中无对应field_key。"
+  },
+  {
+    "page_image": "page_99.png",
+    "table_title": "管理体系认证 / 核查声明一览表",
+    "topic": null,
+    "metric_name": "QC080000:2017有害物质过程管理体系认证",
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "-"
+    },
+    "evidence_text": "QC080000:2017有害物质过程管理体系认证 √ √ -",
+    "reason": "llm_no_match:QC080000:2017是有害物质过程管理体系认证，属于管理体系认证类信息，Core ESG Schema 中无对应 field_key；其值为定性符号（√/-），非数值型ESG绩效指标，不属于环境、社会或治理维度的标准化量化指标。"
+  },
+  {
+    "page_image": "page_99.png",
+    "table_title": "管理体系认证 / 核查声明一览表",
+    "topic": null,
+    "metric_name": "SA8000:2014社会责任管理体系认证",
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "-"
+    },
+    "evidence_text": "SA8000:2014社会责任管理体系认证 √ √ -",
+    "reason": "llm_no_match:SA8000:2014社会责任管理体系认证属于管理体系认证状态（是/否/部分），非量化ESG绩效指标，Core ESG Schema中无对应field_key。"
+  },
+  {
+    "page_image": "page_99.png",
+    "table_title": "管理体系认证 / 核查声明一览表",
+    "topic": null,
+    "metric_name": "ISO 14064:2018组织碳排放核查声明",
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "√"
+    },
+    "evidence_text": "ISO 14064:2018组织碳排放核查声明 √ √ √",
+    "reason": "llm_no_match:ISO 14064:2018组织碳排放核查声明是一项认证/合规性声明，属于管理实践或第三方鉴证结果，非量化排放数据本身，Core ESG Schema 中无对应 field_key。"
+  },
+  {
+    "page_image": "page_99.png",
+    "table_title": "管理体系认证 / 核查声明一览表",
+    "topic": null,
+    "metric_name": "ISO 14067:2018产品碳足迹核查声明",
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "√"
+    },
+    "evidence_text": "ISO 14067:2018产品碳足迹核查声明 √ √ √",
+    "reason": "llm_no_match:ISO 14067:2018产品碳足迹核查声明是一项认证/合规状态声明，属于定性披露或管理体系认证信息，非量化ESG指标；Core ESG Schema中无对应field_key，且不满足任何数值型环境指标（如scope_1_emissions、ghg_emissions_intensity等）的定义和计量要求。"
+  },
+  {
+    "page_image": "page_99_right.png",
+    "table_title": "奥士康2024年度可持续发展报告-基地绩效表",
+    "topic": null,
+    "metric_name": null,
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "-"
+    },
+    "evidence_text": "湖南基地 √ 广东基地 √ 泰国基地 -",
+    "reason": "llm_no_match:该行表示多基地的定性符合性标记（√/-），无数值、无计量单位、无ESG实质性指标语义，不属于Core ESG Schema中任何field_key。"
+  },
+  {
+    "page_image": "page_99_right.png",
+    "table_title": "奥士康2024年度可持续发展报告-基地绩效表",
+    "topic": null,
+    "metric_name": null,
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "-"
+    },
+    "evidence_text": "湖南基地 √ 广东基地 √ 泰国基地 -",
+    "reason": "llm_no_match:该行无明确指标名称、数值为定性符号（√/-），无单位和量化值，无法对应任何 Core ESG Schema 中的 field_key。"
+  },
+  {
+    "page_image": "page_99_right.png",
+    "table_title": "奥士康2024年度可持续发展报告-基地绩效表",
+    "topic": null,
+    "metric_name": null,
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "-"
+    },
+    "evidence_text": "湖南基地 √ 广东基地 √ 泰国基地 -",
+    "reason": "llm_no_match:该指标为多基地合规性标记（√/-），无数值、无单位、无ESG实质性内容，不属于Core ESG Schema中任何field_key。"
+  },
+  {
+    "page_image": "page_99_right.png",
+    "table_title": "奥士康2024年度可持续发展报告-基地绩效表",
+    "topic": null,
+    "metric_name": null,
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "/",
+      "泰国基地": "/"
+    },
+    "evidence_text": "湖南基地 √ 广东基地 / 泰国基地 /",
+    "reason": "llm_no_match:该行无明确指标名称、无数值、无单位，仅含基地标识和符号（√、/），无法对应任何 Core ESG Schema 字段。"
+  },
+  {
+    "page_image": "page_99_right.png",
+    "table_title": "奥士康2024年度可持续发展报告-基地绩效表",
+    "topic": null,
+    "metric_name": null,
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "√"
+    },
+    "evidence_text": "湖南基地 √ 广东基地 √ 泰国基地 √",
+    "reason": "llm_no_match:该行表示多基地合规性标识（'√'），无数值、无单位、无明确ESG指标语义，不属于Core ESG Schema中任何field_key。"
+  },
+  {
+    "page_image": "page_99_right.png",
+    "table_title": "奥士康2024年度可持续发展报告-基地绩效表",
+    "topic": null,
+    "metric_name": null,
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "√"
+    },
+    "evidence_text": "湖南基地 √ 广东基地 √ 泰国基地 √",
+    "reason": "llm_no_match:该行无数值型指标，仅含定性勾选标记（'√'）及基地名称，无法对应任何 Core ESG Schema 中的 field_key；不属于环境、社会或治理维度的量化ESG指标。"
+  },
+  {
+    "page_image": "page_99_right.png",
+    "table_title": "奥士康2024年度可持续发展报告-基地绩效表",
+    "topic": null,
+    "metric_name": null,
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "-"
+    },
+    "evidence_text": "湖南基地 √ 广东基地 √ 泰国基地 -",
+    "reason": "llm_no_match:该行无数值型指标，仅为多基地合规性标记（√/−），不表示任何ESG量化数据，不属于Core ESG Schema中任一field_key。"
+  },
+  {
+    "page_image": "page_99_right.png",
+    "table_title": "奥士康2024年度可持续发展报告-基地绩效表",
+    "topic": null,
+    "metric_name": null,
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "-"
+    },
+    "evidence_text": "湖南基地 √ 广东基地 √ 泰国基地 -",
+    "reason": "llm_no_match:该行表示多基地合规/存在性标识（√/-），无数值、无单位、无ESG实质性指标语义，不属于Core ESG Schema中任何field_key。"
+  },
+  {
+    "page_image": "page_99_right.png",
+    "table_title": "奥士康2024年度可持续发展报告-基地绩效表",
+    "topic": null,
+    "metric_name": null,
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "-"
+    },
+    "evidence_text": "湖南基地 √ 广东基地 √ 泰国基地 -",
+    "reason": "llm_no_match:该行表示多基地的定性符合性标记（√/-），无数值、无计量单位、无明确ESG指标语义，不属于Core ESG Schema中任何field_key。"
+  },
+  {
+    "page_image": "page_99_right.png",
+    "table_title": "奥士康2024年度可持续发展报告-基地绩效表",
+    "topic": null,
+    "metric_name": null,
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "√"
+    },
+    "evidence_text": "湖南基地 √ 广东基地 √ 泰国基地 √",
+    "reason": "llm_no_match:该行无数值型指标，仅含定性勾选标记（'√'）及基地名称，无法对应任何 Core ESG Schema 中的 field_key；不属于环境、社会或治理维度的量化ESG指标。"
+  },
+  {
+    "page_image": "page_99_right.png",
+    "table_title": "奥士康2024年度可持续发展报告-基地绩效表",
+    "topic": null,
+    "metric_name": null,
+    "unit": null,
+    "values": {
+      "湖南基地": "√",
+      "广东基地": "√",
+      "泰国基地": "√"
+    },
+    "evidence_text": "湖南基地 √ 广东基地 √ 泰国基地 √",
+    "reason": "llm_no_match:该行无数值型指标，仅含定性勾选标记（'√'），无计量单位和可量化ESG数据，无法对应任何Core ESG Schema字段。"
+  },
+  {
+    "page_image": "page_100_left.png",
+    "table_title": "认证标准、类型与保证等级",
+    "topic": null,
+    "metric_name": "AA1000AS v3 (类型 2)",
+    "unit": null,
+    "values": {
+      "2024年": "中度"
+    },
+    "evidence_text": "认证标准 AA1000AS v3 (类型 2) 认证等级 中度",
+    "reason": "llm_no_match:AA1000AS v3 (类型 2) 是一项鉴证标准认证等级，属于第三方鉴证结果描述，不属于 Core ESG Schema 中任何环境、社会或治理实质性指标。"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 305: 排放物 2016",
+    "metric_name": "305-2",
+    "unit": "能源间接（范围 2）温室气体排放",
+    "values": {
+      "披露Position": "关键绩效指标表"
+    },
+    "evidence_text": "305-2 能源间接（范围 2）温室气体排放 关键绩效指标表",
+    "reason": "index_table_not_metric"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 305: 排放物 2016",
+    "metric_name": "305-3",
+    "unit": "其他间接（范围 3）温室气体排放",
+    "values": {
+      "披露Position": "关键绩效指标表"
+    },
+    "evidence_text": "305-3 其他间接（范围 3）温室气体排放 关键绩效指标表",
+    "reason": "index_table_not_metric"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 305: 排放物 2016",
+    "metric_name": "305-4",
+    "unit": "温室气体排放强度",
+    "values": {
+      "披露Position": "关键绩效指标表"
+    },
+    "evidence_text": "305-4 温室气体排放强度 关键绩效指标表",
+    "reason": "index_table_not_metric"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 305: 排放物 2016",
+    "metric_name": "305-5",
+    "unit": "温室气体减排量",
+    "values": {
+      "披露Position": "关键绩效指标表"
+    },
+    "evidence_text": "305-5 温室气体减排量 关键绩效指标表",
+    "reason": "index_table_not_metric"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 306: 废弃物 2020",
+    "metric_name": "306-1",
+    "unit": "废弃物的产生及废弃物相关重大影响的管理",
+    "values": {
+      "披露Position": "打造循环经济"
+    },
+    "evidence_text": "306-1 废弃物的产生及废弃物相关重大影响的管理 打造循环经济",
+    "reason": "index_table_not_metric"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 306: 废弃物 2020",
+    "metric_name": "306-2",
+    "unit": "废弃物相关重大影响的管理",
+    "values": {
+      "披露Position": "打造循环经济"
+    },
+    "evidence_text": "306-2 废弃物相关重大影响的管理 打造循环经济",
+    "reason": "index_table_not_metric"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 306: 废弃物 2020",
+    "metric_name": "306-3",
+    "unit": "产生的废弃物",
+    "values": {
+      "披露Position": "打造循环经济关键绩效指标表"
+    },
+    "evidence_text": "306-3 产生的废弃物 打造循环经济关键绩效指标表",
+    "reason": "index_table_not_metric"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 306: 废弃物 2020",
+    "metric_name": "306-4",
+    "unit": "从处置中转移的废弃物",
+    "values": {
+      "披露Position": "打造循环经济"
+    },
+    "evidence_text": "306-4 从处置中转移的废弃物 打造循环经济",
+    "reason": "index_table_not_metric"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 308: 供应商环境评估 2016",
+    "metric_name": "308-1",
+    "unit": "使用环境评价维度筛选的新供应商",
+    "values": {
+      "披露Position": "完善供应链体系"
+    },
+    "evidence_text": "308-1 使用环境评价维度筛选的新供应商 完善供应链体系",
+    "reason": "index_table_not_metric"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 308: 供应商环境评估 2016",
+    "metric_name": "308-2",
+    "unit": "供应链的负面环境影响以及采取的行动",
+    "values": {
+      "披露Position": "完善供应链体系"
+    },
+    "evidence_text": "308-2 供应链的负面环境影响以及采取的行动 完善供应链体系",
+    "reason": "index_table_not_metric"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 401: 雇佣 2016",
+    "metric_name": "401-1",
+    "unit": "新进员工雇佣率和员工流动率",
+    "values": {
+      "披露Position": "保障员工权益关键绩效指标表"
+    },
+    "evidence_text": "401-1 新进员工雇佣率和员工流动率 保障员工权益关键绩效指标表",
+    "reason": "index_table_not_metric"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 401: 雇佣 2016",
+    "metric_name": "401-2",
+    "unit": "提供给全职员工（不包括临时或兼职员工）的福利",
+    "values": {
+      "披露Position": "厚植员工福祉"
+    },
+    "evidence_text": "401-2 提供给全职员工（不包括临时或兼职员工）的福利 厚植员工福祉",
+    "reason": "index_table_not_metric"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 401: 雇佣 2016",
+    "metric_name": "401-3",
+    "unit": "育儿假",
+    "values": {
+      "披露Position": "厚植员工福祉"
+    },
+    "evidence_text": "401-3 育儿假 厚植员工福祉",
+    "reason": "index_table_not_metric"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 403: 职业健康与安全 2018",
+    "metric_name": "403-1",
+    "unit": "职业健康安全管理体系",
+    "values": {
+      "披露Position": "守护员工安全"
+    },
+    "evidence_text": "403-1 职业健康安全管理体系 守护员工安全",
+    "reason": "index_table_not_metric"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 403: 职业健康与安全 2018",
+    "metric_name": "403-2",
+    "unit": "危害识别、风险评估和事故调查",
+    "values": {
+      "披露Position": "守护员工安全"
+    },
+    "evidence_text": "403-2 危害识别、风险评估和事故调查 守护员工安全",
+    "reason": "index_table_not_metric"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 403: 职业健康与安全 2018",
+    "metric_name": "403-3",
+    "unit": "职业健康服务",
+    "values": {
+      "披露Position": "守护员工安全"
+    },
+    "evidence_text": "403-3 职业健康服务 守护员工安全",
+    "reason": "index_table_not_metric"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 403: 职业健康与安全 2018",
+    "metric_name": "403-4",
+    "unit": "职业健康安全事务：工作者的参与、协商和沟通",
+    "values": {
+      "披露Position": "守护员工安全"
+    },
+    "evidence_text": "403-4 职业健康安全事务：工作者的参与、协商和沟通 守护员工安全",
+    "reason": "index_table_not_metric"
+  },
+  {
+    "page_image": "page_102_left.png",
+    "table_title": "量化数据绩效表",
+    "topic": "GRI 403: 职业健康与安全 2018",
+    "metric_name": "403-5",
+    "unit": "工作者职业健康安全培训",
+    "values": {
+      "披露Position": "守护员工安全"
+    },
+    "evidence_text": "403-5 工作者职业健康安全培训 守护员工安全",
+    "reason": "index_table_not_metric"
+  }
+]

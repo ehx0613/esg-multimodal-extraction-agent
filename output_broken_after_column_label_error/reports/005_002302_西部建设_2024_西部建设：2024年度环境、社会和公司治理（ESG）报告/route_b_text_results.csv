@@ -1,0 +1,6 @@
+﻿field_key,field_name_cn,category,matched,value,summary,evidence,source_pages,confidence,reason,route
+board_esg_oversight,董事会 ESG 监督机制,G,False,,,,[],0.25,未找到足够证据。,B_text_rag
+esg_committee,ESG 委员会或可持续发展委员会,G,True,True,公司成立了ESG工作领导小组及执行小组，负责统筹和推进ESG工作。,公司成立ESG工作领导小组，并下设工作执行小组负责日常工作。,[6],0.95,正文明确披露了ESG相关治理架构的建立。,B_text_rag
+anti_corruption_policy,反腐败政策,G,True,True,公司建立了反腐败或举报相关制度。,成立党风廉政建设和反腐败工作领导小组，构建监督格局，制定相关规范性文件。,"[47, 48]",0.86,正文明确披露了该机制。,B_text_rag
+whistleblowing_mechanism,举报机制,G,True,True,公司建立了反腐败或举报相关制度。,公司设立职工信访、违规举报等渠道，员工及外部可通过网络、邮件、电话等方式举报。,[48],0.86,正文明确披露了该机制。,B_text_rag
+supplier_esg_assessment,供应商 ESG 评估机制,S,True,True,公司探索将供应商ESG表现纳入管理流程，并发布相关管理办法。,探索将供应商ESG表现纳入供应商管理流程中，修订《分供商管理办法》。,[29],0.86,正文明确披露了该机制。,B_text_rag

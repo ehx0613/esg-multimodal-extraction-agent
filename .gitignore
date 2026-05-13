@@ -1,0 +1,17 @@
+.env
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+data/raw/*
+data/processed/*
+output/page_images/*
+output/json/*
+output/csv/*
+output/reports/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!output/page_images/.gitkeep
+!output/json/.gitkeep
+!output/csv/.gitkeep
+!output/reports/.gitkeep

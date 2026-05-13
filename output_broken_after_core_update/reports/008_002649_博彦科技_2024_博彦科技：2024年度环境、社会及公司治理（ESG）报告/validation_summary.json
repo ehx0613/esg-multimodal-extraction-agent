@@ -1,0 +1,7 @@
+{
+  "total_fields": 68,
+  "extracted_fields": 32,
+  "missing_fields": 36,
+  "unknown_metrics": 184,
+  "skipped_index_rows": 86
+}

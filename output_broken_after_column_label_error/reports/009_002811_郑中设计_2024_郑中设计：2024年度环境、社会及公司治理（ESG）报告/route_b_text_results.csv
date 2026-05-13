@@ -1,0 +1,6 @@
+﻿field_key,field_name_cn,category,matched,value,summary,evidence,source_pages,confidence,reason,route
+board_esg_oversight,董事会 ESG 监督机制,G,True,True,董事会作为最高决策机构负责监督可持续发展相关影响、风险和机遇，并审阅批准重要性评估。,董事会作为管理经济、环境和社会议题的最高决策机构，负责评估与监督管理可持续发展相关影响、风险和机遇。,[18],0.95,正文明确披露了董事会在ESG治理中的监督职责。,B_text_rag
+esg_committee,ESG 委员会或可持续发展委员会,G,False,,,,[],0.25,未找到足够证据。,B_text_rag
+anti_corruption_policy,反腐败政策,G,False,,,,[],0.25,未找到足够证据。,B_text_rag
+whistleblowing_mechanism,举报机制,G,False,,,,[],0.25,未找到足够证据。,B_text_rag
+supplier_esg_assessment,供应商 ESG 评估机制,S,True,True,公司建立了供应商ESG评估机制，在准入和定期评估中关注环保表现。,在供应商引入、供应商合作的定期评估中持续关注供应商在环保等方面的表现。,[83],0.9,正文明确披露了对供应商在环保等方面的持续评估，属于供应商ESG评估机制。,B_text_rag

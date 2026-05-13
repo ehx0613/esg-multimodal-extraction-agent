@@ -1,0 +1,11 @@
+{
+  "total_fields": 68,
+  "route_a_extracted_fields": 21,
+  "route_b_matched_fields": 5,
+  "route_b_filled_fields": 5,
+  "merged_extracted_fields": 26,
+  "missing_fields": 42,
+  "coverage_rate": 0.3824,
+  "route_a_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\004_002249_大洋电机_2024_大洋电机：大洋电机2024年度环境、社会及公司治理（ESG）报告\\standard_esg_results.csv",
+  "route_b_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\004_002249_大洋电机_2024_大洋电机：大洋电机2024年度环境、社会及公司治理（ESG）报告\\route_b_text_results.csv"
+}

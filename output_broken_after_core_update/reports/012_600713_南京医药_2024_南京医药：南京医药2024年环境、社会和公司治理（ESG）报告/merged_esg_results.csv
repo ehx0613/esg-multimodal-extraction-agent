@@ -1,0 +1,8 @@
+﻿field_key,field_name_cn,category,indicator_type,value_type,status,value,raw_value,unit,year,source_route,confidence,evidence,source_pages,row_label,topic,table_title,page_image,route_a_status,route_a_confidence,route_a_reason,route_b_matched,route_b_confidence,route_b_summary,route_b_evidence,route_b_source_pages,route_b_reason
+total_ghg_emissions,温室气体排放总量,E,quantitative,number,missing,,,,,missing,0.0,,,,,,,missing,0.0,not_found,,,,,,
+scope_1_emissions,范围一温室气体排放量,E,quantitative,number,missing,,,,,missing,0.0,,,,,,,missing,0.0,not_found,,,,,,
+scope_2_emissions,范围二温室气体排放量,E,quantitative,number,missing,,,,,missing,0.0,,,,,,,missing,0.0,not_found,,,,,,
+scope_3_emissions,范围三温室气体排放量,E,quantitative,number,missing,,,,,missing,0.0,,,,,,,missing,0.0,not_found,,,,,,
+ghg_emissions_intensity,温室气体排放强度,E,quantitative,number,missing,,,,,missing,0.0,,,,,,,missing,0.0,not_found,,,,,,
+energy_consumption_total,能源消耗总量,E,quantitative,number,missing,,,,,missing,0.0,,,,,,,missing,0.0,not_found,,,,,,
+energy_consumption_intensity,能源消耗强度,E,quantitative,number,missing,,,,,missing,0.0,,,,,,,missing,0.0,not_found,,,,,,
