@@ -1,7 +1,9 @@
-import csv
+import argparse
 import json
 import re
 import sys
+import time
+import unicodedata
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
@@ -9,20 +11,37 @@ from typing import Any, Dict, List, Optional, Tuple
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from config.core_schema import CORE_SCHEMA, ESG_FIELD_KEYS
-from utils.schema_matcher import match_row_to_schema, is_index_row
-import unicodedata
+from config.schema import ESG_FIELD_KEYS, ESG_SCHEMA
+from config.settings import ROUTE_A_B2_MIN_EXTRACTED_FIELDS
+from utils.result_guard import safe_write_csv, safe_write_json
+from utils.schema_matcher import is_index_row, match_row_to_schema
+
+
+STANDARD_RESULTS_FIELD_ORDER = [
+    "field_key",
+    "field_name_cn",
+    "category",
+    "indicator_type",
+    "value_type",
+    "value",
+    "raw_value",
+    "unit",
+    "year",
+    "column_label",
+    "row_label",
+    "topic",
+    "table_title",
+    "page_image",
+    "evidence_text",
+    "status",
+    "confidence",
+    "match_reason",
+]
+
 
 def load_json(path: Path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
-
-
-def save_json(path: Path, data):
-    path.parent.mkdir(parents=True, exist_ok=True)
-
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
 
 
 def norm(value):
@@ -42,6 +61,7 @@ def norm(value):
         .replace("，", ",")
     )
 
+
 def parse_year_from_key(key: str) -> Optional[int]:
     match = re.search(r"20[0-3][0-9]", str(key))
     if not match:
@@ -50,13 +70,6 @@ def parse_year_from_key(key: str) -> Optional[int]:
 
 
 def choose_latest_year_value(values: Dict[str, Any]) -> Tuple[Optional[int], Optional[str], Any]:
-    """
-    从 values 中选择最新年份的值。
-    例如：
-    {"2022年度": "1", "2023年度": "2", "2024年度": "3"}
-    → 2024, "2024年度", "3"
-    """
-
     if not isinstance(values, dict) or not values:
         return None, None, None
 
@@ -84,31 +97,22 @@ def parse_value(raw_value: Any):
     if text in {"", "/", "-", "—", "N/A", "NA", "不适用", "未披露"}:
         return None
 
-    clean = (
-        text.replace(",", "")
-        .replace("，", "")
-        .replace("%", "")
-    )
+    clean = text.replace(",", "").replace("，", "").replace("%", "")
 
     if clean.endswith("+"):
         return text
 
     try:
         value = float(clean)
-
         if value.is_integer():
             return int(value)
-
         return value
     except Exception:
         return text
 
 
 def empty_standard_item(field_key: str) -> Dict[str, Any]:
-    schema_item = next(
-        (item for item in CORE_SCHEMA if item["field_key"] == field_key),
-        {},
-    )
+    schema_item = ESG_SCHEMA.get(field_key, {})
 
     return {
         "field_key": field_key,
@@ -133,22 +137,6 @@ def empty_standard_item(field_key: str) -> Dict[str, Any]:
 
 
 def flatten_all_table_rows(all_table_rows: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """
-    兼容你的 all_table_rows.json 结构：
-    [
-      {
-        "page_image": "...",
-        "page_type": "performance_data_table",
-        "tables": [
-          {
-            "table_title": "...",
-            "rows": [...]
-          }
-        ]
-      }
-    ]
-    """
-
     rows = []
 
     for page in all_table_rows:
@@ -181,10 +169,7 @@ def flatten_all_table_rows(all_table_rows: List[Dict[str, Any]]) -> List[Dict[st
 
 
 def build_extracted_item(field_key: str, row: Dict[str, Any], match_result: Dict[str, Any]) -> Dict[str, Any]:
-    schema_item = next(
-        (item for item in CORE_SCHEMA if item["field_key"] == field_key),
-        {},
-    )
+    schema_item = ESG_SCHEMA.get(field_key, {})
 
     values = row.get("values", {})
     year, column_label, raw_value = choose_latest_year_value(values)
@@ -232,64 +217,26 @@ def build_unknown_item(row: Dict[str, Any], match_result: Dict[str, Any]) -> Dic
     }
 
 
-def write_csv(path: Path, rows: List[Dict[str, Any]]):
-    path.parent.mkdir(parents=True, exist_ok=True)
+def extracted_item_priority(item: Dict[str, Any]) -> float:
+    text = " ".join(
+        str(item.get(key) or "")
+        for key in ["row_label", "topic", "table_title", "evidence_text"]
+    )
+    score = float(item.get("confidence") or 0.0)
+    if "总用水量" in text:
+        score += 0.08
+    if any(word in text for word in ["新鲜水取水总量", "取水总量", "新鲜水用量"]):
+        score -= 0.03
+    if any(word in text for word in ["新进员工", "新入职", "离职员工", "流失员工"]):
+        score -= 0.08
+    return score
 
-    if not rows:
-        with open(path, "w", encoding="utf-8-sig", newline="") as f:
-            f.write("")
-        return
-
-    # 不要只用 rows[0].keys()
-    # 因为有些 extracted 行会多出 column_label 等字段
-    preferred_order = [
-        "field_key",
-        "field_name_cn",
-        "category",
-        "indicator_type",
-        "value_type",
-        "value",
-        "raw_value",
-        "unit",
-        "year",
-        "column_label",
-        "row_label",
-        "topic",
-        "table_title",
-        "page_image",
-        "evidence_text",
-        "status",
-        "confidence",
-        "match_reason",
-    ]
-
-    all_keys = set()
-
-    for row in rows:
-        all_keys.update(row.keys())
-
-    extra_keys = sorted(k for k in all_keys if k not in preferred_order)
-    fieldnames = [k for k in preferred_order if k in all_keys] + extra_keys
-
-    tmp_path = path.with_suffix(path.suffix + ".tmp")
-
-    with open(tmp_path, "w", encoding="utf-8-sig", newline="") as f:
-        writer = csv.DictWriter(
-            f,
-            fieldnames=fieldnames,
-            extrasaction="ignore",
-        )
-        writer.writeheader()
-        writer.writerows(rows)
-
-    tmp_path.replace(path)
 
 def find_latest_report_dir() -> Path:
     reports_dir = PROJECT_ROOT / "output" / "reports"
 
     report_dirs = [
-        p for p in reports_dir.iterdir()
-        if p.is_dir() and (p / "all_table_rows.json").exists()
+        p for p in reports_dir.iterdir() if p.is_dir() and (p / "all_table_rows.json").exists()
     ]
 
     if not report_dirs:
@@ -299,7 +246,8 @@ def find_latest_report_dir() -> Path:
     return report_dirs[0]
 
 
-def rerun_schema_match(report_dir: Path):
+def rerun_schema_match(report_dir: Path, *, allow_llm: bool = False):
+    started_at = time.perf_counter()
     all_table_rows_path = report_dir / "all_table_rows.json"
 
     if not all_table_rows_path.exists():
@@ -308,10 +256,7 @@ def rerun_schema_match(report_dir: Path):
     all_table_rows = load_json(all_table_rows_path)
     flat_rows = flatten_all_table_rows(all_table_rows)
 
-    standard_results = {
-        field_key: empty_standard_item(field_key)
-        for field_key in ESG_FIELD_KEYS
-    }
+    standard_results = {field_key: empty_standard_item(field_key) for field_key in ESG_FIELD_KEYS}
 
     unknown_metrics = []
     skipped_index_rows = 0
@@ -328,7 +273,7 @@ def rerun_schema_match(report_dir: Path):
         if not metric_name:
             continue
 
-        match_result = match_row_to_schema(row)
+        match_result = match_row_to_schema(row, allow_llm=allow_llm)
 
         if match_result.get("matched"):
             field_key = match_result.get("field_key")
@@ -339,46 +284,46 @@ def rerun_schema_match(report_dir: Path):
             if old_item is None or old_item.get("status") != "extracted":
                 standard_results[field_key] = new_item
             else:
-                old_conf = old_item.get("confidence", 0) or 0
-                new_conf = new_item.get("confidence", 0) or 0
-
-                if new_conf > old_conf:
+                if extracted_item_priority(new_item) > extracted_item_priority(old_item):
                     standard_results[field_key] = new_item
-
         else:
-            unknown_metrics.append(
-                build_unknown_item(row, match_result)
-            )
+            unknown_metrics.append(build_unknown_item(row, match_result))
 
-    standard_rows = [
-        standard_results[field_key]
-        for field_key in ESG_FIELD_KEYS
-    ]
-    if len(standard_rows) < 60:
+    standard_rows = [standard_results[field_key] for field_key in ESG_FIELD_KEYS]
+    expected_standard_rows = len(ESG_FIELD_KEYS)
+
+    if len(standard_rows) != expected_standard_rows:
         raise RuntimeError(
-            f"standard_rows 数量异常: {len(standard_rows)}，拒绝覆盖 standard_esg_results.csv"
+            f"standard_rows 数量异常: {len(standard_rows)}，期望 {expected_standard_rows}，拒绝覆盖 standard_esg_results.csv"
         )
-    extracted_count = sum(
-        1 for item in standard_rows
-        if item.get("status") == "extracted"
-    )
 
+    extracted_count = sum(1 for item in standard_rows if item.get("status") == "extracted")
     missing_count = len(standard_rows) - extracted_count
+    needs_route_b2 = bool(missing_count and extracted_count < ROUTE_A_B2_MIN_EXTRACTED_FIELDS)
 
     summary = {
         "total_fields": len(standard_rows),
         "extracted_fields": extracted_count,
         "missing_fields": missing_count,
+        "coverage_rate": round(extracted_count / len(standard_rows), 4) if standard_rows else 0,
+        "raw_row_count": len(flat_rows),
         "unknown_metrics": len(unknown_metrics),
+        "needs_route_b2": needs_route_b2,
+        "route_b2_reason": f"route_a_extracted_below_{ROUTE_A_B2_MIN_EXTRACTED_FIELDS}" if needs_route_b2 else "",
         "skipped_index_rows": skipped_index_rows,
+        "schema_llm_enabled": allow_llm,
+        "elapsed_seconds": round(time.perf_counter() - started_at, 3),
     }
 
-    save_json(report_dir / "standard_esg_results.json", standard_rows)
-    save_json(report_dir / "unknown_metrics.json", unknown_metrics)
-    save_json(report_dir / "validation_summary.json", summary)
-
-    write_csv(report_dir / "standard_esg_results.csv", standard_rows)
-    write_csv(report_dir / "unknown_metrics.csv", unknown_metrics)
+    safe_write_json(report_dir / "standard_esg_results.json", standard_rows)
+    safe_write_json(report_dir / "unknown_metrics.json", unknown_metrics)
+    safe_write_json(report_dir / "validation_summary.json", summary)
+    safe_write_csv(
+        report_dir / "standard_esg_results.csv",
+        standard_rows,
+        preferred_order=STANDARD_RESULTS_FIELD_ORDER,
+    )
+    safe_write_csv(report_dir / "unknown_metrics.csv", unknown_metrics)
 
     print("Schema 重新匹配完成。")
     print(f"总字段数: {summary['total_fields']}")
@@ -386,22 +331,37 @@ def rerun_schema_match(report_dir: Path):
     print(f"缺失字段数: {summary['missing_fields']}")
     print(f"unknown 指标数: {summary['unknown_metrics']}")
     print(f"跳过索引行数: {summary['skipped_index_rows']}")
+    print(f"Schema 小模型: {'启用' if allow_llm else '禁用（快速本地规则模式）'}")
+    print(f"耗时: {summary['elapsed_seconds']} 秒")
     print(f"standard_esg_results.csv: {report_dir / 'standard_esg_results.csv'}")
     print(f"unknown_metrics.csv: {report_dir / 'unknown_metrics.csv'}")
 
 
-def main():
-    if len(sys.argv) > 1:
-        report_dir = Path(sys.argv[1])
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Re-run Schema matching from cached table rows.")
+    parser.add_argument(
+        "report_dir",
+        nargs="?",
+        help="Report directory. Defaults to the latest report with all_table_rows.json.",
+    )
+    parser.add_argument(
+        "--with-llm",
+        action="store_true",
+        help="Enable the Schema Judge fallback. Slower and may make network model calls.",
+    )
+    return parser.parse_args()
 
+def main():
+    args = parse_args()
+    if args.report_dir:
+        report_dir = Path(args.report_dir)
         if not report_dir.is_absolute():
             report_dir = PROJECT_ROOT / report_dir
     else:
         report_dir = find_latest_report_dir()
 
     print(f"重新基于缓存表格行进行 Schema 匹配: {report_dir}")
-
-    rerun_schema_match(report_dir)
+    rerun_schema_match(report_dir, allow_llm=args.with_llm)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,212 @@
+[
+  {
+    "field_key": "air_pollutant_emissions",
+    "field_name_cn": "废气或大气污染物排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 39,
+    "citation_chunk_id": "p39_66",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "0-2008）中规定的有关水污染物排放规定，总排放口 处其他生产废水和生活污水排放满足《污水综合排放标准》 （GB8978-1996）表4中三级标准和《污水排入城镇下水道水 质标准》 （GB/T31962-2015）表1中的B等级标准。 根据济南市生态环境局发布的济南市2024年重点排污单位名录，平阴县中医医院被列为2024年济南市重点排污单位 之一，报告期内的排污信息如下： 报告期内，公司产生的温室气体排放量如下： 2024年公司开..."
+  },
+  {
+    "field_key": "non_hazardous_waste",
+    "field_name_cn": "一般废弃物产生量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 33,
+    "citation_chunk_id": "p33_54",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "新华医疗始终坚持绿色低碳发展理念，在应对气候变化、环境合规管理、 污染物排放、废弃物处理及生物多样性保护等方面，严格遵循法律法规， 持续优化环境管理体系，不断强化环境保护的常态化管理，提升环境治 理水平，不断提升资源利用效率，减少环境影响，积极采取应对气候变化 的举措，为构建可持续发展生态体系贡献新华力量。 绿动新华 守护环境 降低资源消耗 坚持质量制胜 加强环境管理 应对气候变化 强化污染治理 弘扬绿色理念 61 62 山东新华医疗..."
+  },
+  {
+    "field_key": "environmental_penalty_count",
+    "field_name_cn": "环境违规或处罚事件数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 59,
+    "citation_chunk_id": "p59_101",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "证券交易所（www.sse.com.cn），确保所有投资者能够公平获取公司信息。报告期内，未 发生因违反信息披露规定受到处罚的事件；在上海证券交易所上市公司2023至2024年度信息披露工作评价结果中获 评B级，未来公司将持续提升信息披露成效。 报告期内，公司共发布各类公告49份；其中定期报告4份，临时公告45份。 信息披露 公司董事会由11名董事组成，其中独立董事四名，达到董事会人数的三分之一。公司修订《独立董事工作制度》，独立董 ..."
+  },
+  {
+    "field_key": "female_employee_ratio",
+    "field_name_cn": "女性员工比例",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 65,
+    "citation_chunk_id": "p65_113",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "附录 关键绩效 绩效指标 劳动合同签订率 社保覆盖率 员工歧视事件总数 社会招聘 校园招聘 离职员工数量 员工总数1 其中本科及以上 其中本科以下 其中男性员工总数 其中女性员工总数 其中30岁及以下的员工总数 其中31-50岁的员工总数 其中50岁及以上的员工总数 其中汉族 其中少数民族 员工培训场次 员工培训人次 员工培训时间 员工培训覆盖率 员工培训总投入 人均带薪年假天数 女员工教育培训场次 女员工教育培训参与人次 女员工教育..."
+  },
+  {
+    "field_key": "employee_turnover_rate",
+    "field_name_cn": "员工流失率",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 43,
+    "citation_chunk_id": "p43_72",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "按性别划分 27.7% 女性 男性 2253人 72.3% 5882人 6% 492人 57.2% 4650人 按年龄划分 30岁及以下 31-50岁 50岁及以上 36.8% 2993人 54.4% 4429人 1.4% 112人 71.6% 5822人 45.6% 3706人 98.6% 8023人 28.4% 2313人 按学历划分 按民族划分 按地区划分 山东省 外省人员 少数民族 汉族 本科以下 本科及以上 81 82 报告..."
+  },
+  {
+    "field_key": "training_total_hours",
+    "field_name_cn": "员工培训总时长",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 46,
+    "citation_chunk_id": "p46_79",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "87 88 畅通职业发展通道 公司完善双通道晋升机制,启动岗位任职资格体系建设,通过任职资格体系指导人才引进、岗位聘用、薪酬体系设计、考核 激励设计、培训体系建设等人才队伍建设工作,牵引员工提升专业能力,促进优秀人才脱颖而出,激发员工活力与组织创新 动能。 强化核心能力培养 公司开展多元职业发展培训项目，制定并发布了《教育培训管理办法》，优化培训资源配置，构建了涵盖文化制度类、通用 管理类、专业技能类等多个模块的全方位培训体系。报告期..."
+  },
+  {
+    "field_key": "safety_accident_count",
+    "field_name_cn": "安全生产事故数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 49,
+    "citation_chunk_id": "p49_85",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "安全生产管理 提升急救技能，守护生命安全 开展自查自纠 2024年，公司开展用人单位落实职业病防治责任自查自纠工作，建立职业病防治责任自查自纠工作制度，存在职业病危 害的各直属经营单位和权属企业对照《用人单位落实职业病防治责任自查表》开展自查，自查中共发现7个不符合项，已全 部完成整改，并对发现的问题和整改情况进行存档。 报告期内，公司实现重大事故隐患动态清零，未发生重大及以上安全事故。 推行1个理念 每个人都是安全健康第一责任人 建..."
+  },
+  {
+    "field_key": "lost_work_days_due_to_injury",
+    "field_name_cn": "因工伤损失工作日数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 44,
+    "citation_chunk_id": "p44_75",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "条款和第十四届四次职代会提案中 的焦点问题、职工重点关注事项进行平等协 商，对职工提案建档、定期调度，持续推进落 实，致力于将民主管理贯穿于企业管理全过 程，2024年，平等协商会议落实员工代表提 案64项。 ◆ 依法保障员工休息休假权益，除法定节假日外，提 供年假、婚假、丧假、产假、看护假等带薪假期，2024年 人均带薪年假7.65天。 带薪假期 ◆ 定期开展职工健康体检、女职工专项体检和职工职 业卫生健康体检，升级体检医院、精化体..."
+  },
+  {
+    "field_key": "public_welfare_investment",
+    "field_name_cn": "公益投入金额",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 65,
+    "citation_chunk_id": "p65_113",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "附录 关键绩效 绩效指标 劳动合同签订率 社保覆盖率 员工歧视事件总数 社会招聘 校园招聘 离职员工数量 员工总数1 其中本科及以上 其中本科以下 其中男性员工总数 其中女性员工总数 其中30岁及以下的员工总数 其中31-50岁的员工总数 其中50岁及以上的员工总数 其中汉族 其中少数民族 员工培训场次 员工培训人次 员工培训时间 员工培训覆盖率 员工培训总投入 人均带薪年假天数 女员工教育培训场次 女员工教育培训参与人次 女员工教育..."
+  },
+  {
+    "field_key": "independent_directors",
+    "field_name_cn": "独立董事人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 57,
+    "citation_chunk_id": "p57_96",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "新华医疗秉持“强本固基-创新驱动-扩大增量-塑造生态-国际发展”的发 展理念，以党建统领谋全局，通过完善公司治理结构、践行依法合规经 营、恪守商业道德、建立严格的风险防控机制，筑牢发展根基，确保企业 在负责任的道路上稳健前行，实现可持续发展。 强本固基 行稳致远 完善公司治理 坚持党建引领 依法合规治企 遵守商业道德 环境、社会和治理报告 | Environmental, Social And Governance Report 董事..."
+  },
+  {
+    "field_key": "independent_director_ratio",
+    "field_name_cn": "独立董事比例",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 38,
+    "citation_chunk_id": "p38_62",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "应对气候变化 治理 战略 新华医疗积极贯彻落实可持续发展理念，持续关注气候变化趋势，将应对气候变化放在公司发展的重要位置。公司 积极行动，梳理并识别气候变化风险与机遇，针对性制定应对方针，在降低气候变化风险对业务持续性、平稳性影响 的同时，把握气候变化机遇，推动公司业务的可持续发展。 公司将气候变化纳入ESG管理体系，持续推进气候相关治理工作开展。公司董事会负责全面领导公司应对气候变化 工作，负责审议包括应对气候变化议题在内的ESG报..."
+  },
+  {
+    "field_key": "female_directors",
+    "field_name_cn": "女性董事人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 5,
+    "citation_chunk_id": "p5_7",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "司 上海泰美医疗器械有限公司 上海秉程医疗器械有限公司 监事会 董事会秘书 副总经理 人力资源综合部/组织部 财务部 技术中心 战略市场部 质量部 法律事务部 生产保障部 证券部 招标办公室 资本运营部 运营中心 审计部 党群工作部 信息中心 安全监察部 国际贸易部 医疗服务管理部 纪委（内设机构） 职能部门 股东大会 董事会 总经理 经营单位"
+  },
+  {
+    "field_key": "anti_corruption_training_sessions",
+    "field_name_cn": "反腐败培训次数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 60,
+    "citation_chunk_id": "p60_102",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "公司高度重视投资者关系管理，制定《投资者关系管理办法》，明确投资者关系管理的组织机构及职能、方式和工作程序等内 容，规范公司与投资者之间的沟通与交流，增进投资者对公司价值的认同与支持。 公司认真听取投资者的意见和建议，建立多样化投资者沟通渠道，通过电话沟通、邮件沟通、微信沟通、业绩说明会沟通、线上 线下调研会沟通、与上交所等机构联合组织投资者走进上市公司参观调研沟通、邀请公司股东参加股东大会沟通等多种形 式，与投资者进行沟通交流，为投..."
+  },
+  {
+    "field_key": "anti_corruption_training_participants",
+    "field_name_cn": "反腐败培训人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 26,
+    "citation_chunk_id": "p26_43",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "年，上线质 量文件管理信息化系统DMS，通过一体化质量管理 平台，充分释放数据价值，实现质量体系文件全生命 周期降本增效，节省60%以上的审批时间，节省85% 以上的各类台账处理工作时间，提高了生产执行效率 和质量合规水平。 DMS系统 新华医疗不断提升检测能力，高端医疗装备研发检验检测中心建设完成，通过中国合格评定国家认可委员会CNAS现 场审核，为公司内外提供创新研发、设计验证、疲劳测试及质量监控等服务，出具检测报告，为公司实现更..."
+  },
+  {
+    "field_key": "confirmed_corruption_cases",
+    "field_name_cn": "确认腐败案件数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 63,
+    "citation_chunk_id": "p63_108",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "遵守商业道德 公司严格遵守法律法规，规范经营行为，完善各项管理制度，构建企业自治、行业自律、社会监督、政府监管的社会共治 格局，扎实做好产品和服务，严格依法、诚信开展生产和经营活动，恪守商业道德，共同促进行业健康发展。 公司坚持以零容忍态度反腐惩恶，深化责任机制，构建大监督体系，完善制度体系和风险防范措施，打造廉洁教育基地， 开展廉洁警示教育，以“全周期管理”理念推动“三不腐”有效贯通，为公司高质量发展提供坚强保障。报告期内，公司通 ..."
+  }
+]

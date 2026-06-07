@@ -354,14 +354,12 @@ def sniff_esg_appendix(
     }
 
 
-def render_pdf_pages_to_images(pdf_path, page_numbers, output_dir, zoom=3.5):
+def render_pdf_pages_to_images(pdf_path, page_numbers, output_dir, zoom=3.5, split_pages=True):
     """
     将 PDF 指定页渲染为图片。
 
-    针对孚日股份这类“双页合成在一张 PDF 页面里”的报告：
-    - 先保存整页图；
-    - 再额外切出 left / right 两张半页图；
-    - VLM 会分别识别，更容易抽出表格。
+    默认保留兼容 split_pages=True 的旧行为。
+    新流程可设置 split_pages=False：先只送整页给 VLM，大幅减少调用量。
     """
 
     output_dir = Path(output_dir)
@@ -390,6 +388,9 @@ def render_pdf_pages_to_images(pdf_path, page_numbers, output_dir, zoom=3.5):
             full_img = output_dir / f"page_{page_number}.png"
             pix.save(str(full_img))
             image_paths.append(str(full_img))
+
+            if not split_pages:
+                continue
 
             # 2. 保存左半页
             left_rect = fitz.Rect(
@@ -426,5 +427,45 @@ def render_pdf_pages_to_images(pdf_path, page_numbers, output_dir, zoom=3.5):
             right_img = output_dir / f"page_{page_number}_right.png"
             right_pix.save(str(right_img))
             image_paths.append(str(right_img))
+
+    return image_paths
+
+
+def render_pdf_page_split_images(pdf_path, page_number, output_dir, zoom=3.5):
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    image_paths = []
+
+    with fitz.open(pdf_path) as doc:
+        idx = page_number - 1
+        if idx < 0 or idx >= len(doc):
+            return image_paths
+
+        page = doc[idx]
+        rect = page.rect
+        matrix = fitz.Matrix(zoom, zoom)
+
+        left_rect = fitz.Rect(
+            rect.x0,
+            rect.y0,
+            rect.x0 + rect.width / 2,
+            rect.y1,
+        )
+        left_pix = page.get_pixmap(matrix=matrix, clip=left_rect, alpha=False)
+        left_img = output_dir / f"page_{page_number}_left.png"
+        left_pix.save(str(left_img))
+        image_paths.append(str(left_img))
+
+        right_rect = fitz.Rect(
+            rect.x0 + rect.width / 2,
+            rect.y0,
+            rect.x1,
+            rect.y1,
+        )
+        right_pix = page.get_pixmap(matrix=matrix, clip=right_rect, alpha=False)
+        right_img = output_dir / f"page_{page_number}_right.png"
+        right_pix.save(str(right_img))
+        image_paths.append(str(right_img))
 
     return image_paths

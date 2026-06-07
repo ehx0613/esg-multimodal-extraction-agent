@@ -1,0 +1,20 @@
+{
+  "route_b_available": true,
+  "total_pages": 33,
+  "chunks": 64,
+  "target_fields": 18,
+  "matched_fields": 17,
+  "llm_calls": 18,
+  "token_budget": {
+    "route_b_top_k": 4,
+    "route_b_chunk_size": 800,
+    "max_llm_calls_per_report": 30
+  },
+  "ingest_cache_used": true,
+  "ingest_paths": {
+    "page_texts": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\007_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告\\ingest\\page_texts.json",
+    "page_features": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\007_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告\\ingest\\page_features.json",
+    "text_chunks": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\007_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告\\ingest\\text_chunks.json",
+    "manifest": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\007_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告\\ingest\\ingest_manifest.json"
+  }
+}

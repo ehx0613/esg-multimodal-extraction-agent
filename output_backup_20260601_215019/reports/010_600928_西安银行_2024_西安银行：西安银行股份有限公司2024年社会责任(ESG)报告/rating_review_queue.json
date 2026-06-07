@@ -1,0 +1,684 @@
+[
+  {
+    "field_key": "total_ghg_emissions",
+    "field_name_cn": "温室气体排放总量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 21,
+    "citation_chunk_id": "p21_34",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "善安全防护功能，分级、分类、分技术进行数据传输、存储及防泄漏、防Web 漏洞；通过数据防泄 漏系统、数据库防水坝、未知威胁感知系统等技术平台全方位提高网络与数据安全风险监测和排查处置能力； 实施网络隔离，确保数据安全。 企业微信消费者权益保护专栏推出《银行服务零投诉》服务案例分析系列图文，通过案例回顾和深入分析， 持续提升柜面服务品质和与客户有效沟通的能力。 结合员工岗位类别和工作需求，针对投诉多发的问题、风险较高的业务开展培训，组织..."
+  },
+  {
+    "field_key": "ghg_emissions_intensity",
+    "field_name_cn": "温室气体排放强度",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 10,
+    "citation_chunk_id": "p10_12",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "13 14 相知更近 相伴更远 2024 年社会责任（ESG）报告 案例 升级产品策略 打造绿色服务体系 环境篇 围绕陕西省、西安市重点产业链深化服务，打造包含基础类、特色类、挂钩类、贸易融资类、投行类和政策类等在 内的绿色金融产品体系，服务绿色低碳产业的企业。截至2024 年末，本公司绿色贷款余额52.01 亿元，较上年末增 长202.75%。 2024 年12 月5 日，在全国银行间债券市场公开发行绿色 金融债券15 亿元。募集资..."
+  },
+  {
+    "field_key": "scope_1_emissions",
+    "field_name_cn": "范围一温室气体排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 6,
+    "citation_chunk_id": "p6_6",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "位列第356 位 9 家省内分行 178 家营业网点 控股2 家村镇银行 公司主体长期信用 等级AAA（最高级） 参股1 家 汽车金融公司 356 AAA 9 178 2 1 政府 监管 A 级纳税人 国家税务总局陕西省税务局 2023 年陕西金融好网民精品视频一等奖 中国人民银行陕西省分行 入选陕西省数字金融典型案例 中国人民银行陕西省分行 2023 年度陕西银行业保险业机构优秀调研课题二等奖 国家金融监督管理总局陕西监管局 金融支..."
+  },
+  {
+    "field_key": "scope_2_emissions",
+    "field_name_cn": "范围二温室气体排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 4,
+    "citation_chunk_id": "p4_2",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "01 02 相知更近 相伴更远 2024 年社会责任（ESG）报告 报告编制说明 报告编制说明 报告时间范围： 2024 年1 月1 日至2024 年12 月31 日，特别注明的除外。 报告组织范围： 报告覆盖西安银行股份有限公司总行、分支机构和控股机构。为了便于表达，在报告表述中使用“西安银 行”“本公司”或“本行”。 报告发布周期： 报告每年发布一次。 报告数据说明： 报告中的财务数据来自2024 年年度报告，其他指标如年度报告中..."
+  },
+  {
+    "field_key": "energy_consumption_total",
+    "field_name_cn": "能源消耗总量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 10,
+    "citation_chunk_id": "p10_12",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "13 14 相知更近 相伴更远 2024 年社会责任（ESG）报告 案例 升级产品策略 打造绿色服务体系 环境篇 围绕陕西省、西安市重点产业链深化服务，打造包含基础类、特色类、挂钩类、贸易融资类、投行类和政策类等在 内的绿色金融产品体系，服务绿色低碳产业的企业。截至2024 年末，本公司绿色贷款余额52.01 亿元，较上年末增 长202.75%。 2024 年12 月5 日，在全国银行间债券市场公开发行绿色 金融债券15 亿元。募集资..."
+  },
+  {
+    "field_key": "energy_consumption_intensity",
+    "field_name_cn": "能源消耗强度",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 16,
+    "citation_chunk_id": "p16_26",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "网点”；1 家网点被陕西银行业协会评为“服务老年人特色网点”。 开展便于老年人使用的存折预约取款业务，推出手机银行及网点智能柜台关爱版界面，提供容易辨识、理解和操 作的电子化金融服务交互界面，方便老年客户选择适合的渠道办理业务。 整合公证、法律、反诈、医院和志愿者等多方资源，建立养老金融服务网络，形成 “西银禧安健” 养老金融服务生态圈， 提供一站式养老金融综合服务。 与广电、信托、公证处和律师事务所等单位签署战略合作协议，通过跨界联..."
+  },
+  {
+    "field_key": "natural_gas_consumption",
+    "field_name_cn": "天然气消耗量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 14,
+    "citation_chunk_id": "p14_20",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "21 22 相知更近 相伴更远 2024 年社会责任（ESG）报告 社会篇 坚守金融本源 支持实体经济发展 制定《西安银行关于进一步加强与市级部门政金合作的工作方案》，深化与市级管理部门的合作，建立专项 工作机制。 制定《“进园区”工作机制》《“进园区”金融产品手册》，服务制造业、科创和绿色等领域的客户。同时，根 据客户所属行业领域及自身特点，强化“一行一策”工作，建立“进园区”专项工作机制。 建立政金合作机制 建立“进园区”工作机制..."
+  },
+  {
+    "field_key": "electricity_consumption",
+    "field_name_cn": "用电量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 30,
+    "citation_chunk_id": "p30_51",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "订率（%） 100.00 100.00 100.00 社会保险覆盖率（%） 100.00 100.00 100.00 客户投诉解决率（%） 100.00 100.00 100.00 反洗钱培训次数（次） 96 67 44 反洗钱培训覆盖人次（人） 4,907 4,097 3,649 反腐倡廉培训次数（次） 5 4 2 反腐倡廉培训覆盖人次（人） 3,464 4,024 4,546 投资者教育活动（次） 1,610 1,592 1,18..."
+  },
+  {
+    "field_key": "water_consumption",
+    "field_name_cn": "用水量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 30,
+    "citation_chunk_id": "p30_51",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "订率（%） 100.00 100.00 100.00 社会保险覆盖率（%） 100.00 100.00 100.00 客户投诉解决率（%） 100.00 100.00 100.00 反洗钱培训次数（次） 96 67 44 反洗钱培训覆盖人次（人） 4,907 4,097 3,649 反腐倡廉培训次数（次） 5 4 2 反腐倡廉培训覆盖人次（人） 3,464 4,024 4,546 投资者教育活动（次） 1,610 1,592 1,18..."
+  },
+  {
+    "field_key": "wastewater_discharge",
+    "field_name_cn": "废水排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 9,
+    "citation_chunk_id": "p9_11",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "守护绿水青山 擦亮绿色发展底色 2024 年，本公司将实现“双碳”目标作为重要的战略机遇，不断深化绿色转型发展，完善 绿色金融服务体系，加大绿色信贷投放，提高绿色发展能力，努力在生态文明和美丽中 国建设中砥砺前行，让绿色成为经营发展的鲜明底色。 环境篇"
+  },
+  {
+    "field_key": "air_pollutant_emissions",
+    "field_name_cn": "废气或大气污染物排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 24,
+    "citation_chunk_id": "p24_39",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "41 42 相知更近 相伴更远 2024 年社会责任（ESG）报告 2024 年7 月，陕西商洛市遭遇多年不遇的连续暴雨，部分 县区受到洪涝灾害侵袭。本公司商洛分行助力灾后重建：一 是为陕西某公路工程有限公司办理保理业务，帮助其解决资 金短缺的问题。二是为陕西某科技有限公司办理“西银e 贷” 业务，资金用于灾后园区基础设施修复。 2024 年，累计捐赠资金和物资共44.9 万元，用于教育、救灾等多个领域。此外，“以购代捐” 采购柿子饼..."
+  },
+  {
+    "field_key": "non_hazardous_waste",
+    "field_name_cn": "一般废弃物产生量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 24,
+    "citation_chunk_id": "p24_39",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "41 42 相知更近 相伴更远 2024 年社会责任（ESG）报告 2024 年7 月，陕西商洛市遭遇多年不遇的连续暴雨，部分 县区受到洪涝灾害侵袭。本公司商洛分行助力灾后重建：一 是为陕西某公路工程有限公司办理保理业务，帮助其解决资 金短缺的问题。二是为陕西某科技有限公司办理“西银e 贷” 业务，资金用于灾后园区基础设施修复。 2024 年，累计捐赠资金和物资共44.9 万元，用于教育、救灾等多个领域。此外，“以购代捐” 采购柿子饼..."
+  },
+  {
+    "field_key": "hazardous_waste",
+    "field_name_cn": "危险废弃物产生量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 29,
+    "citation_chunk_id": "p29_49",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "助科技力 量全方位提升审计工作质效。 运用人工智能、大数据技术，配备智能化反洗钱交易监控系统，提高反洗钱监控的精准度和效率；加强对电信网络诈骗、 非法集资等危害人民群众财产安全的违法犯罪活动的异常行为监测，堵截、拦截违法资金。 对外向社会公众宣传普及反洗钱、反恐怖融资基础知识，提高公众的 风险防范意识；对内定期为员工开展反洗钱培训，确保员工了解最新 的法律法规和反洗钱规定。 反洗钱宣传教育基地 本公司持续开展常态化扫黑除恶斗争工作，把..."
+  },
+  {
+    "field_key": "environmental_investment",
+    "field_name_cn": "环保投入金额",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 30,
+    "citation_chunk_id": "p30_51",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "订率（%） 100.00 100.00 100.00 社会保险覆盖率（%） 100.00 100.00 100.00 客户投诉解决率（%） 100.00 100.00 100.00 反洗钱培训次数（次） 96 67 44 反洗钱培训覆盖人次（人） 4,907 4,097 3,649 反腐倡廉培训次数（次） 5 4 2 反腐倡廉培训覆盖人次（人） 3,464 4,024 4,546 投资者教育活动（次） 1,610 1,592 1,18..."
+  },
+  {
+    "field_key": "environmental_penalty_count",
+    "field_name_cn": "环境违规或处罚事件数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 29,
+    "citation_chunk_id": "p29_47",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "51 52 相知更近 相伴更远 2024 年社会责任（ESG）报告 针对重点领域风险，建立了多层级、多维度风险防控体系，有效保障业务稳健运营和资产安全。在信用风险管理方面， 加强信用风险模型建设及应用，开展信用风险压力测试，持续监测不良贷款及线上贷款业务；在市场风险管理方面， 加强市场风险监测力度，开展市场风险压力测试，细化业务估值功能模块，不断提升估值准确性和规范性。在操作及 信息科技风险管理方面，开展操作风险、信息科技风险评估监测..."
+  },
+  {
+    "field_key": "male_employees",
+    "field_name_cn": "男性员工人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 6,
+    "citation_chunk_id": "p6_5",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "05 06 相知更近 相伴更远 2024 年社会责任（ESG）报告 关于本行 关于本行 公司简介 西安银行（600928.SH）是一家以国外大型银行、国内央企、地方国企、民营企业为主要战略投资者的区域性股份制 商业银行。自1997 年成立以来，历经财务重组、引进战投、企业更名、跨区域经营、综合化发展和数字化转型等战略 步骤，成为西北首家A 股上市银行。截至2024 年末，公司员工3,284 人，下设总行营业部、9 家省内分行、10 家..."
+  },
+  {
+    "field_key": "female_employees",
+    "field_name_cn": "女性员工人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 6,
+    "citation_chunk_id": "p6_5",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "05 06 相知更近 相伴更远 2024 年社会责任（ESG）报告 关于本行 关于本行 公司简介 西安银行（600928.SH）是一家以国外大型银行、国内央企、地方国企、民营企业为主要战略投资者的区域性股份制 商业银行。自1997 年成立以来，历经财务重组、引进战投、企业更名、跨区域经营、综合化发展和数字化转型等战略 步骤，成为西北首家A 股上市银行。截至2024 年末，公司员工3,284 人，下设总行营业部、9 家省内分行、10 家..."
+  },
+  {
+    "field_key": "employee_turnover_rate",
+    "field_name_cn": "员工流失率",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 29,
+    "citation_chunk_id": "p29_49",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "助科技力 量全方位提升审计工作质效。 运用人工智能、大数据技术，配备智能化反洗钱交易监控系统，提高反洗钱监控的精准度和效率；加强对电信网络诈骗、 非法集资等危害人民群众财产安全的违法犯罪活动的异常行为监测，堵截、拦截违法资金。 对外向社会公众宣传普及反洗钱、反恐怖融资基础知识，提高公众的 风险防范意识；对内定期为员工开展反洗钱培训，确保员工了解最新 的法律法规和反洗钱规定。 反洗钱宣传教育基地 本公司持续开展常态化扫黑除恶斗争工作，把..."
+  },
+  {
+    "field_key": "training_total_hours",
+    "field_name_cn": "员工培训总时长",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 29,
+    "citation_chunk_id": "p29_49",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "助科技力 量全方位提升审计工作质效。 运用人工智能、大数据技术，配备智能化反洗钱交易监控系统，提高反洗钱监控的精准度和效率；加强对电信网络诈骗、 非法集资等危害人民群众财产安全的违法犯罪活动的异常行为监测，堵截、拦截违法资金。 对外向社会公众宣传普及反洗钱、反恐怖融资基础知识，提高公众的 风险防范意识；对内定期为员工开展反洗钱培训，确保员工了解最新 的法律法规和反洗钱规定。 反洗钱宣传教育基地 本公司持续开展常态化扫黑除恶斗争工作，把..."
+  },
+  {
+    "field_key": "training_hours_per_employee",
+    "field_name_cn": "人均培训时长",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 30,
+    "citation_chunk_id": "p30_50",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "53 54 相知更近 相伴更远 2024 年社会责任（ESG）报告 经济类 总资产（千元） 480,370,120 432,201,362 405,838,548 贷款和垫款本金总额（千元） 237,254,098 202,922,010 189,688,151 存款本金总额（千元） 322,030,543 293,786,396 280,360,437 营业收入（千元） 8,190,241 7,204,769 6,567,550 纳..."
+  },
+  {
+    "field_key": "employee_medical_checkup_coverage",
+    "field_name_cn": "员工体检覆盖率",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 22,
+    "citation_chunk_id": "p22_35",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "37 38 相知更近 相伴更远 2024 年社会责任（ESG）报告 维护工资报酬权益 维护休息休假权益 维护健康医保权益 根据《薪酬管理制度》《福利及 津补贴管理办法》等制度，持续 完善员工的薪酬福利待遇体系， 保障员工各项劳动收入权益。 根据《劳动法》《劳动合同法》 等法律法规，制定了《西安银行 员工请假休假制度》，保障员工 请休假权利。 根据国家法律法规，为员工建立 了“五险二金”、补充医疗保险和 全员体检等制度机制，提高了企 业..."
+  },
+  {
+    "field_key": "trained_employees_count",
+    "field_name_cn": "受训员工人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 31,
+    "citation_chunk_id": "p31_52",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "55 56 相知更近 相伴更远 2024 年社会责任（ESG）报告 本公司始终将利益相关方的期望与诉求置于重要位置，秉持开放、透明的原则，拓宽多元化沟通渠道，构建与利益相 关方的信任桥梁，确保各方意见及时、顺畅地传递和回应，最终实现和谐共赢。 政府与 监管机构 响应国家、区域发展 战略布局 遵守法律法规、行业 标准与规范 促进区域发展 支持实体经济发展 依法合规经营 全面风险管理 加强党建工作 法律法规、政策指引与 规范性文件 监管评..."
+  },
+  {
+    "field_key": "safety_accident_count",
+    "field_name_cn": "安全生产事故数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 29,
+    "citation_chunk_id": "p29_48",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "警示宣贯。根据风险环境的变化，持续开展风险管理培训，培养专业的风险管理骨干团队，实现风险理念的传导。 强化重点风险管理工作 提升风险管理成效 加强风险文化建设 完善内控机制建设 建立反洗钱管理框架 强化对风险的监测监控 开展反洗钱宣传培训 强化案件防控管理 加强内部审计监督 筑牢洗钱风险防线 强化合规能力建设 深化扫黑除恶斗争工作 持续优化内审工作机制 强化审计监督职能 持续提升审计专业能力 搭建内控 组织架构 深化内控合规 治理专项..."
+  },
+  {
+    "field_key": "occupational_health_safety_investment",
+    "field_name_cn": "安全生产投入",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 21,
+    "citation_chunk_id": "p21_33",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "35 36 相知更近 相伴更远 2024 年社会责任（ESG）报告 通过强化对总行各部门、各分支机构消费投诉的督办和考核，持续完善消费者权益保护全流程管控工作机制。2024 年， 共受理投诉5,019 件，各项消费投诉办结率100%，且均在有效期内办结；投诉地区分布为西安市5,002 件，辖属陕西省 内各分行17 件；投诉主要涉及线上贷款、信用卡协商还款、催收和房贷提前还款审批时效等业务类别。 社会篇 维护客户权益 构建健康金融生态 ..."
+  },
+  {
+    "field_key": "safety_emergency_drill_count",
+    "field_name_cn": "安全应急演练次数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 23,
+    "citation_chunk_id": "p23_38",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "感受到温暖，提升 员工的幸福感和归属感，工会组织加强员工关怀。向员工 发放节日慰问品，在春节期间慰问困难员工、基层一线员 工和驻村干部等，为即将退休员工送上慰问信和慰问品； 为全行员工办理在职员工互助保障，为全行女员工办理女 员工特殊疾病互助保障，为困难员工积极申报全国和省级 困难建档；组织开展女员工心理健康讲座和宫颈健康讲座， 加大对女员工的关爱力度；组织基层一线员工赴安康疗休 养，组织员工参加进乡村、参观革命教育基地等活动。 为激..."
+  },
+  {
+    "field_key": "lost_work_days_due_to_injury",
+    "field_name_cn": "因工伤损失工作日数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 22,
+    "citation_chunk_id": "p22_36",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "业的重要支撑，着力打造一支“信念坚定、为民服务、勤政务实、敢于担当、 清正廉洁”的干部队伍。关注员工成长与发展，通过维护员工合法权益、助力员工成长发展和践行人文关怀等举 措，实现公司与员工同成长、共进步。 扎实落实涉案账户查控工作，对已认定的涉案账户及时采取“不收不付”的管控措施，并对涉案账户的关联账户开 展排查，及时对可疑关联账户采取相应管控措施。 强化警银联动机制，2024 年各网点共堵截异常开户、取现40 余起，通过网点现场、电..."
+  },
+  {
+    "field_key": "r_and_d_personnel_count",
+    "field_name_cn": "研发人员数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 19,
+    "citation_chunk_id": "p19_30",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "微信等流水收入认定方式；放宽新市民借款人年龄，对新市民购买首套住房，执行最 低利率标准；开展住房按揭贷款、防范金融诈骗、征信知识及存款保险制度普及等方面的宣传教育活动，帮助新市 民群体增强对相关领域的认识和了解。 深入贯彻市委市政府的“人才强市”战略，联合政府相关部门研发“西安人才”微信小程序，打造科学、安全、通畅的西 安人才服务平台和人才数据库，为人才提供更便捷、更高效和更开放的一站式服务。 本公司打造的“西安人才”微信小程序服务平..."
+  },
+  {
+    "field_key": "r_and_d_expense",
+    "field_name_cn": "研发投入金额",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 19,
+    "citation_chunk_id": "p19_30",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "微信等流水收入认定方式；放宽新市民借款人年龄，对新市民购买首套住房，执行最 低利率标准；开展住房按揭贷款、防范金融诈骗、征信知识及存款保险制度普及等方面的宣传教育活动，帮助新市 民群体增强对相关领域的认识和了解。 深入贯彻市委市政府的“人才强市”战略，联合政府相关部门研发“西安人才”微信小程序，打造科学、安全、通畅的西 安人才服务平台和人才数据库，为人才提供更便捷、更高效和更开放的一站式服务。 本公司打造的“西安人才”微信小程序服务平..."
+  },
+  {
+    "field_key": "public_welfare_investment",
+    "field_name_cn": "公益投入金额",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 24,
+    "citation_chunk_id": "p24_39",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "41 42 相知更近 相伴更远 2024 年社会责任（ESG）报告 2024 年7 月，陕西商洛市遭遇多年不遇的连续暴雨，部分 县区受到洪涝灾害侵袭。本公司商洛分行助力灾后重建：一 是为陕西某公路工程有限公司办理保理业务，帮助其解决资 金短缺的问题。二是为陕西某科技有限公司办理“西银e 贷” 业务，资金用于灾后园区基础设施修复。 2024 年，累计捐赠资金和物资共44.9 万元，用于教育、救灾等多个领域。此外，“以购代捐” 采购柿子饼..."
+  },
+  {
+    "field_key": "board_size",
+    "field_name_cn": "董事会人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 4,
+    "citation_chunk_id": "p4_2",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "01 02 相知更近 相伴更远 2024 年社会责任（ESG）报告 报告编制说明 报告编制说明 报告时间范围： 2024 年1 月1 日至2024 年12 月31 日，特别注明的除外。 报告组织范围： 报告覆盖西安银行股份有限公司总行、分支机构和控股机构。为了便于表达，在报告表述中使用“西安银 行”“本公司”或“本行”。 报告发布周期： 报告每年发布一次。 报告数据说明： 报告中的财务数据来自2024 年年度报告，其他指标如年度报告中..."
+  },
+  {
+    "field_key": "independent_directors",
+    "field_name_cn": "独立董事人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 27,
+    "citation_chunk_id": "p27_46",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "召开监事会会议5 次，审议议案14 项，听取专项汇报45 项，监督评估了战略优化、制度制定、监事会工作报告、 履职评价、财务状况和内部控制等议题。同时，组织监事参加绿色信贷培训，学习《反洗钱法》《受益所有 人信息管理办法》等监管政策法规，并通过组织监事列席董事会及管理层会议、开展业务连续性专项检查、 召开相关现场调研调查会等举措，推动董监高勤勉尽责，为本公司基础设施安全、战略转型和可持续发展建 言献策。 股东大会 董事会 监事会 修订..."
+  },
+  {
+    "field_key": "independent_director_ratio",
+    "field_name_cn": "独立董事比例",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 27,
+    "citation_chunk_id": "p27_46",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "召开监事会会议5 次，审议议案14 项，听取专项汇报45 项，监督评估了战略优化、制度制定、监事会工作报告、 履职评价、财务状况和内部控制等议题。同时，组织监事参加绿色信贷培训，学习《反洗钱法》《受益所有 人信息管理办法》等监管政策法规，并通过组织监事列席董事会及管理层会议、开展业务连续性专项检查、 召开相关现场调研调查会等举措，推动董监高勤勉尽责，为本公司基础设施安全、战略转型和可持续发展建 言献策。 股东大会 董事会 监事会 修订..."
+  },
+  {
+    "field_key": "female_directors",
+    "field_name_cn": "女性董事人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 4,
+    "citation_chunk_id": "p4_2",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "01 02 相知更近 相伴更远 2024 年社会责任（ESG）报告 报告编制说明 报告编制说明 报告时间范围： 2024 年1 月1 日至2024 年12 月31 日，特别注明的除外。 报告组织范围： 报告覆盖西安银行股份有限公司总行、分支机构和控股机构。为了便于表达，在报告表述中使用“西安银 行”“本公司”或“本行”。 报告发布周期： 报告每年发布一次。 报告数据说明： 报告中的财务数据来自2024 年年度报告，其他指标如年度报告中..."
+  },
+  {
+    "field_key": "board_meetings",
+    "field_name_cn": "董事会会议次数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 27,
+    "citation_chunk_id": "p27_45",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "合 加强党风廉政建设 严格按照《公司法》《证券法》《商业银行法》等相关法律、法规和规范性文件的要求，搭建了以股东大会为最高 权力机构、董事会为决策机构、监事会为监督机构、管理层为执行机构的相互制衡的公司治理框架，并不断加强治 理团队优化，为各治理主体职能发挥提供人员保障。2024 年，增补科创金融、战略管理和金融市场领域3 名独立董事， 进一步夯实了公司治理构成，提升了董事会的专业化程度和多元化水平。 通过建立和完善董事会决议督办、重..."
+  },
+  {
+    "field_key": "shareholder_meetings",
+    "field_name_cn": "股东大会会议次数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 31,
+    "citation_chunk_id": "p31_52",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "55 56 相知更近 相伴更远 2024 年社会责任（ESG）报告 本公司始终将利益相关方的期望与诉求置于重要位置，秉持开放、透明的原则，拓宽多元化沟通渠道，构建与利益相 关方的信任桥梁，确保各方意见及时、顺畅地传递和回应，最终实现和谐共赢。 政府与 监管机构 响应国家、区域发展 战略布局 遵守法律法规、行业 标准与规范 促进区域发展 支持实体经济发展 依法合规经营 全面风险管理 加强党建工作 法律法规、政策指引与 规范性文件 监管评..."
+  },
+  {
+    "field_key": "anti_corruption_training_sessions",
+    "field_name_cn": "反腐败培训次数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 27,
+    "citation_chunk_id": "p27_45",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "合 加强党风廉政建设 严格按照《公司法》《证券法》《商业银行法》等相关法律、法规和规范性文件的要求，搭建了以股东大会为最高 权力机构、董事会为决策机构、监事会为监督机构、管理层为执行机构的相互制衡的公司治理框架，并不断加强治 理团队优化，为各治理主体职能发挥提供人员保障。2024 年，增补科创金融、战略管理和金融市场领域3 名独立董事， 进一步夯实了公司治理构成，提升了董事会的专业化程度和多元化水平。 通过建立和完善董事会决议督办、重..."
+  },
+  {
+    "field_key": "anti_corruption_training_participants",
+    "field_name_cn": "反腐败培训人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 29,
+    "citation_chunk_id": "p29_49",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "助科技力 量全方位提升审计工作质效。 运用人工智能、大数据技术，配备智能化反洗钱交易监控系统，提高反洗钱监控的精准度和效率；加强对电信网络诈骗、 非法集资等危害人民群众财产安全的违法犯罪活动的异常行为监测，堵截、拦截违法资金。 对外向社会公众宣传普及反洗钱、反恐怖融资基础知识，提高公众的 风险防范意识；对内定期为员工开展反洗钱培训，确保员工了解最新 的法律法规和反洗钱规定。 反洗钱宣传教育基地 本公司持续开展常态化扫黑除恶斗争工作，把..."
+  },
+  {
+    "field_key": "confirmed_corruption_cases",
+    "field_name_cn": "确认腐败案件数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 27,
+    "citation_chunk_id": "p27_44",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "47 48 相知更近 相伴更远 2024 年社会责任（ESG）报告 党委充分发挥“把方向、管大局、保落实”的作用，班子成 员团结一心，坚持民主集中制，不断巩固深化党纪学习 教育成果，形成了 “讲政治、守规矩、重实绩、提信心、 聚合力”的党建文化，为经营发展和战略落地提供政治引 领和思想保障。 围绕“十二大攻坚任务”，设立“榜单”项目，积极开展 “揭 榜挂帅 ”“赛马”活动，有力提振全行干事创业精气神。 实行党建与业务双考核，聚焦充分反..."
+  },
+  {
+    "field_key": "esg_strategy_targets",
+    "field_name_cn": "ESG战略目标",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 26,
+    "citation_chunk_id": "p26_43",
+    "citation_review_reasons": [
+      "source_page_mismatch"
+    ],
+    "text_excerpt": "45 46 相知更近 相伴更远 2024 年社会责任（ESG）报告 聚焦核心目标 筑牢公司治理基石 本公司坚定政治引领，将党的先进理念融入公司治理中，通过完善治理架构、优化战略布局和强 化风险内控管理，不断夯实公司治理基础，为稳健发展提供有力支撑。 治理篇 法治篇 聚焦核心目标 筑牢公司治理基石 本公司坚持党的领导，充分发挥党建与公司治理的双重优势，通过完善治理架构、优化 战略布局和强化风险内控管理，不断夯实公司治理基础，为稳健发展提..."
+  },
+  {
+    "field_key": "environmental_management_system",
+    "field_name_cn": "环境管理体系",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 3,
+    "citation_chunk_id": "p3_1",
+    "citation_review_reasons": [
+      "source_page_mismatch"
+    ],
+    "text_excerpt": "02 董事长致辞 03 关于本行 04 环境篇 守护绿水青山 擦亮绿色发展底色 社会篇 坚定使命担当 践行金融为民理念 治理篇 聚焦核心目标 筑牢公司治理基石 强化战略引领 激活绿色发展动能 升级产品策略 打造绿色服务体系 坚守风险底线 护航绿色生态建设 倡导绿色发展 开启绿色运营模式 公司简介 荣誉奖项 使命价值观与社会责任理念 13 14 16 18 05 06 09 03 01 报告编制说明 02 05 11 05 06 坚定党..."
+  },
+  {
+    "field_key": "water_management_measures",
+    "field_name_cn": "水资源管理措施",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 14,
+    "citation_chunk_id": "p14_20",
+    "citation_review_reasons": [
+      "source_page_mismatch"
+    ],
+    "text_excerpt": "21 22 相知更近 相伴更远 2024 年社会责任（ESG）报告 社会篇 坚守金融本源 支持实体经济发展 制定《西安银行关于进一步加强与市级部门政金合作的工作方案》，深化与市级管理部门的合作，建立专项 工作机制。 制定《“进园区”工作机制》《“进园区”金融产品手册》，服务制造业、科创和绿色等领域的客户。同时，根 据客户所属行业领域及自身特点，强化“一行一策”工作，建立“进园区”专项工作机制。 建立政金合作机制 建立“进园区”工作机制..."
+  },
+  {
+    "field_key": "waste_management_measures",
+    "field_name_cn": "废弃物管理措施",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 16,
+    "citation_chunk_id": "p16_25",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "区渭南村和渭南市富平县洪水村开展驻村帮扶工作，行领导多次入村指导调研， 协调解决产业发展和消费帮扶等工作，巩固拓展脱贫攻坚成果同乡村振兴有效衔接。 围绕“农户+ 合作社+ 企业”运行机制，常态化开展 金融服务进乡村工作，将金融资源精准投向农业产 业，打造惠农利民金融服务新模式。 建立“行长+ 链长”工作机制，建立总分支行与省市 县农业农村部门的三级联动工作模式，通过整合农 业核心企业与上下游合作方的物流、信息流和资金 流，打造涉农场景..."
+  },
+  {
+    "field_key": "occupational_health_safety_system",
+    "field_name_cn": "职业健康安全管理体系",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 29,
+    "citation_chunk_id": "p29_48",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "警示宣贯。根据风险环境的变化，持续开展风险管理培训，培养专业的风险管理骨干团队，实现风险理念的传导。 强化重点风险管理工作 提升风险管理成效 加强风险文化建设 完善内控机制建设 建立反洗钱管理框架 强化对风险的监测监控 开展反洗钱宣传培训 强化案件防控管理 加强内部审计监督 筑牢洗钱风险防线 强化合规能力建设 深化扫黑除恶斗争工作 持续优化内审工作机制 强化审计监督职能 持续提升审计专业能力 搭建内控 组织架构 深化内控合规 治理专项..."
+  },
+  {
+    "field_key": "diversity_equal_opportunity",
+    "field_name_cn": "多元化与平等雇佣政策",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 20,
+    "citation_chunk_id": "p20_31",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "33 34 相知更近 相伴更远 2024 年社会责任（ESG）报告 社会篇 优化支付服务 推出线上购票租赁服务 提升业务办理效率 提供多项优惠服务 以着力打造支付服务“陕西样板”为己任，聚焦重点场所支付服务示范区建设、银行卡受理、现金支付、移动支付和账 户服务等方面，通过“强身、增效、开放”三个层次推动优化支付服务，提升支付便利性。 2024 年4 月，本公司在西安城墙景区12 个城门售票窗 口布放了支持受理Visa（威士）、Mast..."
+  },
+  {
+    "field_key": "supplier_esg_assessment",
+    "field_name_cn": "供应商ESG管理机制",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 31,
+    "citation_chunk_id": "p31_52",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "55 56 相知更近 相伴更远 2024 年社会责任（ESG）报告 本公司始终将利益相关方的期望与诉求置于重要位置，秉持开放、透明的原则，拓宽多元化沟通渠道，构建与利益相 关方的信任桥梁，确保各方意见及时、顺畅地传递和回应，最终实现和谐共赢。 政府与 监管机构 响应国家、区域发展 战略布局 遵守法律法规、行业 标准与规范 促进区域发展 支持实体经济发展 依法合规经营 全面风险管理 加强党建工作 法律法规、政策指引与 规范性文件 监管评..."
+  },
+  {
+    "field_key": "board_esg_oversight",
+    "field_name_cn": "董事会ESG监督机制",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 27,
+    "citation_chunk_id": "p27_44",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "47 48 相知更近 相伴更远 2024 年社会责任（ESG）报告 党委充分发挥“把方向、管大局、保落实”的作用，班子成 员团结一心，坚持民主集中制，不断巩固深化党纪学习 教育成果，形成了 “讲政治、守规矩、重实绩、提信心、 聚合力”的党建文化，为经营发展和战略落地提供政治引 领和思想保障。 围绕“十二大攻坚任务”，设立“榜单”项目，积极开展 “揭 榜挂帅 ”“赛马”活动，有力提振全行干事创业精气神。 实行党建与业务双考核，聚焦充分反..."
+  },
+  {
+    "field_key": "anti_corruption_policy",
+    "field_name_cn": "反腐败政策",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 29,
+    "citation_chunk_id": "p29_48",
+    "citation_review_reasons": [
+      "source_page_mismatch"
+    ],
+    "text_excerpt": "警示宣贯。根据风险环境的变化，持续开展风险管理培训，培养专业的风险管理骨干团队，实现风险理念的传导。 强化重点风险管理工作 提升风险管理成效 加强风险文化建设 完善内控机制建设 建立反洗钱管理框架 强化对风险的监测监控 开展反洗钱宣传培训 强化案件防控管理 加强内部审计监督 筑牢洗钱风险防线 强化合规能力建设 深化扫黑除恶斗争工作 持续优化内审工作机制 强化审计监督职能 持续提升审计专业能力 搭建内控 组织架构 深化内控合规 治理专项..."
+  },
+  {
+    "field_key": "whistleblowing_mechanism",
+    "field_name_cn": "举报机制与举报人保护",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 21,
+    "citation_chunk_id": "p21_33",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "35 36 相知更近 相伴更远 2024 年社会责任（ESG）报告 通过强化对总行各部门、各分支机构消费投诉的督办和考核，持续完善消费者权益保护全流程管控工作机制。2024 年， 共受理投诉5,019 件，各项消费投诉办结率100%，且均在有效期内办结；投诉地区分布为西安市5,002 件，辖属陕西省 内各分行17 件；投诉主要涉及线上贷款、信用卡协商还款、催收和房贷提前还款审批时效等业务类别。 社会篇 维护客户权益 构建健康金融生态 ..."
+  },
+  {
+    "field_key": "business_ethics_training",
+    "field_name_cn": "商业道德培训机制",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 22,
+    "citation_chunk_id": "p22_35",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "37 38 相知更近 相伴更远 2024 年社会责任（ESG）报告 维护工资报酬权益 维护休息休假权益 维护健康医保权益 根据《薪酬管理制度》《福利及 津补贴管理办法》等制度，持续 完善员工的薪酬福利待遇体系， 保障员工各项劳动收入权益。 根据《劳动法》《劳动合同法》 等法律法规，制定了《西安银行 员工请假休假制度》，保障员工 请休假权利。 根据国家法律法规，为员工建立 了“五险二金”、补充医疗保险和 全员体检等制度机制，提高了企 业..."
+  }
+]

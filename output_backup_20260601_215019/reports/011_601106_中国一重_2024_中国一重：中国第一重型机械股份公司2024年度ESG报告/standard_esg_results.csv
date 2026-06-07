@@ -1,0 +1,61 @@
+﻿field_key,field_name_cn,category,indicator_type,value_type,value,raw_value,unit,year,column_label,row_label,topic,table_title,page_image,evidence_text,status,confidence,match_reason
+total_ghg_emissions,温室气体排放总量,E,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+ghg_emissions_intensity,温室气体排放强度,E,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+scope_1_emissions,范围一温室气体排放量,E,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+scope_2_emissions,范围二温室气体排放量,E,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+energy_consumption_total,能源消耗总量,E,quantitative,number,234351.1,"234,351.1",吨标准煤,2024,2024年,直接能源消耗总量,,资源循环与工艺革新，深挖降本潜力,page_17.png,"直接能源消耗总量 吨标准煤 2023年 228,194.96 2024年 234,351.1",extracted,0.96,normalized_alias_match:能源消耗总量; schema_match_validated
+energy_consumption_intensity,能源消耗强度,E,quantitative,number,0.21,0.21,吨标准煤/万元营收,2024,2024年,能源消耗强度,,资源循环与工艺革新，深挖降本潜力,page_17.png,能源消耗强度 吨标准煤/万元营收 2023年 0.21 2024年 0.21,extracted,0.94,heuristic_energy_consumption_intensity; schema_match_validated
+natural_gas_consumption,天然气消耗量,E,quantitative,number,12788.37,"12,788.37",万立方米,2024,2024年,天然气,,资源循环与工艺革新，深挖降本潜力,page_17.png,"天然气 万立方米 2023年 12,687.31 2024年 12,788.37",extracted,0.9,heuristic_natural_gas_consumption; schema_match_validated
+electricity_consumption,用电量,E,quantitative,number,519704861,"519,704,861",千瓦时,2024,2024年,外购电力总量,,资源循环与工艺革新，深挖降本潜力,page_17.png,"外购电力总量 千瓦时 2023年 532,738,005 2024年 519,704,861",extracted,0.92,heuristic_electricity; schema_match_validated
+water_consumption,用水量,E,quantitative,number,996700,"996,700",吨,2024,2024年,地表水取水量,,绿色物流节水管理,page_18.png,"地表水取水量 吨 2023年 1,130,052 2024年 996,700",extracted,0.93,normalized_alias_match:取水量; schema_match_validated
+wastewater_discharge,废水排放量,E,quantitative,number,1247578.4,"1,247,578.4",吨,2024,2024年,废水排放量,,废水排放情况,page_19.png,"废水排放量 吨 1,372,728.80 1,247,578.4",extracted,0.9500000000000001,normalized_alias_match:废水排放量; schema_match_validated
+air_pollutant_emissions,废气或大气污染物排放量,E,quantitative,number,462077383,"462,077,383",万立方米,2024,2024年,废气排放量,,废气排放情况,page_19.png,"废气排放量 万立方米 452,105.82 462,077,383",extracted,0.9500000000000001,normalized_alias_match:废气排放量; schema_match_validated
+non_hazardous_waste,一般废弃物产生量,E,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+hazardous_waste,危险废弃物产生量,E,quantitative,number,6924.3,"6,924.3",吨,2024,2024年,委托专业机构处置危险废物量,有害固体废物管理,固体废物管理绩效表,page_20_left.png,"有害固体废物管理 委托专业机构处置危险废物量 吨 2024年 6,924.3",extracted,0.93,heuristic_hazardous_waste; schema_match_validated
+environmental_investment,环保投入金额,E,quantitative,number,3032,"3,032",万元,2024,2024年,环保投入金额,合规与商业道德,合规与商业道德,page_54.png,"合规与商业道德 环保投入金额 万元 2022年 8,235 2023年 6,000 2024年 3,032",extracted,0.92,heuristic_environmental_investment; schema_match_validated
+environmental_penalty_count,环境违规或处罚事件数量,E,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+total_employees,员工总数,S,quantitative,number,8561,"8,561",人,2024,2024年,员工总人数,劳动关系管理,劳动关系管理-多元化与机会平等,page_56.png,"劳动关系管理 多元化与机会平等 员工总人数 人 2022年 8,276 2023年 8,401 2024年 8,561",extracted,0.93,heuristic_total_employees; schema_match_validated
+male_employees,男性员工人数,S,quantitative,number,7739,"7,739",人,2024,2024年,男性,劳动关系管理,劳动关系管理-按性别划分的员工数,page_56.png,"劳动关系管理 按性别划分的员工数 男性 人 2023年 7,351 2024年 7,739",extracted,0.9,context_dimension:男性->male_employees; schema_match_validated
+female_employees,女性员工人数,S,quantitative,number,316,316,人,2024,2024年,女性,劳动关系管理,劳动关系管理-按性别划分的员工数,page_56.png,劳动关系管理 按性别划分的员工数 女性 人 2023年 325 2024年 316,extracted,0.9,context_dimension:女性->female_employees; schema_match_validated
+female_employee_ratio,女性员工比例,S,quantitative,percentage,,,,,,,,,,,missing,0.0,not_found
+employee_turnover_rate,员工流失率,S,quantitative,percentage,,,,,,,,,,,missing,0.0,not_found
+training_total_hours,员工培训总时长,S,quantitative,number,39700,"39,700",小时,2024,2024年,员工培训总时长,员工培训与发展,中国一重2024年环境，社会和治理（ESG）报告-绩效表,page_57.png,"员工培训与发展 员工培训总时长 小时 2022年 36,700 2023年 39,600 2024年 39,700",extracted,0.97,normalized_alias_match:员工培训总时长; schema_match_validated
+training_hours_per_employee,人均培训时长,S,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+training_coverage_rate,员工培训覆盖率,S,quantitative,percentage,100,100,%,2024,2024年,员工培训覆盖率,员工培训与发展,员工培训与发展,page_56.png,员工培训与发展 员工培训覆盖率 % 2023年 100 2024年 100,extracted,0.97,normalized_alias_match:员工培训覆盖率; schema_match_validated
+social_security_coverage,社会保险覆盖率,S,quantitative,percentage,100,100,%,2024,2024年,社会保险覆盖率,劳动关系管理,劳动关系管理-福利与薪酬,page_56.png,劳动关系管理 福利与薪酬 社会保险覆盖率 % 2023年 100 2024年 100,extracted,0.92,heuristic_social_security_coverage; schema_match_validated
+employee_medical_checkup_coverage,员工体检覆盖率,S,quantitative,percentage,100,100,%,2024,2024年,员工体检覆盖率,职业健康与安全生产,中国一重2024年环境，社会和治理（ESG）报告-绩效表,page_57.png,职业健康与安全生产 员工体检覆盖率 % 2022年 100 2023年 100 2024年 100,extracted,0.9,heuristic_employee_medical_checkup_coverage; schema_match_validated
+trained_employees_count,受训员工人数,S,quantitative,number,18000,"18,000",人次,2024,2024年,参与安全教育培训人次,职业健康与安全生产,中国一重2024年环境，社会和治理（ESG）报告-绩效表,page_57.png,"职业健康与安全生产 参与安全教育培训人次 人次 2022年 9,325 2023年 10,317 2024年 18,000",extracted,0.9,heuristic_trained_employees_count; alias_soft_warning:training_participants
+safety_accident_count,安全生产事故数量,S,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+occupational_health_safety_investment,安全生产投入,S,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+safety_emergency_drill_count,安全应急演练次数,S,quantitative,number,63,63,场次,2024,2024年,安全应急演练次数,职业健康与安全生产,中国一重2024年环境，社会和治理（ESG）报告-绩效表,page_57.png,职业健康与安全生产 安全应急演练次数 场次 2022年 63 2023年 61 2024年 63,extracted,0.9,heuristic_safety_emergency_drill_count; schema_match_validated
+lost_work_days_due_to_injury,因工伤损失工作日数,S,quantitative,number,6193,"6,193",个工作日,2024,2024年,工伤损失工作日数,职业健康与安全生产,中国一重2024年环境，社会和治理（ESG）报告-绩效表,page_57.png,"职业健康与安全生产 工伤损失工作日数 个工作日 2022年 2,700 2023年 1,648 2024年 6,193",extracted,0.97,normalized_alias_match:工伤损失工作日; schema_match_validated
+r_and_d_personnel_count,研发人员数量,S,quantitative,number,255,255,人,2024,2024年,按学历划分的研发人员数量,研发与创新,中国一重2024年环境，社会和治理（ESG）报告-固体废弃物排放,page_55.png,研发与创新 按学历划分的研发人员数量 人 2022年 268 2023年 272 2024年 255,extracted,0.96,normalized_alias_match:研发人员数量; schema_match_validated
+r_and_d_expense,研发投入金额,S,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+public_welfare_investment,公益投入金额,S,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+board_size,董事会人数,G,quantitative,number,4,4,人,2024,2024年,董事会成员人数,公司治理,董事会,page_54.png,公司治理 董事会成员人数 人 2022年 6 2023年 5 2024年 4,extracted,0.97,normalized_alias_match:董事会成员人数; schema_match_validated
+independent_directors,独立董事人数,G,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+independent_director_ratio,独立董事比例,G,quantitative,percentage,,,,,,,,,,,missing,0.0,not_found
+female_directors,女性董事人数,G,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+board_meetings,董事会会议次数,G,quantitative,number,8,8,次,2024,2024年,董事会会议召开次数,公司治理,董事会,page_54.png,公司治理 董事会会议召开次数 次 2022年 8 2023年 10 2024年 8,extracted,0.94,heuristic_board_meetings_short_label; schema_match_validated
+shareholder_meetings,股东大会会议次数,G,quantitative,number,1,1,次,2024,2024年,临时股东大会次数,公司治理,股东大会,page_54.png,公司治理 临时股东大会次数 次 2022年 1 2023年 1 2024年 1,extracted,0.94,heuristic_shareholder_meetings_short_label; schema_match_validated
+anti_corruption_training_sessions,反腐败培训次数,G,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+anti_corruption_training_participants,反腐败培训人数,G,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+confirmed_corruption_cases,确认腐败案件数量,G,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+esg_strategy_targets,ESG战略目标,E,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+climate_risk_management,气候风险识别与管理,E,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+environmental_management_system,环境管理体系,E,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+energy_saving_measures,节能减排措施,E,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+water_management_measures,水资源管理措施,E,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+waste_management_measures,废弃物管理措施,E,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+employee_rights_policy,员工权益保障政策,S,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+occupational_health_safety_system,职业健康安全管理体系,S,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+employee_training_development,员工培训与发展机制,S,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+diversity_equal_opportunity,多元化与平等雇佣政策,S,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+supplier_esg_assessment,供应商ESG管理机制,S,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+data_security_privacy,数据安全与隐私保护机制,S,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+board_esg_oversight,董事会ESG监督机制,G,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+esg_committee,ESG治理架构或委员会,G,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+anti_corruption_policy,反腐败政策,G,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+whistleblowing_mechanism,举报机制与举报人保护,G,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+business_ethics_training,商业道德培训机制,G,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+investor_communication,信息披露与投资者沟通机制,G,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found

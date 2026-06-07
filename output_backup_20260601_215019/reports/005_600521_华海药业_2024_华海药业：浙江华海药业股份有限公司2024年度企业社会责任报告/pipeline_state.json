@@ -1,0 +1,4287 @@
+{
+  "pdf_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\data\\raw\\600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告.pdf",
+  "output_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告",
+  "ingest": {
+    "manifest": {
+      "ingest_version": "route_a_page_scoring_v3_unit_density",
+      "pdf_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\data\\raw\\600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告.pdf",
+      "total_pages": 62,
+      "total_text_chars": 60039,
+      "text_available": true,
+      "chunk_size": 800,
+      "chunk_overlap": 120,
+      "chunk_count": 111
+    },
+    "cache_used": true,
+    "paths": {
+      "page_texts": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\ingest\\page_texts.json",
+      "page_features": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\ingest\\page_features.json",
+      "text_chunks": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\ingest\\text_chunks.json",
+      "manifest": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\ingest\\ingest_manifest.json"
+    }
+  },
+  "sniffer_result": {
+    "found": true,
+    "total_pages": 62,
+    "candidates": [
+      {
+        "page_number": 58,
+        "char_count": 1365,
+        "score": 230,
+        "title_hits": [
+          "指标",
+          "单位",
+          "20[0-3][0-9]年"
+        ],
+        "strong_title_hits": [
+          "关键绩效"
+        ],
+        "metric_hits": [
+          "温室气体",
+          "范围一",
+          "范围二",
+          "能源",
+          "能源消耗",
+          "综合能源",
+          "电力",
+          "天然气",
+          "柴油",
+          "汽油",
+          "煤",
+          "水资源",
+          "取水",
+          "废水",
+          "废弃物",
+          "无害废弃物",
+          "员工人数",
+          "男性员工",
+          "女性员工",
+          "员工流失率",
+          "培训",
+          "工伤",
+          "死亡"
+        ],
+        "unit_hits": [
+          "吨",
+          "吨标煤",
+          "吨二氧化碳当量",
+          "立方米",
+          "万元",
+          "元",
+          "%",
+          "人",
+          "小时",
+          "件",
+          "项",
+          "起"
+        ],
+        "unit_density_score": 10,
+        "unit_occurrence_count": 103,
+        "distinct_unit_categories": [
+          "count",
+          "energy_coal",
+          "energy_power",
+          "ghg",
+          "mass",
+          "money",
+          "percentage",
+          "person",
+          "time",
+          "volume"
+        ],
+        "table_header_hits": [
+          "指标",
+          "单位"
+        ],
+        "year_hits": [
+          "2024"
+        ],
+        "number_count": 59,
+        "numeric_lines": 59,
+        "table_like_lines": 0,
+        "page_ratio": 0.9355,
+        "index_hits": [
+          "指标索引"
+        ],
+        "force_keep": true,
+        "high_unit_density": true,
+        "reasons": [
+          "title_hits:指标,单位,20[0-3][0-9]年",
+          "strong_title_hits:关键绩效",
+          "metric_hits:温室气体,范围一,范围二,能源,能源消耗,综合能源,电力,天然气,柴油,汽油,煤,水资源,取水,废水,废弃物",
+          "unit_hits:吨,吨标煤,吨二氧化碳当量,立方米,万元,元,%,人,小时,件,项,起",
+          "unit_density:10:count,energy_coal,energy_power,ghg,mass,money,percentage,person",
+          "unit_occurrences:103",
+          "year_hits:2024",
+          "table_header_hits:指标,单位",
+          "table_header:indicator_unit_year",
+          "number_dense:59",
+          "numeric_lines:59",
+          "tail_35_percent",
+          "tail_20_percent",
+          "index_penalty:指标索引",
+          "force_keep:strong_performance_title",
+          "force_keep:high_unit_density"
+        ]
+      },
+      {
+        "page_number": 59,
+        "char_count": 909,
+        "score": 183,
+        "title_hits": [
+          "指标",
+          "单位",
+          "20[0-3][0-9]年"
+        ],
+        "strong_title_hits": [
+          "关键绩效"
+        ],
+        "metric_hits": [
+          "能源",
+          "水资源",
+          "废弃物",
+          "员工人数",
+          "培训",
+          "供应商",
+          "董事",
+          "反贪污",
+          "反商业贿赂"
+        ],
+        "unit_hits": [
+          "万元",
+          "元",
+          "%",
+          "人",
+          "小时",
+          "件",
+          "项",
+          "家"
+        ],
+        "unit_density_score": 5,
+        "unit_occurrence_count": 39,
+        "distinct_unit_categories": [
+          "count",
+          "money",
+          "percentage",
+          "person",
+          "time"
+        ],
+        "table_header_hits": [
+          "指标",
+          "单位"
+        ],
+        "year_hits": [
+          "2024"
+        ],
+        "number_count": 23,
+        "numeric_lines": 23,
+        "table_like_lines": 0,
+        "page_ratio": 0.9516,
+        "index_hits": [
+          "指引索引",
+          "指标索引"
+        ],
+        "force_keep": true,
+        "high_unit_density": true,
+        "reasons": [
+          "title_hits:指标,单位,20[0-3][0-9]年",
+          "strong_title_hits:关键绩效",
+          "metric_hits:能源,水资源,废弃物,员工人数,培训,供应商,董事,反贪污,反商业贿赂",
+          "unit_hits:万元,元,%,人,小时,件,项,家",
+          "unit_density:5:count,money,percentage,person,time",
+          "unit_occurrences:39",
+          "year_hits:2024",
+          "table_header_hits:指标,单位",
+          "table_header:indicator_unit_year",
+          "number_dense:23",
+          "numeric_lines:23",
+          "tail_35_percent",
+          "tail_20_percent",
+          "index_penalty:指引索引,指标索引",
+          "force_keep:strong_performance_title",
+          "force_keep:high_unit_density"
+        ]
+      },
+      {
+        "page_number": 33,
+        "char_count": 1343,
+        "score": 160,
+        "title_hits": [
+          "指标",
+          "单位",
+          "20[0-3][0-9]年"
+        ],
+        "strong_title_hits": [],
+        "metric_hits": [
+          "温室气体",
+          "范围一",
+          "范围二",
+          "能源",
+          "电力"
+        ],
+        "unit_hits": [
+          "吨",
+          "吨二氧化碳当量",
+          "%",
+          "人",
+          "项",
+          "起",
+          "家"
+        ],
+        "unit_density_score": 5,
+        "unit_occurrence_count": 26,
+        "distinct_unit_categories": [
+          "count",
+          "ghg",
+          "mass",
+          "percentage",
+          "person"
+        ],
+        "table_header_hits": [
+          "指标",
+          "单位",
+          "项目"
+        ],
+        "year_hits": [
+          "2020",
+          "2023",
+          "2024",
+          "2025"
+        ],
+        "number_count": 21,
+        "numeric_lines": 18,
+        "table_like_lines": 3,
+        "page_ratio": 0.5323,
+        "index_hits": [],
+        "force_keep": true,
+        "high_unit_density": true,
+        "reasons": [
+          "title_hits:指标,单位,20[0-3][0-9]年",
+          "metric_hits:温室气体,范围一,范围二,能源,电力",
+          "unit_hits:吨,吨二氧化碳当量,%,人,项,起,家",
+          "unit_density:5:count,ghg,mass,percentage,person",
+          "unit_occurrences:26",
+          "year_hits:2020,2023,2024,2025",
+          "table_header_hits:指标,单位,项目",
+          "table_header:indicator_unit_year",
+          "number_dense:21",
+          "table_density:3",
+          "numeric_lines:18",
+          "force_keep:high_unit_density"
+        ]
+      },
+      {
+        "page_number": 60,
+        "char_count": 1227,
+        "score": 150,
+        "title_hits": [
+          "指标",
+          "20[0-3][0-9]年"
+        ],
+        "strong_title_hits": [
+          "关键绩效"
+        ],
+        "metric_hits": [
+          "温室气体",
+          "能源",
+          "能源消耗",
+          "水资源",
+          "取水",
+          "培训",
+          "供应商",
+          "反腐",
+          "反腐败"
+        ],
+        "unit_hits": [
+          "人",
+          "件",
+          "项"
+        ],
+        "unit_density_score": 2,
+        "unit_occurrence_count": 10,
+        "distinct_unit_categories": [
+          "count",
+          "person"
+        ],
+        "table_header_hits": [
+          "指标"
+        ],
+        "year_hits": [
+          "2024"
+        ],
+        "number_count": 91,
+        "numeric_lines": 52,
+        "table_like_lines": 37,
+        "page_ratio": 0.9677,
+        "index_hits": [
+          "GRI",
+          "指标索引"
+        ],
+        "force_keep": true,
+        "high_unit_density": false,
+        "reasons": [
+          "title_hits:指标,20[0-3][0-9]年",
+          "strong_title_hits:关键绩效",
+          "metric_hits:温室气体,能源,能源消耗,水资源,取水,培训,供应商,反腐,反腐败",
+          "unit_hits:人,件,项",
+          "unit_density:2:count,person",
+          "year_hits:2024",
+          "table_header_hits:指标",
+          "number_dense:91",
+          "table_density:37",
+          "numeric_lines:52",
+          "tail_35_percent",
+          "tail_20_percent",
+          "index_penalty:GRI,指标索引",
+          "force_keep:strong_performance_title"
+        ]
+      },
+      {
+        "page_number": 38,
+        "char_count": 1305,
+        "score": 147,
+        "title_hits": [
+          "单位",
+          "20[0-3][0-9]年"
+        ],
+        "strong_title_hits": [],
+        "metric_hits": [
+          "能源",
+          "能源消耗",
+          "综合能源",
+          "电力",
+          "耗电",
+          "天然气",
+          "柴油",
+          "汽油",
+          "煤",
+          "水资源",
+          "取水",
+          "供应商"
+        ],
+        "unit_hits": [
+          "吨",
+          "吨标煤",
+          "立方米",
+          "人",
+          "次"
+        ],
+        "unit_density_score": 6,
+        "unit_occurrence_count": 11,
+        "distinct_unit_categories": [
+          "count",
+          "energy_coal",
+          "energy_power",
+          "mass",
+          "person",
+          "volume"
+        ],
+        "table_header_hits": [
+          "单位",
+          "类别"
+        ],
+        "year_hits": [
+          "2023",
+          "2024"
+        ],
+        "number_count": 43,
+        "numeric_lines": 39,
+        "table_like_lines": 3,
+        "page_ratio": 0.6129,
+        "index_hits": [],
+        "force_keep": true,
+        "high_unit_density": true,
+        "reasons": [
+          "title_hits:单位,20[0-3][0-9]年",
+          "metric_hits:能源,能源消耗,综合能源,电力,耗电,天然气,柴油,汽油,煤,水资源,取水,供应商",
+          "unit_hits:吨,吨标煤,立方米,人,次",
+          "unit_density:6:count,energy_coal,energy_power,mass,person,volume",
+          "year_hits:2023,2024",
+          "table_header_hits:单位,类别",
+          "number_dense:43",
+          "table_density:3",
+          "numeric_lines:39",
+          "force_keep:high_unit_density"
+        ]
+      },
+      {
+        "page_number": 61,
+        "char_count": 1081,
+        "score": 145,
+        "title_hits": [
+          "指标",
+          "20[0-3][0-9]年"
+        ],
+        "strong_title_hits": [
+          "关键绩效"
+        ],
+        "metric_hits": [
+          "废弃物",
+          "培训",
+          "供应商"
+        ],
+        "unit_hits": [
+          "元",
+          "人",
+          "小时",
+          "件",
+          "项"
+        ],
+        "unit_density_score": 4,
+        "unit_occurrence_count": 23,
+        "distinct_unit_categories": [
+          "count",
+          "money",
+          "person",
+          "time"
+        ],
+        "table_header_hits": [
+          "指标",
+          "类别"
+        ],
+        "year_hits": [
+          "2024"
+        ],
+        "number_count": 70,
+        "numeric_lines": 42,
+        "table_like_lines": 28,
+        "page_ratio": 0.9839,
+        "index_hits": [
+          "GRI",
+          "指标索引"
+        ],
+        "force_keep": true,
+        "high_unit_density": false,
+        "reasons": [
+          "title_hits:指标,20[0-3][0-9]年",
+          "strong_title_hits:关键绩效",
+          "metric_hits:废弃物,培训,供应商",
+          "unit_hits:元,人,小时,件,项",
+          "unit_density:4:count,money,person,time",
+          "unit_occurrences:23",
+          "year_hits:2024",
+          "table_header_hits:指标,类别",
+          "number_dense:70",
+          "table_density:28",
+          "numeric_lines:42",
+          "tail_35_percent",
+          "tail_20_percent",
+          "index_penalty:GRI,指标索引",
+          "force_keep:strong_performance_title"
+        ]
+      }
+    ],
+    "expanded_page_numbers": [
+      32,
+      33,
+      34,
+      35,
+      37,
+      38,
+      39,
+      40,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62
+    ],
+    "candidate_pages": [
+      32,
+      33,
+      34,
+      35,
+      37,
+      38,
+      39,
+      40,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62
+    ],
+    "selection_strategy": {
+      "source": "pdf_ingest_page_features",
+      "top_k": 6,
+      "min_score": 25,
+      "expand_before": 1,
+      "expand_after": 2
+    }
+  },
+  "appendix_found": true,
+  "candidate_pages": [
+    32,
+    33,
+    34,
+    35,
+    37,
+    38,
+    39,
+    40,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+  ],
+  "page_images": [
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\page_images\\page_32.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\page_images\\page_33.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\page_images\\page_34.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\page_images\\page_35.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\page_images\\page_37.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\page_images\\page_38.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\page_images\\page_39.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\page_images\\page_40.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\page_images\\page_57.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\page_images\\page_58.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\page_images\\page_59.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\page_images\\page_60.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\page_images\\page_61.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\page_images\\page_62.png"
+  ],
+  "all_table_rows": [
+    {
+      "page_image": "page_32.png",
+      "page_type": "other",
+      "page_note": "该页面为ESG报告中的气候风险识别部分，未包含具体ESG绩效数值表。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_32_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为关于气候变化的描述和气候风险识别，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_32_right.png",
+      "page_type": "other",
+      "page_note": "该页面为风险类型与对公司潜在影响的说明，不属于ESG绩效数据表。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_33.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "温室气体排放数据",
+          "columns": [
+            "排放项",
+            "单位",
+            "总计"
+          ],
+          "rows": [
+            {
+              "topic": null,
+              "metric_name": "范围一温室气体排放量",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2024年": "58,691"
+              },
+              "evidence_text": "范围一温室气体排放量 吨二氧化碳当量 2024年 58,691"
+            },
+            {
+              "topic": null,
+              "metric_name": "范围二温室气体排放量",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2024年": "349,692"
+              },
+              "evidence_text": "范围二温室气体排放量 吨二氧化碳当量 2024年 349,692"
+            },
+            {
+              "topic": null,
+              "metric_name": "温室气体排放总量（范围一＋范围二）",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2024年": "408,383"
+              },
+              "evidence_text": "温室气体排放总量（范围一＋范围二） 吨二氧化碳当量 2024年 408,383"
+            },
+            {
+              "topic": null,
+              "metric_name": "温室气体排放密度（范围一＋范围二）",
+              "unit": "吨二氧化碳当量/百万营收",
+              "values": {
+                "2024年": "42.77"
+              },
+              "evidence_text": "温室气体排放密度（范围一＋范围二） 吨二氧化碳当量/百万营收 2024年 42.77"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_34.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "华海药业附属公司环境管理体系认证情况一览",
+          "columns": [
+            "企业名称",
+            "认证类别"
+          ],
+          "rows": [
+            {
+              "topic": null,
+              "metric_name": "集团公司（制剂分厂）",
+              "unit": null,
+              "values": {
+                "2024年": "ISO 14001"
+              },
+              "evidence_text": "集团公司（制剂分厂） ISO 14001"
+            },
+            {
+              "topic": null,
+              "metric_name": "立诚药业",
+              "unit": null,
+              "values": {
+                "2024年": "ISO 14001"
+              },
+              "evidence_text": "立诚药业 ISO 14001"
+            },
+            {
+              "topic": null,
+              "metric_name": "川南公司",
+              "unit": null,
+              "values": {
+                "2024年": "ISO 14001"
+              },
+              "evidence_text": "川南公司 ISO 14001"
+            },
+            {
+              "topic": null,
+              "metric_name": "华南公司",
+              "unit": null,
+              "values": {
+                "2024年": "ISO 14001"
+              },
+              "evidence_text": "华南公司 ISO 14001"
+            },
+            {
+              "topic": null,
+              "metric_name": "长兴制药",
+              "unit": null,
+              "values": {
+                "2024年": "ISO 14001"
+              },
+              "evidence_text": "长兴制药 ISO 14001"
+            }
+          ]
+        },
+        {
+          "table_title": "华海药业附属公司开展清洁生产审核工作一览",
+          "columns": [
+            "分公司",
+            "最新一轮通过审核时间"
+          ],
+          "rows": [
+            {
+              "topic": null,
+              "metric_name": "华海药业（制剂分厂）",
+              "unit": null,
+              "values": {
+                "2024年": "2022年11月"
+              },
+              "evidence_text": "华海药业（制剂分厂） 2022年11月"
+            },
+            {
+              "topic": null,
+              "metric_name": "华南公司",
+              "unit": null,
+              "values": {
+                "2024年": "2024年12月"
+              },
+              "evidence_text": "华南公司 2024年12月"
+            },
+            {
+              "topic": null,
+              "metric_name": "立诚药业",
+              "unit": null,
+              "values": {
+                "2024年": "2024年12月"
+              },
+              "evidence_text": "立诚药业 2024年12月"
+            },
+            {
+              "topic": null,
+              "metric_name": "川南公司",
+              "unit": null,
+              "values": {
+                "2024年": "2024年12月"
+              },
+              "evidence_text": "川南公司 2024年12月"
+            }
+          ]
+        },
+        {
+          "table_title": "完善环境突发应急预案",
+          "columns": [
+            "披露项",
+            "单位",
+            "总计"
+          ],
+          "rows": [
+            {
+              "topic": null,
+              "metric_name": "年度环保投资支出",
+              "unit": "万元人民币",
+              "values": {
+                "2024年": "25,562.67"
+              },
+              "evidence_text": "年度环保投资支出 万元人民币 25,562.67"
+            },
+            {
+              "topic": null,
+              "metric_name": "因违反环境保护法律法规而受到的罚款总额",
+              "unit": "万元人民币",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "因违反环境保护法律法规而受到的罚款总额 万元人民币 0"
+            },
+            {
+              "topic": null,
+              "metric_name": "因违反环境保护法律法规而受到处罚的事件数",
+              "unit": "件",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "因违反环境保护法律法规而受到处罚的事件数 件 0"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_35.png",
+      "page_type": "other",
+      "page_note": "页面内容主要为华海药业的节能环保文化介绍及污染物排放管理措施，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_35_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为华海药业的节能环保文化介绍及节能宣传周活动案例，未包含具体ESG绩效数据表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_35_right.png",
+      "page_type": "other",
+      "page_note": "页面内容为华海药业的污染物排放管理描述，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_37.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "无害废弃物排放数据",
+          "columns": [
+            "废物项",
+            "单位",
+            "总计"
+          ],
+          "rows": [
+            {
+              "metric_name": "无害废弃物总量",
+              "unit": "吨",
+              "values": {
+                "2024年": "5,001"
+              },
+              "evidence_text": "无害废弃物总量 吨 2024年 5,001"
+            },
+            {
+              "metric_name": "按处置方式分类的无害废弃物量：回收 / 再利用",
+              "unit": "吨",
+              "values": {
+                "2024年": "3,097"
+              },
+              "evidence_text": "按处置方式分类的无害废弃物量：回收 / 再利用 吨 2024年 3,097"
+            },
+            {
+              "metric_name": "按处置方式分类的无害废弃物量：焚烧且有进行能量回收",
+              "unit": "吨",
+              "values": {
+                "2024年": "17"
+              },
+              "evidence_text": "按处置方式分类的无害废弃物量：焚烧且有进行能量回收 吨 2024年 17"
+            },
+            {
+              "metric_name": "按处置方式分类的无害废弃物量：焚烧且无能量回收",
+              "unit": "吨",
+              "values": {
+                "2024年": "1,887"
+              },
+              "evidence_text": "按处置方式分类的无害废弃物量：焚烧且无能量回收 吨 2024年 1,887"
+            }
+          ]
+        },
+        {
+          "table_title": "有害废弃物排放数据",
+          "columns": [
+            "废物项",
+            "单位",
+            "总计"
+          ],
+          "rows": [
+            {
+              "metric_name": "有害废弃物总量",
+              "unit": "吨",
+              "values": {
+                "2024年": "87,383"
+              },
+              "evidence_text": "有害废弃物总量 吨 2024年 87,383"
+            },
+            {
+              "metric_name": "按处置方式分类的有害废弃物量：填埋",
+              "unit": "吨",
+              "values": {
+                "2024年": "5,658"
+              },
+              "evidence_text": "按处置方式分类的有害废弃物量：填埋 吨 2024年 5,658"
+            },
+            {
+              "metric_name": "按处置方式分类的有害废弃物量：焚烧且有进行能量回收",
+              "unit": "吨",
+              "values": {
+                "2024年": "52,827"
+              },
+              "evidence_text": "按处置方式分类的有害废弃物量：焚烧且有进行能量回收 吨 2024年 52,827"
+            },
+            {
+              "metric_name": "按处置方式分类的有害废弃物量：焚烧且无能量回收",
+              "unit": "吨",
+              "values": {
+                "2024年": "19,092"
+              },
+              "evidence_text": "按处置方式分类的有害废弃物量：焚烧且无能量回收 吨 2024年 19,092"
+            },
+            {
+              "metric_name": "按处置方式分类的有害废弃物量：综合利用",
+              "unit": "吨",
+              "values": {
+                "2024年": "9,805"
+              },
+              "evidence_text": "按处置方式分类的有害废弃物量：综合利用 吨 2024年 9,805"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_38.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "2024年各分厂能源管理方案清单",
+          "columns": [
+            "序号",
+            "节能改进建议",
+            "年节约能源",
+            "所属分厂"
+          ],
+          "rows": [
+            {
+              "topic": null,
+              "metric_name": "根据设备实际运行情况进行变频，节约电量",
+              "unit": "节电：18.7万度",
+              "values": {
+                "2024年": "18.7"
+              },
+              "evidence_text": "1 根据设备实际运行情况进行变频，节约电量 节电：18.7万度 川南分厂"
+            },
+            {
+              "topic": null,
+              "metric_name": "对物料预热加热，降低蒸馏时长",
+              "unit": "节电：5.5万度",
+              "values": {
+                "2024年": "5.5"
+              },
+              "evidence_text": "2 对物料预热加热，降低蒸馏时长 节电：5.5万度"
+            },
+            {
+              "topic": null,
+              "metric_name": "车间独立供冷改为厂区集中供冷",
+              "unit": "节电：4.5万度",
+              "values": {
+                "2024年": "4.5"
+              },
+              "evidence_text": "3 车间独立供冷改为厂区集中供冷 节电：4.5万度"
+            },
+            {
+              "topic": null,
+              "metric_name": "新蒸汽直接加热工艺，减少热泵耗电",
+              "unit": "节电：17.7万度",
+              "values": {
+                "2024年": "17.7"
+              },
+              "evidence_text": "4 新蒸汽直接加热工艺，减少热泵耗电 节电：17.7万度"
+            },
+            {
+              "topic": null,
+              "metric_name": "监控水池湿度，减少内循环泵运行时间",
+              "unit": "节电：7.1万度",
+              "values": {
+                "2024年": "7.1"
+              },
+              "evidence_text": "5 监控水池湿度，减少内循环泵运行时间 节电：7.1万度"
+            },
+            {
+              "topic": null,
+              "metric_name": "优化冷却水塔位置，减少输送损耗",
+              "unit": "/",
+              "values": {
+                "2024年": "-"
+              },
+              "evidence_text": "6 优化冷却水塔位置，减少输送损耗 /"
+            },
+            {
+              "topic": null,
+              "metric_name": "合并水泵使用，提高水泵利用率",
+              "unit": "节电：14.4万度",
+              "values": {
+                "2024年": "14.4"
+              },
+              "evidence_text": "7 合并水泵使用，提高水泵利用率 节电：14.4万度 汶桥分厂"
+            },
+            {
+              "topic": null,
+              "metric_name": "新增小功率泵，根据需求调整使用小泵，减少能耗",
+              "unit": "节电：12.9万度",
+              "values": {
+                "2024年": "12.9"
+              },
+              "evidence_text": "8 新增小功率泵，根据需求调整使用小泵，减少能耗 节电：12.9万度"
+            },
+            {
+              "topic": null,
+              "metric_name": "根据车间需求调整空压机压力",
+              "unit": "/",
+              "values": {
+                "2024年": "-"
+              },
+              "evidence_text": "9 根据车间需求调整空压机压力 /"
+            },
+            {
+              "topic": null,
+              "metric_name": "相抵实际需求大泵换小泵，减少能源浪费",
+              "unit": "节电：3.75万度",
+              "values": {
+                "2024年": "3.75"
+              },
+              "evidence_text": "10 相抵实际需求大泵换小泵，减少能源浪费 节电：3.75万度"
+            },
+            {
+              "topic": null,
+              "metric_name": "更换高效水泵及配套电机",
+              "unit": "节电：7.1万度",
+              "values": {
+                "2024年": "7.1"
+              },
+              "evidence_text": "11 更换高效水泵及配套电机 节电：7.1万度 制剂分厂"
+            },
+            {
+              "topic": null,
+              "metric_name": "更换一级能效冷水机组",
+              "unit": "节电：57.6万度",
+              "values": {
+                "2024年": "57.6"
+              },
+              "evidence_text": "12 更换一级能效冷水机组 节电：57.6万度"
+            },
+            {
+              "topic": null,
+              "metric_name": "合计",
+              "unit": "节电：149.25万度",
+              "values": {
+                "2024年": "149.25"
+              },
+              "evidence_text": "合计 节电：149.25万度 /"
+            }
+          ]
+        },
+        {
+          "table_title": "能源使用数据表",
+          "columns": [
+            "类别",
+            "单位",
+            "2024年数值"
+          ],
+          "rows": [
+            {
+              "topic": null,
+              "metric_name": "原煤用量",
+              "unit": "吨",
+              "values": {
+                "2024年": "22,612"
+              },
+              "evidence_text": "原煤用量 吨 2024年 22,612"
+            },
+            {
+              "topic": null,
+              "metric_name": "天然气用量",
+              "unit": "立方米",
+              "values": {
+                "2024年": "4,231,675"
+              },
+              "evidence_text": "天然气用量 立方米 2024年 4,231,675"
+            },
+            {
+              "topic": null,
+              "metric_name": "固废源柴油用量",
+              "unit": "吨",
+              "values": {
+                "2024年": "778"
+              },
+              "evidence_text": "固废源柴油用量 吨 2024年 778"
+            },
+            {
+              "topic": null,
+              "metric_name": "汽油用量",
+              "unit": "升",
+              "values": {
+                "2024年": "107,143"
+              },
+              "evidence_text": "汽油用量 升 2024年 107,143"
+            },
+            {
+              "topic": null,
+              "metric_name": "外购电力用量",
+              "unit": "兆瓦时",
+              "values": {
+                "2024年": "340,842"
+              },
+              "evidence_text": "外购电力用量 兆瓦时 2024年 340,842"
+            },
+            {
+              "topic": null,
+              "metric_name": "外购蒸汽用量",
+              "unit": "百焦",
+              "values": {
+                "2024年": "1,337,849"
+              },
+              "evidence_text": "外购蒸汽用量 百焦 2024年 1,337,849"
+            },
+            {
+              "topic": null,
+              "metric_name": "综合能源消耗量",
+              "unit": "吨标煤",
+              "values": {
+                "2024年": "111,030"
+              },
+              "evidence_text": "综合能源消耗量 吨标煤 2024年 111,030"
+            },
+            {
+              "topic": null,
+              "metric_name": "综合能源消耗密度",
+              "unit": "吨标煤/百万营收",
+              "values": {
+                "2024年": "11.63"
+              },
+              "evidence_text": "综合能源消耗密度 吨标煤/百万营收 2024年 11.63"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_39.png",
+      "page_type": "other",
+      "page_note": "页面内容为华海药业股份有限公司的CSR管理、规范治理、稳健运营、环境保护、人才发展、社会责任等方面的描述，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_39_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为华海药业股份有限公司关于倡导绿色运营的描述，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_39_right.png",
+      "page_type": "other",
+      "page_note": "页面内容为公司节能减排措施及生物多样性保护介绍，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_40.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': '<400> InternalError.Algo.InvalidParameter: Multimodal file size is too large', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_parameter_error'}, 'id': 'chatcmpl-e2937464-e9e4-9130-9462-f9d7495a5b70', 'request_id': 'e2937464-e9e4-9130-9462-f9d7495a5b70'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_57.png",
+      "page_type": "other",
+      "page_note": "页面内容为华海药业在教育帮扶和志愿活动方面的描述，未包含具体的 ESG 绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_57_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为华海药业的教育帮扶和志愿活动案例介绍，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_57_right.png",
+      "page_type": "other",
+      "page_note": "页面内容为陈保华代表履职建言的描述，未包含ESG绩效数据表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_58.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "环境合规管理",
+          "columns": [
+            "议题",
+            "指标项",
+            "单位",
+            "总计"
+          ],
+          "rows": [
+            {
+              "topic": "环境合规管理",
+              "metric_name": "年度环保投资支出",
+              "unit": "万元人民币",
+              "values": {
+                "2024年": "25,562.67"
+              },
+              "evidence_text": "环境合规管理 年度环保投资支出 万元人民币 25,562.67"
+            },
+            {
+              "topic": "环境合规管理",
+              "metric_name": "因违反环境保护法律法规而受到的罚款总额",
+              "unit": "万元人民币",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "环境合规管理 因违反环境保护法律法规而受到的罚款总额 万元人民币 0"
+            },
+            {
+              "topic": "环境合规管理",
+              "metric_name": "因违反环境保护法律法规而受到处罚的事件数",
+              "unit": "件",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "环境合规管理 因违反环境保护法律法规而受到处罚的事件数 件 0"
+            },
+            {
+              "topic": "环境合规管理",
+              "metric_name": "因违反环境法律法规通过争端解决机制提起的事件数",
+              "unit": "件",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "环境合规管理 因违反环境法律法规通过争端解决机制提起的事件数 件 0"
+            },
+            {
+              "topic": "环境合规管理",
+              "metric_name": "因污染物超标或违规排放而受到处罚的事件数",
+              "unit": "件",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "环境合规管理 因污染物超标或违规排放而受到处罚的事件数 件 0"
+            }
+          ]
+        },
+        {
+          "table_title": "能源利用",
+          "columns": [
+            "议题",
+            "指标项",
+            "单位",
+            "总计"
+          ],
+          "rows": [
+            {
+              "topic": "能源利用",
+              "metric_name": "原煤用量",
+              "unit": "吨",
+              "values": {
+                "2024年": "22,612"
+              },
+              "evidence_text": "能源利用 原煤用量 吨 22,612"
+            },
+            {
+              "topic": "能源利用",
+              "metric_name": "天然气用量",
+              "unit": "立方米",
+              "values": {
+                "2024年": "4,231,675"
+              },
+              "evidence_text": "能源利用 天然气用量 立方米 4,231,675"
+            },
+            {
+              "topic": "能源利用",
+              "metric_name": "固定源柴油用量",
+              "unit": "吨",
+              "values": {
+                "2024年": "778"
+              },
+              "evidence_text": "能源利用 固定源柴油用量 吨 778"
+            },
+            {
+              "topic": "能源利用",
+              "metric_name": "公务车汽油用量",
+              "unit": "升",
+              "values": {
+                "2024年": "107,143"
+              },
+              "evidence_text": "能源利用 公务车汽油用量 升 107,143"
+            },
+            {
+              "topic": "能源利用",
+              "metric_name": "外购电力用量",
+              "unit": "千瓦时",
+              "values": {
+                "2024年": "340,842"
+              },
+              "evidence_text": "能源利用 外购电力用量 光瓦时 340,842"
+            },
+            {
+              "topic": "能源利用",
+              "metric_name": "外购蒸汽用量",
+              "unit": "吉焦",
+              "values": {
+                "2024年": "1,337,849"
+              },
+              "evidence_text": "能源利用 外购蒸汽用量 吉焦 1,337,849"
+            },
+            {
+              "topic": "能源利用",
+              "metric_name": "综合能源消耗量",
+              "unit": "吨标煤",
+              "values": {
+                "2024年": "111,030"
+              },
+              "evidence_text": "能源利用 综合能源消耗量 吨标煤 111,030"
+            },
+            {
+              "topic": "能源利用",
+              "metric_name": "综合能源消耗密度",
+              "unit": "吨标煤／百万营收",
+              "values": {
+                "2024年": "11.63"
+              },
+              "evidence_text": "能源利用 综合能源消耗密度 吨标煤／百万营收 11.63"
+            },
+            {
+              "topic": "能源利用",
+              "metric_name": "总取水量",
+              "unit": "立方米",
+              "values": {
+                "2024年": "2,303,965"
+              },
+              "evidence_text": "能源利用 总取水量 立方米 2,303,965"
+            },
+            {
+              "topic": "能源利用",
+              "metric_name": "制品成包装材料使用总量",
+              "unit": "吨",
+              "values": {
+                "2024年": "3,770"
+              },
+              "evidence_text": "能源利用 制品成包装材料使用总量 吨 3,770"
+            }
+          ]
+        },
+        {
+          "table_title": "水资源利用",
+          "columns": [
+            "议题",
+            "指标项",
+            "单位",
+            "总计"
+          ],
+          "rows": [
+            {
+              "topic": "水资源利用",
+              "metric_name": "废水排放总量",
+              "unit": "立方米",
+              "values": {
+                "2024年": "1,487,377"
+              },
+              "evidence_text": "水资源利用 废水排放总量 立方米 1,487,377"
+            },
+            {
+              "topic": "水资源利用",
+              "metric_name": "工业废水排放量",
+              "unit": "立方米",
+              "values": {
+                "2024年": "1,320,115"
+              },
+              "evidence_text": "水资源利用 工业废水排放量 立方米 1,320,115"
+            },
+            {
+              "topic": "水资源利用",
+              "metric_name": "生活废水排放量",
+              "unit": "立方米",
+              "values": {
+                "2024年": "167,262"
+              },
+              "evidence_text": "水资源利用 生活废水排放量 立方米 167,262"
+            },
+            {
+              "topic": "水资源利用",
+              "metric_name": "废气排放总量",
+              "unit": "千克",
+              "values": {
+                "2024年": "269,951"
+              },
+              "evidence_text": "水资源利用 废气排放总量 千克 269,951"
+            },
+            {
+              "topic": "水资源利用",
+              "metric_name": "无害废弃物总量",
+              "unit": "吨",
+              "values": {
+                "2024年": "5,001"
+              },
+              "evidence_text": "水资源利用 无害废弃物总量 吨 5,001"
+            },
+            {
+              "topic": "水资源利用",
+              "metric_name": "按处置方式分类的无害废弃物量：回收／再利用",
+              "unit": "吨",
+              "values": {
+                "2024年": "3,097"
+              },
+              "evidence_text": "水资源利用 按处置方式分类的无害废弃物量：回收／再利用 吨 3,097"
+            },
+            {
+              "topic": "水资源利用",
+              "metric_name": "按处置方式分类的无害废弃物量：焚烧且有进行能量回收",
+              "unit": "吨",
+              "values": {
+                "2024年": "17"
+              },
+              "evidence_text": "水资源利用 按处置方式分类的无害废弃物量：焚烧且有进行能量回收 吨 17"
+            },
+            {
+              "topic": "水资源利用",
+              "metric_name": "按处置方式分类的无害废弃物量：焚烧且无能量回收",
+              "unit": "吨",
+              "values": {
+                "2024年": "1,887"
+              },
+              "evidence_text": "水资源利用 按处置方式分类的无害废弃物量：焚烧且无能量回收 吨 1,887"
+            },
+            {
+              "topic": "水资源利用",
+              "metric_name": "有害废弃物总量",
+              "unit": "吨",
+              "values": {
+                "2024年": "87,383"
+              },
+              "evidence_text": "水资源利用 有害废弃物总量 吨 87,383"
+            },
+            {
+              "topic": "水资源利用",
+              "metric_name": "按处置方式分类的有害废弃物量：填埋",
+              "unit": "吨",
+              "values": {
+                "2024年": "5,658"
+              },
+              "evidence_text": "水资源利用 按处置方式分类的有害废弃物量：填埋 吨 5,658"
+            },
+            {
+              "topic": "水资源利用",
+              "metric_name": "按处置方式分类的有害废弃物量：焚烧且有进行能量回收",
+              "unit": "吨",
+              "values": {
+                "2024年": "52,827"
+              },
+              "evidence_text": "水资源利用 按处置方式分类的有害废弃物量：焚烧且有进行能量回收 吨 52,827"
+            },
+            {
+              "topic": "水资源利用",
+              "metric_name": "按处置方式分类的有害废弃物量：焚烧且无能量回收",
+              "unit": "吨",
+              "values": {
+                "2024年": "19,092"
+              },
+              "evidence_text": "水资源利用 按处置方式分类的有害废弃物量：焚烧且无能量回收 吨 19,092"
+            },
+            {
+              "topic": "水资源利用",
+              "metric_name": "按处置方式分类的有害废弃物量：综合利用",
+              "unit": "吨",
+              "values": {
+                "2024年": "9,805"
+              },
+              "evidence_text": "水资源利用 按处置方式分类的有害废弃物量：综合利用 吨 9,805"
+            }
+          ]
+        },
+        {
+          "table_title": "应对气候变化",
+          "columns": [
+            "议题",
+            "指标项",
+            "单位",
+            "总计"
+          ],
+          "rows": [
+            {
+              "topic": "应对气候变化",
+              "metric_name": "范围一温室气体排放量",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2024年": "58,691"
+              },
+              "evidence_text": "应对气候变化 范围一温室气体排放量 吨二氧化碳当量 58,691"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "范围二温室气体排放量",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2024年": "349,692"
+              },
+              "evidence_text": "应对气候变化 范围二温室气体排放量 吨二氧化碳当量 349,692"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "温室气体排放总量（范围一＋范围二）",
+              "unit": "吨二氧化碳当量",
+              "values": {
+                "2024年": "408,383"
+              },
+              "evidence_text": "应对气候变化 温室气体排放总量（范围一＋范围二） 吨二氧化碳当量 408,383"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "温室气体排放密度（范围一＋范围二）",
+              "unit": "吨二氧化碳当量／百万营收",
+              "values": {
+                "2024年": "42.77"
+              },
+              "evidence_text": "应对气候变化 温室气体排放密度（范围一＋范围二） 吨二氧化碳当量／百万营收 42.77"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "员工总人数",
+              "unit": "人",
+              "values": {
+                "2024年": "9,065"
+              },
+              "evidence_text": "应对气候变化 员工总人数 人 9,065"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "女性员工人数",
+              "unit": "人",
+              "values": {
+                "2024年": "3,724"
+              },
+              "evidence_text": "应对气候变化 女性员工人数 人 3,724"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "男性员工人数",
+              "unit": "人",
+              "values": {
+                "2024年": "5,341"
+              },
+              "evidence_text": "应对气候变化 男性员工人数 人 5,341"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "参与体检的员工人数",
+              "unit": "人",
+              "values": {
+                "2024年": "9,065"
+              },
+              "evidence_text": "应对气候变化 参与体检的员工人数 人 9,065"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "员工体检覆盖率",
+              "unit": "%",
+              "values": {
+                "2024年": "100"
+              },
+              "evidence_text": "应对气候变化 员工体检覆盖率 % 100"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "职工体检经费",
+              "unit": "万元人民币",
+              "values": {
+                "2024年": "334.47"
+              },
+              "evidence_text": "应对气候变化 职工体检经费 万元人民币 334.47"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "社会保险覆盖率",
+              "unit": "%",
+              "values": {
+                "2024年": "100"
+              },
+              "evidence_text": "应对气候变化 社会保险覆盖率 % 100"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "员工流失人数",
+              "unit": "人",
+              "values": {
+                "2024年": "1,172"
+              },
+              "evidence_text": "应对气候变化 员工流失人数 人 1,172"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "员工流失率",
+              "unit": "%",
+              "values": {
+                "2024年": "16.02"
+              },
+              "evidence_text": "应对气候变化 员工流失率 % 16.02"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "少数民族员工人数",
+              "unit": "人",
+              "values": {
+                "2024年": "273"
+              },
+              "evidence_text": "应对气候变化 少数民族员工人数 人 273"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "参加职业病体检的员工人数",
+              "unit": "人",
+              "values": {
+                "2024年": "5,474"
+              },
+              "evidence_text": "应对气候变化 参加职业病体检的员工人数 人 5,474"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "因工伤关系而死亡的员工人数",
+              "unit": "人",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "应对气候变化 因工伤关系而死亡的员工人数 人 0"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "因工伤而死亡的员工比例",
+              "unit": "%",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "应对气候变化 因工伤而死亡的员工比例 % 0"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "接受职业健康与安全培训的员工人数",
+              "unit": "人",
+              "values": {
+                "2024年": "9,065"
+              },
+              "evidence_text": "应对气候变化 接受职业健康与安全培训的员工人数 人 9,065"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "职业健康与安全培训覆盖的员工比例",
+              "unit": "%",
+              "values": {
+                "2024年": "100"
+              },
+              "evidence_text": "应对气候变化 职业健康与安全培训覆盖的员工比例 % 100"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "因违反职业健康与安全法律法规而受到处罚的事件数",
+              "unit": "件",
+              "values": {
+                "2024年": "0"
+              },
+              "evidence_text": "应对气候变化 因违反职业健康与安全法律法规而受到处罚的事件数 件 0"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "接受培训的员工总人数",
+              "unit": "人",
+              "values": {
+                "2024年": "9,065"
+              },
+              "evidence_text": "应对气候变化 接受培训的员工总人数 人 9,065"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "接受培训的女性员工人数",
+              "unit": "人",
+              "values": {
+                "2024年": "3,724"
+              },
+              "evidence_text": "应对气候变化 接受培训的女性员工人数 人 3,724"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "接受培训的男性员工人数",
+              "unit": "人",
+              "values": {
+                "2024年": "5,341"
+              },
+              "evidence_text": "应对气候变化 接受培训的男性员工人数 人 5,341"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "员工培训覆盖率",
+              "unit": "%",
+              "values": {
+                "2024年": "100"
+              },
+              "evidence_text": "应对气候变化 员工培训覆盖率 % 100"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "员工接受培训总时长",
+              "unit": "小时",
+              "values": {
+                "2024年": "766,921"
+              },
+              "evidence_text": "应对气候变化 员工接受培训总时长 小时 766,921"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "女性员工接受培训的总时长",
+              "unit": "小时",
+              "values": {
+                "2024年": "307,520"
+              },
+              "evidence_text": "应对气候变化 女性员工接受培训的总时长 小时 307,520"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "男性员工接受培训的总时长",
+              "unit": "小时",
+              "values": {
+                "2024年": "459,401"
+              },
+              "evidence_text": "应对气候变化 男性员工接受培训的总时长 小时 459,401"
+            },
+            {
+              "topic": "应对气候变化",
+              "metric_name": "员工接受培训平均时长",
+              "unit": "小时",
+              "values": {
+                "2024年": "84"
+              },
+              "evidence_text": "应对气候变化 员工接受培训平均时长 小时 84"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_59.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "指标索引-产品和服务安全与质量",
+          "columns": [
+            "议题",
+            "指标项",
+            "单位",
+            "总计"
+          ],
+          "rows": [
+            {
+              "topic": "产品和服务安全与质量",
+              "metric_name": "违反产品和服务有关法律法规的事件数",
+              "unit": "件",
+              "values": {
+                "总计": "0"
+              },
+              "evidence_text": "违反产品和服务有关法律法规的事件数 件 总计 0"
+            },
+            {
+              "topic": "产品和服务安全与质量",
+              "metric_name": "因违反产品和服务有关法律法规而受到的罚款总额",
+              "unit": "万元人民币",
+              "values": {
+                "总计": "0"
+              },
+              "evidence_text": "因违反产品和服务有关法律法规而受到的罚款总额 万元人民币 总计 0"
+            },
+            {
+              "topic": "产品和服务安全与质量",
+              "metric_name": "获取关于产品及服务的投诉总数",
+              "unit": "件",
+              "values": {
+                "总计": "22"
+              },
+              "evidence_text": "获取关于产品及服务的投诉总数 件 总计 22"
+            },
+            {
+              "topic": "产品和服务安全与质量",
+              "metric_name": "获取关于产品及服务的投诉处理率",
+              "unit": "%",
+              "values": {
+                "总计": "100"
+              },
+              "evidence_text": "获取关于产品及服务的投诉处理率 % 总计 100"
+            },
+            {
+              "topic": "产品和服务安全与质量",
+              "metric_name": "累计纳入国家医保的产品",
+              "unit": "个",
+              "values": {
+                "总计": "75"
+              },
+              "evidence_text": "累计纳入国家医保的产品 个 总计 75"
+            },
+            {
+              "topic": "产品和服务安全与质量",
+              "metric_name": "客户满意度调查结果",
+              "unit": "%",
+              "values": {
+                "总计": "100"
+              },
+              "evidence_text": "客户满意度调查结果 % 总计 100"
+            }
+          ]
+        },
+        {
+          "table_title": "指标索引-供应链安全",
+          "columns": [
+            "议题",
+            "指标项",
+            "单位",
+            "总计"
+          ],
+          "rows": [
+            {
+              "topic": "供应链安全",
+              "metric_name": "供应商总数",
+              "unit": "家",
+              "values": {
+                "总计": "2,606"
+              },
+              "evidence_text": "供应商总数 家 总计 2,606"
+            },
+            {
+              "topic": "供应链安全",
+              "metric_name": "中国内地地区的供应商数",
+              "unit": "家",
+              "values": {
+                "总计": "2,599"
+              },
+              "evidence_text": "中国内地地区的供应商数 家 总计 2,599"
+            },
+            {
+              "topic": "供应链安全",
+              "metric_name": "港澳台及海外地区的供应商数",
+              "unit": "家",
+              "values": {
+                "总计": "7"
+              },
+              "evidence_text": "港澳台及海外地区的供应商数 家 总计 7"
+            },
+            {
+              "topic": "供应链安全",
+              "metric_name": "接受环境、劳工、道德等方面评估的供应商数",
+              "unit": "家",
+              "values": {
+                "总计": "2,226"
+              },
+              "evidence_text": "接受环境、劳工、道德等方面评估的供应商数 家 总计 2,226"
+            }
+          ]
+        },
+        {
+          "table_title": "指标索引-社会责任",
+          "columns": [
+            "议题",
+            "指标项",
+            "单位",
+            "总计"
+          ],
+          "rows": [
+            {
+              "topic": "社会责任",
+              "metric_name": "公益捐赠金额",
+              "unit": "万元人民币",
+              "values": {
+                "总计": "895,69"
+              },
+              "evidence_text": "公益捐赠金额 万元人民币 总计 895,69"
+            },
+            {
+              "topic": "社会责任",
+              "metric_name": "员工接受反商业贿赂及反贪污培训的总时长",
+              "unit": "小时",
+              "values": {
+                "总计": "1,505"
+              },
+              "evidence_text": "员工接受反商业贿赂及反贪污培训的总时长 小时 总计 1,505"
+            },
+            {
+              "topic": "社会责任",
+              "metric_name": "员工人均接受反商业贿赂及反贪污培训时长",
+              "unit": "小时 / 人",
+              "values": {
+                "总计": "1"
+              },
+              "evidence_text": "员工人均接受反商业贿赂及反贪污培训时长 小时 / 人 总计 1"
+            },
+            {
+              "topic": "社会责任",
+              "metric_name": "接受反商业贿赂及反贪污培训的员工人数",
+              "unit": "人",
+              "values": {
+                "总计": "1,505"
+              },
+              "evidence_text": "接受反商业贿赂及反贪污培训的员工人数 人 总计 1,505"
+            },
+            {
+              "topic": "社会责任",
+              "metric_name": "董事接受反商业贿赂及反贪污培训的总时长",
+              "unit": "小时",
+              "values": {
+                "总计": "9"
+              },
+              "evidence_text": "董事接受反商业贿赂及反贪污培训的总时长 小时 总计 9"
+            },
+            {
+              "topic": "社会责任",
+              "metric_name": "董事人均接受反商业贿赂及反贪污培训时长",
+              "unit": "小时 / 人",
+              "values": {
+                "总计": "1"
+              },
+              "evidence_text": "董事人均接受反商业贿赂及反贪污培训时长 小时 / 人 总计 1"
+            },
+            {
+              "topic": "社会责任",
+              "metric_name": "接受反商业贿赂及反贪污培训的董事人数",
+              "unit": "人",
+              "values": {
+                "总计": "9"
+              },
+              "evidence_text": "接受反商业贿赂及反贪污培训的董事人数 人 总计 9"
+            },
+            {
+              "topic": "社会责任",
+              "metric_name": "反商业贿赂及反贪污培训覆盖的董事比例",
+              "unit": "%",
+              "values": {
+                "总计": "100"
+              },
+              "evidence_text": "反商业贿赂及反贪污培训覆盖的董事比例 % 总计 100"
+            },
+            {
+              "topic": "社会责任",
+              "metric_name": "涉及贪污诉讼案件数",
+              "unit": "件",
+              "values": {
+                "总计": "0"
+              },
+              "evidence_text": "涉及贪污诉讼案件数 件 总计 0"
+            },
+            {
+              "topic": "社会责任",
+              "metric_name": "因不正当竞争行为导致的诉讼或重大行政处罚金额",
+              "unit": "元人民币",
+              "values": {
+                "总计": "0"
+              },
+              "evidence_text": "因不正当竞争行为导致的诉讼或重大行政处罚金额 元人民币 总计 0"
+            }
+          ]
+        },
+        {
+          "table_title": "指标索引-反商业贿赂及反贪污",
+          "columns": [
+            "议题",
+            "指标项",
+            "单位",
+            "总计"
+          ],
+          "rows": [
+            {
+              "topic": "反商业贿赂及反贪污",
+              "metric_name": "反不正当竞争",
+              "unit": "",
+              "values": {
+                "总计": ""
+              },
+              "evidence_text": "反不正当竞争 因不正当竞争行为导致的诉讼或重大行政处罚金额 元人民币 总计 0"
+            }
+          ]
+        },
+        {
+          "table_title": "指标索引-上海证券交易所需指引索引",
+          "columns": [
+            "披露要求",
+            "对应的本报告章节"
+          ],
+          "rows": [
+            {
+              "topic": null,
+              "metric_name": "应对气候变化",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "应对气候变化"
+              },
+              "evidence_text": "披露要求 应对气候变化 对应的本报告章节 应对气候变化"
+            },
+            {
+              "topic": null,
+              "metric_name": "污染物排放",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "污染物排放管理"
+              },
+              "evidence_text": "披露要求 污染物排放 对应的本报告章节 污染物排放管理"
+            },
+            {
+              "topic": null,
+              "metric_name": "废弃物处理",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "污染物排放管理"
+              },
+              "evidence_text": "披露要求 废弃物处理 对应的本报告章节 污染物排放管理"
+            },
+            {
+              "topic": null,
+              "metric_name": "生态系统和生物多样性保护",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "/"
+              },
+              "evidence_text": "披露要求 生态系统和生物多样性保护 对应的本报告章节 /"
+            },
+            {
+              "topic": null,
+              "metric_name": "环境合规管理",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "统筹环境治理"
+              },
+              "evidence_text": "披露要求 环境合规管理 对应的本报告章节 统筹环境治理"
+            },
+            {
+              "topic": null,
+              "metric_name": "能源利用",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "推动节能降耗"
+              },
+              "evidence_text": "披露要求 能源利用 对应的本报告章节 推动节能降耗"
+            },
+            {
+              "topic": null,
+              "metric_name": "水资源利用",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "推动节能降耗"
+              },
+              "evidence_text": "披露要求 水资源利用 对应的本报告章节 推动节能降耗"
+            },
+            {
+              "topic": null,
+              "metric_name": "循环经济",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "倡导绿色运营"
+              },
+              "evidence_text": "披露要求 循环经济 对应的本报告章节 倡导绿色运营"
+            },
+            {
+              "topic": null,
+              "metric_name": "乡村振兴",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "投身公益慈善"
+              },
+              "evidence_text": "披露要求 乡村振兴 对应的本报告章节 投身公益慈善"
+            },
+            {
+              "topic": null,
+              "metric_name": "社会责任",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "投身公益慈善"
+              },
+              "evidence_text": "披露要求 社会责任 对应的本报告章节 投身公益慈善"
+            },
+            {
+              "topic": null,
+              "metric_name": "创新驱动",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "持续创新研发"
+              },
+              "evidence_text": "披露要求 创新驱动 对应的本报告章节 持续创新研发"
+            },
+            {
+              "topic": null,
+              "metric_name": "科技伦理",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "持续创新研发"
+              },
+              "evidence_text": "披露要求 科技伦理 对应的本报告章节 持续创新研发"
+            },
+            {
+              "topic": null,
+              "metric_name": "供应链安全",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "完善供应链管理"
+              },
+              "evidence_text": "披露要求 供应链安全 对应的本报告章节 完善供应链管理"
+            },
+            {
+              "topic": null,
+              "metric_name": "平等对待中小企业",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "/"
+              },
+              "evidence_text": "披露要求 平等对待中小企业 对应的本报告章节 /"
+            },
+            {
+              "topic": null,
+              "metric_name": "产品和服务安全与质量",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "提升产品质量"
+              },
+              "evidence_text": "披露要求 产品和服务安全与质量 对应的本报告章节 提升产品质量"
+            },
+            {
+              "topic": null,
+              "metric_name": "数据安全与客户隐私保护",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "保障信息安全"
+              },
+              "evidence_text": "披露要求 数据安全与客户隐私保护 对应的本报告章节 保障信息安全"
+            },
+            {
+              "topic": null,
+              "metric_name": "员工",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "保障员工权益、培育优秀人才、重视员工关怀、守护健康安全"
+              },
+              "evidence_text": "披露要求 员工 对应的本报告章节 保障员工权益、培育优秀人才、重视员工关怀、守护健康安全"
+            },
+            {
+              "topic": null,
+              "metric_name": "尽职调查",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "/"
+              },
+              "evidence_text": "披露要求 尽职调查 对应的本报告章节 /"
+            },
+            {
+              "topic": null,
+              "metric_name": "利益相关方沟通",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "利益相关方沟通"
+              },
+              "evidence_text": "披露要求 利益相关方沟通 对应的本报告章节 利益相关方沟通"
+            },
+            {
+              "topic": null,
+              "metric_name": "反商业贿赂及反贪污",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "恪守商业道德"
+              },
+              "evidence_text": "披露要求 反商业贿赂及反贪污 对应的本报告章节 恪守商业道德"
+            },
+            {
+              "topic": null,
+              "metric_name": "反不正当竞争",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "恪守商业道德"
+              },
+              "evidence_text": "披露要求 反不正当竞争 对应的本报告章节 恪守商业道德"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_60.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "GRI 指标索引",
+          "columns": [
+            "GRI 标准",
+            "披露项",
+            "对应的本报告章节"
+          ],
+          "rows": [
+            {
+              "topic": "GRI 2: 一般披露",
+              "metric_name": "组织详细情况",
+              "unit": "",
+              "values": {
+                "2024年": "关于本报告"
+              },
+              "evidence_text": "GRI 2: 一般披露 组织详细情况 关于本报告"
+            },
+            {
+              "topic": "GRI 2: 一般披露",
+              "metric_name": "纳入组织可持续发展报告的实体",
+              "unit": "",
+              "values": {
+                "2024年": "关于本报告"
+              },
+              "evidence_text": "GRI 2: 一般披露 纳入组织可持续发展报告的实体 关于本报告"
+            },
+            {
+              "topic": "GRI 2: 一般披露",
+              "metric_name": "报告期、报告频率和联系人",
+              "unit": "",
+              "values": {
+                "2024年": "关于本报告"
+              },
+              "evidence_text": "GRI 2: 一般披露 报告期、报告频率和联系人 关于本报告"
+            },
+            {
+              "topic": "GRI 2: 一般披露",
+              "metric_name": "活动、价值链和其他业务关系",
+              "unit": "",
+              "values": {
+                "2024年": "关于本报告"
+              },
+              "evidence_text": "GRI 2: 一般披露 活动、价值链和其他业务关系 关于本报告"
+            },
+            {
+              "topic": "GRI 2: 一般披露",
+              "metric_name": "员工",
+              "unit": "",
+              "values": {
+                "2024年": "保障员工权益、培养优秀人才、重视员工关怀、守护健康安全"
+              },
+              "evidence_text": "GRI 2: 一般披露 员工 保障员工权益、培养优秀人才、重视员工关怀、守护健康安全"
+            },
+            {
+              "topic": "GRI 2: 一般披露",
+              "metric_name": "管治架构和组成",
+              "unit": "",
+              "values": {
+                "2024年": "CSR 管治架构、完善公司治理"
+              },
+              "evidence_text": "GRI 2: 一般披露 管治架构和组成 CSR 管治架构、完善公司治理"
+            },
+            {
+              "topic": "GRI 2: 一般披露",
+              "metric_name": "最高管治机构的提名和遴选",
+              "unit": "",
+              "values": {
+                "2024年": "完善公司治理"
+              },
+              "evidence_text": "GRI 2: 一般披露 最高管治机构的提名和遴选 完善公司治理"
+            },
+            {
+              "topic": "GRI 2: 一般披露",
+              "metric_name": "最高管治机构的主席",
+              "unit": "",
+              "values": {
+                "2024年": "完善公司治理"
+              },
+              "evidence_text": "GRI 2: 一般披露 最高管治机构的主席 完善公司治理"
+            },
+            {
+              "topic": "GRI 2: 一般披露",
+              "metric_name": "在管理影响方面，最高管治机构的监督作用",
+              "unit": "",
+              "values": {
+                "2024年": "CSR 管治架构"
+              },
+              "evidence_text": "GRI 2: 一般披露 在管理影响方面，最高管治机构的监督作用 CSR 管治架构"
+            },
+            {
+              "topic": "GRI 2: 一般披露",
+              "metric_name": "为管理影响的责任授权",
+              "unit": "",
+              "values": {
+                "2024年": "CSR 管治架构"
+              },
+              "evidence_text": "GRI 2: 一般披露 为管理影响的责任授权 CSR 管治架构"
+            },
+            {
+              "topic": "GRI 2: 一般披露",
+              "metric_name": "最高管治机构在可持续发展报告中的作用",
+              "unit": "",
+              "values": {
+                "2024年": "CSR 管治架构"
+              },
+              "evidence_text": "GRI 2: 一般披露 最高管治机构在可持续发展报告中的作用 CSR 管治架构"
+            },
+            {
+              "topic": "GRI 2: 一般披露",
+              "metric_name": "薪酬政策",
+              "unit": "",
+              "values": {
+                "2024年": "保障员工权益"
+              },
+              "evidence_text": "GRI 2: 一般披露 薪酬政策 保障员工权益"
+            },
+            {
+              "topic": "GRI 2: 一般披露",
+              "metric_name": "关于可持续发展战略的声明",
+              "unit": "",
+              "values": {
+                "2024年": "总裁致辞"
+              },
+              "evidence_text": "GRI 2: 一般披露 关于可持续发展战略的声明 总裁致辞"
+            },
+            {
+              "topic": "GRI 2: 一般披露",
+              "metric_name": "遵守法律法规",
+              "unit": "",
+              "values": {
+                "2024年": "恪守商业道德、提升产品质量、统筹环境治理、污染物排放管理、保障员工权益"
+              },
+              "evidence_text": "GRI 2: 一般披露 遵守法律法规 恪守商业道德、提升产品质量、统筹环境治理、污染物排放管理、保障员工权益"
+            },
+            {
+              "topic": "GRI 2: 一般披露",
+              "metric_name": "利益相关方参与的方法",
+              "unit": "",
+              "values": {
+                "2024年": "利益相关方沟通"
+              },
+              "evidence_text": "GRI 2: 一般披露 利益相关方参与的方法 利益相关方沟通"
+            },
+            {
+              "topic": "GRI 3: 实质性议题",
+              "metric_name": "确定实质性议题的过程",
+              "unit": "",
+              "values": {
+                "2024年": "议题重要性评估"
+              },
+              "evidence_text": "GRI 3: 实质性议题 确定实质性议题的过程 议题重要性评估"
+            },
+            {
+              "topic": "GRI 3: 实质性议题",
+              "metric_name": "实质性议题清单",
+              "unit": "",
+              "values": {
+                "2024年": "议题重要性评估"
+              },
+              "evidence_text": "GRI 3: 实质性议题 实质性议题清单 议题重要性评估"
+            },
+            {
+              "topic": "GRI 3: 实质性议题",
+              "metric_name": "实质性议题的管理",
+              "unit": "",
+              "values": {
+                "2024年": "议题重要性评估"
+              },
+              "evidence_text": "GRI 3: 实质性议题 实质性议题的管理 议题重要性评估"
+            },
+            {
+              "topic": "GRI 201: 经济绩效",
+              "metric_name": "气候变化带来的财务影响以及其他风险和机遇",
+              "unit": "",
+              "values": {
+                "2024年": "应对气候变化"
+              },
+              "evidence_text": "GRI 201: 经济绩效 气候变化带来的财务影响以及其他风险和机遇 应对气候变化"
+            },
+            {
+              "topic": "GRI 标准",
+              "metric_name": "披露项",
+              "unit": "",
+              "values": {
+                "2024年": "对应的本报告章节"
+              },
+              "evidence_text": "GRI 标准 披露项 对应的本报告章节"
+            },
+            {
+              "topic": "GRI 204: 采购实践",
+              "metric_name": "向当地供应商采购的支出比例",
+              "unit": "",
+              "values": {
+                "2024年": "完善供应商管理"
+              },
+              "evidence_text": "GRI 204: 采购实践 向当地供应商采购的支出比例 完善供应商管理"
+            },
+            {
+              "topic": "GRI 205: 反腐败",
+              "metric_name": "已进行腐败风险评估的运营点",
+              "unit": "",
+              "values": {
+                "2024年": "恪守商业道德"
+              },
+              "evidence_text": "GRI 205: 反腐败 已进行腐败风险评估的运营点 恪守商业道德"
+            },
+            {
+              "topic": "GRI 205: 反腐败",
+              "metric_name": "反腐败政策和程序的传达及培训",
+              "unit": "",
+              "values": {
+                "2024年": "恪守商业道德"
+              },
+              "evidence_text": "GRI 205: 反腐败 反腐败政策和程序的传达及培训 恪守商业道德"
+            },
+            {
+              "topic": "GRI 205: 反腐败",
+              "metric_name": "经确认的腐败事件和采取的行动",
+              "unit": "",
+              "values": {
+                "2024年": "恪守商业道德"
+              },
+              "evidence_text": "GRI 205: 反腐败 经确认的腐败事件和采取的行动 恪守商业道德"
+            },
+            {
+              "topic": "GRI 206: 反竞争行为",
+              "metric_name": "针对反竞争行为、反托拉斯和反垄断实践的法律诉讼",
+              "unit": "",
+              "values": {
+                "2024年": "恪守商业道德"
+              },
+              "evidence_text": "GRI 206: 反竞争行为 针对反竞争行为、反托拉斯和反垄断实践的法律诉讼 恪守商业道德"
+            },
+            {
+              "topic": "GRI 301: 物料",
+              "metric_name": "所用循环利用的进料",
+              "unit": "",
+              "values": {
+                "2024年": "推动节能降耗"
+              },
+              "evidence_text": "GRI 301: 物料 所用循环利用的进料 推动节能降耗"
+            },
+            {
+              "topic": "GRI 302: 能源",
+              "metric_name": "组织内部的能源消耗量",
+              "unit": "",
+              "values": {
+                "2024年": "推动节能降耗"
+              },
+              "evidence_text": "GRI 302: 能源 组织内部的能源消耗量 推动节能降耗"
+            },
+            {
+              "topic": "GRI 302: 能源",
+              "metric_name": "能源强度",
+              "unit": "",
+              "values": {
+                "2024年": "推动节能降耗"
+              },
+              "evidence_text": "GRI 302: 能源 能源强度 推动节能降耗"
+            },
+            {
+              "topic": "GRI 302: 能源",
+              "metric_name": "减少能源消耗",
+              "unit": "",
+              "values": {
+                "2024年": "推动节能降耗、倡导绿色运营"
+              },
+              "evidence_text": "GRI 302: 能源 减少能源消耗 推动节能降耗、倡导绿色运营"
+            },
+            {
+              "topic": "GRI 303: 水资源和污水",
+              "metric_name": "组织与水作为共有资源的相互影响",
+              "unit": "",
+              "values": {
+                "2024年": "推动节能降耗"
+              },
+              "evidence_text": "GRI 303: 水资源和污水 组织与水作为共有资源的相互影响 推动节能降耗"
+            },
+            {
+              "topic": "GRI 303: 水资源和污水",
+              "metric_name": "管理与排水相关的影响",
+              "unit": "",
+              "values": {
+                "2024年": "污染物排放管理"
+              },
+              "evidence_text": "GRI 303: 水资源和污水 管理与排水相关的影响 污染物排放管理"
+            },
+            {
+              "topic": "GRI 303: 水资源和污水",
+              "metric_name": "取水",
+              "unit": "",
+              "values": {
+                "2024年": "推动节能降耗"
+              },
+              "evidence_text": "GRI 303: 水资源和污水 取水 推动节能降耗"
+            },
+            {
+              "topic": "GRI 303: 水资源和污水",
+              "metric_name": "排水",
+              "unit": "",
+              "values": {
+                "2024年": "污染物排放管理"
+              },
+              "evidence_text": "GRI 303: 水资源和污水 排水 污染物排放管理"
+            },
+            {
+              "topic": "GRI 305: 排放",
+              "metric_name": "直接（范围 1）温室气体排放",
+              "unit": "",
+              "values": {
+                "2024年": "应对气候变化"
+              },
+              "evidence_text": "GRI 305: 排放 直接（范围 1）温室气体排放 应对气候变化"
+            },
+            {
+              "topic": "GRI 305: 排放",
+              "metric_name": "能源间接（范围 2）温室气体排放",
+              "unit": "",
+              "values": {
+                "2024年": "应对气候变化"
+              },
+              "evidence_text": "GRI 305: 排放 能源间接（范围 2）温室气体排放 应对气候变化"
+            },
+            {
+              "topic": "GRI 305: 排放",
+              "metric_name": "温室气体排放强度",
+              "unit": "",
+              "values": {
+                "2024年": "应对气候变化"
+              },
+              "evidence_text": "GRI 305: 排放 温室气体排放强度 应对气候变化"
+            }
+          ]
+        }
+      ],
+      "retry_used": true,
+      "retry_reason": "first_pass_no_rows_or_not_table"
+    },
+    {
+      "page_image": "page_61.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "量化数据绩效表",
+          "columns": [
+            "GRI 标准",
+            "指标项",
+            "对应的本报告章节"
+          ],
+          "rows": [
+            {
+              "topic": "GRI 306: 废弃物",
+              "metric_name": "306-1 废弃物的产生及废弃物相关重大影响",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "污染物排放管理"
+              },
+              "evidence_text": "GRI 306: 废弃物 306-1 废弃物的产生及废弃物相关重大影响 污染物排放管理"
+            },
+            {
+              "topic": "GRI 306: 废弃物",
+              "metric_name": "306-2 废弃物相关重大影响的管理",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "污染物排放管理"
+              },
+              "evidence_text": "GRI 306: 废弃物 306-2 废弃物相关重大影响的管理 污染物排放管理"
+            },
+            {
+              "topic": "GRI 306: 废弃物",
+              "metric_name": "306-3 产生的废弃物",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "污染物排放管理"
+              },
+              "evidence_text": "GRI 306: 废弃物 306-3 产生的废弃物 污染物排放管理"
+            },
+            {
+              "topic": "GRI 308: 供应链与环境评估",
+              "metric_name": "308-1 使用环境评价维度筛选的新供应商",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "完善供应链管理"
+              },
+              "evidence_text": "GRI 308: 供应链与环境评估 308-1 使用环境评价维度筛选的新供应商 完善供应链管理"
+            },
+            {
+              "topic": "GRI 308: 供应链与环境评估",
+              "metric_name": "308-2 供应链的负面环境影响以及采取的行动",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "完善供应链管理"
+              },
+              "evidence_text": "GRI 308: 供应链与环境评估 308-2 供应链的负面环境影响以及采取的行动 完善供应链管理"
+            },
+            {
+              "topic": "GRI 401: 员工",
+              "metric_name": "401-1 新进员工雇佣率和员工流动率",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "保障员工权益"
+              },
+              "evidence_text": "GRI 401: 员工 401-1 新进员工雇佣率和员工流动率 保障员工权益"
+            },
+            {
+              "topic": "GRI 401: 员工",
+              "metric_name": "401-2 提供给全职员工（不包括临时或兼职员工）的福利",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "重视员工关怀"
+              },
+              "evidence_text": "GRI 401: 员工 401-2 提供给全职员工（不包括临时或兼职员工）的福利 重视员工关怀"
+            },
+            {
+              "topic": "GRI 401: 员工",
+              "metric_name": "401-3 育儿假",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "重视员工关怀"
+              },
+              "evidence_text": "GRI 401: 员工 401-3 育儿假 重视员工关怀"
+            },
+            {
+              "topic": "GRI 403: 职业健康与安全",
+              "metric_name": "403-1 职业健康安全管理",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "守护健康安全"
+              },
+              "evidence_text": "GRI 403: 职业健康与安全 403-1 职业健康安全管理 守护健康安全"
+            },
+            {
+              "topic": "GRI 403: 职业健康与安全",
+              "metric_name": "403-2 危害识别、风险评估和事故调查",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "守护健康安全"
+              },
+              "evidence_text": "GRI 403: 职业健康与安全 403-2 危害识别、风险评估和事故调查 守护健康安全"
+            },
+            {
+              "topic": "GRI 403: 职业健康与安全",
+              "metric_name": "403-3 职业健康服务",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "守护健康安全"
+              },
+              "evidence_text": "GRI 403: 职业健康与安全 403-3 职业健康服务 守护健康安全"
+            },
+            {
+              "topic": "GRI 403: 职业健康与安全",
+              "metric_name": "403-4 职业健康安全事务：工作者的参与、意见征询和沟通",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "守护健康安全"
+              },
+              "evidence_text": "GRI 403: 职业健康与安全 403-4 职业健康安全事务：工作者的参与、意见征询和沟通 守护健康安全"
+            },
+            {
+              "topic": "GRI 403: 职业健康与安全",
+              "metric_name": "403-5 工作者职业健康安全培训",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "守护健康安全"
+              },
+              "evidence_text": "GRI 403: 职业健康与安全 403-5 工作者职业健康安全培训 守护健康安全"
+            },
+            {
+              "topic": "GRI 403: 职业健康与安全",
+              "metric_name": "403-6 促进工作者健康",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "守护健康安全"
+              },
+              "evidence_text": "GRI 403: 职业健康与安全 403-6 促进工作者健康 守护健康安全"
+            },
+            {
+              "topic": "GRI 403: 职业健康与安全",
+              "metric_name": "403-7 预防和减缓与业务关系直接相关的职业健康安全影响",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "守护健康安全"
+              },
+              "evidence_text": "GRI 403: 职业健康与安全 403-7 预防和减缓与业务关系直接相关的职业健康安全影响 守护健康安全"
+            },
+            {
+              "topic": "GRI 403: 职业健康与安全",
+              "metric_name": "403-8 职业健康安全管理体系建设覆盖的工作者",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "守护健康安全"
+              },
+              "evidence_text": "GRI 403: 职业健康与安全 403-8 职业健康安全管理体系建设覆盖的工作者 守护健康安全"
+            },
+            {
+              "topic": "GRI 404: 培训和教育",
+              "metric_name": "404-1 每名员工每年接受培训的平均小时数",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "培育优秀人才"
+              },
+              "evidence_text": "GRI 404: 培训和教育 404-1 每名员工每年接受培训的平均小时数 培育优秀人才"
+            },
+            {
+              "topic": "GRI 404: 培训和教育",
+              "metric_name": "404-2 员工技能提升方案和过程援助方案",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "培育优秀人才"
+              },
+              "evidence_text": "GRI 404: 培训和教育 404-2 员工技能提升方案和过程援助方案 培育优秀人才"
+            },
+            {
+              "topic": "GRI 405: 多元化与平等机会",
+              "metric_name": "405-1 管理机构与员工的多元化",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "保障员工权益"
+              },
+              "evidence_text": "GRI 405: 多元化与平等机会 405-1 管理机构与员工的多元化 保障员工权益"
+            },
+            {
+              "topic": "GRI 408: 劳工",
+              "metric_name": "408-1 具有重大劳工事件风险的运营点和供应商",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "保障员工权益"
+              },
+              "evidence_text": "GRI 408: 劳工 408-1 具有重大劳工事件风险的运营点和供应商 保障员工权益"
+            },
+            {
+              "topic": "GRI 414: 供应商社会评估",
+              "metric_name": "414-1 使用社会评价维度筛选的新供应商（百分比）",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "完善供应链管理"
+              },
+              "evidence_text": "GRI 414: 供应商社会评估 414-1 使用社会评价维度筛选的新供应商（百分比） 完善供应链管理"
+            },
+            {
+              "topic": "GRI 414: 供应商社会评估",
+              "metric_name": "414-2 供应链的负面社会影响以及采取的行动",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "完善供应链管理"
+              },
+              "evidence_text": "GRI 414: 供应商社会评估 414-2 供应链的负面社会影响以及采取的行动 完善供应链管理"
+            },
+            {
+              "topic": "GRI 416: 客户健康与安全",
+              "metric_name": "416-1 评估产品和服务类别的健康与安全影响",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "提升产品质量"
+              },
+              "evidence_text": "GRI 416: 客户健康与安全 416-1 评估产品和服务类别的健康与安全影响 提升产品质量"
+            },
+            {
+              "topic": "GRI 416: 客户健康与安全",
+              "metric_name": "416-2 涉及产品和服务的健康与安全影响的违规事件",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "提升产品质量"
+              },
+              "evidence_text": "GRI 416: 客户健康与安全 416-2 涉及产品和服务的健康与安全影响的违规事件 提升产品质量"
+            },
+            {
+              "topic": "GRI 417: 营销与标识",
+              "metric_name": "417-1 对产品和服务信息与标识的要求",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "优化客户服务"
+              },
+              "evidence_text": "GRI 417: 营销与标识 417-1 对产品和服务信息与标识的要求 优化客户服务"
+            },
+            {
+              "topic": "GRI 417: 营销与标识",
+              "metric_name": "417-2 涉及产品和服务信息与标识的违规事件",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "优化客户服务"
+              },
+              "evidence_text": "GRI 417: 营销与标识 417-2 涉及产品和服务信息与标识的违规事件 优化客户服务"
+            },
+            {
+              "topic": "GRI 417: 营销与标识",
+              "metric_name": "417-3 涉及营销传播的违规事件",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "优化客户服务"
+              },
+              "evidence_text": "GRI 417: 营销与标识 417-3 涉及营销传播的违规事件 优化客户服务"
+            },
+            {
+              "topic": "GRI 418: 客户隐私",
+              "metric_name": "418-1 涉及侵犯客户隐私和丢失客户资料的经证实的投诉",
+              "unit": "",
+              "values": {
+                "对应的本报告章节": "保障信息安全"
+              },
+              "evidence_text": "GRI 418: 客户隐私 418-1 涉及侵犯客户隐私和丢失客户资料的经证实的投诉 保障信息安全"
+            }
+          ]
+        }
+      ],
+      "retry_used": true,
+      "retry_reason": "first_pass_no_rows_or_not_table"
+    },
+    {
+      "page_image": "page_62.png",
+      "page_type": "other",
+      "page_note": "该页面为浙江华海药业股份有限公司2024年度企业社会责任报告的名词释义和意见反馈部分，不包含ESG绩效数据表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_62_left.png",
+      "page_type": "other",
+      "page_note": "该页面为名词释义页面，不包含ESG绩效数据表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_62_right.png",
+      "page_type": "other",
+      "page_note": "该页面为读者意见反馈表，不包含ESG绩效数据表格。",
+      "tables": [],
+      "retry_used": false
+    }
+  ],
+  "raw_row_count": 208,
+  "standard_results": {
+    "total_ghg_emissions": {
+      "field_key": "total_ghg_emissions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "温室气体排放总量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "ghg_emissions_intensity": {
+      "field_key": "ghg_emissions_intensity",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "温室气体排放强度",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "scope_1_emissions": {
+      "field_key": "scope_1_emissions",
+      "value": 58691,
+      "raw_value": "58,691",
+      "unit": "吨二氧化碳当量",
+      "year": 2024,
+      "row_label": "范围一温室气体排放量",
+      "topic": null,
+      "table_title": "温室气体排放数据",
+      "page_image": "page_33.png",
+      "evidence_text": "范围一温室气体排放量 吨二氧化碳当量 2024年 58,691",
+      "status": "extracted",
+      "confidence": 0.96,
+      "match_reason": "heuristic_scope_1; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "scope_2_emissions": {
+      "field_key": "scope_2_emissions",
+      "value": 349692,
+      "raw_value": "349,692",
+      "unit": "吨二氧化碳当量",
+      "year": 2024,
+      "row_label": "范围二温室气体排放量",
+      "topic": null,
+      "table_title": "温室气体排放数据",
+      "page_image": "page_33.png",
+      "evidence_text": "范围二温室气体排放量 吨二氧化碳当量 2024年 349,692",
+      "status": "extracted",
+      "confidence": 0.96,
+      "match_reason": "heuristic_scope_2; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "energy_consumption_total": {
+      "field_key": "energy_consumption_total",
+      "value": 111030,
+      "raw_value": "111,030",
+      "unit": "吨标煤",
+      "year": 2024,
+      "row_label": "综合能源消耗量",
+      "topic": null,
+      "table_title": "能源使用数据表",
+      "page_image": "page_38.png",
+      "evidence_text": "综合能源消耗量 吨标煤 2024年 111,030",
+      "status": "extracted",
+      "confidence": 0.96,
+      "match_reason": "normalized_alias_match:综合能源消耗; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "energy_consumption_intensity": {
+      "field_key": "energy_consumption_intensity",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "能源消耗强度",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "natural_gas_consumption": {
+      "field_key": "natural_gas_consumption",
+      "value": 4231675,
+      "raw_value": "4,231,675",
+      "unit": "立方米",
+      "year": 2024,
+      "row_label": "天然气用量",
+      "topic": null,
+      "table_title": "能源使用数据表",
+      "page_image": "page_38.png",
+      "evidence_text": "天然气用量 立方米 2024年 4,231,675",
+      "status": "extracted",
+      "confidence": 0.9,
+      "match_reason": "heuristic_natural_gas_consumption; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "electricity_consumption": {
+      "field_key": "electricity_consumption",
+      "value": 340842,
+      "raw_value": "340,842",
+      "unit": "兆瓦时",
+      "year": 2024,
+      "row_label": "外购电力用量",
+      "topic": null,
+      "table_title": "能源使用数据表",
+      "page_image": "page_38.png",
+      "evidence_text": "外购电力用量 兆瓦时 2024年 340,842",
+      "status": "extracted",
+      "confidence": 0.92,
+      "match_reason": "heuristic_electricity; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "water_consumption": {
+      "field_key": "water_consumption",
+      "value": 2303965,
+      "raw_value": "2,303,965",
+      "unit": "立方米",
+      "year": 2024,
+      "row_label": "总取水量",
+      "topic": "能源利用",
+      "table_title": "能源利用",
+      "page_image": "page_58.png",
+      "evidence_text": "能源利用 总取水量 立方米 2,303,965",
+      "status": "extracted",
+      "confidence": 0.92,
+      "match_reason": "heuristic_water; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "wastewater_discharge": {
+      "field_key": "wastewater_discharge",
+      "value": 1487377,
+      "raw_value": "1,487,377",
+      "unit": "立方米",
+      "year": 2024,
+      "row_label": "废水排放总量",
+      "topic": "水资源利用",
+      "table_title": "水资源利用",
+      "page_image": "page_58.png",
+      "evidence_text": "水资源利用 废水排放总量 立方米 1,487,377",
+      "status": "extracted",
+      "confidence": 0.96,
+      "match_reason": "normalized_alias_match:废水排放总量; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "air_pollutant_emissions": {
+      "field_key": "air_pollutant_emissions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "废气或大气污染物排放量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "non_hazardous_waste": {
+      "field_key": "non_hazardous_waste",
+      "value": 5001,
+      "raw_value": "5,001",
+      "unit": "吨",
+      "year": 2024,
+      "row_label": "无害废弃物总量",
+      "topic": null,
+      "table_title": "无害废弃物排放数据",
+      "page_image": "page_37.png",
+      "evidence_text": "无害废弃物总量 吨 2024年 5,001",
+      "status": "extracted",
+      "confidence": 0.96,
+      "match_reason": "manual_alias_override:无害废弃物总量; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "hazardous_waste": {
+      "field_key": "hazardous_waste",
+      "value": 87383,
+      "raw_value": "87,383",
+      "unit": "吨",
+      "year": 2024,
+      "row_label": "有害废弃物总量",
+      "topic": null,
+      "table_title": "有害废弃物排放数据",
+      "page_image": "page_37.png",
+      "evidence_text": "有害废弃物总量 吨 2024年 87,383",
+      "status": "extracted",
+      "confidence": 0.93,
+      "match_reason": "heuristic_hazardous_waste; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "environmental_investment": {
+      "field_key": "environmental_investment",
+      "value": 25562.67,
+      "raw_value": "25,562.67",
+      "unit": "万元人民币",
+      "year": 2024,
+      "row_label": "年度环保投资支出",
+      "topic": null,
+      "table_title": "完善环境突发应急预案",
+      "page_image": "page_34.png",
+      "evidence_text": "年度环保投资支出 万元人民币 25,562.67",
+      "status": "extracted",
+      "confidence": 0.92,
+      "match_reason": "heuristic_environmental_investment; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "environmental_penalty_count": {
+      "field_key": "environmental_penalty_count",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "环境违规或处罚事件数量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "total_employees": {
+      "field_key": "total_employees",
+      "value": 9065,
+      "raw_value": "9,065",
+      "unit": "人",
+      "year": 2024,
+      "row_label": "员工总人数",
+      "topic": "应对气候变化",
+      "table_title": "应对气候变化",
+      "page_image": "page_58.png",
+      "evidence_text": "应对气候变化 员工总人数 人 9,065",
+      "status": "extracted",
+      "confidence": 0.93,
+      "match_reason": "heuristic_total_employees; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "male_employees": {
+      "field_key": "male_employees",
+      "value": 5341,
+      "raw_value": "5,341",
+      "unit": "人",
+      "year": 2024,
+      "row_label": "男性员工人数",
+      "topic": "应对气候变化",
+      "table_title": "应对气候变化",
+      "page_image": "page_58.png",
+      "evidence_text": "应对气候变化 男性员工人数 人 5,341",
+      "status": "extracted",
+      "confidence": 0.92,
+      "match_reason": "heuristic_male_employees; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "female_employees": {
+      "field_key": "female_employees",
+      "value": 3724,
+      "raw_value": "3,724",
+      "unit": "人",
+      "year": 2024,
+      "row_label": "女性员工人数",
+      "topic": "应对气候变化",
+      "table_title": "应对气候变化",
+      "page_image": "page_58.png",
+      "evidence_text": "应对气候变化 女性员工人数 人 3,724",
+      "status": "extracted",
+      "confidence": 0.92,
+      "match_reason": "heuristic_female_employees; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "female_employee_ratio": {
+      "field_key": "female_employee_ratio",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "女性员工比例",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "employee_turnover_rate": {
+      "field_key": "employee_turnover_rate",
+      "value": 16.02,
+      "raw_value": "16.02",
+      "unit": "%",
+      "year": 2024,
+      "row_label": "员工流失率",
+      "topic": "应对气候变化",
+      "table_title": "应对气候变化",
+      "page_image": "page_58.png",
+      "evidence_text": "应对气候变化 员工流失率 % 16.02",
+      "status": "extracted",
+      "confidence": 0.9500000000000001,
+      "match_reason": "normalized_alias_match:员工流失率; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "training_total_hours": {
+      "field_key": "training_total_hours",
+      "value": 766921,
+      "raw_value": "766,921",
+      "unit": "小时",
+      "year": 2024,
+      "row_label": "员工接受培训总时长",
+      "topic": "应对气候变化",
+      "table_title": "应对气候变化",
+      "page_image": "page_58.png",
+      "evidence_text": "应对气候变化 员工接受培训总时长 小时 766,921",
+      "status": "extracted",
+      "confidence": 0.9500000000000001,
+      "match_reason": "normalized_alias_match:培训总时长; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "training_hours_per_employee": {
+      "field_key": "training_hours_per_employee",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "人均培训时长",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "training_coverage_rate": {
+      "field_key": "training_coverage_rate",
+      "value": 100,
+      "raw_value": "100",
+      "unit": "%",
+      "year": 2024,
+      "row_label": "员工培训覆盖率",
+      "topic": "应对气候变化",
+      "table_title": "应对气候变化",
+      "page_image": "page_58.png",
+      "evidence_text": "应对气候变化 员工培训覆盖率 % 100",
+      "status": "extracted",
+      "confidence": 0.97,
+      "match_reason": "normalized_alias_match:员工培训覆盖率; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "social_security_coverage": {
+      "field_key": "social_security_coverage",
+      "value": 100,
+      "raw_value": "100",
+      "unit": "%",
+      "year": 2024,
+      "row_label": "社会保险覆盖率",
+      "topic": "应对气候变化",
+      "table_title": "应对气候变化",
+      "page_image": "page_58.png",
+      "evidence_text": "应对气候变化 社会保险覆盖率 % 100",
+      "status": "extracted",
+      "confidence": 0.92,
+      "match_reason": "heuristic_social_security_coverage; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "employee_medical_checkup_coverage": {
+      "field_key": "employee_medical_checkup_coverage",
+      "value": 100,
+      "raw_value": "100",
+      "unit": "%",
+      "year": 2024,
+      "row_label": "员工体检覆盖率",
+      "topic": "应对气候变化",
+      "table_title": "应对气候变化",
+      "page_image": "page_58.png",
+      "evidence_text": "应对气候变化 员工体检覆盖率 % 100",
+      "status": "extracted",
+      "confidence": 0.9,
+      "match_reason": "heuristic_employee_medical_checkup_coverage; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "trained_employees_count": {
+      "field_key": "trained_employees_count",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "受训员工人数",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "safety_accident_count": {
+      "field_key": "safety_accident_count",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "安全生产事故数量",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "occupational_health_safety_investment": {
+      "field_key": "occupational_health_safety_investment",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "安全生产投入",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "safety_emergency_drill_count": {
+      "field_key": "safety_emergency_drill_count",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "安全应急演练次数",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "lost_work_days_due_to_injury": {
+      "field_key": "lost_work_days_due_to_injury",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "因工伤损失工作日数",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "r_and_d_personnel_count": {
+      "field_key": "r_and_d_personnel_count",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "研发人员数量",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "r_and_d_expense": {
+      "field_key": "r_and_d_expense",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "研发投入金额",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "public_welfare_investment": {
+      "field_key": "public_welfare_investment",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "公益投入金额",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "board_size": {
+      "field_key": "board_size",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "董事会人数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "independent_directors": {
+      "field_key": "independent_directors",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "独立董事人数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "independent_director_ratio": {
+      "field_key": "independent_director_ratio",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "独立董事比例",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "female_directors": {
+      "field_key": "female_directors",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "女性董事人数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "board_meetings": {
+      "field_key": "board_meetings",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "董事会会议次数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "shareholder_meetings": {
+      "field_key": "shareholder_meetings",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "股东大会会议次数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "anti_corruption_training_sessions": {
+      "field_key": "anti_corruption_training_sessions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "反腐败培训次数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "anti_corruption_training_participants": {
+      "field_key": "anti_corruption_training_participants",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "反腐败培训人数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "confirmed_corruption_cases": {
+      "field_key": "confirmed_corruption_cases",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "确认腐败案件数量",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "esg_strategy_targets": {
+      "field_key": "esg_strategy_targets",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "ESG战略目标",
+      "category": "E",
+      "indicator_type": "qualitative"
+    },
+    "climate_risk_management": {
+      "field_key": "climate_risk_management",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "气候风险识别与管理",
+      "category": "E",
+      "indicator_type": "qualitative"
+    },
+    "environmental_management_system": {
+      "field_key": "environmental_management_system",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "环境管理体系",
+      "category": "E",
+      "indicator_type": "qualitative"
+    },
+    "energy_saving_measures": {
+      "field_key": "energy_saving_measures",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "节能减排措施",
+      "category": "E",
+      "indicator_type": "qualitative"
+    },
+    "water_management_measures": {
+      "field_key": "water_management_measures",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "水资源管理措施",
+      "category": "E",
+      "indicator_type": "qualitative"
+    },
+    "waste_management_measures": {
+      "field_key": "waste_management_measures",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "废弃物管理措施",
+      "category": "E",
+      "indicator_type": "qualitative"
+    },
+    "employee_rights_policy": {
+      "field_key": "employee_rights_policy",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "员工权益保障政策",
+      "category": "S",
+      "indicator_type": "qualitative"
+    },
+    "occupational_health_safety_system": {
+      "field_key": "occupational_health_safety_system",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "职业健康安全管理体系",
+      "category": "S",
+      "indicator_type": "qualitative"
+    },
+    "employee_training_development": {
+      "field_key": "employee_training_development",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "员工培训与发展机制",
+      "category": "S",
+      "indicator_type": "qualitative"
+    },
+    "diversity_equal_opportunity": {
+      "field_key": "diversity_equal_opportunity",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "多元化与平等雇佣政策",
+      "category": "S",
+      "indicator_type": "qualitative"
+    },
+    "supplier_esg_assessment": {
+      "field_key": "supplier_esg_assessment",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "供应商ESG管理机制",
+      "category": "S",
+      "indicator_type": "qualitative"
+    },
+    "data_security_privacy": {
+      "field_key": "data_security_privacy",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "数据安全与隐私保护机制",
+      "category": "S",
+      "indicator_type": "qualitative"
+    },
+    "board_esg_oversight": {
+      "field_key": "board_esg_oversight",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "董事会ESG监督机制",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "esg_committee": {
+      "field_key": "esg_committee",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "ESG治理架构或委员会",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "anti_corruption_policy": {
+      "field_key": "anti_corruption_policy",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "反腐败政策",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "whistleblowing_mechanism": {
+      "field_key": "whistleblowing_mechanism",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "举报机制与举报人保护",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "business_ethics_training": {
+      "field_key": "business_ethics_training",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "商业道德培训机制",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "investor_communication": {
+      "field_key": "investor_communication",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "信息披露与投资者沟通机制",
+      "category": "G",
+      "indicator_type": "qualitative"
+    }
+  },
+  "unknown_metrics": [
+    {
+      "page_image": "page_33.png",
+      "table_title": "温室气体排放数据",
+      "topic": null,
+      "metric_name": "温室气体排放总量（范围一＋范围二）",
+      "unit": "吨二氧化碳当量",
+      "values": {
+        "2024年": "408,383"
+      },
+      "evidence_text": "温室气体排放总量（范围一＋范围二） 吨二氧化碳当量 2024年 408,383",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_scope_1"
+    },
+    {
+      "page_image": "page_33.png",
+      "table_title": "温室气体排放数据",
+      "topic": null,
+      "metric_name": "温室气体排放密度（范围一＋范围二）",
+      "unit": "吨二氧化碳当量/百万营收",
+      "values": {
+        "2024年": "42.77"
+      },
+      "evidence_text": "温室气体排放密度（范围一＋范围二） 吨二氧化碳当量/百万营收 2024年 42.77",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_scope_1"
+    },
+    {
+      "page_image": "page_34.png",
+      "table_title": "华海药业附属公司环境管理体系认证情况一览",
+      "topic": null,
+      "metric_name": "集团公司（制剂分厂）",
+      "unit": null,
+      "values": {
+        "2024年": "ISO 14001"
+      },
+      "evidence_text": "集团公司（制剂分厂） ISO 14001",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_34.png",
+      "table_title": "华海药业附属公司环境管理体系认证情况一览",
+      "topic": null,
+      "metric_name": "立诚药业",
+      "unit": null,
+      "values": {
+        "2024年": "ISO 14001"
+      },
+      "evidence_text": "立诚药业 ISO 14001",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_34.png",
+      "table_title": "华海药业附属公司环境管理体系认证情况一览",
+      "topic": null,
+      "metric_name": "川南公司",
+      "unit": null,
+      "values": {
+        "2024年": "ISO 14001"
+      },
+      "evidence_text": "川南公司 ISO 14001",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_34.png",
+      "table_title": "华海药业附属公司环境管理体系认证情况一览",
+      "topic": null,
+      "metric_name": "华南公司",
+      "unit": null,
+      "values": {
+        "2024年": "ISO 14001"
+      },
+      "evidence_text": "华南公司 ISO 14001",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_34.png",
+      "table_title": "华海药业附属公司环境管理体系认证情况一览",
+      "topic": null,
+      "metric_name": "长兴制药",
+      "unit": null,
+      "values": {
+        "2024年": "ISO 14001"
+      },
+      "evidence_text": "长兴制药 ISO 14001",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_34.png",
+      "table_title": "华海药业附属公司开展清洁生产审核工作一览",
+      "topic": null,
+      "metric_name": "华海药业（制剂分厂）",
+      "unit": null,
+      "values": {
+        "2024年": "2022年11月"
+      },
+      "evidence_text": "华海药业（制剂分厂） 2022年11月",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_34.png",
+      "table_title": "华海药业附属公司开展清洁生产审核工作一览",
+      "topic": null,
+      "metric_name": "华南公司",
+      "unit": null,
+      "values": {
+        "2024年": "2024年12月"
+      },
+      "evidence_text": "华南公司 2024年12月",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_34.png",
+      "table_title": "华海药业附属公司开展清洁生产审核工作一览",
+      "topic": null,
+      "metric_name": "立诚药业",
+      "unit": null,
+      "values": {
+        "2024年": "2024年12月"
+      },
+      "evidence_text": "立诚药业 2024年12月",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_34.png",
+      "table_title": "华海药业附属公司开展清洁生产审核工作一览",
+      "topic": null,
+      "metric_name": "川南公司",
+      "unit": null,
+      "values": {
+        "2024年": "2024年12月"
+      },
+      "evidence_text": "川南公司 2024年12月",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_34.png",
+      "table_title": "完善环境突发应急预案",
+      "topic": null,
+      "metric_name": "因违反环境保护法律法规而受到的罚款总额",
+      "unit": "万元人民币",
+      "values": {
+        "2024年": "0"
+      },
+      "evidence_text": "因违反环境保护法律法规而受到的罚款总额 万元人民币 0",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_34.png",
+      "table_title": "完善环境突发应急预案",
+      "topic": null,
+      "metric_name": "因违反环境保护法律法规而受到处罚的事件数",
+      "unit": "件",
+      "values": {
+        "2024年": "0"
+      },
+      "evidence_text": "因违反环境保护法律法规而受到处罚的事件数 件 0",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "无害废弃物排放数据",
+      "topic": null,
+      "metric_name": "按处置方式分类的无害废弃物量：回收 / 再利用",
+      "unit": "吨",
+      "values": {
+        "2024年": "3,097"
+      },
+      "evidence_text": "按处置方式分类的无害废弃物量：回收 / 再利用 吨 2024年 3,097",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=heuristic_non_hazardous_waste"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "无害废弃物排放数据",
+      "topic": null,
+      "metric_name": "按处置方式分类的无害废弃物量：焚烧且有进行能量回收",
+      "unit": "吨",
+      "values": {
+        "2024年": "17"
+      },
+      "evidence_text": "按处置方式分类的无害废弃物量：焚烧且有进行能量回收 吨 2024年 17",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=heuristic_non_hazardous_waste"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "无害废弃物排放数据",
+      "topic": null,
+      "metric_name": "按处置方式分类的无害废弃物量：焚烧且无能量回收",
+      "unit": "吨",
+      "values": {
+        "2024年": "1,887"
+      },
+      "evidence_text": "按处置方式分类的无害废弃物量：焚烧且无能量回收 吨 2024年 1,887",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=heuristic_non_hazardous_waste"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "2024年各分厂能源管理方案清单",
+      "topic": null,
+      "metric_name": "根据设备实际运行情况进行变频，节约电量",
+      "unit": "节电：18.7万度",
+      "values": {
+        "2024年": "18.7"
+      },
+      "evidence_text": "1 根据设备实际运行情况进行变频，节约电量 节电：18.7万度 川南分厂",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "2024年各分厂能源管理方案清单",
+      "topic": null,
+      "metric_name": "对物料预热加热，降低蒸馏时长",
+      "unit": "节电：5.5万度",
+      "values": {
+        "2024年": "5.5"
+      },
+      "evidence_text": "2 对物料预热加热，降低蒸馏时长 节电：5.5万度",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "2024年各分厂能源管理方案清单",
+      "topic": null,
+      "metric_name": "车间独立供冷改为厂区集中供冷",
+      "unit": "节电：4.5万度",
+      "values": {
+        "2024年": "4.5"
+      },
+      "evidence_text": "3 车间独立供冷改为厂区集中供冷 节电：4.5万度",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "2024年各分厂能源管理方案清单",
+      "topic": null,
+      "metric_name": "新蒸汽直接加热工艺，减少热泵耗电",
+      "unit": "节电：17.7万度",
+      "values": {
+        "2024年": "17.7"
+      },
+      "evidence_text": "4 新蒸汽直接加热工艺，减少热泵耗电 节电：17.7万度",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "2024年各分厂能源管理方案清单",
+      "topic": null,
+      "metric_name": "监控水池湿度，减少内循环泵运行时间",
+      "unit": "节电：7.1万度",
+      "values": {
+        "2024年": "7.1"
+      },
+      "evidence_text": "5 监控水池湿度，减少内循环泵运行时间 节电：7.1万度",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "2024年各分厂能源管理方案清单",
+      "topic": null,
+      "metric_name": "优化冷却水塔位置，减少输送损耗",
+      "unit": "/",
+      "values": {
+        "2024年": "-"
+      },
+      "evidence_text": "6 优化冷却水塔位置，减少输送损耗 /",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "2024年各分厂能源管理方案清单",
+      "topic": null,
+      "metric_name": "合并水泵使用，提高水泵利用率",
+      "unit": "节电：14.4万度",
+      "values": {
+        "2024年": "14.4"
+      },
+      "evidence_text": "7 合并水泵使用，提高水泵利用率 节电：14.4万度 汶桥分厂",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "2024年各分厂能源管理方案清单",
+      "topic": null,
+      "metric_name": "新增小功率泵，根据需求调整使用小泵，减少能耗",
+      "unit": "节电：12.9万度",
+      "values": {
+        "2024年": "12.9"
+      },
+      "evidence_text": "8 新增小功率泵，根据需求调整使用小泵，减少能耗 节电：12.9万度",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "2024年各分厂能源管理方案清单",
+      "topic": null,
+      "metric_name": "根据车间需求调整空压机压力",
+      "unit": "/",
+      "values": {
+        "2024年": "-"
+      },
+      "evidence_text": "9 根据车间需求调整空压机压力 /",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "2024年各分厂能源管理方案清单",
+      "topic": null,
+      "metric_name": "相抵实际需求大泵换小泵，减少能源浪费",
+      "unit": "节电：3.75万度",
+      "values": {
+        "2024年": "3.75"
+      },
+      "evidence_text": "10 相抵实际需求大泵换小泵，减少能源浪费 节电：3.75万度",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "2024年各分厂能源管理方案清单",
+      "topic": null,
+      "metric_name": "更换高效水泵及配套电机",
+      "unit": "节电：7.1万度",
+      "values": {
+        "2024年": "7.1"
+      },
+      "evidence_text": "11 更换高效水泵及配套电机 节电：7.1万度 制剂分厂",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "2024年各分厂能源管理方案清单",
+      "topic": null,
+      "metric_name": "更换一级能效冷水机组",
+      "unit": "节电：57.6万度",
+      "values": {
+        "2024年": "57.6"
+      },
+      "evidence_text": "12 更换一级能效冷水机组 节电：57.6万度",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "2024年各分厂能源管理方案清单",
+      "topic": null,
+      "metric_name": "合计",
+      "unit": "节电：149.25万度",
+      "values": {
+        "2024年": "149.25"
+      },
+      "evidence_text": "合计 节电：149.25万度 /",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "能源使用数据表",
+      "topic": null,
+      "metric_name": "原煤用量",
+      "unit": "吨",
+      "values": {
+        "2024年": "22,612"
+      },
+      "evidence_text": "原煤用量 吨 2024年 22,612",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "能源使用数据表",
+      "topic": null,
+      "metric_name": "固废源柴油用量",
+      "unit": "吨",
+      "values": {
+        "2024年": "778"
+      },
+      "evidence_text": "固废源柴油用量 吨 2024年 778",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "能源使用数据表",
+      "topic": null,
+      "metric_name": "汽油用量",
+      "unit": "升",
+      "values": {
+        "2024年": "107,143"
+      },
+      "evidence_text": "汽油用量 升 2024年 107,143",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "能源使用数据表",
+      "topic": null,
+      "metric_name": "外购蒸汽用量",
+      "unit": "百焦",
+      "values": {
+        "2024年": "1,337,849"
+      },
+      "evidence_text": "外购蒸汽用量 百焦 2024年 1,337,849",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "能源使用数据表",
+      "topic": null,
+      "metric_name": "综合能源消耗密度",
+      "unit": "吨标煤/百万营收",
+      "values": {
+        "2024年": "11.63"
+      },
+      "evidence_text": "综合能源消耗密度 吨标煤/百万营收 2024年 11.63",
+      "reason": "rejected_by_schema_validator:unit_type_mismatch:intensity; original_reason=fuzzy_alias_match:0.86:能源消耗密度"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "环境合规管理",
+      "topic": "环境合规管理",
+      "metric_name": "因违反环境保护法律法规而受到的罚款总额",
+      "unit": "万元人民币",
+      "values": {
+        "2024年": "0"
+      },
+      "evidence_text": "环境合规管理 因违反环境保护法律法规而受到的罚款总额 万元人民币 0",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "环境合规管理",
+      "topic": "环境合规管理",
+      "metric_name": "因违反环境保护法律法规而受到处罚的事件数",
+      "unit": "件",
+      "values": {
+        "2024年": "0"
+      },
+      "evidence_text": "环境合规管理 因违反环境保护法律法规而受到处罚的事件数 件 0",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "环境合规管理",
+      "topic": "环境合规管理",
+      "metric_name": "因违反环境法律法规通过争端解决机制提起的事件数",
+      "unit": "件",
+      "values": {
+        "2024年": "0"
+      },
+      "evidence_text": "环境合规管理 因违反环境法律法规通过争端解决机制提起的事件数 件 0",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "环境合规管理",
+      "topic": "环境合规管理",
+      "metric_name": "因污染物超标或违规排放而受到处罚的事件数",
+      "unit": "件",
+      "values": {
+        "2024年": "0"
+      },
+      "evidence_text": "环境合规管理 因污染物超标或违规排放而受到处罚的事件数 件 0",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "能源利用",
+      "topic": "能源利用",
+      "metric_name": "原煤用量",
+      "unit": "吨",
+      "values": {
+        "2024年": "22,612"
+      },
+      "evidence_text": "能源利用 原煤用量 吨 22,612",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "能源利用",
+      "topic": "能源利用",
+      "metric_name": "固定源柴油用量",
+      "unit": "吨",
+      "values": {
+        "2024年": "778"
+      },
+      "evidence_text": "能源利用 固定源柴油用量 吨 778",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "能源利用",
+      "topic": "能源利用",
+      "metric_name": "公务车汽油用量",
+      "unit": "升",
+      "values": {
+        "2024年": "107,143"
+      },
+      "evidence_text": "能源利用 公务车汽油用量 升 107,143",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "能源利用",
+      "topic": "能源利用",
+      "metric_name": "外购蒸汽用量",
+      "unit": "吉焦",
+      "values": {
+        "2024年": "1,337,849"
+      },
+      "evidence_text": "能源利用 外购蒸汽用量 吉焦 1,337,849",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "能源利用",
+      "topic": "能源利用",
+      "metric_name": "综合能源消耗密度",
+      "unit": "吨标煤／百万营收",
+      "values": {
+        "2024年": "11.63"
+      },
+      "evidence_text": "能源利用 综合能源消耗密度 吨标煤／百万营收 11.63",
+      "reason": "rejected_by_schema_validator:unit_type_mismatch:intensity; original_reason=fuzzy_alias_match:0.86:能源消耗密度"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "能源利用",
+      "topic": "能源利用",
+      "metric_name": "制品成包装材料使用总量",
+      "unit": "吨",
+      "values": {
+        "2024年": "3,770"
+      },
+      "evidence_text": "能源利用 制品成包装材料使用总量 吨 3,770",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "水资源利用",
+      "topic": "水资源利用",
+      "metric_name": "废气排放总量",
+      "unit": "千克",
+      "values": {
+        "2024年": "269,951"
+      },
+      "evidence_text": "水资源利用 废气排放总量 千克 269,951",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=fuzzy_alias_match:0.91:废气排放量"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "水资源利用",
+      "topic": "水资源利用",
+      "metric_name": "按处置方式分类的无害废弃物量：回收／再利用",
+      "unit": "吨",
+      "values": {
+        "2024年": "3,097"
+      },
+      "evidence_text": "水资源利用 按处置方式分类的无害废弃物量：回收／再利用 吨 3,097",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=heuristic_non_hazardous_waste"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "水资源利用",
+      "topic": "水资源利用",
+      "metric_name": "按处置方式分类的无害废弃物量：焚烧且有进行能量回收",
+      "unit": "吨",
+      "values": {
+        "2024年": "17"
+      },
+      "evidence_text": "水资源利用 按处置方式分类的无害废弃物量：焚烧且有进行能量回收 吨 17",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=heuristic_non_hazardous_waste"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "水资源利用",
+      "topic": "水资源利用",
+      "metric_name": "按处置方式分类的无害废弃物量：焚烧且无能量回收",
+      "unit": "吨",
+      "values": {
+        "2024年": "1,887"
+      },
+      "evidence_text": "水资源利用 按处置方式分类的无害废弃物量：焚烧且无能量回收 吨 1,887",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=heuristic_non_hazardous_waste"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "应对气候变化",
+      "topic": "应对气候变化",
+      "metric_name": "温室气体排放总量（范围一＋范围二）",
+      "unit": "吨二氧化碳当量",
+      "values": {
+        "2024年": "408,383"
+      },
+      "evidence_text": "应对气候变化 温室气体排放总量（范围一＋范围二） 吨二氧化碳当量 408,383",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_scope_1"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "应对气候变化",
+      "topic": "应对气候变化",
+      "metric_name": "温室气体排放密度（范围一＋范围二）",
+      "unit": "吨二氧化碳当量／百万营收",
+      "values": {
+        "2024年": "42.77"
+      },
+      "evidence_text": "应对气候变化 温室气体排放密度（范围一＋范围二） 吨二氧化碳当量／百万营收 42.77",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_scope_1"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "应对气候变化",
+      "topic": "应对气候变化",
+      "metric_name": "参与体检的员工人数",
+      "unit": "人",
+      "values": {
+        "2024年": "9,065"
+      },
+      "evidence_text": "应对气候变化 参与体检的员工人数 人 9,065",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=alias_match:员工人数"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "应对气候变化",
+      "topic": "应对气候变化",
+      "metric_name": "职工体检经费",
+      "unit": "万元人民币",
+      "values": {
+        "2024年": "334.47"
+      },
+      "evidence_text": "应对气候变化 职工体检经费 万元人民币 334.47",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "应对气候变化",
+      "topic": "应对气候变化",
+      "metric_name": "员工流失人数",
+      "unit": "人",
+      "values": {
+        "2024年": "1,172"
+      },
+      "evidence_text": "应对气候变化 员工流失人数 人 1,172",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "应对气候变化",
+      "topic": "应对气候变化",
+      "metric_name": "少数民族员工人数",
+      "unit": "人",
+      "values": {
+        "2024年": "273"
+      },
+      "evidence_text": "应对气候变化 少数民族员工人数 人 273",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=alias_match:员工人数"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "应对气候变化",
+      "topic": "应对气候变化",
+      "metric_name": "参加职业病体检的员工人数",
+      "unit": "人",
+      "values": {
+        "2024年": "5,474"
+      },
+      "evidence_text": "应对气候变化 参加职业病体检的员工人数 人 5,474",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=alias_match:员工人数"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "应对气候变化",
+      "topic": "应对气候变化",
+      "metric_name": "因工伤而死亡的员工比例",
+      "unit": "%",
+      "values": {
+        "2024年": "0"
+      },
+      "evidence_text": "应对气候变化 因工伤而死亡的员工比例 % 0",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "应对气候变化",
+      "topic": "应对气候变化",
+      "metric_name": "接受职业健康与安全培训的员工人数",
+      "unit": "人",
+      "values": {
+        "2024年": "9,065"
+      },
+      "evidence_text": "应对气候变化 接受职业健康与安全培训的员工人数 人 9,065",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=alias_match:员工人数"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "应对气候变化",
+      "topic": "应对气候变化",
+      "metric_name": "职业健康与安全培训覆盖的员工比例",
+      "unit": "%",
+      "values": {
+        "2024年": "100"
+      },
+      "evidence_text": "应对气候变化 职业健康与安全培训覆盖的员工比例 % 100",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "应对气候变化",
+      "topic": "应对气候变化",
+      "metric_name": "因违反职业健康与安全法律法规而受到处罚的事件数",
+      "unit": "件",
+      "values": {
+        "2024年": "0"
+      },
+      "evidence_text": "应对气候变化 因违反职业健康与安全法律法规而受到处罚的事件数 件 0",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "应对气候变化",
+      "topic": "应对气候变化",
+      "metric_name": "接受培训的员工总人数",
+      "unit": "人",
+      "values": {
+        "2024年": "9,065"
+      },
+      "evidence_text": "应对气候变化 接受培训的员工总人数 人 9,065",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=alias_match:员工总人数"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "应对气候变化",
+      "topic": "应对气候变化",
+      "metric_name": "女性员工接受培训的总时长",
+      "unit": "小时",
+      "values": {
+        "2024年": "307,520"
+      },
+      "evidence_text": "应对气候变化 女性员工接受培训的总时长 小时 307,520",
+      "reason": "rejected_by_schema_validator:unit_type_mismatch:person_count; original_reason=alias_match:女性员工"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "应对气候变化",
+      "topic": "应对气候变化",
+      "metric_name": "男性员工接受培训的总时长",
+      "unit": "小时",
+      "values": {
+        "2024年": "459,401"
+      },
+      "evidence_text": "应对气候变化 男性员工接受培训的总时长 小时 459,401",
+      "reason": "rejected_by_schema_validator:unit_type_mismatch:person_count; original_reason=alias_match:男性员工"
+    },
+    {
+      "page_image": "page_58.png",
+      "table_title": "应对气候变化",
+      "topic": "应对气候变化",
+      "metric_name": "员工接受培训平均时长",
+      "unit": "小时",
+      "values": {
+        "2024年": "84"
+      },
+      "evidence_text": "应对气候变化 员工接受培训平均时长 小时 84",
+      "reason": "no_schema_match"
+    }
+  ],
+  "extracted_fields": [
+    "scope_1_emissions",
+    "scope_2_emissions",
+    "energy_consumption_total",
+    "natural_gas_consumption",
+    "electricity_consumption",
+    "water_consumption",
+    "wastewater_discharge",
+    "non_hazardous_waste",
+    "hazardous_waste",
+    "environmental_investment",
+    "total_employees",
+    "male_employees",
+    "female_employees",
+    "employee_turnover_rate",
+    "training_total_hours",
+    "training_coverage_rate",
+    "social_security_coverage",
+    "employee_medical_checkup_coverage"
+  ],
+  "missing_fields": [
+    "total_ghg_emissions",
+    "ghg_emissions_intensity",
+    "energy_consumption_intensity",
+    "air_pollutant_emissions",
+    "environmental_penalty_count",
+    "female_employee_ratio",
+    "training_hours_per_employee",
+    "trained_employees_count",
+    "safety_accident_count",
+    "occupational_health_safety_investment",
+    "safety_emergency_drill_count",
+    "lost_work_days_due_to_injury",
+    "r_and_d_personnel_count",
+    "r_and_d_expense",
+    "public_welfare_investment",
+    "board_size",
+    "independent_directors",
+    "independent_director_ratio",
+    "female_directors",
+    "board_meetings",
+    "shareholder_meetings",
+    "anti_corruption_training_sessions",
+    "anti_corruption_training_participants",
+    "confirmed_corruption_cases",
+    "esg_strategy_targets",
+    "climate_risk_management",
+    "environmental_management_system",
+    "energy_saving_measures",
+    "water_management_measures",
+    "waste_management_measures",
+    "employee_rights_policy",
+    "occupational_health_safety_system",
+    "employee_training_development",
+    "diversity_equal_opportunity",
+    "supplier_esg_assessment",
+    "data_security_privacy",
+    "board_esg_oversight",
+    "esg_committee",
+    "anti_corruption_policy",
+    "whistleblowing_mechanism",
+    "business_ethics_training",
+    "investor_communication"
+  ],
+  "validation_summary": {
+    "total_fields": 60,
+    "extracted_fields": 18,
+    "missing_fields": 42,
+    "coverage_rate": 0.3,
+    "raw_row_count": 208,
+    "unknown_metrics": 63,
+    "needs_route_b2": false,
+    "route_b2_reason": ""
+  },
+  "needs_route_b2": false
+}

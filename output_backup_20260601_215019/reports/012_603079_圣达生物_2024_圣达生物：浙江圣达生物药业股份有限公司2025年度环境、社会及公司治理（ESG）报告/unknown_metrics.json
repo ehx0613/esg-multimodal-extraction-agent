@@ -1,0 +1,1712 @@
+[
+  {
+    "page_image": "page_9_left.png",
+    "table_title": "公司治理绩效表",
+    "topic": null,
+    "metric_name": "公司董事会共有",
+    "unit": "名",
+    "values": {
+      "2024年": "9"
+    },
+    "evidence_text": "公司董事会共有 名 2024年 9",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_9_left.png",
+    "table_title": "公司治理绩效表",
+    "topic": null,
+    "metric_name": "其中独立董事",
+    "unit": "名",
+    "values": {
+      "2024年": "3"
+    },
+    "evidence_text": "其中独立董事 名 2024年 3",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_9_left.png",
+    "table_title": "公司治理绩效表",
+    "topic": null,
+    "metric_name": "公司共召开股东会",
+    "unit": "次",
+    "values": {
+      "2024年": "5"
+    },
+    "evidence_text": "公司共召开股东会 次 2024年 5",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_9_left.png",
+    "table_title": "公司治理绩效表",
+    "topic": null,
+    "metric_name": "审议议案",
+    "unit": "项",
+    "values": {
+      "2024年": "28"
+    },
+    "evidence_text": "审议议案 项 2024年 28",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_9_left.png",
+    "table_title": "公司治理绩效表",
+    "topic": null,
+    "metric_name": "审议议案",
+    "unit": "项",
+    "values": {
+      "2024年": "44"
+    },
+    "evidence_text": "审议议案 项 2024年 44",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "2025年废水排放情况",
+    "topic": null,
+    "metric_name": "圣达生物",
+    "unit": "吨",
+    "values": {
+      "2024年": "215,546"
+    },
+    "evidence_text": "圣达生物 排放总量（吨） 2024年 215,546 达标排放情况 无",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "2025年废水排放情况",
+    "topic": null,
+    "metric_name": "安徽圣达",
+    "unit": "吨",
+    "values": {
+      "2024年": "31,043"
+    },
+    "evidence_text": "安徽圣达 排放总量（吨） 2024年 31,043 达标排放情况 无",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "2025年废水排放情况",
+    "topic": null,
+    "metric_name": "通辽圣达",
+    "unit": "吨",
+    "values": {
+      "2024年": "896,171"
+    },
+    "evidence_text": "通辽圣达 排放总量（吨） 2024年 896,171 达标排放情况 无",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "2025年废水排放情况",
+    "topic": null,
+    "metric_name": "新银象（含溶酒食品）",
+    "unit": "吨",
+    "values": {
+      "2024年": "435,595"
+    },
+    "evidence_text": "新银象（含溶酒食品） 排放总量（吨） 2024年 435,595 达标排放情况 无",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "圣达生物",
+    "metric_name": "COD",
+    "unit": "吨",
+    "values": {
+      "2024年": "54.22"
+    },
+    "evidence_text": "圣达生物 主要特征污染物 COD 排放总量（吨） 2024年 54.22",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "圣达生物",
+    "metric_name": "氨氮",
+    "unit": "吨",
+    "values": {
+      "2024年": "1.268"
+    },
+    "evidence_text": "圣达生物 主要特征污染物 氨氮 排放总量（吨） 2024年 1.268",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "圣达生物",
+    "metric_name": "总磷",
+    "unit": "吨",
+    "values": {
+      "2024年": "0.179"
+    },
+    "evidence_text": "圣达生物 主要特征污染物 总磷 排放总量（吨） 2024年 0.179",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "圣达生物",
+    "metric_name": "COD",
+    "unit": "吨",
+    "values": {
+      "2024年": "114"
+    },
+    "evidence_text": "圣达生物 主要特征污染物 COD 核定的排放总量（吨/年） 2024年 114",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "圣达生物",
+    "metric_name": "氨氮",
+    "unit": "吨",
+    "values": {
+      "2024年": "7.98"
+    },
+    "evidence_text": "圣达生物 主要特征污染物 氨氮 核定的排放总量（吨/年） 2024年 7.98",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "圣达生物",
+    "metric_name": "总磷",
+    "unit": "吨",
+    "values": {
+      "2024年": "/"
+    },
+    "evidence_text": "圣达生物 主要特征污染物 总磷 核定的排放总量（吨/年） 2024年 /",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "安徽圣达",
+    "metric_name": "COD",
+    "unit": "吨",
+    "values": {
+      "2024年": "6.308"
+    },
+    "evidence_text": "安徽圣达 主要特征污染物 COD 排放总量（吨） 2024年 6.308",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "安徽圣达",
+    "metric_name": "氨氮",
+    "unit": "吨",
+    "values": {
+      "2024年": "0.111"
+    },
+    "evidence_text": "安徽圣达 主要特征污染物 氨氮 排放总量（吨） 2024年 0.111",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "安徽圣达",
+    "metric_name": "总磷",
+    "unit": "吨",
+    "values": {
+      "2024年": "0.004"
+    },
+    "evidence_text": "安徽圣达 主要特征污染物 总磷 排放总量（吨） 2024年 0.004",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "安徽圣达",
+    "metric_name": "COD",
+    "unit": "吨",
+    "values": {
+      "2024年": "131.09"
+    },
+    "evidence_text": "安徽圣达 主要特征污染物 COD 核定的排放总量（吨/年） 2024年 131.09",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "安徽圣达",
+    "metric_name": "氨氮",
+    "unit": "吨",
+    "values": {
+      "2024年": "6.93"
+    },
+    "evidence_text": "安徽圣达 主要特征污染物 氨氮 核定的排放总量（吨/年） 2024年 6.93",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "安徽圣达",
+    "metric_name": "总磷",
+    "unit": "吨",
+    "values": {
+      "2024年": "/"
+    },
+    "evidence_text": "安徽圣达 主要特征污染物 总磷 核定的排放总量（吨/年） 2024年 /",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "通辽圣达",
+    "metric_name": "COD",
+    "unit": "吨",
+    "values": {
+      "2024年": "68.664"
+    },
+    "evidence_text": "通辽圣达 主要特征污染物 COD 排放总量（吨） 2024年 68.664",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "通辽圣达",
+    "metric_name": "氨氮",
+    "unit": "吨",
+    "values": {
+      "2024年": "0.828"
+    },
+    "evidence_text": "通辽圣达 主要特征污染物 氨氮 排放总量（吨） 2024年 0.828",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "通辽圣达",
+    "metric_name": "COD",
+    "unit": "吨",
+    "values": {
+      "2024年": "754.97"
+    },
+    "evidence_text": "通辽圣达 主要特征污染物 COD 核定的排放总量（吨/年） 2024年 754.97",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "通辽圣达",
+    "metric_name": "氨氮",
+    "unit": "吨",
+    "values": {
+      "2024年": "50.26"
+    },
+    "evidence_text": "通辽圣达 主要特征污染物 氨氮 核定的排放总量（吨/年） 2024年 50.26",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "新银象（含溶酒食品）",
+    "metric_name": "COD",
+    "unit": "吨",
+    "values": {
+      "2024年": "88.46"
+    },
+    "evidence_text": "新银象（含溶酒食品） 主要特征污染物 COD 排放总量（吨） 2024年 88.46",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "新银象（含溶酒食品）",
+    "metric_name": "氨氮",
+    "unit": "吨",
+    "values": {
+      "2024年": "1.107"
+    },
+    "evidence_text": "新银象（含溶酒食品） 主要特征污染物 氨氮 排放总量（吨） 2024年 1.107",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "新银象（含溶酒食品）",
+    "metric_name": "COD",
+    "unit": "吨",
+    "values": {
+      "2024年": "239.6"
+    },
+    "evidence_text": "新银象（含溶酒食品） 主要特征污染物 COD 核定的排放总量（吨/年） 2024年 239.6",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_16.png",
+    "table_title": "工业废水主要特征污染物合规排放情况",
+    "topic": "新银象（含溶酒食品）",
+    "metric_name": "氨氮",
+    "unit": "吨",
+    "values": {
+      "2024年": "22.35"
+    },
+    "evidence_text": "新银象（含溶酒食品） 主要特征污染物 氨氮 核定的排放总量（吨/年） 2024年 22.35",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_17.png",
+    "table_title": "2025年废气排放情况",
+    "topic": "圣达生物",
+    "metric_name": "二氧化硫",
+    "unit": "吨",
+    "values": {
+      "2024年": "0.532"
+    },
+    "evidence_text": "圣达生物-二氧化硫 吨 2024年 0.532",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_17.png",
+    "table_title": "2025年废气排放情况",
+    "topic": "圣达生物",
+    "metric_name": "氮氧化物",
+    "unit": "吨",
+    "values": {
+      "2024年": "0.66"
+    },
+    "evidence_text": "圣达生物-氮氧化物 吨 2024年 0.66",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_17.png",
+    "table_title": "2025年废气排放情况",
+    "topic": "圣达生物",
+    "metric_name": "VOCs",
+    "unit": "吨",
+    "values": {
+      "2024年": "1.0875"
+    },
+    "evidence_text": "圣达生物-VOCs 吨 2024年 1.0875",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_17.png",
+    "table_title": "2025年废气排放情况",
+    "topic": "圣达生物",
+    "metric_name": "颗粒物",
+    "unit": "吨",
+    "values": {
+      "2024年": "0"
+    },
+    "evidence_text": "圣达生物-颗粒物 吨 2024年 0",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_17.png",
+    "table_title": "2025年废气排放情况",
+    "topic": "安徽圣达",
+    "metric_name": "二氧化硫",
+    "unit": "吨",
+    "values": {
+      "2024年": "0.0862"
+    },
+    "evidence_text": "安徽圣达-二氧化硫 吨 2024年 0.0862",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_17.png",
+    "table_title": "2025年废气排放情况",
+    "topic": "安徽圣达",
+    "metric_name": "氮氧化物",
+    "unit": "吨",
+    "values": {
+      "2024年": "0.7462"
+    },
+    "evidence_text": "安徽圣达-氮氧化物 吨 2024年 0.7462",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_17.png",
+    "table_title": "2025年废气排放情况",
+    "topic": "安徽圣达",
+    "metric_name": "VOCs",
+    "unit": "吨",
+    "values": {
+      "2024年": "0.7146"
+    },
+    "evidence_text": "安徽圣达-VOCs 吨 2024年 0.7146",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_17.png",
+    "table_title": "2025年废气排放情况",
+    "topic": "安徽圣达",
+    "metric_name": "颗粒物",
+    "unit": "吨",
+    "values": {
+      "2024年": "0.0260"
+    },
+    "evidence_text": "安徽圣达-颗粒物 吨 2024年 0.0260",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_17.png",
+    "table_title": "2025年废气排放情况",
+    "topic": "通辽圣达",
+    "metric_name": "二氧化硫",
+    "unit": "吨",
+    "values": {
+      "2024年": "54.3442"
+    },
+    "evidence_text": "通辽圣达-二氧化硫 吨 2024年 54.3442",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_17.png",
+    "table_title": "2025年废气排放情况",
+    "topic": "通辽圣达",
+    "metric_name": "氮氧化物",
+    "unit": "吨",
+    "values": {
+      "2024年": "75.1331"
+    },
+    "evidence_text": "通辽圣达-氮氧化物 吨 2024年 75.1331",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_17.png",
+    "table_title": "2025年废气排放情况",
+    "topic": "通辽圣达",
+    "metric_name": "颗粒物",
+    "unit": "吨",
+    "values": {
+      "2024年": "4.8313"
+    },
+    "evidence_text": "通辽圣达-颗粒物 吨 2024年 4.8313",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_17.png",
+    "table_title": "2025年废气排放情况",
+    "topic": "新银象（含滋酒食品）",
+    "metric_name": "颗粒物",
+    "unit": "吨",
+    "values": {
+      "2024年": "0.543"
+    },
+    "evidence_text": "新银象（含滋酒食品）-颗粒物 吨 2024年 0.543",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_17.png",
+    "table_title": "2025年废气排放情况",
+    "topic": "新银象（含滋酒食品）",
+    "metric_name": "颗粒物",
+    "unit": "吨",
+    "values": {
+      "2024年": "5.926"
+    },
+    "evidence_text": "新银象（含滋酒食品）-颗粒物 吨 2024年 5.926",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_17.png",
+    "table_title": "2025年废弃物排放情况",
+    "topic": "无害废弃物",
+    "metric_name": "产生总量",
+    "unit": "吨",
+    "values": {
+      "2024年": "40"
+    },
+    "evidence_text": "无害废弃物-产生总量 吨 2024年 40",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=heuristic_non_hazardous_waste"
+  },
+  {
+    "page_image": "page_17.png",
+    "table_title": "2025年废弃物排放情况",
+    "topic": "无害废弃物",
+    "metric_name": "产生总量",
+    "unit": "吨",
+    "values": {
+      "2024年": "30"
+    },
+    "evidence_text": "无害废弃物-产生总量 吨 2024年 30",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=heuristic_non_hazardous_waste"
+  },
+  {
+    "page_image": "page_17.png",
+    "table_title": "2025年废弃物排放情况",
+    "topic": "无害废弃物",
+    "metric_name": "产生总量",
+    "unit": "吨",
+    "values": {
+      "2024年": "14,228"
+    },
+    "evidence_text": "无害废弃物-产生总量 吨 2024年 14,228",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=heuristic_non_hazardous_waste"
+  },
+  {
+    "page_image": "page_17.png",
+    "table_title": "2025年废弃物排放情况",
+    "topic": "无害废弃物",
+    "metric_name": "产生总量",
+    "unit": "吨",
+    "values": {
+      "2024年": "3,881"
+    },
+    "evidence_text": "无害废弃物-产生总量 吨 2024年 3,881",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=heuristic_non_hazardous_waste"
+  },
+  {
+    "page_image": "page_35.png",
+    "table_title": "ESG特色与2025年创新成果",
+    "topic": "通过降低热加工程度与延长货架期，助力减少能源消耗与食品损耗",
+    "metric_name": "休闲肉制品防腐、质构、抗氧化方案研发",
+    "unit": null,
+    "values": {
+      "2025年": "开发生物保鲜剂方案若干，可降低休闲肉制品热加工强度，在保障食品安全的同时，帮助客户降低能耗并更好保留营养与风味。"
+    },
+    "evidence_text": "通过降低热加工程度与延长货架期，助力减少能源消耗与食品损耗-休闲肉制品防腐、质构、抗氧化方案研发 开发生物保鲜剂方案若干，可降低休闲肉制品热加工强度，在保障食品安全的同时，帮助客户降低能耗并更好保留营养与风味。",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_35.png",
+    "table_title": "ESG特色与2025年创新成果",
+    "topic": "减少化学添加剂使用，契合健康消费与合谐趋势",
+    "metric_name": "天然高效的生物型防腐方案开发",
+    "unit": null,
+    "values": {
+      "2025年": "开发天然高效的生物型防腐方案若干，减少传统化学防腐剂使用，为客户提供更健康友好的保鲜解决方案。"
+    },
+    "evidence_text": "减少化学添加剂使用，契合健康消费与合谐趋势-天然高效的生物型防腐方案开发 开发天然高效的生物型防腐方案若干，减少传统化学防腐剂使用，为客户提供更健康友好的保鲜解决方案。",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_35.png",
+    "table_title": "ESG特色与2025年创新成果",
+    "topic": "缩短研发周期、大幅度减少研发过程能耗及物料消耗",
+    "metric_name": "高通量检测平台",
+    "unit": null,
+    "values": {
+      "2025年": "为研发各环节提供快速、精准、批式的检测分析服务，对发酵产物成分、浓度、纯度等指标进行高通量测定，及时反馈关键数据，支持研发人员快速优化实施方案，并保障研发成果质量可控。"
+    },
+    "evidence_text": "缩短研发周期、大幅度减少研发过程能耗及物料消耗-高通量检测平台 为研发各环节提供快速、精准、批式的检测分析服务，对发酵产物成分、浓度、纯度等指标进行高通量测定，及时反馈关键数据，支持研发人员快速优化实施方案，并保障研发成果质量可控。",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_35.png",
+    "table_title": "ESG特色与2025年创新成果",
+    "topic": "缩短研发周期、大幅度减少研发过程能耗及物料消耗",
+    "metric_name": "高通量发酵平台",
+    "unit": null,
+    "values": {
+      "2025年": "通过发酵体系的小体量化与并行化设计，可同时对多种不同菌株、配方或工艺参数体系进行发酵培养，缩短菌体筛选与工艺摸索周期，提升研发效率。"
+    },
+    "evidence_text": "缩短研发周期、大幅度减少研发过程能耗及物料消耗-高通量发酵平台 通过发酵体系的小体量化与并行化设计，可同时对多种不同菌株、配方或工艺参数体系进行发酵培养，缩短菌体筛选与工艺摸索周期，提升研发效率。",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_35.png",
+    "table_title": "研发能力建设",
+    "topic": "公司研发团队",
+    "metric_name": "人数",
+    "unit": "人",
+    "values": {
+      "2025年": "160"
+    },
+    "evidence_text": "公司研发团队 人数 人 2025年 160",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_35.png",
+    "table_title": "研发能力建设",
+    "topic": "公司研发团队",
+    "metric_name": "其中硕博占比",
+    "unit": "%",
+    "values": {
+      "2025年": "18%"
+    },
+    "evidence_text": "公司研发团队 其中硕博占比 % 2025年 18%",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_35.png",
+    "table_title": "研发能力建设",
+    "topic": "公司研发团队",
+    "metric_name": "其中硕博构成",
+    "unit": "名",
+    "values": {
+      "2025年": "含博士3名、硕士27名"
+    },
+    "evidence_text": "公司研发团队 其中硕博构成 名 2025年 含博士3名、硕士27名",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_36.png",
+    "table_title": "指标和目标-2025年",
+    "topic": null,
+    "metric_name": "在研项目",
+    "unit": "项",
+    "values": {
+      "2025年": "51"
+    },
+    "evidence_text": "在研项目 项 2025年 51",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_36.png",
+    "table_title": "指标和目标-2025年",
+    "topic": null,
+    "metric_name": "新增申请发明专利",
+    "unit": "项",
+    "values": {
+      "2025年": "11"
+    },
+    "evidence_text": "新增申请发明专利 项 2025年 11",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_36.png",
+    "table_title": "指标和目标-2025年",
+    "topic": null,
+    "metric_name": "获得国家授权专利",
+    "unit": "项",
+    "values": {
+      "2025年": "19"
+    },
+    "evidence_text": "获得国家授权专利 项 2025年 19",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_36.png",
+    "table_title": "指标和目标-2025年",
+    "topic": null,
+    "metric_name": "其中发明专利",
+    "unit": "项",
+    "values": {
+      "2025年": "12"
+    },
+    "evidence_text": "其中发明专利 项 2025年 12",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_36.png",
+    "table_title": "指标和目标-2025年",
+    "topic": null,
+    "metric_name": "实用新型专利",
+    "unit": "项",
+    "values": {
+      "2025年": "7"
+    },
+    "evidence_text": "实用新型专利 项 2025年 7",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_37.png",
+    "table_title": "2025年公益参与情况表",
+    "topic": "公益慈善、志愿活动总参与人次",
+    "metric_name": "总参与人次",
+    "unit": "人次",
+    "values": {
+      "2024年": "116"
+    },
+    "evidence_text": "公益慈善、志愿活动总参与人次 总参与人次 人次 2024年 116",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_37.png",
+    "table_title": "2025年公益参与情况表",
+    "topic": "公益慈善、志愿活动总参与时长",
+    "metric_name": "总参与时长",
+    "unit": "小时",
+    "values": {
+      "2024年": "278"
+    },
+    "evidence_text": "公益慈善、志愿活动总参与时长 总参与时长 小时 2024年 278",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_39.png",
+    "table_title": "尽职调查-治理绩效",
+    "topic": "合同合规审核",
+    "metric_name": "合同合规审核完成率",
+    "unit": "%",
+    "values": {
+      "2024年": "100"
+    },
+    "evidence_text": "合同合规审核 合同合规审核完成率 % 2024年 100",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_40.png",
+    "table_title": "ESG关键绩效表-废水排放",
+    "topic": null,
+    "metric_name": "圣达生物",
+    "unit": "吨",
+    "values": {
+      "2025年": "215,546"
+    },
+    "evidence_text": "圣达生物 2025年 吨 215,546",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_40.png",
+    "table_title": "ESG关键绩效表-废水排放",
+    "topic": null,
+    "metric_name": "安徽圣达",
+    "unit": "吨",
+    "values": {
+      "2025年": "31,043"
+    },
+    "evidence_text": "安徽圣达 2025年 吨 31,043",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_40.png",
+    "table_title": "ESG关键绩效表-废水排放",
+    "topic": null,
+    "metric_name": "通辽圣达",
+    "unit": "吨",
+    "values": {
+      "2025年": "896,171"
+    },
+    "evidence_text": "通辽圣达 2025年 吨 896,171",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_40.png",
+    "table_title": "ESG关键绩效表-废水排放",
+    "topic": null,
+    "metric_name": "新银象（含滋消食品）",
+    "unit": "吨",
+    "values": {
+      "2025年": "435,595"
+    },
+    "evidence_text": "新银象（含滋消食品） 2025年 吨 435,595",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_40.png",
+    "table_title": "ESG关键绩效表-废气排放",
+    "topic": null,
+    "metric_name": "圣达生物",
+    "unit": "万立方米",
+    "values": {
+      "2025年": "17,732"
+    },
+    "evidence_text": "圣达生物 2025年 万立方米 17,732",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_40.png",
+    "table_title": "ESG关键绩效表-废气排放",
+    "topic": null,
+    "metric_name": "安徽圣达",
+    "unit": "万立方米",
+    "values": {
+      "2025年": "4,817"
+    },
+    "evidence_text": "安徽圣达 2025年 万立方米 4,817",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_40.png",
+    "table_title": "ESG关键绩效表-废气排放",
+    "topic": null,
+    "metric_name": "通辽圣达",
+    "unit": "万立方米",
+    "values": {
+      "2025年": "51,210"
+    },
+    "evidence_text": "通辽圣达 2025年 万立方米 51,210",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_40.png",
+    "table_title": "ESG关键绩效表-废气排放",
+    "topic": null,
+    "metric_name": "新银象（含滋消食品）",
+    "unit": "万立方米",
+    "values": {
+      "2025年": "83,016"
+    },
+    "evidence_text": "新银象（含滋消食品） 2025年 万立方米 83,016",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "环境合规管理",
+    "topic": null,
+    "metric_name": "重大环保违规事件",
+    "unit": "件",
+    "values": {
+      "2025年": "0"
+    },
+    "evidence_text": "环境合规管理-重大环保违规事件 件 2025年 0",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "环境合规管理",
+    "topic": null,
+    "metric_name": "因环境规问题受到行政处罚或追究刑事责任",
+    "unit": "件",
+    "values": {
+      "2025年": "0"
+    },
+    "evidence_text": "环境合规管理-因环境规问题受到行政处罚或追究刑事责任 件 2025年 0",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "环境合规管理",
+    "topic": null,
+    "metric_name": "环境保护总投入金额",
+    "unit": "万元",
+    "values": {
+      "2025年": "5,756.46"
+    },
+    "evidence_text": "环境合规管理-环境保护总投入金额 万元 2025年 5,756.46",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "环境合规管理",
+    "topic": null,
+    "metric_name": "环境保护相关培训活动次数",
+    "unit": "次",
+    "values": {
+      "2025年": "25"
+    },
+    "evidence_text": "环境合规管理-环境保护相关培训活动次数 次 2025年 25",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "环境合规管理",
+    "topic": null,
+    "metric_name": "环境保护相关培训活动参与人次",
+    "unit": "人次",
+    "values": {
+      "2025年": "1,001"
+    },
+    "evidence_text": "环境合规管理-环境保护相关培训活动参与人次 人次 2025年 1,001",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "期末在职员工结构（按性别）",
+    "unit": "人",
+    "values": {
+      "2025年": "710"
+    },
+    "evidence_text": "员工-期末在职员工结构（按性别）-男性 人 2025年 710",
+    "reason": "dimension_header_skip_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "期末在职员工结构（按性别）",
+    "unit": "人",
+    "values": {
+      "2025年": "373"
+    },
+    "evidence_text": "员工-期末在职员工结构（按性别）-女性 人 2025年 373",
+    "reason": "dimension_header_skip_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "期末在职员工结构（按年龄）",
+    "unit": "人",
+    "values": {
+      "2025年": "202"
+    },
+    "evidence_text": "员工-期末在职员工结构（按年龄）-30岁及以下 人 2025年 202",
+    "reason": "dimension_header_skip_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "期末在职员工结构（按年龄）",
+    "unit": "人",
+    "values": {
+      "2025年": "617"
+    },
+    "evidence_text": "员工-期末在职员工结构（按年龄）-30岁至50岁 人 2025年 617",
+    "reason": "dimension_header_skip_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "期末在职员工结构（按年龄）",
+    "unit": "人",
+    "values": {
+      "2025年": "264"
+    },
+    "evidence_text": "员工-期末在职员工结构（按年龄）-50岁及以上 人 2025年 264",
+    "reason": "dimension_header_skip_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "期末在职员工结构（按专业构成）",
+    "unit": "人",
+    "values": {
+      "2025年": "765"
+    },
+    "evidence_text": "员工-期末在职员工结构（按专业构成）-生产人员 人 2025年 765",
+    "reason": "dimension_header_skip_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "期末在职员工结构（按专业构成）",
+    "unit": "人",
+    "values": {
+      "2025年": "42"
+    },
+    "evidence_text": "员工-期末在职员工结构（按专业构成）-销售人员 人 2025年 42",
+    "reason": "dimension_header_skip_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "期末在职员工结构（按专业构成）",
+    "unit": "人",
+    "values": {
+      "2025年": "163"
+    },
+    "evidence_text": "员工-期末在职员工结构（按专业构成）-技术人员 人 2025年 163",
+    "reason": "dimension_header_skip_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "期末在职员工结构（按专业构成）",
+    "unit": "人",
+    "values": {
+      "2025年": "24"
+    },
+    "evidence_text": "员工-期末在职员工结构（按专业构成）-财务人员 人 2025年 24",
+    "reason": "dimension_header_skip_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "期末在职员工结构（按专业构成）",
+    "unit": "人",
+    "values": {
+      "2025年": "89"
+    },
+    "evidence_text": "员工-期末在职员工结构（按专业构成）-行政人员 人 2025年 89",
+    "reason": "dimension_header_skip_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "期末在职员工结构（按教育程度）",
+    "unit": "人",
+    "values": {
+      "2025年": "3"
+    },
+    "evidence_text": "员工-期末在职员工结构（按教育程度）-博士研究生 人 2025年 3",
+    "reason": "dimension_header_skip_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "期末在职员工结构（按教育程度）",
+    "unit": "人",
+    "values": {
+      "2025年": "41"
+    },
+    "evidence_text": "员工-期末在职员工结构（按教育程度）-硕士研究生 人 2025年 41",
+    "reason": "dimension_header_skip_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "期末在职员工结构（按教育程度）",
+    "unit": "人",
+    "values": {
+      "2025年": "254"
+    },
+    "evidence_text": "员工-期末在职员工结构（按教育程度）-本科 人 2025年 254",
+    "reason": "dimension_header_skip_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "期末在职员工结构（按教育程度）",
+    "unit": "人",
+    "values": {
+      "2025年": "205"
+    },
+    "evidence_text": "员工-期末在职员工结构（按教育程度）-大专 人 2025年 205",
+    "reason": "dimension_header_skip_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "期末在职员工结构（按教育程度）",
+    "unit": "人",
+    "values": {
+      "2025年": "580"
+    },
+    "evidence_text": "员工-期末在职员工结构（按教育程度）-高中及以下 人 2025年 580",
+    "reason": "dimension_header_skip_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "劳动合同签订比例",
+    "unit": "%",
+    "values": {
+      "2025年": "100"
+    },
+    "evidence_text": "员工-劳动合同签订比例 % 2025年 100",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "员工五险一金覆盖比例",
+    "unit": "%",
+    "values": {
+      "2025年": "100"
+    },
+    "evidence_text": "员工-员工五险一金覆盖比例 % 2025年 100",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "劳动诉讼、劳动仲裁等与员工纠纷事件",
+    "unit": "件",
+    "values": {
+      "2025年": "0"
+    },
+    "evidence_text": "员工-劳动诉讼、劳动仲裁等与员工纠纷事件 件 2025年 0",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "员工培训总次数",
+    "unit": "次",
+    "values": {
+      "2025年": "440"
+    },
+    "evidence_text": "员工-员工培训总次数 次 2025年 440",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "员工培训总时数",
+    "unit": "小时",
+    "values": {
+      "2025年": "830"
+    },
+    "evidence_text": "员工-员工培训总时数 小时 2025年 830",
+    "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=fuzzy_alias_match:0.86:员工培训总时长"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "员工",
+    "topic": null,
+    "metric_name": "员工培训总投入金额",
+    "unit": "元",
+    "values": {
+      "2025年": "12,650"
+    },
+    "evidence_text": "员工-员工培训总投入金额 元 2025年 12,650",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "职业健康安全",
+    "topic": null,
+    "metric_name": "职业健康安全相关培训活动次数",
+    "unit": "次",
+    "values": {
+      "2025年": "93"
+    },
+    "evidence_text": "职业健康安全-职业健康安全相关培训活动次数 次 2025年 93",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "职业健康安全",
+    "topic": null,
+    "metric_name": "职业健康安全相关培训活动参与人次",
+    "unit": "人次",
+    "values": {
+      "2025年": "5,230"
+    },
+    "evidence_text": "职业健康安全-职业健康安全相关培训活动参与人次 人次 2025年 5,230",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "职业健康安全",
+    "topic": null,
+    "metric_name": "安全生产总投入金额",
+    "unit": "万元",
+    "values": {
+      "2025年": "589.25"
+    },
+    "evidence_text": "职业健康安全-安全生产总投入金额 万元 2025年 589.25",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "职业健康安全",
+    "topic": null,
+    "metric_name": "员工工亡人数",
+    "unit": "人",
+    "values": {
+      "2025年": "0"
+    },
+    "evidence_text": "职业健康安全-员工工亡人数 人 2025年 0",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "职业健康安全",
+    "topic": null,
+    "metric_name": "承包商工亡人数",
+    "unit": "人",
+    "values": {
+      "2025年": "0"
+    },
+    "evidence_text": "职业健康安全-承包商工亡人数 人 2025年 0",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "职业健康安全",
+    "topic": null,
+    "metric_name": "重大安全生事故",
+    "unit": "起",
+    "values": {
+      "2025年": "0"
+    },
+    "evidence_text": "职业健康安全-重大安全生事故 起 2025年 0",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "职业健康安全",
+    "topic": null,
+    "metric_name": "工伤保险总投入金额",
+    "unit": "万元",
+    "values": {
+      "2025年": "24.92"
+    },
+    "evidence_text": "职业健康安全-工伤保险总投入金额 万元 2025年 24.92",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "职业健康安全",
+    "topic": null,
+    "metric_name": "工伤保险覆盖率",
+    "unit": "%",
+    "values": {
+      "2025年": "100"
+    },
+    "evidence_text": "职业健康安全-工伤保险覆盖率 % 2025年 100",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "职业健康安全",
+    "topic": null,
+    "metric_name": "安全生产责任险总投入金额",
+    "unit": "万元",
+    "values": {
+      "2025年": "15.81"
+    },
+    "evidence_text": "职业健康安全-安全生产责任险总投入金额 万元 2025年 15.81",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "职业健康安全",
+    "topic": null,
+    "metric_name": "安全生产责任险覆盖率",
+    "unit": "%",
+    "values": {
+      "2025年": "100"
+    },
+    "evidence_text": "职业健康安全-安全生产责任险覆盖率 % 2025年 100",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "供应链管理",
+    "topic": null,
+    "metric_name": "原辅料供应商签订包含环境、劳工和人权要求条款的采购合同比例",
+    "unit": "%",
+    "values": {
+      "2025年": "100"
+    },
+    "evidence_text": "供应链管理-原辅料供应商签订包含环境、劳工和人权要求条款的采购合同比例 % 2025年 100",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "供应链管理",
+    "topic": null,
+    "metric_name": "参加企业社会责任、环境现场审核供应商比例",
+    "unit": "%",
+    "values": {
+      "2025年": "70"
+    },
+    "evidence_text": "供应链管理-参加企业社会责任、环境现场审核供应商比例 % 2025年 70",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "产品和服务安全与质量",
+    "topic": null,
+    "metric_name": "产品和服务相关的安全与质量重大责任事故",
+    "unit": "件",
+    "values": {
+      "2025年": "0"
+    },
+    "evidence_text": "产品和服务安全与质量-产品和服务相关的安全与质量重大责任事故 件 2025年 0",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "产品和服务安全与质量",
+    "topic": null,
+    "metric_name": "已售或已运送产品因安全与健康问题而须召回的事件",
+    "unit": "件",
+    "values": {
+      "2025年": "0"
+    },
+    "evidence_text": "产品和服务安全与质量-已售或已运送产品因安全与健康问题而须召回的事件 件 2025年 0",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "产品和服务安全与质量",
+    "topic": null,
+    "metric_name": "接获产品或服务相关客户投诉数量",
+    "unit": "件",
+    "values": {
+      "2025年": "52"
+    },
+    "evidence_text": "产品和服务安全与质量-接获产品或服务相关客户投诉数量 件 2025年 52",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "产品和服务安全与质量",
+    "topic": null,
+    "metric_name": "客户投诉解决率",
+    "unit": "%",
+    "values": {
+      "2025年": "100"
+    },
+    "evidence_text": "产品和服务安全与质量-客户投诉解决率 % 2025年 100",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_41.png",
+    "table_title": "数据安全与客户隐私保护",
+    "topic": null,
+    "metric_name": "重大数据安全事件",
+    "unit": "件",
+    "values": {
+      "2025年": "0"
+    },
+    "evidence_text": "数据安全与客户隐私保护-重大数据安全事件 件 2025年 0",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "创新驱动",
+    "topic": null,
+    "metric_name": "研发团队人数",
+    "unit": "人",
+    "values": {
+      "2025年": "160"
+    },
+    "evidence_text": "研发团队人数 人 2025年 160",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "创新驱动",
+    "topic": null,
+    "metric_name": "- 博士研究生",
+    "unit": "人",
+    "values": {
+      "2025年": "3"
+    },
+    "evidence_text": "- 博士研究生 人 2025年 3",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "创新驱动",
+    "topic": null,
+    "metric_name": "- 硕士研究生",
+    "unit": "人",
+    "values": {
+      "2025年": "27"
+    },
+    "evidence_text": "- 硕士研究生 人 2025年 27",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "创新驱动",
+    "topic": null,
+    "metric_name": "- 本科及以下",
+    "unit": "人",
+    "values": {
+      "2025年": "130"
+    },
+    "evidence_text": "- 本科及以下 人 2025年 130",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "创新驱动",
+    "topic": null,
+    "metric_name": "研发团队占员工总数比例",
+    "unit": "%",
+    "values": {
+      "2025年": "14.77"
+    },
+    "evidence_text": "研发团队占员工总数比例 % 2025年 14.77",
+    "reason": "rejected_by_schema_validator:unit_type_mismatch:person_count; original_reason=heuristic_total_employees"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "创新驱动",
+    "topic": null,
+    "metric_name": "国家授权专利数量",
+    "unit": "项",
+    "values": {
+      "2025年": "19"
+    },
+    "evidence_text": "国家授权专利数量 项 2025年 19",
+    "reason": "rejected_by_schema_validator:field_not_in_core_schema; original_reason=heuristic_authorized_patents_new"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "创新驱动",
+    "topic": null,
+    "metric_name": "- 发明专利",
+    "unit": "项",
+    "values": {
+      "2025年": "12"
+    },
+    "evidence_text": "- 发明专利 项 2025年 12",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "创新驱动",
+    "topic": null,
+    "metric_name": "- 实用新型专利",
+    "unit": "项",
+    "values": {
+      "2025年": "7"
+    },
+    "evidence_text": "- 实用新型专利 项 2025年 7",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "创新驱动",
+    "topic": null,
+    "metric_name": "新增申请发明专利数量",
+    "unit": "项",
+    "values": {
+      "2025年": "11"
+    },
+    "evidence_text": "新增申请发明专利数量 项 2025年 11",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "社会贡献",
+    "topic": null,
+    "metric_name": "公益慈善、志愿活动参与人次",
+    "unit": "人次",
+    "values": {
+      "2025年": "116"
+    },
+    "evidence_text": "公益慈善、志愿活动参与人次 人次 2025年 116",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "社会贡献",
+    "topic": null,
+    "metric_name": "公益慈善、志愿活动参与时长",
+    "unit": "小时",
+    "values": {
+      "2025年": "278"
+    },
+    "evidence_text": "公益慈善、志愿活动参与时长 小时 2025年 278",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "反商业贿赂及反贪污",
+    "topic": null,
+    "metric_name": "商业贿赂及贪污事件",
+    "unit": "件",
+    "values": {
+      "2025年": "0"
+    },
+    "evidence_text": "商业贿赂及贪污事件 件 2025年 0",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "反不正当竞争",
+    "topic": null,
+    "metric_name": "因公司不正当竞争行为导致诉讼或重大行政处罚的事件",
+    "unit": "件",
+    "values": {
+      "2025年": "0"
+    },
+    "evidence_text": "因公司不正当竞争行为导致诉讼或重大行政处罚的事件 件 2025年 0",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "应对气候变化",
+    "unit": "",
+    "values": {},
+    "evidence_text": "环境 应对气候变化 应对气候变化",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "污染物排放",
+    "unit": "",
+    "values": {},
+    "evidence_text": "环境 污染物排放 污染物排放",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "废弃物处理",
+    "unit": "",
+    "values": {},
+    "evidence_text": "环境 废弃物处理 废弃物处理",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "生态系统和生物多样性保护",
+    "unit": "",
+    "values": {},
+    "evidence_text": "环境 生态系统和生物多样性保护 生态系统和生物多样性保护",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "环境合规管理",
+    "unit": "",
+    "values": {},
+    "evidence_text": "环境 环境合规管理 环境合规管理",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "能源利用",
+    "unit": "",
+    "values": {},
+    "evidence_text": "环境 能源利用 能源利用",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "水资源利用",
+    "unit": "",
+    "values": {},
+    "evidence_text": "环境 水资源利用 水资源利用",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "循环经济",
+    "unit": "",
+    "values": {},
+    "evidence_text": "环境 循环经济 循环经济",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "乡村振兴",
+    "unit": "",
+    "values": {},
+    "evidence_text": "环境 乡村振兴 乡村振兴",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "社会责任",
+    "unit": "",
+    "values": {},
+    "evidence_text": "社会 社会责任 社会责任",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "创新驱动",
+    "unit": "",
+    "values": {},
+    "evidence_text": "社会 创新驱动 创新驱动",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "科技伦理",
+    "unit": "",
+    "values": {},
+    "evidence_text": "社会 科技伦理 不适用",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "供应链安全",
+    "unit": "",
+    "values": {},
+    "evidence_text": "社会 供应链安全 供应链管理",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "平等对待中小企业",
+    "unit": "",
+    "values": {},
+    "evidence_text": "社会 平等对待中小企业 不适用",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "产品和服务安全与质量",
+    "unit": "",
+    "values": {},
+    "evidence_text": "社会 产品和服务安全与质量 产品和服务安全与质量",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "数据安全与客户隐私保护",
+    "unit": "",
+    "values": {},
+    "evidence_text": "社会 数据安全与客户隐私保护 数据安全与客户隐私保护",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "员工、职业健康安全",
+    "unit": "",
+    "values": {},
+    "evidence_text": "社会 员工 员工、职业健康安全",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "尽职调查",
+    "unit": "",
+    "values": {},
+    "evidence_text": "可持续发展相关治理 尽职调查 尽职调查",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "利益相关方沟通",
+    "unit": "",
+    "values": {},
+    "evidence_text": "可持续发展相关治理 利益相关方沟通 利益相关方沟通",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "反商业贿赂及反贪污",
+    "unit": "",
+    "values": {},
+    "evidence_text": "可持续发展相关治理 反商业贿赂及反贪污 反商业贿赂及反贪污",
+    "reason": "no_schema_match"
+  },
+  {
+    "page_image": "page_42.png",
+    "table_title": "《上海证券交易所上市公司自律监管指引第14号——可持续发展报告(试行)》索引表",
+    "topic": null,
+    "metric_name": "反不正当竞争",
+    "unit": "",
+    "values": {},
+    "evidence_text": "可持续发展相关治理 反不正当竞争 反不正当竞争",
+    "reason": "no_schema_match"
+  }
+]

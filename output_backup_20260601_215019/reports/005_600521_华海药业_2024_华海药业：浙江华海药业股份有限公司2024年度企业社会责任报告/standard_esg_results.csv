@@ -1,0 +1,61 @@
+﻿field_key,field_name_cn,category,indicator_type,value_type,value,raw_value,unit,year,column_label,row_label,topic,table_title,page_image,evidence_text,status,confidence,match_reason
+total_ghg_emissions,温室气体排放总量,E,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+ghg_emissions_intensity,温室气体排放强度,E,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+scope_1_emissions,范围一温室气体排放量,E,quantitative,number,58691,"58,691",吨二氧化碳当量,2024,2024年,范围一温室气体排放量,,温室气体排放数据,page_33.png,"范围一温室气体排放量 吨二氧化碳当量 2024年 58,691",extracted,0.96,heuristic_scope_1; schema_match_validated
+scope_2_emissions,范围二温室气体排放量,E,quantitative,number,349692,"349,692",吨二氧化碳当量,2024,2024年,范围二温室气体排放量,,温室气体排放数据,page_33.png,"范围二温室气体排放量 吨二氧化碳当量 2024年 349,692",extracted,0.96,heuristic_scope_2; schema_match_validated
+energy_consumption_total,能源消耗总量,E,quantitative,number,111030,"111,030",吨标煤,2024,2024年,综合能源消耗量,,能源使用数据表,page_38.png,"综合能源消耗量 吨标煤 2024年 111,030",extracted,0.96,normalized_alias_match:综合能源消耗; schema_match_validated
+energy_consumption_intensity,能源消耗强度,E,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+natural_gas_consumption,天然气消耗量,E,quantitative,number,4231675,"4,231,675",立方米,2024,2024年,天然气用量,,能源使用数据表,page_38.png,"天然气用量 立方米 2024年 4,231,675",extracted,0.9,heuristic_natural_gas_consumption; schema_match_validated
+electricity_consumption,用电量,E,quantitative,number,340842,"340,842",兆瓦时,2024,2024年,外购电力用量,,能源使用数据表,page_38.png,"外购电力用量 兆瓦时 2024年 340,842",extracted,0.92,heuristic_electricity; schema_match_validated
+water_consumption,用水量,E,quantitative,number,2303965,"2,303,965",立方米,2024,2024年,总取水量,能源利用,能源利用,page_58.png,"能源利用 总取水量 立方米 2,303,965",extracted,0.92,heuristic_water_ocr_correction; schema_match_validated
+wastewater_discharge,废水排放量,E,quantitative,number,1487377,"1,487,377",立方米,2024,2024年,废水排放总量,水资源利用,水资源利用,page_58.png,"水资源利用 废水排放总量 立方米 1,487,377",extracted,0.96,normalized_alias_match:废水排放总量; schema_match_validated
+air_pollutant_emissions,废气或大气污染物排放量,E,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+non_hazardous_waste,一般废弃物产生量,E,quantitative,number,5001,"5,001",吨,2024,2024年,无害废弃物总量,,无害废弃物排放数据,page_37.png,"无害废弃物总量 吨 2024年 5,001",extracted,0.96,manual_alias_override:无害废弃物总量; schema_match_validated
+hazardous_waste,危险废弃物产生量,E,quantitative,number,87383,"87,383",吨,2024,2024年,有害废弃物总量,,有害废弃物排放数据,page_37.png,"有害废弃物总量 吨 2024年 87,383",extracted,0.93,heuristic_hazardous_waste; schema_match_validated
+environmental_investment,环保投入金额,E,quantitative,number,25562.67,"25,562.67",万元人民币,2024,2024年,年度环保投资支出,,完善环境突发应急预案,page_34.png,"年度环保投资支出 万元人民币 25,562.67",extracted,0.92,heuristic_environmental_investment; schema_match_validated
+environmental_penalty_count,环境违规或处罚事件数量,E,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+total_employees,员工总数,S,quantitative,number,9065,"9,065",人,2024,2024年,员工总人数,应对气候变化,应对气候变化,page_58.png,"应对气候变化 员工总人数 人 9,065",extracted,0.93,heuristic_total_employees; schema_match_validated
+male_employees,男性员工人数,S,quantitative,number,5341,"5,341",人,2024,2024年,男性员工人数,应对气候变化,应对气候变化,page_58.png,"应对气候变化 男性员工人数 人 5,341",extracted,0.92,heuristic_male_employees; schema_match_validated
+female_employees,女性员工人数,S,quantitative,number,3724,"3,724",人,2024,2024年,女性员工人数,应对气候变化,应对气候变化,page_58.png,"应对气候变化 女性员工人数 人 3,724",extracted,0.92,heuristic_female_employees; schema_match_validated
+female_employee_ratio,女性员工比例,S,quantitative,percentage,,,,,,,,,,,missing,0.0,not_found
+employee_turnover_rate,员工流失率,S,quantitative,percentage,16.02,16.02,%,2024,2024年,员工流失率,应对气候变化,应对气候变化,page_58.png,应对气候变化 员工流失率 % 16.02,extracted,0.9500000000000001,normalized_alias_match:员工流失率; schema_match_validated
+training_total_hours,员工培训总时长,S,quantitative,number,766921,"766,921",小时,2024,2024年,员工接受培训总时长,应对气候变化,应对气候变化,page_58.png,"应对气候变化 员工接受培训总时长 小时 766,921",extracted,0.9500000000000001,normalized_alias_match:培训总时长; schema_match_validated
+training_hours_per_employee,人均培训时长,S,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+training_coverage_rate,员工培训覆盖率,S,quantitative,percentage,100,100,%,2024,2024年,员工培训覆盖率,应对气候变化,应对气候变化,page_58.png,应对气候变化 员工培训覆盖率 % 100,extracted,0.97,normalized_alias_match:员工培训覆盖率; schema_match_validated
+social_security_coverage,社会保险覆盖率,S,quantitative,percentage,100,100,%,2024,2024年,社会保险覆盖率,应对气候变化,应对气候变化,page_58.png,应对气候变化 社会保险覆盖率 % 100,extracted,0.92,heuristic_social_security_coverage; schema_match_validated
+employee_medical_checkup_coverage,员工体检覆盖率,S,quantitative,percentage,100,100,%,2024,2024年,员工体检覆盖率,应对气候变化,应对气候变化,page_58.png,应对气候变化 员工体检覆盖率 % 100,extracted,0.9,heuristic_employee_medical_checkup_coverage; schema_match_validated
+trained_employees_count,受训员工人数,S,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+safety_accident_count,安全生产事故数量,S,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+occupational_health_safety_investment,安全生产投入,S,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+safety_emergency_drill_count,安全应急演练次数,S,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+lost_work_days_due_to_injury,因工伤损失工作日数,S,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+r_and_d_personnel_count,研发人员数量,S,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+r_and_d_expense,研发投入金额,S,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+public_welfare_investment,公益投入金额,S,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+board_size,董事会人数,G,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+independent_directors,独立董事人数,G,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+independent_director_ratio,独立董事比例,G,quantitative,percentage,,,,,,,,,,,missing,0.0,not_found
+female_directors,女性董事人数,G,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+board_meetings,董事会会议次数,G,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+shareholder_meetings,股东大会会议次数,G,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+anti_corruption_training_sessions,反腐败培训次数,G,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+anti_corruption_training_participants,反腐败培训人数,G,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+confirmed_corruption_cases,确认腐败案件数量,G,quantitative,number,,,,,,,,,,,missing,0.0,not_found
+esg_strategy_targets,ESG战略目标,E,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+climate_risk_management,气候风险识别与管理,E,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+environmental_management_system,环境管理体系,E,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+energy_saving_measures,节能减排措施,E,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+water_management_measures,水资源管理措施,E,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+waste_management_measures,废弃物管理措施,E,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+employee_rights_policy,员工权益保障政策,S,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+occupational_health_safety_system,职业健康安全管理体系,S,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+employee_training_development,员工培训与发展机制,S,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+diversity_equal_opportunity,多元化与平等雇佣政策,S,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+supplier_esg_assessment,供应商ESG管理机制,S,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+data_security_privacy,数据安全与隐私保护机制,S,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+board_esg_oversight,董事会ESG监督机制,G,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+esg_committee,ESG治理架构或委员会,G,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+anti_corruption_policy,反腐败政策,G,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+whistleblowing_mechanism,举报机制与举报人保护,G,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+business_ethics_training,商业道德培训机制,G,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found
+investor_communication,信息披露与投资者沟通机制,G,qualitative,boolean_or_text,,,,,,,,,,,missing,0.0,not_found

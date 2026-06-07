@@ -1,0 +1,58 @@
+{
+  "report_dir": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告",
+  "industry": "manufacturing",
+  "retrieval_profile": "bm25_query_agg_evidence_rerank_v1",
+  "skip_harness": true,
+  "harness": null,
+  "citations": {
+    "field_count": 60,
+    "auto_cited_count": 45,
+    "needs_review_count": 15,
+    "json_path": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\field_citations.json",
+    "csv_path": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\field_citations.csv"
+  },
+  "rating": {
+    "score": 70.3427,
+    "rating": "B",
+    "field_count": 53,
+    "scored_field_count": 39,
+    "needs_review_count": 15,
+    "json_path": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\simulated_rating.json",
+    "summary_csv_path": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\simulated_rating_summary.csv",
+    "review_queue_path": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\rating_review_queue.json",
+    "rating_run_id": "rating_2ed10b5a8ff44c50",
+    "pillar_scores": {
+      "E": {
+        "score": 86.0385,
+        "rating": "A",
+        "field_count": 21,
+        "scored_field_count": 18,
+        "coverage": 0.8571,
+        "auto_cited_count": 18,
+        "evidence_coverage": 0.8571,
+        "needs_review_count": 3
+      },
+      "G": {
+        "score": 53.0667,
+        "rating": "C",
+        "field_count": 13,
+        "scored_field_count": 7,
+        "coverage": 0.5385,
+        "auto_cited_count": 7,
+        "evidence_coverage": 0.5385,
+        "needs_review_count": 6
+      },
+      "S": {
+        "score": 69.455,
+        "rating": "CCC",
+        "field_count": 19,
+        "scored_field_count": 14,
+        "coverage": 0.7368,
+        "auto_cited_count": 14,
+        "evidence_coverage": 0.7368,
+        "needs_review_count": 5
+      }
+    }
+  },
+  "next_step": "Review rating_review_queue.json, then approve/correct fields and recalculate rating."
+}

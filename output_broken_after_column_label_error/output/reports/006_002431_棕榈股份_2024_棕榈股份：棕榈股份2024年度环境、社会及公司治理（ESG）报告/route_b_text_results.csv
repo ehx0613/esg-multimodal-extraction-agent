@@ -1,6 +1,0 @@
-﻿field_key,field_name_cn,category,matched,value,summary,evidence,source_pages,confidence,reason,route
-board_esg_oversight,董事会 ESG 监督机制,G,True,True,董事会作为ESG治理的最高决策机构，负责ESG战略规划、制度政策拟定及实施监督。,公司董事会作为ESG治理的最高决策机构，负责拟定公司在ESG方面的战略规划和制度政策，确保有关政策能有效实施。,[9],0.95,正文明确披露了董事会在ESG治理中的职责和机制。,B_text_rag
-esg_committee,ESG 委员会或可持续发展委员会,G,True,True,公司成立了ESG报告工作小组，负责年度ESG报告编制及相关工作。,各相关职能部门、子公司管理人员组成ESG报告工作小组，负责公司年度ESG报告编制、信息收集、审验等工作。,[9],0.86,正文明确披露了该机制。,B_text_rag
-anti_corruption_policy,反腐败政策,G,True,True,公司建立了反腐败或举报相关制度。,公司修订了《廉洁从业管理规定》《内部监察管理制度》等纪检监察制度，持续推进廉洁建设。,[17],0.86,正文明确披露了该机制。,B_text_rag
-whistleblowing_mechanism,举报机制,G,True,True,公司建立了反腐败或举报相关制度。,纪检监察部负责投诉举报的受理和调查，提供举报网站、信箱、电话等多种渠道。,[18],0.86,正文明确披露了该机制。,B_text_rag
-supplier_esg_assessment,供应商 ESG 评估机制,S,False,,,,[],0.25,未找到足够证据。,B_text_rag

@@ -1,9 +1,11 @@
 # scripts/run_merge_batch.py
 
 import csv
+import os
 from pathlib import Path
 
-from config.settings import REPORTS_DIR, OUTPUT_DIR
+from config.settings import REPORTS_DIR, OUTPUT_DIR, RAW_DATA_DIR
+from pipeline.batch_pipeline import safe_name
 from pipeline.merge_pipeline import ESGMergePipeline
 
 
@@ -12,6 +14,17 @@ def main():
         p for p in REPORTS_DIR.iterdir()
         if p.is_dir() and (p / "standard_esg_results.csv").exists()
     ]
+
+    if os.getenv("ESG_BATCH_TOP_LEVEL_ONLY", "false").lower() == "true":
+        report_dirs = [
+            REPORTS_DIR / f"{idx:03d}_{safe_name(pdf.stem)}"
+            for idx, pdf in enumerate(sorted(RAW_DATA_DIR.glob("*.pdf")), start=1)
+            if pdf.is_file()
+        ]
+        report_dirs = [
+            p for p in report_dirs
+            if p.is_dir() and (p / "standard_esg_results.csv").exists()
+        ]
 
     if not report_dirs:
         raise FileNotFoundError("没有找到任何路线 A 输出目录。")
@@ -35,9 +48,17 @@ def main():
                 "route_a_extracted_fields": summary.get("route_a_extracted_fields"),
                 "route_b_matched_fields": summary.get("route_b_matched_fields"),
                 "route_b_filled_fields": summary.get("route_b_filled_fields"),
+                "route_b2_matched_fields": summary.get("route_b2_matched_fields"),
+                "route_b2_filled_fields": summary.get("route_b2_filled_fields"),
                 "merged_extracted_fields": summary.get("merged_extracted_fields"),
                 "missing_fields": summary.get("missing_fields"),
                 "coverage_rate": summary.get("coverage_rate"),
+                "raw_coverage": summary.get("raw_coverage"),
+                "industry": summary.get("industry"),
+                "applicable_fields": summary.get("applicable_fields"),
+                "applicable_extracted_fields": summary.get("applicable_extracted_fields"),
+                "not_applicable_fields": summary.get("not_applicable_fields"),
+                "applicable_coverage": summary.get("applicable_coverage"),
                 "output_dir": str(report_dir),
                 "error": "",
             })
@@ -50,9 +71,17 @@ def main():
                 "route_a_extracted_fields": "",
                 "route_b_matched_fields": "",
                 "route_b_filled_fields": "",
+                "route_b2_matched_fields": "",
+                "route_b2_filled_fields": "",
                 "merged_extracted_fields": "",
                 "missing_fields": "",
                 "coverage_rate": "",
+                "raw_coverage": "",
+                "industry": "",
+                "applicable_fields": "",
+                "applicable_extracted_fields": "",
+                "not_applicable_fields": "",
+                "applicable_coverage": "",
                 "output_dir": str(report_dir),
                 "error": str(e),
             })
@@ -67,9 +96,17 @@ def main():
             "route_a_extracted_fields",
             "route_b_matched_fields",
             "route_b_filled_fields",
+            "route_b2_matched_fields",
+            "route_b2_filled_fields",
             "merged_extracted_fields",
             "missing_fields",
             "coverage_rate",
+            "raw_coverage",
+            "industry",
+            "applicable_fields",
+            "applicable_extracted_fields",
+            "not_applicable_fields",
+            "applicable_coverage",
             "output_dir",
             "error",
         ]

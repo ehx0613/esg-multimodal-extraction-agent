@@ -1,0 +1,147 @@
+﻿applicability,category,confidence,evidence,field_key,field_name_cn,indicator_type,industry,merge_reason,missing_reason,page_image,raw_value,route_a_confidence,route_a_reason,route_a_status,route_b2_confidence,route_b2_evidence,route_b2_matched,route_b2_raw_value,route_b2_reason,route_b2_source_pages,route_b2_unit,route_b2_value,route_b2_year,route_b_confidence,route_b_evidence,route_b_matched,route_b_reason,route_b_source_pages,route_b_summary,row_label,source_pages,source_route,status,table_title,topic,unit,value,value_type,year
+core,E,0.95,相当于减少二氧化碳当量排放 1451.5 吨,total_ghg_emissions,温室气体排放总量,quantitative,pharma,route_b2_filled_missing_route_a,,,1451.5 吨,0.0,not_found,missing,0.95,相当于减少二氧化碳当量排放 1451.5 吨,true,1451.5 吨,定位到目标字段同义词'二氧化碳当量排放'，提取到明确数值1451.5吨和年份2024，单位与目标单位一致，无禁止词干扰;soft_penalty:soft_pass_strong_unit_anchor:二氧化碳当量;vector=0.1839,[18],吨,1451.5,2024,,,,,,,温室气体排放总量,[18],route_b2_quant_text_rag,extracted,,quant_text_rag,吨,1451.5,number,2024
+core,E,0.0,,ghg_emissions_intensity,温室气体排放强度,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,E,0.0,,scope_1_emissions,范围一温室气体排放量,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,E,0.0,,scope_2_emissions,范围二温室气体排放量,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,E,0.0,,energy_consumption_total,能源消耗总量,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,E,0.0,,energy_consumption_intensity,能源消耗强度,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,E,0.9,天然气消耗量 万立方米 2022年 1.39 2023年 1.54 2024年 1.49,natural_gas_consumption,天然气消耗量,quantitative,pharma,route_a_selected,,page_31.png,1.49,0.9,heuristic_natural_gas_consumption; schema_match_validated,extracted,,,,,,,,,,,,,,,,天然气消耗量,page_31.png,route_a_appendix_table,extracted,关键绩效表-环境,,万立方米,1.49,number,2024
+core,E,0.92,外购电力 万千瓦时 2022年 2677.22 2023年 2659.03 2024年 3160.76,electricity_consumption,用电量,quantitative,pharma,route_a_selected,,page_31.png,3160.76,0.92,heuristic_electricity; schema_match_validated,extracted,,,,,,,,,,,,,,,,外购电力,page_31.png,route_a_appendix_table,extracted,关键绩效表-环境,,万千瓦时,3160.76,number,2024
+core,E,0.0,,water_consumption,用水量,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,E,0.0,,wastewater_discharge,废水排放量,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,E,0.0,,air_pollutant_emissions,废气或大气污染物排放量,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,E,0.0,,non_hazardous_waste,一般废弃物产生量,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,E,0.0,,hazardous_waste,危险废弃物产生量,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,E,0.96,环保总投资 万元 2022年 129.64 2023年 78.7 2024年 279.18,environmental_investment,环保投入金额,quantitative,pharma,route_a_selected,,page_31.png,279.18,0.96,manual_alias_override:环保总投资; schema_match_validated,extracted,,,,,,,,,,,,,,,,环保总投资,page_31.png,route_a_appendix_table,extracted,关键绩效表-环境,,万元,279.18,number,2024
+core,E,0.0,,environmental_penalty_count,环境违规或处罚事件数量,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,S,0.93,员工人数 人 2022年 6298 2023年 6254 2024年 6243,total_employees,员工总数,quantitative,pharma,route_a_selected,,page_31.png,6243,0.93,heuristic_total_employees; schema_match_validated,extracted,,,,,,,,,,,,,,,,员工人数,page_31.png,route_a_appendix_table,extracted,关键绩效表-环境,,人,6243,number,2024
+core,S,0.92,男性员工人数 人 2022年 2620 2023年 2600 2024年 2516,male_employees,男性员工人数,quantitative,pharma,route_a_selected,,page_31.png,2516,0.92,heuristic_male_employees; schema_match_validated,extracted,,,,,,,,,,,,,,,,男性员工人数,page_31.png,route_a_appendix_table,extracted,关键绩效表-环境,,人,2516,number,2024
+core,S,0.92,女性员工人数 人 2022年 3678 2023年 3654 2024年 3627,female_employees,女性员工人数,quantitative,pharma,route_a_selected,,page_31.png,3627,0.92,heuristic_female_employees; schema_match_validated,extracted,,,,,,,,,,,,,,,,女性员工人数,page_31.png,route_a_appendix_table,extracted,关键绩效表-环境,,人,3627,number,2024
+core,S,0.95,"女性员工比例
+58.10%",female_employee_ratio,女性员工比例,quantitative,pharma,route_b2_filled_missing_route_a,,,58.10%,0.0,not_found,missing,0.95,"女性员工比例
+58.10%",true,58.10%,定位到目标字段同义词'女性员工比例'，提取到2024年对应数值58.10%，单位为%，与目标单位一致，无需转换,[25],%,58.10,2024,,,,,,,女性员工比例,[25],route_b2_quant_text_rag,extracted,,quant_text_rag,%,58.10,percentage,2024
+core,S,0.9500000000000001,员工流失率 % 2022年 6.2 2023年 5.9 2024年 6,employee_turnover_rate,员工流失率,quantitative,pharma,route_a_selected,,page_31.png,6,0.9500000000000001,normalized_alias_match:员工流失率; schema_match_validated,extracted,,,,,,,,,,,,,,,,员工流失率,page_31.png,route_a_appendix_table,extracted,关键绩效表-环境,,%,6,percentage,2024
+core,S,0.0,,training_total_hours,员工培训总时长,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,S,0.0,,training_hours_per_employee,人均培训时长,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,S,0.97,员工培训覆盖率 % 2022年 100 2023年 100 2024年 100,training_coverage_rate,员工培训覆盖率,quantitative,pharma,route_a_selected,,page_31.png,100,0.97,normalized_alias_match:员工培训覆盖率; schema_match_validated,extracted,,,,,,,,,,,,,,,,员工培训覆盖率,page_31.png,route_a_appendix_table,extracted,关键绩效表-环境,,%,100,percentage,2024
+core,S,0.92,社会保险覆盖率 % 2022年 100 2023年 100 2024年 100,social_security_coverage,社会保险覆盖率,quantitative,pharma,route_a_selected,,page_31.png,100,0.92,heuristic_social_security_coverage; schema_match_validated,extracted,,,,,,,,,,,,,,,,社会保险覆盖率,page_31.png,route_a_appendix_table,extracted,关键绩效表-环境,,%,100,percentage,2024
+core,S,0.0,,employee_medical_checkup_coverage,员工体检覆盖率,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,percentage,
+core,S,0.9,安全生产培训人次 人次 2022年 45822 2023年 40659 2024年 49676,trained_employees_count,受训员工人数,quantitative,pharma,route_a_selected,,page_31.png,49676,0.9,heuristic_trained_employees_count; alias_soft_warning:training_participants,extracted,,,,,,,,,,,,,,,,安全生产培训人次,page_31.png,route_a_appendix_table,extracted,关键绩效表-环境,,人次,49676,number,2024
+core,S,0.0,,safety_accident_count,安全生产事故数量,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,S,0.94,安全生产总投入 万元 2022年 439.58 2023年 438.64 2024年 435.31,occupational_health_safety_investment,安全生产投入,quantitative,pharma,route_a_selected,,page_31.png,435.31,0.94,fuzzy_alias_match:0.92:安全生产投入; schema_match_validated,extracted,,,,,,,,,,,,,,,,安全生产总投入,page_31.png,route_a_appendix_table,extracted,关键绩效表-环境,,万元,435.31,number,2024
+core,S,0.95,全流域企业开展应急演练91 场次，覆盖3801 人次,safety_emergency_drill_count,安全应急演练次数,quantitative,pharma,route_b2_filled_missing_route_a,,,91 场次,0.0,not_found,missing,0.95,全流域企业开展应急演练91 场次，覆盖3801 人次,true,91 场次,定位到目标字段同义词“应急演练”，提取到明确数值91、单位“场次”（与目标单位“次”等价），年份为2024，且无 forbidden_any 干扰，语义一一对应,[15],次,91,2024,,,,,,,安全应急演练次数,[15],route_b2_quant_text_rag,extracted,,quant_text_rag,次,91,number,2024
+core,S,0.95,因工伤损失工作日数 日 0 0 0,lost_work_days_due_to_injury,因工伤损失工作日数,quantitative,pharma,route_b2_filled_missing_route_a,,,0,0.0,not_found,missing,0.95,因工伤损失工作日数 日 0 0 0,true,0,定位到目标字段的精确同义词'因工伤损失工作日数'，有明确年份2024年对应数值0，单位为'日'，符合目标单位，无需转换,[31],日,0,2024,,,,,,,因工伤损失工作日数,[31],route_b2_quant_text_rag,extracted,,quant_text_rag,日,0,number,2024
+core,S,0.0,,r_and_d_personnel_count,研发人员数量,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,S,0.9400000000000001,研发投入 万元 2022年 3475 2023年 3738 2024年 5068,r_and_d_expense,研发投入金额,quantitative,pharma,route_a_selected,,page_31.png,5068,0.9400000000000001,normalized_alias_match:研发投入; schema_match_validated,extracted,,,,,,,,,,,,,,,,研发投入,page_31.png,route_a_appendix_table,extracted,关键绩效表-环境,,万元,5068,number,2024
+core,S,0.0,,public_welfare_investment,公益投入金额,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,G,0.0,,board_size,董事会人数,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,G,0.0,,independent_directors,独立董事人数,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,G,0.95,报告期内，公司董事会由3 名独立董事和6 名非独立董事组成，独立董事占比达到33%，专业背景涵盖法律、医药行业、数字经济、财务等领域，为公司科学决策提供支持。,independent_director_ratio,独立董事比例,quantitative,pharma,route_b2_filled_missing_route_a,,,33%,0.0,not_found,missing,0.95,报告期内，公司董事会由3 名独立董事和6 名非独立董事组成，独立董事占比达到33%，专业背景涵盖法律、医药行业、数字经济、财务等领域，为公司科学决策提供支持。,true,33%,定位到目标字段同义词'独立董事占比'，提取到明确数值33%和年份2024（报告期为2024年），单位为%，与目标单位一致，无 forbidden_any 干扰，语义一一对应。,[13],%,33,2024,,,,,,,独立董事比例,[13],route_b2_quant_text_rag,extracted,,quant_text_rag,%,33,percentage,2024
+core,G,0.95,截至报告期末，公司董事会由9 名成员组成，其中女性董事2 名，男性董事7 名，,female_directors,女性董事人数,quantitative,pharma,route_b2_filled_missing_route_a,,,2 名,0.0,not_found,missing,0.95,截至报告期末，公司董事会由9 名成员组成，其中女性董事2 名，男性董事7 名，,true,2 名,定位到目标字段同义词'女性董事'，提取到明确数值'2 名'，年份为报告期末（2024年），单位'名'与目标单位'人'等价，符合所有规则,[13],人,2,2024,,,,,,,女性董事人数,[13],route_b2_quant_text_rag,extracted,,quant_text_rag,人,2,number,2024
+core,G,0.94,报告期内，公司召开董事会会议 7 次，董事会成员出席率 100%,board_meetings,董事会会议次数,quantitative,pharma,route_a_selected,,page_13.png,7,0.94,heuristic_board_meetings_short_label; schema_match_validated,extracted,,,,,,,,,,,,,,,,召开董事会会议次数,page_13.png,route_a_appendix_table,extracted,董事会建设相关绩效数据,董事会建设,次,7,number,2024
+core,G,0.0,,shareholder_meetings,股东大会会议次数,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,G,0.0,,anti_corruption_training_sessions,反腐败培训次数,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,G,0.92,反腐败培训人次 人次 2022年 500 2023年 700 2024年 400,anti_corruption_training_participants,反腐败培训人数,quantitative,pharma,route_a_selected,,page_31.png,400,0.92,heuristic_anti_corruption_training_participants; schema_match_validated,extracted,,,,,,,,,,,,,,,,反腐败培训人次,page_31.png,route_a_appendix_table,extracted,关键绩效表-环境,,人次,400,number,2024
+core,G,0.0,,confirmed_corruption_cases,确认腐败案件数量,quantitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,number,
+core,E,0.95,公司将结合正在制定的ESG 建设三年规划，在进一步凝聚共识中构建ESG 管理体系并推动ESG 工作落实落细。,esg_strategy_targets,ESG战略目标,qualitative,pharma,route_b_filled_missing_route_a,,,True,0.0,not_found,missing,,,,,,,,,,0.95,公司将结合正在制定的ESG 建设三年规划，在进一步凝聚共识中构建ESG 管理体系并推动ESG 工作落实落细。,true,文本明确提及公司正在制定'ESG建设三年规划'，属于ESG战略目标的具体规划措施，符合目标指标定义。,[8],公司正在制定ESG建设三年规划，以构建ESG管理体系并推动工作落实。,公司正在制定ESG建设三年规划，以构建ESG管理体系并推动工作落实。,[8],route_b_text_rag,extracted,,正文定性机制,,True,boolean_or_text,
+core,E,0.95,"积极应对气候变化既是全球共识，也是企业可持续发展之本。作为具备社会责任感的医药健康产业，公司坚持以习近平生态文明思想为指导，积极落实“双碳”工作，识别气候风险与机遇，并积极采取应对措施，走绿色低碳发展道路。
+
+气候相关风险
+对业务的影响
+应对措施
+实体风险
+急性风险：
+极端天气
+·办公楼及生产型建筑受损，一方面造成财产损失，另外一方面可能出现安全风险，影响员工健康。
+·药物流通物流车受损，影响正常药物配送，间接损害公司营业收入及利润。
+·制定突发天气应急响应制度，完善应急响应机制，有效应对突发事件带来的影响。
+·提前识别可能受极端天气损坏的设备，并提前做好防护，降低因极端天气而造成的相关财产损失。
+慢性风险：
+全球气候变暖、高温、干旱等
+·随着全球气候变暖，可能需要升级更多储存药物的制冷设备，增加运营成本和营业成本。
+·全球气候变暖间接导致的水资源紧缺，增加用水成本。
+·引入更高能效的制冷设备和技术，有效降低碳排放。
+·开展水资源管理工作，通过多元化取水、工艺创新、废水再生等方式降低水资源消耗。
+转型风险
+政策和法律风险
+·气候相关法律政策持续出台，对环境合规管理要求更高，运营成本增加。
+·及时关注环境法律法规、政策的动态变化并积极应对。
+技术风险
+·发展及使用新技术，促进相关设备升级改造，增加运营成本。
+·发展太阳能/光伏清洁能源，实现节能降耗。
+·强化产学研合作，重视人才培养，提高技术研发能力。
+市场风险
+·上下游供应链日益关注产品和服务过程的环保性，影响产品及服务需求，长期降低营业收入。
+·完善包装耗材管理制度，推进纸箱包材循环利用。
+·绿色低碳配送，降低物流运输对环境的影响。
+·重视绿色低碳物流园区建设。
+声誉风险
+·因在应对气候变化及可持续领域表现不佳，导致利益相关方负面反馈，如不进行及时回应，长期营业收入将出现下降情况。
+·重视环境议题披露，定期披露报告，回应利益相关方关切。
+·健全内部管理机制，提升在应对气候变化方面的管理能力。",climate_risk_management,气候风险识别与管理,qualitative,pharma,route_b_filled_missing_route_a,,,True,0.0,not_found,missing,,,,,,,,,,0.95,"积极应对气候变化既是全球共识，也是企业可持续发展之本。作为具备社会责任感的医药健康产业，公司坚持以习近平生态文明思想为指导，积极落实“双碳”工作，识别气候风险与机遇，并积极采取应对措施，走绿色低碳发展道路。
+
+气候相关风险
+对业务的影响
+应对措施
+实体风险
+急性风险：
+极端天气
+·办公楼及生产型建筑受损，一方面造成财产损失，另外一方面可能出现安全风险，影响员工健康。
+·药物流通物流车受损，影响正常药物配送，间接损害公司营业收入及利润。
+·制定突发天气应急响应制度，完善应急响应机制，有效应对突发事件带来的影响。
+·提前识别可能受极端天气损坏的设备，并提前做好防护，降低因极端天气而造成的相关财产损失。
+慢性风险：
+全球气候变暖、高温、干旱等
+·随着全球气候变暖，可能需要升级更多储存药物的制冷设备，增加运营成本和营业成本。
+·全球气候变暖间接导致的水资源紧缺，增加用水成本。
+·引入更高能效的制冷设备和技术，有效降低碳排放。
+·开展水资源管理工作，通过多元化取水、工艺创新、废水再生等方式降低水资源消耗。
+转型风险
+政策和法律风险
+·气候相关法律政策持续出台，对环境合规管理要求更高，运营成本增加。
+·及时关注环境法律法规、政策的动态变化并积极应对。
+技术风险
+·发展及使用新技术，促进相关设备升级改造，增加运营成本。
+·发展太阳能/光伏清洁能源，实现节能降耗。
+·强化产学研合作，重视人才培养，提高技术研发能力。
+市场风险
+·上下游供应链日益关注产品和服务过程的环保性，影响产品及服务需求，长期降低营业收入。
+·完善包装耗材管理制度，推进纸箱包材循环利用。
+·绿色低碳配送，降低物流运输对环境的影响。
+·重视绿色低碳物流园区建设。
+声誉风险
+·因在应对气候变化及可持续领域表现不佳，导致利益相关方负面反馈，如不进行及时回应，长期营业收入将出现下降情况。
+·重视环境议题披露，定期披露报告，回应利益相关方关切。
+·健全内部管理机制，提升在应对气候变化方面的管理能力。",true,候选文本在page 17中明确提及“识别气候风险与机遇”，并详细列出了实体风险、转型风险等类别及其对应的应对措施，完全符合“气候风险识别与管理”指标的定义，且所有内容均来自原文，未做任何编造。,[17],公司识别气候风险与机遇，并制定针对实体风险、转型风险等的应对措施，包括完善应急响应机制、升级节能设备、开展水资源管理、关注政策变化及推进绿色物流等。,公司识别气候风险与机遇，并制定针对实体风险、转型风险等的应对措施，包括完善应急响应机制、升级节能设备、开展水资源管理、关注政策变化及推进绿色物流等。,[17],route_b_text_rag,extracted,,正文定性机制,,True,boolean_or_text,
+core,E,0.95,公司严格遵守《中华人民共和国环境保护法》《中华人民共和国节约能源法》《中华人民共和国大气污染防治法》《中华人民共和国水污染防治法》《中华人民共和国固体废物污染环境防治法》等国家环境保护法律法规及运营所在地环保要求，制定《南京医药股份有限公司环境保护管理制度》，建立健全环境管理体系，明确项目环境管理措施，确保环境管理工作落实到位。,environmental_management_system,环境管理体系,qualitative,pharma,route_b_filled_missing_route_a,,,True,0.0,not_found,missing,,,,,,,,,,0.95,公司严格遵守《中华人民共和国环境保护法》《中华人民共和国节约能源法》《中华人民共和国大气污染防治法》《中华人民共和国水污染防治法》《中华人民共和国固体废物污染环境防治法》等国家环境保护法律法规及运营所在地环保要求，制定《南京医药股份有限公司环境保护管理制度》，建立健全环境管理体系，明确项目环境管理措施，确保环境管理工作落实到位。,true,候选文本明确提及'制定《南京医药股份有限公司环境保护管理制度》，建立健全环境管理体系'，直接对应目标指标'环境管理体系'，且使用了标准术语，符合抽取规则。,[17],公司制定《南京医药股份有限公司环境保护管理制度》，建立健全环境管理体系。,公司制定《南京医药股份有限公司环境保护管理制度》，建立健全环境管理体系。,[17],route_b_text_rag,extracted,,正文定性机制,,True,boolean_or_text,
+core,E,0.95,"公司致力降低物流运输对环境的影响，通过智能配送、改善能耗结构、加强驾驶员节油降耗理念宣贯培训与油耗考核激励等措施，减少运输环节碳排放。
+公司拟逐步淘汰高油耗老旧车辆，积极推进新能源货运车辆在城市物流配送领域的应用。
+公司主动加装节能设备与能耗管理设备，探索打造绿色物流园区。积极推进光伏发电项目，利用仓库和办公楼空闲屋顶铺设分布式光伏发电设备，减少碳排放，有效应对气候变化。改进智能化控制系统，根据气温和药械商品存储要求精准控制暖通空调及温湿度设备，有效控制仓库温湿度，在确保药品储存质量的同时，实现节能降耗与运营成本的双重优化。",energy_saving_measures,节能减排措施,qualitative,pharma,route_b_filled_missing_route_a,,,True,0.0,not_found,missing,,,,,,,,,,0.95,"公司致力降低物流运输对环境的影响，通过智能配送、改善能耗结构、加强驾驶员节油降耗理念宣贯培训与油耗考核激励等措施，减少运输环节碳排放。
+公司拟逐步淘汰高油耗老旧车辆，积极推进新能源货运车辆在城市物流配送领域的应用。
+公司主动加装节能设备与能耗管理设备，探索打造绿色物流园区。积极推进光伏发电项目，利用仓库和办公楼空闲屋顶铺设分布式光伏发电设备，减少碳排放，有效应对气候变化。改进智能化控制系统，根据气温和药械商品存储要求精准控制暖通空调及温湿度设备，有效控制仓库温湿度，在确保药品储存质量的同时，实现节能降耗与运营成本的双重优化。",true,候选文本中明确提及了多项节能降耗的具体措施，包括智能配送、能耗结构改善、驾驶员培训、淘汰高油耗车辆、新能源车应用、光伏发电、节能设备加装和智能温控系统，均属于‘节能减排措施’的直接表述，符合定性指标抽取规则。,"[19, 18]",公司通过智能配送、改善能耗结构、驾驶员节油降耗培训与考核激励、淘汰高油耗车辆、推广新能源货运车辆、加装节能设备、铺设光伏发电、优化温湿度控制系统等措施实现节能降耗。,公司通过智能配送、改善能耗结构、驾驶员节油降耗培训与考核激励、淘汰高油耗车辆、推广新能源货运车辆、加装节能设备、铺设光伏发电、优化温湿度控制系统等措施实现节能降耗。,"[19, 18]",route_b_text_rag,extracted,,正文定性机制,,True,boolean_or_text,
+core,E,0.95,开展水资源管理工作，通过多元化取水、工艺创新、废水再生等方式降低水资源消耗。,water_management_measures,水资源管理措施,qualitative,pharma,route_b_filled_missing_route_a,,,True,0.0,not_found,missing,,,,,,,,,,0.95,开展水资源管理工作，通过多元化取水、工艺创新、废水再生等方式降低水资源消耗。,true,候选文本明确提及'开展水资源管理工作'，并具体列出'多元化取水、工艺创新、废水再生'等措施，直接对应'水资源管理措施'指标。,[17],公司通过多元化取水、工艺创新、废水再生等方式降低水资源消耗。,公司通过多元化取水、工艺创新、废水再生等方式降低水资源消耗。,[17],route_b_text_rag,extracted,,正文定性机制,,True,boolean_or_text,
+core,E,0.95,公司推进固体废物规范化管理，下属子公司鹤龄药事建立健全固体废物管理体系，委托具备资质的第三方机构负责固体废物（药渣）集中处置，签署《固体废物处置合同》，确保固体废物处置过程规范、合规。严格依照国家标准建设危废暂存库，设置危险废物信息公开栏、贮存设施警示标志牌及包装识别标签，确保贮存安全。同时，积极推进固体废物资源化利用，针对熬制中药过程中产生的废渣，通过技术创新和工艺改进，加工制成有机肥料等产品，实现环境效益与经济效益双赢。,waste_management_measures,废弃物管理措施,qualitative,pharma,route_b_filled_missing_route_a,,,True,0.0,not_found,missing,,,,,,,,,,0.95,公司推进固体废物规范化管理，下属子公司鹤龄药事建立健全固体废物管理体系，委托具备资质的第三方机构负责固体废物（药渣）集中处置，签署《固体废物处置合同》，确保固体废物处置过程规范、合规。严格依照国家标准建设危废暂存库，设置危险废物信息公开栏、贮存设施警示标志牌及包装识别标签，确保贮存安全。同时，积极推进固体废物资源化利用，针对熬制中药过程中产生的废渣，通过技术创新和工艺改进，加工制成有机肥料等产品，实现环境效益与经济效益双赢。,true,候选文本明确描述了固体废物管理的体系构建、第三方处置合同、危废贮存规范及资源化利用措施，完全覆盖废弃物管理措施的核心内容，且使用了‘固体废物’‘药渣’‘处置’‘资源化利用’等与目标指标直接相关的术语。,[18],公司建立固体废物管理体系，委托具备资质的第三方机构处置药渣，并推进资源化利用，制成有机肥料。,公司建立固体废物管理体系，委托具备资质的第三方机构处置药渣，并推进资源化利用，制成有机肥料。,[18],route_b_text_rag,extracted,,正文定性机制,,True,boolean_or_text,
+core,S,0.95,公司严格遵守《中华人民共和国劳动法》《中华人民共和国劳动合同法》等法律法规，制定招聘管理、劳动合同、考勤休假等内部管理制度，确保用工合法合规。秉持“公平、公正、公开”原则，尊重员工在国籍、种族、性别、宗教信仰或文化背景等方面的差异，营造包容、多元的职场环境。禁止雇佣童工和强制劳动，全面落实性别平等，遏制职场性骚扰行为发生。公司高度重视民主管理机制建设，将保障员工知情权、参与权和监督权作为落实企业民主管理的重要考虑。通过定期召开职工代表大会，建立常态化意见征集机制，多渠道了解员工诉求。规范开展集体协商工作，完善要约应约机制，保障职工合法权益得到有效维护。公司建立健全薪酬福利制度体系，制定工资分配、工资支付、福利管理办法等制度文件，为员工权益保障提供制度支撑。,employee_rights_policy,员工权益保障政策,qualitative,pharma,route_b_filled_missing_route_a,,,True,0.0,not_found,missing,,,,,,,,,,0.95,公司严格遵守《中华人民共和国劳动法》《中华人民共和国劳动合同法》等法律法规，制定招聘管理、劳动合同、考勤休假等内部管理制度，确保用工合法合规。秉持“公平、公正、公开”原则，尊重员工在国籍、种族、性别、宗教信仰或文化背景等方面的差异，营造包容、多元的职场环境。禁止雇佣童工和强制劳动，全面落实性别平等，遏制职场性骚扰行为发生。公司高度重视民主管理机制建设，将保障员工知情权、参与权和监督权作为落实企业民主管理的重要考虑。通过定期召开职工代表大会，建立常态化意见征集机制，多渠道了解员工诉求。规范开展集体协商工作，完善要约应约机制，保障职工合法权益得到有效维护。公司建立健全薪酬福利制度体系，制定工资分配、工资支付、福利管理办法等制度文件，为员工权益保障提供制度支撑。,true,候选文本在page 25中明确提及了多项与员工权益保障相关的政策、制度和措施，包括法律法规遵守、内部管理制度建设、民主管理机制、薪酬福利体系等，完全覆盖目标指标的定义和其同义词（如员工权益保障、员工权益保护），且无任何推测或常识补全。,[25],公司通过制定多项内部管理制度、保障民主管理机制、优化薪酬福利体系等方式系统性保障员工权益。,公司通过制定多项内部管理制度、保障民主管理机制、优化薪酬福利体系等方式系统性保障员工权益。,[25],route_b_text_rag,extracted,,正文定性机制,,True,boolean_or_text,
+core,S,0.95,公司始终将员工职业健康与安全作为企业管理的重中之重，持续完善安全健康管理体系。通过引入专业第三方检测机构，对存在职业病危害因素的岗位定期开展职业病危害因素全面检测与科学评估，筑牢员工职业健康安全防线。报告期内，公司以及下属子公司康捷物流、鹤龄药事均顺利完成《职业病危害因素检测评价报告（2024）》，检测结果显示各项指标均符合国家标准，未发现存在职业病危害因素。,occupational_health_safety_system,职业健康安全管理体系,qualitative,pharma,route_b_filled_missing_route_a,,,True,0.0,not_found,missing,,,,,,,,,,0.95,公司始终将员工职业健康与安全作为企业管理的重中之重，持续完善安全健康管理体系。通过引入专业第三方检测机构，对存在职业病危害因素的岗位定期开展职业病危害因素全面检测与科学评估，筑牢员工职业健康安全防线。报告期内，公司以及下属子公司康捷物流、鹤龄药事均顺利完成《职业病危害因素检测评价报告（2024）》，检测结果显示各项指标均符合国家标准，未发现存在职业病危害因素。,true,文本明确提及'持续完善安全健康管理体系'，并具体描述了通过第三方检测、职业病危害因素评估、完成检测评价报告等措施落实职业健康安全管理体系，符合'职业健康安全管理体系'的定义和 aliases 范围。,[26],公司持续完善安全健康管理体系，通过制度建设、风险评估、检测评价和应急管理等措施构建系统化的职业健康安全管理体系。,公司持续完善安全健康管理体系，通过制度建设、风险评估、检测评价和应急管理等措施构建系统化的职业健康安全管理体系。,[26],route_b_text_rag,extracted,,正文定性机制,,True,boolean_or_text,
+core,S,0.95,公司围绕发展战略和各专业线培训需求，构建系统化、专业化员工培训体系。充分整合内外部优质培训资源，通过内训、外培、ELN（e-learning）在线学习、自学、实践等多元化培养方式，为各层级、各岗位员工提供精准化、个性化教育培训方案。特别设立学历提升奖励机制，鼓励在职员工持续提升学历，对通过继续教育获得更高学历的员工给予专项奖励。构建管理序列和业务（技术）序列员工双通道职业发展体系，为各类人才提供清晰职业发展路径。,employee_training_development,员工培训与发展机制,qualitative,pharma,route_b_filled_missing_route_a,,,True,0.0,not_found,missing,,,,,,,,,,0.95,公司围绕发展战略和各专业线培训需求，构建系统化、专业化员工培训体系。充分整合内外部优质培训资源，通过内训、外培、ELN（e-learning）在线学习、自学、实践等多元化培养方式，为各层级、各岗位员工提供精准化、个性化教育培训方案。特别设立学历提升奖励机制，鼓励在职员工持续提升学历，对通过继续教育获得更高学历的员工给予专项奖励。构建管理序列和业务（技术）序列员工双通道职业发展体系，为各类人才提供清晰职业发展路径。,true,候选文本明确描述了员工培训体系的构建、培训类别、培养方式及职业发展双通道机制，完全符合'员工培训与发展机制'的定义，且有直接原文支持。,[25],公司构建了系统化、专业化的员工培训体系，涵盖新员工培训、在职培训、管理提升培训等，并建立双通道职业发展体系，鼓励员工学历提升。,公司构建了系统化、专业化的员工培训体系，涵盖新员工培训、在职培训、管理提升培训等，并建立双通道职业发展体系，鼓励员工学历提升。,[25],route_b_text_rag,extracted,,正文定性机制,,True,boolean_or_text,
+core,S,0.95,秉持“公平、公正、公开”原则，尊重员工在国籍、种族、性别、宗教信仰或文化背景等方面的差异，营造包容、多元的职场环境。禁止雇佣童工和强制劳动，全面落实性别平等，遏制职场性骚扰行为发生。,diversity_equal_opportunity,多元化与平等雇佣政策,qualitative,pharma,route_b_filled_missing_route_a,,,True,0.0,not_found,missing,,,,,,,,,,0.95,秉持“公平、公正、公开”原则，尊重员工在国籍、种族、性别、宗教信仰或文化背景等方面的差异，营造包容、多元的职场环境。禁止雇佣童工和强制劳动，全面落实性别平等，遏制职场性骚扰行为发生。,true,文本明确提及“尊重员工在国籍、种族、性别、宗教信仰或文化背景等方面的差异”“营造包容、多元的职场环境”“全面落实性别平等”，这些内容直接对应“多元化与平等雇佣政策”的核心要素，且使用了“平等雇佣”这一明确关键词。,[25],公司秉持公平、公正、公开原则，尊重员工在国籍、种族、性别、宗教信仰或文化背景等方面的差异，营造包容、多元的职场环境，禁止歧视并全面落实性别平等。,公司秉持公平、公正、公开原则，尊重员工在国籍、种族、性别、宗教信仰或文化背景等方面的差异，营造包容、多元的职场环境，禁止歧视并全面落实性别平等。,[25],route_b_text_rag,extracted,,正文定性机制,,True,boolean_or_text,
+core,S,0.9,"合作伙伴/ 供应商
+带动行业发展
+合作伙伴共赢
+落实责任采购
+定期交流沟通
+落实阳光采购
+供应商ESG 管理",supplier_esg_assessment,供应商ESG管理机制,qualitative,pharma,route_b_filled_missing_route_a,,,True,0.0,not_found,missing,,,,,,,,,,0.9,"合作伙伴/ 供应商
+带动行业发展
+合作伙伴共赢
+落实责任采购
+定期交流沟通
+落实阳光采购
+供应商ESG 管理",true,候选文本在page 8的'合作伙伴/供应商'部分明确列出了'落实责任采购'和'供应商ESG管理'，二者均为目标指标的同义词或直接关联表述，符合定性指标抽取规则中'明确描述机制或措施'的要求。,[8],公司明确提及落实责任采购和供应商ESG管理，作为其ESG治理和利益相关方管理的一部分。,公司明确提及落实责任采购和供应商ESG管理，作为其ESG治理和利益相关方管理的一部分。,[8],route_b_text_rag,extracted,,正文定性机制,,True,boolean_or_text,
+optional,S,0.95,公司切实履行数据安全保护责任，贯彻落实《中华人民共和国网络安全法》《中华人民共和国数据安全法》《中华人民共和国个人信息保护法》等法律法规要求，将客户隐私保护要求贯彻落实到业务流程和日常经营活动中。制定严格数据加密和存储标准，持续提升信息管理水平，为客户构建安全、可靠、可信的信息环境。,data_security_privacy,数据安全与隐私保护机制,qualitative,pharma,route_b_filled_missing_route_a,,,True,0.0,not_found,missing,,,,,,,,,,0.95,公司切实履行数据安全保护责任，贯彻落实《中华人民共和国网络安全法》《中华人民共和国数据安全法》《中华人民共和国个人信息保护法》等法律法规要求，将客户隐私保护要求贯彻落实到业务流程和日常经营活动中。制定严格数据加密和存储标准，持续提升信息管理水平，为客户构建安全、可靠、可信的信息环境。,true,候选文本明确提及公司落实数据安全、个人信息保护相关法律，并具体描述了制定数据加密和存储标准、将隐私保护融入业务流程等措施，完全符合目标指标的定义。,[23],公司贯彻落实数据安全与个人信息保护相关法律法规，制定数据加密和存储标准，将客户隐私保护要求落实到业务流程中。,公司贯彻落实数据安全与个人信息保护相关法律法规，制定数据加密和存储标准，将客户隐私保护要求落实到业务流程中。,[23],route_b_text_rag,extracted,,正文定性机制,,True,boolean_or_text,
+core,G,0.95,董事会是公司ESG 工作的最高领导机构，对公司ESG 战略、管理、绩效和汇报事宜承担全部责任，致力于确保公司ESG 工作符合法律法规和标准要求，对ESG 相关风险进行控制，保证ESG 工作目标和实施过程有效。,board_esg_oversight,董事会ESG监督机制,qualitative,pharma,route_b_filled_missing_route_a,,,True,0.0,not_found,missing,,,,,,,,,,0.95,董事会是公司ESG 工作的最高领导机构，对公司ESG 战略、管理、绩效和汇报事宜承担全部责任，致力于确保公司ESG 工作符合法律法规和标准要求，对ESG 相关风险进行控制，保证ESG 工作目标和实施过程有效。,true,候选文本明确指出董事会作为ESG工作的最高领导机构，并承担对ESG战略、管理、绩效和汇报的全部责任，完全符合'董事会ESG监督机制'的定义。,[8],董事会是公司ESG工作的最高领导机构，对ESG战略、管理、绩效和汇报事宜承担全部责任。,董事会是公司ESG工作的最高领导机构，对ESG战略、管理、绩效和汇报事宜承担全部责任。,[8],route_b_text_rag,extracted,,正文定性机制,,True,boolean_or_text,
+core,G,0.0,,esg_committee,ESG治理架构或委员会,qualitative,pharma,missing_after_route_a,not_disclosed_or_extraction_failed,,,0.0,not_found,missing,,,,,,,,,,,,,,,,,,missing,missing,,,,,boolean_or_text,
+core,G,0.95,公司始终重视反商业贿赂和反腐败工作，恪守商业道德，并建立透明、公正、高效的监督反馈机制，为员工、供应商及社会公众等利益相关方提供畅通的申诉和举报渠道。通过设立专项举报投诉信箱、开通热线电话等方式，确保各方能够方便快捷地反映问题。同时，公司着重关注举报信息，对收到的投诉和举报及时进行调查核实，并积极采取有效措施，确保问题得到妥善解决，切实维护各方合法权益，营造公平、公正的企业环境。,anti_corruption_policy,反腐败政策,qualitative,pharma,route_b_filled_missing_route_a,,,True,0.0,not_found,missing,,,,,,,,,,0.95,公司始终重视反商业贿赂和反腐败工作，恪守商业道德，并建立透明、公正、高效的监督反馈机制，为员工、供应商及社会公众等利益相关方提供畅通的申诉和举报渠道。通过设立专项举报投诉信箱、开通热线电话等方式，确保各方能够方便快捷地反映问题。同时，公司着重关注举报信息，对收到的投诉和举报及时进行调查核实，并积极采取有效措施，确保问题得到妥善解决，切实维护各方合法权益，营造公平、公正的企业环境。,true,候选文本明确提及'反商业贿赂和反腐败工作'，并详细描述了监督机制、举报渠道和处理流程，符合反腐败政策的定义，且与别名'反贪污政策'直接对应。,[14],公司重视反商业贿赂和反腐败工作，建立监督反馈机制并提供举报渠道，同时开展反贪腐培训和廉政制度建设。,公司重视反商业贿赂和反腐败工作，建立监督反馈机制并提供举报渠道，同时开展反贪腐培训和廉政制度建设。,[14],route_b_text_rag,extracted,,正文定性机制,,True,boolean_or_text,
+core,G,0.95,公司始终重视反商业贿赂和反腐败工作，恪守商业道德，并建立透明、公正、高效的监督反馈机制，为员工、供应商及社会公众等利益相关方提供畅通的申诉和举报渠道。通过设立专项举报投诉信箱、开通热线电话等方式，确保各方能够方便快捷地反映问题。,whistleblowing_mechanism,举报机制与举报人保护,qualitative,pharma,route_b_filled_missing_route_a,,,True,0.0,not_found,missing,,,,,,,,,,0.95,公司始终重视反商业贿赂和反腐败工作，恪守商业道德，并建立透明、公正、高效的监督反馈机制，为员工、供应商及社会公众等利益相关方提供畅通的申诉和举报渠道。通过设立专项举报投诉信箱、开通热线电话等方式，确保各方能够方便快捷地反映问题。,true,候选文本明确提及'申诉和举报渠道'，并具体说明通过'举报投诉信箱'和'热线电话'实现，符合'举报机制与举报人保护'指标的定义，且未使用常识补全。,[14],公司为员工、供应商及社会公众等利益相关方建立透明、公正、高效的监督反馈机制，提供畅通的申诉和举报渠道。,公司为员工、供应商及社会公众等利益相关方建立透明、公正、高效的监督反馈机制，提供畅通的申诉和举报渠道。,[14],route_b_text_rag,extracted,,正文定性机制,,True,boolean_or_text,
+core,G,0.95,定期开展合规培训与宣传活动，强化员工的合规意识与职业道德，保障合作伙伴、客户及员工等各方的合法权益，营造健康、和谐的商业生态。守法合规培训时长 小时 2880 5841 3054 守法合规培训人次 人次 636 1680 1299 反贪腐培训时长 小时 6.5 9 15.25 反贪腐培训人次 人次 500 700 800,business_ethics_training,商业道德培训机制,qualitative,pharma,route_b_filled_missing_route_a,,,True,0.0,not_found,missing,,,,,,,,,,0.95,定期开展合规培训与宣传活动，强化员工的合规意识与职业道德，保障合作伙伴、客户及员工等各方的合法权益，营造健康、和谐的商业生态。守法合规培训时长 小时 2880 5841 3054 守法合规培训人次 人次 636 1680 1299 反贪腐培训时长 小时 6.5 9 15.25 反贪腐培训人次 人次 500 700 800,true,候选文本明确提及'定期开展合规培训与宣传活动'，并提供了'守法合规培训'和'反贪腐培训'的具体时长与人次数据，二者均属于目标指标的同义词或直接关联词，符合商业道德培训机制的定义。,"[13, 31]",公司定期开展合规培训与宣传活动，强化员工的合规意识与职业道德，并专门开展守法合规培训和反贪腐培训。,公司定期开展合规培训与宣传活动，强化员工的合规意识与职业道德，并专门开展守法合规培训和反贪腐培训。,"[13, 31]",route_b_text_rag,extracted,,正文定性机制,,True,boolean_or_text,
+core,G,0.95,良好的信息披露是上市公司与投资者、监管机构及社会公众之间建立信任的重要桥梁。公司遵守《上海证券交易所股票上市规则》《上海证券交易所上市公司自律监管指引》《公司章程》等规定，严格按照规定要求准确、真实、完整、及时地披露信息，保障投资者获取信息的合法权益，增强投资者信心，促进资本市场健康发展。报告期内，公司披露定期报告4 份，临时公告73 份；通过召开业绩说明会、可转换公司债券路演说明会、上海证券交易所“上证E 互动”、现场接待、电话交流等多种方式与投资者互动，增进投资者对行业信息、公司战略发展及经营管理现状、国企改革、可转债发行等多方面情况的了解。,investor_communication,信息披露与投资者沟通机制,qualitative,pharma,route_b_filled_missing_route_a,,,True,0.0,not_found,missing,,,,,,,,,,0.95,良好的信息披露是上市公司与投资者、监管机构及社会公众之间建立信任的重要桥梁。公司遵守《上海证券交易所股票上市规则》《上海证券交易所上市公司自律监管指引》《公司章程》等规定，严格按照规定要求准确、真实、完整、及时地披露信息，保障投资者获取信息的合法权益，增强投资者信心，促进资本市场健康发展。报告期内，公司披露定期报告4 份，临时公告73 份；通过召开业绩说明会、可转换公司债券路演说明会、上海证券交易所“上证E 互动”、现场接待、电话交流等多种方式与投资者互动，增进投资者对行业信息、公司战略发展及经营管理现状、国企改革、可转债发行等多方面情况的了解。,true,候选文本明确描述了信息披露的具体措施（如定期报告、临时公告）和多种投资者沟通方式（如业绩说明会、上证E互动、电话交流等），完全符合'信息披露与投资者沟通机制'的定义，且引用了原文完整段落。,[14],公司通过披露定期报告和临时公告，并召开业绩说明会、路演说明会、上证E互动、现场接待和电话交流等多种方式与投资者互动。,公司通过披露定期报告和临时公告，并召开业绩说明会、路演说明会、上证E互动、现场接待和电话交流等多种方式与投资者互动。,[14],route_b_text_rag,extracted,,正文定性机制,,True,boolean_or_text,

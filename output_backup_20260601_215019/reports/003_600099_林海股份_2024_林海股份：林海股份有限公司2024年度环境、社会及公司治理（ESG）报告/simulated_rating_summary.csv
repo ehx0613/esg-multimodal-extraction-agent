@@ -1,0 +1,15 @@
+﻿level,key,name_cn,pillar,score,rating,field_count,scored_field_count,coverage,evidence_coverage,needs_review_count,auto_cited_count,pillar_weights,theme_key,theme_name_cn
+overall,overall,总分,,64.1066,CC,53,35,,,21,,"{'E': 0.35, 'S': 0.35, 'G': 0.3}",,
+pillar,E,E,E,59.2673,C,21,13,0.619,0.619,8,13,,,
+pillar,G,G,G,49.74,C,13,6,0.4615,0.4615,7,6,,,
+pillar,S,S,S,81.26,BBB,19,16,0.8421,0.7895,4,15,,,
+theme,business_ethics,商业道德,G,35.4929,C,6,2,0.3333,0.3333,4,2,,business_ethics,商业道德
+theme,climate_change,气候变化,E,61.7586,CC,11,7,0.6364,0.6364,4,7,,climate_change,气候变化
+theme,disclosure_quality,信披质量,G,99.5,AAA,1,1,1.0,1.0,0,1,,disclosure_quality,信披质量
+theme,environmental_management,环境管理,E,56.6286,C,3,2,0.6667,0.6667,1,2,,environmental_management,环境管理
+theme,environmental_pollution,环境污染,E,63.2273,CC,5,3,0.6,0.6,2,3,,environmental_pollution,环境污染
+theme,governance_structure,治理结构,G,56.8786,C,6,3,0.5,0.5,3,3,,governance_structure,治理结构
+theme,human_capital,人力资本,S,76.7313,BB,15,12,0.8,0.7333,4,11,,human_capital,人力资本
+theme,resource_utilization,资源利用,E,39.8,C,2,1,0.5,0.5,1,1,,resource_utilization,资源利用
+theme,social_contribution,社会贡献,S,99.4333,AAA,3,3,1.0,1.0,0,3,,social_contribution,社会贡献
+theme,supply_chain,供应链,S,99.2,AAA,1,1,1.0,1.0,0,1,,supply_chain,供应链

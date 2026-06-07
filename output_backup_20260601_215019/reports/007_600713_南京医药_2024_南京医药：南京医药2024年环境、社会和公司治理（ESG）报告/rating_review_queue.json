@@ -1,0 +1,350 @@
+[
+  {
+    "field_key": "ghg_emissions_intensity",
+    "field_name_cn": "温室气体排放强度",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 17,
+    "citation_chunk_id": "p17_32",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "·办公楼及生产型建筑受损，一方 面造成财产损失，另外一方面可 能出现安全风险，影响员工健康。 ·药物流通物流车受损，影响正常 药物配送，间接损害公司营业收 入及利润。 ·制定突发天气应急响应制度，完善应 急响应机制，有效应对突发事件带来 的影响。 ·提前识别可能受极端天气损坏的设备， 并提前做好防护，降低因极端天气而 造成的相关财产损失。 慢性风险： 全球气候变暖、 高温、干旱等 ·随着全球气候变暖，可能需要升 级更多储存药物的制冷设..."
+  },
+  {
+    "field_key": "scope_1_emissions",
+    "field_name_cn": "范围一温室气体排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 19,
+    "citation_chunk_id": "p19_37",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "公司致力降低物流运输对环境的影响，通过智能配送、改善能耗结构、加强驾驶员节油降耗理念宣贯培训与油耗考核激 励等措施，减少运输环节碳排放。 公司在现代化仓储物流项目实施过程中，充分考虑项目建设与投产运营全过程的绿色发展，将环保、节能、低碳等理念 在项目可研、设计、施工、验收、运营等环节贯穿其中。重视建设过程中对周边水环境、大气环境、噪声及固体废弃与 环境敏感区等影响，预留太阳能光伏改造的有关需求与计划，为后期运营提供基础条件，助力能源结..."
+  },
+  {
+    "field_key": "scope_2_emissions",
+    "field_name_cn": "范围二温室气体排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 18,
+    "citation_chunk_id": "p18_35",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "息公开栏、贮存设施警示 标志牌及包装识别标签，确保贮存安全。同时，积极推进 固体废物资源化利用，针对熬制中药过程中产生的废渣， 通过技术创新和工艺改进，加工制成有机肥料等产品，实 现环境效益与经济效益双赢。 废气管理 废水管理 固废管理 10 月5 日，鹤龄药事的废气设备主体升级改造项目完成，并通 过南京经济技术开发区环境保护局现场验收。 中药熬制过程中的药渣经过处理成为有机肥料，实现废弃物资源 化利用。 公司主动加装节能设备与能耗管..."
+  },
+  {
+    "field_key": "energy_consumption_total",
+    "field_name_cn": "能源消耗总量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 19,
+    "citation_chunk_id": "p19_39",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "开，节约成本、提升效率并减 少差旅出行带来的碳排放和能 源消耗。 倡导双面打印，减少纸张消 耗，积极推进无纸化办公；合 理配置办公用品，重复使用办 公用品。 报告期内，公司 信息系统推荐的标准纸箱已应用于所有客户，采纳率达 94% 在下游客户试点可循环周转箱，年累计配送周转约 7.2 万箱次 34 南京医药股份有限公司2024 年环境、社会和公司治理（ESG）报告 绿色低碳 · 寻求健康守护良方 35"
+  },
+  {
+    "field_key": "energy_consumption_intensity",
+    "field_name_cn": "能源消耗强度",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 18,
+    "citation_chunk_id": "p18_35",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "息公开栏、贮存设施警示 标志牌及包装识别标签，确保贮存安全。同时，积极推进 固体废物资源化利用，针对熬制中药过程中产生的废渣， 通过技术创新和工艺改进，加工制成有机肥料等产品，实 现环境效益与经济效益双赢。 废气管理 废水管理 固废管理 10 月5 日，鹤龄药事的废气设备主体升级改造项目完成，并通 过南京经济技术开发区环境保护局现场验收。 中药熬制过程中的药渣经过处理成为有机肥料，实现废弃物资源 化利用。 公司主动加装节能设备与能耗管..."
+  },
+  {
+    "field_key": "water_consumption",
+    "field_name_cn": "用水量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 8,
+    "citation_chunk_id": "p8_13",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "提升ESG 工作的针对性 和响应度。基于“双重重要性”原则，综合考量国家宏观政策、行业法规实践并结合 公司发展战略实际，构建系统化的议题识别与评估体系。报告期内，公司以利益相 关方实质性议题问卷调查结果为基础，从“对公司财务的重要性”和“对经济、社会 和环境影响的重要性”两个维度，建立重大议题管理模型，识别并筛选出23 项利益 相关方关注度较高的议题作为ESG 管理和报告披露的重点。 ESG 组织架构 ESG 能力提升 利益相关方沟通..."
+  },
+  {
+    "field_key": "wastewater_discharge",
+    "field_name_cn": "废水排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 18,
+    "citation_chunk_id": "p18_34",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "公司深入贯彻落实党中央、国务院关于全面打好污染防治攻坚战的战略部署，通过持续优化生产流程、构建智慧化环境 监管体系、推广应用环保技术等举措，严格把控废气、废水、固体废物等污染物合规排放，最大限度地降低生产经营对 生态环境及社区居民的影响。报告期内，公司废气、废水、固废均全部达标合规排放。 降低污染排放 公司重视煎药生产过程中废气，确保废气达标排放。针对 润药、煎煮、灌注包装及药渣堆放等生产工序过程中排放 的药物气味，下属子公司鹤龄药事..."
+  },
+  {
+    "field_key": "air_pollutant_emissions",
+    "field_name_cn": "废气或大气污染物排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 18,
+    "citation_chunk_id": "p18_34",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "公司深入贯彻落实党中央、国务院关于全面打好污染防治攻坚战的战略部署，通过持续优化生产流程、构建智慧化环境 监管体系、推广应用环保技术等举措，严格把控废气、废水、固体废物等污染物合规排放，最大限度地降低生产经营对 生态环境及社区居民的影响。报告期内，公司废气、废水、固废均全部达标合规排放。 降低污染排放 公司重视煎药生产过程中废气，确保废气达标排放。针对 润药、煎煮、灌注包装及药渣堆放等生产工序过程中排放 的药物气味，下属子公司鹤龄药事..."
+  },
+  {
+    "field_key": "non_hazardous_waste",
+    "field_name_cn": "一般废弃物产生量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 8,
+    "citation_chunk_id": "p8_14",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "色办公实践 绿色公益活动 员工成长 社会贡献 供应链管理 生态系统和生物多样性保护 信息安全与隐私保护 响应国家战略 重视伙伴责任 平等对待中小企业 药品可及性 遵守科技伦理 产品质量与安全 应对气候变化 发展绿色物流 能耗与资源管理 研发创新 重视商业道德 药品召回/ 追回 开展尽职调查 环境合规管理 废弃物管理 坚持绿色运营 加强ESG 治理 危化品管理 对 经 济 、 社 会 和 环 境 影 响 的 重 要 性 非 常 重 要 ..."
+  },
+  {
+    "field_key": "hazardous_waste",
+    "field_name_cn": "危险废弃物产生量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 17,
+    "citation_chunk_id": "p17_33",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "期披露报告， 回应利益相关方关切。 ·健全内部管理机制，提升在应对气候 变化方面的管理能力。 南京经济技术开发区突发环境事件应急预案 南京鹤龄药事服务有限公司 突发环境事件应急预案 安全生产事故应急预案 消防应急预案 南京中山制药有限公司 突发环境事件应急预案 南京鹤龄药事服务有限公司危险废物突发环境事件专项预案 南京鹤龄药事服务有限公司现场处置专项预案 应急响应条件 与上位应急预案的衔接 与专项预案的衔接 图例 与同位应急预案的衔接..."
+  },
+  {
+    "field_key": "environmental_penalty_count",
+    "field_name_cn": "环境违规或处罚事件数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 17,
+    "citation_chunk_id": "p17_33",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "期披露报告， 回应利益相关方关切。 ·健全内部管理机制，提升在应对气候 变化方面的管理能力。 南京经济技术开发区突发环境事件应急预案 南京鹤龄药事服务有限公司 突发环境事件应急预案 安全生产事故应急预案 消防应急预案 南京中山制药有限公司 突发环境事件应急预案 南京鹤龄药事服务有限公司危险废物突发环境事件专项预案 南京鹤龄药事服务有限公司现场处置专项预案 应急响应条件 与上位应急预案的衔接 与专项预案的衔接 图例 与同位应急预案的衔接..."
+  },
+  {
+    "field_key": "training_total_hours",
+    "field_name_cn": "员工培训总时长",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 15,
+    "citation_chunk_id": "p15_29",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "。 公司应急救援组织机构图 25 家分子公司完成安全生产 标准化台账建立 全流域企业开展应急演练91 场次， 覆盖3801 人次 累计开展安全培训82432 小时，参训人员达49676 人次 对排查出的隐患已 全部完成闭环整改 现场处置61 场次 专项演练30 场次 应急指挥部 总指挥：董事长 副总指挥：总裁、副总裁 应急抢险组 组长：安全总监 组员：运营管理部副总、 安全员、子（分）公司人员 警戒疏散组 组长：安全办副主任 组员：安..."
+  },
+  {
+    "field_key": "training_hours_per_employee",
+    "field_name_cn": "人均培训时长",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 31,
+    "citation_chunk_id": "p31_60",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "附录 关键绩效 指标 单位 2022 年 2023 年 2024 年 环境 天然气消耗量 万立方米 1.39 1.64 1.49 外购电力 万千瓦时 2677.22 2959.03 3160.76 光伏等新能源发电量 万千瓦时 98.32 96.16 145.55 环保总投入 万元 129.64 78.17 279.18 制成品所用包装材料总量 吨 850.41 920.03 1017.39 办公室用纸量 包 240 340 250 ..."
+  },
+  {
+    "field_key": "employee_medical_checkup_coverage",
+    "field_name_cn": "员工体检覆盖率",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 28,
+    "citation_chunk_id": "p28_55",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "公司积极搭建行业交流平台，参与行业评价标准的制定与修订，为推动行业可持续发展贡献南药力量。报告期内，公司 下属子公司康捷物流参与江苏省地方标准《绿色物流园区评价指南》的制定，该指南围绕能源体系、交通体系、碳排放 管理等多个维度，系统梳理并明确绿色物流园区的检索标准和评估方法，确保评价体系的科学性和可操作性。康捷物流 在年内荣获“南京市健康企业”“南京市绿色货运配送公共配送中心”称号。 促进行业发展 公司严格遵守《中华人民共和国招标投标..."
+  },
+  {
+    "field_key": "safety_accident_count",
+    "field_name_cn": "安全生产事故数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 15,
+    "citation_chunk_id": "p15_27",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "公司严格遵守《中华人民共和国安全生产法》《江苏省安 全生产条例》等法律法规，制定《南京医药自用和出租房 产装饰装修安全监督管理暂行规定》《南京医药股份有限 公司特殊作业安全管理规定》《南京医药股份有限公司消 防安全管理制度汇编》，修订了《南京医药股份有限公司 安全生产责任制（2024 版）》等制度文件。建立健全安全 生产管理体系，成立安全生产领导小组，明确小组成员职责， 全面落实安全生产责任，持续提升安全管理水平。搭建安 全生产监管体..."
+  },
+  {
+    "field_key": "safety_emergency_drill_count",
+    "field_name_cn": "安全应急演练次数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 17,
+    "citation_chunk_id": "p17_31",
+    "citation_review_reasons": [
+      "source_page_mismatch"
+    ],
+    "text_excerpt": "公司严格遵守《中华人民共和国突发事件应对法》《危险化学品安全管理条例》等相关法律法规，持续强化环境保护， 防范和遏制突发环境事件的发生。下属子公司鹤龄药事和康捷物流分别制定《突发环境事件应急预案》，明确组织架构、 职责分工、预警机制、响应流程及后期处置等关键环节，确保应急管理工作制度化、规范化和常态化。定期组织开展突 发环境事件应急演练活动，通过模拟真实场景，检验应急预案的可行性和有效性，全面提升全员安全意识和应急处置能力， 确保面临..."
+  },
+  {
+    "field_key": "r_and_d_personnel_count",
+    "field_name_cn": "研发人员数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 8,
+    "citation_chunk_id": "p8_14",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "色办公实践 绿色公益活动 员工成长 社会贡献 供应链管理 生态系统和生物多样性保护 信息安全与隐私保护 响应国家战略 重视伙伴责任 平等对待中小企业 药品可及性 遵守科技伦理 产品质量与安全 应对气候变化 发展绿色物流 能耗与资源管理 研发创新 重视商业道德 药品召回/ 追回 开展尽职调查 环境合规管理 废弃物管理 坚持绿色运营 加强ESG 治理 危化品管理 对 经 济 、 社 会 和 环 境 影 响 的 重 要 性 非 常 重 要 ..."
+  },
+  {
+    "field_key": "public_welfare_investment",
+    "field_name_cn": "公益投入金额",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 31,
+    "citation_chunk_id": "p31_60",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "附录 关键绩效 指标 单位 2022 年 2023 年 2024 年 环境 天然气消耗量 万立方米 1.39 1.64 1.49 外购电力 万千瓦时 2677.22 2959.03 3160.76 光伏等新能源发电量 万千瓦时 98.32 96.16 145.55 环保总投入 万元 129.64 78.17 279.18 制成品所用包装材料总量 吨 850.41 920.03 1017.39 办公室用纸量 包 240 340 250 ..."
+  },
+  {
+    "field_key": "board_size",
+    "field_name_cn": "董事会人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 14,
+    "citation_chunk_id": "p14_26",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "公司始终重视反商业贿赂和反腐败工作，恪守商业道德，并建立透明、公正、高效的监督反馈机制，为员工、供应商及 社会公众等利益相关方提供畅通的申诉和举报渠道。通过设立专项举报投诉信箱、开通热线电话等方式，确保各方能够 方便快捷地反映问题。同时，公司着重关注举报信息，对收到的投诉和举报及时进行调查核实，并积极采取有效措施， 确保问题得到妥善解决，切实维护各方合法权益，营造公平、公正的企业环境。 加强审计监督 重视信息披露 坚持公平竞争 畅通举..."
+  },
+  {
+    "field_key": "independent_directors",
+    "field_name_cn": "独立董事人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 14,
+    "citation_chunk_id": "p14_26",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "公司始终重视反商业贿赂和反腐败工作，恪守商业道德，并建立透明、公正、高效的监督反馈机制，为员工、供应商及 社会公众等利益相关方提供畅通的申诉和举报渠道。通过设立专项举报投诉信箱、开通热线电话等方式，确保各方能够 方便快捷地反映问题。同时，公司着重关注举报信息，对收到的投诉和举报及时进行调查核实，并积极采取有效措施， 确保问题得到妥善解决，切实维护各方合法权益，营造公平、公正的企业环境。 加强审计监督 重视信息披露 坚持公平竞争 畅通举..."
+  },
+  {
+    "field_key": "female_directors",
+    "field_name_cn": "女性董事人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 2,
+    "citation_chunk_id": "p2_2",
+    "citation_review_reasons": [
+      "source_page_mismatch"
+    ],
+    "text_excerpt": "）以及中国医药商业协会《医药行业环境、社会及 企业管治（ESG）信息披露指南》等文件进行编制。 编制流程 利益相关方关注点调查→报告策划→框架构建→素材收集→报告编制→部门审核→ 报告设计→管理层评审→董事会审核→定稿发布 质量保证 南京医药承诺本报告中披露的信息和数据均来源于企业统计报告和正式文件，并通 过相关部门审核，不存在任何虚假记载或误导性陈述，并对报告内容的真实性、准 确性和完整性负责。报告中的财务数据以人民币为单位，特别说..."
+  },
+  {
+    "field_key": "shareholder_meetings",
+    "field_name_cn": "股东大会会议次数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 9,
+    "citation_chunk_id": "p9_15",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "规范组织运行，加强政治引领 公司深刻领悟“两个确立”的决定性意义，增强“四个意识”、坚定“四个自信”、做到“两个维护”，坚持将“两个一以贯之” 纵贯到底，确保党委发挥领导作用，结合“三重一大”决策制度要求，支持公司规范治理并促进全体股东权益的维护，依 照规定讨论和决定企业重大事项。贯通“南京医药党委、所属企业党委、基层党支部”三级责任，推动组织能力提升。同 时，将党的领导贯穿于深化国资国企改革各方面全过程，细化完善党委前置研究清单与议..."
+  },
+  {
+    "field_key": "anti_corruption_training_sessions",
+    "field_name_cn": "反腐败培训次数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 14,
+    "citation_chunk_id": "p14_26",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "公司始终重视反商业贿赂和反腐败工作，恪守商业道德，并建立透明、公正、高效的监督反馈机制，为员工、供应商及 社会公众等利益相关方提供畅通的申诉和举报渠道。通过设立专项举报投诉信箱、开通热线电话等方式，确保各方能够 方便快捷地反映问题。同时，公司着重关注举报信息，对收到的投诉和举报及时进行调查核实，并积极采取有效措施， 确保问题得到妥善解决，切实维护各方合法权益，营造公平、公正的企业环境。 加强审计监督 重视信息披露 坚持公平竞争 畅通举..."
+  },
+  {
+    "field_key": "confirmed_corruption_cases",
+    "field_name_cn": "确认腐败案件数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 14,
+    "citation_chunk_id": "p14_25",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "公司高度重视审计监督在企业经营过程中的重要作用，完善审计制度体系，优化审计流程，建立健全全方位审计监督机制。 巩固和推进“全面覆盖、集中统一、垂直一体化”的内审体系建设，确保工作走深走实。审计专业条线聚焦全级次子公司 风险，着力提升审计成果的运用效果。结合“风险专项整治”工作，提供多项隐患警报，协助化解疑难问题，并推动相关 流程机制优化。公司内审管理变革机制在南京市审计局先进表彰会上宣讲推广。 良好的信息披露是上市公司与投资者、监管机..."
+  },
+  {
+    "field_key": "esg_committee",
+    "field_name_cn": "ESG治理架构或委员会",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 13,
+    "citation_chunk_id": "p13_24",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "发展的根本保障。公司坚 持通过守法合规经营及提供服务获得利润和自身发展空间，持续提升信息披露质量， 构建内部“大监督”体系，强化审计监督，坚持公平竞争，筑牢稳健发展坚实根基。 5 月31 日，公司召开2023 年度股东大会，审议通过多项议案。 公司举办“南药大讲堂- 纪法课堂”为新提任干部强基赋能。 公司组织《国有企业管理人员处分条例》解读培训。 报告期内，公司 召开董事会会议7 次， 董事会成员出席率100% 召开董事会专门委员会会..."
+  }
+]

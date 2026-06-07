@@ -1,0 +1,393 @@
+[
+  {
+    "field_key": "total_ghg_emissions",
+    "field_name_cn": "温室气体排放总量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 22,
+    "citation_chunk_id": "p22_34",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "司持续发力，营业收入攀升至23182.85 万元，同比增长11.03%。 1. 承担大型工程项目，彰显中和环保专业能力 2023年承担的中粮家佳康（吉林）有限公司第七沼气站600m3/d减负还田设计采购施工总承包（EPC） 项目，日处理繁殖场和保育育肥场混合粪污600m³。该项目采用多重叠加工艺，在有效去除粪渣和饲料 残渣的基础上，厌氧发酵产沼气可有效提取废水中有机质，做到了有机碳的回收和利用，减少了对传统 能源的依赖。项目的成功实施..."
+  },
+  {
+    "field_key": "ghg_emissions_intensity",
+    "field_name_cn": "温室气体排放强度",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 6,
+    "citation_chunk_id": "p6_6",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "3 ESG 管理 育才与共 助力员工发展 和衷共济 坚守初心使命 发展相伴 携手伙伴共赢 创新驱动 释放发展动能 质量为本 确保产品安全 绿色发展 实现生态共赢 规范治理 深化国企改革 走进鲁抗 草木蔓发，春山可望。 在这万物生长的时节，我谨代表山东鲁抗医药股份有限公司，向长期以来支持医药健康事业发展的 各界同仁致以诚挚谢意。过去一年，医药行业在变革中砥砺前行——从国家医保谈判深化、集采产品扩容， 到合成生物技术扶持政策落地、创新药“..."
+  },
+  {
+    "field_key": "scope_1_emissions",
+    "field_name_cn": "范围一温室气体排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 21,
+    "citation_chunk_id": "p21_31",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "33 鲁抗医药2024 年度ESG 可持续发展报告 32 ESG 管理 育才与共 助力员工发展 和衷共济 坚守初心使命 发展相伴 携手伙伴共赢 创新驱动 释放发展动能 质量为本 确保产品安全 绿色发展 实现生态共赢 规范治理 深化国企改革 走进鲁抗 鲁抗医药始终视生态环境保护为己任，秉承“国内一流、行业领先、超前一步、绿色发展”的环保理念， 以退城进园为契机，实现了用地集约化、原料无害化、生产洁净化、废物资源化和能源低碳化的绿色发 展..."
+  },
+  {
+    "field_key": "scope_2_emissions",
+    "field_name_cn": "范围二温室气体排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 21,
+    "citation_chunk_id": "p21_31",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "33 鲁抗医药2024 年度ESG 可持续发展报告 32 ESG 管理 育才与共 助力员工发展 和衷共济 坚守初心使命 发展相伴 携手伙伴共赢 创新驱动 释放发展动能 质量为本 确保产品安全 绿色发展 实现生态共赢 规范治理 深化国企改革 走进鲁抗 鲁抗医药始终视生态环境保护为己任，秉承“国内一流、行业领先、超前一步、绿色发展”的环保理念， 以退城进园为契机，实现了用地集约化、原料无害化、生产洁净化、废物资源化和能源低碳化的绿色发 展..."
+  },
+  {
+    "field_key": "energy_consumption_intensity",
+    "field_name_cn": "能源消耗强度",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 11,
+    "citation_chunk_id": "p11_14",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "鲁抗医药2024 年度ESG 可持续发展报告 12 13 走进鲁抗 深化国企改革 规范治理 实现生态共赢 绿色发展 确保产品安全 质量为本 释放发展动能 创新驱动 携手伙伴共赢 发展相伴 坚守初心使命 和衷共济 助力员工发展 育才与共 ESG 管理 2022-2024 年指标情况 金额单位：万元 以“WIND”资讯发布的医药行业数据，326 家医药上市公司2024 年1-3 季度数据中，鲁抗医 药营业收入位列第38 位，同比上升3 位..."
+  },
+  {
+    "field_key": "natural_gas_consumption",
+    "field_name_cn": "天然气消耗量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 6,
+    "citation_chunk_id": "p6_7",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "提高能源 的利用效率，每年可减少二氧化碳排放当量约5.6 万吨。我们坚信，唯有尊重自然规律，方能实现基业长青。 和合共生，以“兼济天下”践行企业变革 在全球化遇阻的当下，我们坚持开放协作，与国内、国际科研院所共建多个高端产学研创新平台， 合成生物技术取得突破性进展，丙烯-1,2,3- 三羧酸三丁酯和丙烯-1,2,3- 三羧酸三(2- 乙基己) 酯两个全 新化合物获批，酵母底盘生物合成天然产物多个产品完成小规模产业化生产，让“绿色”融入..."
+  },
+  {
+    "field_key": "wastewater_discharge",
+    "field_name_cn": "废水排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 40,
+    "citation_chunk_id": "p40_62",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "8 质量培训学时 小时 152.8 172 167 重大质量责任事故数 起 0 0 0 公益捐赠总额 万元 0.7 0.4 0.3 乡村振兴帮扶投入 万元 3 43.3 3 环境绩效 指标 单位 2022 年 2023 年 2024 年 指标 单位 2022 年 2023 年 2024 年 环保投入 万元 17338.87 16419 18120.29 一般及以上环境突发事件数 次 0 0 0 综合能源消耗量 万吨标煤 13.98 1..."
+  },
+  {
+    "field_key": "air_pollutant_emissions",
+    "field_name_cn": "废气或大气污染物排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 40,
+    "citation_chunk_id": "p40_62",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "8 质量培训学时 小时 152.8 172 167 重大质量责任事故数 起 0 0 0 公益捐赠总额 万元 0.7 0.4 0.3 乡村振兴帮扶投入 万元 3 43.3 3 环境绩效 指标 单位 2022 年 2023 年 2024 年 指标 单位 2022 年 2023 年 2024 年 环保投入 万元 17338.87 16419 18120.29 一般及以上环境突发事件数 次 0 0 0 综合能源消耗量 万吨标煤 13.98 1..."
+  },
+  {
+    "field_key": "non_hazardous_waste",
+    "field_name_cn": "一般废弃物产生量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 21,
+    "citation_chunk_id": "p21_31",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "33 鲁抗医药2024 年度ESG 可持续发展报告 32 ESG 管理 育才与共 助力员工发展 和衷共济 坚守初心使命 发展相伴 携手伙伴共赢 创新驱动 释放发展动能 质量为本 确保产品安全 绿色发展 实现生态共赢 规范治理 深化国企改革 走进鲁抗 鲁抗医药始终视生态环境保护为己任，秉承“国内一流、行业领先、超前一步、绿色发展”的环保理念， 以退城进园为契机，实现了用地集约化、原料无害化、生产洁净化、废物资源化和能源低碳化的绿色发 展..."
+  },
+  {
+    "field_key": "hazardous_waste",
+    "field_name_cn": "危险废弃物产生量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 22,
+    "citation_chunk_id": "p22_33",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "35 鲁抗医药2024 年度ESG 可持续发展报告 34 ESG 管理 育才与共 助力员工发展 和衷共济 坚守初心使命 发展相伴 携手伙伴共赢 创新驱动 释放发展动能 质量为本 确保产品安全 绿色发展 实现生态共赢 规范治理 深化国企改革 走进鲁抗 3. 鲁抗医药2024 年度资源综合利用情况 （1）大力推进绿色能源应用，通过充分利用房顶及空地等区域，持续推行分布式光伏发电项目，公 司光伏发电装机容量达到20MW，年发电能力约2400..."
+  },
+  {
+    "field_key": "environmental_penalty_count",
+    "field_name_cn": "环境违规或处罚事件数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 40,
+    "citation_chunk_id": "p40_62",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "8 质量培训学时 小时 152.8 172 167 重大质量责任事故数 起 0 0 0 公益捐赠总额 万元 0.7 0.4 0.3 乡村振兴帮扶投入 万元 3 43.3 3 环境绩效 指标 单位 2022 年 2023 年 2024 年 指标 单位 2022 年 2023 年 2024 年 环保投入 万元 17338.87 16419 18120.29 一般及以上环境突发事件数 次 0 0 0 综合能源消耗量 万吨标煤 13.98 1..."
+  },
+  {
+    "field_key": "male_employees",
+    "field_name_cn": "男性员工人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 19,
+    "citation_chunk_id": "p19_29",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "29 鲁抗医药2024 年度ESG 可持续发展报告 28 ESG 管理 育才与共 助力员工发展 和衷共济 坚守初心使命 发展相伴 携手伙伴共赢 创新驱动 释放发展动能 质量为本 确保产品安全 绿色发展 实现生态共赢 规范治理 深化国企改革 走进鲁抗 加强反腐倡廉 → ++ 1. 扛起监督大旗，积极履行监督职责。 在政治监督方面，进一步强化落实；在日常监督环节，着力做细做深。协助公司党委积极落实各项 工作，持续强化对“关键少数”的监督力..."
+  },
+  {
+    "field_key": "female_employees",
+    "field_name_cn": "女性员工人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 19,
+    "citation_chunk_id": "p19_29",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "29 鲁抗医药2024 年度ESG 可持续发展报告 28 ESG 管理 育才与共 助力员工发展 和衷共济 坚守初心使命 发展相伴 携手伙伴共赢 创新驱动 释放发展动能 质量为本 确保产品安全 绿色发展 实现生态共赢 规范治理 深化国企改革 走进鲁抗 加强反腐倡廉 → ++ 1. 扛起监督大旗，积极履行监督职责。 在政治监督方面，进一步强化落实；在日常监督环节，着力做细做深。协助公司党委积极落实各项 工作，持续强化对“关键少数”的监督力..."
+  },
+  {
+    "field_key": "training_hours_per_employee",
+    "field_name_cn": "人均培训时长",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 30,
+    "citation_chunk_id": "p30_45",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "51 鲁抗医药2024 年度ESG 可持续发展报告 50 ESG 管理 育才与共 助力员工发展 和衷共济 坚守初心使命 发展相伴 携手伙伴共赢 创新驱动 释放发展动能 质量为本 确保产品安全 绿色发展 实现生态共赢 规范治理 深化国企改革 走进鲁抗 理念与目标 → ++ 鲁抗医药全面落实新发展理念，始终坚持“以人为本，以人的价值为本”。以建设健康和谐、公平公正、 敢于创新、善于学习的鲁抗为宗旨，围绕人力资源“三条主线”，常态化开展三项..."
+  },
+  {
+    "field_key": "lost_work_days_due_to_injury",
+    "field_name_cn": "因工伤损失工作日数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 37,
+    "citation_chunk_id": "p37_57",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "“直采”，取消中间商，持续降低公司采购成本。 创新采购模式，搭建鲁抗采购线上商城，建立非生产类物资（标准件）线上采购平台，进一步减少 库存资金占压，减少人力投入，提高采购效率。 2024 年生产用物资合作供应商数量1100 余户，采购额16.37 亿元。 2. 规范供应链安全管理 为确保原材料和产成品的稳定供应，公司与关键材料供应商建立了战略合作关系，有效避免因供应 中断造成损失。公司针对各类物料设定了适当的安全库存。物资供应部与生产..."
+  },
+  {
+    "field_key": "r_and_d_personnel_count",
+    "field_name_cn": "研发人员数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 9,
+    "citation_chunk_id": "p9_11",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "鲁抗医药2024 年度ESG 可持续发展报告 8 9 走进鲁抗 深化国企改革 规范治理 实现生态共赢 绿色发展 确保产品安全 质量为本 释放发展动能 创新驱动 携手伙伴共赢 发展相伴 坚守初心使命 和衷共济 助力员工发展 育才与共 ESG 管理 “十四五”期间，鲁抗医药将坚持以新发展理念引领鲁抗高质量发展，坚持“固本强基、补链强链、 创新突破、转型发展”十六字方针，建设健康和谐、公平公正、敢于创新、善于学习的鲁抗。公司将围绕“建 设绿..."
+  },
+  {
+    "field_key": "public_welfare_investment",
+    "field_name_cn": "公益投入金额",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 40,
+    "citation_chunk_id": "p40_62",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "8 质量培训学时 小时 152.8 172 167 重大质量责任事故数 起 0 0 0 公益捐赠总额 万元 0.7 0.4 0.3 乡村振兴帮扶投入 万元 3 43.3 3 环境绩效 指标 单位 2022 年 2023 年 2024 年 指标 单位 2022 年 2023 年 2024 年 环保投入 万元 17338.87 16419 18120.29 一般及以上环境突发事件数 次 0 0 0 综合能源消耗量 万吨标煤 13.98 1..."
+  },
+  {
+    "field_key": "board_size",
+    "field_name_cn": "董事会人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 4,
+    "citation_chunk_id": "p4_3",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "目录 CONTENTS 关于本报告 走进鲁抗 董事长致辞 / 03 企业简介 / 04 文化理念 / 06 组织架构 / 07 子公司分布 / 08 “十四五”发展目标及战略 / 09 经营质量持续提升 / 10 发展成效 / 12 重要事件 / 14 奖项荣誉 / 16 01. 绿色低碳发展理念与目标 / 32 节能减排主要成效 / 32 实施绿色管理 / 33 做强做优做大环保产 / 34 绿色发展 实现生态共赢 规范治理 深化国..."
+  },
+  {
+    "field_key": "independent_directors",
+    "field_name_cn": "独立董事人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 15,
+    "citation_chunk_id": "p15_22",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "把好 政治关、政策关、程序关，对关于企业改革发展的重大问题提出意见和 建议，支持总经理办公会、董事会依法行使职权，促进科学决策。 董事会不断强化上市公司规范治理，确保董事会决策体系规范运作， 维护全体股东权益；确保外部董事占多数，加强独立董事管理，根据独 立董事工作制度要求，确保独立董事任职独立性。发挥专业委员会职责， 充分履行独董职责和事前把关的责任。加强制度建设，按照中国证监会 相关法规要求，组织修订董事会规范运作各项程序文件及实..."
+  },
+  {
+    "field_key": "independent_director_ratio",
+    "field_name_cn": "独立董事比例",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 15,
+    "citation_chunk_id": "p15_22",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "把好 政治关、政策关、程序关，对关于企业改革发展的重大问题提出意见和 建议，支持总经理办公会、董事会依法行使职权，促进科学决策。 董事会不断强化上市公司规范治理，确保董事会决策体系规范运作， 维护全体股东权益；确保外部董事占多数，加强独立董事管理，根据独 立董事工作制度要求，确保独立董事任职独立性。发挥专业委员会职责， 充分履行独董职责和事前把关的责任。加强制度建设，按照中国证监会 相关法规要求，组织修订董事会规范运作各项程序文件及实..."
+  },
+  {
+    "field_key": "female_directors",
+    "field_name_cn": "女性董事人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 15,
+    "citation_chunk_id": "p15_22",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "把好 政治关、政策关、程序关，对关于企业改革发展的重大问题提出意见和 建议，支持总经理办公会、董事会依法行使职权，促进科学决策。 董事会不断强化上市公司规范治理，确保董事会决策体系规范运作， 维护全体股东权益；确保外部董事占多数，加强独立董事管理，根据独 立董事工作制度要求，确保独立董事任职独立性。发挥专业委员会职责， 充分履行独董职责和事前把关的责任。加强制度建设，按照中国证监会 相关法规要求，组织修订董事会规范运作各项程序文件及实..."
+  },
+  {
+    "field_key": "shareholder_meetings",
+    "field_name_cn": "股东大会会议次数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 37,
+    "citation_chunk_id": "p37_56",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "ESG 管理 育才与共 助力员工发展 和衷共济 坚守初心使命 发展相伴 携手伙伴共赢 创新驱动 释放发展动能 质量为本 确保产品安全 绿色发展 实现生态共赢 规范治理 深化国企改革 走进鲁抗 65 鲁抗医药2024 年度ESG 可持续发展报告 64 积极开展分红，保证投资者权益 推动渠道共建，搭建共同发展新平台 践行国家开放战略，积极融入国际市场 → ++ → ++ → ++ 2022-2024 年分红情况 分红时间 分红 年度 现金..."
+  },
+  {
+    "field_key": "confirmed_corruption_cases",
+    "field_name_cn": "确认腐败案件数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 14,
+    "citation_chunk_id": "p14_20",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "深化国企改革 STANDARDIZED GOVERNANCE 两会一层规范运转 强化母子公司管控 常态化推进三项制度改革 推进依法合规建设 全面强化风险防控 畅通上市公司信息沟通渠道 党建融入生产经营 加强反腐倡廉 02 规范治理"
+  },
+  {
+    "field_key": "climate_risk_management",
+    "field_name_cn": "气候风险识别与管理",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 19,
+    "citation_chunk_id": "p19_29",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "29 鲁抗医药2024 年度ESG 可持续发展报告 28 ESG 管理 育才与共 助力员工发展 和衷共济 坚守初心使命 发展相伴 携手伙伴共赢 创新驱动 释放发展动能 质量为本 确保产品安全 绿色发展 实现生态共赢 规范治理 深化国企改革 走进鲁抗 加强反腐倡廉 → ++ 1. 扛起监督大旗，积极履行监督职责。 在政治监督方面，进一步强化落实；在日常监督环节，着力做细做深。协助公司党委积极落实各项 工作，持续强化对“关键少数”的监督力..."
+  },
+  {
+    "field_key": "water_management_measures",
+    "field_name_cn": "水资源管理措施",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 40,
+    "citation_chunk_id": "p40_62",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "8 质量培训学时 小时 152.8 172 167 重大质量责任事故数 起 0 0 0 公益捐赠总额 万元 0.7 0.4 0.3 乡村振兴帮扶投入 万元 3 43.3 3 环境绩效 指标 单位 2022 年 2023 年 2024 年 指标 单位 2022 年 2023 年 2024 年 环保投入 万元 17338.87 16419 18120.29 一般及以上环境突发事件数 次 0 0 0 综合能源消耗量 万吨标煤 13.98 1..."
+  },
+  {
+    "field_key": "employee_rights_policy",
+    "field_name_cn": "员工权益保障政策",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 29,
+    "citation_chunk_id": "p29_44",
+    "citation_review_reasons": [
+      "source_page_mismatch"
+    ],
+    "text_excerpt": "助力员工发展 INNOVATION DRIVEN 06 育才与共 理念与目标 工作成效 保障员工合法权益，为更多的人创造机会 持续完善薪酬福利体系 畅通职业发展通道，让更多员工成为主角 持续改善职业健康 推进民主管理情况 倾心关爱职工 加强本质安全，护航安全生产"
+  },
+  {
+    "field_key": "diversity_equal_opportunity",
+    "field_name_cn": "多元化与平等雇佣政策",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 24,
+    "citation_chunk_id": "p24_37",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "全流程质量管 理。拓展研发质量体系的监督，风险 识别前置，为新产品商业化落地保驾 护航。夯实基础管理，通过日常动态 风险管控，实现质量体系稳定运行。 打造母子公司质量“一体化”管控体 系，组织开展母子公司GMP/GVP 互 审，以检查指导促质量体系持续改进， 母子公司一体化初见成效。 1. 多元化人员培养，打造高质量管理团队 通过识别培训平台、建立培训联盟， 总结学习心得、学习亮点推广，建立线 上学习题库、开展练习和随机考试，开 展G..."
+  },
+  {
+    "field_key": "whistleblowing_mechanism",
+    "field_name_cn": "举报机制与举报人保护",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 31,
+    "citation_chunk_id": "p31_48",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "并指导员 工正确佩戴。公司应急救援队定期开展职业病危害事故应急救援演练，应急设备、设施及急救物资完备。 2024 年，公司开展了健康急救知识和技能培训，聘请专业救护人员对员工进行健康急救知识、人身紧急 状况救护技能培训，提高员工的初期救护水平。此外，公司不定期邀请省、市专家开展心理健康教育培训， 组织心理咨询和心理辅导活动，全方位关注员工身心健康。 2. 加强女工权益保护。公司不断完善女工组织建 设，充分发挥女工组织作用，积极探索维护..."
+  }
+]

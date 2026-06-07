@@ -1,88 +1,49 @@
-﻿# v1.1 Token-safe Evaluation Summary
-
-## Version
-
-v1.1-token-safe
+# v1.0 Evaluation Summary
 
 ## Dataset
 
-- Total reports: 12
-- Route A success: 12 / 12
-- Appendix found: 12 / 12
+- Total reports: 10
+- Route A success: 10 / 10
+- Appendix found: 10 / 10
 - Reports with raw rows = 0: 0
 
 ## Route A: Appendix Table Extraction
 
-- Average raw table rows per report: 240.42
-- Median raw table rows per report: 209.0
-- Average extracted Core fields: 25.33 / 68
-- Median extracted Core fields: 26.5 / 68
+- Average raw table rows per report: 124.6
+- Median raw table rows per report: 98.0
+- Average extracted Core fields: 11
+- Median extracted Core fields: 11.5
 
 ## Route B: Text-based Qualitative Extraction
 
-- Route B available reports: 11 / 12
-- Average fields filled by Route B: 3.92
-- Median fields filled by Route B: 4.5
+- Route B available reports: 10 / 10
+- Average fields filled by Route B: 15.7
+- Median fields filled by Route B: 17.0
 
 ## Merged Results
 
-- Average merged extracted fields: 27.25 / 68
-- Median merged extracted fields: 28.0 / 68
-- Average merged coverage rate: 40.07%
+- Average merged extracted fields: 26.2
+- Median merged extracted fields: 26.5
+- Average merged coverage rate: 0.5038
 
 ## Best Report
 
-- Report: 001_000858_五_粮_液_2024_五_粮_液_2024年度环境、社会及公司治理（ESG）报告
-- Extracted fields: 41 / 68
-- Coverage rate: 60.29%
+- Report: 006_600587_新华医疗_2024_新华医疗_新华医疗2024年度ESG报告
+- Extracted fields: 37
+- Coverage rate: 0.7115
 
 ## Lowest Report
 
-- Report: 009_002811_郑中设计_2024_郑中设计_2024年度环境、社会及公司治理（ESG）报告
-- Extracted fields: 17 / 68
-- Coverage rate: 25.00%
-
-## Version Notes
-
-Compared with the previous v1.0 evaluation, this v1.1 version uses a more conservative and token-safe schema rerun setting.
-
-Main changes:
-
-1. LLM fallback in Schema Match is disabled during batch rerun.
-2. Route A rerun now relies on:
-   - heuristic rules
-   - alias matching
-   - schema validator
-3. Several stricter boundary rules were added to reduce false positives:
-   -专项培训不再进入通用员工培训覆盖率
-   -减排量 / 削减量不再进入污染物排放量
-   -回收利用量不再进入废弃物总量
-   -范围三子项不再直接进入范围三总排放量
-   -碳排放因子 / 核算方法表不再参与 Core 匹配
-4. CSV writing was fixed to avoid field mismatch errors such as `column_label`.
-5. The rerun process no longer produces abnormal merged results such as `0/1` or `0/7`.
+- Report: 010_600928_西安银行_2024_西安银行_西安银行股份有限公司2024年社会责任(ESG)报告
+- Extracted fields: 13
+- Coverage rate: 0.25
 
 ## Interpretation
 
-The v1.1 system successfully completes a dual-route ESG extraction workflow:
+The v1.0 system successfully completes a dual-route ESG extraction workflow:
 
 1. Route A extracts quantitative ESG indicators from appendix performance tables.
 2. Route B extracts qualitative ESG mechanism indicators from report text.
 3. Merge Pipeline combines both routes into a unified Core ESG result.
 
-This version prioritizes extraction precision, token safety, and batch stability over aggressive LLM-assisted matching. The average merged coverage is slightly lower than the earlier LLM-assisted run, but the result is more conservative and more suitable as a stable baseline for later 30-report and 100-report experiments.
-
-## Recommended Use
-
-Use this version as the current stable baseline:
-
-- For schema debugging:
-  - Keep `LLM_MATCHER_ENABLED=false`
-  - Run `rerun_schema_match_batch`
-  - Run `run_merge_batch`
-  - Run `analyze_v1_results`
-
-- For model-based tasks:
-  - Use LLM only for Route B text extraction
-  - Use LLM only for unknown metric analysis
-  - Avoid using LLM fallback in large-scale schema reruns unless necessary
+The results show that the system can process multiple ESG/CSR reports in batch mode and produce structured Core ESG indicators with evidence, confidence scores, and source-route tracking.

@@ -1,0 +1,58 @@
+{
+  "report_dir": "output\\reports\\009_600916_中国黄金_2024_中国黄金：中国黄金集团黄金珠宝股份有限公司2024环境、社会及管治(ESG)报告",
+  "industry": "manufacturing",
+  "retrieval_profile": "bm25_query_agg_evidence_rerank_v1",
+  "skip_harness": true,
+  "harness": null,
+  "citations": {
+    "field_count": 60,
+    "auto_cited_count": 27,
+    "needs_review_count": 33,
+    "json_path": "output\\reports\\009_600916_中国黄金_2024_中国黄金：中国黄金集团黄金珠宝股份有限公司2024环境、社会及管治(ESG)报告\\field_citations.json",
+    "csv_path": "output\\reports\\009_600916_中国黄金_2024_中国黄金：中国黄金集团黄金珠宝股份有限公司2024环境、社会及管治(ESG)报告\\field_citations.csv"
+  },
+  "rating": {
+    "score": 47.0691,
+    "rating": "C",
+    "field_count": 53,
+    "scored_field_count": 26,
+    "needs_review_count": 33,
+    "json_path": "output\\reports\\009_600916_中国黄金_2024_中国黄金：中国黄金集团黄金珠宝股份有限公司2024环境、社会及管治(ESG)报告\\simulated_rating.json",
+    "summary_csv_path": "output\\reports\\009_600916_中国黄金_2024_中国黄金：中国黄金集团黄金珠宝股份有限公司2024环境、社会及管治(ESG)报告\\simulated_rating_summary.csv",
+    "review_queue_path": "output\\reports\\009_600916_中国黄金_2024_中国黄金：中国黄金集团黄金珠宝股份有限公司2024环境、社会及管治(ESG)报告\\rating_review_queue.json",
+    "rating_run_id": "rating_21f1d7b4a9af4854",
+    "pillar_scores": {
+      "E": {
+        "score": 50.7481,
+        "rating": "C",
+        "field_count": 21,
+        "scored_field_count": 11,
+        "coverage": 0.5238,
+        "auto_cited_count": 10,
+        "evidence_coverage": 0.4762,
+        "needs_review_count": 11
+      },
+      "G": {
+        "score": 46.4333,
+        "rating": "C",
+        "field_count": 13,
+        "scored_field_count": 6,
+        "coverage": 0.4615,
+        "auto_cited_count": 6,
+        "evidence_coverage": 0.4615,
+        "needs_review_count": 7
+      },
+      "S": {
+        "score": 43.935,
+        "rating": "C",
+        "field_count": 19,
+        "scored_field_count": 9,
+        "coverage": 0.4737,
+        "auto_cited_count": 8,
+        "evidence_coverage": 0.4211,
+        "needs_review_count": 11
+      }
+    }
+  },
+  "next_step": "Review rating_review_queue.json, then approve/correct fields and recalculate rating."
+}

@@ -1,0 +1,614 @@
+{
+  "rows": [
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\000858_五_粮_液_2024_五_粮_液：2024年度环境、社会及公司治理（ESG）报告",
+      "report_name": "000858_五_粮_液_2024_五_粮_液：2024年度环境、社会及公司治理（ESG）报告",
+      "has_all_table_rows": false,
+      "has_standard_results": false,
+      "has_unknown_metrics": false,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": false,
+      "standard_row_count": 0,
+      "merged_row_count": 0,
+      "unknown_row_count": 0,
+      "route_b_available": true,
+      "route_b_matched_fields": 5,
+      "needs_schema_rerun": true,
+      "needs_route_b": false,
+      "needs_merge": true,
+      "should_skip_route_b": false,
+      "warnings": [
+        "route_a_cache_missing"
+      ],
+      "suggested_actions": [
+        "run_route_a_full_pipeline",
+        "rerun_schema_match",
+        "run_merge"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\000923_河钢资源_2024_河钢资源：2024年度环境、社会及公司治理报告",
+      "report_name": "000923_河钢资源_2024_河钢资源：2024年度环境、社会及公司治理报告",
+      "has_all_table_rows": false,
+      "has_standard_results": false,
+      "has_unknown_metrics": false,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": false,
+      "standard_row_count": 0,
+      "merged_row_count": 0,
+      "unknown_row_count": 0,
+      "route_b_available": true,
+      "route_b_matched_fields": 5,
+      "needs_schema_rerun": true,
+      "needs_route_b": false,
+      "needs_merge": true,
+      "should_skip_route_b": false,
+      "warnings": [
+        "route_a_cache_missing"
+      ],
+      "suggested_actions": [
+        "run_route_a_full_pipeline",
+        "rerun_schema_match",
+        "run_merge"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\001_000858_五_粮_液_2024_五_粮_液：2024年度环境、社会及公司治理（ESG）报告",
+      "report_name": "001_000858_五_粮_液_2024_五_粮_液：2024年度环境、社会及公司治理（ESG）报告",
+      "has_all_table_rows": true,
+      "has_standard_results": true,
+      "has_unknown_metrics": true,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": true,
+      "standard_row_count": 68,
+      "merged_row_count": 68,
+      "unknown_row_count": 233,
+      "route_b_available": true,
+      "route_b_matched_fields": 5,
+      "needs_schema_rerun": false,
+      "needs_route_b": false,
+      "needs_merge": false,
+      "should_skip_route_b": false,
+      "warnings": [],
+      "suggested_actions": [
+        "ready"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002083_孚日股份_2025_孚日股份：社会责任报告",
+      "report_name": "002083_孚日股份_2025_孚日股份：社会责任报告",
+      "has_all_table_rows": false,
+      "has_standard_results": false,
+      "has_unknown_metrics": false,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": false,
+      "standard_row_count": 0,
+      "merged_row_count": 0,
+      "unknown_row_count": 0,
+      "route_b_available": false,
+      "route_b_matched_fields": 0,
+      "needs_schema_rerun": true,
+      "needs_route_b": false,
+      "needs_merge": true,
+      "should_skip_route_b": true,
+      "warnings": [
+        "route_a_cache_missing"
+      ],
+      "suggested_actions": [
+        "run_route_a_full_pipeline",
+        "rerun_schema_match",
+        "skip_route_b",
+        "run_merge"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002249_大洋电机_2024_大洋电机：大洋电机2024年度环境、社会及公司治理（ESG）报告",
+      "report_name": "002249_大洋电机_2024_大洋电机：大洋电机2024年度环境、社会及公司治理（ESG）报告",
+      "has_all_table_rows": false,
+      "has_standard_results": false,
+      "has_unknown_metrics": false,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": false,
+      "standard_row_count": 0,
+      "merged_row_count": 0,
+      "unknown_row_count": 0,
+      "route_b_available": true,
+      "route_b_matched_fields": 5,
+      "needs_schema_rerun": true,
+      "needs_route_b": false,
+      "needs_merge": true,
+      "should_skip_route_b": false,
+      "warnings": [
+        "route_a_cache_missing"
+      ],
+      "suggested_actions": [
+        "run_route_a_full_pipeline",
+        "rerun_schema_match",
+        "run_merge"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002302_西部建设_2024_西部建设：2024年度环境、社会和公司治理（ESG）报告",
+      "report_name": "002302_西部建设_2024_西部建设：2024年度环境、社会和公司治理（ESG）报告",
+      "has_all_table_rows": false,
+      "has_standard_results": false,
+      "has_unknown_metrics": false,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": false,
+      "standard_row_count": 0,
+      "merged_row_count": 0,
+      "unknown_row_count": 0,
+      "route_b_available": true,
+      "route_b_matched_fields": 5,
+      "needs_schema_rerun": true,
+      "needs_route_b": false,
+      "needs_merge": true,
+      "should_skip_route_b": false,
+      "warnings": [
+        "route_a_cache_missing"
+      ],
+      "suggested_actions": [
+        "run_route_a_full_pipeline",
+        "rerun_schema_match",
+        "run_merge"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002431_棕榈股份_2024_棕榈股份：棕榈股份2024年度环境、社会及公司治理（ESG）报告",
+      "report_name": "002431_棕榈股份_2024_棕榈股份：棕榈股份2024年度环境、社会及公司治理（ESG）报告",
+      "has_all_table_rows": false,
+      "has_standard_results": false,
+      "has_unknown_metrics": false,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": false,
+      "standard_row_count": 0,
+      "merged_row_count": 0,
+      "unknown_row_count": 0,
+      "route_b_available": true,
+      "route_b_matched_fields": 4,
+      "needs_schema_rerun": true,
+      "needs_route_b": false,
+      "needs_merge": true,
+      "should_skip_route_b": false,
+      "warnings": [
+        "route_a_cache_missing"
+      ],
+      "suggested_actions": [
+        "run_route_a_full_pipeline",
+        "rerun_schema_match",
+        "run_merge"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002486_嘉麟杰_2024_嘉麟杰：2024年社会责任报告",
+      "report_name": "002486_嘉麟杰_2024_嘉麟杰：2024年社会责任报告",
+      "has_all_table_rows": false,
+      "has_standard_results": false,
+      "has_unknown_metrics": false,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": false,
+      "standard_row_count": 0,
+      "merged_row_count": 0,
+      "unknown_row_count": 0,
+      "route_b_available": true,
+      "route_b_matched_fields": 4,
+      "needs_schema_rerun": true,
+      "needs_route_b": false,
+      "needs_merge": true,
+      "should_skip_route_b": false,
+      "warnings": [
+        "route_a_cache_missing"
+      ],
+      "suggested_actions": [
+        "run_route_a_full_pipeline",
+        "rerun_schema_match",
+        "run_merge"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002649_博彦科技_2024_博彦科技：2024年度环境、社会及公司治理（ESG）报告",
+      "report_name": "002649_博彦科技_2024_博彦科技：2024年度环境、社会及公司治理（ESG）报告",
+      "has_all_table_rows": false,
+      "has_standard_results": false,
+      "has_unknown_metrics": false,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": false,
+      "standard_row_count": 0,
+      "merged_row_count": 0,
+      "unknown_row_count": 0,
+      "route_b_available": true,
+      "route_b_matched_fields": 5,
+      "needs_schema_rerun": true,
+      "needs_route_b": false,
+      "needs_merge": true,
+      "should_skip_route_b": false,
+      "warnings": [
+        "route_a_cache_missing"
+      ],
+      "suggested_actions": [
+        "run_route_a_full_pipeline",
+        "rerun_schema_match",
+        "run_merge"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告",
+      "report_name": "002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告",
+      "has_all_table_rows": false,
+      "has_standard_results": false,
+      "has_unknown_metrics": false,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": false,
+      "standard_row_count": 0,
+      "merged_row_count": 0,
+      "unknown_row_count": 0,
+      "route_b_available": true,
+      "route_b_matched_fields": 3,
+      "needs_schema_rerun": true,
+      "needs_route_b": false,
+      "needs_merge": true,
+      "should_skip_route_b": false,
+      "warnings": [
+        "route_a_cache_missing"
+      ],
+      "suggested_actions": [
+        "run_route_a_full_pipeline",
+        "rerun_schema_match",
+        "run_merge"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002913_奥士康_2025_奥士康：社会责任报告",
+      "report_name": "002913_奥士康_2025_奥士康：社会责任报告",
+      "has_all_table_rows": false,
+      "has_standard_results": false,
+      "has_unknown_metrics": false,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": false,
+      "standard_row_count": 0,
+      "merged_row_count": 0,
+      "unknown_row_count": 0,
+      "route_b_available": true,
+      "route_b_matched_fields": 5,
+      "needs_schema_rerun": true,
+      "needs_route_b": false,
+      "needs_merge": true,
+      "should_skip_route_b": false,
+      "warnings": [
+        "route_a_cache_missing"
+      ],
+      "suggested_actions": [
+        "run_route_a_full_pipeline",
+        "rerun_schema_match",
+        "run_merge"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002939_长城证券_2024_长城证券：2024年度社会责任暨环境、社会及公司治理（ESG）报告",
+      "report_name": "002939_长城证券_2024_长城证券：2024年度社会责任暨环境、社会及公司治理（ESG）报告",
+      "has_all_table_rows": false,
+      "has_standard_results": false,
+      "has_unknown_metrics": false,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": false,
+      "standard_row_count": 0,
+      "merged_row_count": 0,
+      "unknown_row_count": 0,
+      "route_b_available": true,
+      "route_b_matched_fields": 5,
+      "needs_schema_rerun": true,
+      "needs_route_b": false,
+      "needs_merge": true,
+      "should_skip_route_b": false,
+      "warnings": [
+        "route_a_cache_missing"
+      ],
+      "suggested_actions": [
+        "run_route_a_full_pipeline",
+        "rerun_schema_match",
+        "run_merge"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_000923_河钢资源_2024_河钢资源：2024年度环境、社会及公司治理报告",
+      "report_name": "002_000923_河钢资源_2024_河钢资源：2024年度环境、社会及公司治理报告",
+      "has_all_table_rows": true,
+      "has_standard_results": true,
+      "has_unknown_metrics": true,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": true,
+      "standard_row_count": 68,
+      "merged_row_count": 68,
+      "unknown_row_count": 105,
+      "route_b_available": true,
+      "route_b_matched_fields": 5,
+      "needs_schema_rerun": false,
+      "needs_route_b": false,
+      "needs_merge": false,
+      "should_skip_route_b": false,
+      "warnings": [],
+      "suggested_actions": [
+        "ready"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_002083_孚日股份_2025_孚日股份：社会责任报告",
+      "report_name": "003_002083_孚日股份_2025_孚日股份：社会责任报告",
+      "has_all_table_rows": true,
+      "has_standard_results": true,
+      "has_unknown_metrics": true,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": true,
+      "standard_row_count": 68,
+      "merged_row_count": 68,
+      "unknown_row_count": 68,
+      "route_b_available": false,
+      "route_b_matched_fields": 0,
+      "needs_schema_rerun": false,
+      "needs_route_b": false,
+      "needs_merge": false,
+      "should_skip_route_b": true,
+      "warnings": [],
+      "suggested_actions": [
+        "skip_route_b",
+        "ready"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\004_002249_大洋电机_2024_大洋电机：大洋电机2024年度环境、社会及公司治理（ESG）报告",
+      "report_name": "004_002249_大洋电机_2024_大洋电机：大洋电机2024年度环境、社会及公司治理（ESG）报告",
+      "has_all_table_rows": true,
+      "has_standard_results": true,
+      "has_unknown_metrics": true,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": true,
+      "standard_row_count": 68,
+      "merged_row_count": 68,
+      "unknown_row_count": 184,
+      "route_b_available": true,
+      "route_b_matched_fields": 5,
+      "needs_schema_rerun": false,
+      "needs_route_b": false,
+      "needs_merge": false,
+      "should_skip_route_b": false,
+      "warnings": [],
+      "suggested_actions": [
+        "ready"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_002302_西部建设_2024_西部建设：2024年度环境、社会和公司治理（ESG）报告",
+      "report_name": "005_002302_西部建设_2024_西部建设：2024年度环境、社会和公司治理（ESG）报告",
+      "has_all_table_rows": true,
+      "has_standard_results": true,
+      "has_unknown_metrics": true,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": true,
+      "standard_row_count": 68,
+      "merged_row_count": 68,
+      "unknown_row_count": 133,
+      "route_b_available": true,
+      "route_b_matched_fields": 4,
+      "needs_schema_rerun": false,
+      "needs_route_b": false,
+      "needs_merge": false,
+      "should_skip_route_b": false,
+      "warnings": [],
+      "suggested_actions": [
+        "ready"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\006_002431_棕榈股份_2024_棕榈股份：棕榈股份2024年度环境、社会及公司治理（ESG）报告",
+      "report_name": "006_002431_棕榈股份_2024_棕榈股份：棕榈股份2024年度环境、社会及公司治理（ESG）报告",
+      "has_all_table_rows": true,
+      "has_standard_results": true,
+      "has_unknown_metrics": true,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": true,
+      "standard_row_count": 68,
+      "merged_row_count": 68,
+      "unknown_row_count": 148,
+      "route_b_available": true,
+      "route_b_matched_fields": 4,
+      "needs_schema_rerun": false,
+      "needs_route_b": false,
+      "needs_merge": false,
+      "should_skip_route_b": false,
+      "warnings": [],
+      "suggested_actions": [
+        "ready"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\007_002486_嘉麟杰_2024_嘉麟杰：2024年社会责任报告",
+      "report_name": "007_002486_嘉麟杰_2024_嘉麟杰：2024年社会责任报告",
+      "has_all_table_rows": true,
+      "has_standard_results": true,
+      "has_unknown_metrics": true,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": true,
+      "standard_row_count": 68,
+      "merged_row_count": 68,
+      "unknown_row_count": 83,
+      "route_b_available": true,
+      "route_b_matched_fields": 4,
+      "needs_schema_rerun": false,
+      "needs_route_b": false,
+      "needs_merge": false,
+      "should_skip_route_b": false,
+      "warnings": [],
+      "suggested_actions": [
+        "ready"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\008_002649_博彦科技_2024_博彦科技：2024年度环境、社会及公司治理（ESG）报告",
+      "report_name": "008_002649_博彦科技_2024_博彦科技：2024年度环境、社会及公司治理（ESG）报告",
+      "has_all_table_rows": true,
+      "has_standard_results": true,
+      "has_unknown_metrics": true,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": true,
+      "standard_row_count": 68,
+      "merged_row_count": 68,
+      "unknown_row_count": 190,
+      "route_b_available": true,
+      "route_b_matched_fields": 5,
+      "needs_schema_rerun": false,
+      "needs_route_b": false,
+      "needs_merge": false,
+      "should_skip_route_b": false,
+      "warnings": [],
+      "suggested_actions": [
+        "ready"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告",
+      "report_name": "009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告",
+      "has_all_table_rows": true,
+      "has_standard_results": true,
+      "has_unknown_metrics": true,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": true,
+      "standard_row_count": 68,
+      "merged_row_count": 68,
+      "unknown_row_count": 53,
+      "route_b_available": true,
+      "route_b_matched_fields": 2,
+      "needs_schema_rerun": false,
+      "needs_route_b": false,
+      "needs_merge": false,
+      "should_skip_route_b": false,
+      "warnings": [],
+      "suggested_actions": [
+        "ready"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\010_002913_奥士康_2025_奥士康：社会责任报告",
+      "report_name": "010_002913_奥士康_2025_奥士康：社会责任报告",
+      "has_all_table_rows": true,
+      "has_standard_results": true,
+      "has_unknown_metrics": true,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": true,
+      "standard_row_count": 68,
+      "merged_row_count": 68,
+      "unknown_row_count": 387,
+      "route_b_available": true,
+      "route_b_matched_fields": 5,
+      "needs_schema_rerun": false,
+      "needs_route_b": false,
+      "needs_merge": false,
+      "should_skip_route_b": false,
+      "warnings": [],
+      "suggested_actions": [
+        "ready"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\011_002939_长城证券_2024_长城证券：2024年度社会责任暨环境、社会及公司治理（ESG）报告",
+      "report_name": "011_002939_长城证券_2024_长城证券：2024年度社会责任暨环境、社会及公司治理（ESG）报告",
+      "has_all_table_rows": true,
+      "has_standard_results": true,
+      "has_unknown_metrics": true,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": true,
+      "standard_row_count": 68,
+      "merged_row_count": 68,
+      "unknown_row_count": 240,
+      "route_b_available": true,
+      "route_b_matched_fields": 5,
+      "needs_schema_rerun": false,
+      "needs_route_b": false,
+      "needs_merge": false,
+      "should_skip_route_b": false,
+      "warnings": [],
+      "suggested_actions": [
+        "ready"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\012_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告",
+      "report_name": "012_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告",
+      "has_all_table_rows": true,
+      "has_standard_results": true,
+      "has_unknown_metrics": true,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": true,
+      "standard_row_count": 68,
+      "merged_row_count": 68,
+      "unknown_row_count": 51,
+      "route_b_available": true,
+      "route_b_matched_fields": 3,
+      "needs_schema_rerun": false,
+      "needs_route_b": false,
+      "needs_merge": false,
+      "should_skip_route_b": false,
+      "warnings": [],
+      "suggested_actions": [
+        "ready"
+      ]
+    },
+    {
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告",
+      "report_name": "600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告",
+      "has_all_table_rows": false,
+      "has_standard_results": false,
+      "has_unknown_metrics": false,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": false,
+      "standard_row_count": 0,
+      "merged_row_count": 0,
+      "unknown_row_count": 0,
+      "route_b_available": true,
+      "route_b_matched_fields": 3,
+      "needs_schema_rerun": true,
+      "needs_route_b": false,
+      "needs_merge": true,
+      "should_skip_route_b": false,
+      "warnings": [
+        "route_a_cache_missing"
+      ],
+      "suggested_actions": [
+        "run_route_a_full_pipeline",
+        "rerun_schema_match",
+        "run_merge"
+      ]
+    }
+  ],
+  "summary": {
+    "total_reports": 24,
+    "ready_count": 12,
+    "needs_schema_rerun_count": 12,
+    "needs_route_b_count": 0,
+    "needs_merge_count": 12,
+    "warning_count": 12
+  }
+}

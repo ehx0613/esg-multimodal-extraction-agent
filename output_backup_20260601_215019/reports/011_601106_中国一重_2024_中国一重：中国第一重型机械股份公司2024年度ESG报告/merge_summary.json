@@ -1,0 +1,20 @@
+{
+  "total_fields": 60,
+  "route_a_extracted_fields": 23,
+  "route_b_matched_fields": 18,
+  "route_b_filled_fields": 18,
+  "route_b2_matched_fields": 1,
+  "route_b2_filled_fields": 1,
+  "merged_extracted_fields": 42,
+  "missing_fields": 18,
+  "coverage_rate": 0.7,
+  "raw_coverage": 0.7,
+  "industry": "manufacturing",
+  "applicable_fields": 60,
+  "applicable_extracted_fields": 42,
+  "not_applicable_fields": 0,
+  "applicable_coverage": 0.7,
+  "route_a_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\011_601106_中国一重_2024_中国一重：中国第一重型机械股份公司2024年度ESG报告\\standard_esg_results.csv",
+  "route_b_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\011_601106_中国一重_2024_中国一重：中国第一重型机械股份公司2024年度ESG报告\\route_b_text_results.csv",
+  "route_b2_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\011_601106_中国一重_2024_中国一重：中国第一重型机械股份公司2024年度ESG报告\\route_b2_quant_results.csv"
+}

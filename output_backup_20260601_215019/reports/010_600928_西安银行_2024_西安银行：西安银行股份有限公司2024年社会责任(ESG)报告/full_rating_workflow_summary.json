@@ -1,0 +1,58 @@
+{
+  "report_dir": "output\\reports\\010_600928_西安银行_2024_西安银行：西安银行股份有限公司2024年社会责任(ESG)报告",
+  "industry": "manufacturing",
+  "retrieval_profile": "bm25_query_agg_evidence_rerank_v1",
+  "skip_harness": true,
+  "harness": null,
+  "citations": {
+    "field_count": 60,
+    "auto_cited_count": 11,
+    "needs_review_count": 49,
+    "json_path": "output\\reports\\010_600928_西安银行_2024_西安银行：西安银行股份有限公司2024年社会责任(ESG)报告\\field_citations.json",
+    "csv_path": "output\\reports\\010_600928_西安银行_2024_西安银行：西安银行股份有限公司2024年社会责任(ESG)报告\\field_citations.csv"
+  },
+  "rating": {
+    "score": 23.6808,
+    "rating": "C",
+    "field_count": 53,
+    "scored_field_count": 14,
+    "needs_review_count": 49,
+    "json_path": "output\\reports\\010_600928_西安银行_2024_西安银行：西安银行股份有限公司2024年社会责任(ESG)报告\\simulated_rating.json",
+    "summary_csv_path": "output\\reports\\010_600928_西安银行_2024_西安银行：西安银行股份有限公司2024年社会责任(ESG)报告\\simulated_rating_summary.csv",
+    "review_queue_path": "output\\reports\\010_600928_西安银行_2024_西安银行：西安银行股份有限公司2024年社会责任(ESG)报告\\rating_review_queue.json",
+    "rating_run_id": "rating_2f6149fe487048c3",
+    "pillar_scores": {
+      "E": {
+        "score": 19.2865,
+        "rating": "C",
+        "field_count": 21,
+        "scored_field_count": 5,
+        "coverage": 0.2381,
+        "auto_cited_count": 2,
+        "evidence_coverage": 0.0952,
+        "needs_review_count": 19
+      },
+      "G": {
+        "score": 21.6333,
+        "rating": "C",
+        "field_count": 13,
+        "scored_field_count": 3,
+        "coverage": 0.2308,
+        "auto_cited_count": 2,
+        "evidence_coverage": 0.1538,
+        "needs_review_count": 11
+      },
+      "S": {
+        "score": 29.83,
+        "rating": "C",
+        "field_count": 19,
+        "scored_field_count": 6,
+        "coverage": 0.3158,
+        "auto_cited_count": 6,
+        "evidence_coverage": 0.3158,
+        "needs_review_count": 13
+      }
+    }
+  },
+  "next_step": "Review rating_review_queue.json, then approve/correct fields and recalculate rating."
+}

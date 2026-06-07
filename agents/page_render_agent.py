@@ -1,4 +1,5 @@
 from agents.base_agent import BaseAgent
+from config.settings import ROUTE_A_RENDER_SPLIT_PAGES
 from utils.pdf_utils import render_pdf_pages_to_images
 
 class PageRenderAgent(BaseAgent):
@@ -9,6 +10,11 @@ class PageRenderAgent(BaseAgent):
             state["page_images"] = []
             return state
         out = state["output_dir"] / "page_images"
-        state["page_images"] = render_pdf_pages_to_images(state["pdf_path"], state.get("candidate_pages", []), out)
+        state["page_images"] = render_pdf_pages_to_images(
+            state["pdf_path"],
+            state.get("candidate_pages", []),
+            out,
+            split_pages=ROUTE_A_RENDER_SPLIT_PAGES,
+        )
         self.log(f"rendered={len(state['page_images'])}")
         return state

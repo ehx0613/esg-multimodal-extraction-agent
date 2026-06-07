@@ -1,0 +1,20 @@
+{
+  "total_fields": 60,
+  "route_a_extracted_fields": 17,
+  "route_b_matched_fields": 17,
+  "route_b_filled_fields": 17,
+  "route_b2_matched_fields": 0,
+  "route_b2_filled_fields": 0,
+  "merged_extracted_fields": 34,
+  "missing_fields": 26,
+  "coverage_rate": 0.5667,
+  "raw_coverage": 0.5667,
+  "industry": "manufacturing",
+  "applicable_fields": 60,
+  "applicable_extracted_fields": 34,
+  "not_applicable_fields": 0,
+  "applicable_coverage": 0.5667,
+  "route_a_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\004_600206_有研新材_2024_有研新材：有研新材料股份有限公司2024年度环境、社会及治理（ESG）报告\\standard_esg_results.csv",
+  "route_b_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\004_600206_有研新材_2024_有研新材：有研新材料股份有限公司2024年度环境、社会及治理（ESG）报告\\route_b_text_results.csv",
+  "route_b2_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\004_600206_有研新材_2024_有研新材：有研新材料股份有限公司2024年度环境、社会及治理（ESG）报告\\route_b2_quant_results.csv"
+}

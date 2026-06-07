@@ -1,0 +1,160 @@
+{
+  "route_b2_available": true,
+  "target_fields": 15,
+  "matched_fields": 1,
+  "llm_calls": 15,
+  "industry": "pharma",
+  "skipped_by_budget": 0,
+  "skipped_by_industry": 0,
+  "total_llm_calls_cost": 15,
+  "ingest_cache_used": true,
+  "ingest_paths": {
+    "page_texts": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\ingest\\page_texts.json",
+    "page_features": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\ingest\\page_features.json",
+    "text_chunks": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\ingest\\text_chunks.json",
+    "manifest": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\ingest\\ingest_manifest.json"
+  },
+  "retrieval_ranked_targets": [
+    {
+      "field_key": "environmental_penalty_count",
+      "applicability": "core",
+      "retrieval_priority": 87.932,
+      "top_chunk_id": "p35_57",
+      "top_page_number": 35,
+      "top_retrieval_score": 49,
+      "top_vector_score": 0.196601
+    },
+    {
+      "field_key": "female_employee_ratio",
+      "applicability": "core",
+      "retrieval_priority": 87.0288,
+      "top_chunk_id": "p65_113",
+      "top_page_number": 65,
+      "top_retrieval_score": 47,
+      "top_vector_score": 0.251442
+    },
+    {
+      "field_key": "employee_medical_checkup_coverage",
+      "applicability": "core",
+      "retrieval_priority": 86.3355,
+      "top_chunk_id": "p48_83",
+      "top_page_number": 48,
+      "top_retrieval_score": 46,
+      "top_vector_score": 0.266775
+    },
+    {
+      "field_key": "safety_accident_count",
+      "applicability": "core",
+      "retrieval_priority": 86.3226,
+      "top_chunk_id": "p35_57",
+      "top_page_number": 35,
+      "top_retrieval_score": 45,
+      "top_vector_score": 0.0
+    },
+    {
+      "field_key": "non_hazardous_waste",
+      "applicability": "core",
+      "retrieval_priority": 85.1383,
+      "top_chunk_id": "p67_117",
+      "top_page_number": 67,
+      "top_retrieval_score": 46,
+      "top_vector_score": 0.206915
+    },
+    {
+      "field_key": "employee_turnover_rate",
+      "applicability": "core",
+      "retrieval_priority": 84.9833,
+      "top_chunk_id": "p65_113",
+      "top_page_number": 65,
+      "top_retrieval_score": 46,
+      "top_vector_score": 0.199165
+    },
+    {
+      "field_key": "lost_work_days_due_to_injury",
+      "applicability": "core",
+      "retrieval_priority": 84.2021,
+      "top_chunk_id": "p65_113",
+      "top_page_number": 65,
+      "top_retrieval_score": 45,
+      "top_vector_score": 0.0
+    },
+    {
+      "field_key": "confirmed_corruption_cases",
+      "applicability": "core",
+      "retrieval_priority": 83.3672,
+      "top_chunk_id": "p66_115",
+      "top_page_number": 66,
+      "top_retrieval_score": 45,
+      "top_vector_score": 0.168359
+    },
+    {
+      "field_key": "public_welfare_investment",
+      "applicability": "core",
+      "retrieval_priority": 83.032,
+      "top_chunk_id": "p65_113",
+      "top_page_number": 65,
+      "top_retrieval_score": 45,
+      "top_vector_score": 0.0
+    },
+    {
+      "field_key": "independent_director_ratio",
+      "applicability": "core",
+      "retrieval_priority": 78.383,
+      "top_chunk_id": "p36_58",
+      "top_page_number": 36,
+      "top_retrieval_score": 41,
+      "top_vector_score": 0.0
+    },
+    {
+      "field_key": "anti_corruption_training_participants",
+      "applicability": "core",
+      "retrieval_priority": 63.0401,
+      "top_chunk_id": "p65_113",
+      "top_page_number": 65,
+      "top_retrieval_score": 42,
+      "top_vector_score": 0.302003
+    },
+    {
+      "field_key": "training_total_hours",
+      "applicability": "core",
+      "retrieval_priority": 61.7564,
+      "top_chunk_id": "p65_113",
+      "top_page_number": 65,
+      "top_retrieval_score": 39,
+      "top_vector_score": 0.298423
+    },
+    {
+      "field_key": "independent_directors",
+      "applicability": "core",
+      "retrieval_priority": 59.961,
+      "top_chunk_id": "p43_73",
+      "top_page_number": 43,
+      "top_retrieval_score": 40,
+      "top_vector_score": 0.248049
+    },
+    {
+      "field_key": "female_directors",
+      "applicability": "core",
+      "retrieval_priority": 59.2351,
+      "top_chunk_id": "p51_88",
+      "top_page_number": 51,
+      "top_retrieval_score": 39,
+      "top_vector_score": 0.0
+    },
+    {
+      "field_key": "anti_corruption_training_sessions",
+      "applicability": "core",
+      "retrieval_priority": 53.3585,
+      "top_chunk_id": "p60_102",
+      "top_page_number": 60,
+      "top_retrieval_score": 36,
+      "top_vector_score": 0.0
+    }
+  ],
+  "token_budget": {
+    "route_b2_top_k": 5,
+    "route_b2_use_vector_rag": true,
+    "route_b2_vector_top_k": 8,
+    "max_b2_llm_calls_per_report": 40
+  }
+}

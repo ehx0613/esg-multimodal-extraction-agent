@@ -1,0 +1,1002 @@
+[
+  {
+    "page_image": "page_6.png",
+    "page_type": "other",
+    "page_note": "该页面为组织架构和管理团队介绍，不包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_6_left.png",
+    "page_type": "other",
+    "page_note": "该页面为组织架构图，不包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_6_right.png",
+    "page_type": "other",
+    "page_note": "该页面为管理团队介绍，不包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_7.png",
+    "page_type": "other",
+    "page_note": "页面内容为年度大事记，未包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_7_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为年度大事记，未包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_7_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司获得的荣誉和会议信息，未包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_8.png",
+    "page_type": "other",
+    "page_note": "页面内容为企业文化介绍及年度主要荣誉展示，未包含具体 ESG 绩效数值表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_8_left.png",
+    "page_type": "other",
+    "page_note": "该页面为企业文化介绍，不包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_8_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为年度主要荣誉的展示，未包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_9.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "量化数据绩效表",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "治理绩效",
+            "metric_name": "组织6次中心组（扩大）学习会议",
+            "unit": "次",
+            "values": {
+              "2024年": "6"
+            },
+            "evidence_text": "治理绩效 组织6次中心组（扩大）学习会议 次 2024年 6"
+          },
+          {
+            "topic": "治理绩效",
+            "metric_name": "订购党建书籍杂志1400余本",
+            "unit": "本",
+            "values": {
+              "2024年": "1400"
+            },
+            "evidence_text": "治理绩效 订购党建书籍杂志1400余本 本 2024年 1400"
+          },
+          {
+            "topic": "治理绩效",
+            "metric_name": "全体党员全年均学习32学时",
+            "unit": "学时",
+            "values": {
+              "2024年": "32"
+            },
+            "evidence_text": "治理绩效 全体党员全年均学习32学时 学时 2024年 32"
+          },
+          {
+            "topic": "治理绩效",
+            "metric_name": "领导干部及党支部书记人均学习56学时",
+            "unit": "学时",
+            "values": {
+              "2024年": "56"
+            },
+            "evidence_text": "治理绩效 领导干部及党支部书记人均学习56学时 学时 2024年 56"
+          },
+          {
+            "topic": "治理绩效",
+            "metric_name": "接收预备党员9名",
+            "unit": "名",
+            "values": {
+              "2024年": "9"
+            },
+            "evidence_text": "治理绩效 接收预备党员9名 名 2024年 9"
+          },
+          {
+            "topic": "治理绩效",
+            "metric_name": "12名预备党员转正",
+            "unit": "名",
+            "values": {
+              "2024年": "12"
+            },
+            "evidence_text": "治理绩效 12名预备党员转正 名 2024年 12"
+          },
+          {
+            "topic": "治理绩效",
+            "metric_name": "公司党委召开共10次党委会",
+            "unit": "次",
+            "values": {
+              "2024年": "10"
+            },
+            "evidence_text": "治理绩效 公司党委召开共10次党委会 次 2024年 10"
+          },
+          {
+            "topic": "治理绩效",
+            "metric_name": "组织召开5次领导小组会议",
+            "unit": "次",
+            "values": {
+              "2024年": "5"
+            },
+            "evidence_text": "治理绩效 组织召开5次领导小组会议 次 2024年 5"
+          }
+        ]
+      }
+    ],
+    "retry_used": true,
+    "retry_reason": "first_pass_no_rows_or_not_table"
+  },
+  {
+    "page_image": "page_36.png",
+    "page_type": "other",
+    "page_note": "页面内容为黄金手镯的图片，左侧有文字描述公司治理、投资者关系、合规管理、股东权益等信息，未包含具体ESG绩效数值表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_36_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司治理、投资者关系、合规管理、股东权益的概述，未包含具体ESG绩效数值表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_36_right.png",
+    "page_type": "other",
+    "page_note": "图片中展示的是一条金色手镯，不属于ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_37.png",
+    "page_type": "other",
+    "page_note": "页面内容主要为公司治理、董事会、薪酬管理、监事会等章节的描述性文字，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_37_left.png",
+    "page_type": "performance_data_table",
+    "page_note": "页面包含公司治理相关的量化数据，具体为董事会、监事会及股东大会的召开次数和审议议案数量。",
+    "tables": [
+      {
+        "table_title": "2024年董事会、监事会及股东大会召开与审议情况",
+        "columns": [
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "召开董事会次数",
+            "unit": "次",
+            "values": {
+              "2024年": "6"
+            },
+            "evidence_text": "召开董事会 6次"
+          },
+          {
+            "metric_name": "累计审计议案数",
+            "unit": "个",
+            "values": {
+              "2024年": "45"
+            },
+            "evidence_text": "共计审计 45个议案"
+          },
+          {
+            "metric_name": "召开监事会次数",
+            "unit": "次",
+            "values": {
+              "2024年": "5"
+            },
+            "evidence_text": "召开监事会 5次"
+          },
+          {
+            "metric_name": "累计审计议案数",
+            "unit": "个",
+            "values": {
+              "2024年": "22"
+            },
+            "evidence_text": "共审计 22个议案"
+          },
+          {
+            "metric_name": "召开股东大会次数",
+            "unit": "次",
+            "values": {
+              "2024年": "3"
+            },
+            "evidence_text": "召开股东大会 3次"
+          },
+          {
+            "metric_name": "累计审计议案数",
+            "unit": "个",
+            "values": {
+              "2024年": "18"
+            },
+            "evidence_text": "共审计 18个议案"
+          },
+          {
+            "metric_name": "召开薪酬与考核委员会会议次数",
+            "unit": "次",
+            "values": {
+              "2024年": "3"
+            },
+            "evidence_text": "召开薪酬与考核委员会会议 3次"
+          },
+          {
+            "metric_name": "召开提名委员会会议次数",
+            "unit": "次",
+            "values": {
+              "2024年": "3"
+            },
+            "evidence_text": "提名委员会会议 3次"
+          },
+          {
+            "metric_name": "召开战略委员会会议次数",
+            "unit": "次",
+            "values": {
+              "2024年": "1"
+            },
+            "evidence_text": "战略委员会会议 1次"
+          },
+          {
+            "metric_name": "召开审计委员会会议次数",
+            "unit": "次",
+            "values": {
+              "2024年": "5"
+            },
+            "evidence_text": "审计委员会会议 5次"
+          },
+          {
+            "metric_name": "全体董事出勤率",
+            "unit": "%",
+            "values": {
+              "2024年": "100%"
+            },
+            "evidence_text": "全体董事出勤率 100%"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_37_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为薪酬管理和监事会的相关描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_38.png",
+    "page_type": "performance_data_table",
+    "page_note": "页面包含ESG相关信息，但未发现符合要求的表格结构。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_38_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为投资者关系和联络沟通的描述，未包含具体ESG绩效数值表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_38_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司公共关系、积极回馈和信息披露的相关描述，未包含具体的 ESG 绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_39.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "量化数据绩效表",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "治理绩效",
+            "metric_name": "合同管理",
+            "unit": "%",
+            "values": {
+              "2024年": "100"
+            },
+            "evidence_text": "合同管理 2024年, 公司重大合同履约率 100%"
+          },
+          {
+            "topic": "治理绩效",
+            "metric_name": "合规审查",
+            "unit": "件",
+            "values": {
+              "2024年": "914"
+            },
+            "evidence_text": "合规审查 2024年 审核经济合同 914件"
+          },
+          {
+            "topic": "治理绩效",
+            "metric_name": "合规审查",
+            "unit": "件",
+            "values": {
+              "2024年": "632"
+            },
+            "evidence_text": "合规审查 处理法律咨询 632件"
+          },
+          {
+            "topic": "治理绩效",
+            "metric_name": "合规审查",
+            "unit": "件",
+            "values": {
+              "2024年": "263"
+            },
+            "evidence_text": "合规审查 其中外聘合同咨询 263起"
+          },
+          {
+            "topic": "治理绩效",
+            "metric_name": "合规审查",
+            "unit": "件",
+            "values": {
+              "2024年": "350"
+            },
+            "evidence_text": "合规审查 出具商标查询 350余起"
+          },
+          {
+            "topic": "治理绩效",
+            "metric_name": "合规审查",
+            "unit": "件",
+            "values": {
+              "2024年": "358"
+            },
+            "evidence_text": "合规审查 新闻宣传审核 358件"
+          },
+          {
+            "topic": "治理绩效",
+            "metric_name": "合规审查",
+            "unit": "件",
+            "values": {
+              "2024年": "130"
+            },
+            "evidence_text": "合规审查 银行渠道产品审核 130件"
+          }
+        ]
+      }
+    ],
+    "retry_used": true,
+    "retry_reason": "first_pass_no_rows_or_not_table"
+  },
+  {
+    "page_image": "page_40.png",
+    "page_type": "other",
+    "page_note": "页面内容为合规培训和诚信经营的描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_40_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为合规培训介绍，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_40_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司关于诚信经营和公平竞争的描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_44.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司未来展望的文字描述，未包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_44_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司未来展望的文字描述，未包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_44_right.png",
+    "page_type": "other",
+    "page_note": "图片中展示的是一件装饰艺术品，未包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_45.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "关键绩效表-经济绩效",
+        "columns": [
+          "名称",
+          "单位",
+          "2024年",
+          "2023年",
+          "2022年"
+        ],
+        "rows": [
+          {
+            "topic": null,
+            "metric_name": "总资产",
+            "unit": "亿元",
+            "values": {
+              "2024年": "129",
+              "2023年": "131.1",
+              "2022年": "116.30"
+            },
+            "evidence_text": "总资产 亿元 129 131.1 116.30"
+          },
+          {
+            "topic": null,
+            "metric_name": "销售收入",
+            "unit": "亿元",
+            "values": {
+              "2024年": "604.84",
+              "2023年": "563.84",
+              "2022年": "471.24"
+            },
+            "evidence_text": "销售收入 亿元 604.84 563.84 471.24"
+          },
+          {
+            "topic": null,
+            "metric_name": "利润总额",
+            "unit": "亿元",
+            "values": {
+              "2024年": "10.21",
+              "2023年": "10.03",
+              "2022年": "9.47"
+            },
+            "evidence_text": "利润总额 亿元 10.21 10.03 9.47"
+          },
+          {
+            "topic": null,
+            "metric_name": "纳税总额",
+            "unit": "亿元",
+            "values": {
+              "2024年": "5.63",
+              "2023年": "5.48",
+              "2022年": "4.54"
+            },
+            "evidence_text": "纳税总额 亿元 5.63 5.48 4.54"
+          },
+          {
+            "topic": null,
+            "metric_name": "产品合格率",
+            "unit": "%",
+            "values": {
+              "2024年": "100",
+              "2023年": "100",
+              "2022年": "100"
+            },
+            "evidence_text": "产品合格率 % 100 100 100"
+          },
+          {
+            "topic": null,
+            "metric_name": "总部合同履约率",
+            "unit": "%",
+            "values": {
+              "2024年": "100",
+              "2023年": "100",
+              "2022年": "100"
+            },
+            "evidence_text": "总部合同履约率 % 100 100 100"
+          },
+          {
+            "topic": null,
+            "metric_name": "子公司合同履约率",
+            "unit": "%",
+            "values": {
+              "2024年": "100",
+              "2023年": "100",
+              "2022年": "100"
+            },
+            "evidence_text": "子公司合同履约率 % 100 100 100"
+          },
+          {
+            "topic": null,
+            "metric_name": "资产负债率",
+            "unit": "%",
+            "values": {
+              "2024年": "41.51",
+              "2023年": "43.01",
+              "2022年": "39.8"
+            },
+            "evidence_text": "资产负债率 % 41.51 43.01 39.8"
+          },
+          {
+            "topic": null,
+            "metric_name": "本公司向前五大客户销售收入总额",
+            "unit": "亿元",
+            "values": {
+              "2024年": "301.88",
+              "2023年": "180.83",
+              "2022年": "170.83"
+            },
+            "evidence_text": "本公司向前五大客户销售收入总额 亿元 301.88 180.83 170.83"
+          },
+          {
+            "topic": null,
+            "metric_name": "本公司向前五大客户销售收入总额占全部营业收入比例",
+            "unit": "%",
+            "values": {
+              "2024年": "50.15",
+              "2023年": "32.77",
+              "2022年": "36.46"
+            },
+            "evidence_text": "本公司向前五大客户销售收入总额占全部营业收入比例 % 50.15 32.77 36.46"
+          }
+        ]
+      },
+      {
+        "table_title": "关键绩效表-环保绩效",
+        "columns": [
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "环保绩效",
+            "metric_name": "环保总投资",
+            "unit": "万元",
+            "values": {
+              "2024年": "10.05"
+            },
+            "evidence_text": "环保总投资 万元 10.05"
+          },
+          {
+            "topic": "环保绩效",
+            "metric_name": "温室气体排放量",
+            "unit": "万吨二氧化碳当量",
+            "values": {
+              "2024年": "0.1131"
+            },
+            "evidence_text": "温室气体排放量 万吨二氧化碳当量 0.1131"
+          },
+          {
+            "topic": "环保绩效",
+            "metric_name": "年度用电总量",
+            "unit": "千瓦时",
+            "values": {
+              "2024年": "779438"
+            },
+            "evidence_text": "年度用电总量 千瓦时 779438"
+          },
+          {
+            "topic": "环保绩效",
+            "metric_name": "年使用水电总量",
+            "unit": "立方米",
+            "values": {
+              "2024年": "4810"
+            },
+            "evidence_text": "年使用水电总量 立方米 4810"
+          },
+          {
+            "topic": "环保绩效",
+            "metric_name": "垃圾处理费、固废处置费",
+            "unit": "万元",
+            "values": {
+              "2024年": "3.8"
+            },
+            "evidence_text": "垃圾处理费、固废处置费 万元 3.8"
+          },
+          {
+            "topic": "环保绩效",
+            "metric_name": "危险废物处置量",
+            "unit": "万吨",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "危险废物处置量 万吨 0"
+          },
+          {
+            "topic": "环保绩效",
+            "metric_name": "环保控制覆盖率",
+            "unit": "%",
+            "values": {
+              "2024年": "100"
+            },
+            "evidence_text": "环保控制覆盖率 % 100"
+          }
+        ]
+      },
+      {
+        "table_title": "关键绩效表-社会绩效",
+        "columns": [
+          "名称",
+          "单位",
+          "2024年",
+          "2023年",
+          "2022年"
+        ],
+        "rows": [
+          {
+            "topic": null,
+            "metric_name": "残疾人雇员人数",
+            "unit": "人",
+            "values": {
+              "2024年": "5",
+              "2023年": "5",
+              "2022年": "4"
+            },
+            "evidence_text": "残疾人雇员人数 人 5 5 4"
+          },
+          {
+            "topic": null,
+            "metric_name": "劳动合同签订率",
+            "unit": "%",
+            "values": {
+              "2024年": "100",
+              "2023年": "100",
+              "2022年": "100"
+            },
+            "evidence_text": "劳动合同签订率 % 100 100 100"
+          },
+          {
+            "topic": null,
+            "metric_name": "社会保险覆盖率",
+            "unit": "%",
+            "values": {
+              "2024年": "100",
+              "2023年": "100",
+              "2022年": "100"
+            },
+            "evidence_text": "社会保险覆盖率 % 100 100 100"
+          },
+          {
+            "topic": null,
+            "metric_name": "参加工会的员工比例",
+            "unit": "%",
+            "values": {
+              "2024年": "100",
+              "2023年": "100",
+              "2022年": "100"
+            },
+            "evidence_text": "参加工会的员工比例 % 100 100 100"
+          },
+          {
+            "topic": null,
+            "metric_name": "年度公开招聘人数",
+            "unit": "人",
+            "values": {
+              "2024年": "101",
+              "2023年": "125",
+              "2022年": "201"
+            },
+            "evidence_text": "年度公开招聘人数 人 101 125 201"
+          },
+          {
+            "topic": null,
+            "metric_name": "其中：高校应届毕业生",
+            "unit": "人",
+            "values": {
+              "2024年": "3",
+              "2023年": "10",
+              "2022年": "186"
+            },
+            "evidence_text": "其中：高校应届毕业生 人 3 10 186"
+          },
+          {
+            "topic": null,
+            "metric_name": "社会招聘",
+            "unit": "人",
+            "values": {
+              "2024年": "98",
+              "2023年": "115",
+              "2022年": "15"
+            },
+            "evidence_text": "社会招聘 人 98 115 15"
+          },
+          {
+            "topic": null,
+            "metric_name": "全年累计培训员工人次",
+            "unit": "人次",
+            "values": {
+              "2024年": "378",
+              "2023年": "4464",
+              "2022年": "1456"
+            },
+            "evidence_text": "全年累计培训员工人次 人次 378 4464 1456"
+          },
+          {
+            "topic": null,
+            "metric_name": "体检及健康档案覆盖率",
+            "unit": "%",
+            "values": {
+              "2024年": "100",
+              "2023年": "100",
+              "2022年": "100"
+            },
+            "evidence_text": "体检及健康档案覆盖率 % 100 100 100"
+          },
+          {
+            "topic": null,
+            "metric_name": "年度新聘职业病病例",
+            "unit": "例",
+            "values": {
+              "2024年": "0",
+              "2023年": "0",
+              "2022年": "0"
+            },
+            "evidence_text": "年度新聘职业病病例 例 0 0 0"
+          },
+          {
+            "topic": null,
+            "metric_name": "人均带薪休假天数",
+            "unit": "天",
+            "values": {
+              "2024年": "8.41",
+              "2023年": "8.5",
+              "2022年": "8.32"
+            },
+            "evidence_text": "人均带薪休假天数 天 8.41 8.5 8.32"
+          },
+          {
+            "topic": null,
+            "metric_name": "员工满意度",
+            "unit": "%",
+            "values": {
+              "2024年": "100",
+              "2023年": "100",
+              "2022年": "100"
+            },
+            "evidence_text": "员工满意度 % 100 100 100"
+          },
+          {
+            "topic": null,
+            "metric_name": "员工流失率",
+            "unit": "%",
+            "values": {
+              "2024年": "6.92",
+              "2023年": "9.11",
+              "2022年": "3.66"
+            },
+            "evidence_text": "员工流失率 % 6.92 9.11 3.66"
+          },
+          {
+            "topic": null,
+            "metric_name": "安全生产投入",
+            "unit": "万元",
+            "values": {
+              "2024年": "482.29",
+              "2023年": "230.79",
+              "2022年": "303.4"
+            },
+            "evidence_text": "安全生产投入 万元 482.29 230.79 303.4"
+          },
+          {
+            "topic": null,
+            "metric_name": "安全教育培训覆盖率",
+            "unit": "%",
+            "values": {
+              "2024年": "100",
+              "2023年": "100",
+              "2022年": "100"
+            },
+            "evidence_text": "安全教育培训覆盖率 % 100 100 100"
+          },
+          {
+            "topic": null,
+            "metric_name": "员工伤亡人数",
+            "unit": "人",
+            "values": {
+              "2024年": "0",
+              "2023年": "0",
+              "2022年": "0"
+            },
+            "evidence_text": "员工伤亡人数 人 0 0 0"
+          },
+          {
+            "topic": null,
+            "metric_name": "员工志愿者活动人次",
+            "unit": "人次",
+            "values": {
+              "2024年": "200",
+              "2023年": "500",
+              "2022年": "500"
+            },
+            "evidence_text": "员工志愿者活动人次 人次 200 500 500"
+          },
+          {
+            "topic": null,
+            "metric_name": "乡村振兴项目总投入",
+            "unit": "万元",
+            "values": {
+              "2024年": "25.9",
+              "2023年": "22.35",
+              "2022年": "35.54"
+            },
+            "evidence_text": "乡村振兴项目总投入 万元 25.9 22.35 35.54"
+          }
+        ]
+      },
+      {
+        "table_title": "关键绩效表-社会绩效",
+        "columns": [
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "社会绩效",
+            "metric_name": "科研总投入",
+            "unit": "万元",
+            "values": {
+              "2024年": "1267.31"
+            },
+            "evidence_text": "科研总投入 万元 1267.31"
+          },
+          {
+            "topic": "社会绩效",
+            "metric_name": "有效知识产权总数",
+            "unit": "项",
+            "values": {
+              "2024年": "248"
+            },
+            "evidence_text": "有效知识产权总数 项 248"
+          },
+          {
+            "topic": "社会绩效",
+            "metric_name": "职工总数",
+            "unit": "人",
+            "values": {
+              "2024年": "1315"
+            },
+            "evidence_text": "职工总数 人 1315"
+          },
+          {
+            "topic": "社会绩效",
+            "metric_name": "女职工",
+            "unit": "人",
+            "values": {
+              "2024年": "822"
+            },
+            "evidence_text": "女职工 人 822"
+          },
+          {
+            "topic": "社会绩效",
+            "metric_name": "少数民族职工",
+            "unit": "人",
+            "values": {
+              "2024年": "73"
+            },
+            "evidence_text": "少数民族职工 人 73"
+          },
+          {
+            "topic": "社会绩效",
+            "metric_name": "初级管理人员及以上岗位职工",
+            "unit": "人",
+            "values": {
+              "2024年": "353"
+            },
+            "evidence_text": "初级管理人员及以上岗位职工 人 353"
+          },
+          {
+            "topic": "社会绩效",
+            "metric_name": "其中：女性管理者人数",
+            "unit": "人",
+            "values": {
+              "2024年": "178"
+            },
+            "evidence_text": "其中：女性管理者人数 人 178"
+          },
+          {
+            "topic": "社会绩效",
+            "metric_name": "员工本地化人数",
+            "unit": "人",
+            "values": {
+              "2024年": "896"
+            },
+            "evidence_text": "员工本地化人数 人 896"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_46.png",
+    "page_type": "content_index",
+    "page_note": "该页面为指标索引表，不包含具体 ESG 绩效数值。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_46_left.png",
+    "page_type": "content_index",
+    "page_note": "该页面为指标索引表，列出了GIR Standards和央企控股上市公司ESG专项报告参考指标体系中的各项指标，不包含具体ESG绩效数值。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_46_right.png",
+    "page_type": "content_index",
+    "page_note": "该页面为GRI标准与央企控股上市公司ESG专项报告参考指标体系的目录索引，不包含具体ESG绩效数值。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_47.png",
+    "page_type": "other",
+    "page_note": "该页面为《中国黄金集团黄金珠宝股份有限公司 2024 环境、社会及管治报告》的评级报告，未包含具体的 ESG 绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_47_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为《中国黄金集团黄金珠宝股份有限公司 2024环境、社会及管治报告》的评级说明，未包含具体ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_47_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为《中国企业社会责任报告评级专家委员会》对中国黄金集团黄金珠宝业的环境、社会及管治报告的评级说明，未包含具体ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_48.png",
+    "page_type": "other",
+    "page_note": "该页面为编委会成员名单，不包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_48_left.png",
+    "page_type": "other",
+    "page_note": "该页面为编委会成员名单，不包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_48_right.png",
+    "page_type": "other",
+    "page_note": "页面中未包含ESG绩效数据表格，仅显示了部分人员名单和一个二维码链接至意见反馈表。",
+    "tables": [],
+    "retry_used": false
+  }
+]

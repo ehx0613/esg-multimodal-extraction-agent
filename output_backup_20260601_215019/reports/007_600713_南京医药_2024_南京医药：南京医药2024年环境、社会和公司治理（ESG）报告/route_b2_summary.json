@@ -1,0 +1,277 @@
+{
+  "route_b2_available": true,
+  "target_fields": 28,
+  "matched_fields": 6,
+  "llm_calls": 28,
+  "industry": "pharma",
+  "skipped_by_budget": 0,
+  "skipped_by_industry": 0,
+  "total_llm_calls_cost": 28,
+  "ingest_cache_used": true,
+  "ingest_paths": {
+    "page_texts": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\007_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告\\ingest\\page_texts.json",
+    "page_features": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\007_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告\\ingest\\page_features.json",
+    "text_chunks": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\007_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告\\ingest\\text_chunks.json",
+    "manifest": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\007_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告\\ingest\\ingest_manifest.json"
+  },
+  "retrieval_ranked_targets": [
+    {
+      "field_key": "energy_consumption_total",
+      "applicability": "core",
+      "retrieval_priority": 100.4273,
+      "top_chunk_id": "p31_60",
+      "top_page_number": 31,
+      "top_retrieval_score": 46,
+      "top_vector_score": 0.221366
+    },
+    {
+      "field_key": "lost_work_days_due_to_injury",
+      "applicability": "core",
+      "retrieval_priority": 97.6907,
+      "top_chunk_id": "p31_60",
+      "top_page_number": 31,
+      "top_retrieval_score": 59,
+      "top_vector_score": 0.184537
+    },
+    {
+      "field_key": "safety_accident_count",
+      "applicability": "core",
+      "retrieval_priority": 95.9472,
+      "top_chunk_id": "p31_60",
+      "top_page_number": 31,
+      "top_retrieval_score": 51,
+      "top_vector_score": 0.317117
+    },
+    {
+      "field_key": "water_consumption",
+      "applicability": "core",
+      "retrieval_priority": 90.4508,
+      "top_chunk_id": "p31_60",
+      "top_page_number": 31,
+      "top_retrieval_score": 54,
+      "top_vector_score": 0.072539
+    },
+    {
+      "field_key": "wastewater_discharge",
+      "applicability": "core",
+      "retrieval_priority": 89.95,
+      "top_chunk_id": "p31_60",
+      "top_page_number": 31,
+      "top_retrieval_score": 53,
+      "top_vector_score": 0.0
+    },
+    {
+      "field_key": "environmental_penalty_count",
+      "applicability": "core",
+      "retrieval_priority": 87.3652,
+      "top_chunk_id": "p31_60",
+      "top_page_number": 31,
+      "top_retrieval_score": 48,
+      "top_vector_score": 0.172757
+    },
+    {
+      "field_key": "public_welfare_investment",
+      "applicability": "core",
+      "retrieval_priority": 86.4906,
+      "top_chunk_id": "p31_60",
+      "top_page_number": 31,
+      "top_retrieval_score": 48,
+      "top_vector_score": 0.174528
+    },
+    {
+      "field_key": "employee_medical_checkup_coverage",
+      "applicability": "core",
+      "retrieval_priority": 83.1644,
+      "top_chunk_id": "p31_60",
+      "top_page_number": 31,
+      "top_retrieval_score": 45,
+      "top_vector_score": 0.158221
+    },
+    {
+      "field_key": "training_total_hours",
+      "applicability": "core",
+      "retrieval_priority": 81.3329,
+      "top_chunk_id": "p15_29",
+      "top_page_number": 15,
+      "top_retrieval_score": 41,
+      "top_vector_score": 0.266645
+    },
+    {
+      "field_key": "non_hazardous_waste",
+      "applicability": "core",
+      "retrieval_priority": 80.581,
+      "top_chunk_id": "p31_60",
+      "top_page_number": 31,
+      "top_retrieval_score": 42,
+      "top_vector_score": 0.0
+    },
+    {
+      "field_key": "anti_corruption_training_sessions",
+      "applicability": "core",
+      "retrieval_priority": 79.0431,
+      "top_chunk_id": "p25_50",
+      "top_page_number": 25,
+      "top_retrieval_score": 40,
+      "top_vector_score": 0.202153
+    },
+    {
+      "field_key": "shareholder_meetings",
+      "applicability": "core",
+      "retrieval_priority": 78.4885,
+      "top_chunk_id": "p7_10",
+      "top_page_number": 7,
+      "top_retrieval_score": 41,
+      "top_vector_score": 0.124423
+    },
+    {
+      "field_key": "total_ghg_emissions",
+      "applicability": "core",
+      "retrieval_priority": 77.6788,
+      "top_chunk_id": "p18_36",
+      "top_page_number": 18,
+      "top_retrieval_score": 39,
+      "top_vector_score": 0.183942
+    },
+    {
+      "field_key": "r_and_d_personnel_count",
+      "applicability": "core",
+      "retrieval_priority": 77.233,
+      "top_chunk_id": "p15_29",
+      "top_page_number": 15,
+      "top_retrieval_score": 39,
+      "top_vector_score": 0.161652
+    },
+    {
+      "field_key": "air_pollutant_emissions",
+      "applicability": "core",
+      "retrieval_priority": 74.6798,
+      "top_chunk_id": "p18_36",
+      "top_page_number": 18,
+      "top_retrieval_score": 37,
+      "top_vector_score": 0.099232
+    },
+    {
+      "field_key": "ghg_emissions_intensity",
+      "applicability": "core",
+      "retrieval_priority": 73.3495,
+      "top_chunk_id": "p18_36",
+      "top_page_number": 18,
+      "top_retrieval_score": 35,
+      "top_vector_score": 0.167477
+    },
+    {
+      "field_key": "scope_1_emissions",
+      "applicability": "core",
+      "retrieval_priority": 71.9799,
+      "top_chunk_id": "p2_1",
+      "top_page_number": 2,
+      "top_retrieval_score": 33,
+      "top_vector_score": 0.0
+    },
+    {
+      "field_key": "scope_2_emissions",
+      "applicability": "core",
+      "retrieval_priority": 71.7385,
+      "top_chunk_id": "p2_1",
+      "top_page_number": 2,
+      "top_retrieval_score": 33,
+      "top_vector_score": 0.0
+    },
+    {
+      "field_key": "training_hours_per_employee",
+      "applicability": "core",
+      "retrieval_priority": 71.1423,
+      "top_chunk_id": "p31_60",
+      "top_page_number": 31,
+      "top_retrieval_score": 50,
+      "top_vector_score": 0.233814
+    },
+    {
+      "field_key": "hazardous_waste",
+      "applicability": "core",
+      "retrieval_priority": 70.4435,
+      "top_chunk_id": "p18_35",
+      "top_page_number": 18,
+      "top_retrieval_score": 35,
+      "top_vector_score": 0.205686
+    },
+    {
+      "field_key": "independent_director_ratio",
+      "applicability": "core",
+      "retrieval_priority": 67.6805,
+      "top_chunk_id": "p13_23",
+      "top_page_number": 13,
+      "top_retrieval_score": 46,
+      "top_vector_score": 0.334025
+    },
+    {
+      "field_key": "female_employee_ratio",
+      "applicability": "core",
+      "retrieval_priority": 65.1458,
+      "top_chunk_id": "p25_50",
+      "top_page_number": 25,
+      "top_retrieval_score": 45,
+      "top_vector_score": 0.257288
+    },
+    {
+      "field_key": "female_directors",
+      "applicability": "core",
+      "retrieval_priority": 64.44,
+      "top_chunk_id": "p13_23",
+      "top_page_number": 13,
+      "top_retrieval_score": 42,
+      "top_vector_score": 0.372
+    },
+    {
+      "field_key": "independent_directors",
+      "applicability": "core",
+      "retrieval_priority": 62.8956,
+      "top_chunk_id": "p13_23",
+      "top_page_number": 13,
+      "top_retrieval_score": 39,
+      "top_vector_score": 0.444779
+    },
+    {
+      "field_key": "energy_consumption_intensity",
+      "applicability": "core",
+      "retrieval_priority": 60.3577,
+      "top_chunk_id": "p32_62",
+      "top_page_number": 32,
+      "top_retrieval_score": 42,
+      "top_vector_score": 0.0
+    },
+    {
+      "field_key": "board_size",
+      "applicability": "core",
+      "retrieval_priority": 58.5069,
+      "top_chunk_id": "p5_6",
+      "top_page_number": 5,
+      "top_retrieval_score": 39,
+      "top_vector_score": 0.0
+    },
+    {
+      "field_key": "safety_emergency_drill_count",
+      "applicability": "core",
+      "retrieval_priority": 56.4559,
+      "top_chunk_id": "p15_29",
+      "top_page_number": 15,
+      "top_retrieval_score": 38,
+      "top_vector_score": 0.172793
+    },
+    {
+      "field_key": "confirmed_corruption_cases",
+      "applicability": "core",
+      "retrieval_priority": 49.903,
+      "top_chunk_id": "p31_60",
+      "top_page_number": 31,
+      "top_retrieval_score": 34,
+      "top_vector_score": 0.0
+    }
+  ],
+  "token_budget": {
+    "route_b2_top_k": 5,
+    "route_b2_use_vector_rag": true,
+    "route_b2_vector_top_k": 8,
+    "max_b2_llm_calls_per_report": 40
+  }
+}

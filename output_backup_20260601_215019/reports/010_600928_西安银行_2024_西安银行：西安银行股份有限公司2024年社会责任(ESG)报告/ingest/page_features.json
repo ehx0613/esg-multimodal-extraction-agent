@@ -1,0 +1,1411 @@
+[
+  {
+    "page_number": 1,
+    "char_count": 39,
+    "score": 8,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [],
+    "unit_density_score": 0,
+    "unit_occurrence_count": 0,
+    "distinct_unit_categories": [],
+    "table_header_hits": [],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 4,
+    "numeric_lines": 4,
+    "table_like_lines": 0,
+    "page_ratio": 0.0312,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "year_hits:2024",
+      "early_page_penalty"
+    ]
+  },
+  {
+    "page_number": 2,
+    "char_count": 0,
+    "score": -8,
+    "title_hits": [],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [],
+    "unit_density_score": 0,
+    "unit_occurrence_count": 0,
+    "distinct_unit_categories": [],
+    "table_header_hits": [],
+    "year_hits": [],
+    "number_count": 0,
+    "numeric_lines": 0,
+    "table_like_lines": 0,
+    "page_ratio": 0.0625,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "early_page_penalty"
+    ]
+  },
+  {
+    "page_number": 3,
+    "char_count": 444,
+    "score": 75,
+    "title_hits": [
+      "关键绩效表"
+    ],
+    "strong_title_hits": [
+      "关键绩效",
+      "绩效表"
+    ],
+    "metric_hits": [
+      "董事"
+    ],
+    "unit_hits": [
+      "项"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 2,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [],
+    "number_count": 32,
+    "numeric_lines": 32,
+    "table_like_lines": 0,
+    "page_ratio": 0.0938,
+    "index_hits": [],
+    "force_keep": true,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:关键绩效表",
+      "strong_title_hits:关键绩效,绩效表",
+      "metric_hits:董事",
+      "unit_hits:项",
+      "unit_density:2:count,person",
+      "number_dense:32",
+      "numeric_lines:32",
+      "force_keep:strong_performance_title"
+    ]
+  },
+  {
+    "page_number": 4,
+    "char_count": 741,
+    "score": 68,
+    "title_hits": [
+      "指标",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "董事",
+      "董事会"
+    ],
+    "unit_hits": [
+      "人",
+      "次",
+      "件"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 4,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [
+      "指标"
+    ],
+    "year_hits": [
+      "2021",
+      "2023",
+      "2024"
+    ],
+    "number_count": 26,
+    "numeric_lines": 13,
+    "table_like_lines": 5,
+    "page_ratio": 0.125,
+    "index_hits": [
+      "GRI"
+    ],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:指标,20[0-3][0-9]年",
+      "metric_hits:董事,董事会",
+      "unit_hits:人,次,件",
+      "unit_density:2:count,person",
+      "year_hits:2021,2023,2024",
+      "table_header_hits:指标",
+      "number_dense:26",
+      "table_density:5",
+      "numeric_lines:13",
+      "early_page_penalty",
+      "index_penalty:GRI"
+    ]
+  },
+  {
+    "page_number": 5,
+    "char_count": 1435,
+    "score": 67,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "董事",
+      "独立董事"
+    ],
+    "unit_hits": [
+      "亿元",
+      "元",
+      "%",
+      "人",
+      "项"
+    ],
+    "unit_density_score": 4,
+    "unit_occurrence_count": 19,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "percentage",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2024",
+      "2025"
+    ],
+    "number_count": 17,
+    "numeric_lines": 13,
+    "table_like_lines": 3,
+    "page_ratio": 0.1562,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:董事,独立董事",
+      "unit_hits:亿元,元,%,人,项",
+      "unit_density:4:count,money,percentage,person",
+      "unit_occurrences:19",
+      "year_hits:2024,2025",
+      "table_density:3",
+      "numeric_lines:13",
+      "early_page_penalty"
+    ]
+  },
+  {
+    "page_number": 6,
+    "char_count": 1611,
+    "score": 83,
+    "title_hits": [
+      "单位",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [
+      "人",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 33,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [
+      "单位"
+    ],
+    "year_hits": [
+      "2023",
+      "2024"
+    ],
+    "number_count": 50,
+    "numeric_lines": 38,
+    "table_like_lines": 5,
+    "page_ratio": 0.1875,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:单位,20[0-3][0-9]年",
+      "unit_hits:人,项,家",
+      "unit_density:2:count,person",
+      "unit_occurrences:33",
+      "year_hits:2023,2024",
+      "table_header_hits:单位",
+      "number_dense:50",
+      "table_density:5",
+      "numeric_lines:38",
+      "early_page_penalty"
+    ]
+  },
+  {
+    "page_number": 7,
+    "char_count": 890,
+    "score": 48,
+    "title_hits": [
+      "单位",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [
+      "人",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 6,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [
+      "单位"
+    ],
+    "year_hits": [
+      "2023",
+      "2024"
+    ],
+    "number_count": 18,
+    "numeric_lines": 15,
+    "table_like_lines": 2,
+    "page_ratio": 0.2188,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:单位,20[0-3][0-9]年",
+      "unit_hits:人,项,家",
+      "unit_density:2:count,person",
+      "year_hits:2023,2024",
+      "table_header_hits:单位",
+      "numeric_lines:15",
+      "early_page_penalty"
+    ]
+  },
+  {
+    "page_number": 8,
+    "char_count": 439,
+    "score": 16,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 5,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 5,
+    "numeric_lines": 5,
+    "table_like_lines": 0,
+    "page_ratio": 0.25,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "unit_density:2:count,person",
+      "year_hits:2024",
+      "early_page_penalty"
+    ]
+  },
+  {
+    "page_number": 9,
+    "char_count": 127,
+    "score": 8,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [],
+    "unit_density_score": 0,
+    "unit_occurrence_count": 0,
+    "distinct_unit_categories": [],
+    "table_header_hits": [],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 1,
+    "numeric_lines": 1,
+    "table_like_lines": 0,
+    "page_ratio": 0.2812,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "year_hits:2024",
+      "early_page_penalty"
+    ]
+  },
+  {
+    "page_number": 10,
+    "char_count": 1615,
+    "score": 102,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "能源",
+      "培训",
+      "董事",
+      "董事会",
+      "监事会"
+    ],
+    "unit_hits": [
+      "亿元",
+      "万元",
+      "元",
+      "%",
+      "人",
+      "件",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 4,
+    "unit_occurrence_count": 21,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "percentage",
+      "person"
+    ],
+    "table_header_hits": [
+      "项目"
+    ],
+    "year_hits": [
+      "2023",
+      "2024"
+    ],
+    "number_count": 22,
+    "numeric_lines": 17,
+    "table_like_lines": 3,
+    "page_ratio": 0.3125,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:能源,培训,董事,董事会,监事会",
+      "unit_hits:亿元,万元,元,%,人,件,项,家",
+      "unit_density:4:count,money,percentage,person",
+      "unit_occurrences:21",
+      "year_hits:2023,2024",
+      "table_header_hits:项目",
+      "number_dense:22",
+      "table_density:3",
+      "numeric_lines:17"
+    ]
+  },
+  {
+    "page_number": 11,
+    "char_count": 1144,
+    "score": 50,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [
+      "亿元",
+      "元",
+      "次",
+      "项",
+      "起"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 10,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "person"
+    ],
+    "table_header_hits": [
+      "项目"
+    ],
+    "year_hits": [
+      "2023",
+      "2024"
+    ],
+    "number_count": 9,
+    "numeric_lines": 8,
+    "table_like_lines": 1,
+    "page_ratio": 0.3438,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "unit_hits:亿元,元,次,项,起",
+      "unit_density:3:count,money,person",
+      "year_hits:2023,2024",
+      "table_header_hits:项目",
+      "numeric_lines:8"
+    ]
+  },
+  {
+    "page_number": 12,
+    "char_count": 1091,
+    "score": 50,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "能源",
+      "电力",
+      "用电",
+      "煤"
+    ],
+    "unit_hits": [
+      "次",
+      "项",
+      "起"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 9,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [
+      "项目"
+    ],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 4,
+    "numeric_lines": 4,
+    "table_like_lines": 0,
+    "page_ratio": 0.375,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:能源,电力,用电,煤",
+      "unit_hits:次,项,起",
+      "unit_density:2:count,person",
+      "year_hits:2024",
+      "table_header_hits:项目"
+    ]
+  },
+  {
+    "page_number": 13,
+    "char_count": 143,
+    "score": 26,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [
+      "家"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 2,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 4,
+    "numeric_lines": 4,
+    "table_like_lines": 0,
+    "page_ratio": 0.4062,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "unit_hits:家",
+      "unit_density:2:count,person",
+      "year_hits:2024"
+    ]
+  },
+  {
+    "page_number": 14,
+    "char_count": 1406,
+    "score": 48,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "能源"
+    ],
+    "unit_hits": [
+      "亿元",
+      "元",
+      "件",
+      "项"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 12,
+    "distinct_unit_categories": [
+      "count",
+      "money"
+    ],
+    "table_header_hits": [
+      "项目"
+    ],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 11,
+    "numeric_lines": 9,
+    "table_like_lines": 2,
+    "page_ratio": 0.4375,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:能源",
+      "unit_hits:亿元,元,件,项",
+      "unit_density:2:count,money",
+      "unit_occurrences:12",
+      "year_hits:2024",
+      "table_header_hits:项目",
+      "numeric_lines:9"
+    ]
+  },
+  {
+    "page_number": 15,
+    "char_count": 1236,
+    "score": 56,
+    "title_hits": [
+      "指标",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "专利"
+    ],
+    "unit_hits": [
+      "人",
+      "次",
+      "项",
+      "起"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 11,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [
+      "指标",
+      "项目"
+    ],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 4,
+    "numeric_lines": 4,
+    "table_like_lines": 0,
+    "page_ratio": 0.4688,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:指标,20[0-3][0-9]年",
+      "metric_hits:专利",
+      "unit_hits:人,次,项,起",
+      "unit_density:2:count,person",
+      "year_hits:2024",
+      "table_header_hits:指标,项目"
+    ]
+  },
+  {
+    "page_number": 16,
+    "char_count": 1604,
+    "score": 68,
+    "title_hits": [
+      "单位",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [
+      "亿元",
+      "元",
+      "人",
+      "次",
+      "件",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 21,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "person"
+    ],
+    "table_header_hits": [
+      "单位"
+    ],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 12,
+    "numeric_lines": 10,
+    "table_like_lines": 1,
+    "page_ratio": 0.5,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:单位,20[0-3][0-9]年",
+      "unit_hits:亿元,元,人,次,件,项,家",
+      "unit_density:3:count,money,person",
+      "unit_occurrences:21",
+      "year_hits:2024",
+      "table_header_hits:单位",
+      "numeric_lines:10"
+    ]
+  },
+  {
+    "page_number": 17,
+    "char_count": 0,
+    "score": 0,
+    "title_hits": [],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [],
+    "unit_density_score": 0,
+    "unit_occurrence_count": 0,
+    "distinct_unit_categories": [],
+    "table_header_hits": [],
+    "year_hits": [],
+    "number_count": 0,
+    "numeric_lines": 0,
+    "table_like_lines": 0,
+    "page_ratio": 0.5312,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": []
+  },
+  {
+    "page_number": 18,
+    "char_count": 1367,
+    "score": 44,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [
+      "人",
+      "次",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 16,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [
+      "项目"
+    ],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 12,
+    "numeric_lines": 11,
+    "table_like_lines": 1,
+    "page_ratio": 0.5625,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "unit_hits:人,次,项,家",
+      "unit_density:2:count,person",
+      "unit_occurrences:16",
+      "year_hits:2024",
+      "table_header_hits:项目",
+      "numeric_lines:11"
+    ]
+  },
+  {
+    "page_number": 19,
+    "char_count": 1317,
+    "score": 62,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [
+      "人",
+      "件",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 42,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2023",
+      "2024"
+    ],
+    "number_count": 14,
+    "numeric_lines": 10,
+    "table_like_lines": 4,
+    "page_ratio": 0.5938,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "unit_hits:人,件,项,家",
+      "unit_density:2:count,person",
+      "unit_occurrences:42",
+      "year_hits:2023,2024",
+      "table_density:4",
+      "numeric_lines:10"
+    ]
+  },
+  {
+    "page_number": 20,
+    "char_count": 1045,
+    "score": 52,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [
+      "元",
+      "人",
+      "次",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 18,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "person"
+    ],
+    "table_header_hits": [
+      "项目"
+    ],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 13,
+    "numeric_lines": 10,
+    "table_like_lines": 2,
+    "page_ratio": 0.625,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "unit_hits:元,人,次,项,家",
+      "unit_density:3:count,money,person",
+      "unit_occurrences:18",
+      "year_hits:2024",
+      "table_header_hits:项目",
+      "numeric_lines:10"
+    ]
+  },
+  {
+    "page_number": 21,
+    "char_count": 1372,
+    "score": 92,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "培训"
+    ],
+    "unit_hits": [
+      "%",
+      "人",
+      "次",
+      "件",
+      "项",
+      "起",
+      "家"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 21,
+    "distinct_unit_categories": [
+      "count",
+      "percentage",
+      "person"
+    ],
+    "table_header_hits": [
+      "类别"
+    ],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 26,
+    "numeric_lines": 18,
+    "table_like_lines": 5,
+    "page_ratio": 0.6562,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:培训",
+      "unit_hits:%,人,次,件,项,起,家",
+      "unit_density:3:count,percentage,person",
+      "unit_occurrences:21",
+      "year_hits:2024",
+      "table_header_hits:类别",
+      "number_dense:26",
+      "table_density:5",
+      "numeric_lines:18",
+      "tail_35_percent"
+    ]
+  },
+  {
+    "page_number": 22,
+    "char_count": 1085,
+    "score": 66,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "培训"
+    ],
+    "unit_hits": [
+      "万元",
+      "元",
+      "人",
+      "次",
+      "项",
+      "起",
+      "家"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 38,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 8,
+    "numeric_lines": 7,
+    "table_like_lines": 1,
+    "page_ratio": 0.6875,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:培训",
+      "unit_hits:万元,元,人,次,项,起,家",
+      "unit_density:3:count,money,person",
+      "unit_occurrences:38",
+      "year_hits:2024",
+      "tail_35_percent"
+    ]
+  },
+  {
+    "page_number": 23,
+    "char_count": 1247,
+    "score": 83,
+    "title_hits": [
+      "单位",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [
+      "人",
+      "项"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 46,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [
+      "单位",
+      "项目"
+    ],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 15,
+    "numeric_lines": 12,
+    "table_like_lines": 3,
+    "page_ratio": 0.7188,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:单位,20[0-3][0-9]年",
+      "unit_hits:人,项",
+      "unit_density:2:count,person",
+      "unit_occurrences:46",
+      "year_hits:2024",
+      "table_header_hits:单位,项目",
+      "table_density:3",
+      "numeric_lines:12",
+      "tail_35_percent"
+    ]
+  },
+  {
+    "page_number": 24,
+    "char_count": 913,
+    "score": 48,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [
+      "万元",
+      "元",
+      "人",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 10,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 9,
+    "numeric_lines": 7,
+    "table_like_lines": 2,
+    "page_ratio": 0.75,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "unit_hits:万元,元,人,项,家",
+      "unit_density:3:count,money,person",
+      "year_hits:2024",
+      "tail_35_percent"
+    ]
+  },
+  {
+    "page_number": 25,
+    "char_count": 982,
+    "score": 67,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [
+      "元",
+      "人",
+      "家"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 16,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 14,
+    "numeric_lines": 9,
+    "table_like_lines": 5,
+    "page_ratio": 0.7812,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "unit_hits:元,人,家",
+      "unit_density:3:count,money,person",
+      "unit_occurrences:16",
+      "year_hits:2024",
+      "table_density:5",
+      "numeric_lines:9",
+      "tail_35_percent"
+    ]
+  },
+  {
+    "page_number": 26,
+    "char_count": 231,
+    "score": 30,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [],
+    "unit_density_score": 0,
+    "unit_occurrence_count": 0,
+    "distinct_unit_categories": [],
+    "table_header_hits": [],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 3,
+    "numeric_lines": 3,
+    "table_like_lines": 0,
+    "page_ratio": 0.8125,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "year_hits:2024",
+      "tail_35_percent",
+      "tail_20_percent"
+    ]
+  },
+  {
+    "page_number": 27,
+    "char_count": 2029,
+    "score": 120,
+    "title_hits": [
+      "指标",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "培训",
+      "董事",
+      "独立董事",
+      "董事会",
+      "股东大会",
+      "监事会"
+    ],
+    "unit_hits": [
+      "元",
+      "人",
+      "次",
+      "件",
+      "项"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 26,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "person"
+    ],
+    "table_header_hits": [
+      "指标",
+      "项目"
+    ],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 14,
+    "numeric_lines": 9,
+    "table_like_lines": 4,
+    "page_ratio": 0.8438,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:指标,20[0-3][0-9]年",
+      "metric_hits:培训,董事,独立董事,董事会,股东大会,监事会",
+      "unit_hits:元,人,次,件,项",
+      "unit_density:3:count,money,person",
+      "unit_occurrences:26",
+      "year_hits:2024",
+      "table_header_hits:指标,项目",
+      "table_density:4",
+      "numeric_lines:9",
+      "tail_35_percent",
+      "tail_20_percent"
+    ]
+  },
+  {
+    "page_number": 28,
+    "char_count": 0,
+    "score": 14,
+    "title_hits": [],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [],
+    "unit_density_score": 0,
+    "unit_occurrence_count": 0,
+    "distinct_unit_categories": [],
+    "table_header_hits": [],
+    "year_hits": [],
+    "number_count": 0,
+    "numeric_lines": 0,
+    "table_like_lines": 0,
+    "page_ratio": 0.875,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "tail_35_percent",
+      "tail_20_percent"
+    ]
+  },
+  {
+    "page_number": 29,
+    "char_count": 1667,
+    "score": 72,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "培训",
+      "董事",
+      "董事会",
+      "监事会"
+    ],
+    "unit_hits": [
+      "人",
+      "次",
+      "件",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 28,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 4,
+    "numeric_lines": 4,
+    "table_like_lines": 0,
+    "page_ratio": 0.9062,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:培训,董事,董事会,监事会",
+      "unit_hits:人,次,件,项,家",
+      "unit_density:2:count,person",
+      "unit_occurrences:28",
+      "year_hits:2024",
+      "tail_35_percent",
+      "tail_20_percent"
+    ]
+  },
+  {
+    "page_number": 30,
+    "char_count": 1187,
+    "score": 197,
+    "title_hits": [
+      "关键绩效表",
+      "指标",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [
+      "关键绩效",
+      "绩效表"
+    ],
+    "metric_hits": [
+      "耗电",
+      "耗水",
+      "男性员工",
+      "女性员工",
+      "培训",
+      "客户投诉",
+      "反腐"
+    ],
+    "unit_hits": [
+      "吨",
+      "元",
+      "%",
+      "人",
+      "人次",
+      "次"
+    ],
+    "unit_density_score": 5,
+    "unit_occurrence_count": 49,
+    "distinct_unit_categories": [
+      "count",
+      "mass",
+      "money",
+      "percentage",
+      "person"
+    ],
+    "table_header_hits": [
+      "指标"
+    ],
+    "year_hits": [
+      "2022",
+      "2023",
+      "2024"
+    ],
+    "number_count": 115,
+    "numeric_lines": 114,
+    "table_like_lines": 1,
+    "page_ratio": 0.9375,
+    "index_hits": [],
+    "force_keep": true,
+    "high_unit_density": true,
+    "reasons": [
+      "title_hits:关键绩效表,指标,20[0-3][0-9]年",
+      "strong_title_hits:关键绩效,绩效表",
+      "metric_hits:耗电,耗水,男性员工,女性员工,培训,客户投诉,反腐",
+      "unit_hits:吨,元,%,人,人次,次",
+      "unit_density:5:count,mass,money,percentage,person",
+      "unit_occurrences:49",
+      "year_hits:2022,2023,2024",
+      "table_header_hits:指标",
+      "number_dense:115",
+      "numeric_lines:114",
+      "tail_35_percent",
+      "tail_20_percent",
+      "force_keep:strong_performance_title",
+      "force_keep:high_unit_density"
+    ]
+  },
+  {
+    "page_number": 31,
+    "char_count": 1079,
+    "score": 70,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "培训",
+      "供应商",
+      "股东大会"
+    ],
+    "unit_hits": [
+      "元",
+      "件",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 13,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "person"
+    ],
+    "table_header_hits": [
+      "项目"
+    ],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 3,
+    "numeric_lines": 3,
+    "table_like_lines": 0,
+    "page_ratio": 0.9688,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:培训,供应商,股东大会",
+      "unit_hits:元,件,项,家",
+      "unit_density:3:count,money,person",
+      "unit_occurrences:13",
+      "year_hits:2024",
+      "table_header_hits:项目",
+      "tail_35_percent",
+      "tail_20_percent"
+    ]
+  },
+  {
+    "page_number": 32,
+    "char_count": 331,
+    "score": 48,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [
+      "人",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 6,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [
+      "项目"
+    ],
+    "year_hits": [
+      "2024"
+    ],
+    "number_count": 5,
+    "numeric_lines": 5,
+    "table_like_lines": 0,
+    "page_ratio": 1.0,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "unit_hits:人,项,家",
+      "unit_density:2:count,person",
+      "year_hits:2024",
+      "table_header_hits:项目",
+      "tail_35_percent",
+      "tail_20_percent"
+    ]
+  }
+]

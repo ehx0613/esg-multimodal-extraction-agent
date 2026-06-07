@@ -1,0 +1,6 @@
+﻿run_id,report_id,route_a_ok,route_a_coverage,route_b_available,route_b_match_rate,merged_coverage,field_precision,unknown_metric_quality,needs_human_review,final_grade,notes
+001_000858_五_粮_液_2024_五_粮_液：2024年度环境、社会及公司治理（ESG）报告_20260517_162052,001_000858_五_粮_液_2024_五_粮_液：2024年度环境、社会及公司治理（ESG）报告,true,0.5588,true,1.0000,0.6029,,,true,pending_manual_review,Review queue triggered by unknown_metric_count_high
+003_002083_孚日股份_2025_孚日股份：社会责任报告_20260517_193154,003_002083_孚日股份_2025_孚日股份：社会责任报告,true,0.4853,false,0.0000,0.4265,,,true,pending_manual_review,No text layer and Route B unavailable
+005_002302_西部建设_2024_西部建设：2024年度环境、社会和公司治理（ESG）报告_20260517_193155,005_002302_西部建设_2024_西部建设：2024年度环境、社会和公司治理（ESG）报告,true,0.3971,true,0.8000,0.3824,,,false,pending_manual_review,Automatic metrics only and no review queue item currently
+009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告_20260517_193155,009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告,true,0.2059,true,0.4000,0.25,,,false,pending_manual_review,Low Route A and merged coverage despite text availability
+012_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告_20260517_193155,012_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告,true,0.2353,true,0.6000,0.2941,,,false,pending_manual_review,Coverage remains low and should be sampled in manual review

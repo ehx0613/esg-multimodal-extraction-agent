@@ -1,0 +1,58 @@
+{
+  "report_dir": "output\\reports\\004_600206_有研新材_2024_有研新材：有研新材料股份有限公司2024年度环境、社会及治理（ESG）报告",
+  "industry": "manufacturing",
+  "retrieval_profile": "bm25_query_agg_evidence_rerank_v1",
+  "skip_harness": true,
+  "harness": null,
+  "citations": {
+    "field_count": 60,
+    "auto_cited_count": 32,
+    "needs_review_count": 28,
+    "json_path": "output\\reports\\004_600206_有研新材_2024_有研新材：有研新材料股份有限公司2024年度环境、社会及治理（ESG）报告\\field_citations.json",
+    "csv_path": "output\\reports\\004_600206_有研新材_2024_有研新材：有研新材料股份有限公司2024年度环境、社会及治理（ESG）报告\\field_citations.csv"
+  },
+  "rating": {
+    "score": 53.3439,
+    "rating": "C",
+    "field_count": 53,
+    "scored_field_count": 29,
+    "needs_review_count": 28,
+    "json_path": "output\\reports\\004_600206_有研新材_2024_有研新材：有研新材料股份有限公司2024年度环境、社会及治理（ESG）报告\\simulated_rating.json",
+    "summary_csv_path": "output\\reports\\004_600206_有研新材_2024_有研新材：有研新材料股份有限公司2024年度环境、社会及治理（ESG）报告\\simulated_rating_summary.csv",
+    "review_queue_path": "output\\reports\\004_600206_有研新材_2024_有研新材：有研新材料股份有限公司2024年度环境、社会及治理（ESG）报告\\rating_review_queue.json",
+    "rating_run_id": "rating_f31f1038e87f4b7e",
+    "pillar_scores": {
+      "E": {
+        "score": 70.7846,
+        "rating": "B",
+        "field_count": 21,
+        "scored_field_count": 15,
+        "coverage": 0.7143,
+        "auto_cited_count": 15,
+        "evidence_coverage": 0.7143,
+        "needs_review_count": 6
+      },
+      "G": {
+        "score": 56.3867,
+        "rating": "C",
+        "field_count": 13,
+        "scored_field_count": 7,
+        "coverage": 0.5385,
+        "auto_cited_count": 7,
+        "evidence_coverage": 0.5385,
+        "needs_review_count": 6
+      },
+      "S": {
+        "score": 33.295,
+        "rating": "C",
+        "field_count": 19,
+        "scored_field_count": 7,
+        "coverage": 0.3684,
+        "auto_cited_count": 5,
+        "evidence_coverage": 0.2632,
+        "needs_review_count": 14
+      }
+    }
+  },
+  "next_step": "Review rating_review_queue.json, then approve/correct fields and recalculate rating."
+}

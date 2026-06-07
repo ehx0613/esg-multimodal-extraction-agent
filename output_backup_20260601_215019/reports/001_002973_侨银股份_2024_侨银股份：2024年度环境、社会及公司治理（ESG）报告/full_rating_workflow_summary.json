@@ -1,0 +1,58 @@
+{
+  "report_dir": "output\\reports\\001_002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告",
+  "industry": "manufacturing",
+  "retrieval_profile": "bm25_query_agg_evidence_rerank_v1",
+  "skip_harness": true,
+  "harness": null,
+  "citations": {
+    "field_count": 60,
+    "auto_cited_count": 32,
+    "needs_review_count": 28,
+    "json_path": "output\\reports\\001_002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告\\field_citations.json",
+    "csv_path": "output\\reports\\001_002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告\\field_citations.csv"
+  },
+  "rating": {
+    "score": 51.8448,
+    "rating": "C",
+    "field_count": 53,
+    "scored_field_count": 28,
+    "needs_review_count": 28,
+    "json_path": "output\\reports\\001_002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告\\simulated_rating.json",
+    "summary_csv_path": "output\\reports\\001_002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告\\simulated_rating_summary.csv",
+    "review_queue_path": "output\\reports\\001_002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告\\rating_review_queue.json",
+    "rating_run_id": "rating_a32477aeabd74160",
+    "pillar_scores": {
+      "E": {
+        "score": 52.9423,
+        "rating": "C",
+        "field_count": 21,
+        "scored_field_count": 11,
+        "coverage": 0.5238,
+        "auto_cited_count": 10,
+        "evidence_coverage": 0.4762,
+        "needs_review_count": 11
+      },
+      "G": {
+        "score": 53.0667,
+        "rating": "C",
+        "field_count": 13,
+        "scored_field_count": 7,
+        "coverage": 0.5385,
+        "auto_cited_count": 7,
+        "evidence_coverage": 0.5385,
+        "needs_review_count": 6
+      },
+      "S": {
+        "score": 49.7,
+        "rating": "C",
+        "field_count": 19,
+        "scored_field_count": 10,
+        "coverage": 0.5263,
+        "auto_cited_count": 10,
+        "evidence_coverage": 0.5263,
+        "needs_review_count": 9
+      }
+    }
+  },
+  "next_step": "Review rating_review_queue.json, then approve/correct fields and recalculate rating."
+}

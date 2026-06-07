@@ -1,0 +1,43 @@
+[
+  {
+    "review_id": "某个报告目录名_001",
+    "report_id": "某个报告目录名",
+    "report_name": "某个报告目录名",
+    "field_key": null,
+    "source_route": "route_a_appendix_table",
+    "reason": "standard_row_count_invalid",
+    "recommended_action": "rerun_or_validate_route_a_outputs",
+    "status": "pending",
+    "details": {
+      "expected_core_fields": 60,
+      "actual_row_count": 0
+    }
+  },
+  {
+    "review_id": "某个报告目录名_002",
+    "report_id": "某个报告目录名",
+    "report_name": "某个报告目录名",
+    "field_key": null,
+    "source_route": "merge",
+    "reason": "merged_row_count_invalid",
+    "recommended_action": "rerun_or_validate_merge_outputs",
+    "status": "pending",
+    "details": {
+      "expected_core_fields": 60,
+      "actual_row_count": 0
+    }
+  },
+  {
+    "review_id": "某个报告目录名_003",
+    "report_id": "某个报告目录名",
+    "report_name": "某个报告目录名",
+    "field_key": null,
+    "source_route": "route_a_appendix_table",
+    "reason": "route_a_cache_missing",
+    "recommended_action": "rerun_full_route_a_pipeline",
+    "status": "pending",
+    "details": {
+      "all_table_rows_exists": false
+    }
+  }
+]

@@ -1,0 +1,16 @@
+query_id,field_key,expected_chunk_id,expected_page,notes
+xhyl_001,esg_strategy_targets,,13,新华医疗ESG目标与治理机制
+xhyl_002,climate_risk_management,,38,气候风险识别与管理
+xhyl_003,environmental_management_system,,34,环境管理体系与ISO 14001
+xhyl_004,energy_saving_measures,,36,节能减排措施
+xhyl_005,water_management_measures,,36,水资源管理措施
+xhyl_006,waste_management_measures,,40,废弃物管理措施
+xhyl_007,employee_rights_policy,,14,员工权益保障政策
+xhyl_008,occupational_health_safety_system,,48,职业健康安全体系
+xhyl_009,employee_training_development,,46,员工培训与发展机制
+xhyl_010,supplier_esg_assessment,,32,供应商ESG管理机制
+xhyl_011,data_security_privacy,,31,数据安全与隐私保护
+xhyl_012,anti_corruption_policy,,63,反腐败政策
+xhyl_013,whistleblowing_mechanism,,63,举报机制
+xhyl_014,business_ethics_training,,63,商业道德培训
+xhyl_015,investor_communication,,60,信息披露与投资者沟通

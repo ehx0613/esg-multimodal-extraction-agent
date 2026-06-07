@@ -1,0 +1,142 @@
+{
+  "manifest_version": "v1.2-draft",
+  "run_id": "006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告_20260530_103924",
+  "report_id": "006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告",
+  "report_name": "006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告",
+  "report_dir": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告",
+  "output_dir": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告",
+  "started_at": "2026-05-30T10:39:24+08:00",
+  "finished_at": "2026-05-30T10:39:24+08:00",
+  "status": "completed",
+  "mode": "stable_v1_1",
+  "config_snapshot": {
+    "vlm_model": "qwen-vl-plus",
+    "text_model": "qwen-plus-2025-09-11",
+    "llm_matcher_enabled": true,
+    "expected_core_fields": 60,
+    "route_b_enabled": false,
+    "merge_min_route_b_confidence": 0.5
+  },
+  "artifacts": {
+    "all_table_rows_json": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\all_table_rows.json",
+    "standard_results_csv": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\standard_esg_results.csv",
+    "route_b_results_csv": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\route_b_text_results.csv",
+    "route_b_summary_json": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\route_b_summary.json",
+    "merged_results_csv": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\merged_esg_results.csv",
+    "unknown_metrics_csv": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\unknown_metrics.csv"
+  },
+  "routes": {
+    "route_a": {
+      "status": "completed",
+      "started_at": "2026-05-30T10:39:24+08:00",
+      "finished_at": "2026-05-30T10:39:24+08:00",
+      "summary": {
+        "standard_row_count": 60,
+        "unknown_row_count": 130,
+        "reason": "schema_rerun_not_needed",
+        "validation": null
+      }
+    },
+    "route_b": {
+      "status": "completed",
+      "started_at": "2026-05-30T10:39:24+08:00",
+      "finished_at": "2026-05-30T10:39:24+08:00",
+      "summary": {
+        "route_b_available": true,
+        "matched_fields": 18,
+        "reason": "route_b_disabled_to_save_tokens",
+        "needs_route_b": null
+      }
+    },
+    "merge": {
+      "status": "completed",
+      "started_at": "2026-05-30T10:39:24+08:00",
+      "finished_at": "2026-05-30T10:39:24+08:00",
+      "summary": {
+        "merged_row_count": 60,
+        "reason": "merge_not_needed",
+        "summary": null,
+        "validation": null
+      }
+    }
+  },
+  "warnings": [],
+  "errors": [],
+  "review_needed": false,
+  "review_reasons": [],
+  "human_review_queue": [],
+  "next_actions": [
+    "ready"
+  ],
+  "summary": {
+    "report_dir": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告",
+    "report_name": "006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告",
+    "initial_actions": [
+      "ready"
+    ],
+    "schema_rerun": {
+      "execution_status": "skipped",
+      "final_route_status": "completed",
+      "reason": "schema_rerun_not_needed",
+      "ok": true,
+      "validation": null
+    },
+    "route_b": {
+      "execution_status": "skipped",
+      "final_route_status": "completed",
+      "reason": "route_b_disabled_to_save_tokens",
+      "ok": true,
+      "needs_route_b": null
+    },
+    "merge": {
+      "execution_status": "skipped",
+      "final_route_status": "completed",
+      "reason": "merge_not_needed",
+      "ok": true,
+      "summary": null,
+      "validation": null
+    },
+    "final_state": {
+      "report_dir": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告",
+      "report_id": "006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告",
+      "report_name": "006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告",
+      "artifacts": {
+        "all_table_rows_json": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\all_table_rows.json",
+        "standard_results_csv": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\standard_esg_results.csv",
+        "unknown_metrics_csv": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\unknown_metrics.csv",
+        "route_b_results_csv": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\route_b_text_results.csv",
+        "route_b_summary_json": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\route_b_summary.json",
+        "merged_results_csv": "output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\merged_esg_results.csv"
+      },
+      "has_all_table_rows": true,
+      "has_standard_results": true,
+      "has_unknown_metrics": true,
+      "has_route_b_results": true,
+      "has_route_b_summary": true,
+      "has_merged_results": true,
+      "standard_row_count": 60,
+      "merged_row_count": 60,
+      "unknown_row_count": 130,
+      "route_b_available": true,
+      "route_b_matched_fields": 18,
+      "needs_schema_rerun": false,
+      "needs_route_b": false,
+      "needs_merge": false,
+      "should_skip_route_b": false,
+      "route_a_status": "completed",
+      "route_b_status": "completed",
+      "merge_status": "completed",
+      "review_needed": false,
+      "review_reasons": [],
+      "warnings": [],
+      "suggested_actions": [
+        "ready"
+      ]
+    },
+    "ok": true,
+    "warnings": [],
+    "review_needed": false,
+    "review_reason_codes": [],
+    "review_item_count": 0
+  }
+}

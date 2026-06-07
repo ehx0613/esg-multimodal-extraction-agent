@@ -1,0 +1,7 @@
+{
+  "chunk_count": 98,
+  "chunks_signature": "8137c72a3d3e7958140bcb946d1ee5d9",
+  "embedding_provider": "local",
+  "embedding_model": "local_hash_ngram",
+  "dimension": 384
+}

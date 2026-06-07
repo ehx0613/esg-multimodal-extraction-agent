@@ -1,0 +1,6 @@
+report_id,report_name,has_text_layer,table_quality,expected_route_a_difficulty,expected_route_b_difficulty,review_status,notes
+001_000858_五_粮_液_2024_五_粮_液：2024年度环境、社会及公司治理（ESG）报告,五粮液 2024 ESG 报告,true,medium,medium,low,pending,Route B 5/5 matched and unknown metrics are high
+003_002083_孚日股份_2025_孚日股份：社会责任报告,孚日股份 2025 社会责任报告,false,medium,medium,high,pending,No usable text layer and Route B unavailable
+005_002302_西部建设_2024_西部建设：2024年度环境、社会和公司治理（ESG）报告,西部建设 2024 ESG 报告,true,medium,medium,medium,pending,Route B 4/5 matched with no current review queue
+009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告,郑中设计 2024 ESG 报告,true,hard,high,medium,pending,Low Route A and merge coverage with partial Route B support
+012_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告,南京医药 2024 ESG 报告,true,hard,high,medium,pending,Lower overall coverage and moderate Route B support

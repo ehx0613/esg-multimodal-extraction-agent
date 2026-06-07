@@ -1,0 +1,10 @@
+{
+  "ingest_version": "route_a_page_scoring_v3_unit_density",
+  "pdf_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\data\\raw\\601106_中国一重_2024_中国一重：中国第一重型机械股份公司2024年度ESG报告.pdf",
+  "total_pages": 58,
+  "total_text_chars": 55575,
+  "text_available": true,
+  "chunk_size": 800,
+  "chunk_overlap": 120,
+  "chunk_count": 103
+}

@@ -1,0 +1,258 @@
+[
+  {
+    "field_key": "esg_strategy_targets",
+    "field_name_cn": "ESG战略目标",
+    "category": "E",
+    "matched": true,
+    "value": true,
+    "summary": "西安银行制定'5+4+3'战略子规划和三年行动计划，提出'一体化经营'方针，推动高质量转型发展，体现ESG战略目标。",
+    "evidence": "持续优化发展战略，制定 “5+4+3”战略子规划和三年行动计划，提出“一体化经营”方针，纵深推进经营精细化管理，优化组织架构，推动机构职能转型，为高质量转型发展蓄势储能。",
+    "source_pages": [
+      5
+    ],
+    "confidence": 0.92,
+    "reason": "文本明确提及‘制定“5+4+3”战略子规划和三年行动计划’，并围绕高质量转型发展进行系统性部署，符合ESG战略目标的定义，且为原文完整句子。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "climate_risk_management",
+    "field_name_cn": "气候风险识别与管理",
+    "category": "E",
+    "matched": true,
+    "value": true,
+    "summary": "银行通过分类评估客户环境和社会风险、在授信合同中设定风险管理条款、加强贷后管理及资金拨付控制，系统性识别与管理气候相关风险。",
+    "evidence": "将客户绿色信贷风险由高到低分为A（重点关注类）、B（关注类）、C（正常管理类）和D（积极支持类），并明确界定了各类型客户的生产经营活动与环境、社会发展的关联情况，增强对各类风险的识别。客户经理根据客户及项目所处行业、区域特点等信息，填制客户环境和社会风险评估表，按照授信业务审批流程和审批权限对其进行审查、审批，并在贷款评估报告中对环境和社会风险状况进行独立评价。对涉及重大环境和社会风险/ 隐患的客户，在授信合同中明确规定，要求客户定期提交环境和社会风险报告，并明确客户加强环境和社会风险管理的声明和保证条款，设定客户接受本公司监督等承诺条款，以及客户在管理环境和社会风险方面违约时本公司的救济条款。加强信贷资金的发放、支付管理，将客户对环境和社会风险评估结果作为信贷资金发放和支付的重要依据。在贷后管理工作中，加强对客户及其重要关联方的环境和社会风险信息的搜集，掌握客户风险变化情况，在出现风险征兆时，及时对风险进行重新评估和应对。",
+    "source_pages": [
+      11
+    ],
+    "confidence": 0.95,
+    "reason": "文本明确描述了针对环境和社会风险的识别、评估、合同约束、资金拨付控制和贷后管理机制，这些措施直接构成气候风险识别与管理的核心内容，且使用了‘环境风险’‘社会风险’‘风险识别’‘风险评估’‘风险管理’等与目标指标同义或高度相关的术语。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "environmental_management_system",
+    "field_name_cn": "环境管理体系",
+    "category": "E",
+    "matched": true,
+    "value": true,
+    "summary": "西安银行搭建了绿色治理架构和管理制度体系，并建立专门工作机制，以推进绿色转型。",
+    "evidence": "本公司将绿色理念融入发展战略，搭建绿色治理架构和管理制度体系，建立专门工作机制，确保各项举措有序推进，助力绿色转型发展。",
+    "source_pages": [
+      10
+    ],
+    "confidence": 0.95,
+    "reason": "文本明确提及'管理制度体系'，结合上下文'绿色治理架构'和'专门工作机制'，可合理对应'环境管理体系'的同义表达，符合'环境管理体系'的定义，且为原文直接陈述，未作推断。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "energy_saving_measures",
+    "field_name_cn": "节能减排措施",
+    "category": "E",
+    "matched": true,
+    "value": true,
+    "summary": "银行通过推动运营节能、建设绿色网点、加强用能系统维护、杜绝空载用电、禁止使用高耗能电器等具体措施落实节能减排。",
+    "evidence": "加强电梯、供暖和制冷等用能系统、设备的运行调节、维护保养和定期巡检，制定节能改造措施；根据需求启用公共区域照明及其他用电设备，杜绝公共区域照明及其他用电设备空载；办公区域禁止使用大功率电器和不利于节能环保的电器。",
+    "source_pages": [
+      12
+    ],
+    "confidence": 0.95,
+    "reason": "候选文本在第12页明确列出了多项具体的节能改造和运营节能措施，如维护用能系统、杜绝空载用电、禁止使用高耗能电器等，直接对应'节能减排措施'指标，符合定性指标抽取规则。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "water_management_measures",
+    "field_name_cn": "水资源管理措施",
+    "category": "E",
+    "matched": true,
+    "value": true,
+    "summary": "银行通过倡导节约用水、杜绝'长明灯''长流水'现象等措施实施水资源管理。",
+    "evidence": "发起绿色办公、低碳生活倡议，向全行员工传播节约用水、用电意识，杜绝“长明灯”“长流水”现象；严格执行国务院办公厅《关于严格执行公共建筑空调温度控制标准的通知》，合理设置空调温度；倡导无纸化办公，减少打印次数。",
+    "source_pages": [
+      12
+    ],
+    "confidence": 0.9,
+    "reason": "候选文本明确提及向员工传播节约用水意识，并具体提出杜绝'长流水'现象，属于水资源管理措施的直接描述，符合定性指标抽取规则。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "waste_management_measures",
+    "field_name_cn": "废弃物管理措施",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "summary": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "候选文本未明确提及废弃物管理、固体废弃物管理、危险废弃物管理或废物处置等相关措施、政策或机制。虽然提及了绿色运营和节能减排，但未涉及具体废弃物管理内容。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "employee_rights_policy",
+    "field_name_cn": "员工权益保障政策",
+    "category": "S",
+    "matched": true,
+    "value": true,
+    "summary": "公司通过健全薪酬激励机制和构筑员工保障体系来保障员工权益。",
+    "evidence": "保障员工权益，健全薪酬激励机制，构筑员工保障体系",
+    "source_pages": [
+      31
+    ],
+    "confidence": 0.95,
+    "reason": "候选文本在 page 31 的 chunk p31_53 中明确提及'保障员工权益，健全薪酬激励机制，构筑员工保障体系'，直接对应员工权益保障政策的核心内容，符合定性指标抽取规则。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "occupational_health_safety_system",
+    "field_name_cn": "职业健康安全管理体系",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "summary": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "候选文本未明确提及职业健康安全管理体系、职业健康安全、安全生产管理体系或EHS管理等相关内容，仅涉及消费者权益保护、网络安全、乡村振兴、数字金融等主题，与目标指标无关。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "employee_training_development",
+    "field_name_cn": "员工培训与发展机制",
+    "category": "S",
+    "matched": true,
+    "value": true,
+    "summary": "公司通过分层分类培训、搭建专业序列晋升路径和实施干部培养计划，建立员工培训与发展机制。",
+    "evidence": "持续实施管理和专业技术序列双通道建设，为员工搭建专业序列晋升路径，拓宽专业人才职业发展的空间和晋升通道。针对“管理人员”“新员工”“专业人员”等开展分层分类培训。安排管理人员参加各类主题培训，选派中层干部参加省市相关培训，为新员工开展了入职培训。制定《年轻干部培养选拔三年行动计划》，加快干部储备和使用，为培养建设“尖兵”队伍打下坚实基础。",
+    "source_pages": [
+      22
+    ],
+    "confidence": 0.95,
+    "reason": "候选文本明确提及分层分类培训、专业序列晋升通道、干部培养计划等具体措施，直接对应员工培训与发展机制，符合定性指标抽取规则。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "diversity_equal_opportunity",
+    "field_name_cn": "多元化与平等雇佣政策",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "summary": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "候选文本未明确提及多元化与平等雇佣政策、反歧视、机会平等或相关机制，仅提及薪酬福利、职业发展通道、员工培训和权益保障，但未涉及性别、种族、年龄、宗教等维度的多元化或平等雇佣措施。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "supplier_esg_assessment",
+    "field_name_cn": "供应商ESG管理机制",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "summary": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "候选文本未明确提及供应商ESG管理机制、政策、目标或措施，仅在供应商及合作伙伴部分提及“公平采购、诚实守信、合作共赢”，但未涉及ESG评估、社会责任或可持续发展管理的具体机制。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "data_security_privacy",
+    "field_name_cn": "数据安全与隐私保护机制",
+    "category": "S",
+    "matched": true,
+    "value": true,
+    "summary": "通过建立网络安全工作小组、完善技术防护体系、严控数据流转与使用、实施网络隔离及部署多种安全系统，构建了完善的网络与数据安全机制。",
+    "evidence": "成立网络安全工作小组，统筹业务系统安全平稳运行、客户信息保密管理及网络安全维护，构建起较为完善的网络与数据安全技术防护体系和内控制度体系。严控数据流转和使用，敏感数据调阅、生产系统操作等环节需完成内部审批流程，并及时进行销毁。持续开展安全意识培训与考核，包括国内外安全态势、网络安全法和数据安全法等，严守网络安全风险底线。不断完善安全防护功能，分级、分类、分技术进行数据传输、存储及防泄漏、防Web 漏洞；通过数据防泄漏系统、数据库防水坝、未知威胁感知系统等技术平台全方位提高网络与数据安全风险监测和排查处置能力；实施网络隔离，确保数据安全。",
+    "source_pages": [
+      21
+    ],
+    "confidence": 0.95,
+    "reason": "候选文本明确描述了数据安全与隐私保护的组织机制、技术措施、管理制度和合规培训，涵盖数据传输、存储、防泄漏、网络隔离、审批流程、法律法规遵循等核心要素，完全符合目标指标的定义。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "board_esg_oversight",
+    "field_name_cn": "董事会ESG监督机制",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "summary": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "候选文本未明确提及董事会对ESG的监督机制、政策或措施，仅提及党委领导、公司治理架构和党建融合，未涉及董事会层面专门负责ESG监督的表述。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "esg_committee",
+    "field_name_cn": "ESG治理架构或委员会",
+    "category": "G",
+    "matched": true,
+    "value": true,
+    "summary": "西安银行系统构建了绿色治理架构，并建立专项工作机制，以推进绿色金融发展。",
+    "evidence": "这一年，西安银行系统构建了绿色治理架构，完善绿色金融产品体系，建立专项工作机制，研发“绿易融”小程序，赋能一线员工精准识别绿色金融业务，全面提升绿色金融数字化服务效能。",
+    "source_pages": [
+      5
+    ],
+    "confidence": 0.9,
+    "reason": "文本明确提及“系统构建了绿色治理架构”和“建立专项工作机制”，符合ESG治理架构或委员会的定义，且“专项工作机制”可视为ESG工作小组或治理机制的体现，未使用常识补全，证据为原文完整句子。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "anti_corruption_policy",
+    "field_name_cn": "反腐败政策",
+    "category": "G",
+    "matched": true,
+    "value": true,
+    "summary": "西安银行着力打造一支'清正廉洁'的干部队伍，并坚持党管干部原则，强化以规定人、以绩衡人、以品选人和以劣汰人的机制。",
+    "evidence": "本公司坚持把队伍建设作为干事创业的重要支撑，着力打造一支“信念坚定、为民服务、勤政务实、敢于担当、清正廉洁”的干部队伍。",
+    "source_pages": [
+      22
+    ],
+    "confidence": 0.9,
+    "reason": "文本中明确提及'清正廉洁'的干部队伍目标，并结合党管干部、以德为先、以绩衡人等管理机制，符合反腐败政策的核心内涵，虽未直接使用'反腐败政策'一词，但'清正廉洁'是反腐败政策的直接体现，且有配套管理机制支撑。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "whistleblowing_mechanism",
+    "field_name_cn": "举报机制与举报人保护",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "summary": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "候选文本未明确提及举报机制、举报人保护、投诉举报渠道或任何与whistleblowing相关的政策或措施。虽然提及了消费投诉处理、客户权益保护和员工培训，但均未涉及员工或第三方对违规行为的内部举报渠道或举报人保护机制。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "business_ethics_training",
+    "field_name_cn": "商业道德培训机制",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "summary": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "候选文本未明确提及商业道德培训、反腐败培训、廉洁培训、合规培训或反舞弊培训等相关机制或措施。虽然提及了合规经营承诺书、反洗钱培训和风险管理培训，但这些内容不等同于目标指标所定义的商业道德培训范畴。",
+    "route": "B_text_rag"
+  },
+  {
+    "field_key": "investor_communication",
+    "field_name_cn": "信息披露与投资者沟通机制",
+    "category": "G",
+    "matched": true,
+    "value": true,
+    "summary": "公司通过规范信息披露、业绩说明会和投资者沟通互动等方式建立投资者沟通机制。",
+    "evidence": "完善公司治理\n规范开展信息披露\n合理的投资回报\n维护股东及投资者合法\n权益\n股东大会\n定期报告与信息公告\n业绩说明会\n投资者沟通互动\n推动战略优化调整\n规范公司治理\n履行信息披露义务\n加强投资者关系的主动管理\n创造可持续的价值回报",
+    "source_pages": [
+      31
+    ],
+    "confidence": 0.95,
+    "reason": "候选文本在'股东及投资者'部分明确列出了'规范开展信息披露'、'业绩说明会'、'投资者沟通互动'、'履行信息披露义务'、'加强投资者关系的主动管理'等具体措施，均属于目标指标的同义词或直接关联表述，符合定性指标抽取规则。",
+    "route": "B_text_rag"
+  }
+]

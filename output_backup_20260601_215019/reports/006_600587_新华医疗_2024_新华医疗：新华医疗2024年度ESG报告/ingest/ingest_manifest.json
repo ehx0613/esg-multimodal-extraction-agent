@@ -1,0 +1,10 @@
+{
+  "ingest_version": "route_a_page_scoring_v3_unit_density",
+  "pdf_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\data\\raw\\600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告.pdf",
+  "total_pages": 68,
+  "total_text_chars": 65889,
+  "text_available": true,
+  "chunk_size": 800,
+  "chunk_overlap": 120,
+  "chunk_count": 120
+}

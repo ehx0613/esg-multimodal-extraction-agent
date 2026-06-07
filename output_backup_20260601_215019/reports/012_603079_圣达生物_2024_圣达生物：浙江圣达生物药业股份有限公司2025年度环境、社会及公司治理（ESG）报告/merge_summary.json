@@ -1,0 +1,20 @@
+{
+  "total_fields": 60,
+  "route_a_extracted_fields": 6,
+  "route_b_matched_fields": 18,
+  "route_b_filled_fields": 18,
+  "route_b2_matched_fields": 2,
+  "route_b2_filled_fields": 2,
+  "merged_extracted_fields": 26,
+  "missing_fields": 34,
+  "coverage_rate": 0.4333,
+  "raw_coverage": 0.4333,
+  "industry": "pharma",
+  "applicable_fields": 60,
+  "applicable_extracted_fields": 26,
+  "not_applicable_fields": 0,
+  "applicable_coverage": 0.4333,
+  "route_a_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\012_603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\standard_esg_results.csv",
+  "route_b_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\012_603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\route_b_text_results.csv",
+  "route_b2_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\012_603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\route_b2_quant_results.csv"
+}

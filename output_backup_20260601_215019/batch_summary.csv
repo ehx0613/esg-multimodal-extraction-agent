@@ -1,0 +1,2 @@
+﻿pdf_file,status,error,report_dir,appendix_found,candidate_pages,raw_row_count,total_fields,extracted_fields,missing_fields,coverage_rate,unknown_metrics,needs_route_b2,route_b2_reason
+603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告.pdf,success,,C:\Users\18130\PycharmProjects\爬虫\esg-multimodal-extraction-agent\output\reports\012_603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告,True,8;9;10;11;15;16;17;18;34;35;36;37;39;40;41;42;43,160,60,6,54,0.1,146,True,route_a_extracted_below_18

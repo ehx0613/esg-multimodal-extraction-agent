@@ -1,0 +1,20 @@
+{
+  "total_fields": 60,
+  "route_a_extracted_fields": 26,
+  "route_b_matched_fields": 18,
+  "route_b_filled_fields": 18,
+  "route_b2_matched_fields": 1,
+  "route_b2_filled_fields": 1,
+  "merged_extracted_fields": 45,
+  "missing_fields": 15,
+  "coverage_rate": 0.75,
+  "raw_coverage": 0.75,
+  "industry": "pharma",
+  "applicable_fields": 60,
+  "applicable_extracted_fields": 45,
+  "not_applicable_fields": 0,
+  "applicable_coverage": 0.75,
+  "route_a_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\standard_esg_results.csv",
+  "route_b_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\route_b_text_results.csv",
+  "route_b2_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\route_b2_quant_results.csv"
+}

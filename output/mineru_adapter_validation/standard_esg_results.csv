@@ -1,0 +1,61 @@
+﻿field_key,name_cn,category,indicator_type,status,value,raw_value,unit,year,row_label,topic,confidence,match_reason,page_image,evidence_text
+total_ghg_emissions,温室气体排放总量,E,quantitative,extracted,125285.17,"125,285.17",二氧化碳当量公吨数,2024,温室气体排放总量,温室气体排放,0.94,heuristic_total_ghg; schema_match_validated,page_53.png,"快速发展全国领先 / 环境绩效 温室气体排放 温室气体排放总量 二氧化碳当量公吨数 125,285.17"
+ghg_emissions_intensity,温室气体排放强度,E,quantitative,missing,,,,,,,0.0,,,
+scope_1_emissions,范围一温室气体排放量,E,quantitative,extracted,124060.83,"124,060.83",二氧化碳当量公吨数,2024,温室气体排放（范围一),温室气体排放,0.96,heuristic_scope_1; schema_match_validated,page_53.png,"快速发展全国领先 / 环境绩效 温室气体排放 温室气体排放（范围一) 二氧化碳当量公吨数 124,060.83"
+scope_2_emissions,范围二温室气体排放量,E,quantitative,extracted,1224.34,"1,224.34",二氧化碳当量公吨数,2024,温室气体排放文（范围二）,温室气体排放,0.96,heuristic_scope_2; schema_match_validated,page_53.png,"快速发展全国领先 / 环境绩效 温室气体排放 温室气体排放文（范围二） 二氧化碳当量公吨数 1,224.34"
+energy_consumption_total,能源消耗总量,E,quantitative,extracted,59232.26,"59,232.26",吨标准煤,2024,直接能源消耗,能源,0.96,normalized_alias_match:直接能源消耗; schema_match_validated,page_53.png,"快速发展全国领先 / 环境绩效 能源 直接能源消耗 吨标准煤 59,232.26"
+energy_consumption_intensity,能源消耗强度,E,quantitative,extracted,15.2,15.20,吨标准煤/百万元,2024,全年能源消耗强度,能源,0.94,heuristic_energy_consumption_intensity; schema_match_validated,page_53.png,快速发展全国领先 / 环境绩效 能源 全年能源消耗强度 吨标准煤/百万元 15.20
+natural_gas_consumption,天然气消耗量,E,quantitative,missing,,,,,,,0.0,,,
+electricity_consumption,用电量,E,quantitative,extracted,2281669,"2,281,669.00",千瓦时,2024,电力总量,能源,0.92,heuristic_electricity; schema_match_validated,page_53.png,"快速发展全国领先 / 环境绩效 能源 电力总量 千瓦时 2,281,669.00"
+water_consumption,用水量,E,quantitative,extracted,25041,"25,041",吨,2024,市政购水量,水资源,0.92,heuristic_water; schema_match_validated,page_53.png,"快速发展全国领先 / 环境绩效 水资源 市政购水量 吨 25,041"
+wastewater_discharge,废水排放量,E,quantitative,missing,,,,,,,0.0,,,
+air_pollutant_emissions,废气或大气污染物排放量,E,quantitative,missing,,,,,,,0.0,,,
+non_hazardous_waste,一般废弃物产生量,E,quantitative,missing,,,,,,,0.0,,,
+hazardous_waste,危险废弃物产生量,E,quantitative,missing,,,,,,,0.0,,,
+environmental_investment,环保投入金额,E,quantitative,missing,,,,,,,0.0,,,
+environmental_penalty_count,环境违规或处罚事件数量,E,quantitative,missing,,,,,,,0.0,,,
+total_employees,员工总数,S,quantitative,extracted,52411,"52,411",人,2024,在岗员工总数,,0.93,heuristic_total_employees; schema_match_validated,page_54.png,"快速发展全国领先 / 附录：关键绩效表 在岗员工总数 人 52,411"
+male_employees,男性员工人数,S,quantitative,extracted,22982,"22,982",人,2024,男性,按性别,0.9,context_dimension:男性->male_employees; schema_match_validated,page_54.png,"快速发展全国领先 / 附录：关键绩效表 按性别 男性 人 22,982"
+female_employees,女性员工人数,S,quantitative,extracted,29429,"29,429",人,2024,女性,按性别,0.9,context_dimension:女性->female_employees; schema_match_validated,page_54.png,"快速发展全国领先 / 附录：关键绩效表 按性别 女性 人 29,429"
+female_employee_ratio,女性员工比例,S,quantitative,extracted,56.15,56.15,%,2024,女性员工比例,按性别,0.96,context_dimension:员工构成女性比例->female_employee_ratio; schema_match_validated,page_54.png,快速发展全国领先 / 附录：关键绩效表 按性别 女性员工比例 % 56.15
+employee_turnover_rate,员工流失率,S,quantitative,extracted,27.9,27.90,%,2024,员工流失率=离职人数/(期末在职人数+离职人数）,,0.9500000000000001,normalized_alias_match:员工流失率; schema_match_validated,page_54.png,快速发展全国领先 / 附录：关键绩效表 员工流失率=离职人数/(期末在职人数+离职人数） % 27.90
+training_total_hours,员工培训总时长,S,quantitative,missing,,,,,,,0.0,,,
+training_hours_per_employee,人均培训时长,S,quantitative,missing,,,,,,,0.0,,,
+training_coverage_rate,员工培训覆盖率,S,quantitative,missing,,,,,,,0.0,,,
+social_security_coverage,社会保险覆盖率,S,quantitative,missing,,,,,,,0.0,,,
+employee_medical_checkup_coverage,员工体检覆盖率,S,quantitative,missing,,,,,,,0.0,,,
+trained_employees_count,受训员工人数,S,quantitative,missing,,,,,,,0.0,,,
+safety_accident_count,安全生产事故数量,S,quantitative,missing,,,,,,,0.0,,,
+occupational_health_safety_investment,安全生产投入,S,quantitative,missing,,,,,,,0.0,,,
+safety_emergency_drill_count,安全应急演练次数,S,quantitative,missing,,,,,,,0.0,,,
+lost_work_days_due_to_injury,因工伤损失工作日数,S,quantitative,missing,,,,,,,0.0,,,
+r_and_d_personnel_count,研发人员数量,S,quantitative,extracted,261,261,人,2024,研发人员数量,研发创新,0.96,normalized_alias_match:研发人员数量; schema_match_validated,page_54.png,快速发展全国领先 / 附录：关键绩效表 / 社会绩效 研发创新 研发人员数量 人 261
+r_and_d_expense,研发投入金额,S,quantitative,extracted,4473.75,"4,473.75",万元,2024,研发投入资金,研发创新,0.9400000000000001,normalized_alias_match:研发投入; schema_match_validated,page_54.png,"快速发展全国领先 / 附录：关键绩效表 / 社会绩效 研发创新 研发投入资金 万元 4,473.75"
+public_welfare_investment,公益投入金额,S,quantitative,missing,,,,,,,0.0,,,
+board_size,董事会人数,G,quantitative,missing,,,,,,,0.0,,,
+independent_directors,独立董事人数,G,quantitative,missing,,,,,,,0.0,,,
+independent_director_ratio,独立董事比例,G,quantitative,missing,,,,,,,0.0,,,
+female_directors,女性董事人数,G,quantitative,missing,,,,,,,0.0,,,
+board_meetings,董事会会议次数,G,quantitative,extracted,15,15,次,2024,董事会召开次数,公司治理,0.94,heuristic_board_meetings_short_label; schema_match_validated,page_53.png,快速发展全国领先 / 治理绩效 公司治理 董事会召开次数 次 15
+shareholder_meetings,股东大会会议次数,G,quantitative,extracted,4,4,次,2024,股东大会召开次数,公司治理,0.94,heuristic_shareholder_meetings_short_label; schema_match_validated,page_53.png,快速发展全国领先 / 治理绩效 公司治理 股东大会召开次数 次 4
+anti_corruption_training_sessions,反腐败培训次数,G,quantitative,missing,,,,,,,0.0,,,
+anti_corruption_training_participants,反腐败培训人数,G,quantitative,missing,,,,,,,0.0,,,
+confirmed_corruption_cases,确认腐败案件数量,G,quantitative,missing,,,,,,,0.0,,,
+esg_strategy_targets,ESG战略目标,E,qualitative,missing,,,,,,,0.0,,,
+climate_risk_management,气候风险识别与管理,E,qualitative,missing,,,,,,,0.0,,,
+environmental_management_system,环境管理体系,E,qualitative,missing,,,,,,,0.0,,,
+energy_saving_measures,节能减排措施,E,qualitative,missing,,,,,,,0.0,,,
+water_management_measures,水资源管理措施,E,qualitative,missing,,,,,,,0.0,,,
+waste_management_measures,废弃物管理措施,E,qualitative,missing,,,,,,,0.0,,,
+employee_rights_policy,员工权益保障政策,S,qualitative,missing,,,,,,,0.0,,,
+occupational_health_safety_system,职业健康安全管理体系,S,qualitative,missing,,,,,,,0.0,,,
+employee_training_development,员工培训与发展机制,S,qualitative,missing,,,,,,,0.0,,,
+diversity_equal_opportunity,多元化与平等雇佣政策,S,qualitative,missing,,,,,,,0.0,,,
+supplier_esg_assessment,供应商ESG管理机制,S,qualitative,missing,,,,,,,0.0,,,
+data_security_privacy,数据安全与隐私保护机制,S,qualitative,missing,,,,,,,0.0,,,
+board_esg_oversight,董事会ESG监督机制,G,qualitative,missing,,,,,,,0.0,,,
+esg_committee,ESG治理架构或委员会,G,qualitative,missing,,,,,,,0.0,,,
+anti_corruption_policy,反腐败政策,G,qualitative,missing,,,,,,,0.0,,,
+whistleblowing_mechanism,举报机制与举报人保护,G,qualitative,missing,,,,,,,0.0,,,
+business_ethics_training,商业道德培训机制,G,qualitative,missing,,,,,,,0.0,,,
+investor_communication,信息披露与投资者沟通机制,G,qualitative,missing,,,,,,,0.0,,,

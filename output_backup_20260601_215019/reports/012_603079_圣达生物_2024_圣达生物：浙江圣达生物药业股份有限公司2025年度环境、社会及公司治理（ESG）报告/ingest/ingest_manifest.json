@@ -1,0 +1,10 @@
+{
+  "ingest_version": "route_a_page_scoring_v3_unit_density",
+  "pdf_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\data\\raw\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告.pdf",
+  "total_pages": 43,
+  "total_text_chars": 50716,
+  "text_available": true,
+  "chunk_size": 800,
+  "chunk_overlap": 120,
+  "chunk_count": 92
+}

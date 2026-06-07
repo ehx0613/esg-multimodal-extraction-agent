@@ -1,6 +1,6 @@
 import csv
 from pathlib import Path
-from config.core_schema import ESG_SCHEMA
+from config.schema import ESG_SCHEMA
 
 
 def export_standard_results_csv(results, output_path):

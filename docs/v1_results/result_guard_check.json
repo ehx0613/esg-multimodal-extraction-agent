@@ -1,0 +1,307 @@
+{
+  "rows": [
+    {
+      "report_name": "000858_五_粮_液_2024_五_粮_液：2024年度环境、社会及公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 0,
+      "merged_ok": false,
+      "merged_row_count": 0,
+      "warnings": "standard_esg_results:file_not_found:0 | merged_esg_results:file_not_found:0"
+    },
+    {
+      "report_name": "000923_河钢资源_2024_河钢资源：2024年度环境、社会及公司治理报告",
+      "standard_ok": false,
+      "standard_row_count": 0,
+      "merged_ok": false,
+      "merged_row_count": 0,
+      "warnings": "standard_esg_results:file_not_found:0 | merged_esg_results:file_not_found:0"
+    },
+    {
+      "report_name": "001_000858_五_粮_液_2024_五_粮_液：2024年度环境、社会及公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 68,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:row_count_mismatch:68"
+    },
+    {
+      "report_name": "001_002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告",
+      "standard_ok": true,
+      "standard_row_count": 52,
+      "merged_ok": true,
+      "merged_row_count": 52,
+      "warnings": ""
+    },
+    {
+      "report_name": "002083_孚日股份_2025_孚日股份：社会责任报告",
+      "standard_ok": false,
+      "standard_row_count": 0,
+      "merged_ok": false,
+      "merged_row_count": 0,
+      "warnings": "standard_esg_results:file_not_found:0 | merged_esg_results:file_not_found:0"
+    },
+    {
+      "report_name": "002249_大洋电机_2024_大洋电机：大洋电机2024年度环境、社会及公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 0,
+      "merged_ok": false,
+      "merged_row_count": 0,
+      "warnings": "standard_esg_results:file_not_found:0 | merged_esg_results:file_not_found:0"
+    },
+    {
+      "report_name": "002302_西部建设_2024_西部建设：2024年度环境、社会和公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 0,
+      "merged_ok": false,
+      "merged_row_count": 0,
+      "warnings": "standard_esg_results:file_not_found:0 | merged_esg_results:file_not_found:0"
+    },
+    {
+      "report_name": "002431_棕榈股份_2024_棕榈股份：棕榈股份2024年度环境、社会及公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 0,
+      "merged_ok": false,
+      "merged_row_count": 0,
+      "warnings": "standard_esg_results:file_not_found:0 | merged_esg_results:file_not_found:0"
+    },
+    {
+      "report_name": "002486_嘉麟杰_2024_嘉麟杰：2024年社会责任报告",
+      "standard_ok": false,
+      "standard_row_count": 0,
+      "merged_ok": false,
+      "merged_row_count": 0,
+      "warnings": "standard_esg_results:file_not_found:0 | merged_esg_results:file_not_found:0"
+    },
+    {
+      "report_name": "002649_博彦科技_2024_博彦科技：2024年度环境、社会及公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 0,
+      "merged_ok": false,
+      "merged_row_count": 0,
+      "warnings": "standard_esg_results:file_not_found:0 | merged_esg_results:file_not_found:0"
+    },
+    {
+      "report_name": "002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 0,
+      "merged_ok": false,
+      "merged_row_count": 0,
+      "warnings": "standard_esg_results:file_not_found:0 | merged_esg_results:file_not_found:0"
+    },
+    {
+      "report_name": "002913_奥士康_2025_奥士康：社会责任报告",
+      "standard_ok": false,
+      "standard_row_count": 0,
+      "merged_ok": false,
+      "merged_row_count": 0,
+      "warnings": "standard_esg_results:file_not_found:0 | merged_esg_results:file_not_found:0"
+    },
+    {
+      "report_name": "002939_长城证券_2024_长城证券：2024年度社会责任暨环境、社会及公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 0,
+      "merged_ok": false,
+      "merged_row_count": 0,
+      "warnings": "standard_esg_results:file_not_found:0 | merged_esg_results:file_not_found:0"
+    },
+    {
+      "report_name": "002_000923_河钢资源_2024_河钢资源：2024年度环境、社会及公司治理报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 68,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:row_count_mismatch:68"
+    },
+    {
+      "report_name": "002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 68,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:row_count_mismatch:68"
+    },
+    {
+      "report_name": "003_002083_孚日股份_2025_孚日股份：社会责任报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 68,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:row_count_mismatch:68"
+    },
+    {
+      "report_name": "003_600099_林海股份_2024_林海股份：林海股份有限公司2024年度环境、社会及公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 68,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:row_count_mismatch:68"
+    },
+    {
+      "report_name": "004_002249_大洋电机_2024_大洋电机：大洋电机2024年度环境、社会及公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 68,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:row_count_mismatch:68"
+    },
+    {
+      "report_name": "004_600206_有研新材_2024_有研新材：有研新材料股份有限公司2024年度环境、社会及治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 68,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:row_count_mismatch:68"
+    },
+    {
+      "report_name": "005_002302_西部建设_2024_西部建设：2024年度环境、社会和公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 68,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:row_count_mismatch:68"
+    },
+    {
+      "report_name": "005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 0,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:file_not_found:0"
+    },
+    {
+      "report_name": "006_002431_棕榈股份_2024_棕榈股份：棕榈股份2024年度环境、社会及公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 68,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:row_count_mismatch:68"
+    },
+    {
+      "report_name": "006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 0,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:file_not_found:0"
+    },
+    {
+      "report_name": "007_002486_嘉麟杰_2024_嘉麟杰：2024年社会责任报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 68,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:row_count_mismatch:68"
+    },
+    {
+      "report_name": "007_600916_中国黄金_2024_中国黄金：中国黄金集团黄金珠宝股份有限公司2024环境、社会及管治(ESG)报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 0,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:file_not_found:0"
+    },
+    {
+      "report_name": "008_002649_博彦科技_2024_博彦科技：2024年度环境、社会及公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 68,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:row_count_mismatch:68"
+    },
+    {
+      "report_name": "008_600928_西安银行_2024_西安银行：西安银行股份有限公司2024年社会责任(ESG)报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 0,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:file_not_found:0"
+    },
+    {
+      "report_name": "009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 68,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:row_count_mismatch:68"
+    },
+    {
+      "report_name": "009_601106_中国一重_2024_中国一重：中国第一重型机械股份公司2024年度ESG报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 0,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:file_not_found:0"
+    },
+    {
+      "report_name": "010_002913_奥士康_2025_奥士康：社会责任报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 68,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:row_count_mismatch:68"
+    },
+    {
+      "report_name": "011_002939_长城证券_2024_长城证券：2024年度社会责任暨环境、社会及公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 68,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:row_count_mismatch:68"
+    },
+    {
+      "report_name": "012_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 68,
+      "merged_ok": false,
+      "merged_row_count": 68,
+      "warnings": "standard_esg_results:row_count_mismatch:68 | merged_esg_results:row_count_mismatch:68"
+    },
+    {
+      "report_name": "600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告",
+      "standard_ok": false,
+      "standard_row_count": 0,
+      "merged_ok": false,
+      "merged_row_count": 0,
+      "warnings": "standard_esg_results:file_not_found:0 | merged_esg_results:file_not_found:0"
+    }
+  ],
+  "summary": {
+    "total_reports": 33,
+    "standard_ok_count": 1,
+    "merged_ok_count": 1,
+    "failed_reports": [
+      "000858_五_粮_液_2024_五_粮_液：2024年度环境、社会及公司治理（ESG）报告",
+      "000923_河钢资源_2024_河钢资源：2024年度环境、社会及公司治理报告",
+      "001_000858_五_粮_液_2024_五_粮_液：2024年度环境、社会及公司治理（ESG）报告",
+      "002083_孚日股份_2025_孚日股份：社会责任报告",
+      "002249_大洋电机_2024_大洋电机：大洋电机2024年度环境、社会及公司治理（ESG）报告",
+      "002302_西部建设_2024_西部建设：2024年度环境、社会和公司治理（ESG）报告",
+      "002431_棕榈股份_2024_棕榈股份：棕榈股份2024年度环境、社会及公司治理（ESG）报告",
+      "002486_嘉麟杰_2024_嘉麟杰：2024年社会责任报告",
+      "002649_博彦科技_2024_博彦科技：2024年度环境、社会及公司治理（ESG）报告",
+      "002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告",
+      "002913_奥士康_2025_奥士康：社会责任报告",
+      "002939_长城证券_2024_长城证券：2024年度社会责任暨环境、社会及公司治理（ESG）报告",
+      "002_000923_河钢资源_2024_河钢资源：2024年度环境、社会及公司治理报告",
+      "002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告",
+      "003_002083_孚日股份_2025_孚日股份：社会责任报告",
+      "003_600099_林海股份_2024_林海股份：林海股份有限公司2024年度环境、社会及公司治理（ESG）报告",
+      "004_002249_大洋电机_2024_大洋电机：大洋电机2024年度环境、社会及公司治理（ESG）报告",
+      "004_600206_有研新材_2024_有研新材：有研新材料股份有限公司2024年度环境、社会及治理（ESG）报告",
+      "005_002302_西部建设_2024_西部建设：2024年度环境、社会和公司治理（ESG）报告",
+      "005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告",
+      "006_002431_棕榈股份_2024_棕榈股份：棕榈股份2024年度环境、社会及公司治理（ESG）报告",
+      "006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告",
+      "007_002486_嘉麟杰_2024_嘉麟杰：2024年社会责任报告",
+      "007_600916_中国黄金_2024_中国黄金：中国黄金集团黄金珠宝股份有限公司2024环境、社会及管治(ESG)报告",
+      "008_002649_博彦科技_2024_博彦科技：2024年度环境、社会及公司治理（ESG）报告",
+      "008_600928_西安银行_2024_西安银行：西安银行股份有限公司2024年社会责任(ESG)报告",
+      "009_002811_郑中设计_2024_郑中设计：2024年度环境、社会及公司治理（ESG）报告",
+      "009_601106_中国一重_2024_中国一重：中国第一重型机械股份公司2024年度ESG报告",
+      "010_002913_奥士康_2025_奥士康：社会责任报告",
+      "011_002939_长城证券_2024_长城证券：2024年度社会责任暨环境、社会及公司治理（ESG）报告",
+      "012_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告",
+      "600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告"
+    ]
+  }
+}

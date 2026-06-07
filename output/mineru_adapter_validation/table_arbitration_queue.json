@@ -1,0 +1,19 @@
+[
+  {
+    "source_region_id": "p54_table_1",
+    "chunk_id": "mineru_table_p54_table_1",
+    "page_number": 54,
+    "bbox": [
+      543,
+      154,
+      956,
+      882
+    ],
+    "quality_score": 0.658,
+    "reasons": [
+      "inconsistent_column_counts",
+      "high_empty_cell_ratio"
+    ],
+    "status": "queued"
+  }
+]

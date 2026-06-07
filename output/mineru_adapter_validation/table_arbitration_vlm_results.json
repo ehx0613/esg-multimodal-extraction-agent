@@ -1,0 +1,15 @@
+[
+  {
+    "source_region_id": "p54_table_1",
+    "page_number": 54,
+    "bbox": [
+      543,
+      154,
+      956,
+      882
+    ],
+    "status": "vlm_error",
+    "error": "Connection error.",
+    "tables": []
+  }
+]

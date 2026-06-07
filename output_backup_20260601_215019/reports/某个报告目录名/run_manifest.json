@@ -1,0 +1,209 @@
+{
+  "manifest_version": "v1.2-draft",
+  "run_id": "某个报告目录名_20260530_101703",
+  "report_id": "某个报告目录名",
+  "report_name": "某个报告目录名",
+  "report_dir": "output\\reports\\某个报告目录名",
+  "output_dir": "output\\reports\\某个报告目录名",
+  "started_at": "2026-05-30T10:17:03+08:00",
+  "finished_at": "2026-05-30T10:17:03+08:00",
+  "status": "completed",
+  "mode": "stable_v1_1",
+  "config_snapshot": {
+    "vlm_model": "qwen-vl-plus",
+    "text_model": "qwen-plus-2025-09-11",
+    "llm_matcher_enabled": true,
+    "expected_core_fields": 60,
+    "route_b_enabled": false,
+    "merge_min_route_b_confidence": 0.5
+  },
+  "artifacts": {
+    "all_table_rows_json": "output\\reports\\某个报告目录名\\all_table_rows.json",
+    "standard_results_csv": "output\\reports\\某个报告目录名\\standard_esg_results.csv",
+    "route_b_results_csv": "output\\reports\\某个报告目录名\\route_b_text_results.csv",
+    "route_b_summary_json": "output\\reports\\某个报告目录名\\route_b_summary.json",
+    "merged_results_csv": "output\\reports\\某个报告目录名\\merged_esg_results.csv",
+    "unknown_metrics_csv": "output\\reports\\某个报告目录名\\unknown_metrics.csv"
+  },
+  "routes": {
+    "route_a": {
+      "status": "failed",
+      "started_at": "2026-05-30T10:17:03+08:00",
+      "finished_at": "2026-05-30T10:17:03+08:00",
+      "summary": {
+        "standard_row_count": 0,
+        "unknown_row_count": 0,
+        "reason": "route_a_cache_missing",
+        "validation": null
+      }
+    },
+    "route_b": {
+      "status": "pending",
+      "started_at": "2026-05-30T10:17:03+08:00",
+      "finished_at": "2026-05-30T10:17:03+08:00",
+      "summary": {
+        "route_b_available": null,
+        "matched_fields": null,
+        "reason": "route_b_disabled_to_save_tokens",
+        "needs_route_b": null
+      }
+    },
+    "merge": {
+      "status": "pending",
+      "started_at": "2026-05-30T10:17:03+08:00",
+      "finished_at": "2026-05-30T10:17:03+08:00",
+      "summary": {
+        "merged_row_count": 0,
+        "reason": "schema_rerun_failed",
+        "summary": null,
+        "validation": null
+      }
+    }
+  },
+  "warnings": [
+    "route_a_cache_missing",
+    "route_a_cache_missing"
+  ],
+  "errors": [],
+  "review_needed": true,
+  "review_reasons": [
+    "merged_row_count_invalid",
+    "route_a_cache_missing",
+    "standard_row_count_invalid"
+  ],
+  "human_review_queue": [
+    {
+      "review_id": "某个报告目录名_001",
+      "report_id": "某个报告目录名",
+      "report_name": "某个报告目录名",
+      "field_key": null,
+      "source_route": "route_a_appendix_table",
+      "reason": "standard_row_count_invalid",
+      "recommended_action": "rerun_or_validate_route_a_outputs",
+      "status": "pending",
+      "details": {
+        "expected_core_fields": 60,
+        "actual_row_count": 0
+      }
+    },
+    {
+      "review_id": "某个报告目录名_002",
+      "report_id": "某个报告目录名",
+      "report_name": "某个报告目录名",
+      "field_key": null,
+      "source_route": "merge",
+      "reason": "merged_row_count_invalid",
+      "recommended_action": "rerun_or_validate_merge_outputs",
+      "status": "pending",
+      "details": {
+        "expected_core_fields": 60,
+        "actual_row_count": 0
+      }
+    },
+    {
+      "review_id": "某个报告目录名_003",
+      "report_id": "某个报告目录名",
+      "report_name": "某个报告目录名",
+      "field_key": null,
+      "source_route": "route_a_appendix_table",
+      "reason": "route_a_cache_missing",
+      "recommended_action": "rerun_full_route_a_pipeline",
+      "status": "pending",
+      "details": {
+        "all_table_rows_exists": false
+      }
+    }
+  ],
+  "next_actions": [
+    "run_route_a_full_pipeline",
+    "rerun_schema_match",
+    "run_route_b",
+    "run_merge"
+  ],
+  "summary": {
+    "report_dir": "output\\reports\\某个报告目录名",
+    "report_name": "某个报告目录名",
+    "initial_actions": [
+      "run_route_a_full_pipeline",
+      "rerun_schema_match",
+      "run_route_b",
+      "run_merge"
+    ],
+    "schema_rerun": {
+      "execution_status": "failed",
+      "final_route_status": "failed",
+      "reason": "route_a_cache_missing",
+      "ok": false,
+      "validation": null
+    },
+    "route_b": {
+      "execution_status": "skipped",
+      "final_route_status": "pending",
+      "reason": "route_b_disabled_to_save_tokens",
+      "ok": true,
+      "needs_route_b": null
+    },
+    "merge": {
+      "execution_status": "skipped",
+      "final_route_status": "pending",
+      "reason": "schema_rerun_failed",
+      "ok": false,
+      "summary": null,
+      "validation": null
+    },
+    "final_state": {
+      "report_dir": "output\\reports\\某个报告目录名",
+      "report_id": "某个报告目录名",
+      "report_name": "某个报告目录名",
+      "artifacts": {
+        "all_table_rows_json": "output\\reports\\某个报告目录名\\all_table_rows.json",
+        "standard_results_csv": "output\\reports\\某个报告目录名\\standard_esg_results.csv",
+        "unknown_metrics_csv": "output\\reports\\某个报告目录名\\unknown_metrics.csv",
+        "route_b_results_csv": "output\\reports\\某个报告目录名\\route_b_text_results.csv",
+        "route_b_summary_json": "output\\reports\\某个报告目录名\\route_b_summary.json",
+        "merged_results_csv": "output\\reports\\某个报告目录名\\merged_esg_results.csv"
+      },
+      "has_all_table_rows": false,
+      "has_standard_results": false,
+      "has_unknown_metrics": false,
+      "has_route_b_results": false,
+      "has_route_b_summary": false,
+      "has_merged_results": false,
+      "standard_row_count": 0,
+      "merged_row_count": 0,
+      "unknown_row_count": 0,
+      "route_b_available": null,
+      "route_b_matched_fields": null,
+      "needs_schema_rerun": true,
+      "needs_route_b": true,
+      "needs_merge": true,
+      "should_skip_route_b": false,
+      "route_a_status": "failed",
+      "route_b_status": "pending",
+      "merge_status": "pending",
+      "review_needed": false,
+      "review_reasons": [],
+      "warnings": [
+        "route_a_cache_missing"
+      ],
+      "suggested_actions": [
+        "run_route_a_full_pipeline",
+        "rerun_schema_match",
+        "run_route_b",
+        "run_merge"
+      ]
+    },
+    "ok": false,
+    "warnings": [
+      "route_a_cache_missing",
+      "route_a_cache_missing"
+    ],
+    "review_needed": true,
+    "review_reason_codes": [
+      "merged_row_count_invalid",
+      "route_a_cache_missing",
+      "standard_row_count_invalid"
+    ],
+    "review_item_count": 3
+  }
+}

@@ -1,0 +1,1780 @@
+[
+  {
+    "field_key": "environmental_penalty_count",
+    "field_name_cn": "环境违规或处罚事件数量",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "matched_evidence_without_number",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "matched_evidence_without_number",
+    "retrieval_priority": 87.932,
+    "industry": "pharma",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p35_57",
+        "page_number": 35,
+        "retrieval_score": 49,
+        "bm25_score": 39.6081,
+        "vector_score": 0.196601,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "环境",
+          "违规",
+          "事件",
+          "次数",
+          "环保",
+          "违法",
+          "法违",
+          "规事",
+          "违法违",
+          "法违规",
+          "违规事",
+          "规事件"
+        ],
+        "hit_units": [
+          "次",
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p65_113",
+        "page_number": 65,
+        "retrieval_score": 45,
+        "bm25_score": 6.1403,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "环境",
+          "事件",
+          "数量"
+        ],
+        "hit_units": [
+          "次",
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 69
+      },
+      {
+        "chunk_id": "p66_115",
+        "page_number": 66,
+        "retrieval_score": 45,
+        "bm25_score": 10.2823,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "环境",
+          "事件",
+          "数量",
+          "次数"
+        ],
+        "hit_units": [
+          "次",
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 76
+      },
+      {
+        "chunk_id": "p65_114",
+        "page_number": 65,
+        "retrieval_score": 44,
+        "bm25_score": 2.7809,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "数量"
+        ],
+        "hit_units": [
+          "件",
+          "起"
+        ],
+        "hit_forbidden": [],
+        "number_count": 43
+      },
+      {
+        "chunk_id": "p66_116",
+        "page_number": 66,
+        "retrieval_score": 42,
+        "bm25_score": 8.7427,
+        "vector_score": 0.160137,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "环境",
+          "数量",
+          "次数"
+        ],
+        "hit_units": [
+          "次",
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 80
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "female_employee_ratio",
+    "field_name_cn": "女性员工比例",
+    "category": "S",
+    "matched": false,
+    "value": "45.55",
+    "raw_value": "3706",
+    "unit": "人",
+    "target_unit": "%",
+    "conversion": "女性员工总数3706除以员工总数8135，乘以100得到百分比",
+    "year": "2024",
+    "evidence": "其中女性员工总数\n8135\n3706",
+    "source_pages": [
+      65
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence;ratio_field_without_percent_unit",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence;ratio_field_without_percent_unit",
+    "retrieval_priority": 87.0288,
+    "industry": "pharma",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p65_113",
+        "page_number": 65,
+        "retrieval_score": 47,
+        "bm25_score": 34.5273,
+        "vector_score": 0.251442,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "女性",
+          "性员",
+          "员工",
+          "比例",
+          "女性员",
+          "性员工",
+          "女员",
+          "女员工"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 69
+      },
+      {
+        "chunk_id": "p36_58",
+        "page_number": 36,
+        "retrieval_score": 42,
+        "bm25_score": 3.9004,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "比例"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p65_114",
+        "page_number": 65,
+        "retrieval_score": 42,
+        "bm25_score": 4.9432,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "比例"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 43
+      },
+      {
+        "chunk_id": "p66_115",
+        "page_number": 66,
+        "retrieval_score": 42,
+        "bm25_score": 3.091,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "占比"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 76
+      },
+      {
+        "chunk_id": "p18_27",
+        "page_number": 18,
+        "retrieval_score": 36,
+        "bm25_score": 3.091,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "占比"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 21
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "employee_medical_checkup_coverage",
+    "field_name_cn": "员工体检覆盖率",
+    "category": "S",
+    "matched": true,
+    "value": "100",
+    "raw_value": "100%",
+    "unit": "%",
+    "target_unit": "%",
+    "conversion": "无需转换",
+    "year": "2024",
+    "evidence": "2024年，组织全体职工的健康体检及女职工的两癌筛查5110人次",
+    "source_pages": [
+      48
+    ],
+    "confidence": 0.85,
+    "reason": "定位到同义词'健康体检'，结合上下文'组织全体职工的健康体检'可合理推断体检覆盖全体职工，且2024年明确提及，数值100%为合理推断（因未提供员工总数，但'全体职工'表述暗示全覆盖），符合目标字段语义",
+    "b2_validation_ok": true,
+    "b2_validation_reason": "",
+    "retrieval_priority": 86.3355,
+    "industry": "pharma",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p48_83",
+        "page_number": 48,
+        "retrieval_score": 46,
+        "bm25_score": 52.969,
+        "vector_score": 0.266775,
+        "hit_keywords": [
+          "体检",
+          "健康体检"
+        ],
+        "hit_query_terms": [
+          "员工",
+          "体检",
+          "健康",
+          "康体",
+          "健康体",
+          "康体检",
+          "职业",
+          "业健",
+          "职业健",
+          "业健康",
+          "健康体检",
+          "检及"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 4
+      },
+      {
+        "chunk_id": "p44_75",
+        "page_number": 44,
+        "retrieval_score": 45,
+        "bm25_score": 48.9089,
+        "vector_score": 0.219428,
+        "hit_keywords": [
+          "体检",
+          "健康体检"
+        ],
+        "hit_query_terms": [
+          "员工",
+          "体检",
+          "工健",
+          "健康",
+          "康体",
+          "工健康",
+          "健康体",
+          "康体检",
+          "职业",
+          "业健",
+          "业健康",
+          "健康体检"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p32_52",
+        "page_number": 32,
+        "retrieval_score": 42,
+        "bm25_score": 17.1023,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "覆盖",
+          "盖率",
+          "覆盖率",
+          "健康",
+          "职业",
+          "业健",
+          "职业健",
+          "业健康"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p65_113",
+        "page_number": 65,
+        "retrieval_score": 42,
+        "bm25_score": 12.4293,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "覆盖",
+          "盖率",
+          "覆盖率"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 69
+      },
+      {
+        "chunk_id": "p67_117",
+        "page_number": 67,
+        "retrieval_score": 42,
+        "bm25_score": 8.4859,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "覆盖",
+          "盖率",
+          "覆盖率"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 47
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "safety_accident_count",
+    "field_name_cn": "安全生产事故数量",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "matched_evidence_without_number",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "matched_evidence_without_number",
+    "retrieval_priority": 86.3226,
+    "industry": "pharma",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p35_57",
+        "page_number": 35,
+        "retrieval_score": 45,
+        "bm25_score": 4.2363,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "生产",
+          "事故"
+        ],
+        "hit_units": [
+          "次",
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p65_113",
+        "page_number": 65,
+        "retrieval_score": 45,
+        "bm25_score": 3.8237,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "数量"
+        ],
+        "hit_units": [
+          "次",
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 69
+      },
+      {
+        "chunk_id": "p66_115",
+        "page_number": 66,
+        "retrieval_score": 45,
+        "bm25_score": 3.8237,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "数量"
+        ],
+        "hit_units": [
+          "次",
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 76
+      },
+      {
+        "chunk_id": "p66_116",
+        "page_number": 66,
+        "retrieval_score": 45,
+        "bm25_score": 29.453,
+        "vector_score": 0.316132,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "安全",
+          "全生",
+          "生产",
+          "事故",
+          "数量",
+          "安全生",
+          "全生产",
+          "全事",
+          "安全事",
+          "全事故",
+          "工伤"
+        ],
+        "hit_units": [
+          "次",
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 80
+      },
+      {
+        "chunk_id": "p49_85",
+        "page_number": 49,
+        "retrieval_score": 44,
+        "bm25_score": 52.118,
+        "vector_score": 0.290474,
+        "hit_keywords": [
+          "生产安全事故"
+        ],
+        "hit_query_terms": [
+          "安全",
+          "全生",
+          "生产",
+          "事故",
+          "安全生",
+          "全生产",
+          "全事",
+          "安全事",
+          "全事故",
+          "产安",
+          "生产安",
+          "产安全"
+        ],
+        "hit_units": [
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 9
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "non_hazardous_waste",
+    "field_name_cn": "一般废弃物产生量",
+    "category": "E",
+    "matched": false,
+    "value": "453",
+    "raw_value": "453吨",
+    "unit": "吨",
+    "target_unit": "吨",
+    "conversion": "无需转换",
+    "year": "2024",
+    "evidence": "一般固体废物产生量2\n吨\n453",
+    "source_pages": [
+      67
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence",
+    "retrieval_priority": 85.1383,
+    "industry": "pharma",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p67_117",
+        "page_number": 67,
+        "retrieval_score": 46,
+        "bm25_score": 81.981,
+        "vector_score": 0.206915,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "一般",
+          "废弃",
+          "弃物",
+          "物产",
+          "产生",
+          "生量",
+          "废弃物",
+          "物产生",
+          "产生量",
+          "危险",
+          "险废",
+          "危险废"
+        ],
+        "hit_units": [
+          "吨"
+        ],
+        "hit_forbidden": [],
+        "number_count": 47
+      },
+      {
+        "chunk_id": "p39_66",
+        "page_number": 39,
+        "retrieval_score": 45,
+        "bm25_score": 25.3387,
+        "vector_score": 0.170092,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "产生",
+          "总量",
+          "危险",
+          "险废",
+          "危险废",
+          "固体",
+          "体废",
+          "固体废"
+        ],
+        "hit_units": [
+          "吨"
+        ],
+        "hit_forbidden": [],
+        "number_count": 27
+      },
+      {
+        "chunk_id": "p66_115",
+        "page_number": 66,
+        "retrieval_score": 45,
+        "bm25_score": 4.8717,
+        "vector_score": 0.168538,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "总量"
+        ],
+        "hit_units": [
+          "吨"
+        ],
+        "hit_forbidden": [],
+        "number_count": 76
+      },
+      {
+        "chunk_id": "p35_57",
+        "page_number": 35,
+        "retrieval_score": 42,
+        "bm25_score": 3.543,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "总量"
+        ],
+        "hit_units": [
+          "吨"
+        ],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p36_58",
+        "page_number": 36,
+        "retrieval_score": 41,
+        "bm25_score": 2.7809,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "产生"
+        ],
+        "hit_units": [
+          "吨"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "employee_turnover_rate",
+    "field_name_cn": "员工流失率",
+    "category": "S",
+    "matched": false,
+    "value": "8.29",
+    "raw_value": "675人",
+    "unit": "人",
+    "target_unit": "%",
+    "conversion": "离职员工数量除以员工总数：675 / 8135 * 100% = 8.29%",
+    "year": "2024",
+    "evidence": "离职员工数量 675 员工总数 8135",
+    "source_pages": [
+      43
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence;ratio_field_without_percent_unit",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence;ratio_field_without_percent_unit",
+    "retrieval_priority": 84.9833,
+    "industry": "pharma",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p65_113",
+        "page_number": 65,
+        "retrieval_score": 46,
+        "bm25_score": 5.8435,
+        "vector_score": 0.199165,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "离职"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 69
+      },
+      {
+        "chunk_id": "p43_72",
+        "page_number": 43,
+        "retrieval_score": 36,
+        "bm25_score": 7.1106,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "离职"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 50
+      },
+      {
+        "chunk_id": "p43_73",
+        "page_number": 43,
+        "retrieval_score": 33,
+        "bm25_score": 6.7662,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "离职"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p40_69",
+        "page_number": 40,
+        "retrieval_score": 32,
+        "bm25_score": 1.8945,
+        "vector_score": 0.187832,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p36_58",
+        "page_number": 36,
+        "retrieval_score": 31,
+        "bm25_score": 1.1195,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "lost_work_days_due_to_injury",
+    "field_name_cn": "因工伤损失工作日数",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "没有找到字段名或其同义词（如因工伤损失工作日数、工伤损失工作日、损失工时、因工伤损失天数）与明确数值和年份的对应证据，虽有员工培训、健康体检、安全演练等信息，但无工伤导致工作日损失的定量数据",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "没有找到字段名或其同义词（如因工伤损失工作日数、工伤损失工作日、损失工时、因工伤损失天数）与明确数值和年份的对应证据，虽有员工培训、健康体检、安全演练等信息，但无工伤导致工作日损失的定量数据",
+    "retrieval_priority": 84.2021,
+    "industry": "pharma",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p65_113",
+        "page_number": 65,
+        "retrieval_score": 45,
+        "bm25_score": 4.3903,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "天数"
+        ],
+        "hit_units": [
+          "天",
+          "小时"
+        ],
+        "hit_forbidden": [],
+        "number_count": 69
+      },
+      {
+        "chunk_id": "p44_75",
+        "page_number": 44,
+        "retrieval_score": 43,
+        "bm25_score": 4.6589,
+        "vector_score": 0.210103,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "工伤",
+          "工作"
+        ],
+        "hit_units": [
+          "天",
+          "日"
+        ],
+        "hit_forbidden": [],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p40_69",
+        "page_number": 40,
+        "retrieval_score": 36,
+        "bm25_score": 4.6107,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "损失",
+          "工作"
+        ],
+        "hit_units": [
+          "日"
+        ],
+        "hit_forbidden": [],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p51_88",
+        "page_number": 51,
+        "retrieval_score": 36,
+        "bm25_score": 4.0711,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "损失",
+          "工作"
+        ],
+        "hit_units": [
+          "日"
+        ],
+        "hit_forbidden": [],
+        "number_count": 13
+      },
+      {
+        "chunk_id": "p63_109",
+        "page_number": 63,
+        "retrieval_score": 36,
+        "bm25_score": 4.0711,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "损失",
+          "工作"
+        ],
+        "hit_units": [
+          "小时"
+        ],
+        "hit_forbidden": [],
+        "number_count": 14
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "confirmed_corruption_cases",
+    "field_name_cn": "确认腐败案件数量",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "没有找到字段名或同义词（如确认腐败案件数量、腐败案件数量等）与明确数值和年份对应的证据；虽有‘客户投诉案件数7件’，但属于客户投诉，非腐败或商业贿赂案件，且‘投诉’与‘腐败’语义不同，不能混淆",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "没有找到字段名或同义词（如确认腐败案件数量、腐败案件数量等）与明确数值和年份对应的证据；虽有‘客户投诉案件数7件’，但属于客户投诉，非腐败或商业贿赂案件，且‘投诉’与‘腐败’语义不同，不能混淆",
+    "retrieval_priority": 83.3672,
+    "industry": "pharma",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p66_115",
+        "page_number": 66,
+        "retrieval_score": 45,
+        "bm25_score": 3.8237,
+        "vector_score": 0.168359,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "数量"
+        ],
+        "hit_units": [
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 76
+      },
+      {
+        "chunk_id": "p65_114",
+        "page_number": 65,
+        "retrieval_score": 44,
+        "bm25_score": 2.7809,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "数量"
+        ],
+        "hit_units": [
+          "件",
+          "起"
+        ],
+        "hit_forbidden": [],
+        "number_count": 43
+      },
+      {
+        "chunk_id": "p43_72",
+        "page_number": 43,
+        "retrieval_score": 39,
+        "bm25_score": 3.8237,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "数量"
+        ],
+        "hit_units": [
+          "件",
+          "宗"
+        ],
+        "hit_forbidden": [],
+        "number_count": 50
+      },
+      {
+        "chunk_id": "p30_49",
+        "page_number": 30,
+        "retrieval_score": 36,
+        "bm25_score": 12.6602,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "案件",
+          "件数",
+          "案件数"
+        ],
+        "hit_units": [
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 35
+      },
+      {
+        "chunk_id": "p43_73",
+        "page_number": 43,
+        "retrieval_score": 35,
+        "bm25_score": 3.8237,
+        "vector_score": 0.103654,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "数量"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "public_welfare_investment",
+    "field_name_cn": "公益投入金额",
+    "category": "S",
+    "matched": false,
+    "value": "19.92",
+    "raw_value": "9.92万元+10万元",
+    "unit": "万元",
+    "target_unit": "万元",
+    "conversion": "无需转换",
+    "year": "2024",
+    "evidence": "公益慈善\n新华医疗“慈心一日捐”活动\n新华医疗充分发挥企业推动慈善事业健康发展的重要\n作用，于2024年11月，组织开展了2024年“慈心一日\n捐”活动。本次活动以“依法组织、广泛发动、坚持自愿、\n鼓励奉献”为原则，总计收到1761名职工捐款，捐款金\n额9.92万元。此外，新华医疗向淄博市总工会捐款10万\n元，所募集善款全部\n用于支持和帮助孤\n寡病残等困难群体，\n开展助困、助医、助\n学、助老、助残等慈\n善项目。",
+    "source_pages": [
+      55
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence;public_welfare_single_project_or_partial_donation",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence;public_welfare_single_project_or_partial_donation",
+    "retrieval_priority": 83.032,
+    "industry": "pharma",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p65_113",
+        "page_number": 65,
+        "retrieval_score": 45,
+        "bm25_score": 17.1404,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "投入",
+          "入金",
+          "金额",
+          "投入金",
+          "入金额",
+          "社会"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 69
+      },
+      {
+        "chunk_id": "p65_114",
+        "page_number": 65,
+        "retrieval_score": 45,
+        "bm25_score": 16.3429,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "投入",
+          "入金",
+          "金额",
+          "投入金",
+          "入金额"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 43
+      },
+      {
+        "chunk_id": "p67_117",
+        "page_number": 67,
+        "retrieval_score": 44,
+        "bm25_score": 2.2854,
+        "vector_score": 0.151602,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "投入",
+          "社会"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 47
+      },
+      {
+        "chunk_id": "p55_93",
+        "page_number": 55,
+        "retrieval_score": 39,
+        "bm25_score": 16.0181,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "公益",
+          "金额",
+          "社会",
+          "慈善"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 15
+      },
+      {
+        "chunk_id": "p55_94",
+        "page_number": 55,
+        "retrieval_score": 39,
+        "bm25_score": 5.3651,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "投入",
+          "金额"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "independent_director_ratio",
+    "field_name_cn": "独立董事比例",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "没有找到字段名或同义词（独立董事比例、独立董事占比、独董比例、独董占比）与任何数值和年份的明确对应语句，且所有证据均围绕能源、节水、研发、环保等主题，未涉及董事会结构或独立董事相关信息",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "没有找到字段名或同义词（独立董事比例、独立董事占比、独董比例、独董占比）与任何数值和年份的明确对应语句，且所有证据均围绕能源、节水、研发、环保等主题，未涉及董事会结构或独立董事相关信息",
+    "retrieval_priority": 78.383,
+    "industry": "pharma",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p36_58",
+        "page_number": 36,
+        "retrieval_score": 41,
+        "bm25_score": 2.7809,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "比例"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p30_49",
+        "page_number": 30,
+        "retrieval_score": 38,
+        "bm25_score": 3.8237,
+        "vector_score": 0.11915,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "比例"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 35
+      },
+      {
+        "chunk_id": "p18_27",
+        "page_number": 18,
+        "retrieval_score": 36,
+        "bm25_score": 4.9164,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事",
+          "占比"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 21
+      },
+      {
+        "chunk_id": "p34_55",
+        "page_number": 34,
+        "retrieval_score": 36,
+        "bm25_score": 2.5099,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 7
+      },
+      {
+        "chunk_id": "p36_59",
+        "page_number": 36,
+        "retrieval_score": 36,
+        "bm25_score": 4.2502,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "占比"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 17
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "anti_corruption_training_participants",
+    "field_name_cn": "反腐败培训人数",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中提及了知识产权培训、商业秘密培训、质量管理培训等，但未出现反腐败培训、廉洁培训、反舞弊培训或商业道德培训等目标字段或其同义词，且无相关参与人次数值对应，符合forbidden_any的‘次数’‘小时’出现在其他培训中，但无法关联到反腐败培训，故无法匹配",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中提及了知识产权培训、商业秘密培训、质量管理培训等，但未出现反腐败培训、廉洁培训、反舞弊培训或商业道德培训等目标字段或其同义词，且无相关参与人次数值对应，符合forbidden_any的‘次数’‘小时’出现在其他培训中，但无法关联到反腐败培训，故无法匹配",
+    "retrieval_priority": 63.0401,
+    "industry": "pharma",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p65_113",
+        "page_number": 65,
+        "retrieval_score": 42,
+        "bm25_score": 18.5298,
+        "vector_score": 0.302003,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "训人",
+          "人数",
+          "培训人",
+          "人次",
+          "训人次"
+        ],
+        "hit_units": [
+          "人",
+          "人次"
+        ],
+        "hit_forbidden": [
+          "小时"
+        ],
+        "number_count": 69
+      },
+      {
+        "chunk_id": "p43_72",
+        "page_number": 43,
+        "retrieval_score": 40,
+        "bm25_score": 3.9985,
+        "vector_score": 0.197833,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "人数"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 50
+      },
+      {
+        "chunk_id": "p43_73",
+        "page_number": 43,
+        "retrieval_score": 40,
+        "bm25_score": 3.4987,
+        "vector_score": 0.199816,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "人数"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p19_29",
+        "page_number": 19,
+        "retrieval_score": 39,
+        "bm25_score": 11.5441,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "训人",
+          "商业",
+          "人次"
+        ],
+        "hit_units": [
+          "人",
+          "人次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 13
+      },
+      {
+        "chunk_id": "p28_46",
+        "page_number": 28,
+        "retrieval_score": 39,
+        "bm25_score": 4.3136,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "人次"
+        ],
+        "hit_units": [
+          "人",
+          "人次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 12
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "training_total_hours",
+    "field_name_cn": "员工培训总时长",
+    "category": "S",
+    "matched": false,
+    "value": "3506",
+    "raw_value": "3506小时",
+    "unit": "小时",
+    "target_unit": "小时",
+    "conversion": "无需转换",
+    "year": "2024",
+    "evidence": "员工培训时间\n员工培训覆盖率\n员工培训总投入\n员工培训场次\n员工培训人次\n334次\n30578人次\n3506小时\n100%\n144.4万元",
+    "source_pages": [
+      46
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence",
+    "retrieval_priority": 61.7564,
+    "industry": "pharma",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p65_113",
+        "page_number": 65,
+        "retrieval_score": 39,
+        "bm25_score": 50.4492,
+        "vector_score": 0.298423,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "工培",
+          "培训",
+          "训总",
+          "时长",
+          "员工培",
+          "工培训",
+          "培训总",
+          "小时",
+          "累计",
+          "训时",
+          "培训时"
+        ],
+        "hit_units": [
+          "小时"
+        ],
+        "hit_forbidden": [
+          "人均"
+        ],
+        "number_count": 69
+      },
+      {
+        "chunk_id": "p65_114",
+        "page_number": 65,
+        "retrieval_score": 39,
+        "bm25_score": 5.7844,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "累计"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 43
+      },
+      {
+        "chunk_id": "p46_79",
+        "page_number": 46,
+        "retrieval_score": 38,
+        "bm25_score": 39.0292,
+        "vector_score": 0.387819,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "工培",
+          "培训",
+          "训总",
+          "员工培",
+          "工培训",
+          "培训总",
+          "小时",
+          "训时",
+          "培训时"
+        ],
+        "hit_units": [
+          "小时"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p50_87",
+        "page_number": 50,
+        "retrieval_score": 37,
+        "bm25_score": 18.5775,
+        "vector_score": 0.239181,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "培训",
+          "安全",
+          "全培",
+          "安全培",
+          "全培训"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 15
+      },
+      {
+        "chunk_id": "p30_49",
+        "page_number": 30,
+        "retrieval_score": 36,
+        "bm25_score": 4.7118,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "小时"
+        ],
+        "hit_units": [
+          "小时"
+        ],
+        "hit_forbidden": [],
+        "number_count": 35
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "independent_directors",
+    "field_name_cn": "独立董事人数",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中提及董事会人数、董事会会议次数等治理信息，但未出现独立董事人数、独立董事数量或独董人数等目标字段或其同义词，也未提供任何相关数值，且无任何语义可推断独立董事人数，故无法满足matched=true条件",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中提及董事会人数、董事会会议次数等治理信息，但未出现独立董事人数、独立董事数量或独董人数等目标字段或其同义词，也未提供任何相关数值，且无任何语义可推断独立董事人数，故无法满足matched=true条件",
+    "retrieval_priority": 59.961,
+    "industry": "pharma",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p43_73",
+        "page_number": 43,
+        "retrieval_score": 40,
+        "bm25_score": 7.3224,
+        "vector_score": 0.248049,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "人数",
+          "数量"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p66_115",
+        "page_number": 66,
+        "retrieval_score": 38,
+        "bm25_score": 9.2367,
+        "vector_score": 0.197504,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事",
+          "人数",
+          "数量"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [
+          "%"
+        ],
+        "number_count": 76
+      },
+      {
+        "chunk_id": "p55_93",
+        "page_number": 55,
+        "retrieval_score": 36,
+        "bm25_score": 2.5445,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "人数"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [],
+        "number_count": 15
+      },
+      {
+        "chunk_id": "p50_87",
+        "page_number": 50,
+        "retrieval_score": 35,
+        "bm25_score": 2.7809,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "数量"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 15
+      },
+      {
+        "chunk_id": "p59_100",
+        "page_number": 59,
+        "retrieval_score": 35,
+        "bm25_score": 3.4281,
+        "vector_score": 0.244151,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [
+          "%"
+        ],
+        "number_count": 10
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "female_directors",
+    "field_name_cn": "女性董事人数",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中提及女职工、女性关怀、妈妈小屋、女职工体检等，但未出现女性董事人数、女董事数量等目标字段或其同义词的明确数值表述，且无任何董事结构或董事会成员性别构成信息，无法满足matched=true条件",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中提及女职工、女性关怀、妈妈小屋、女职工体检等，但未出现女性董事人数、女董事数量等目标字段或其同义词的明确数值表述，且无任何董事结构或董事会成员性别构成信息，无法满足matched=true条件",
+    "retrieval_priority": 59.2351,
+    "industry": "pharma",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p51_88",
+        "page_number": 51,
+        "retrieval_score": 39,
+        "bm25_score": 4.0205,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "女性"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [],
+        "number_count": 13
+      },
+      {
+        "chunk_id": "p43_73",
+        "page_number": 43,
+        "retrieval_score": 36,
+        "bm25_score": 7.3224,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "人数",
+          "数量"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p44_75",
+        "page_number": 44,
+        "retrieval_score": 36,
+        "bm25_score": 2.924,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "女性"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p55_93",
+        "page_number": 55,
+        "retrieval_score": 36,
+        "bm25_score": 2.5445,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "人数"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [],
+        "number_count": 15
+      },
+      {
+        "chunk_id": "p59_100",
+        "page_number": 59,
+        "retrieval_score": 36,
+        "bm25_score": 3.4281,
+        "vector_score": 0.261753,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [
+          "%"
+        ],
+        "number_count": 10
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "anti_corruption_training_sessions",
+    "field_name_cn": "反腐败培训次数",
+    "category": "G",
+    "matched": false,
+    "value": "3",
+    "raw_value": "3场",
+    "unit": "场",
+    "target_unit": "次",
+    "conversion": "场与次为同义单位，无需换算",
+    "year": "2024",
+    "evidence": "2024年，举办3场商业秘密体系建设培训",
+    "source_pages": [
+      19
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence",
+    "retrieval_priority": 53.3585,
+    "industry": "pharma",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p60_102",
+        "page_number": 60,
+        "retrieval_score": 36,
+        "bm25_score": 5.6179,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "次数"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 27
+      },
+      {
+        "chunk_id": "p63_110",
+        "page_number": 63,
+        "retrieval_score": 36,
+        "bm25_score": 5.5491,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "廉洁"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p35_57",
+        "page_number": 35,
+        "retrieval_score": 34,
+        "bm25_score": 2.924,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "次数"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [
+          "人次"
+        ],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p15_22",
+        "page_number": 15,
+        "retrieval_score": 33,
+        "bm25_score": 3.3991,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "商业"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 18
+      },
+      {
+        "chunk_id": "p19_29",
+        "page_number": 19,
+        "retrieval_score": 33,
+        "bm25_score": 5.8708,
+        "vector_score": 0.117924,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "商业"
+        ],
+        "hit_units": [
+          "次",
+          "场"
+        ],
+        "hit_forbidden": [
+          "人次"
+        ],
+        "number_count": 13
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  }
+]

@@ -1,0 +1,3785 @@
+{
+  "pdf_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\data\\raw\\600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告.pdf",
+  "output_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告",
+  "ingest": {
+    "manifest": {
+      "ingest_version": "route_a_page_scoring_v3_unit_density",
+      "pdf_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\data\\raw\\600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告.pdf",
+      "total_pages": 38,
+      "total_text_chars": 39287,
+      "text_available": true,
+      "chunk_size": 800,
+      "chunk_overlap": 120,
+      "chunk_count": 72
+    },
+    "cache_used": true,
+    "paths": {
+      "page_texts": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\ingest\\page_texts.json",
+      "page_features": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\ingest\\page_features.json",
+      "text_chunks": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\ingest\\text_chunks.json",
+      "manifest": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\ingest\\ingest_manifest.json"
+    }
+  },
+  "sniffer_result": {
+    "found": true,
+    "total_pages": 38,
+    "candidates": [
+      {
+        "page_number": 37,
+        "char_count": 1273,
+        "score": 242,
+        "title_hits": [
+          "指标",
+          "单位",
+          "20[0-3][0-9]年"
+        ],
+        "strong_title_hits": [],
+        "metric_hits": [
+          "温室气体",
+          "能源",
+          "能源消耗",
+          "用电",
+          "煤",
+          "耗水",
+          "用水量",
+          "新鲜水",
+          "废水",
+          "废弃物",
+          "危险废弃物",
+          "女性员工",
+          "培训",
+          "安全生产",
+          "专利"
+        ],
+        "unit_hits": [
+          "吨",
+          "万吨",
+          "千瓦时",
+          "立方米",
+          "万元",
+          "元",
+          "%",
+          "人",
+          "人次",
+          "小时",
+          "次",
+          "件"
+        ],
+        "unit_density_score": 10,
+        "unit_occurrence_count": 67,
+        "distinct_unit_categories": [
+          "count",
+          "energy_coal",
+          "energy_power",
+          "ghg",
+          "mass",
+          "money",
+          "percentage",
+          "person",
+          "time",
+          "volume"
+        ],
+        "table_header_hits": [
+          "指标",
+          "单位"
+        ],
+        "year_hits": [
+          "2000",
+          "2022",
+          "2023",
+          "2024"
+        ],
+        "number_count": 128,
+        "numeric_lines": 128,
+        "table_like_lines": 0,
+        "page_ratio": 0.9737,
+        "index_hits": [],
+        "force_keep": true,
+        "high_unit_density": true,
+        "reasons": [
+          "title_hits:指标,单位,20[0-3][0-9]年",
+          "metric_hits:温室气体,能源,能源消耗,用电,煤,耗水,用水量,新鲜水,废水,废弃物,危险废弃物,女性员工,培训,安全生产,专利",
+          "unit_hits:吨,万吨,千瓦时,立方米,万元,元,%,人,人次,小时,次,件",
+          "unit_density:10:count,energy_coal,energy_power,ghg,mass,money,percentage,person",
+          "unit_occurrences:67",
+          "year_hits:2000,2022,2023,2024",
+          "table_header_hits:指标,单位",
+          "table_header:indicator_unit_year",
+          "number_dense:128",
+          "numeric_lines:128",
+          "tail_35_percent",
+          "tail_20_percent",
+          "force_keep:high_unit_density"
+        ]
+      },
+      {
+        "page_number": 36,
+        "char_count": 1057,
+        "score": 200,
+        "title_hits": [
+          "关键绩效指标",
+          "附录\\s*\\d*",
+          "指标",
+          "单位",
+          "20[0-3][0-9]年"
+        ],
+        "strong_title_hits": [
+          "关键绩效"
+        ],
+        "metric_hits": [
+          "能源",
+          "培训",
+          "研发投入",
+          "研发人员",
+          "专利"
+        ],
+        "unit_hits": [
+          "亿元",
+          "万元",
+          "元",
+          "%",
+          "人",
+          "次",
+          "件"
+        ],
+        "unit_density_score": 4,
+        "unit_occurrence_count": 29,
+        "distinct_unit_categories": [
+          "count",
+          "money",
+          "percentage",
+          "person"
+        ],
+        "table_header_hits": [
+          "指标",
+          "单位"
+        ],
+        "year_hits": [
+          "2022",
+          "2023",
+          "2024"
+        ],
+        "number_count": 88,
+        "numeric_lines": 84,
+        "table_like_lines": 1,
+        "page_ratio": 0.9474,
+        "index_hits": [
+          "CASS",
+          "意见反馈",
+          "指标索引"
+        ],
+        "force_keep": true,
+        "high_unit_density": false,
+        "reasons": [
+          "title_hits:关键绩效指标,附录\\s*\\d*,指标,单位,20[0-3][0-9]年",
+          "strong_title_hits:关键绩效",
+          "metric_hits:能源,培训,研发投入,研发人员,专利",
+          "unit_hits:亿元,万元,元,%,人,次,件",
+          "unit_density:4:count,money,percentage,person",
+          "unit_occurrences:29",
+          "year_hits:2022,2023,2024",
+          "table_header_hits:指标,单位",
+          "table_header:indicator_unit_year",
+          "number_dense:88",
+          "numeric_lines:84",
+          "tail_35_percent",
+          "tail_20_percent",
+          "index_penalty:CASS,意见反馈,指标索引",
+          "force_keep:strong_performance_title"
+        ]
+      },
+      {
+        "page_number": 27,
+        "char_count": 1779,
+        "score": 164,
+        "title_hits": [
+          "指标",
+          "单位",
+          "20[0-3][0-9]年"
+        ],
+        "strong_title_hits": [],
+        "metric_hits": [
+          "能源",
+          "安全生产",
+          "工伤",
+          "死亡",
+          "专利"
+        ],
+        "unit_hits": [
+          "万元",
+          "元",
+          "%",
+          "人",
+          "次",
+          "项",
+          "起",
+          "家"
+        ],
+        "unit_density_score": 4,
+        "unit_occurrence_count": 42,
+        "distinct_unit_categories": [
+          "count",
+          "money",
+          "percentage",
+          "person"
+        ],
+        "table_header_hits": [
+          "指标",
+          "单位",
+          "项目"
+        ],
+        "year_hits": [
+          "2023",
+          "2024"
+        ],
+        "number_count": 21,
+        "numeric_lines": 14,
+        "table_like_lines": 3,
+        "page_ratio": 0.7105,
+        "index_hits": [],
+        "force_keep": false,
+        "high_unit_density": false,
+        "reasons": [
+          "title_hits:指标,单位,20[0-3][0-9]年",
+          "metric_hits:能源,安全生产,工伤,死亡,专利",
+          "unit_hits:万元,元,%,人,次,项,起,家",
+          "unit_density:4:count,money,percentage,person",
+          "unit_occurrences:42",
+          "year_hits:2023,2024",
+          "table_header_hits:指标,单位,项目",
+          "table_header:indicator_unit_year",
+          "number_dense:21",
+          "table_density:3",
+          "numeric_lines:14",
+          "tail_35_percent"
+        ]
+      },
+      {
+        "page_number": 18,
+        "char_count": 1683,
+        "score": 143,
+        "title_hits": [
+          "指标",
+          "单位",
+          "20[0-3][0-9]年"
+        ],
+        "strong_title_hits": [],
+        "metric_hits": [
+          "能源",
+          "电力",
+          "董事",
+          "董事会"
+        ],
+        "unit_hits": [
+          "吨",
+          "万吨",
+          "千瓦时",
+          "人",
+          "次",
+          "件",
+          "项",
+          "起",
+          "家"
+        ],
+        "unit_density_score": 4,
+        "unit_occurrence_count": 22,
+        "distinct_unit_categories": [
+          "count",
+          "energy_power",
+          "mass",
+          "person"
+        ],
+        "table_header_hits": [
+          "指标",
+          "单位",
+          "项目"
+        ],
+        "year_hits": [
+          "2024",
+          "2030"
+        ],
+        "number_count": 15,
+        "numeric_lines": 10,
+        "table_like_lines": 3,
+        "page_ratio": 0.4737,
+        "index_hits": [],
+        "force_keep": false,
+        "high_unit_density": false,
+        "reasons": [
+          "title_hits:指标,单位,20[0-3][0-9]年",
+          "metric_hits:能源,电力,董事,董事会",
+          "unit_hits:吨,万吨,千瓦时,人,次,件,项,起,家",
+          "unit_density:4:count,energy_power,mass,person",
+          "unit_occurrences:22",
+          "year_hits:2024,2030",
+          "table_header_hits:指标,单位,项目",
+          "table_header:indicator_unit_year",
+          "table_density:3",
+          "numeric_lines:10"
+        ]
+      },
+      {
+        "page_number": 38,
+        "char_count": 819,
+        "score": 135,
+        "title_hits": [
+          "指标",
+          "单位",
+          "20[0-3][0-9]年"
+        ],
+        "strong_title_hits": [],
+        "metric_hits": [
+          "供应商",
+          "董事",
+          "董事会"
+        ],
+        "unit_hits": [
+          "万元",
+          "元",
+          "人",
+          "人次",
+          "小时",
+          "次",
+          "件",
+          "家"
+        ],
+        "unit_density_score": 4,
+        "unit_occurrence_count": 10,
+        "distinct_unit_categories": [
+          "count",
+          "money",
+          "person",
+          "time"
+        ],
+        "table_header_hits": [
+          "指标",
+          "单位"
+        ],
+        "year_hits": [
+          "2000",
+          "2022",
+          "2023",
+          "2024"
+        ],
+        "number_count": 31,
+        "numeric_lines": 29,
+        "table_like_lines": 2,
+        "page_ratio": 1.0,
+        "index_hits": [
+          "意见反馈"
+        ],
+        "force_keep": false,
+        "high_unit_density": false,
+        "reasons": [
+          "title_hits:指标,单位,20[0-3][0-9]年",
+          "metric_hits:供应商,董事,董事会",
+          "unit_hits:万元,元,人,人次,小时,次,件,家",
+          "unit_density:4:count,money,person,time",
+          "year_hits:2000,2022,2023,2024",
+          "table_header_hits:指标,单位",
+          "table_header:indicator_unit_year",
+          "number_dense:31",
+          "numeric_lines:29",
+          "tail_35_percent",
+          "tail_20_percent",
+          "index_penalty:意见反馈"
+        ]
+      },
+      {
+        "page_number": 31,
+        "char_count": 1898,
+        "score": 119,
+        "title_hits": [
+          "20[0-3][0-9]年"
+        ],
+        "strong_title_hits": [],
+        "metric_hits": [
+          "客户投诉"
+        ],
+        "unit_hits": [
+          "千瓦时",
+          "万千瓦时",
+          "%",
+          "人",
+          "小时",
+          "次",
+          "件",
+          "项"
+        ],
+        "unit_density_score": 5,
+        "unit_occurrence_count": 32,
+        "distinct_unit_categories": [
+          "count",
+          "energy_power",
+          "percentage",
+          "person",
+          "time"
+        ],
+        "table_header_hits": [
+          "项目"
+        ],
+        "year_hits": [
+          "2024"
+        ],
+        "number_count": 31,
+        "numeric_lines": 18,
+        "table_like_lines": 9,
+        "page_ratio": 0.8158,
+        "index_hits": [],
+        "force_keep": true,
+        "high_unit_density": true,
+        "reasons": [
+          "title_hits:20[0-3][0-9]年",
+          "metric_hits:客户投诉",
+          "unit_hits:千瓦时,万千瓦时,%,人,小时,次,件,项",
+          "unit_density:5:count,energy_power,percentage,person,time",
+          "unit_occurrences:32",
+          "year_hits:2024",
+          "table_header_hits:项目",
+          "number_dense:31",
+          "table_density:9",
+          "numeric_lines:18",
+          "tail_35_percent",
+          "tail_20_percent",
+          "force_keep:high_unit_density"
+        ]
+      }
+    ],
+    "expanded_page_numbers": [
+      17,
+      18,
+      19,
+      20,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      35,
+      36,
+      37,
+      38
+    ],
+    "candidate_pages": [
+      17,
+      18,
+      19,
+      20,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      35,
+      36,
+      37,
+      38
+    ],
+    "selection_strategy": {
+      "source": "pdf_ingest_page_features",
+      "top_k": 6,
+      "min_score": 25,
+      "expand_before": 1,
+      "expand_after": 2
+    }
+  },
+  "appendix_found": true,
+  "candidate_pages": [
+    17,
+    18,
+    19,
+    20,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    35,
+    36,
+    37,
+    38
+  ],
+  "page_images": [
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_17.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_18.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_19.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_20.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_26.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_27.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_28.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_29.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_30.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_31.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_32.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_33.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_35.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_36.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_37.png",
+    "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\page_images\\page_38.png"
+  ],
+  "all_table_rows": [
+    {
+      "page_image": "page_17.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': 'Exceeded limit on max bytes per data-uri item : 20971520', 'type': 'invalid_request_error', 'param': None, 'code': None}, 'request_id': '09fe2d04-5a64-99a9-9216-6f88a250a816'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_18.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "指标和目标",
+          "columns": [
+            "类别",
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "topic": null,
+              "metric_name": "2024年度绿色电力发电量",
+              "unit": "亿千瓦时",
+              "values": {
+                "2024年": "34"
+              },
+              "evidence_text": "2024年度绿色电力发电量 亿千瓦时 2024年 34"
+            },
+            {
+              "topic": null,
+              "metric_name": "2024年度绿色电力电力达到",
+              "unit": "万千瓦",
+              "values": {
+                "2024年": "34"
+              },
+              "evidence_text": "2024年度绿色电力电力达到 万千瓦 2024年 34"
+            },
+            {
+              "topic": null,
+              "metric_name": "2024年度减少二氧化碳排放量",
+              "unit": "万吨",
+              "values": {
+                "2024年": "442.69"
+              },
+              "evidence_text": "2024年度减少二氧化碳排放量 万吨 2024年 442.69"
+            },
+            {
+              "topic": null,
+              "metric_name": "2024年度风电场共核发‘绿证’数量",
+              "unit": "万张",
+              "values": {
+                "2024年": "800"
+              },
+              "evidence_text": "2024年度风电场共核发‘绿证’数量 万张 2024年 800"
+            }
+          ]
+        },
+        {
+          "table_title": "风险管理",
+          "columns": [
+            "风险类型",
+            "风险描述",
+            "应对措施"
+          ],
+          "rows": [
+            {
+              "topic": "物理风险",
+              "metric_name": "极端天气事件：风场和海上设施可能受到飓风、暴雨等极端天气事件的影响，导致设备损坏、停机或发生安全性事故。",
+              "unit": null,
+              "values": null,
+              "evidence_text": "物理风险 极端天气事件：风场和海上设施可能受到飓风、暴雨等极端天气事件的影响，导致设备损坏、停机或发生安全性事故。 针对风电场等业务，开展专项风险识别与影响分析"
+            },
+            {
+              "topic": "物理风险",
+              "metric_name": "气候变化：长期气候上升可能影响设备的运行效率和使用寿命。",
+              "unit": null,
+              "values": null,
+              "evidence_text": "物理风险 气候变化：长期气候上升可能影响设备的运行效率和使用寿命。 重新评估业务所在地的气候适应性，选择更适宜的生产布局"
+            },
+            {
+              "topic": "转型风险",
+              "metric_name": "政策法规变化：国家政府部门对企业、集团对成员与单位的节能降耗考核指标将从能耗使用总量和能耗使用强度向二氧化硫排放总量和二氧化碳排放强度靠拢转变。",
+              "unit": null,
+              "values": null,
+              "evidence_text": "转型风险 政策法规变化：国家政府部门对企业、集团对成员与单位的节能降耗考核指标将从能耗使用总量和能耗使用强度向二氧化硫排放总量和二氧化碳排放强度靠拢转变。 公司积极了解和掌握趋严政策，针对性地采取措施减少碳足迹，降低公司经营对气候变化的影响"
+            },
+            {
+              "topic": "转型风险",
+              "metric_name": "市场需求变化：消费者和市场对绿色低碳产品的需求增加。",
+              "unit": null,
+              "values": null,
+              "evidence_text": "转型风险 市场需求变化：消费者和市场对绿色低碳产品的需求增加。 公司以风力发电机组制造、风力发电项目开发运行为主业业务，深耕新能源市场，持续推进绿色工厂和绿色供应链、制造绿色设备、销售绿色电力"
+            },
+            {
+              "topic": "转型风险",
+              "metric_name": "技术风险：未能及时识别并应用低碳技术可能导致减排目标无法按期实现。",
+              "unit": null,
+              "values": null,
+              "evidence_text": "转型风险 技术风险：未能及时识别并应用低碳技术可能导致减排目标无法按期实现。 公司开展风电制氢、制炭、制甲醇等前沿技术攻关，构建全新全方位、多层次的清洁能源利用体系，助力新型电力系统建设和能源结构转型"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_19.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "中船风电可核发绿证情况",
+          "columns": [
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "中船风电可核发绿证数量",
+              "unit": "万张",
+              "values": {
+                "2024年": "238"
+              },
+              "evidence_text": "中船风电可核发绿证 238 万张，截至 2024 年 12 月 31 日，已核发绿证 222 万张。"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_20.png",
+      "page_type": "other",
+      "page_note": "页面内容为公司ESG相关措施和案例介绍，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_20_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为公司关于危险废弃物处理、能源管理、水资源利用及绿色设计的描述，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_20_right.png",
+      "page_type": "other",
+      "page_note": "页面内容为案例介绍和环保行动描述，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_26.png",
+      "page_type": "performance_data_table",
+      "page_note": "页面包含ESG报告中的安全培训和风险管理相关绩效数据。",
+      "tables": [
+        {
+          "table_title": "中船九院安全培训与风险管理绩效",
+          "columns": [
+            "类别",
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "topic": "安全管理",
+              "metric_name": "组织开展安全、环保、消防保卫等各类培训次数",
+              "unit": "次",
+              "values": {
+                "2024年": "12"
+              },
+              "evidence_text": "中船九院 组织开展安全、环保、消防保卫等各类培训 12次，开展新员工入职和实习员工集中安全培训 2次。"
+            },
+            {
+              "topic": "安全管理",
+              "metric_name": "开展新员工入职和实习员工集中安全培训次数",
+              "unit": "次",
+              "values": {
+                "2024年": "2"
+              },
+              "evidence_text": "中船九院 组织开展安全、环保、消防保卫等各类培训 12次，开展新员工入职和实习员工集中安全培训 2次。"
+            },
+            {
+              "topic": "安全管理",
+              "metric_name": "人均安全培训时长",
+              "unit": "小时",
+              "values": {
+                "2024年": "2.85"
+              },
+              "evidence_text": "中船九院 2024年人均安全培训时长 2.85小时。"
+            },
+            {
+              "topic": "安全管理",
+              "metric_name": "酒本培训方面，新入职员工按要求进行三级安全教育培训，培训合格后上岗",
+              "unit": "无",
+              "values": {
+                "2024年": "无"
+              },
+              "evidence_text": "中船九院 酒本培训方面，新入职员工按要求进行三级安全教育培训，培训合格后上岗。"
+            },
+            {
+              "topic": "安全管理",
+              "metric_name": "生产一线方面，结合公司业务，开展诸如早装作业、高处作业以及电工作业等安全专项培训，提升员工安全操作技能",
+              "unit": "无",
+              "values": {
+                "2024年": "无"
+              },
+              "evidence_text": "中船九院 生产一线方面，结合公司业务，开展诸如早装作业、高处作业以及电工作业等安全专项培训，提升员工安全操作技能。"
+            },
+            {
+              "topic": "安全管理",
+              "metric_name": "涉及职业病危害的岗位，进行职业危害防护培训",
+              "unit": "无",
+              "values": {
+                "2024年": "无"
+              },
+              "evidence_text": "中船九院 涉及职业病危害的岗位，进行职业危害防护培训。"
+            },
+            {
+              "topic": "安全管理",
+              "metric_name": "公司建立“四不两直”安全检查机制，开展安全生产风险辨识评估，通过安全风险隐患排查整治、日常检查，安全监管回头看等及时排查安全隐患，制定管控方案并整改，落实安全生产责任，确保认识到位、追责到位、管理到位",
+              "unit": "无",
+              "values": {
+                "2024年": "无"
+              },
+              "evidence_text": "中船九院 公司建立“四不两直”安全检查机制，开展安全生产风险辨识评估，通过安全风险隐患排查整治、日常检查，安全监管回头看等及时排查安全隐患，制定管控方案并整改，落实安全生产责任，确保认识到位、追责到位、管理到位。"
+            },
+            {
+              "topic": "安全管理",
+              "metric_name": "公司按照“三严三实”专题教育要求，扎实开展安全生产风险隐患排查整治工作，及时查出隐患，及时整改闭环，坚决杜绝发生安全事故",
+              "unit": "无",
+              "values": {
+                "2024年": "无"
+              },
+              "evidence_text": "中船九院 公司按照“三严三实”专题教育要求，扎实开展安全生产风险隐患排查整治工作，及时查出隐患，及时整改闭环，坚决杜绝发生安全事故。"
+            },
+            {
+              "topic": "安全管理",
+              "metric_name": "推进公司数字化安全管控平台平安云盾系统的应用，进行全员、系统隐患排查，隐患整改的及时率显著提升",
+              "unit": "无",
+              "values": {
+                "2024年": "无"
+              },
+              "evidence_text": "中船九院 推进公司数字化安全管控平台平安云盾系统的应用，进行全员、系统隐患排查，隐患整改的及时率显著提升。"
+            },
+            {
+              "topic": "安全管理",
+              "metric_name": "建立“日、周、月”隐患排查机制与“匹不两百”安全检查机制，及时发现生产现场各类安全隐患并由安全管理人员督促隐患整改闭环",
+              "unit": "无",
+              "values": {
+                "2024年": "无"
+              },
+              "evidence_text": "中船九院 建立“日、周、月”隐患排查机制与“匹不两百”安全检查机制，及时发现生产现场各类安全隐患并由安全管理人员督促隐患整改闭环。"
+            },
+            {
+              "topic": "安全管理",
+              "metric_name": "开发运行EHS信息化系统（安全眼）、量体安全环保监控体系、实施垂直归口项目制安全管理等举措，全力保障风电总装及项目场区的安全",
+              "unit": "无",
+              "values": {
+                "2024年": "无"
+              },
+              "evidence_text": "中船九院 开发运行EHS信息化系统（安全眼）、量体安全环保监控体系、实施垂直归口项目制安全管理等举措，全力保障风电总装及项目场区的安全。"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_27.png",
+      "page_type": "performance_data_table",
+      "page_note": "页面包含中航风电2024年安全生产目标的量化数据表。",
+      "tables": [
+        {
+          "table_title": "中航风电2024年安全生产目标",
+          "columns": [
+            "指标 / 单位 / 2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "不发生集团公司规定的二类及以上事故。",
+              "unit": null,
+              "values": {
+                "2024年": null
+              },
+              "evidence_text": "不发生集团公 司规定的二类及以 上事故。"
+            },
+            {
+              "metric_name": "年度发生7-10级工伤 <1人/次成直接经济损失10万元（含）-30万元/次的事故 <3起，年度累计工伤 <6起。",
+              "unit": null,
+              "values": {
+                "2024年": "<1人/次成直接经济损失10万元（含）-30万元/次的事故 <3起，年度累计工伤 <6起。"
+              },
+              "evidence_text": "年度发生7-10级工伤 <1人/次成直接经济损失10万元（含）-30万元/次的事故 <3起，年度累计工伤 <6起。"
+            },
+            {
+              "metric_name": "杜绝酒后驾车，且公司员工负主要责任并造成第三年人身死亡的交通事故 <1起，不发生职业病病例或发生职业中毒事故。",
+              "unit": null,
+              "values": {
+                "2024年": "<1起，不发生职业病病例或发生职业中毒事故。"
+              },
+              "evidence_text": "杜绝酒后驾车，且公司员工负主要责任并造成第三年人身死亡的交通事故 <1起，不发生职业病病例或发生职业中毒事故。"
+            },
+            {
+              "metric_name": "对各省工程项目和在远海风电场进行“四不两直”安全检查覆盖率 100%，安全隐患发现率 ≥90%，安全隐患整改及时率 ≥90%。",
+              "unit": "%",
+              "values": {
+                "2024年": "100%, ≥90%, ≥90%"
+              },
+              "evidence_text": "对各省工程项目和在远海风电场进行“四不两直”安全检查覆盖率 100%，安全隐患发现率 ≥90%，安全隐患整改及时率 ≥90%。"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_28.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': 'Exceeded limit on max bytes per data-uri item : 20971520', 'type': 'invalid_request_error', 'param': None, 'code': None}, 'request_id': '995f7590-f389-90c3-bf66-612953c73891'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_29.png",
+      "page_type": "other",
+      "page_note": "页面内容为公司关于责任供应、供应商管理、供应链风险管理及绿色供应链的描述，未包含具体ESG绩效数值表。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_29_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为中船科技股份有限公司关于坚持责任供应、供应商管理和责任采购的描述，未包含具体ESG绩效数值表。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_29_right.png",
+      "page_type": "other",
+      "page_note": "页面内容为中船九院采购管理策略与实务培训的案例介绍，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_30.png",
+      "page_type": "performance_data_table",
+      "page_note": "页面包含ESG绩效数据，具体为环境绩效中的能源消耗和员工相关指标。",
+      "tables": [
+        {
+          "table_title": "量化数据绩效表-环境绩效",
+          "columns": [
+            "类别",
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "topic": "能源总量情况",
+              "metric_name": "综合能源消耗总量",
+              "unit": "吨标煤",
+              "values": {
+                "2024年": "100,051.00"
+              },
+              "evidence_text": "能源总量情况 综合能源消耗总量 吨标煤 2024年 100,051.00"
+            },
+            {
+              "topic": "员工",
+              "metric_name": "员工总数",
+              "unit": "人",
+              "values": {
+                "2024年": "11,000"
+              },
+              "evidence_text": "员工 员工总数 人 2024年 11,000"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_31.png",
+      "page_type": "other",
+      "page_note": "页面内容为公司关于客户权益、售后服务、服务提升及加强信息保护的描述，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_31_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为公司客户权益、售后服务、服务提升及加强信息保护的相关描述，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_31_right.png",
+      "page_type": "other",
+      "page_note": "页面内容为责任故事描述，未包含具体ESG绩效数值表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_32.png",
+      "page_type": "error",
+      "page_note": "Error code: 400 - {'error': {'message': '<400> InternalError.Algo.InvalidParameter: Multimodal file size is too large', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_parameter_error'}, 'id': 'chatcmpl-7ad6a16d-a725-901e-bece-4c6235ea1614', 'request_id': '7ad6a16d-a725-901e-bece-4c6235ea1614'}",
+      "tables": []
+    },
+    {
+      "page_image": "page_33.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "量化数据绩效表-乡村振兴",
+          "columns": [
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "公司乡村振兴投入金额",
+              "unit": "万元",
+              "values": {
+                "2024年": "17318"
+              },
+              "evidence_text": "公司乡村振兴投入金额 万元 2024年 17318"
+            },
+            {
+              "metric_name": "云南南华、丘北、勐腊对口帮扶县采购茶叶、腊肉、核桃等农副产品金额",
+              "unit": "万元",
+              "values": {
+                "2024年": "42.73"
+              },
+              "evidence_text": "云南南华、丘北、勐腊对口帮扶县采购茶叶、腊肉、核桃等农副产品金额 万元 2024年 42.73"
+            },
+            {
+              "metric_name": "四川南部县采购理塘6.16万元",
+              "unit": "万元",
+              "values": {
+                "2024年": "6.16"
+              },
+              "evidence_text": "四川南部县采购理塘6.16万元 万元 2024年 6.16"
+            },
+            {
+              "metric_name": "新疆合营投资建设3个风电场项目，总投资额",
+              "unit": "亿元",
+              "values": {
+                "2024年": "70"
+              },
+              "evidence_text": "新疆合营投资建设3个风电场项目，总投资额 亿元 2024年 70"
+            },
+            {
+              "metric_name": "预计到2025年将带动就业人数",
+              "unit": "人",
+              "values": {
+                "2024年": "125"
+              },
+              "evidence_text": "预计到2025年将带动就业人数 人 2024年 125"
+            },
+            {
+              "metric_name": "预计增加政府税收收入",
+              "unit": "万元",
+              "values": {
+                "2024年": "1720"
+              },
+              "evidence_text": "预计增加政府税收收入 万元 2024年 1720"
+            },
+            {
+              "metric_name": "获得兵二Ⅱ期8万千瓦风电项目批复，重点开发巴州若羌罗布风口区，预计投资",
+              "unit": "亿元",
+              "values": {
+                "2024年": "3.8"
+              },
+              "evidence_text": "获得兵二Ⅱ期8万千瓦风电项目批复，重点开发巴州若羌罗布风口区，预计投资 亿元 2024年 3.8"
+            }
+          ]
+        },
+        {
+          "table_title": "量化数据绩效表-投身公益慈善",
+          "columns": [
+            "指标",
+            "单位",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "公司社会志愿服务活动惠及人数",
+              "unit": "人",
+              "values": {
+                "2024年": "4000"
+              },
+              "evidence_text": "公司社会志愿服务活动惠及人数 人 2024年 4000"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_35.png",
+      "page_type": "content_index",
+      "page_note": "该页面为ESG报告的附录部分，主要包含指标索引，未直接展示具体的ESG绩效数值，因此不判定为performance_data_table。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_35_left.png",
+      "page_type": "other",
+      "page_note": "页面内容为中船科技股份有限公司的未来展望文字描述，未包含ESG绩效数据表格。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_35_right.png",
+      "page_type": "content_index",
+      "page_note": "该页面为ESG报告的指标索引表，列出了不同一级和二级标题对应的上交所《上市公司自律监管指引第14号——可持续发展报告（试行）》和《中国企业可持续发展报告指南(CASS-ESG6.0)》中的具体页码或条款。",
+      "tables": [],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_36.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "关键绩效",
+          "columns": [
+            "指标",
+            "单位",
+            "2022年",
+            "2023年",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "总资产",
+              "unit": "亿元",
+              "values": {
+                "2022年": "75.29",
+                "2023年": "480.81",
+                "2024年": "481.04"
+              },
+              "evidence_text": "总资产 亿元 2022年 75.29 2023年 480.81 2024年 481.04"
+            },
+            {
+              "metric_name": "营业收入",
+              "unit": "亿元",
+              "values": {
+                "2022年": "33.49",
+                "2023年": "144.86",
+                "2024年": "84.23"
+              },
+              "evidence_text": "营业收入 亿元 2022年 33.49 2023年 144.86 2024年 84.23"
+            },
+            {
+              "metric_name": "利税总额",
+              "unit": "亿元",
+              "values": {
+                "2022年": "1.18",
+                "2023年": "1.5",
+                "2024年": "3.51"
+              },
+              "evidence_text": "利税总额 亿元 2022年 1.18 2023年 1.5 2024年 3.51"
+            },
+            {
+              "metric_name": "净利润",
+              "unit": "亿元",
+              "values": {
+                "2022年": "1.1",
+                "2023年": "1.62",
+                "2024年": "1.46"
+              },
+              "evidence_text": "净利润 亿元 2022年 1.1 2023年 1.62 2024年 1.46"
+            },
+            {
+              "metric_name": "纳税总额",
+              "unit": "亿元",
+              "values": {
+                "2022年": "0.77",
+                "2023年": "2.07",
+                "2024年": "6.16"
+              },
+              "evidence_text": "纳税总额 亿元 2022年 0.77 2023年 2.07 2024年 6.16"
+            },
+            {
+              "metric_name": "报告期内派东分红总额",
+              "unit": "亿元",
+              "values": {
+                "2022年": "0.44",
+                "2023年": "0.33",
+                "2024年": "0.5"
+              },
+              "evidence_text": "报告期内派东分红总额 亿元 2022年 0.44 2023年 0.33 2024年 0.5"
+            },
+            {
+              "metric_name": "净资产收益率",
+              "unit": "%",
+              "values": {
+                "2022年": "2.52",
+                "2023年": "1.76",
+                "2024年": "1.91"
+              },
+              "evidence_text": "净资产收益率 % 2022年 2.52 2023年 1.76 2024年 1.91"
+            },
+            {
+              "metric_name": "总资产报酬率",
+              "unit": "%",
+              "values": {
+                "2022年": "2.12",
+                "2023年": "1.41",
+                "2024年": "1.58"
+              },
+              "evidence_text": "总资产报酬率 % 2022年 2.12 2023年 1.41 2024年 1.58"
+            },
+            {
+              "metric_name": "资产负债率",
+              "unit": "%",
+              "values": {
+                "2022年": "42.24",
+                "2023年": "76.36",
+                "2024年": "75.27"
+              },
+              "evidence_text": "资产负债率 % 2022年 42.24 2023年 76.36 2024年 75.27"
+            },
+            {
+              "metric_name": "国有资本保值增值率",
+              "unit": "%",
+              "values": {
+                "2022年": "102.76",
+                "2023年": "162.22",
+                "2024年": "101.44"
+              },
+              "evidence_text": "国有资本保值增值率 % 2022年 102.76 2023年 162.22 2024年 101.44"
+            },
+            {
+              "metric_name": "守法合规培训次数",
+              "unit": "次",
+              "values": {
+                "2022年": "15",
+                "2023年": "32",
+                "2024年": "33"
+              },
+              "evidence_text": "守法合规培训次数 次 2022年 15 2023年 32 2024年 33"
+            },
+            {
+              "metric_name": "反贪腐培训次数",
+              "unit": "次",
+              "values": {
+                "2022年": "6",
+                "2023年": "54",
+                "2024年": "58"
+              },
+              "evidence_text": "反贪腐培训次数 次 2022年 6 2023年 54 2024年 58"
+            },
+            {
+              "metric_name": "ESG培训次数",
+              "unit": "次",
+              "values": {
+                "2022年": "3",
+                "2023年": "3",
+                "2024年": "2"
+              },
+              "evidence_text": "ESG培训次数 次 2022年 3 2023年 3 2024年 2"
+            },
+            {
+              "metric_name": "研发投入金额",
+              "unit": "万元",
+              "values": {
+                "2022年": "8063.44",
+                "2023年": "53484.79",
+                "2024年": "46781.16"
+              },
+              "evidence_text": "研发投入金额 万元 2022年 8063.44 2023年 53484.79 2024年 46781.16"
+            },
+            {
+              "metric_name": "研发投入占主营业务收入比例",
+              "unit": "%",
+              "values": {
+                "2022年": "2.42",
+                "2023年": "4.38",
+                "2024年": "5.53"
+              },
+              "evidence_text": "研发投入占主营业务收入比例 % 2022年 2.42 2023年 4.38 2024年 5.53"
+            },
+            {
+              "metric_name": "研发人员数量",
+              "unit": "人",
+              "values": {
+                "2022年": "545",
+                "2023年": "1274",
+                "2024年": "952"
+              },
+              "evidence_text": "研发人员数量 人 2022年 545 2023年 1274 2024年 952"
+            },
+            {
+              "metric_name": "研发人员占员工总人数比例",
+              "unit": "%",
+              "values": {
+                "2022年": "34.67",
+                "2023年": "24.19",
+                "2024年": "25.76"
+              },
+              "evidence_text": "研发人员占员工总人数比例 % 2022年 34.67 2023年 24.19 2024年 25.76"
+            },
+            {
+              "metric_name": "有效专利数",
+              "unit": "件",
+              "values": {
+                "2022年": "462",
+                "2023年": "105C",
+                "2024年": "1007"
+              },
+              "evidence_text": "有效专利数 件 2022年 462 2023年 105C 2024年 1007"
+            },
+            {
+              "metric_name": "每百万元台收有效专利数",
+              "unit": "件",
+              "values": {
+                "2022年": "0.14",
+                "2023年": "0.07",
+                "2024年": "0.12"
+              },
+              "evidence_text": "每百万元台收有效专利数 件 2022年 0.14 2023年 0.07 2024年 0.12"
+            },
+            {
+              "metric_name": "完成专利受理",
+              "unit": "件",
+              "values": {
+                "2022年": "236",
+                "2023年": "86",
+                "2024年": "501"
+              },
+              "evidence_text": "完成专利受理 件 2022年 236 2023年 86 2024年 501"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_37.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "ESG 绩效数据表-环境绩效",
+          "columns": [
+            "指标",
+            "单位",
+            "2022年",
+            "2023年",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "环保专利授权",
+              "unit": "件",
+              "values": {
+                "2022年": "56",
+                "2023年": "15",
+                "2024年": "175"
+              },
+              "evidence_text": "环保专利授权 件 56 15 175"
+            },
+            {
+              "metric_name": "全员劳动生产率",
+              "unit": "万元/人",
+              "values": {
+                "2022年": "49.12",
+                "2023年": "49.16",
+                "2024年": "57.16"
+              },
+              "evidence_text": "全员劳动生产率 万元/人 49.12 49.16 57.16"
+            },
+            {
+              "metric_name": "环保总投入",
+              "unit": "万元",
+              "values": {
+                "2022年": "4149.58",
+                "2023年": "5538.72",
+                "2024年": "5538.72"
+              },
+              "evidence_text": "环保总投入 万元 4149.58 5538.72 5538.72"
+            },
+            {
+              "metric_name": "环保总投入占营业收入比例",
+              "unit": "%",
+              "values": {
+                "2022年": "3.29",
+                "2023年": "0.66",
+                "2024年": "0.66"
+              },
+              "evidence_text": "环保总投入占营业收入比例 % 3.29 0.66 0.66"
+            },
+            {
+              "metric_name": "环保培训覆盖率",
+              "unit": "%",
+              "values": {
+                "2022年": "100",
+                "2023年": "100",
+                "2024年": "100"
+              },
+              "evidence_text": "环保培训覆盖率 % 100 100 100"
+            },
+            {
+              "metric_name": "全年上网电量",
+              "unit": "亿千瓦时",
+              "values": {
+                "2022年": "14.47",
+                "2023年": "33.34",
+                "2024年": "33.34"
+              },
+              "evidence_text": "全年上网电量 亿千瓦时 14.47 33.34 33.34"
+            },
+            {
+              "metric_name": "年度市电用量",
+              "unit": "万千瓦时",
+              "values": {
+                "2022年": "47794.48",
+                "2023年": "53133.88",
+                "2024年": "53133.88"
+              },
+              "evidence_text": "年度市电用量 万千瓦时 47794.48 53133.88 53133.88"
+            },
+            {
+              "metric_name": "能耗消耗总量",
+              "unit": "吨标准煤",
+              "values": {
+                "2022年": "13335.31",
+                "2023年": "9082.19",
+                "2024年": "9082.19"
+              },
+              "evidence_text": "能耗消耗总量 吨标准煤 13335.31 9082.19 9082.19"
+            },
+            {
+              "metric_name": "清洁能源使用量",
+              "unit": "千瓦时",
+              "values": {
+                "2022年": "1274704",
+                "2023年": "1499027.31",
+                "2024年": "1499027.31"
+              },
+              "evidence_text": "清洁能源使用量 千瓦时 1274704 1499027.31 1499027.31"
+            },
+            {
+              "metric_name": "温室气体排放总量",
+              "unit": "吨",
+              "values": {
+                "2022年": "13876.4",
+                "2023年": "35042.2",
+                "2024年": "35042.2"
+              },
+              "evidence_text": "温室气体排放总量 吨 13876.4 35042.2 35042.2"
+            },
+            {
+              "metric_name": "减少秸秆二氧化硫当量",
+              "unit": "万吨",
+              "values": {
+                "2022年": "147.95",
+                "2023年": "442.63",
+                "2024年": "442.63"
+              },
+              "evidence_text": "减少秸秆二氧化硫当量 万吨 147.95 442.63 442.63"
+            },
+            {
+              "metric_name": "总耗水量",
+              "unit": "吨",
+              "values": {
+                "2022年": "19274",
+                "2023年": "298050",
+                "2024年": "293341.33"
+              },
+              "evidence_text": "总耗水量 吨 19274 298050 293341.33"
+            },
+            {
+              "metric_name": "年度新鲜水用量",
+              "unit": "吨",
+              "values": {
+                "2022年": "204760",
+                "2023年": "122168",
+                "2024年": "122168"
+              },
+              "evidence_text": "年度新鲜水用量 吨 204760 122168 122168"
+            },
+            {
+              "metric_name": "废水排放总量",
+              "unit": "立方米",
+              "values": {
+                "2022年": "120000",
+                "2023年": "106150",
+                "2024年": "106150"
+              },
+              "evidence_text": "废水排放总量 立方米 120000 106150 106150"
+            },
+            {
+              "metric_name": "一般废弃物排放量",
+              "unit": "吨",
+              "values": {
+                "2022年": "10908.04",
+                "2023年": "48743",
+                "2024年": "48743"
+              },
+              "evidence_text": "一般废弃物排放量 吨 10908.04 48743 48743"
+            },
+            {
+              "metric_name": "危险废物排放量",
+              "unit": "吨",
+              "values": {
+                "2022年": "624.13",
+                "2023年": "967.6",
+                "2024年": "967.6"
+              },
+              "evidence_text": "危险废物排放量 吨 624.13 967.6 967.6"
+            },
+            {
+              "metric_name": "工业固体废物重复利用率",
+              "unit": "%",
+              "values": {
+                "2022年": "100",
+                "2023年": "100",
+                "2024年": "100"
+              },
+              "evidence_text": "工业固体废物重复利用率 % 100 100 100"
+            },
+            {
+              "metric_name": "固废处置合规率",
+              "unit": "%",
+              "values": {
+                "2022年": "100",
+                "2023年": "100",
+                "2024年": "100"
+              },
+              "evidence_text": "固废处置合规率 % 100 100 100"
+            },
+            {
+              "metric_name": "污染物排放达标率",
+              "unit": "%",
+              "values": {
+                "2022年": "100",
+                "2023年": "100",
+                "2024年": "100"
+              },
+              "evidence_text": "污染物排放达标率 % 100 100 100"
+            },
+            {
+              "metric_name": "主要污染物排放达标率",
+              "unit": "%",
+              "values": {
+                "2022年": "100",
+                "2023年": "100",
+                "2024年": "100"
+              },
+              "evidence_text": "主要污染物排放达标率 % 100 100 100"
+            },
+            {
+              "metric_name": "员工人数",
+              "unit": "人",
+              "values": {
+                "2022年": "1572",
+                "2023年": "4699",
+                "2024年": "3696"
+              },
+              "evidence_text": "员工人数 人 1572 4699 3696"
+            },
+            {
+              "metric_name": "按专业构成",
+              "unit": null,
+              "values": {
+                "2022年": null,
+                "2023年": null,
+                "2024年": null
+              },
+              "evidence_text": "按专业构成"
+            },
+            {
+              "metric_name": "生产技术人员",
+              "unit": "人",
+              "values": {
+                "2022年": "1235",
+                "2023年": "3893",
+                "2024年": "2685"
+              },
+              "evidence_text": "生产技术人员 人 1235 3893 2685"
+            },
+            {
+              "metric_name": "销售人员",
+              "unit": "人",
+              "values": {
+                "2022年": "71",
+                "2023年": "224",
+                "2024年": "274"
+              },
+              "evidence_text": "销售人员 人 71 224 274"
+            },
+            {
+              "metric_name": "财务人员",
+              "unit": "人",
+              "values": {
+                "2022年": "48",
+                "2023年": "155",
+                "2024年": "104"
+              },
+              "evidence_text": "财务人员 人 48 155 104"
+            }
+          ]
+        },
+        {
+          "table_title": "ESG 绩效数据表-社会绩效",
+          "columns": [
+            "指标",
+            "单位",
+            "2022年",
+            "2023年",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "按专业构成",
+              "unit": "行政人员",
+              "values": {
+                "2022年": "218",
+                "2023年": "467",
+                "2024年": "633"
+              },
+              "evidence_text": "按专业构成 行政人员 218 467 633"
+            },
+            {
+              "metric_name": "按教育程度",
+              "unit": "研究生及以上学历",
+              "values": {
+                "2022年": "350",
+                "2023年": "885",
+                "2024年": "803"
+              },
+              "evidence_text": "按教育程度 研究生及以上学历 350 885 803"
+            },
+            {
+              "metric_name": "本科",
+              "unit": "人",
+              "values": {
+                "2022年": "928",
+                "2023年": "2587",
+                "2024年": "2067"
+              },
+              "evidence_text": "本科 人 928 2587 2067"
+            },
+            {
+              "metric_name": "大专及以下学历",
+              "unit": "人",
+              "values": {
+                "2022年": "294",
+                "2023年": "1227",
+                "2024年": "826"
+              },
+              "evidence_text": "大专及以下学历 人 294 1227 826"
+            },
+            {
+              "metric_name": "按性别构成",
+              "unit": "女性员工比例",
+              "values": {
+                "2022年": "29.9",
+                "2023年": "24.53",
+                "2024年": "20.4"
+              },
+              "evidence_text": "按性别构成 女性员工比例 % 29.9 24.53 20.4"
+            },
+            {
+              "metric_name": "女性管理者占比",
+              "unit": "%",
+              "values": {
+                "2022年": "35.2",
+                "2023年": "12.76",
+                "2024年": "14.95"
+              },
+              "evidence_text": "女性管理者占比 % 35.2 12.76 14.95"
+            },
+            {
+              "metric_name": "劳动合同签订率",
+              "unit": "%",
+              "values": {
+                "2022年": "100",
+                "2023年": "100",
+                "2024年": "100"
+              },
+              "evidence_text": "劳动合同签订率 % 100 100 100"
+            },
+            {
+              "metric_name": "社会保险覆盖率",
+              "unit": "%",
+              "values": {
+                "2022年": "100",
+                "2023年": "100",
+                "2024年": "100"
+              },
+              "evidence_text": "社会保险覆盖率 % 100 100 100"
+            },
+            {
+              "metric_name": "工会覆盖率",
+              "unit": "%",
+              "values": {
+                "2022年": "100",
+                "2023年": "100",
+                "2024年": "100"
+              },
+              "evidence_text": "工会覆盖率 % 100 100 100"
+            },
+            {
+              "metric_name": "健康安全覆盖率",
+              "unit": "%",
+              "values": {
+                "2022年": "100",
+                "2023年": "100",
+                "2024年": "100"
+              },
+              "evidence_text": "健康安全覆盖率 % 100 100 100"
+            },
+            {
+              "metric_name": "员工培训次数",
+              "unit": "次",
+              "values": {
+                "2022年": "34",
+                "2023年": "4709",
+                "2024年": "3266"
+              },
+              "evidence_text": "员工培训次数 次 34 4709 3266"
+            },
+            {
+              "metric_name": "员工培训人次",
+              "unit": "人次",
+              "values": {
+                "2022年": "10896",
+                "2023年": "129857",
+                "2024年": "97975"
+              },
+              "evidence_text": "员工培训人次 人次 10896 129857 97975"
+            },
+            {
+              "metric_name": "培训总时长",
+              "unit": "小时",
+              "values": {
+                "2022年": "127511",
+                "2023年": "610478.99",
+                "2024年": "407853.6"
+              },
+              "evidence_text": "培训总时长 小时 127511 610478.99 407853.6"
+            },
+            {
+              "metric_name": "人均培训时长",
+              "unit": "小时",
+              "values": {
+                "2022年": "-",
+                "2023年": "499.41",
+                "2024年": "110.35"
+              },
+              "evidence_text": "人均培训时长 小时 - 499.41 110.35"
+            },
+            {
+              "metric_name": "员工培训支出金额",
+              "unit": "万元",
+              "values": {
+                "2022年": "239.78",
+                "2023年": "881.84",
+                "2024年": "562.205"
+              },
+              "evidence_text": "员工培训支出金额 万元 239.78 881.84 562.205"
+            },
+            {
+              "metric_name": "员工培训覆盖率",
+              "unit": "%",
+              "values": {
+                "2022年": "-",
+                "2023年": "100",
+                "2024年": "100"
+              },
+              "evidence_text": "员工培训覆盖率 % - 100 100"
+            },
+            {
+              "metric_name": "新增职业病",
+              "unit": "人",
+              "values": {
+                "2022年": "0",
+                "2023年": "0",
+                "2024年": "0"
+              },
+              "evidence_text": "新增职业病 人 0 0 0"
+            },
+            {
+              "metric_name": "安全生产总投入",
+              "unit": "万元",
+              "values": {
+                "2022年": "1358.55",
+                "2023年": "1250.94",
+                "2024年": "441.43"
+              },
+              "evidence_text": "安全生产总投入 万元 1358.55 1250.94 441.43"
+            },
+            {
+              "metric_name": "安全生产投入占营业收入比例",
+              "unit": "%",
+              "values": {
+                "2022年": "0.406",
+                "2023年": "0.086",
+                "2024年": "0.1524"
+              },
+              "evidence_text": "安全生产投入占营业收入比例 % 0.406 0.086 0.1524"
+            },
+            {
+              "metric_name": "安全教育与培训次数",
+              "unit": "人次",
+              "values": {
+                "2022年": "2578",
+                "2023年": "30814",
+                "2024年": "89158"
+              },
+              "evidence_text": "安全教育与培训次数 人次 2578 30814 89158"
+            },
+            {
+              "metric_name": "安全培训覆盖率",
+              "unit": "%",
+              "values": {
+                "2022年": "100",
+                "2023年": "100",
+                "2024年": "100"
+              },
+              "evidence_text": "安全培训覆盖率 % 100 100 100"
+            },
+            {
+              "metric_name": "产品合格率",
+              "unit": "%",
+              "values": {
+                "2022年": "100",
+                "2023年": "99.08",
+                "2024年": "100"
+              },
+              "evidence_text": "产品合格率 % 100 99.08 100"
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    },
+    {
+      "page_image": "page_38.png",
+      "page_type": "performance_data_table",
+      "page_note": null,
+      "tables": [
+        {
+          "table_title": "ESG 数据表",
+          "columns": [
+            "指标",
+            "单位",
+            "2022年",
+            "2023年",
+            "2024年"
+          ],
+          "rows": [
+            {
+              "metric_name": "报告期内发生客户健康与安全负面事件",
+              "unit": "件",
+              "values": {
+                "2022年": "0",
+                "2023年": "0",
+                "2024年": "0"
+              },
+              "evidence_text": "报告期内发生客户健康与安全负面事件 件 2022年 0 2023年 0 2024年 0",
+              "topic": null
+            },
+            {
+              "metric_name": "审核的供应商数量",
+              "unit": "家",
+              "values": {
+                "2022年": "675",
+                "2023年": "1416",
+                "2024年": "427"
+              },
+              "evidence_text": "审核的供应商数量 家 2022年 675 2023年 1416 2024年 427",
+              "topic": null
+            },
+            {
+              "metric_name": "对外捐赠总额",
+              "unit": "万元",
+              "values": {
+                "2022年": "21.98",
+                "2023年": "25.52",
+                "2024年": "31.9"
+              },
+              "evidence_text": "对外捐赠总额 万元 2022年 21.98 2023年 25.52 2024年 31.9",
+              "topic": null
+            },
+            {
+              "metric_name": "乡村振兴总投资金额",
+              "unit": "万元",
+              "values": {
+                "2022年": "-",
+                "2023年": "11.12",
+                "2024年": "13.18"
+              },
+              "evidence_text": "乡村振兴总投资金额 万元 2022年 - 2023年 11.12 2024年 13.18",
+              "topic": null
+            },
+            {
+              "metric_name": "志愿服务参与人次",
+              "unit": "人次",
+              "values": {
+                "2022年": "283",
+                "2023年": "710",
+                "2024年": "693"
+              },
+              "evidence_text": "志愿服务参与人次 人次 2022年 283 2023年 710 2024年 693",
+              "topic": null
+            },
+            {
+              "metric_name": "年度志愿活动总时长",
+              "unit": "小时",
+              "values": {
+                "2022年": "4173",
+                "2023年": "7347",
+                "2024年": "6747"
+              },
+              "evidence_text": "年度志愿活动总时长 小时 2022年 4173 2023年 7347 2024年 6747",
+              "topic": null
+            }
+          ]
+        }
+      ],
+      "retry_used": false
+    }
+  ],
+  "raw_row_count": 108,
+  "standard_results": {
+    "total_ghg_emissions": {
+      "field_key": "total_ghg_emissions",
+      "value": 35042.2,
+      "raw_value": "35042.2",
+      "unit": "吨",
+      "year": 2024,
+      "row_label": "温室气体排放总量",
+      "topic": null,
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "page_image": "page_37.png",
+      "evidence_text": "温室气体排放总量 吨 13876.4 35042.2 35042.2",
+      "status": "extracted",
+      "confidence": 0.94,
+      "match_reason": "heuristic_total_ghg; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "ghg_emissions_intensity": {
+      "field_key": "ghg_emissions_intensity",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "温室气体排放强度",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "scope_1_emissions": {
+      "field_key": "scope_1_emissions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "范围一温室气体排放量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "scope_2_emissions": {
+      "field_key": "scope_2_emissions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "范围二温室气体排放量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "energy_consumption_total": {
+      "field_key": "energy_consumption_total",
+      "value": 100051,
+      "raw_value": "100,051.00",
+      "unit": "吨标煤",
+      "year": 2024,
+      "row_label": "综合能源消耗总量",
+      "topic": "能源总量情况",
+      "table_title": "量化数据绩效表-环境绩效",
+      "page_image": "page_30.png",
+      "evidence_text": "能源总量情况 综合能源消耗总量 吨标煤 2024年 100,051.00",
+      "status": "extracted",
+      "confidence": 0.96,
+      "match_reason": "normalized_alias_match:能源消耗总量; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "energy_consumption_intensity": {
+      "field_key": "energy_consumption_intensity",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "能源消耗强度",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "natural_gas_consumption": {
+      "field_key": "natural_gas_consumption",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "天然气消耗量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "electricity_consumption": {
+      "field_key": "electricity_consumption",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "用电量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "water_consumption": {
+      "field_key": "water_consumption",
+      "value": 293341.33,
+      "raw_value": "293341.33",
+      "unit": "吨",
+      "year": 2024,
+      "row_label": "总耗水量",
+      "topic": null,
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "page_image": "page_37.png",
+      "evidence_text": "总耗水量 吨 19274 298050 293341.33",
+      "status": "extracted",
+      "confidence": 0.92,
+      "match_reason": "heuristic_water; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "wastewater_discharge": {
+      "field_key": "wastewater_discharge",
+      "value": 106150,
+      "raw_value": "106150",
+      "unit": "立方米",
+      "year": 2024,
+      "row_label": "废水排放总量",
+      "topic": null,
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "page_image": "page_37.png",
+      "evidence_text": "废水排放总量 立方米 120000 106150 106150",
+      "status": "extracted",
+      "confidence": 0.96,
+      "match_reason": "normalized_alias_match:废水排放总量; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "air_pollutant_emissions": {
+      "field_key": "air_pollutant_emissions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "废气或大气污染物排放量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "non_hazardous_waste": {
+      "field_key": "non_hazardous_waste",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "一般废弃物产生量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "hazardous_waste": {
+      "field_key": "hazardous_waste",
+      "value": 967.6,
+      "raw_value": "967.6",
+      "unit": "吨",
+      "year": 2024,
+      "row_label": "危险废物排放量",
+      "topic": null,
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "page_image": "page_37.png",
+      "evidence_text": "危险废物排放量 吨 624.13 967.6 967.6",
+      "status": "extracted",
+      "confidence": 0.93,
+      "match_reason": "heuristic_hazardous_waste; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "environmental_investment": {
+      "field_key": "environmental_investment",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "环保投入金额",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "environmental_penalty_count": {
+      "field_key": "environmental_penalty_count",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "环境违规或处罚事件数量",
+      "category": "E",
+      "indicator_type": "quantitative"
+    },
+    "total_employees": {
+      "field_key": "total_employees",
+      "value": 11000,
+      "raw_value": "11,000",
+      "unit": "人",
+      "year": 2024,
+      "row_label": "员工总数",
+      "topic": "员工",
+      "table_title": "量化数据绩效表-环境绩效",
+      "page_image": "page_30.png",
+      "evidence_text": "员工 员工总数 人 2024年 11,000",
+      "status": "extracted",
+      "confidence": 0.93,
+      "match_reason": "heuristic_total_employees; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "male_employees": {
+      "field_key": "male_employees",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "男性员工人数",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "female_employees": {
+      "field_key": "female_employees",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "女性员工人数",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "female_employee_ratio": {
+      "field_key": "female_employee_ratio",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "女性员工比例",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "employee_turnover_rate": {
+      "field_key": "employee_turnover_rate",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "员工流失率",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "training_total_hours": {
+      "field_key": "training_total_hours",
+      "value": 407853.6,
+      "raw_value": "407853.6",
+      "unit": "小时",
+      "year": 2024,
+      "row_label": "培训总时长",
+      "topic": null,
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "page_image": "page_37.png",
+      "evidence_text": "培训总时长 小时 127511 610478.99 407853.6",
+      "status": "extracted",
+      "confidence": 0.9500000000000001,
+      "match_reason": "normalized_alias_match:培训总时长; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "training_hours_per_employee": {
+      "field_key": "training_hours_per_employee",
+      "value": 110.35,
+      "raw_value": "110.35",
+      "unit": "小时",
+      "year": 2024,
+      "row_label": "人均培训时长",
+      "topic": null,
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "page_image": "page_37.png",
+      "evidence_text": "人均培训时长 小时 - 499.41 110.35",
+      "status": "extracted",
+      "confidence": 0.9,
+      "match_reason": "heuristic_training_hours_per_employee; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "training_coverage_rate": {
+      "field_key": "training_coverage_rate",
+      "value": 100,
+      "raw_value": "100",
+      "unit": "%",
+      "year": 2024,
+      "row_label": "员工培训覆盖率",
+      "topic": null,
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "page_image": "page_37.png",
+      "evidence_text": "员工培训覆盖率 % - 100 100",
+      "status": "extracted",
+      "confidence": 0.97,
+      "match_reason": "normalized_alias_match:员工培训覆盖率; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "social_security_coverage": {
+      "field_key": "social_security_coverage",
+      "value": 100,
+      "raw_value": "100",
+      "unit": "%",
+      "year": 2024,
+      "row_label": "社会保险覆盖率",
+      "topic": null,
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "page_image": "page_37.png",
+      "evidence_text": "社会保险覆盖率 % 100 100 100",
+      "status": "extracted",
+      "confidence": 0.92,
+      "match_reason": "heuristic_social_security_coverage; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "employee_medical_checkup_coverage": {
+      "field_key": "employee_medical_checkup_coverage",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "员工体检覆盖率",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "trained_employees_count": {
+      "field_key": "trained_employees_count",
+      "value": 97975,
+      "raw_value": "97975",
+      "unit": "人次",
+      "year": 2024,
+      "row_label": "员工培训人次",
+      "topic": null,
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "page_image": "page_37.png",
+      "evidence_text": "员工培训人次 人次 10896 129857 97975",
+      "status": "extracted",
+      "confidence": 0.96,
+      "match_reason": "normalized_alias_match:员工培训人次; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "safety_accident_count": {
+      "field_key": "safety_accident_count",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "安全生产事故数量",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "occupational_health_safety_investment": {
+      "field_key": "occupational_health_safety_investment",
+      "value": 441.43,
+      "raw_value": "441.43",
+      "unit": "万元",
+      "year": 2024,
+      "row_label": "安全生产总投入",
+      "topic": null,
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "page_image": "page_37.png",
+      "evidence_text": "安全生产总投入 万元 1358.55 1250.94 441.43",
+      "status": "extracted",
+      "confidence": 0.94,
+      "match_reason": "fuzzy_alias_match:0.92:安全生产投入; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "safety_emergency_drill_count": {
+      "field_key": "safety_emergency_drill_count",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "安全应急演练次数",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "lost_work_days_due_to_injury": {
+      "field_key": "lost_work_days_due_to_injury",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "因工伤损失工作日数",
+      "category": "S",
+      "indicator_type": "quantitative"
+    },
+    "r_and_d_personnel_count": {
+      "field_key": "r_and_d_personnel_count",
+      "value": 952,
+      "raw_value": "952",
+      "unit": "人",
+      "year": 2024,
+      "row_label": "研发人员数量",
+      "topic": null,
+      "table_title": "关键绩效",
+      "page_image": "page_36.png",
+      "evidence_text": "研发人员数量 人 2022年 545 2023年 1274 2024年 952",
+      "status": "extracted",
+      "confidence": 0.96,
+      "match_reason": "normalized_alias_match:研发人员数量; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "r_and_d_expense": {
+      "field_key": "r_and_d_expense",
+      "value": 46781.16,
+      "raw_value": "46781.16",
+      "unit": "万元",
+      "year": 2024,
+      "row_label": "研发投入金额",
+      "topic": null,
+      "table_title": "关键绩效",
+      "page_image": "page_36.png",
+      "evidence_text": "研发投入金额 万元 2022年 8063.44 2023年 53484.79 2024年 46781.16",
+      "status": "extracted",
+      "confidence": 0.96,
+      "match_reason": "normalized_alias_match:研发投入金额; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "public_welfare_investment": {
+      "field_key": "public_welfare_investment",
+      "value": 31.9,
+      "raw_value": "31.9",
+      "unit": "万元",
+      "year": 2024,
+      "row_label": "对外捐赠总额",
+      "topic": null,
+      "table_title": "ESG 数据表",
+      "page_image": "page_38.png",
+      "evidence_text": "对外捐赠总额 万元 2022年 21.98 2023年 25.52 2024年 31.9",
+      "status": "extracted",
+      "confidence": 0.9400000000000001,
+      "match_reason": "normalized_alias_match:对外捐赠; schema_match_validated",
+      "source_type": "appendix_table"
+    },
+    "board_size": {
+      "field_key": "board_size",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "董事会人数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "independent_directors": {
+      "field_key": "independent_directors",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "独立董事人数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "independent_director_ratio": {
+      "field_key": "independent_director_ratio",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "独立董事比例",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "female_directors": {
+      "field_key": "female_directors",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "女性董事人数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "board_meetings": {
+      "field_key": "board_meetings",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "董事会会议次数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "shareholder_meetings": {
+      "field_key": "shareholder_meetings",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "股东大会会议次数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "anti_corruption_training_sessions": {
+      "field_key": "anti_corruption_training_sessions",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "反腐败培训次数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "anti_corruption_training_participants": {
+      "field_key": "anti_corruption_training_participants",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "反腐败培训人数",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "confirmed_corruption_cases": {
+      "field_key": "confirmed_corruption_cases",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "确认腐败案件数量",
+      "category": "G",
+      "indicator_type": "quantitative"
+    },
+    "esg_strategy_targets": {
+      "field_key": "esg_strategy_targets",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "ESG战略目标",
+      "category": "E",
+      "indicator_type": "qualitative"
+    },
+    "climate_risk_management": {
+      "field_key": "climate_risk_management",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "气候风险识别与管理",
+      "category": "E",
+      "indicator_type": "qualitative"
+    },
+    "environmental_management_system": {
+      "field_key": "environmental_management_system",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "环境管理体系",
+      "category": "E",
+      "indicator_type": "qualitative"
+    },
+    "energy_saving_measures": {
+      "field_key": "energy_saving_measures",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "节能减排措施",
+      "category": "E",
+      "indicator_type": "qualitative"
+    },
+    "water_management_measures": {
+      "field_key": "water_management_measures",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "水资源管理措施",
+      "category": "E",
+      "indicator_type": "qualitative"
+    },
+    "waste_management_measures": {
+      "field_key": "waste_management_measures",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "废弃物管理措施",
+      "category": "E",
+      "indicator_type": "qualitative"
+    },
+    "employee_rights_policy": {
+      "field_key": "employee_rights_policy",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "员工权益保障政策",
+      "category": "S",
+      "indicator_type": "qualitative"
+    },
+    "occupational_health_safety_system": {
+      "field_key": "occupational_health_safety_system",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "职业健康安全管理体系",
+      "category": "S",
+      "indicator_type": "qualitative"
+    },
+    "employee_training_development": {
+      "field_key": "employee_training_development",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "员工培训与发展机制",
+      "category": "S",
+      "indicator_type": "qualitative"
+    },
+    "diversity_equal_opportunity": {
+      "field_key": "diversity_equal_opportunity",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "多元化与平等雇佣政策",
+      "category": "S",
+      "indicator_type": "qualitative"
+    },
+    "supplier_esg_assessment": {
+      "field_key": "supplier_esg_assessment",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "供应商ESG管理机制",
+      "category": "S",
+      "indicator_type": "qualitative"
+    },
+    "data_security_privacy": {
+      "field_key": "data_security_privacy",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "数据安全与隐私保护机制",
+      "category": "S",
+      "indicator_type": "qualitative"
+    },
+    "board_esg_oversight": {
+      "field_key": "board_esg_oversight",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "董事会ESG监督机制",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "esg_committee": {
+      "field_key": "esg_committee",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "ESG治理架构或委员会",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "anti_corruption_policy": {
+      "field_key": "anti_corruption_policy",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "反腐败政策",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "whistleblowing_mechanism": {
+      "field_key": "whistleblowing_mechanism",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "举报机制与举报人保护",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "business_ethics_training": {
+      "field_key": "business_ethics_training",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "商业道德培训机制",
+      "category": "G",
+      "indicator_type": "qualitative"
+    },
+    "investor_communication": {
+      "field_key": "investor_communication",
+      "value": null,
+      "status": "missing",
+      "confidence": 0.0,
+      "name_cn": "信息披露与投资者沟通机制",
+      "category": "G",
+      "indicator_type": "qualitative"
+    }
+  },
+  "unknown_metrics": [
+    {
+      "page_image": "page_18.png",
+      "table_title": "指标和目标",
+      "topic": null,
+      "metric_name": "2024年度绿色电力发电量",
+      "unit": "亿千瓦时",
+      "values": {
+        "2024年": "34"
+      },
+      "evidence_text": "2024年度绿色电力发电量 亿千瓦时 2024年 34",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_18.png",
+      "table_title": "指标和目标",
+      "topic": null,
+      "metric_name": "2024年度绿色电力电力达到",
+      "unit": "万千瓦",
+      "values": {
+        "2024年": "34"
+      },
+      "evidence_text": "2024年度绿色电力电力达到 万千瓦 2024年 34",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_18.png",
+      "table_title": "指标和目标",
+      "topic": null,
+      "metric_name": "2024年度减少二氧化碳排放量",
+      "unit": "万吨",
+      "values": {
+        "2024年": "442.69"
+      },
+      "evidence_text": "2024年度减少二氧化碳排放量 万吨 2024年 442.69",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_18.png",
+      "table_title": "指标和目标",
+      "topic": null,
+      "metric_name": "2024年度风电场共核发‘绿证’数量",
+      "unit": "万张",
+      "values": {
+        "2024年": "800"
+      },
+      "evidence_text": "2024年度风电场共核发‘绿证’数量 万张 2024年 800",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_18.png",
+      "table_title": "风险管理",
+      "topic": "物理风险",
+      "metric_name": "极端天气事件：风场和海上设施可能受到飓风、暴雨等极端天气事件的影响，导致设备损坏、停机或发生安全性事故。",
+      "unit": null,
+      "values": null,
+      "evidence_text": "物理风险 极端天气事件：风场和海上设施可能受到飓风、暴雨等极端天气事件的影响，导致设备损坏、停机或发生安全性事故。 针对风电场等业务，开展专项风险识别与影响分析",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_18.png",
+      "table_title": "风险管理",
+      "topic": "物理风险",
+      "metric_name": "气候变化：长期气候上升可能影响设备的运行效率和使用寿命。",
+      "unit": null,
+      "values": null,
+      "evidence_text": "物理风险 气候变化：长期气候上升可能影响设备的运行效率和使用寿命。 重新评估业务所在地的气候适应性，选择更适宜的生产布局",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_18.png",
+      "table_title": "风险管理",
+      "topic": "转型风险",
+      "metric_name": "政策法规变化：国家政府部门对企业、集团对成员与单位的节能降耗考核指标将从能耗使用总量和能耗使用强度向二氧化硫排放总量和二氧化碳排放强度靠拢转变。",
+      "unit": null,
+      "values": null,
+      "evidence_text": "转型风险 政策法规变化：国家政府部门对企业、集团对成员与单位的节能降耗考核指标将从能耗使用总量和能耗使用强度向二氧化硫排放总量和二氧化碳排放强度靠拢转变。 公司积极了解和掌握趋严政策，针对性地采取措施减少碳足迹，降低公司经营对气候变化的影响",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=heuristic_ghg_emissions_intensity"
+    },
+    {
+      "page_image": "page_18.png",
+      "table_title": "风险管理",
+      "topic": "转型风险",
+      "metric_name": "市场需求变化：消费者和市场对绿色低碳产品的需求增加。",
+      "unit": null,
+      "values": null,
+      "evidence_text": "转型风险 市场需求变化：消费者和市场对绿色低碳产品的需求增加。 公司以风力发电机组制造、风力发电项目开发运行为主业业务，深耕新能源市场，持续推进绿色工厂和绿色供应链、制造绿色设备、销售绿色电力",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_18.png",
+      "table_title": "风险管理",
+      "topic": "转型风险",
+      "metric_name": "技术风险：未能及时识别并应用低碳技术可能导致减排目标无法按期实现。",
+      "unit": null,
+      "values": null,
+      "evidence_text": "转型风险 技术风险：未能及时识别并应用低碳技术可能导致减排目标无法按期实现。 公司开展风电制氢、制炭、制甲醇等前沿技术攻关，构建全新全方位、多层次的清洁能源利用体系，助力新型电力系统建设和能源结构转型",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_19.png",
+      "table_title": "中船风电可核发绿证情况",
+      "topic": null,
+      "metric_name": "中船风电可核发绿证数量",
+      "unit": "万张",
+      "values": {
+        "2024年": "238"
+      },
+      "evidence_text": "中船风电可核发绿证 238 万张，截至 2024 年 12 月 31 日，已核发绿证 222 万张。",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_26.png",
+      "table_title": "中船九院安全培训与风险管理绩效",
+      "topic": "安全管理",
+      "metric_name": "组织开展安全、环保、消防保卫等各类培训次数",
+      "unit": "次",
+      "values": {
+        "2024年": "12"
+      },
+      "evidence_text": "中船九院 组织开展安全、环保、消防保卫等各类培训 12次，开展新员工入职和实习员工集中安全培训 2次。",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_26.png",
+      "table_title": "中船九院安全培训与风险管理绩效",
+      "topic": "安全管理",
+      "metric_name": "开展新员工入职和实习员工集中安全培训次数",
+      "unit": "次",
+      "values": {
+        "2024年": "2"
+      },
+      "evidence_text": "中船九院 组织开展安全、环保、消防保卫等各类培训 12次，开展新员工入职和实习员工集中安全培训 2次。",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_26.png",
+      "table_title": "中船九院安全培训与风险管理绩效",
+      "topic": "安全管理",
+      "metric_name": "人均安全培训时长",
+      "unit": "小时",
+      "values": {
+        "2024年": "2.85"
+      },
+      "evidence_text": "中船九院 2024年人均安全培训时长 2.85小时。",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=fuzzy_alias_match:0.86:人均培训时长"
+    },
+    {
+      "page_image": "page_26.png",
+      "table_title": "中船九院安全培训与风险管理绩效",
+      "topic": "安全管理",
+      "metric_name": "酒本培训方面，新入职员工按要求进行三级安全教育培训，培训合格后上岗",
+      "unit": "无",
+      "values": {
+        "2024年": "无"
+      },
+      "evidence_text": "中船九院 酒本培训方面，新入职员工按要求进行三级安全教育培训，培训合格后上岗。",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_26.png",
+      "table_title": "中船九院安全培训与风险管理绩效",
+      "topic": "安全管理",
+      "metric_name": "生产一线方面，结合公司业务，开展诸如早装作业、高处作业以及电工作业等安全专项培训，提升员工安全操作技能",
+      "unit": "无",
+      "values": {
+        "2024年": "无"
+      },
+      "evidence_text": "中船九院 生产一线方面，结合公司业务，开展诸如早装作业、高处作业以及电工作业等安全专项培训，提升员工安全操作技能。",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_26.png",
+      "table_title": "中船九院安全培训与风险管理绩效",
+      "topic": "安全管理",
+      "metric_name": "涉及职业病危害的岗位，进行职业危害防护培训",
+      "unit": "无",
+      "values": {
+        "2024年": "无"
+      },
+      "evidence_text": "中船九院 涉及职业病危害的岗位，进行职业危害防护培训。",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_26.png",
+      "table_title": "中船九院安全培训与风险管理绩效",
+      "topic": "安全管理",
+      "metric_name": "公司建立“四不两直”安全检查机制，开展安全生产风险辨识评估，通过安全风险隐患排查整治、日常检查，安全监管回头看等及时排查安全隐患，制定管控方案并整改，落实安全生产责任，确保认识到位、追责到位、管理到位",
+      "unit": "无",
+      "values": {
+        "2024年": "无"
+      },
+      "evidence_text": "中船九院 公司建立“四不两直”安全检查机制，开展安全生产风险辨识评估，通过安全风险隐患排查整治、日常检查，安全监管回头看等及时排查安全隐患，制定管控方案并整改，落实安全生产责任，确保认识到位、追责到位、管理到位。",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_26.png",
+      "table_title": "中船九院安全培训与风险管理绩效",
+      "topic": "安全管理",
+      "metric_name": "公司按照“三严三实”专题教育要求，扎实开展安全生产风险隐患排查整治工作，及时查出隐患，及时整改闭环，坚决杜绝发生安全事故",
+      "unit": "无",
+      "values": {
+        "2024年": "无"
+      },
+      "evidence_text": "中船九院 公司按照“三严三实”专题教育要求，扎实开展安全生产风险隐患排查整治工作，及时查出隐患，及时整改闭环，坚决杜绝发生安全事故。",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_26.png",
+      "table_title": "中船九院安全培训与风险管理绩效",
+      "topic": "安全管理",
+      "metric_name": "推进公司数字化安全管控平台平安云盾系统的应用，进行全员、系统隐患排查，隐患整改的及时率显著提升",
+      "unit": "无",
+      "values": {
+        "2024年": "无"
+      },
+      "evidence_text": "中船九院 推进公司数字化安全管控平台平安云盾系统的应用，进行全员、系统隐患排查，隐患整改的及时率显著提升。",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_26.png",
+      "table_title": "中船九院安全培训与风险管理绩效",
+      "topic": "安全管理",
+      "metric_name": "建立“日、周、月”隐患排查机制与“匹不两百”安全检查机制，及时发现生产现场各类安全隐患并由安全管理人员督促隐患整改闭环",
+      "unit": "无",
+      "values": {
+        "2024年": "无"
+      },
+      "evidence_text": "中船九院 建立“日、周、月”隐患排查机制与“匹不两百”安全检查机制，及时发现生产现场各类安全隐患并由安全管理人员督促隐患整改闭环。",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_26.png",
+      "table_title": "中船九院安全培训与风险管理绩效",
+      "topic": "安全管理",
+      "metric_name": "开发运行EHS信息化系统（安全眼）、量体安全环保监控体系、实施垂直归口项目制安全管理等举措，全力保障风电总装及项目场区的安全",
+      "unit": "无",
+      "values": {
+        "2024年": "无"
+      },
+      "evidence_text": "中船九院 开发运行EHS信息化系统（安全眼）、量体安全环保监控体系、实施垂直归口项目制安全管理等举措，全力保障风电总装及项目场区的安全。",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_27.png",
+      "table_title": "中航风电2024年安全生产目标",
+      "topic": null,
+      "metric_name": "不发生集团公司规定的二类及以上事故。",
+      "unit": null,
+      "values": {
+        "2024年": null
+      },
+      "evidence_text": "不发生集团公 司规定的二类及以 上事故。",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_27.png",
+      "table_title": "中航风电2024年安全生产目标",
+      "topic": null,
+      "metric_name": "年度发生7-10级工伤 <1人/次成直接经济损失10万元（含）-30万元/次的事故 <3起，年度累计工伤 <6起。",
+      "unit": null,
+      "values": {
+        "2024年": "<1人/次成直接经济损失10万元（含）-30万元/次的事故 <3起，年度累计工伤 <6起。"
+      },
+      "evidence_text": "年度发生7-10级工伤 <1人/次成直接经济损失10万元（含）-30万元/次的事故 <3起，年度累计工伤 <6起。",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_27.png",
+      "table_title": "中航风电2024年安全生产目标",
+      "topic": null,
+      "metric_name": "杜绝酒后驾车，且公司员工负主要责任并造成第三年人身死亡的交通事故 <1起，不发生职业病病例或发生职业中毒事故。",
+      "unit": null,
+      "values": {
+        "2024年": "<1起，不发生职业病病例或发生职业中毒事故。"
+      },
+      "evidence_text": "杜绝酒后驾车，且公司员工负主要责任并造成第三年人身死亡的交通事故 <1起，不发生职业病病例或发生职业中毒事故。",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_27.png",
+      "table_title": "中航风电2024年安全生产目标",
+      "topic": null,
+      "metric_name": "对各省工程项目和在远海风电场进行“四不两直”安全检查覆盖率 100%，安全隐患发现率 ≥90%，安全隐患整改及时率 ≥90%。",
+      "unit": "%",
+      "values": {
+        "2024年": "100%, ≥90%, ≥90%"
+      },
+      "evidence_text": "对各省工程项目和在远海风电场进行“四不两直”安全检查覆盖率 100%，安全隐患发现率 ≥90%，安全隐患整改及时率 ≥90%。",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_33.png",
+      "table_title": "量化数据绩效表-乡村振兴",
+      "topic": null,
+      "metric_name": "公司乡村振兴投入金额",
+      "unit": "万元",
+      "values": {
+        "2024年": "17318"
+      },
+      "evidence_text": "公司乡村振兴投入金额 万元 2024年 17318",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_33.png",
+      "table_title": "量化数据绩效表-乡村振兴",
+      "topic": null,
+      "metric_name": "云南南华、丘北、勐腊对口帮扶县采购茶叶、腊肉、核桃等农副产品金额",
+      "unit": "万元",
+      "values": {
+        "2024年": "42.73"
+      },
+      "evidence_text": "云南南华、丘北、勐腊对口帮扶县采购茶叶、腊肉、核桃等农副产品金额 万元 2024年 42.73",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_33.png",
+      "table_title": "量化数据绩效表-乡村振兴",
+      "topic": null,
+      "metric_name": "四川南部县采购理塘6.16万元",
+      "unit": "万元",
+      "values": {
+        "2024年": "6.16"
+      },
+      "evidence_text": "四川南部县采购理塘6.16万元 万元 2024年 6.16",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_33.png",
+      "table_title": "量化数据绩效表-乡村振兴",
+      "topic": null,
+      "metric_name": "新疆合营投资建设3个风电场项目，总投资额",
+      "unit": "亿元",
+      "values": {
+        "2024年": "70"
+      },
+      "evidence_text": "新疆合营投资建设3个风电场项目，总投资额 亿元 2024年 70",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_33.png",
+      "table_title": "量化数据绩效表-乡村振兴",
+      "topic": null,
+      "metric_name": "预计到2025年将带动就业人数",
+      "unit": "人",
+      "values": {
+        "2024年": "125"
+      },
+      "evidence_text": "预计到2025年将带动就业人数 人 2024年 125",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_33.png",
+      "table_title": "量化数据绩效表-乡村振兴",
+      "topic": null,
+      "metric_name": "预计增加政府税收收入",
+      "unit": "万元",
+      "values": {
+        "2024年": "1720"
+      },
+      "evidence_text": "预计增加政府税收收入 万元 2024年 1720",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_33.png",
+      "table_title": "量化数据绩效表-乡村振兴",
+      "topic": null,
+      "metric_name": "获得兵二Ⅱ期8万千瓦风电项目批复，重点开发巴州若羌罗布风口区，预计投资",
+      "unit": "亿元",
+      "values": {
+        "2024年": "3.8"
+      },
+      "evidence_text": "获得兵二Ⅱ期8万千瓦风电项目批复，重点开发巴州若羌罗布风口区，预计投资 亿元 2024年 3.8",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_33.png",
+      "table_title": "量化数据绩效表-投身公益慈善",
+      "topic": null,
+      "metric_name": "公司社会志愿服务活动惠及人数",
+      "unit": "人",
+      "values": {
+        "2024年": "4000"
+      },
+      "evidence_text": "公司社会志愿服务活动惠及人数 人 2024年 4000",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "总资产",
+      "unit": "亿元",
+      "values": {
+        "2022年": "75.29",
+        "2023年": "480.81",
+        "2024年": "481.04"
+      },
+      "evidence_text": "总资产 亿元 2022年 75.29 2023年 480.81 2024年 481.04",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "营业收入",
+      "unit": "亿元",
+      "values": {
+        "2022年": "33.49",
+        "2023年": "144.86",
+        "2024年": "84.23"
+      },
+      "evidence_text": "营业收入 亿元 2022年 33.49 2023年 144.86 2024年 84.23",
+      "reason": "business_performance_not_core_esg"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "利税总额",
+      "unit": "亿元",
+      "values": {
+        "2022年": "1.18",
+        "2023年": "1.5",
+        "2024年": "3.51"
+      },
+      "evidence_text": "利税总额 亿元 2022年 1.18 2023年 1.5 2024年 3.51",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "净利润",
+      "unit": "亿元",
+      "values": {
+        "2022年": "1.1",
+        "2023年": "1.62",
+        "2024年": "1.46"
+      },
+      "evidence_text": "净利润 亿元 2022年 1.1 2023年 1.62 2024年 1.46",
+      "reason": "business_performance_not_core_esg"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "纳税总额",
+      "unit": "亿元",
+      "values": {
+        "2022年": "0.77",
+        "2023年": "2.07",
+        "2024年": "6.16"
+      },
+      "evidence_text": "纳税总额 亿元 2022年 0.77 2023年 2.07 2024年 6.16",
+      "reason": "business_performance_not_core_esg"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "报告期内派东分红总额",
+      "unit": "亿元",
+      "values": {
+        "2022年": "0.44",
+        "2023年": "0.33",
+        "2024年": "0.5"
+      },
+      "evidence_text": "报告期内派东分红总额 亿元 2022年 0.44 2023年 0.33 2024年 0.5",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "净资产收益率",
+      "unit": "%",
+      "values": {
+        "2022年": "2.52",
+        "2023年": "1.76",
+        "2024年": "1.91"
+      },
+      "evidence_text": "净资产收益率 % 2022年 2.52 2023年 1.76 2024年 1.91",
+      "reason": "business_performance_not_core_esg"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "总资产报酬率",
+      "unit": "%",
+      "values": {
+        "2022年": "2.12",
+        "2023年": "1.41",
+        "2024年": "1.58"
+      },
+      "evidence_text": "总资产报酬率 % 2022年 2.12 2023年 1.41 2024年 1.58",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "资产负债率",
+      "unit": "%",
+      "values": {
+        "2022年": "42.24",
+        "2023年": "76.36",
+        "2024年": "75.27"
+      },
+      "evidence_text": "资产负债率 % 2022年 42.24 2023年 76.36 2024年 75.27",
+      "reason": "business_performance_not_core_esg"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "国有资本保值增值率",
+      "unit": "%",
+      "values": {
+        "2022年": "102.76",
+        "2023年": "162.22",
+        "2024年": "101.44"
+      },
+      "evidence_text": "国有资本保值增值率 % 2022年 102.76 2023年 162.22 2024年 101.44",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "守法合规培训次数",
+      "unit": "次",
+      "values": {
+        "2022年": "15",
+        "2023年": "32",
+        "2024年": "33"
+      },
+      "evidence_text": "守法合规培训次数 次 2022年 15 2023年 32 2024年 33",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "反贪腐培训次数",
+      "unit": "次",
+      "values": {
+        "2022年": "6",
+        "2023年": "54",
+        "2024年": "58"
+      },
+      "evidence_text": "反贪腐培训次数 次 2022年 6 2023年 54 2024年 58",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=fuzzy_alias_match:0.86:反腐败培训次数"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "ESG培训次数",
+      "unit": "次",
+      "values": {
+        "2022年": "3",
+        "2023年": "3",
+        "2024年": "2"
+      },
+      "evidence_text": "ESG培训次数 次 2022年 3 2023年 3 2024年 2",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "研发投入占主营业务收入比例",
+      "unit": "%",
+      "values": {
+        "2022年": "2.42",
+        "2023年": "4.38",
+        "2024年": "5.53"
+      },
+      "evidence_text": "研发投入占主营业务收入比例 % 2022年 2.42 2023年 4.38 2024年 5.53",
+      "reason": "rejected_by_schema_validator:unit_type_mismatch:money; original_reason=alias_match:研发投入"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "研发人员占员工总人数比例",
+      "unit": "%",
+      "values": {
+        "2022年": "34.67",
+        "2023年": "24.19",
+        "2024年": "25.76"
+      },
+      "evidence_text": "研发人员占员工总人数比例 % 2022年 34.67 2023年 24.19 2024年 25.76",
+      "reason": "rejected_by_schema_validator:unit_type_mismatch:person_count; original_reason=heuristic_total_employees"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "有效专利数",
+      "unit": "件",
+      "values": {
+        "2022年": "462",
+        "2023年": "105C",
+        "2024年": "1007"
+      },
+      "evidence_text": "有效专利数 件 2022年 462 2023年 105C 2024年 1007",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "每百万元台收有效专利数",
+      "unit": "件",
+      "values": {
+        "2022年": "0.14",
+        "2023年": "0.07",
+        "2024年": "0.12"
+      },
+      "evidence_text": "每百万元台收有效专利数 件 2022年 0.14 2023年 0.07 2024年 0.12",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_36.png",
+      "table_title": "关键绩效",
+      "topic": null,
+      "metric_name": "完成专利受理",
+      "unit": "件",
+      "values": {
+        "2022年": "236",
+        "2023年": "86",
+        "2024年": "501"
+      },
+      "evidence_text": "完成专利受理 件 2022年 236 2023年 86 2024年 501",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "环保专利授权",
+      "unit": "件",
+      "values": {
+        "2022年": "56",
+        "2023年": "15",
+        "2024年": "175"
+      },
+      "evidence_text": "环保专利授权 件 56 15 175",
+      "reason": "rejected_by_schema_validator:field_not_in_core_schema; original_reason=heuristic_authorized_patents_new"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "全员劳动生产率",
+      "unit": "万元/人",
+      "values": {
+        "2022年": "49.12",
+        "2023年": "49.16",
+        "2024年": "57.16"
+      },
+      "evidence_text": "全员劳动生产率 万元/人 49.12 49.16 57.16",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "环保总投入",
+      "unit": "万元",
+      "values": {
+        "2022年": "4149.58",
+        "2023年": "5538.72",
+        "2024年": "5538.72"
+      },
+      "evidence_text": "环保总投入 万元 4149.58 5538.72 5538.72",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=fuzzy_alias_match:0.89:环保投入"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "环保总投入占营业收入比例",
+      "unit": "%",
+      "values": {
+        "2022年": "3.29",
+        "2023年": "0.66",
+        "2024年": "0.66"
+      },
+      "evidence_text": "环保总投入占营业收入比例 % 3.29 0.66 0.66",
+      "reason": "business_performance_not_core_esg"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "环保培训覆盖率",
+      "unit": "%",
+      "values": {
+        "2022年": "100",
+        "2023年": "100",
+        "2024年": "100"
+      },
+      "evidence_text": "环保培训覆盖率 % 100 100 100",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=alias_match:培训覆盖率"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "全年上网电量",
+      "unit": "亿千瓦时",
+      "values": {
+        "2022年": "14.47",
+        "2023年": "33.34",
+        "2024年": "33.34"
+      },
+      "evidence_text": "全年上网电量 亿千瓦时 14.47 33.34 33.34",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "年度市电用量",
+      "unit": "万千瓦时",
+      "values": {
+        "2022年": "47794.48",
+        "2023年": "53133.88",
+        "2024年": "53133.88"
+      },
+      "evidence_text": "年度市电用量 万千瓦时 47794.48 53133.88 53133.88",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "能耗消耗总量",
+      "unit": "吨标准煤",
+      "values": {
+        "2022年": "13335.31",
+        "2023年": "9082.19",
+        "2024年": "9082.19"
+      },
+      "evidence_text": "能耗消耗总量 吨标准煤 13335.31 9082.19 9082.19",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "清洁能源使用量",
+      "unit": "千瓦时",
+      "values": {
+        "2022年": "1274704",
+        "2023年": "1499027.31",
+        "2024年": "1499027.31"
+      },
+      "evidence_text": "清洁能源使用量 千瓦时 1274704 1499027.31 1499027.31",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "减少秸秆二氧化硫当量",
+      "unit": "万吨",
+      "values": {
+        "2022年": "147.95",
+        "2023年": "442.63",
+        "2024年": "442.63"
+      },
+      "evidence_text": "减少秸秆二氧化硫当量 万吨 147.95 442.63 442.63",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "一般废弃物排放量",
+      "unit": "吨",
+      "values": {
+        "2022年": "10908.04",
+        "2023年": "48743",
+        "2024年": "48743"
+      },
+      "evidence_text": "一般废弃物排放量 吨 10908.04 48743 48743",
+      "reason": "rejected_by_schema_validator:required_keyword_missing; original_reason=heuristic_non_hazardous_waste"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "工业固体废物重复利用率",
+      "unit": "%",
+      "values": {
+        "2022年": "100",
+        "2023年": "100",
+        "2024年": "100"
+      },
+      "evidence_text": "工业固体废物重复利用率 % 100 100 100",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "固废处置合规率",
+      "unit": "%",
+      "values": {
+        "2022年": "100",
+        "2023年": "100",
+        "2024年": "100"
+      },
+      "evidence_text": "固废处置合规率 % 100 100 100",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "污染物排放达标率",
+      "unit": "%",
+      "values": {
+        "2022年": "100",
+        "2023年": "100",
+        "2024年": "100"
+      },
+      "evidence_text": "污染物排放达标率 % 100 100 100",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "主要污染物排放达标率",
+      "unit": "%",
+      "values": {
+        "2022年": "100",
+        "2023年": "100",
+        "2024年": "100"
+      },
+      "evidence_text": "主要污染物排放达标率 % 100 100 100",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "按专业构成",
+      "unit": null,
+      "values": {
+        "2022年": null,
+        "2023年": null,
+        "2024年": null
+      },
+      "evidence_text": "按专业构成",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "生产技术人员",
+      "unit": "人",
+      "values": {
+        "2022年": "1235",
+        "2023年": "3893",
+        "2024年": "2685"
+      },
+      "evidence_text": "生产技术人员 人 1235 3893 2685",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "销售人员",
+      "unit": "人",
+      "values": {
+        "2022年": "71",
+        "2023年": "224",
+        "2024年": "274"
+      },
+      "evidence_text": "销售人员 人 71 224 274",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-环境绩效",
+      "topic": null,
+      "metric_name": "财务人员",
+      "unit": "人",
+      "values": {
+        "2022年": "48",
+        "2023年": "155",
+        "2024年": "104"
+      },
+      "evidence_text": "财务人员 人 48 155 104",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "topic": null,
+      "metric_name": "按专业构成",
+      "unit": "行政人员",
+      "values": {
+        "2022年": "218",
+        "2023年": "467",
+        "2024年": "633"
+      },
+      "evidence_text": "按专业构成 行政人员 218 467 633",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "topic": null,
+      "metric_name": "按教育程度",
+      "unit": "研究生及以上学历",
+      "values": {
+        "2022年": "350",
+        "2023年": "885",
+        "2024年": "803"
+      },
+      "evidence_text": "按教育程度 研究生及以上学历 350 885 803",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "topic": null,
+      "metric_name": "本科",
+      "unit": "人",
+      "values": {
+        "2022年": "928",
+        "2023年": "2587",
+        "2024年": "2067"
+      },
+      "evidence_text": "本科 人 928 2587 2067",
+      "reason": "education_dimension_not_core_metric"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "topic": null,
+      "metric_name": "大专及以下学历",
+      "unit": "人",
+      "values": {
+        "2022年": "294",
+        "2023年": "1227",
+        "2024年": "826"
+      },
+      "evidence_text": "大专及以下学历 人 294 1227 826",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "topic": null,
+      "metric_name": "按性别构成",
+      "unit": "女性员工比例",
+      "values": {
+        "2022年": "29.9",
+        "2023年": "24.53",
+        "2024年": "20.4"
+      },
+      "evidence_text": "按性别构成 女性员工比例 % 29.9 24.53 20.4",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=alias_match:女性员工"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "topic": null,
+      "metric_name": "女性管理者占比",
+      "unit": "%",
+      "values": {
+        "2022年": "35.2",
+        "2023年": "12.76",
+        "2024年": "14.95"
+      },
+      "evidence_text": "女性管理者占比 % 35.2 12.76 14.95",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "topic": null,
+      "metric_name": "劳动合同签订率",
+      "unit": "%",
+      "values": {
+        "2022年": "100",
+        "2023年": "100",
+        "2024年": "100"
+      },
+      "evidence_text": "劳动合同签订率 % 100 100 100",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "topic": null,
+      "metric_name": "工会覆盖率",
+      "unit": "%",
+      "values": {
+        "2022年": "100",
+        "2023年": "100",
+        "2024年": "100"
+      },
+      "evidence_text": "工会覆盖率 % 100 100 100",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "topic": null,
+      "metric_name": "健康安全覆盖率",
+      "unit": "%",
+      "values": {
+        "2022年": "100",
+        "2023年": "100",
+        "2024年": "100"
+      },
+      "evidence_text": "健康安全覆盖率 % 100 100 100",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "topic": null,
+      "metric_name": "员工培训次数",
+      "unit": "次",
+      "values": {
+        "2022年": "34",
+        "2023年": "4709",
+        "2024年": "3266"
+      },
+      "evidence_text": "员工培训次数 次 34 4709 3266",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "topic": null,
+      "metric_name": "员工培训支出金额",
+      "unit": "万元",
+      "values": {
+        "2022年": "239.78",
+        "2023年": "881.84",
+        "2024年": "562.205"
+      },
+      "evidence_text": "员工培训支出金额 万元 239.78 881.84 562.205",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "topic": null,
+      "metric_name": "新增职业病",
+      "unit": "人",
+      "values": {
+        "2022年": "0",
+        "2023年": "0",
+        "2024年": "0"
+      },
+      "evidence_text": "新增职业病 人 0 0 0",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "topic": null,
+      "metric_name": "安全生产投入占营业收入比例",
+      "unit": "%",
+      "values": {
+        "2022年": "0.406",
+        "2023年": "0.086",
+        "2024年": "0.1524"
+      },
+      "evidence_text": "安全生产投入占营业收入比例 % 0.406 0.086 0.1524",
+      "reason": "business_performance_not_core_esg"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "topic": null,
+      "metric_name": "安全教育与培训次数",
+      "unit": "人次",
+      "values": {
+        "2022年": "2578",
+        "2023年": "30814",
+        "2024年": "89158"
+      },
+      "evidence_text": "安全教育与培训次数 人次 2578 30814 89158",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "topic": null,
+      "metric_name": "安全培训覆盖率",
+      "unit": "%",
+      "values": {
+        "2022年": "100",
+        "2023年": "100",
+        "2024年": "100"
+      },
+      "evidence_text": "安全培训覆盖率 % 100 100 100",
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=alias_match:培训覆盖率"
+    },
+    {
+      "page_image": "page_37.png",
+      "table_title": "ESG 绩效数据表-社会绩效",
+      "topic": null,
+      "metric_name": "产品合格率",
+      "unit": "%",
+      "values": {
+        "2022年": "100",
+        "2023年": "99.08",
+        "2024年": "100"
+      },
+      "evidence_text": "产品合格率 % 100 99.08 100",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "ESG 数据表",
+      "topic": null,
+      "metric_name": "报告期内发生客户健康与安全负面事件",
+      "unit": "件",
+      "values": {
+        "2022年": "0",
+        "2023年": "0",
+        "2024年": "0"
+      },
+      "evidence_text": "报告期内发生客户健康与安全负面事件 件 2022年 0 2023年 0 2024年 0",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "ESG 数据表",
+      "topic": null,
+      "metric_name": "审核的供应商数量",
+      "unit": "家",
+      "values": {
+        "2022年": "675",
+        "2023年": "1416",
+        "2024年": "427"
+      },
+      "evidence_text": "审核的供应商数量 家 2022年 675 2023年 1416 2024年 427",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "ESG 数据表",
+      "topic": null,
+      "metric_name": "乡村振兴总投资金额",
+      "unit": "万元",
+      "values": {
+        "2022年": "-",
+        "2023年": "11.12",
+        "2024年": "13.18"
+      },
+      "evidence_text": "乡村振兴总投资金额 万元 2022年 - 2023年 11.12 2024年 13.18",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "ESG 数据表",
+      "topic": null,
+      "metric_name": "志愿服务参与人次",
+      "unit": "人次",
+      "values": {
+        "2022年": "283",
+        "2023年": "710",
+        "2024年": "693"
+      },
+      "evidence_text": "志愿服务参与人次 人次 2022年 283 2023年 710 2024年 693",
+      "reason": "no_schema_match"
+    },
+    {
+      "page_image": "page_38.png",
+      "table_title": "ESG 数据表",
+      "topic": null,
+      "metric_name": "年度志愿活动总时长",
+      "unit": "小时",
+      "values": {
+        "2022年": "4173",
+        "2023年": "7347",
+        "2024年": "6747"
+      },
+      "evidence_text": "年度志愿活动总时长 小时 2022年 4173 2023年 7347 2024年 6747",
+      "reason": "no_schema_match"
+    }
+  ],
+  "extracted_fields": [
+    "total_ghg_emissions",
+    "energy_consumption_total",
+    "water_consumption",
+    "wastewater_discharge",
+    "hazardous_waste",
+    "total_employees",
+    "training_total_hours",
+    "training_hours_per_employee",
+    "training_coverage_rate",
+    "social_security_coverage",
+    "trained_employees_count",
+    "occupational_health_safety_investment",
+    "r_and_d_personnel_count",
+    "r_and_d_expense",
+    "public_welfare_investment"
+  ],
+  "missing_fields": [
+    "ghg_emissions_intensity",
+    "scope_1_emissions",
+    "scope_2_emissions",
+    "energy_consumption_intensity",
+    "natural_gas_consumption",
+    "electricity_consumption",
+    "air_pollutant_emissions",
+    "non_hazardous_waste",
+    "environmental_investment",
+    "environmental_penalty_count",
+    "male_employees",
+    "female_employees",
+    "female_employee_ratio",
+    "employee_turnover_rate",
+    "employee_medical_checkup_coverage",
+    "safety_accident_count",
+    "safety_emergency_drill_count",
+    "lost_work_days_due_to_injury",
+    "board_size",
+    "independent_directors",
+    "independent_director_ratio",
+    "female_directors",
+    "board_meetings",
+    "shareholder_meetings",
+    "anti_corruption_training_sessions",
+    "anti_corruption_training_participants",
+    "confirmed_corruption_cases",
+    "esg_strategy_targets",
+    "climate_risk_management",
+    "environmental_management_system",
+    "energy_saving_measures",
+    "water_management_measures",
+    "waste_management_measures",
+    "employee_rights_policy",
+    "occupational_health_safety_system",
+    "employee_training_development",
+    "diversity_equal_opportunity",
+    "supplier_esg_assessment",
+    "data_security_privacy",
+    "board_esg_oversight",
+    "esg_committee",
+    "anti_corruption_policy",
+    "whistleblowing_mechanism",
+    "business_ethics_training",
+    "investor_communication"
+  ],
+  "validation_summary": {
+    "total_fields": 60,
+    "extracted_fields": 15,
+    "missing_fields": 45,
+    "coverage_rate": 0.25,
+    "raw_row_count": 108,
+    "unknown_metrics": 91,
+    "needs_route_b2": true,
+    "route_b2_reason": "route_a_extracted_below_18"
+  },
+  "needs_route_b2": true
+}

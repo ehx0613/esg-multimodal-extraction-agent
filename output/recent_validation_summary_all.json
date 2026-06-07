@@ -1,0 +1,201 @@
+{
+  "generated_at": "2026-05-22T18:52:22",
+  "source_batch_summary": "esg-multimodal-extraction-agent\\output\\route_b2_batch_summary.csv",
+  "report_count": 12,
+  "included_validation_summary_count": 12,
+  "missing_validation_summary_dirs": [],
+  "items": [
+    {
+      "report_index": 1,
+      "pdf_name": "002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告.pdf",
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\001_002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告",
+      "source_file": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\001_002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告\\validation_summary.json",
+      "validation_summary": {
+        "total_fields": 52,
+        "extracted_fields": 12,
+        "missing_fields": 40,
+        "coverage_rate": 0.2308,
+        "raw_row_count": 127,
+        "unknown_metrics": 112,
+        "needs_route_b2": true,
+        "route_b2_reason": "route_a_extracted_below_18"
+      }
+    },
+    {
+      "report_index": 2,
+      "pdf_name": "600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告.pdf",
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告",
+      "source_file": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\validation_summary.json",
+      "validation_summary": {
+        "total_fields": 52,
+        "extracted_fields": 10,
+        "missing_fields": 42,
+        "coverage_rate": 0.1923,
+        "raw_row_count": 106,
+        "unknown_metrics": 95,
+        "needs_route_b2": true,
+        "route_b2_reason": "route_a_extracted_below_18"
+      }
+    },
+    {
+      "report_index": 3,
+      "pdf_name": "600099_林海股份_2024_林海股份：林海股份有限公司2024年度环境、社会及公司治理（ESG）报告.pdf",
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_600099_林海股份_2024_林海股份：林海股份有限公司2024年度环境、社会及公司治理（ESG）报告",
+      "source_file": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\003_600099_林海股份_2024_林海股份：林海股份有限公司2024年度环境、社会及公司治理（ESG）报告\\validation_summary.json",
+      "validation_summary": {
+        "total_fields": 52,
+        "extracted_fields": 18,
+        "missing_fields": 34,
+        "coverage_rate": 0.3462,
+        "raw_row_count": 271,
+        "unknown_metrics": 240,
+        "needs_route_b2": false,
+        "route_b2_reason": ""
+      }
+    },
+    {
+      "report_index": 4,
+      "pdf_name": "600206_有研新材_2024_有研新材：有研新材料股份有限公司2024年度环境、社会及治理（ESG）报告.pdf",
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\004_600206_有研新材_2024_有研新材：有研新材料股份有限公司2024年度环境、社会及治理（ESG）报告",
+      "source_file": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\004_600206_有研新材_2024_有研新材：有研新材料股份有限公司2024年度环境、社会及治理（ESG）报告\\validation_summary.json",
+      "validation_summary": {
+        "total_fields": 52,
+        "extracted_fields": 13,
+        "missing_fields": 39,
+        "coverage_rate": 0.25,
+        "raw_row_count": 98,
+        "unknown_metrics": 81,
+        "needs_route_b2": true,
+        "route_b2_reason": "route_a_extracted_below_18"
+      }
+    },
+    {
+      "report_index": 5,
+      "pdf_name": "600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告.pdf",
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告",
+      "source_file": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\005_600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告\\validation_summary.json",
+      "validation_summary": {
+        "total_fields": 52,
+        "extracted_fields": 14,
+        "missing_fields": 38,
+        "coverage_rate": 0.2692,
+        "raw_row_count": 208,
+        "unknown_metrics": 69,
+        "needs_route_b2": true,
+        "route_b2_reason": "route_a_extracted_below_18"
+      }
+    },
+    {
+      "report_index": 6,
+      "pdf_name": "600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告.pdf",
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告",
+      "source_file": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\006_600587_新华医疗_2024_新华医疗：新华医疗2024年度ESG报告\\validation_summary.json",
+      "validation_summary": {
+        "total_fields": 52,
+        "extracted_fields": 20,
+        "missing_fields": 32,
+        "coverage_rate": 0.3846,
+        "raw_row_count": 169,
+        "unknown_metrics": 139,
+        "needs_route_b2": false,
+        "route_b2_reason": ""
+      }
+    },
+    {
+      "report_index": 7,
+      "pdf_name": "600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告.pdf",
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\007_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告",
+      "source_file": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\007_600713_南京医药_2024_南京医药：南京医药2024年环境、社会和公司治理（ESG）报告\\validation_summary.json",
+      "validation_summary": {
+        "total_fields": 52,
+        "extracted_fields": 9,
+        "missing_fields": 43,
+        "coverage_rate": 0.1731,
+        "raw_row_count": 79,
+        "unknown_metrics": 49,
+        "needs_route_b2": true,
+        "route_b2_reason": "route_a_extracted_below_18"
+      }
+    },
+    {
+      "report_index": 8,
+      "pdf_name": "600789_鲁抗医药_2024_鲁抗医药：鲁抗医药2024年环境、社会和治理（ESG）报告.pdf",
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\008_600789_鲁抗医药_2024_鲁抗医药：鲁抗医药2024年环境、社会和治理（ESG）报告",
+      "source_file": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\008_600789_鲁抗医药_2024_鲁抗医药：鲁抗医药2024年环境、社会和治理（ESG）报告\\validation_summary.json",
+      "validation_summary": {
+        "total_fields": 52,
+        "extracted_fields": 12,
+        "missing_fields": 40,
+        "coverage_rate": 0.2308,
+        "raw_row_count": 119,
+        "unknown_metrics": 104,
+        "needs_route_b2": true,
+        "route_b2_reason": "route_a_extracted_below_18"
+      }
+    },
+    {
+      "report_index": 9,
+      "pdf_name": "600916_中国黄金_2024_中国黄金：中国黄金集团黄金珠宝股份有限公司2024环境、社会及管治(ESG)报告.pdf",
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_600916_中国黄金_2024_中国黄金：中国黄金集团黄金珠宝股份有限公司2024环境、社会及管治(ESG)报告",
+      "source_file": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\009_600916_中国黄金_2024_中国黄金：中国黄金集团黄金珠宝股份有限公司2024环境、社会及管治(ESG)报告\\validation_summary.json",
+      "validation_summary": {
+        "total_fields": 52,
+        "extracted_fields": 4,
+        "missing_fields": 48,
+        "coverage_rate": 0.0769,
+        "raw_row_count": 69,
+        "unknown_metrics": 65,
+        "needs_route_b2": true,
+        "route_b2_reason": "route_a_extracted_below_18"
+      }
+    },
+    {
+      "report_index": 10,
+      "pdf_name": "600928_西安银行_2024_西安银行：西安银行股份有限公司2024年社会责任(ESG)报告.pdf",
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\010_600928_西安银行_2024_西安银行：西安银行股份有限公司2024年社会责任(ESG)报告",
+      "source_file": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\010_600928_西安银行_2024_西安银行：西安银行股份有限公司2024年社会责任(ESG)报告\\validation_summary.json",
+      "validation_summary": {
+        "total_fields": 52,
+        "extracted_fields": 2,
+        "missing_fields": 50,
+        "coverage_rate": 0.0385,
+        "raw_row_count": 68,
+        "unknown_metrics": 65,
+        "needs_route_b2": true,
+        "route_b2_reason": "route_a_extracted_below_18"
+      }
+    },
+    {
+      "report_index": 11,
+      "pdf_name": "601106_中国一重_2024_中国一重：中国第一重型机械股份公司2024年度ESG报告.pdf",
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\011_601106_中国一重_2024_中国一重：中国第一重型机械股份公司2024年度ESG报告",
+      "source_file": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\011_601106_中国一重_2024_中国一重：中国第一重型机械股份公司2024年度ESG报告\\validation_summary.json",
+      "validation_summary": {
+        "total_fields": 52,
+        "extracted_fields": 14,
+        "missing_fields": 38,
+        "coverage_rate": 0.2692,
+        "raw_row_count": 256,
+        "unknown_metrics": 191,
+        "needs_route_b2": true,
+        "route_b2_reason": "route_a_extracted_below_18"
+      }
+    },
+    {
+      "report_index": 12,
+      "pdf_name": "603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告.pdf",
+      "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\012_603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告",
+      "source_file": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\012_603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\validation_summary.json",
+      "validation_summary": {
+        "total_fields": 52,
+        "extracted_fields": 6,
+        "missing_fields": 46,
+        "coverage_rate": 0.1154,
+        "raw_row_count": 152,
+        "unknown_metrics": 138,
+        "needs_route_b2": true,
+        "route_b2_reason": "route_a_extracted_below_18"
+      }
+    }
+  ]
+}

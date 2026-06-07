@@ -1,0 +1,539 @@
+{
+  "version": "normalized_row_v1_policy_v5_global_atoms_units",
+  "entries": {
+    "d0910982c448c75d2d5f0e3838a46be13e9309c38e96c40c386a077cafbeecea": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "business_performance_not_core_esg"
+    },
+    "415ef9b8d22a0083c4b6214df009b2c7906c9bf3b82a874b81a9b7bfaeb47cb0": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "business_performance_not_core_esg"
+    },
+    "de2c30be283dd4e292774144b6008be4e80e7c876983cdb332c555110dc303ef": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "14ab3a5e425d2f55f02d030cc20e09858226eb133f6b4e9eb9efecd5780e6b97": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "da95fb51fd4b4671885175a7370db99cb03c49848e4af1b8b6ae43c25dae024a": {
+      "matched": true,
+      "field_key": "energy_consumption_total",
+      "confidence": 0.96,
+      "reason": "normalized_alias_match:直接能源消耗; schema_match_validated"
+    },
+    "62762026bdcb0a53bed7dd1dc7c3b3beec3bd0736c55a97fdd5af80a64f406a6": {
+      "matched": true,
+      "field_key": "electricity_consumption",
+      "confidence": 0.92,
+      "reason": "heuristic_electricity; schema_match_validated"
+    },
+    "d13cc73a70df10cc338109a1df11a15e61c5721de61979941b82ea461fa4d712": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "2ea8d9a1d602ebd640c96c6ed77e2df8010114409ece6ba84fd1ff12a6c88f7f": {
+      "matched": true,
+      "field_key": "energy_consumption_total",
+      "confidence": 0.96,
+      "reason": "normalized_alias_match:能源消耗总量; schema_match_validated"
+    },
+    "29182097017ba7a4bcaf7c3d49d536eb8d7e1482b926cc066367ab2adc67aba9": {
+      "matched": true,
+      "field_key": "energy_consumption_intensity",
+      "confidence": 0.94,
+      "reason": "heuristic_energy_consumption_intensity; schema_match_validated"
+    },
+    "a56d314ea41b042587af6898e15c2768b62b8a329be8286aba0dfaaa54fcb289": {
+      "matched": true,
+      "field_key": "water_consumption",
+      "confidence": 0.92,
+      "reason": "heuristic_water; schema_match_validated"
+    },
+    "8f4fee3f6f8514762d4dde6031b73fb3b892b338185c442fde825412c8949709": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.92,
+      "reason": "intensity_or_per_capita_not_total_field; original_reason=alias_match:总耗水量"
+    },
+    "e7a32a0256999741c2a9ec9882417e2c7cafae8508d8449f190dbade04e905d8": {
+      "matched": true,
+      "field_key": "scope_1_emissions",
+      "confidence": 0.96,
+      "reason": "heuristic_scope_1; schema_match_validated"
+    },
+    "91fe72a0b3c3f412f5caa9fc7010b72e695ef566e6e43f97f0349bfea0a5e5f8": {
+      "matched": true,
+      "field_key": "scope_2_emissions",
+      "confidence": 0.96,
+      "reason": "heuristic_scope_2; schema_match_validated"
+    },
+    "6d605c5fed39d6dc9d0d5450003b7e64baaed5f2c202050fda390cdfee2aa474": {
+      "matched": true,
+      "field_key": "total_ghg_emissions",
+      "confidence": 0.94,
+      "reason": "heuristic_total_ghg; schema_match_validated"
+    },
+    "cd01d53499dd26814ee8dcfce4567d34b5e449323d47f571100eb52e9b85fe0b": {
+      "matched": true,
+      "field_key": "shareholder_meetings",
+      "confidence": 0.94,
+      "reason": "heuristic_shareholder_meetings_short_label; schema_match_validated"
+    },
+    "ce1f353d944ae2b56739e30c74ba12b3bb6dfe42e3e8aa2427d324ec6b1eae2a": {
+      "matched": true,
+      "field_key": "board_meetings",
+      "confidence": 0.94,
+      "reason": "heuristic_board_meetings_short_label; schema_match_validated"
+    },
+    "e8634165600d1bb172d44c971d29c5c48dbb5da6db24ac7461cae87ec6ccbee5": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.9342857142857143,
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=fuzzy_alias_match:0.86:董事会召开次数"
+    },
+    "83a568be4b6a8c9fd018a5b44ee7ffc4a7cd02ab45fecdb7434a160fb5a153d7": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "8a480a930e47485458cfc7c926998c1020cf1bcd5b84bee8bd5677923139b651": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "2fd6eaacbec3afa529388afb4d998b0dff5dc68c2e6a7deb3c925f402d9f1f1f": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "f25665b10a0c1411d1cbe00857933616bfffd9324cc79c52de8d5df887c7b601": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "e8e8c7e766b30f0c26a70ddbcbec5f72004789a3898259b4e73fbaefefc510e4": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "15efe2a92528b61f457b8481f5e5c8330a7226f09fa5c6abc428e5f827aa65db": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.93,
+      "reason": "rejected_by_schema_validator:forbidden_keyword_hit; original_reason=alias_match:培训覆盖率"
+    },
+    "8ddedb352112261746035f433da3ed76af11a855ad78294a50bfd406d16da60c": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "4d37f141b43b5ad77b4201675a095828779cf385d4bc6ec300c807dec3ca690f": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "fa8cb00a8bfde2481b5f77c1cee1a780819bcd5b42532a2501e04dafa9c1362d": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "15e121b0d714b53ffe0fe76442588931a834d101b233543b0845e02dd7aa1ae2": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "17c8a6a81e146f854c86adc49b554603c85a53a18d33fdddb2fa6d942f9ffa8c": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "ff19d6c7548d70a1d99d7bb8b9d2492ee4bb03aad18b1fd10aab7f5ad69359c7": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "15be5ad2989f8e3c20748ebd7de9a2b61ce367f260904fe81f22dc3dba369220": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "b1b60e581f82015846105334ca60edaac5fcff1ca07a2ac612747a8586fc8f1d": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "07dbc985342c9767794b65a6a37bc190e697bf408fa8470ee37bd4bf8bd3b928": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "ca0ce78727d48a62abc2fd52d36a3246acf45b3bfadcb389ad267f4d5b3a1bfb": {
+      "matched": true,
+      "field_key": "r_and_d_expense",
+      "confidence": 0.9400000000000001,
+      "reason": "normalized_alias_match:研发投入; schema_match_validated"
+    },
+    "48be67f01c28fe644678d02e33546977f2fded52b5dd49b9c915ca1db03f5711": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.92,
+      "reason": "rejected_by_schema_validator:unit_type_mismatch:money; original_reason=alias_match:研发投入"
+    },
+    "3730b046d7795e15185f4299dad7ddb6f205242fd7c4df68e7e649c35b445345": {
+      "matched": true,
+      "field_key": "r_and_d_personnel_count",
+      "confidence": 0.96,
+      "reason": "normalized_alias_match:研发人员数量; schema_match_validated"
+    },
+    "37f798f6ea12edbb73e4b878902e382d330b94c1af5802478099e184c63a585f": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "26d5b6651aca3eb6fdc66c2ecdb867d8b76974426e78432a6c7479a232705fbc": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "66cb6e0102b34dd0ab198945fa1478b4d26d41fc1b0f87b625b36d7014bd4fbd": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "102e02e7b24275c8cec8983f04352c01422008b1e3ead6954d48f19096cf1ff1": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "33a1f448aac2db34da544957423dcbb48f698fb40dcad29f9cf0a7663116df96": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "54f67461cbdc584c50b50bab02b33b33430c478d091db85c2bf273e569a32aa2": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "6d524b688a8287deb00db09cc09977c86d1e6adc742da9b833c16cdf767d0c97": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "6b57d78cbfa649317572a4971d0d469ead1f865a09ac33bd8d990e7ed9b2201f": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "f1761a97e2a59b2cfe252e4d9aef1a5e4a5b13a6e264e8e6bef79de39ef70e71": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "9f2bee562db1519b53a695f4353c88da2f72cb2eeeed8c90c22ad077582e7456": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "ba6ae0373064f41d0cfa4ff0c6a55da2fddf7c757e35a57533c55e7779a4260d": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "1bec1c9e0cf82d8da7da77f43fca08e7747ac029439c0f8a5c4bfa4a4f0e467c": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "5f99308ce47d4d7f3a2482f0ea7a44d907f7075052dec3a1a8f053b5ec5f0245": {
+      "matched": true,
+      "field_key": "total_employees",
+      "confidence": 0.93,
+      "reason": "heuristic_total_employees; schema_match_validated"
+    },
+    "c3f6d5068cb4d3e1a85c059d512e4e3b8591b1a7ff5d7eee83c660c9d90cd6f1": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "e59c835d33934ba9fa3271aef482724db0c20a80dde350df161bf1e0cae27bd4": {
+      "matched": true,
+      "field_key": "total_employees",
+      "confidence": 0.93,
+      "reason": "heuristic_total_employees; schema_match_validated"
+    },
+    "8ad356f4aa91d6a556acfb57b25353dfb85bc989b5af6a61ab69d29efabe4475": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "7c3b273f4a310b8ceb26e163774f0191f1fa909058a65106e4fc01dc34b0c0a1": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "0dd043c630ee8fa0cce97c9c1ba28d3a20592ba0aa0b8fe8c002611d592ddfde": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "c4875bc1fd619b0f3dc371a9dbd87f7ea373650f3d9a37c3e7b0983c515ac168": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "c0f4f155c1de9329cf1d8ee84501400f886ea8e8aaf7380c9498f260bc784124": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "09b289a9c1199bba82ec6154e617ec081e2c625227f0f9e7125180139e492ab6": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "5f12f55b48cdfe44d5a02d2730c57671ba4a1aa06bd9df0f2ed1033f42f81aeb": {
+      "matched": true,
+      "field_key": "male_employees",
+      "confidence": 0.9,
+      "reason": "context_dimension:男性->male_employees; schema_match_validated"
+    },
+    "37fc7d5758b5ff8131fbb8b0f9227d602516351572c962c63105b98a8209ac19": {
+      "matched": true,
+      "field_key": "female_employees",
+      "confidence": 0.9,
+      "reason": "context_dimension:女性->female_employees; schema_match_validated"
+    },
+    "e7e7bc4d9593e9e49f8b587a5de6f3ca218fac419cf60fc3921ef442c143ce11": {
+      "matched": true,
+      "field_key": "female_employee_ratio",
+      "confidence": 0.96,
+      "reason": "context_dimension:员工构成女性比例->female_employee_ratio; schema_match_validated"
+    },
+    "0e5fbed9a526df94319e34c29d09feb68f1f7dfdbde10cbbeb951b0d6e443b58": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "0c164a286e3ba0d3599a49c5bcab9917c9d2f0636b7f9c0103e15e22323c060b": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "f7ae22d31375d3185629c7d0e6adc3e4152bf6fda3d7316264932110e6072105": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "7d3f5ca876a5b898767e597bac15b6454bd0bde2a1924edc569e305f117c185d": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "61ecced934b393f98403f64c8262b3987d578af4feda8bb9a27b25082b16cd0d": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "a1576789ae22ccaaacb492814c42359429bd7f9d9a7a2d862c4ce1dce7b5fe97": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "2041c48015e787cf866919d92bfe28738a388646163561d34e0cf18b91d53203": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "7368eff9884f30bbe04cb1fe9dfc1ece3df49e841f5c6622b1d0feb06c6f7ce5": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "f982b6fd0f49727c0d32767a80c6fc9cc9bced21866d568ba25a4f691aded64e": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "22b8064d5ed134092cb9206b6d59e20ba25b4cc00c56a318548d394cf4181cbd": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "8172cb2b438edbe7a58ec05a319a4b759e147d811dcca0ed31130088116c65ad": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "1b959606c62a037af5a9b40381b1c8a49657d04a9d8fad4d13e12c1d27d6f61d": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "8246a8dcde238d35034bad4829d6891f6be699533a3dc317404f9a4513a72c80": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "42442aa722b5dbd6e2f6a7b337f5a0cb799e15a8fbdac17db8519c5b2135760d": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "e3fd1cc906051ac5e92667ea62a799920502dea7699495fec5778ba5897426af": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "f023df252b3eaa94d002ac66974f4cac4b852dd841f6e620452b9b9929b94ed4": {
+      "matched": true,
+      "field_key": "male_employees",
+      "confidence": 0.9,
+      "reason": "context_dimension:男性->male_employees; schema_match_validated"
+    },
+    "0a9998dd5ca88cc1dba95c4391f2426c075cca7c4cea6bc4cdea3ff0e2a5c6a0": {
+      "matched": true,
+      "field_key": "female_employees",
+      "confidence": 0.9,
+      "reason": "context_dimension:女性->female_employees; schema_match_validated"
+    },
+    "0924c705894054e8110366358e07a3240700f27bf1d05fbc4854ec6c60b2281b": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "c93a83e43e0a0db9bc71ca69b84c43fc8f30e6248c20fa12db9aa10e11a41e80": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "3e32f13a8e49d0692a805b98cd05fc9e2a37192008d1d075e85dd85c1596e643": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "fa4052d92393187f62ae4887bada0db52d432987d518f10bfcc80a9177f85e0e": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "4be22a7a842b64860606cf3153d77595ae244bad5eb8e3dd3c339f4a6134b612": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "e84be44b7a7c340184e8360ed2708d3bfa6fe48a3bc5bcb829306c9cc65718fe": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "7a37f11efae4b7b17c5325f8c5af39883ac17fdfcaec0ad8432d61a6ea2be012": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "d2e991d7c4dd367c0e6951cf651e54f2ac805510c25b00bd87032c72ea3d7bd1": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "5836b6af443ebf6630b054c0c4af25048f62e68ffac4968248648aabb38b0d9b": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "llm_error:Connection error."
+    },
+    "63a6c288502746158a10853ba5f956fc895af914488ab278b886fbf725bd1ed0": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "fae97879039f46b13e446d39d110d7e1a712e5dd75f55c94bb7410cbf78ea6fe": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "ba3ef2c7757e8989e23c2d10d7ae21abec7f6189965fdf03c867dbf4e4dc2709": {
+      "matched": false,
+      "field_key": null,
+      "confidence": 0.0,
+      "reason": "no_compatible_schema_candidates"
+    },
+    "7f58058c081f471d26652f31601c581564d69b9ef2eea59fef92a9ab2e519245": {
+      "matched": true,
+      "field_key": "employee_turnover_rate",
+      "confidence": 0.9500000000000001,
+      "reason": "normalized_alias_match:员工流失率; schema_match_validated"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "run_mode": "balanced",
+  "elapsed_ms": 2874.27,
+  "calls": 1,
+  "prompt_tokens": 0,
+  "completion_tokens": 0,
+  "total_tokens": 0,
+  "calls_without_usage": 1,
+  "by_stage": {
+    "table_arbitration_vlm": {
+      "calls": 1,
+      "latency_ms": 2177.27,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    }
+  },
+  "events_path": "output\\mineru_adapter_validation\\run_call_events.json"
+}

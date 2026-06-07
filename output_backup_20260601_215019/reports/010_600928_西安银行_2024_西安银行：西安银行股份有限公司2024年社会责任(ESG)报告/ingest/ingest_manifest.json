@@ -1,0 +1,10 @@
+{
+  "ingest_version": "route_a_page_scoring_v3_unit_density",
+  "pdf_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\data\\raw\\600928_西安银行_2024_西安银行：西安银行股份有限公司2024年社会责任(ESG)报告.pdf",
+  "total_pages": 32,
+  "total_text_chars": 29817,
+  "text_available": true,
+  "chunk_size": 800,
+  "chunk_overlap": 120,
+  "chunk_count": 55
+}

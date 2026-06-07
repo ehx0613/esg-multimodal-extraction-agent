@@ -3,3 +3,7 @@ openai
 python-dotenv
 pandas
 numpy
+faiss-cpu
+fastapi
+uvicorn
+python-multipart

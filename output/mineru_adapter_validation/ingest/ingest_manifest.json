@@ -1,0 +1,23 @@
+{
+  "ingest_version": "document_model_v1_mineru_adapter_v1",
+  "pdf_path": "data\\raw\\002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告.pdf",
+  "parser_backend": "auto",
+  "parser_name": "mineru",
+  "parser_version": "unknown",
+  "parser_source_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\mineru_test\\002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告\\auto\\002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告_content_list.json",
+  "parser_source_signature": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\mineru_test\\002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告\\auto\\002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告_content_list.json:409419:1780816031380539100",
+  "document_model_version": "1.0",
+  "total_pages": 55,
+  "total_text_chars": 53973,
+  "text_available": true,
+  "chunk_strategy": "semantic_esg_v1",
+  "chunker_name": "document_blocks_v1",
+  "chunk_size": 800,
+  "chunk_overlap": 120,
+  "semantic_target_size": 900,
+  "semantic_min_size": 250,
+  "semantic_max_size": 1200,
+  "semantic_block_overlap": 1,
+  "block_count": 807,
+  "chunk_count": 208
+}

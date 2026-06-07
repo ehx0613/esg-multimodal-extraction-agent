@@ -1,0 +1,3 @@
+from .views import ROUTE_B_FIELD_KEYS, ROUTE_B_SCHEMA
+
+__all__ = ["ROUTE_B_FIELD_KEYS", "ROUTE_B_SCHEMA"]

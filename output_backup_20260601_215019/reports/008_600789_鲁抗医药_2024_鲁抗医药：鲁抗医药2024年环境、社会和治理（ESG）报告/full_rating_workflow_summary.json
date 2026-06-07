@@ -1,0 +1,58 @@
+{
+  "report_dir": "output\\reports\\008_600789_鲁抗医药_2024_鲁抗医药：鲁抗医药2024年环境、社会和治理（ESG）报告",
+  "industry": "manufacturing",
+  "retrieval_profile": "bm25_query_agg_evidence_rerank_v1",
+  "skip_harness": true,
+  "harness": null,
+  "citations": {
+    "field_count": 60,
+    "auto_cited_count": 31,
+    "needs_review_count": 29,
+    "json_path": "output\\reports\\008_600789_鲁抗医药_2024_鲁抗医药：鲁抗医药2024年环境、社会和治理（ESG）报告\\field_citations.json",
+    "csv_path": "output\\reports\\008_600789_鲁抗医药_2024_鲁抗医药：鲁抗医药2024年环境、社会和治理（ESG）报告\\field_citations.csv"
+  },
+  "rating": {
+    "score": 54.5976,
+    "rating": "C",
+    "field_count": 53,
+    "scored_field_count": 30,
+    "needs_review_count": 28,
+    "json_path": "output\\reports\\008_600789_鲁抗医药_2024_鲁抗医药：鲁抗医药2024年环境、社会和治理（ESG）报告\\simulated_rating.json",
+    "summary_csv_path": "output\\reports\\008_600789_鲁抗医药_2024_鲁抗医药：鲁抗医药2024年环境、社会和治理（ESG）报告\\simulated_rating_summary.csv",
+    "review_queue_path": "output\\reports\\008_600789_鲁抗医药_2024_鲁抗医药：鲁抗医药2024年环境、社会和治理（ESG）报告\\rating_review_queue.json",
+    "rating_run_id": "rating_11789b34cba3479c",
+    "pillar_scores": {
+      "E": {
+        "score": 34.4077,
+        "rating": "C",
+        "field_count": 21,
+        "scored_field_count": 8,
+        "coverage": 0.381,
+        "auto_cited_count": 8,
+        "evidence_coverage": 0.381,
+        "needs_review_count": 13
+      },
+      "G": {
+        "score": 52.8767,
+        "rating": "C",
+        "field_count": 13,
+        "scored_field_count": 7,
+        "coverage": 0.5385,
+        "auto_cited_count": 7,
+        "evidence_coverage": 0.5385,
+        "needs_review_count": 6
+      },
+      "S": {
+        "score": 76.2625,
+        "rating": "BB",
+        "field_count": 19,
+        "scored_field_count": 15,
+        "coverage": 0.7895,
+        "auto_cited_count": 14,
+        "evidence_coverage": 0.7368,
+        "needs_review_count": 5
+      }
+    }
+  },
+  "next_step": "Review rating_review_queue.json, then approve/correct fields and recalculate rating."
+}

@@ -1,0 +1,2175 @@
+[
+  {
+    "page_number": 1,
+    "char_count": 0,
+    "score": -8,
+    "title_hits": [],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [],
+    "unit_density_score": 0,
+    "unit_occurrence_count": 0,
+    "distinct_unit_categories": [],
+    "table_header_hits": [],
+    "year_hits": [],
+    "number_count": 0,
+    "numeric_lines": 0,
+    "table_like_lines": 0,
+    "page_ratio": 0.0233,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "early_page_penalty"
+    ]
+  },
+  {
+    "page_number": 2,
+    "char_count": 32,
+    "score": 8,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [],
+    "unit_density_score": 0,
+    "unit_occurrence_count": 0,
+    "distinct_unit_categories": [],
+    "table_header_hits": [],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 3,
+    "numeric_lines": 3,
+    "table_like_lines": 0,
+    "page_ratio": 0.0465,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "year_hits:2025",
+      "early_page_penalty"
+    ]
+  },
+  {
+    "page_number": 3,
+    "char_count": 1079,
+    "score": 2,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [
+      "人",
+      "件",
+      "项"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 3,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 15,
+    "numeric_lines": 9,
+    "table_like_lines": 1,
+    "page_ratio": 0.0698,
+    "index_hits": [
+      "GRI"
+    ],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "unit_hits:人,件,项",
+      "unit_density:2:count,person",
+      "year_hits:2025",
+      "numeric_lines:9",
+      "early_page_penalty",
+      "index_penalty:GRI"
+    ]
+  },
+  {
+    "page_number": 4,
+    "char_count": 1552,
+    "score": 48,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "水资源",
+      "董事"
+    ],
+    "unit_hits": [
+      "元",
+      "人",
+      "起"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 9,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2025",
+      "2026",
+      "2030"
+    ],
+    "number_count": 12,
+    "numeric_lines": 12,
+    "table_like_lines": 0,
+    "page_ratio": 0.093,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:水资源,董事",
+      "unit_hits:元,人,起",
+      "unit_density:3:count,money,person",
+      "year_hits:2025,2026,2030",
+      "numeric_lines:12",
+      "early_page_penalty"
+    ]
+  },
+  {
+    "page_number": 5,
+    "char_count": 1443,
+    "score": 24,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "供应商"
+    ],
+    "unit_hits": [
+      "人",
+      "家"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 11,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 4,
+    "numeric_lines": 4,
+    "table_like_lines": 0,
+    "page_ratio": 0.1163,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:供应商",
+      "unit_hits:人,家",
+      "unit_density:2:count,person",
+      "year_hits:2025",
+      "early_page_penalty"
+    ]
+  },
+  {
+    "page_number": 6,
+    "char_count": 660,
+    "score": 51,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "供应商"
+    ],
+    "unit_hits": [
+      "亿元",
+      "元",
+      "人",
+      "次"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 6,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2009",
+      "2011",
+      "2014",
+      "2017",
+      "2018",
+      "2019",
+      "2022",
+      "2023",
+      "2024",
+      "2025"
+    ],
+    "number_count": 21,
+    "numeric_lines": 19,
+    "table_like_lines": 2,
+    "page_ratio": 0.1395,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:供应商",
+      "unit_hits:亿元,元,人,次",
+      "unit_density:3:count,money,person",
+      "year_hits:2009,2011,2014,2017,2018,2019,2022,2023,2024,2025",
+      "number_dense:21",
+      "numeric_lines:19",
+      "early_page_penalty"
+    ]
+  },
+  {
+    "page_number": 7,
+    "char_count": 690,
+    "score": 26,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "安全生产"
+    ],
+    "unit_hits": [
+      "人",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 4,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 3,
+    "numeric_lines": 3,
+    "table_like_lines": 0,
+    "page_ratio": 0.1628,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:安全生产",
+      "unit_hits:人,项,家",
+      "unit_density:2:count,person",
+      "year_hits:2025",
+      "early_page_penalty"
+    ]
+  },
+  {
+    "page_number": 8,
+    "char_count": 34,
+    "score": 8,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [],
+    "unit_density_score": 0,
+    "unit_occurrence_count": 0,
+    "distinct_unit_categories": [],
+    "table_header_hits": [],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 3,
+    "numeric_lines": 3,
+    "table_like_lines": 0,
+    "page_ratio": 0.186,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "year_hits:2025",
+      "early_page_penalty"
+    ]
+  },
+  {
+    "page_number": 9,
+    "char_count": 1647,
+    "score": 180,
+    "title_hits": [
+      "关键绩效指标",
+      "ESG\\s*数据",
+      "ESG\\s*关键绩效",
+      "指标",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [
+      "关键绩效",
+      "ESG数据",
+      "ESG关键绩效"
+    ],
+    "metric_hits": [
+      "董事",
+      "独立董事",
+      "董事会",
+      "监事会"
+    ],
+    "unit_hits": [
+      "人",
+      "次",
+      "项",
+      "起"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 18,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [
+      "指标"
+    ],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 21,
+    "numeric_lines": 17,
+    "table_like_lines": 3,
+    "page_ratio": 0.2093,
+    "index_hits": [],
+    "force_keep": true,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:关键绩效指标,ESG\\s*数据,ESG\\s*关键绩效,指标,20[0-3][0-9]年",
+      "strong_title_hits:关键绩效,ESG数据,ESG关键绩效",
+      "metric_hits:董事,独立董事,董事会,监事会",
+      "unit_hits:人,次,项,起",
+      "unit_density:2:count,person",
+      "unit_occurrences:18",
+      "year_hits:2025",
+      "table_header_hits:指标",
+      "number_dense:21",
+      "table_density:3",
+      "numeric_lines:17",
+      "force_keep:strong_performance_title"
+    ]
+  },
+  {
+    "page_number": 10,
+    "char_count": 2108,
+    "score": 70,
+    "title_hits": [
+      "指标",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "培训",
+      "安全生产",
+      "供应商",
+      "董事",
+      "董事会"
+    ],
+    "unit_hits": [
+      "元",
+      "人",
+      "件",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 17,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "person"
+    ],
+    "table_header_hits": [
+      "指标"
+    ],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 8,
+    "numeric_lines": 7,
+    "table_like_lines": 1,
+    "page_ratio": 0.2326,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:指标,20[0-3][0-9]年",
+      "metric_hits:培训,安全生产,供应商,董事,董事会",
+      "unit_hits:元,人,件,项,家",
+      "unit_density:3:count,money,person",
+      "unit_occurrences:17",
+      "year_hits:2025",
+      "table_header_hits:指标",
+      "early_page_penalty"
+    ]
+  },
+  {
+    "page_number": 11,
+    "char_count": 1564,
+    "score": 80,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "温室气体",
+      "能源",
+      "能源消耗",
+      "电力",
+      "水资源",
+      "废弃物",
+      "专利",
+      "供应商",
+      "董事",
+      "董事会",
+      "反贪污",
+      "反商业贿赂"
+    ],
+    "unit_hits": [
+      "人",
+      "项"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 17,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [
+      "项目"
+    ],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 9,
+    "numeric_lines": 8,
+    "table_like_lines": 1,
+    "page_ratio": 0.2558,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:温室气体,能源,能源消耗,电力,水资源,废弃物,专利,供应商,董事,董事会,反贪污,反商业贿赂",
+      "unit_hits:人,项",
+      "unit_density:2:count,person",
+      "unit_occurrences:17",
+      "year_hits:2025",
+      "table_header_hits:项目",
+      "numeric_lines:8",
+      "early_page_penalty"
+    ]
+  },
+  {
+    "page_number": 12,
+    "char_count": 1437,
+    "score": 82,
+    "title_hits": [
+      "指标",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [
+      "绩效表"
+    ],
+    "metric_hits": [
+      "能源",
+      "水资源",
+      "废弃物",
+      "反贪污",
+      "反商业贿赂"
+    ],
+    "unit_hits": [
+      "人",
+      "项"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 8,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [
+      "指标"
+    ],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 7,
+    "numeric_lines": 5,
+    "table_like_lines": 1,
+    "page_ratio": 0.2791,
+    "index_hits": [],
+    "force_keep": true,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:指标,20[0-3][0-9]年",
+      "strong_title_hits:绩效表",
+      "metric_hits:能源,水资源,废弃物,反贪污,反商业贿赂",
+      "unit_hits:人,项",
+      "unit_density:2:count,person",
+      "year_hits:2025",
+      "table_header_hits:指标",
+      "force_keep:strong_performance_title"
+    ]
+  },
+  {
+    "page_number": 13,
+    "char_count": 34,
+    "score": 16,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [],
+    "unit_density_score": 0,
+    "unit_occurrence_count": 0,
+    "distinct_unit_categories": [],
+    "table_header_hits": [],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 3,
+    "numeric_lines": 3,
+    "table_like_lines": 0,
+    "page_ratio": 0.3023,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "year_hits:2025"
+    ]
+  },
+  {
+    "page_number": 14,
+    "char_count": 1447,
+    "score": 80,
+    "title_hits": [
+      "指标",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "温室气体",
+      "能源",
+      "电力",
+      "培训",
+      "董事",
+      "董事会"
+    ],
+    "unit_hits": [
+      "元",
+      "人",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 7,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "person"
+    ],
+    "table_header_hits": [
+      "指标",
+      "项目"
+    ],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 4,
+    "numeric_lines": 4,
+    "table_like_lines": 0,
+    "page_ratio": 0.3256,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:指标,20[0-3][0-9]年",
+      "metric_hits:温室气体,能源,电力,培训,董事,董事会",
+      "unit_hits:元,人,项,家",
+      "unit_density:3:count,money,person",
+      "year_hits:2025",
+      "table_header_hits:指标,项目"
+    ]
+  },
+  {
+    "page_number": 15,
+    "char_count": 1252,
+    "score": 80,
+    "title_hits": [
+      "指标",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "温室气体",
+      "能源",
+      "电力",
+      "研发投入",
+      "专利",
+      "供应商"
+    ],
+    "unit_hits": [
+      "元",
+      "%",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 10,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "percentage"
+    ],
+    "table_header_hits": [
+      "指标",
+      "项目"
+    ],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 5,
+    "numeric_lines": 5,
+    "table_like_lines": 0,
+    "page_ratio": 0.3488,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:指标,20[0-3][0-9]年",
+      "metric_hits:温室气体,能源,电力,研发投入,专利,供应商",
+      "unit_hits:元,%,项,家",
+      "unit_density:3:count,money,percentage",
+      "year_hits:2025",
+      "table_header_hits:指标,项目"
+    ]
+  },
+  {
+    "page_number": 16,
+    "char_count": 2207,
+    "score": 151,
+    "title_hits": [
+      "指标",
+      "单位",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "废水",
+      "化学需氧量",
+      "COD",
+      "氨氮",
+      "氮氧化物",
+      "二氧化硫"
+    ],
+    "unit_hits": [
+      "吨",
+      "人",
+      "件",
+      "项"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 14,
+    "distinct_unit_categories": [
+      "count",
+      "mass",
+      "person"
+    ],
+    "table_header_hits": [
+      "指标",
+      "单位",
+      "项目"
+    ],
+    "year_hits": [
+      "2008",
+      "2013",
+      "2019",
+      "2025"
+    ],
+    "number_count": 38,
+    "numeric_lines": 31,
+    "table_like_lines": 4,
+    "page_ratio": 0.3721,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:指标,单位,20[0-3][0-9]年",
+      "metric_hits:废水,化学需氧量,COD,氨氮,氮氧化物,二氧化硫",
+      "unit_hits:吨,人,件,项",
+      "unit_density:3:count,mass,person",
+      "unit_occurrences:14",
+      "year_hits:2008,2013,2019,2025",
+      "table_header_hits:指标,单位,项目",
+      "table_header:indicator_unit_year",
+      "number_dense:38",
+      "table_density:4",
+      "numeric_lines:31"
+    ]
+  },
+  {
+    "page_number": 17,
+    "char_count": 1520,
+    "score": 131,
+    "title_hits": [
+      "单位",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "煤",
+      "氮氧化物",
+      "二氧化硫",
+      "颗粒物",
+      "废弃物",
+      "危险废物",
+      "危险废弃物",
+      "无害废弃物"
+    ],
+    "unit_hits": [
+      "吨",
+      "立方米",
+      "万立方米",
+      "人",
+      "次"
+    ],
+    "unit_density_score": 4,
+    "unit_occurrence_count": 16,
+    "distinct_unit_categories": [
+      "count",
+      "mass",
+      "person",
+      "volume"
+    ],
+    "table_header_hits": [
+      "单位",
+      "类别"
+    ],
+    "year_hits": [
+      "2008",
+      "2022",
+      "2023",
+      "2025"
+    ],
+    "number_count": 48,
+    "numeric_lines": 45,
+    "table_like_lines": 3,
+    "page_ratio": 0.3953,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:单位,20[0-3][0-9]年",
+      "metric_hits:煤,氮氧化物,二氧化硫,颗粒物,废弃物,危险废物,危险废弃物,无害废弃物",
+      "unit_hits:吨,立方米,万立方米,人,次",
+      "unit_density:4:count,mass,person,volume",
+      "unit_occurrences:16",
+      "year_hits:2008,2022,2023,2025",
+      "table_header_hits:单位,类别",
+      "number_dense:48",
+      "table_density:3",
+      "numeric_lines:45"
+    ]
+  },
+  {
+    "page_number": 18,
+    "char_count": 1711,
+    "score": 112,
+    "title_hits": [
+      "环境绩效",
+      "单位",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [
+      "环境绩效"
+    ],
+    "metric_hits": [
+      "废弃物",
+      "危险废弃物",
+      "培训",
+      "董事"
+    ],
+    "unit_hits": [
+      "人",
+      "次",
+      "件",
+      "项",
+      "起",
+      "家"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 36,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [
+      "单位"
+    ],
+    "year_hits": [
+      "2015",
+      "2025"
+    ],
+    "number_count": 5,
+    "numeric_lines": 4,
+    "table_like_lines": 1,
+    "page_ratio": 0.4186,
+    "index_hits": [],
+    "force_keep": true,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:环境绩效,单位,20[0-3][0-9]年",
+      "strong_title_hits:环境绩效",
+      "metric_hits:废弃物,危险废弃物,培训,董事",
+      "unit_hits:人,次,件,项,起,家",
+      "unit_density:2:count,person",
+      "unit_occurrences:36",
+      "year_hits:2015,2025",
+      "table_header_hits:单位",
+      "force_keep:strong_performance_title"
+    ]
+  },
+  {
+    "page_number": 19,
+    "char_count": 1462,
+    "score": 105,
+    "title_hits": [
+      "单位",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "能源",
+      "能源消耗",
+      "综合能耗",
+      "培训"
+    ],
+    "unit_hits": [
+      "吨",
+      "万元",
+      "元",
+      "人",
+      "人次",
+      "次",
+      "件",
+      "项"
+    ],
+    "unit_density_score": 4,
+    "unit_occurrence_count": 20,
+    "distinct_unit_categories": [
+      "count",
+      "mass",
+      "money",
+      "person"
+    ],
+    "table_header_hits": [
+      "单位"
+    ],
+    "year_hits": [
+      "2018",
+      "2025"
+    ],
+    "number_count": 18,
+    "numeric_lines": 14,
+    "table_like_lines": 3,
+    "page_ratio": 0.4419,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:单位,20[0-3][0-9]年",
+      "metric_hits:能源,能源消耗,综合能耗,培训",
+      "unit_hits:吨,万元,元,人,人次,次,件,项",
+      "unit_density:4:count,mass,money,person",
+      "unit_occurrences:20",
+      "year_hits:2018,2025",
+      "table_header_hits:单位",
+      "table_density:3",
+      "numeric_lines:14"
+    ]
+  },
+  {
+    "page_number": 20,
+    "char_count": 1323,
+    "score": 68,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "能源",
+      "水资源",
+      "废水",
+      "培训"
+    ],
+    "unit_hits": [
+      "吨",
+      "人",
+      "次",
+      "项",
+      "起",
+      "家"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 17,
+    "distinct_unit_categories": [
+      "count",
+      "mass",
+      "person"
+    ],
+    "table_header_hits": [
+      "项目"
+    ],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 12,
+    "numeric_lines": 9,
+    "table_like_lines": 2,
+    "page_ratio": 0.4651,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:能源,水资源,废水,培训",
+      "unit_hits:吨,人,次,项,起,家",
+      "unit_density:3:count,mass,person",
+      "unit_occurrences:17",
+      "year_hits:2025",
+      "table_header_hits:项目",
+      "numeric_lines:9"
+    ]
+  },
+  {
+    "page_number": 21,
+    "char_count": 34,
+    "score": 16,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [],
+    "unit_density_score": 0,
+    "unit_occurrence_count": 0,
+    "distinct_unit_categories": [],
+    "table_header_hits": [],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 3,
+    "numeric_lines": 3,
+    "table_like_lines": 0,
+    "page_ratio": 0.4884,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "year_hits:2025"
+    ]
+  },
+  {
+    "page_number": 22,
+    "char_count": 1984,
+    "score": 86,
+    "title_hits": [
+      "指标",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "培训",
+      "举报"
+    ],
+    "unit_hits": [
+      "元",
+      "人",
+      "次",
+      "件",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 56,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "person"
+    ],
+    "table_header_hits": [
+      "指标",
+      "项目"
+    ],
+    "year_hits": [
+      "2020",
+      "2025"
+    ],
+    "number_count": 15,
+    "numeric_lines": 10,
+    "table_like_lines": 2,
+    "page_ratio": 0.5116,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:指标,20[0-3][0-9]年",
+      "metric_hits:培训,举报",
+      "unit_hits:元,人,次,件,项,家",
+      "unit_density:3:count,money,person",
+      "unit_occurrences:56",
+      "year_hits:2020,2025",
+      "table_header_hits:指标,项目",
+      "numeric_lines:10"
+    ]
+  },
+  {
+    "page_number": 23,
+    "char_count": 1121,
+    "score": 46,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "培训"
+    ],
+    "unit_hits": [
+      "人",
+      "次",
+      "件",
+      "家"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 36,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 6,
+    "numeric_lines": 6,
+    "table_like_lines": 0,
+    "page_ratio": 0.5349,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:培训",
+      "unit_hits:人,次,件,家",
+      "unit_density:2:count,person",
+      "unit_occurrences:36",
+      "year_hits:2025"
+    ]
+  },
+  {
+    "page_number": 24,
+    "char_count": 1639,
+    "score": 88,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "女性员工",
+      "培训",
+      "董事",
+      "举报"
+    ],
+    "unit_hits": [
+      "元",
+      "%",
+      "人",
+      "次",
+      "家"
+    ],
+    "unit_density_score": 4,
+    "unit_occurrence_count": 46,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "percentage",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2024",
+      "2025"
+    ],
+    "number_count": 15,
+    "numeric_lines": 10,
+    "table_like_lines": 4,
+    "page_ratio": 0.5581,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:女性员工,培训,董事,举报",
+      "unit_hits:元,%,人,次,家",
+      "unit_density:4:count,money,percentage,person",
+      "unit_occurrences:46",
+      "year_hits:2024,2025",
+      "table_density:4",
+      "numeric_lines:10"
+    ]
+  },
+  {
+    "page_number": 25,
+    "char_count": 999,
+    "score": 84,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "培训"
+    ],
+    "unit_hits": [
+      "元",
+      "%",
+      "人",
+      "小时",
+      "次",
+      "件"
+    ],
+    "unit_density_score": 5,
+    "unit_occurrence_count": 55,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "percentage",
+      "person",
+      "time"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 38,
+    "numeric_lines": 34,
+    "table_like_lines": 3,
+    "page_ratio": 0.5814,
+    "index_hits": [],
+    "force_keep": true,
+    "high_unit_density": true,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:培训",
+      "unit_hits:元,%,人,小时,次,件",
+      "unit_density:5:count,money,percentage,person,time",
+      "unit_occurrences:55",
+      "year_hits:2025",
+      "number_dense:38",
+      "table_density:3",
+      "numeric_lines:34",
+      "force_keep:high_unit_density"
+    ]
+  },
+  {
+    "page_number": 26,
+    "char_count": 1880,
+    "score": 64,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "安全生产",
+      "工伤",
+      "董事"
+    ],
+    "unit_hits": [
+      "人",
+      "次",
+      "件",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 35,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [
+      "项目"
+    ],
+    "year_hits": [
+      "2018",
+      "2025"
+    ],
+    "number_count": 6,
+    "numeric_lines": 5,
+    "table_like_lines": 1,
+    "page_ratio": 0.6047,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:安全生产,工伤,董事",
+      "unit_hits:人,次,件,项,家",
+      "unit_density:2:count,person",
+      "unit_occurrences:35",
+      "year_hits:2018,2025",
+      "table_header_hits:项目"
+    ]
+  },
+  {
+    "page_number": 27,
+    "char_count": 665,
+    "score": 79,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "培训",
+      "安全生产",
+      "工伤"
+    ],
+    "unit_hits": [
+      "万元",
+      "元",
+      "%",
+      "人",
+      "人次",
+      "次",
+      "起"
+    ],
+    "unit_density_score": 4,
+    "unit_occurrence_count": 26,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "percentage",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 24,
+    "numeric_lines": 22,
+    "table_like_lines": 1,
+    "page_ratio": 0.6279,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:培训,安全生产,工伤",
+      "unit_hits:万元,元,%,人,人次,次,起",
+      "unit_density:4:count,money,percentage,person",
+      "unit_occurrences:26",
+      "year_hits:2025",
+      "number_dense:24",
+      "numeric_lines:22"
+    ]
+  },
+  {
+    "page_number": 28,
+    "char_count": 1620,
+    "score": 70,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "供应商",
+      "反商业贿赂"
+    ],
+    "unit_hits": [
+      "元",
+      "%",
+      "人",
+      "次",
+      "件",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 4,
+    "unit_occurrence_count": 18,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "percentage",
+      "person"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 11,
+    "numeric_lines": 7,
+    "table_like_lines": 2,
+    "page_ratio": 0.6512,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:供应商,反商业贿赂",
+      "unit_hits:元,%,人,次,件,项,家",
+      "unit_density:4:count,money,percentage,person",
+      "unit_occurrences:18",
+      "year_hits:2025",
+      "tail_35_percent"
+    ]
+  },
+  {
+    "page_number": 29,
+    "char_count": 1542,
+    "score": 145,
+    "title_hits": [
+      "指标",
+      "单位",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "温室气体",
+      "废弃物",
+      "培训",
+      "客户投诉",
+      "供应商",
+      "董事",
+      "董事会"
+    ],
+    "unit_hits": [
+      "元",
+      "人",
+      "次",
+      "件",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 13,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "person"
+    ],
+    "table_header_hits": [
+      "指标",
+      "单位"
+    ],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 24,
+    "numeric_lines": 24,
+    "table_like_lines": 0,
+    "page_ratio": 0.6744,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:指标,单位,20[0-3][0-9]年",
+      "metric_hits:温室气体,废弃物,培训,客户投诉,供应商,董事,董事会",
+      "unit_hits:元,人,次,件,项,家",
+      "unit_density:3:count,money,person",
+      "unit_occurrences:13",
+      "year_hits:2025",
+      "table_header_hits:指标,单位",
+      "table_header:indicator_unit_year",
+      "number_dense:24",
+      "numeric_lines:24",
+      "tail_35_percent"
+    ]
+  },
+  {
+    "page_number": 30,
+    "char_count": 1882,
+    "score": 68,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "培训",
+      "供应商"
+    ],
+    "unit_hits": [
+      "人",
+      "件",
+      "项",
+      "起",
+      "家"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 17,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [
+      "项目"
+    ],
+    "year_hits": [
+      "2000",
+      "2015",
+      "2025"
+    ],
+    "number_count": 7,
+    "numeric_lines": 5,
+    "table_like_lines": 1,
+    "page_ratio": 0.6977,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:培训,供应商",
+      "unit_hits:人,件,项,起,家",
+      "unit_density:2:count,person",
+      "unit_occurrences:17",
+      "year_hits:2000,2015,2025",
+      "table_header_hits:项目",
+      "tail_35_percent"
+    ]
+  },
+  {
+    "page_number": 31,
+    "char_count": 1710,
+    "score": 64,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "培训",
+      "客户投诉"
+    ],
+    "unit_hits": [
+      "%",
+      "小时",
+      "次",
+      "件",
+      "起"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 12,
+    "distinct_unit_categories": [
+      "count",
+      "percentage",
+      "time"
+    ],
+    "table_header_hits": [],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 15,
+    "numeric_lines": 11,
+    "table_like_lines": 2,
+    "page_ratio": 0.7209,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:培训,客户投诉",
+      "unit_hits:%,小时,次,件,起",
+      "unit_density:3:count,percentage,time",
+      "unit_occurrences:12",
+      "year_hits:2025",
+      "numeric_lines:11",
+      "tail_35_percent"
+    ]
+  },
+  {
+    "page_number": 32,
+    "char_count": 1064,
+    "score": 96,
+    "title_hits": [
+      "指标",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "供应商"
+    ],
+    "unit_hits": [
+      "%",
+      "次",
+      "件",
+      "起"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 14,
+    "distinct_unit_categories": [
+      "count",
+      "percentage"
+    ],
+    "table_header_hits": [
+      "指标"
+    ],
+    "year_hits": [
+      "2024",
+      "2025"
+    ],
+    "number_count": 27,
+    "numeric_lines": 18,
+    "table_like_lines": 5,
+    "page_ratio": 0.7442,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:指标,20[0-3][0-9]年",
+      "metric_hits:供应商",
+      "unit_hits:%,次,件,起",
+      "unit_density:2:count,percentage",
+      "unit_occurrences:14",
+      "year_hits:2024,2025",
+      "table_header_hits:指标",
+      "number_dense:27",
+      "table_density:5",
+      "numeric_lines:18",
+      "tail_35_percent"
+    ]
+  },
+  {
+    "page_number": 33,
+    "char_count": 1997,
+    "score": 141,
+    "title_hits": [
+      "关键绩效指标",
+      "指标",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [
+      "关键绩效"
+    ],
+    "metric_hits": [
+      "培训",
+      "研发投入",
+      "研发人员",
+      "专利",
+      "供应商",
+      "董事",
+      "董事会"
+    ],
+    "unit_hits": [
+      "人",
+      "次",
+      "件",
+      "项"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 27,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [
+      "指标",
+      "项目"
+    ],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 38,
+    "numeric_lines": 36,
+    "table_like_lines": 2,
+    "page_ratio": 0.7674,
+    "index_hits": [],
+    "force_keep": true,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:关键绩效指标,指标,20[0-3][0-9]年",
+      "strong_title_hits:关键绩效",
+      "metric_hits:培训,研发投入,研发人员,专利,供应商,董事,董事会",
+      "unit_hits:人,次,件,项",
+      "unit_density:2:count,person",
+      "unit_occurrences:27",
+      "year_hits:2025",
+      "table_header_hits:指标,项目",
+      "number_dense:38",
+      "numeric_lines:36",
+      "tail_35_percent",
+      "force_keep:strong_performance_title"
+    ]
+  },
+  {
+    "page_number": 34,
+    "char_count": 1495,
+    "score": 62,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "培训",
+      "研发投入",
+      "专利"
+    ],
+    "unit_hits": [
+      "人",
+      "项"
+    ],
+    "unit_density_score": 2,
+    "unit_occurrence_count": 25,
+    "distinct_unit_categories": [
+      "count",
+      "person"
+    ],
+    "table_header_hits": [
+      "项目"
+    ],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 3,
+    "numeric_lines": 3,
+    "table_like_lines": 0,
+    "page_ratio": 0.7907,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:培训,研发投入,专利",
+      "unit_hits:人,项",
+      "unit_density:2:count,person",
+      "unit_occurrences:25",
+      "year_hits:2025",
+      "table_header_hits:项目",
+      "tail_35_percent"
+    ]
+  },
+  {
+    "page_number": 35,
+    "char_count": 1572,
+    "score": 159,
+    "title_hits": [
+      "指标",
+      "单位",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "能源",
+      "能源消耗",
+      "综合能耗",
+      "耗水",
+      "废水",
+      "培训",
+      "研发投入",
+      "研发人员"
+    ],
+    "unit_hits": [
+      "%",
+      "人",
+      "次",
+      "件",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 20,
+    "distinct_unit_categories": [
+      "count",
+      "percentage",
+      "person"
+    ],
+    "table_header_hits": [
+      "指标",
+      "单位",
+      "项目"
+    ],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 15,
+    "numeric_lines": 10,
+    "table_like_lines": 3,
+    "page_ratio": 0.814,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:指标,单位,20[0-3][0-9]年",
+      "metric_hits:能源,能源消耗,综合能耗,耗水,废水,培训,研发投入,研发人员",
+      "unit_hits:%,人,次,件,项,家",
+      "unit_density:3:count,percentage,person",
+      "unit_occurrences:20",
+      "year_hits:2025",
+      "table_header_hits:指标,单位,项目",
+      "table_header:indicator_unit_year",
+      "table_density:3",
+      "numeric_lines:10",
+      "tail_35_percent",
+      "tail_20_percent"
+    ]
+  },
+  {
+    "page_number": 36,
+    "char_count": 1058,
+    "score": 102,
+    "title_hits": [
+      "指标",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "研发投入",
+      "研发人员",
+      "专利"
+    ],
+    "unit_hits": [
+      "万元",
+      "元",
+      "人",
+      "件",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 25,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "person"
+    ],
+    "table_header_hits": [
+      "指标",
+      "项目"
+    ],
+    "year_hits": [
+      "2023",
+      "2025"
+    ],
+    "number_count": 12,
+    "numeric_lines": 11,
+    "table_like_lines": 1,
+    "page_ratio": 0.8372,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:指标,20[0-3][0-9]年",
+      "metric_hits:研发投入,研发人员,专利",
+      "unit_hits:万元,元,人,件,项,家",
+      "unit_density:3:count,money,person",
+      "unit_occurrences:25",
+      "year_hits:2023,2025",
+      "table_header_hits:指标,项目",
+      "numeric_lines:11",
+      "tail_35_percent",
+      "tail_20_percent"
+    ]
+  },
+  {
+    "page_number": 37,
+    "char_count": 976,
+    "score": 100,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [
+      "万元",
+      "元",
+      "人",
+      "人次",
+      "小时",
+      "次",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 4,
+    "unit_occurrence_count": 20,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "person",
+      "time"
+    ],
+    "table_header_hits": [
+      "项目"
+    ],
+    "year_hits": [
+      "2009",
+      "2025"
+    ],
+    "number_count": 21,
+    "numeric_lines": 14,
+    "table_like_lines": 5,
+    "page_ratio": 0.8605,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "unit_hits:万元,元,人,人次,小时,次,项,家",
+      "unit_density:4:count,money,person,time",
+      "unit_occurrences:20",
+      "year_hits:2009,2025",
+      "table_header_hits:项目",
+      "number_dense:21",
+      "table_density:5",
+      "numeric_lines:14",
+      "tail_35_percent",
+      "tail_20_percent"
+    ]
+  },
+  {
+    "page_number": 38,
+    "char_count": 34,
+    "score": 30,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [],
+    "unit_density_score": 0,
+    "unit_occurrence_count": 0,
+    "distinct_unit_categories": [],
+    "table_header_hits": [],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 3,
+    "numeric_lines": 3,
+    "table_like_lines": 0,
+    "page_ratio": 0.8837,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "year_hits:2025",
+      "tail_35_percent",
+      "tail_20_percent"
+    ]
+  },
+  {
+    "page_number": 39,
+    "char_count": 1519,
+    "score": 92,
+    "title_hits": [
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "培训",
+      "反贪污",
+      "反商业贿赂",
+      "举报"
+    ],
+    "unit_hits": [
+      "%",
+      "人",
+      "人次",
+      "次",
+      "件",
+      "项",
+      "起"
+    ],
+    "unit_density_score": 3,
+    "unit_occurrence_count": 25,
+    "distinct_unit_categories": [
+      "count",
+      "percentage",
+      "person"
+    ],
+    "table_header_hits": [
+      "项目",
+      "类别"
+    ],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 11,
+    "numeric_lines": 11,
+    "table_like_lines": 0,
+    "page_ratio": 0.907,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:20[0-3][0-9]年",
+      "metric_hits:培训,反贪污,反商业贿赂,举报",
+      "unit_hits:%,人,人次,次,件,项,起",
+      "unit_density:3:count,percentage,person",
+      "unit_occurrences:25",
+      "year_hits:2025",
+      "table_header_hits:项目,类别",
+      "numeric_lines:11",
+      "tail_35_percent",
+      "tail_20_percent"
+    ]
+  },
+  {
+    "page_number": 40,
+    "char_count": 992,
+    "score": 213,
+    "title_hits": [
+      "关键绩效表",
+      "ESG\\s*关键绩效",
+      "附录\\s*\\d*",
+      "单位",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [
+      "关键绩效",
+      "绩效表",
+      "ESG关键绩效"
+    ],
+    "metric_hits": [
+      "废水",
+      "废弃物",
+      "无害废弃物",
+      "培训",
+      "专利",
+      "董事"
+    ],
+    "unit_hits": [
+      "吨",
+      "立方米",
+      "万立方米",
+      "人",
+      "次",
+      "项"
+    ],
+    "unit_density_score": 4,
+    "unit_occurrence_count": 29,
+    "distinct_unit_categories": [
+      "count",
+      "mass",
+      "person",
+      "volume"
+    ],
+    "table_header_hits": [
+      "单位",
+      "项目"
+    ],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 30,
+    "numeric_lines": 28,
+    "table_like_lines": 2,
+    "page_ratio": 0.9302,
+    "index_hits": [],
+    "force_keep": true,
+    "high_unit_density": false,
+    "reasons": [
+      "title_hits:关键绩效表,ESG\\s*关键绩效,附录\\s*\\d*,单位,20[0-3][0-9]年",
+      "strong_title_hits:关键绩效,绩效表,ESG关键绩效",
+      "metric_hits:废水,废弃物,无害废弃物,培训,专利,董事",
+      "unit_hits:吨,立方米,万立方米,人,次,项",
+      "unit_density:4:count,mass,person,volume",
+      "unit_occurrences:29",
+      "year_hits:2025",
+      "table_header_hits:单位,项目",
+      "number_dense:30",
+      "numeric_lines:28",
+      "tail_35_percent",
+      "tail_20_percent",
+      "force_keep:strong_performance_title"
+    ]
+  },
+  {
+    "page_number": 41,
+    "char_count": 971,
+    "score": 176,
+    "title_hits": [
+      "附录\\s*\\d*",
+      "指标",
+      "单位",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "培训",
+      "安全生产",
+      "工伤",
+      "客户投诉",
+      "供应商"
+    ],
+    "unit_hits": [
+      "万元",
+      "元",
+      "%",
+      "人",
+      "人次",
+      "小时",
+      "次",
+      "件",
+      "起"
+    ],
+    "unit_density_score": 5,
+    "unit_occurrence_count": 82,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "percentage",
+      "person",
+      "time"
+    ],
+    "table_header_hits": [
+      "指标",
+      "单位"
+    ],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 58,
+    "numeric_lines": 57,
+    "table_like_lines": 1,
+    "page_ratio": 0.9535,
+    "index_hits": [],
+    "force_keep": true,
+    "high_unit_density": true,
+    "reasons": [
+      "title_hits:附录\\s*\\d*,指标,单位,20[0-3][0-9]年",
+      "metric_hits:培训,安全生产,工伤,客户投诉,供应商",
+      "unit_hits:万元,元,%,人,人次,小时,次,件,起",
+      "unit_density:5:count,money,percentage,person,time",
+      "unit_occurrences:82",
+      "year_hits:2025",
+      "table_header_hits:指标,单位",
+      "table_header:indicator_unit_year",
+      "number_dense:58",
+      "numeric_lines:57",
+      "tail_35_percent",
+      "tail_20_percent",
+      "force_keep:high_unit_density"
+    ]
+  },
+  {
+    "page_number": 42,
+    "char_count": 760,
+    "score": 188,
+    "title_hits": [
+      "附录\\s*\\d*",
+      "指标",
+      "单位",
+      "20[0-3][0-9]年"
+    ],
+    "strong_title_hits": [],
+    "metric_hits": [
+      "能源",
+      "水资源",
+      "废弃物",
+      "员工总数",
+      "研发投入",
+      "专利",
+      "反贪污",
+      "反商业贿赂"
+    ],
+    "unit_hits": [
+      "万元",
+      "元",
+      "%",
+      "人",
+      "人次",
+      "小时",
+      "次",
+      "件",
+      "项",
+      "家"
+    ],
+    "unit_density_score": 5,
+    "unit_occurrence_count": 24,
+    "distinct_unit_categories": [
+      "count",
+      "money",
+      "percentage",
+      "person",
+      "time"
+    ],
+    "table_header_hits": [
+      "指标",
+      "单位"
+    ],
+    "year_hits": [
+      "2025"
+    ],
+    "number_count": 43,
+    "numeric_lines": 43,
+    "table_like_lines": 0,
+    "page_ratio": 0.9767,
+    "index_hits": [],
+    "force_keep": true,
+    "high_unit_density": true,
+    "reasons": [
+      "title_hits:附录\\s*\\d*,指标,单位,20[0-3][0-9]年",
+      "metric_hits:能源,水资源,废弃物,员工总数,研发投入,专利,反贪污,反商业贿赂",
+      "unit_hits:万元,元,%,人,人次,小时,次,件,项,家",
+      "unit_density:5:count,money,percentage,person,time",
+      "unit_occurrences:24",
+      "year_hits:2025",
+      "table_header_hits:指标,单位",
+      "table_header:indicator_unit_year",
+      "number_dense:43",
+      "numeric_lines:43",
+      "tail_35_percent",
+      "tail_20_percent",
+      "force_keep:high_unit_density"
+    ]
+  },
+  {
+    "page_number": 43,
+    "char_count": 0,
+    "score": 14,
+    "title_hits": [],
+    "strong_title_hits": [],
+    "metric_hits": [],
+    "unit_hits": [],
+    "unit_density_score": 0,
+    "unit_occurrence_count": 0,
+    "distinct_unit_categories": [],
+    "table_header_hits": [],
+    "year_hits": [],
+    "number_count": 0,
+    "numeric_lines": 0,
+    "table_like_lines": 0,
+    "page_ratio": 1.0,
+    "index_hits": [],
+    "force_keep": false,
+    "high_unit_density": false,
+    "reasons": [
+      "tail_35_percent",
+      "tail_20_percent"
+    ]
+  }
+]

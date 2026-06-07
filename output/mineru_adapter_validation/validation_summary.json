@@ -1,0 +1,10 @@
+{
+  "total_fields": 60,
+  "extracted_fields": 16,
+  "missing_fields": 44,
+  "coverage_rate": 0.2667,
+  "raw_row_count": 89,
+  "unknown_metrics": 69,
+  "needs_route_b2": true,
+  "route_b2_reason": "route_a_extracted_below_18"
+}

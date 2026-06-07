@@ -1,0 +1,10 @@
+{
+  "ingest_version": "route_a_page_scoring_v3_unit_density",
+  "pdf_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\data\\raw\\600789_鲁抗医药_2024_鲁抗医药：鲁抗医药2024年环境、社会和治理（ESG）报告.pdf",
+  "total_pages": 42,
+  "total_text_chars": 34888,
+  "text_available": true,
+  "chunk_size": 800,
+  "chunk_overlap": 120,
+  "chunk_count": 66
+}

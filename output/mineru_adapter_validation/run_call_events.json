@@ -1,0 +1,15 @@
+[
+  {
+    "stage": "table_arbitration_vlm",
+    "model": "qwen-vl-plus",
+    "latency_ms": 2177.27,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "usage_available": false,
+    "error": "Connection error.",
+    "metadata": {
+      "image": "region_1_page_54.png"
+    }
+  }
+]

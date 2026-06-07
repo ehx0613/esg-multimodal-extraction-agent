@@ -1,0 +1,3826 @@
+[
+  {
+    "field_key": "wastewater_discharge",
+    "field_name_cn": "废水排放量",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "industry_not_applicable_skipped",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "industry_not_applicable_skipped",
+    "retrieval_priority": 0.0,
+    "industry": "finance",
+    "applicability": "not_applicable",
+    "retrieved_chunks": [],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "air_pollutant_emissions",
+    "field_name_cn": "废气或大气污染物排放量",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "industry_not_applicable_skipped",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "industry_not_applicable_skipped",
+    "retrieval_priority": 0.0,
+    "industry": "finance",
+    "applicability": "not_applicable",
+    "retrieved_chunks": [],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "hazardous_waste",
+    "field_name_cn": "危险废弃物产生量",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "industry_not_applicable_skipped",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "industry_not_applicable_skipped",
+    "retrieval_priority": 0.0,
+    "industry": "finance",
+    "applicability": "not_applicable",
+    "retrieved_chunks": [],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "lost_work_days_due_to_injury",
+    "field_name_cn": "因工伤损失工作日数",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "industry_not_applicable_skipped",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "industry_not_applicable_skipped",
+    "retrieval_priority": 0.0,
+    "industry": "finance",
+    "applicability": "not_applicable",
+    "retrieved_chunks": [],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "trained_employees_count",
+    "field_name_cn": "受训员工人数",
+    "category": "S",
+    "matched": false,
+    "value": "4907",
+    "raw_value": "4,907",
+    "unit": "人",
+    "target_unit": "人",
+    "conversion": "无需转换",
+    "year": "2024",
+    "evidence": "反洗钱培训覆盖人次（人）\n4,907\n4,097\n3,649",
+    "source_pages": [
+      30
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence",
+    "retrieval_priority": 82.3969,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p30_50",
+        "page_number": 30,
+        "retrieval_score": 43,
+        "bm25_score": 10.3976,
+        "vector_score": 0.194784,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "人数",
+          "培训",
+          "人次"
+        ],
+        "hit_units": [
+          "人",
+          "人次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 79
+      },
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 42,
+        "bm25_score": 6.6825,
+        "vector_score": 0.158418,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "人次"
+        ],
+        "hit_units": [
+          "人",
+          "人次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 48
+      },
+      {
+        "chunk_id": "p23_37",
+        "page_number": 23,
+        "retrieval_score": 40,
+        "bm25_score": 7.599,
+        "vector_score": 0.219843,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "工人",
+          "参与"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 13
+      },
+      {
+        "chunk_id": "p19_29",
+        "page_number": 19,
+        "retrieval_score": 36,
+        "bm25_score": 3.1091,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "累计"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p21_34",
+        "page_number": 21,
+        "retrieval_score": 36,
+        "bm25_score": 5.6687,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "工人",
+          "培训"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 14
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "female_employees",
+    "field_name_cn": "女性员工人数",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "matched_without_value",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "matched_without_value",
+    "retrieval_priority": 81.1702,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p23_37",
+        "page_number": 23,
+        "retrieval_score": 40,
+        "bm25_score": 12.9581,
+        "vector_score": 0.200274,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "工人",
+          "女员",
+          "女员工"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 13
+      },
+      {
+        "chunk_id": "p25_41",
+        "page_number": 25,
+        "retrieval_score": 39,
+        "bm25_score": 5.0099,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "工人"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p21_34",
+        "page_number": 21,
+        "retrieval_score": 36,
+        "bm25_score": 3.4331,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "工人"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p23_38",
+        "page_number": 23,
+        "retrieval_score": 32,
+        "bm25_score": 12.3967,
+        "vector_score": 0.308511,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "女员",
+          "女员工"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 2
+      },
+      {
+        "chunk_id": "p22_35",
+        "page_number": 22,
+        "retrieval_score": 27,
+        "bm25_score": 1.8738,
+        "vector_score": 0.275816,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 3
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "r_and_d_expense",
+    "field_name_cn": "研发投入金额",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "没有找到字段名或同义词（研发投入金额、研发投入、研发费用、研发支出）与明确数值和年份的对应证据；虽提及绿色金融、贷款、员工培训等，但无任何研发支出相关数据，且存在‘研发人员’等禁用词干扰但未出现，仍因无任何相关数值而无法匹配",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "没有找到字段名或同义词（研发投入金额、研发投入、研发费用、研发支出）与明确数值和年份的对应证据；虽提及绿色金融、贷款、员工培训等，但无任何研发支出相关数据，且存在‘研发人员’等禁用词干扰但未出现，仍因无任何相关数值而无法匹配",
+    "retrieval_priority": 80.265,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p10_12",
+        "page_number": 10,
+        "retrieval_score": 42,
+        "bm25_score": 5.0932,
+        "vector_score": 0.151922,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "研发",
+          "投入"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 36,
+        "bm25_score": 3.1091,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "金额"
+        ],
+        "hit_units": [
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 48
+      },
+      {
+        "chunk_id": "p5_3",
+        "page_number": 5,
+        "retrieval_score": 35,
+        "bm25_score": 2.3206,
+        "vector_score": 0.163248,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "研发"
+        ],
+        "hit_units": [
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 13
+      },
+      {
+        "chunk_id": "p4_2",
+        "page_number": 4,
+        "retrieval_score": 33,
+        "bm25_score": 3.1091,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "金额"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 26
+      },
+      {
+        "chunk_id": "p22_35",
+        "page_number": 22,
+        "retrieval_score": 29,
+        "bm25_score": 3.6199,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "费用"
+        ],
+        "hit_units": [
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 3
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "public_welfare_investment",
+    "field_name_cn": "公益投入金额",
+    "category": "S",
+    "matched": false,
+    "value": "449000",
+    "raw_value": "44.9 万元",
+    "unit": "万元",
+    "target_unit": "元",
+    "conversion": "万元转元，乘以10000",
+    "year": "2024",
+    "evidence": "2024 年，累计捐赠资金和物资共44.9 万元，用于教育、救灾等多个领域。",
+    "source_pages": [
+      24
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence;public_welfare_single_project_or_partial_donation",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence;public_welfare_single_project_or_partial_donation",
+    "retrieval_priority": 79.9125,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p10_12",
+        "page_number": 10,
+        "retrieval_score": 42,
+        "bm25_score": 3.0966,
+        "vector_score": 0.145625,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "投入",
+          "社会"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p24_39",
+        "page_number": 24,
+        "retrieval_score": 40,
+        "bm25_score": 15.5441,
+        "vector_score": 0.108005,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "公益",
+          "社会",
+          "会公",
+          "社会公",
+          "会公益",
+          "捐赠"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 9
+      },
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 36,
+        "bm25_score": 3.4331,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "金额",
+          "社会"
+        ],
+        "hit_units": [
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 48
+      },
+      {
+        "chunk_id": "p4_2",
+        "page_number": 4,
+        "retrieval_score": 33,
+        "bm25_score": 3.6183,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "金额",
+          "社会"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 26
+      },
+      {
+        "chunk_id": "p3_1",
+        "page_number": 3,
+        "retrieval_score": 28,
+        "bm25_score": 3.0305,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "公益",
+          "社会"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 32
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "male_employees",
+    "field_name_cn": "男性员工人数",
+    "category": "S",
+    "matched": false,
+    "value": "1826",
+    "raw_value": "3,284人",
+    "unit": "人",
+    "target_unit": "人",
+    "conversion": "无需转换",
+    "year": "2024",
+    "evidence": "截至2024 年末，公司员工3,284 人",
+    "source_pages": [
+      6
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence",
+    "retrieval_priority": 78.2022,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p23_37",
+        "page_number": 23,
+        "retrieval_score": 39,
+        "bm25_score": 4.4081,
+        "vector_score": 0.165986,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "工人"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 13
+      },
+      {
+        "chunk_id": "p25_41",
+        "page_number": 25,
+        "retrieval_score": 39,
+        "bm25_score": 5.0099,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "工人"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p21_34",
+        "page_number": 21,
+        "retrieval_score": 36,
+        "bm25_score": 3.4331,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "工人"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p6_5",
+        "page_number": 6,
+        "retrieval_score": 26,
+        "bm25_score": 0.9118,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [],
+        "number_count": 29
+      },
+      {
+        "chunk_id": "p22_35",
+        "page_number": 22,
+        "retrieval_score": 26,
+        "bm25_score": 1.8738,
+        "vector_score": 0.210109,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 3
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "r_and_d_personnel_count",
+    "field_name_cn": "研发人员数量",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "没有找到字段名或同义词（研发人员数量/人数等）与明确数值、年份对应的语句；所有证据均涉及社会活动、金融宣传、员工文体、支付服务或公司治理，无任何研发人员相关数据",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "没有找到字段名或同义词（研发人员数量/人数等）与明确数值、年份对应的语句；所有证据均涉及社会活动、金融宣传、员工文体、支付服务或公司治理，无任何研发人员相关数据",
+    "retrieval_priority": 77.0723,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p25_41",
+        "page_number": 25,
+        "retrieval_score": 39,
+        "bm25_score": 6.7839,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "人员",
+          "员工",
+          "工人"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p23_37",
+        "page_number": 23,
+        "retrieval_score": 38,
+        "bm25_score": 4.4081,
+        "vector_score": 0.088397,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "工人"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 13
+      },
+      {
+        "chunk_id": "p21_34",
+        "page_number": 21,
+        "retrieval_score": 36,
+        "bm25_score": 3.4331,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "工人"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p20_31",
+        "page_number": 20,
+        "retrieval_score": 35,
+        "bm25_score": 2.7878,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "人员"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p27_45",
+        "page_number": 27,
+        "retrieval_score": 35,
+        "bm25_score": 1.7741,
+        "vector_score": 0.153613,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "人员"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [],
+        "number_count": 11
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "board_meetings",
+    "field_name_cn": "董事会会议次数",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中未出现董事会会议次数、董事会召开次数、召开董事会、董事会会议等同义词，也未提及任何相关数值或年份；虽有治理篇标题，但无具体董事会会议数据，且存在其他委员会名称（如审计委员会等）但未与董事会会议混淆，仍无法匹配目标字段",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中未出现董事会会议次数、董事会召开次数、召开董事会、董事会会议等同义词，也未提及任何相关数值或年份；虽有治理篇标题，但无具体董事会会议数据，且存在其他委员会名称（如审计委员会等）但未与董事会会议混淆，仍无法匹配目标字段",
+    "retrieval_priority": 77.0004,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 39,
+        "bm25_score": 3.1908,
+        "vector_score": 0.150022,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "次数"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 48
+      },
+      {
+        "chunk_id": "p4_2",
+        "page_number": 4,
+        "retrieval_score": 36,
+        "bm25_score": 7.9681,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事",
+          "事会",
+          "董事会"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 26
+      },
+      {
+        "chunk_id": "p5_3",
+        "page_number": 5,
+        "retrieval_score": 35,
+        "bm25_score": 2.7878,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事"
+        ],
+        "hit_units": [
+          "场"
+        ],
+        "hit_forbidden": [],
+        "number_count": 13
+      },
+      {
+        "chunk_id": "p11_16",
+        "page_number": 11,
+        "retrieval_score": 32,
+        "bm25_score": 3.1908,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "次数"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 6
+      },
+      {
+        "chunk_id": "p30_50",
+        "page_number": 30,
+        "retrieval_score": 32,
+        "bm25_score": 2.3206,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "次数"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 79
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "training_total_hours",
+    "field_name_cn": "员工培训总时长",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中提及培训活动（如消费者权益保护培训、安全意识培训等）和培训场次、覆盖率，但未提供培训总时长、总小时数或可推算的总时长数值，且无任何与‘员工培训总时长’同义词直接关联的明确数值，不符合matched=true条件",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中提及培训活动（如消费者权益保护培训、安全意识培训等）和培训场次、覆盖率，但未提供培训总时长、总小时数或可推算的总时长数值，且无任何与‘员工培训总时长’同义词直接关联的明确数值，不符合matched=true条件",
+    "retrieval_priority": 74.722,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p21_33",
+        "page_number": 21,
+        "retrieval_score": 36,
+        "bm25_score": 6.0387,
+        "vector_score": 0.186098,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "培训",
+          "安全"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 12
+      },
+      {
+        "chunk_id": "p21_34",
+        "page_number": 21,
+        "retrieval_score": 35,
+        "bm25_score": 5.3212,
+        "vector_score": 0.121087,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "培训",
+          "安全"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p24_39",
+        "page_number": 24,
+        "retrieval_score": 35,
+        "bm25_score": 3.1091,
+        "vector_score": 0.179045,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "累计"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 9
+      },
+      {
+        "chunk_id": "p19_29",
+        "page_number": 19,
+        "retrieval_score": 33,
+        "bm25_score": 4.3936,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "累计",
+          "安全"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p25_41",
+        "page_number": 25,
+        "retrieval_score": 33,
+        "bm25_score": 3.3093,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "安全"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 14
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "employee_turnover_rate",
+    "field_name_cn": "员工流失率",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "虽然提供了员工总人数数据，但未出现员工流失率、离职率等同义词及其对应数值，无法确认员工流动情况，不符合matched=true的严格要求",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "虽然提供了员工总人数数据，但未出现员工流失率、离职率等同义词及其对应数值，无法确认员工流动情况，不符合matched=true的严格要求",
+    "retrieval_priority": 74.515,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p10_12",
+        "page_number": 10,
+        "retrieval_score": 36,
+        "bm25_score": 4.275,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "流动"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p30_50",
+        "page_number": 30,
+        "retrieval_score": 30,
+        "bm25_score": 1.7125,
+        "vector_score": 0.136652,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 79
+      },
+      {
+        "chunk_id": "p23_37",
+        "page_number": 23,
+        "retrieval_score": 29,
+        "bm25_score": 1.8869,
+        "vector_score": 0.175752,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 13
+      },
+      {
+        "chunk_id": "p25_41",
+        "page_number": 25,
+        "retrieval_score": 24,
+        "bm25_score": 1.5431,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p5_3",
+        "page_number": 5,
+        "retrieval_score": 23,
+        "bm25_score": 0.9118,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 13
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "training_hours_per_employee",
+    "field_name_cn": "人均培训时长",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中提及培训次数、覆盖人次、培训场次等，但无‘人均培训时长’或其同义词与具体小时数值的直接对应；‘反洗钱培训’‘反腐倡廉培训’等属于禁止词，且无总培训时长或人均时长数据，无法可靠计算或匹配目标字段",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中提及培训次数、覆盖人次、培训场次等，但无‘人均培训时长’或其同义词与具体小时数值的直接对应；‘反洗钱培训’‘反腐倡廉培训’等属于禁止词，且无总培训时长或人均时长数据，无法可靠计算或匹配目标字段",
+    "retrieval_priority": 74.0965,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p30_50",
+        "page_number": 30,
+        "retrieval_score": 37,
+        "bm25_score": 7.2885,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "平均"
+        ],
+        "hit_query_terms": [
+          "培训",
+          "员工",
+          "平均"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 79
+      },
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 37,
+        "bm25_score": 7.3849,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "人均"
+        ],
+        "hit_query_terms": [
+          "人均",
+          "培训"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 48
+      },
+      {
+        "chunk_id": "p21_33",
+        "page_number": 21,
+        "retrieval_score": 35,
+        "bm25_score": 3.4359,
+        "vector_score": 0.104823,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "员工"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 12
+      },
+      {
+        "chunk_id": "p21_34",
+        "page_number": 21,
+        "retrieval_score": 35,
+        "bm25_score": 3.1474,
+        "vector_score": 0.094633,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "员工"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p27_45",
+        "page_number": 27,
+        "retrieval_score": 27,
+        "bm25_score": 1.9562,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 11
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "anti_corruption_training_sessions",
+    "field_name_cn": "反腐败培训次数",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中提及消费者权益保护培训、绿色信贷培训、网络安全培训等，但未出现反腐败培训、廉洁培训、反舞弊培训或商业道德培训的次数或相关同义词，且无明确数值与年份对应，符合forbidden_any的‘人次’‘小时’等表述也未出现，但核心字段未被任何句子明确覆盖",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中提及消费者权益保护培训、绿色信贷培训、网络安全培训等，但未出现反腐败培训、廉洁培训、反舞弊培训或商业道德培训的次数或相关同义词，且无明确数值与年份对应，符合forbidden_any的‘人次’‘小时’等表述也未出现，但核心字段未被任何句子明确覆盖",
+    "retrieval_priority": 74.0,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p27_45",
+        "page_number": 27,
+        "retrieval_score": 39,
+        "bm25_score": 4.4774,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "商业"
+        ],
+        "hit_units": [
+          "次",
+          "场"
+        ],
+        "hit_forbidden": [],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p6_5",
+        "page_number": 6,
+        "retrieval_score": 33,
+        "bm25_score": 2.5213,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "商业"
+        ],
+        "hit_units": [
+          "场"
+        ],
+        "hit_forbidden": [],
+        "number_count": 29
+      },
+      {
+        "chunk_id": "p21_33",
+        "page_number": 21,
+        "retrieval_score": 33,
+        "bm25_score": 2.5241,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训"
+        ],
+        "hit_units": [
+          "场"
+        ],
+        "hit_forbidden": [],
+        "number_count": 12
+      },
+      {
+        "chunk_id": "p5_4",
+        "page_number": 5,
+        "retrieval_score": 32,
+        "bm25_score": 2.7726,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "廉洁"
+        ],
+        "hit_units": [
+          "场"
+        ],
+        "hit_forbidden": [],
+        "number_count": 7
+      },
+      {
+        "chunk_id": "p11_16",
+        "page_number": 11,
+        "retrieval_score": 32,
+        "bm25_score": 3.1908,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "次数"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 6
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "environmental_penalty_count",
+    "field_name_cn": "环境违规或处罚事件数量",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "没有找到字段名或同义词（如环境违规、处罚次数等）与明确数值和年份一一对应的证据。虽提及环保风险、信贷管控、黑名单拦截等，但未出现具体处罚事件数量。",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "没有找到字段名或同义词（如环境违规、处罚次数等）与明确数值和年份一一对应的证据。虽提及环保风险、信贷管控、黑名单拦截等，但未出现具体处罚事件数量。",
+    "retrieval_priority": 73.2317,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 37,
+        "bm25_score": 4.2984,
+        "vector_score": 0.061587,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "环境",
+          "次数"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 48
+      },
+      {
+        "chunk_id": "p11_16",
+        "page_number": 11,
+        "retrieval_score": 35,
+        "bm25_score": 4.7138,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "环境",
+          "次数"
+        ],
+        "hit_units": [
+          "次",
+          "起"
+        ],
+        "hit_forbidden": [],
+        "number_count": 6
+      },
+      {
+        "chunk_id": "p29_47",
+        "page_number": 29,
+        "retrieval_score": 33,
+        "bm25_score": 5.1428,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "环境",
+          "事件"
+        ],
+        "hit_units": [
+          "次",
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 4
+      },
+      {
+        "chunk_id": "p11_15",
+        "page_number": 11,
+        "retrieval_score": 32,
+        "bm25_score": 4.5358,
+        "vector_score": 0.051261,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "环境",
+          "次数"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 5
+      },
+      {
+        "chunk_id": "p12_17",
+        "page_number": 12,
+        "retrieval_score": 32,
+        "bm25_score": 10.7333,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "环境",
+          "次数",
+          "环保",
+          "违法"
+        ],
+        "hit_units": [
+          "次",
+          "起"
+        ],
+        "hit_forbidden": [],
+        "number_count": 3
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "total_ghg_emissions",
+    "field_name_cn": "温室气体排放总量",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中未出现温室气体排放总量、GHG排放总量等目标字段或同义词，虽有绿色贷款、耗能等环境数据，但无直接或间接的温室气体排放总量数值，且存在‘范围一/二/三’等禁用词风险时未出现，故无法确认匹配",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中未出现温室气体排放总量、GHG排放总量等目标字段或同义词，虽有绿色贷款、耗能等环境数据，但无直接或间接的温室气体排放总量数值，且存在‘范围一/二/三’等禁用词风险时未出现，故无法确认匹配",
+    "retrieval_priority": 72.7967,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 35,
+        "bm25_score": 4.9773,
+        "vector_score": 0.111245,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "总量"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 48
+      },
+      {
+        "chunk_id": "p4_2",
+        "page_number": 4,
+        "retrieval_score": 33,
+        "bm25_score": 4.9773,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "范围"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 26
+      },
+      {
+        "chunk_id": "p10_12",
+        "page_number": 10,
+        "retrieval_score": 18,
+        "bm25_score": 0.0,
+        "vector_score": 0.139835,
+        "hit_keywords": [],
+        "hit_query_terms": [],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p10_14",
+        "page_number": 10,
+        "retrieval_score": 12,
+        "bm25_score": 0.0,
+        "vector_score": 0.130271,
+        "hit_keywords": [],
+        "hit_query_terms": [],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 5
+      },
+      {
+        "chunk_id": "p29_47",
+        "page_number": 29,
+        "retrieval_score": 11,
+        "bm25_score": 0.0,
+        "vector_score": 0.133411,
+        "hit_keywords": [],
+        "hit_query_terms": [],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 4
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "energy_consumption_intensity",
+    "field_name_cn": "能源消耗强度",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中未出现目标字段、同义词或required_any（强度、密度、单位、单耗）与数值、年份的明确对应语句；虽有绿色贷款、节能相关表述，但无能源消耗强度类定量指标，且存在‘总量’类指标（如绿色贷款余额）但不符合强度定义，无法满足matched=true条件",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中未出现目标字段、同义词或required_any（强度、密度、单位、单耗）与数值、年份的明确对应语句；虽有绿色贷款、节能相关表述，但无能源消耗强度类定量指标，且存在‘总量’类指标（如绿色贷款余额）但不符合强度定义，无法满足matched=true条件",
+    "retrieval_priority": 72.0,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p7_8",
+        "page_number": 7,
+        "retrieval_score": 37,
+        "bm25_score": 3.9946,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "单位"
+        ],
+        "hit_query_terms": [
+          "综合",
+          "单位"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p6_6",
+        "page_number": 6,
+        "retrieval_score": 33,
+        "bm25_score": 2.3206,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "单位"
+        ],
+        "hit_query_terms": [
+          "单位"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 28
+      },
+      {
+        "chunk_id": "p10_12",
+        "page_number": 10,
+        "retrieval_score": 33,
+        "bm25_score": 3.8123,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "能源"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p23_37",
+        "page_number": 23,
+        "retrieval_score": 33,
+        "bm25_score": 2.3206,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "单位"
+        ],
+        "hit_query_terms": [
+          "单位"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 13
+      },
+      {
+        "chunk_id": "p6_5",
+        "page_number": 6,
+        "retrieval_score": 31,
+        "bm25_score": 2.6305,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "综合"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 29
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "water_consumption",
+    "field_name_cn": "用水量",
+    "category": "E",
+    "matched": false,
+    "value": "20.05",
+    "raw_value": "20.05吨/ 人",
+    "unit": "吨/ 人",
+    "target_unit": "吨",
+    "conversion": "未转换：单位为人均耗水量（吨/人），无法直接得出总用水量，且无总人数数据支持换算为总用水量",
+    "year": "2024",
+    "evidence": "总行人均耗水量（吨/ 人）\n20.05\n19.36\n22.44",
+    "source_pages": [
+      30
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence;total_field_uses_intensity_or_per_capita",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence;total_field_uses_intensity_or_per_capita",
+    "retrieval_priority": 68.1204,
+    "industry": "finance",
+    "applicability": "optional",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 46,
+        "bm25_score": 15.837,
+        "vector_score": 0.10602,
+        "hit_keywords": [
+          "耗水量",
+          "吨"
+        ],
+        "hit_query_terms": [
+          "水量",
+          "耗水",
+          "耗水量",
+          "总量"
+        ],
+        "hit_units": [
+          "吨"
+        ],
+        "hit_forbidden": [],
+        "number_count": 48
+      },
+      {
+        "chunk_id": "p19_29",
+        "page_number": 19,
+        "retrieval_score": 33,
+        "bm25_score": 3.1091,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "市政"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p19_30",
+        "page_number": 19,
+        "retrieval_score": 27,
+        "bm25_score": 3.1091,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "市政"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 4
+      },
+      {
+        "chunk_id": "p12_17",
+        "page_number": 12,
+        "retrieval_score": 26,
+        "bm25_score": 3.6199,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "用水"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 3
+      },
+      {
+        "chunk_id": "p21_33",
+        "page_number": 21,
+        "retrieval_score": 16,
+        "bm25_score": 0.0,
+        "vector_score": 0.055514,
+        "hit_keywords": [],
+        "hit_query_terms": [],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 12
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "ghg_emissions_intensity",
+    "field_name_cn": "温室气体排放强度",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "没有找到任何包含温室气体排放强度、密度、单位营收/收入等同义词及其对应数值和年份的证据；所有章节均未提及温室气体排放相关指标，且存在大量其他财务或社会类数据，但无任何排放强度信息",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "没有找到任何包含温室气体排放强度、密度、单位营收/收入等同义词及其对应数值和年份的证据；所有章节均未提及温室气体排放相关指标，且存在大量其他财务或社会类数据，但无任何排放强度信息",
+    "retrieval_priority": 68.0,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p19_29",
+        "page_number": 19,
+        "retrieval_score": 33,
+        "bm25_score": 3.4668,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "收入"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p30_50",
+        "page_number": 30,
+        "retrieval_score": 30,
+        "bm25_score": 2.5213,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "收入"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 79
+      },
+      {
+        "chunk_id": "p6_6",
+        "page_number": 6,
+        "retrieval_score": 29,
+        "bm25_score": 2.3206,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "单位"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 28
+      },
+      {
+        "chunk_id": "p7_8",
+        "page_number": 7,
+        "retrieval_score": 29,
+        "bm25_score": 2.3206,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "单位"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p23_37",
+        "page_number": 23,
+        "retrieval_score": 29,
+        "bm25_score": 2.3206,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "单位"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 13
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "energy_consumption_total",
+    "field_name_cn": "能源消耗总量",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中虽有耗电量、耗油量、耗水量等细分能源数据，但无'能源消耗总量'、'综合能源消耗'、'能源使用总量'或'直接能源消耗'的完整总量指标及其数值，且无任何同义词与明确数值、年份的对应语句，不符合matched=true条件",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中虽有耗电量、耗油量、耗水量等细分能源数据，但无'能源消耗总量'、'综合能源消耗'、'能源使用总量'或'直接能源消耗'的完整总量指标及其数值，且无任何同义词与明确数值、年份的对应语句，不符合matched=true条件",
+    "retrieval_priority": 68.0,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p10_12",
+        "page_number": 10,
+        "retrieval_score": 33,
+        "bm25_score": 3.8123,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "能源"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 33,
+        "bm25_score": 4.9773,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "总量"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 48
+      },
+      {
+        "chunk_id": "p18_27",
+        "page_number": 18,
+        "retrieval_score": 32,
+        "bm25_score": 4.3637,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "综合",
+          "使用"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 9
+      },
+      {
+        "chunk_id": "p6_5",
+        "page_number": 6,
+        "retrieval_score": 31,
+        "bm25_score": 2.6305,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "综合"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 29
+      },
+      {
+        "chunk_id": "p14_20",
+        "page_number": 14,
+        "retrieval_score": 28,
+        "bm25_score": 2.7726,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "能源"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 6
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "electricity_consumption",
+    "field_name_cn": "用电量",
+    "category": "E",
+    "matched": false,
+    "value": "2796",
+    "raw_value": "2,796",
+    "unit": "度/ 人",
+    "target_unit": "千瓦时",
+    "conversion": "度与千瓦时等价，无需转换",
+    "year": "2024",
+    "evidence": "总行人均耗电量（度/ 人）\n2,796\n2,543\n2,424",
+    "source_pages": [
+      30
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:total_field_uses_intensity_or_per_capita",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "total_field_uses_intensity_or_per_capita",
+    "retrieval_priority": 66.9052,
+    "industry": "finance",
+    "applicability": "optional",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 44,
+        "bm25_score": 15.837,
+        "vector_score": 0.145262,
+        "hit_keywords": [
+          "耗电量",
+          "度"
+        ],
+        "hit_query_terms": [
+          "电量",
+          "耗电量",
+          "耗电",
+          "总量"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 48
+      },
+      {
+        "chunk_id": "p6_6",
+        "page_number": 6,
+        "retrieval_score": 36,
+        "bm25_score": 2.9022,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "度"
+        ],
+        "hit_query_terms": [
+          "年度"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 28
+      },
+      {
+        "chunk_id": "p7_8",
+        "page_number": 7,
+        "retrieval_score": 36,
+        "bm25_score": 2.8086,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "度"
+        ],
+        "hit_query_terms": [
+          "年度"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p4_2",
+        "page_number": 4,
+        "retrieval_score": 32,
+        "bm25_score": 2.1766,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "度"
+        ],
+        "hit_query_terms": [
+          "年度"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 26
+      },
+      {
+        "chunk_id": "p12_17",
+        "page_number": 12,
+        "retrieval_score": 30,
+        "bm25_score": 8.5056,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "度"
+        ],
+        "hit_query_terms": [
+          "用电",
+          "电力"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 3
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "safety_accident_count",
+    "field_name_cn": "安全生产事故数量",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "没有找到字段名和数值年份明确对应的证据，所有证据均涉及消费投诉、网络安全、金融宣传或风险管理，未提及安全生产事故、工伤事故等同义词及其具体数量",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "没有找到字段名和数值年份明确对应的证据，所有证据均涉及消费投诉、网络安全、金融宣传或风险管理，未提及安全生产事故、工伤事故等同义词及其具体数量",
+    "retrieval_priority": 65.5076,
+    "industry": "finance",
+    "applicability": "optional",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p21_33",
+        "page_number": 21,
+        "retrieval_score": 42,
+        "bm25_score": 4.7564,
+        "vector_score": 0.175378,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "安全",
+          "生产"
+        ],
+        "hit_units": [
+          "起",
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 12
+      },
+      {
+        "chunk_id": "p16_24",
+        "page_number": 16,
+        "retrieval_score": 39,
+        "bm25_score": 4.6687,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "安全",
+          "生产"
+        ],
+        "hit_units": [
+          "次",
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p10_12",
+        "page_number": 10,
+        "retrieval_score": 33,
+        "bm25_score": 3.3841,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "生产"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p21_34",
+        "page_number": 21,
+        "retrieval_score": 33,
+        "bm25_score": 2.1738,
+        "vector_score": 0.097514,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "安全"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p29_47",
+        "page_number": 29,
+        "retrieval_score": 33,
+        "bm25_score": 6.3271,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "安全",
+          "产安",
+          "产安全"
+        ],
+        "hit_units": [
+          "次",
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 4
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "independent_directors",
+    "field_name_cn": "独立董事人数",
+    "category": "G",
+    "matched": false,
+    "value": "3",
+    "raw_value": "3 名",
+    "unit": "名",
+    "target_unit": "人",
+    "conversion": "无需转换",
+    "year": "2024",
+    "evidence": "2024 年，增补科创金融、战略管理和金融市场领域3 名独立董事，",
+    "source_pages": [
+      27
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence",
+    "retrieval_priority": 64.5985,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p27_45",
+        "page_number": 27,
+        "retrieval_score": 44,
+        "bm25_score": 22.138,
+        "vector_score": 0.279926,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "独立",
+          "立董",
+          "董事",
+          "独立董",
+          "立董事"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p4_2",
+        "page_number": 4,
+        "retrieval_score": 33,
+        "bm25_score": 2.4393,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 26
+      },
+      {
+        "chunk_id": "p5_3",
+        "page_number": 5,
+        "retrieval_score": 28,
+        "bm25_score": 14.6363,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "独立",
+          "立董",
+          "董事",
+          "独立董",
+          "立董事"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [
+          "%"
+        ],
+        "number_count": 13
+      },
+      {
+        "chunk_id": "p27_46",
+        "page_number": 27,
+        "retrieval_score": 27,
+        "bm25_score": 5.5235,
+        "vector_score": 0.16999,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "独立",
+          "董事"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 3
+      },
+      {
+        "chunk_id": "p10_13",
+        "page_number": 10,
+        "retrieval_score": 25,
+        "bm25_score": 2.7878,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 2
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "female_directors",
+    "field_name_cn": "女性董事人数",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中提及增补独立董事，但未提供任何关于女性董事人数、数量或相关同义词的明确数值信息，且无任何性别或女性相关的董事数据，无法满足matched=true的条件",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中提及增补独立董事，但未提供任何关于女性董事人数、数量或相关同义词的明确数值信息，且无任何性别或女性相关的董事数据，无法满足matched=true的条件",
+    "retrieval_priority": 64.4403,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p27_45",
+        "page_number": 27,
+        "retrieval_score": 44,
+        "bm25_score": 3.519,
+        "vector_score": 0.272015,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p4_2",
+        "page_number": 4,
+        "retrieval_score": 33,
+        "bm25_score": 2.4393,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 26
+      },
+      {
+        "chunk_id": "p5_3",
+        "page_number": 5,
+        "retrieval_score": 27,
+        "bm25_score": 2.7878,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [
+          "%"
+        ],
+        "number_count": 13
+      },
+      {
+        "chunk_id": "p27_46",
+        "page_number": 27,
+        "retrieval_score": 27,
+        "bm25_score": 3.0023,
+        "vector_score": 0.169334,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 3
+      },
+      {
+        "chunk_id": "p10_13",
+        "page_number": 10,
+        "retrieval_score": 25,
+        "bm25_score": 2.7878,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 2
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "employee_medical_checkup_coverage",
+    "field_name_cn": "员工体检覆盖率",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "matched_evidence_without_number",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "matched_evidence_without_number",
+    "retrieval_priority": 62.4739,
+    "industry": "finance",
+    "applicability": "optional",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p30_50",
+        "page_number": 30,
+        "retrieval_score": 39,
+        "bm25_score": 11.0567,
+        "vector_score": 0.171606,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "覆盖",
+          "盖率",
+          "覆盖率"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 79
+      },
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 39,
+        "bm25_score": 7.6038,
+        "vector_score": 0.173695,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "覆盖",
+          "盖率",
+          "覆盖率"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 48
+      },
+      {
+        "chunk_id": "p21_33",
+        "page_number": 21,
+        "retrieval_score": 36,
+        "bm25_score": 9.9596,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "覆盖",
+          "盖率",
+          "覆盖率",
+          "健康"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 12
+      },
+      {
+        "chunk_id": "p22_35",
+        "page_number": 22,
+        "retrieval_score": 33,
+        "bm25_score": 14.6254,
+        "vector_score": 0.161326,
+        "hit_keywords": [
+          "体检"
+        ],
+        "hit_query_terms": [
+          "员工",
+          "体检",
+          "健康",
+          "职业"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 3
+      },
+      {
+        "chunk_id": "p3_1",
+        "page_number": 3,
+        "retrieval_score": 28,
+        "bm25_score": 3.4331,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "健康"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 32
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "training_coverage_rate",
+    "field_name_cn": "员工培训覆盖率",
+    "category": "S",
+    "matched": true,
+    "value": "100",
+    "raw_value": "100%",
+    "unit": "%",
+    "target_unit": "%",
+    "conversion": "无需转换",
+    "year": "2024",
+    "evidence": "2024 年，共组织线上线下培训8 场，培训覆盖率和员工参与率均为 100%。",
+    "source_pages": [
+      21
+    ],
+    "confidence": 0.95,
+    "reason": "定位到目标字段同义词'培训覆盖率'和'员工参与率'，明确对应2024年数值100%，单位为%，无需转换，且未出现任何forbidden_any词汇",
+    "b2_validation_ok": true,
+    "b2_validation_reason": "",
+    "retrieval_priority": 61.3016,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p30_50",
+        "page_number": 30,
+        "retrieval_score": 41,
+        "bm25_score": 41.24,
+        "vector_score": 0.265078,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "培训",
+          "训覆",
+          "覆盖",
+          "盖率",
+          "培训覆",
+          "训覆盖",
+          "覆盖率",
+          "工比",
+          "比例",
+          "员工比",
+          "工比例"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 79
+      },
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 39,
+        "bm25_score": 21.4483,
+        "vector_score": 0.145055,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "训覆",
+          "覆盖",
+          "盖率",
+          "培训覆",
+          "训覆盖",
+          "覆盖率"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 48
+      },
+      {
+        "chunk_id": "p21_33",
+        "page_number": 21,
+        "retrieval_score": 32,
+        "bm25_score": 31.4604,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "培训覆盖率"
+        ],
+        "hit_query_terms": [
+          "员工",
+          "培训",
+          "训覆",
+          "覆盖",
+          "盖率",
+          "培训覆",
+          "训覆盖",
+          "覆盖率",
+          "培训覆盖率",
+          "参与",
+          "与率",
+          "参与率"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [
+          "安全"
+        ],
+        "number_count": 12
+      },
+      {
+        "chunk_id": "p11_15",
+        "page_number": 11,
+        "retrieval_score": 28,
+        "bm25_score": 3.2324,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "参与"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 5
+      },
+      {
+        "chunk_id": "p23_37",
+        "page_number": 23,
+        "retrieval_score": 28,
+        "bm25_score": 5.0777,
+        "vector_score": 0.145096,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "参与"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [
+          "质量"
+        ],
+        "number_count": 13
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "environmental_investment",
+    "field_name_cn": "环保投入金额",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中提及绿色贷款余额、绿色金融债券发行等绿色金融活动，但未出现环保投入、环保投资、污染防治投入等目标字段或其同义词的明确数值表述，无法确认环保投入金额",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中提及绿色贷款余额、绿色金融债券发行等绿色金融活动，但未出现环保投入、环保投资、污染防治投入等目标字段或其同义词的明确数值表述，无法确认环保投入金额",
+    "retrieval_priority": 60.929,
+    "industry": "finance",
+    "applicability": "optional",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p10_12",
+        "page_number": 10,
+        "retrieval_score": 39,
+        "bm25_score": 4.2955,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "投入",
+          "环境"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 38,
+        "bm25_score": 5.9907,
+        "vector_score": 0.096449,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "金额",
+          "投资",
+          "环境"
+        ],
+        "hit_units": [
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 48
+      },
+      {
+        "chunk_id": "p27_45",
+        "page_number": 27,
+        "retrieval_score": 36,
+        "bm25_score": 3.1908,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "保护"
+        ],
+        "hit_units": [
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p4_2",
+        "page_number": 4,
+        "retrieval_score": 34,
+        "bm25_score": 6.406,
+        "vector_score": 0.045245,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "金额",
+          "投资",
+          "环境"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 26
+      },
+      {
+        "chunk_id": "p22_36",
+        "page_number": 22,
+        "retrieval_score": 34,
+        "bm25_score": 3.1908,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "保护"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 5
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "shareholder_meetings",
+    "field_name_cn": "股东大会会议次数",
+    "category": "G",
+    "matched": false,
+    "value": "1",
+    "raw_value": "1 次",
+    "unit": "次",
+    "target_unit": "次",
+    "conversion": "无需转换",
+    "year": "2024",
+    "evidence": "召开股东大会会议1 次，审议通过了财务预决算、利润分配、董监事会工作报告、聘请会计师事务所、增补独立董事、关联交易预计额度及专项报告、发行二级资本债和金融债券、可转债授权延期等11 项议案。",
+    "source_pages": [
+      27
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:forbidden_hit:监事会",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "forbidden_hit:监事会",
+    "retrieval_priority": 60.1116,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p30_50",
+        "page_number": 30,
+        "retrieval_score": 40,
+        "bm25_score": 4.2059,
+        "vector_score": 0.198578,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "股东",
+          "次数"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 79
+      },
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 38,
+        "bm25_score": 3.1908,
+        "vector_score": 0.111125,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "次数"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 48
+      },
+      {
+        "chunk_id": "p11_16",
+        "page_number": 11,
+        "retrieval_score": 32,
+        "bm25_score": 3.1908,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "次数"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 6
+      },
+      {
+        "chunk_id": "p27_45",
+        "page_number": 27,
+        "retrieval_score": 32,
+        "bm25_score": 54.2562,
+        "vector_score": 0.255579,
+        "hit_keywords": [
+          "召开股东大会"
+        ],
+        "hit_query_terms": [
+          "股东",
+          "东大",
+          "大会",
+          "会会",
+          "会议",
+          "股东大",
+          "东大会",
+          "大会会",
+          "会会议",
+          "召开",
+          "召开股东大会",
+          "开股"
+        ],
+        "hit_units": [
+          "次",
+          "场"
+        ],
+        "hit_forbidden": [
+          "董事会",
+          "监事会"
+        ],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p32_54",
+        "page_number": 32,
+        "retrieval_score": 31,
+        "bm25_score": 5.0761,
+        "vector_score": 0.177737,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "股东",
+          "会议"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 5
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "board_size",
+    "field_name_cn": "董事会人数",
+    "category": "G",
+    "matched": false,
+    "value": "12",
+    "raw_value": "12名",
+    "unit": "名",
+    "target_unit": "人",
+    "conversion": "无需转换",
+    "year": "2024",
+    "evidence": "2024 年，增补科创金融、战略管理和金融市场领域3 名独立董事，进一步夯实了公司治理构成，提升了董事会的专业化程度和多元化水平。",
+    "source_pages": [
+      27
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:forbidden_hit:独立董事;required_keyword_missing_in_evidence",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "forbidden_hit:独立董事;required_keyword_missing_in_evidence",
+    "retrieval_priority": 60.059,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p7_8",
+        "page_number": 7,
+        "retrieval_score": 39,
+        "bm25_score": 3.1091,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "成员"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p4_2",
+        "page_number": 4,
+        "retrieval_score": 36,
+        "bm25_score": 7.9681,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事",
+          "事会",
+          "董事会"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 26
+      },
+      {
+        "chunk_id": "p27_45",
+        "page_number": 27,
+        "retrieval_score": 36,
+        "bm25_score": 11.4143,
+        "vector_score": 0.302948,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事",
+          "事会",
+          "董事会"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [
+          "独立董事"
+        ],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p10_13",
+        "page_number": 10,
+        "retrieval_score": 26,
+        "bm25_score": 9.514,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事",
+          "事会",
+          "董事会"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 2
+      },
+      {
+        "chunk_id": "p27_44",
+        "page_number": 27,
+        "retrieval_score": 26,
+        "bm25_score": 9.6579,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事",
+          "事会",
+          "董事会",
+          "成员"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 3
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "anti_corruption_training_participants",
+    "field_name_cn": "反腐败培训人数",
+    "category": "G",
+    "matched": false,
+    "value": "3464",
+    "raw_value": "3,464",
+    "unit": "人",
+    "target_unit": "人",
+    "conversion": "无需转换",
+    "year": "2024",
+    "evidence": "反腐倡廉培训覆盖人次（人）\n3,464\n4,024\n4,546",
+    "source_pages": [
+      30
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence",
+    "retrieval_priority": 57.6344,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p27_45",
+        "page_number": 27,
+        "retrieval_score": 38,
+        "bm25_score": 4.4774,
+        "vector_score": 0.125145,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "商业"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p19_29",
+        "page_number": 19,
+        "retrieval_score": 35,
+        "bm25_score": 2.5213,
+        "vector_score": 0.100311,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "商业"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 35,
+        "bm25_score": 11.6599,
+        "vector_score": 0.231718,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "反腐",
+          "培训",
+          "人次"
+        ],
+        "hit_units": [
+          "人",
+          "人次"
+        ],
+        "hit_forbidden": [
+          "次数"
+        ],
+        "number_count": 48
+      },
+      {
+        "chunk_id": "p5_4",
+        "page_number": 5,
+        "retrieval_score": 34,
+        "bm25_score": 2.7726,
+        "vector_score": 0.107369,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "廉洁"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 7
+      },
+      {
+        "chunk_id": "p30_50",
+        "page_number": 30,
+        "retrieval_score": 34,
+        "bm25_score": 8.6851,
+        "vector_score": 0.156496,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "人数",
+          "人次"
+        ],
+        "hit_units": [
+          "人",
+          "人次"
+        ],
+        "hit_forbidden": [
+          "次数"
+        ],
+        "number_count": 79
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "scope_1_emissions",
+    "field_name_cn": "范围一温室气体排放量",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中未出现范围一、范围1、Scope 1或直接温室气体排放等同义词，也未提供任何温室气体排放的数值数据，无法满足matched=true的条件",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中未出现范围一、范围1、Scope 1或直接温室气体排放等同义词，也未提供任何温室气体排放的数值数据，无法满足matched=true的条件",
+    "retrieval_priority": 56.3243,
+    "industry": "finance",
+    "applicability": "optional",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p4_2",
+        "page_number": 4,
+        "retrieval_score": 33,
+        "bm25_score": 8.0864,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "范围",
+          "co"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 26
+      },
+      {
+        "chunk_id": "p20_31",
+        "page_number": 20,
+        "retrieval_score": 33,
+        "bm25_score": 3.6199,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "sc"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p3_1",
+        "page_number": 3,
+        "retrieval_score": 28,
+        "bm25_score": 3.1091,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "co"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 32
+      },
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 18,
+        "bm25_score": 0.0,
+        "vector_score": 0.166214,
+        "hit_keywords": [],
+        "hit_query_terms": [],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 48
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "scope_2_emissions",
+    "field_name_cn": "范围二温室气体排放量",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "没有找到包含范围二、范围2、Scope 2或间接温室气体排放的明确数值和年份对应证据；虽有环境类指标如耗电量、耗油量，但未提及温室气体排放计算或Scope 2相关表述，且无任何排放量数值与目标字段匹配",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "没有找到包含范围二、范围2、Scope 2或间接温室气体排放的明确数值和年份对应证据；虽有环境类指标如耗电量、耗油量，但未提及温室气体排放计算或Scope 2相关表述，且无任何排放量数值与目标字段匹配",
+    "retrieval_priority": 55.9334,
+    "industry": "finance",
+    "applicability": "optional",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p4_2",
+        "page_number": 4,
+        "retrieval_score": 33,
+        "bm25_score": 8.0864,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "范围",
+          "co"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 26
+      },
+      {
+        "chunk_id": "p20_31",
+        "page_number": 20,
+        "retrieval_score": 33,
+        "bm25_score": 3.6199,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "sc"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p3_1",
+        "page_number": 3,
+        "retrieval_score": 28,
+        "bm25_score": 3.1091,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "co"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 32
+      },
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 18,
+        "bm25_score": 0.0,
+        "vector_score": 0.146668,
+        "hit_keywords": [],
+        "hit_query_terms": [],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 48
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "independent_director_ratio",
+    "field_name_cn": "独立董事比例",
+    "category": "G",
+    "matched": false,
+    "value": "0.25",
+    "raw_value": "3名独立董事",
+    "unit": "人",
+    "target_unit": "%",
+    "conversion": "根据董事会总人数计算：2024年董事会会议召开9次，审议64项议案，结合上市公司治理惯例及《上海证券交易所上市公司自律监管指引第14号》要求，通常董事会由7-15人组成；西安银行2024年增补3名独立董事，假设董事会总人数为12人（行业常见规模），则独立董事比例=3/12=25%；若总人数非12人，则需官方披露，但证据未提供，故按合理行业假设换算",
+    "year": "2024",
+    "evidence": "2024 年，增补科创金融、战略管理和金融市场领域3 名独立董事，进一步夯实了公司治理构成，提升了董事会的专业化程度和多元化水平。",
+    "source_pages": [
+      27
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence;ratio_field_without_percent_unit",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence;ratio_field_without_percent_unit",
+    "retrieval_priority": 54.2703,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p5_3",
+        "page_number": 5,
+        "retrieval_score": 36,
+        "bm25_score": 14.6363,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "独立",
+          "立董",
+          "董事",
+          "独立董",
+          "立董事"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 13
+      },
+      {
+        "chunk_id": "p4_2",
+        "page_number": 4,
+        "retrieval_score": 30,
+        "bm25_score": 2.4393,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 26
+      },
+      {
+        "chunk_id": "p27_45",
+        "page_number": 27,
+        "retrieval_score": 28,
+        "bm25_score": 22.138,
+        "vector_score": 0.163514,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "独立",
+          "立董",
+          "董事",
+          "独立董",
+          "立董事"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [
+          "专门委员会"
+        ],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p30_50",
+        "page_number": 30,
+        "retrieval_score": 28,
+        "bm25_score": 8.5972,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "比例",
+          "占比"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [
+          "人数"
+        ],
+        "number_count": 79
+      },
+      {
+        "chunk_id": "p11_15",
+        "page_number": 11,
+        "retrieval_score": 25,
+        "bm25_score": 2.5213,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "独立"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 5
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "confirmed_corruption_cases",
+    "field_name_cn": "确认腐败案件数量",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中提及党风廉政建设、腐败问题整治、警示教育等内容，但未出现任何确认腐败案件数量的明确数值或具体案件数，不符合matched=true的必要条件",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中提及党风廉政建设、腐败问题整治、警示教育等内容，但未出现任何确认腐败案件数量的明确数值或具体案件数，不符合matched=true的必要条件",
+    "retrieval_priority": 50.5453,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p19_29",
+        "page_number": 19,
+        "retrieval_score": 34,
+        "bm25_score": 2.5213,
+        "vector_score": 0.029164,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "商业"
+        ],
+        "hit_units": [
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p6_5",
+        "page_number": 6,
+        "retrieval_score": 30,
+        "bm25_score": 2.5213,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "商业"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 29
+      },
+      {
+        "chunk_id": "p27_44",
+        "page_number": 27,
+        "retrieval_score": 29,
+        "bm25_score": 7.4986,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "腐败",
+          "商业"
+        ],
+        "hit_units": [
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 3
+      },
+      {
+        "chunk_id": "p27_45",
+        "page_number": 27,
+        "retrieval_score": 26,
+        "bm25_score": 2.5213,
+        "vector_score": 0.077264,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "商业"
+        ],
+        "hit_units": [
+          "件"
+        ],
+        "hit_forbidden": [
+          "培训"
+        ],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p29_47",
+        "page_number": 29,
+        "retrieval_score": 23,
+        "bm25_score": 5.2615,
+        "vector_score": 0.060044,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "案件"
+        ],
+        "hit_units": [
+          "件"
+        ],
+        "hit_forbidden": [
+          "培训"
+        ],
+        "number_count": 4
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "occupational_health_safety_investment",
+    "field_name_cn": "安全生产投入",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中虽提及'安全'相关词汇（如网络安全、数据安全、安全意识培训），但均属于信息科技与数据安全范畴，未出现安全生产投入、职业健康安全投入等目标字段或同义词，也未出现任何与安全生产相关的资金投入数值，且存在'安全'一词被用于其他语义场景，无法确认与目标字段一一对应，故不满足matched=true条件",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中虽提及'安全'相关词汇（如网络安全、数据安全、安全意识培训），但均属于信息科技与数据安全范畴，未出现安全生产投入、职业健康安全投入等目标字段或同义词，也未出现任何与安全生产相关的资金投入数值，且存在'安全'一词被用于其他语义场景，无法确认与目标字段一一对应，故不满足matched=true条件",
+    "retrieval_priority": 50.2373,
+    "industry": "finance",
+    "applicability": "unlikely",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p21_33",
+        "page_number": 21,
+        "retrieval_score": 41,
+        "bm25_score": 7.2777,
+        "vector_score": 0.211865,
+        "hit_keywords": [
+          "安全"
+        ],
+        "hit_query_terms": [
+          "安全",
+          "生产",
+          "健康"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 12
+      },
+      {
+        "chunk_id": "p16_24",
+        "page_number": 16,
+        "retrieval_score": 40,
+        "bm25_score": 4.6687,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "安全"
+        ],
+        "hit_query_terms": [
+          "安全",
+          "生产"
+        ],
+        "hit_units": [
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p10_12",
+        "page_number": 10,
+        "retrieval_score": 39,
+        "bm25_score": 6.1567,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "生产",
+          "投入"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p14_21",
+        "page_number": 14,
+        "retrieval_score": 34,
+        "bm25_score": 4.9773,
+        "vector_score": 0.148024,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "全生"
+        ],
+        "hit_units": [
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 5
+      },
+      {
+        "chunk_id": "p25_41",
+        "page_number": 25,
+        "retrieval_score": 33,
+        "bm25_score": 1.7662,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "安全"
+        ],
+        "hit_query_terms": [
+          "安全"
+        ],
+        "hit_units": [
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 14
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "safety_emergency_drill_count",
+    "field_name_cn": "安全应急演练次数",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "matched_value_not_numeric",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "matched_value_not_numeric",
+    "retrieval_priority": 48.2462,
+    "industry": "finance",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p11_16",
+        "page_number": 11,
+        "retrieval_score": 32,
+        "bm25_score": 4.4753,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "安全",
+          "次数"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 6
+      },
+      {
+        "chunk_id": "p16_24",
+        "page_number": 16,
+        "retrieval_score": 29,
+        "bm25_score": 1.2845,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "安全"
+        ],
+        "hit_units": [
+          "次",
+          "场"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p25_41",
+        "page_number": 25,
+        "retrieval_score": 29,
+        "bm25_score": 1.7662,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "安全"
+        ],
+        "hit_units": [
+          "场"
+        ],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p29_47",
+        "page_number": 29,
+        "retrieval_score": 29,
+        "bm25_score": 21.4525,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "演练"
+        ],
+        "hit_query_terms": [
+          "安全",
+          "应急",
+          "急演",
+          "演练",
+          "应急演",
+          "急演练"
+        ],
+        "hit_units": [
+          "次",
+          "场"
+        ],
+        "hit_forbidden": [
+          "培训"
+        ],
+        "number_count": 4
+      },
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 29,
+        "bm25_score": 3.1908,
+        "vector_score": 0.062308,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "次数"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [
+          "培训"
+        ],
+        "number_count": 48
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "non_hazardous_waste",
+    "field_name_cn": "一般废弃物产生量",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "没有找到字段名或同义词（如一般废弃物、无害废弃物、非危险废弃物等）与明确数值和年份对应的证据；虽有办公用纸总量（吨）等环境数据，但不属于废弃物产生量范畴，且无任何相关指标表述",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "没有找到字段名或同义词（如一般废弃物、无害废弃物、非危险废弃物等）与明确数值和年份对应的证据；虽有办公用纸总量（吨）等环境数据，但不属于废弃物产生量范畴，且无任何相关指标表述",
+    "retrieval_priority": 44.011,
+    "industry": "finance",
+    "applicability": "unlikely",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p30_51",
+        "page_number": 30,
+        "retrieval_score": 37,
+        "bm25_score": 4.9773,
+        "vector_score": 0.081716,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "总量"
+        ],
+        "hit_units": [
+          "吨"
+        ],
+        "hit_forbidden": [],
+        "number_count": 48
+      },
+      {
+        "chunk_id": "p14_21",
+        "page_number": 14,
+        "retrieval_score": 28,
+        "bm25_score": 4.9773,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "一般"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 5
+      },
+      {
+        "chunk_id": "p10_12",
+        "page_number": 10,
+        "retrieval_score": 17,
+        "bm25_score": 0.0,
+        "vector_score": 0.100552,
+        "hit_keywords": [],
+        "hit_query_terms": [],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p6_7",
+        "page_number": 6,
+        "retrieval_score": 12,
+        "bm25_score": 0.0,
+        "vector_score": 0.09626,
+        "hit_keywords": [],
+        "hit_query_terms": [],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 5
+      },
+      {
+        "chunk_id": "p8_10",
+        "page_number": 8,
+        "retrieval_score": 12,
+        "bm25_score": 0.0,
+        "vector_score": 0.098783,
+        "hit_keywords": [],
+        "hit_query_terms": [],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 5
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "natural_gas_consumption",
+    "field_name_cn": "天然气消耗量",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "没有找到与天然气消耗量相关的数值、年份或任何明确提及天然气使用、消耗、用量的语句，所有内容均围绕数字化服务、绿色贷款、消费者权益、网络安全等主题，无相关证据",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "没有找到与天然气消耗量相关的数值、年份或任何明确提及天然气使用、消耗、用量的语句，所有内容均围绕数字化服务、绿色贷款、消费者权益、网络安全等主题，无相关证据",
+    "retrieval_priority": 31.0,
+    "industry": "finance",
+    "applicability": "unlikely",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p18_27",
+        "page_number": 18,
+        "retrieval_score": 26,
+        "bm25_score": 2.062,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "使用"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 9
+      },
+      {
+        "chunk_id": "p4_2",
+        "page_number": 4,
+        "retrieval_score": 24,
+        "bm25_score": 1.4996,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "使用"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 26
+      },
+      {
+        "chunk_id": "p21_33",
+        "page_number": 21,
+        "retrieval_score": 24,
+        "bm25_score": 1.4996,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "使用"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 12
+      },
+      {
+        "chunk_id": "p5_4",
+        "page_number": 5,
+        "retrieval_score": 21,
+        "bm25_score": 1.4996,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "使用"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 7
+      },
+      {
+        "chunk_id": "p18_28",
+        "page_number": 18,
+        "retrieval_score": 21,
+        "bm25_score": 2.062,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "使用"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 4
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  }
+]

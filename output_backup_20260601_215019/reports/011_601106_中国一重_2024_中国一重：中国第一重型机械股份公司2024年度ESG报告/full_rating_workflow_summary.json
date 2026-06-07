@@ -1,0 +1,58 @@
+{
+  "report_dir": "output\\reports\\011_601106_中国一重_2024_中国一重：中国第一重型机械股份公司2024年度ESG报告",
+  "industry": "manufacturing",
+  "retrieval_profile": "bm25_query_agg_evidence_rerank_v1",
+  "skip_harness": true,
+  "harness": null,
+  "citations": {
+    "field_count": 60,
+    "auto_cited_count": 42,
+    "needs_review_count": 18,
+    "json_path": "output\\reports\\011_601106_中国一重_2024_中国一重：中国第一重型机械股份公司2024年度ESG报告\\field_citations.json",
+    "csv_path": "output\\reports\\011_601106_中国一重_2024_中国一重：中国第一重型机械股份公司2024年度ESG报告\\field_citations.csv"
+  },
+  "rating": {
+    "score": 64.8348,
+    "rating": "CC",
+    "field_count": 53,
+    "scored_field_count": 36,
+    "needs_review_count": 18,
+    "json_path": "output\\reports\\011_601106_中国一重_2024_中国一重：中国第一重型机械股份公司2024年度ESG报告\\simulated_rating.json",
+    "summary_csv_path": "output\\reports\\011_601106_中国一重_2024_中国一重：中国第一重型机械股份公司2024年度ESG报告\\simulated_rating_summary.csv",
+    "review_queue_path": "output\\reports\\011_601106_中国一重_2024_中国一重：中国第一重型机械股份公司2024年度ESG报告\\rating_review_queue.json",
+    "rating_run_id": "rating_63b61ee7988d404d",
+    "pillar_scores": {
+      "E": {
+        "score": 72.6462,
+        "rating": "B",
+        "field_count": 21,
+        "scored_field_count": 16,
+        "coverage": 0.7619,
+        "auto_cited_count": 16,
+        "evidence_coverage": 0.7619,
+        "needs_review_count": 5
+      },
+      "G": {
+        "score": 53.0467,
+        "rating": "C",
+        "field_count": 13,
+        "scored_field_count": 7,
+        "coverage": 0.5385,
+        "auto_cited_count": 7,
+        "evidence_coverage": 0.5385,
+        "needs_review_count": 6
+      },
+      "S": {
+        "score": 67.1275,
+        "rating": "CCC",
+        "field_count": 19,
+        "scored_field_count": 13,
+        "coverage": 0.6842,
+        "auto_cited_count": 13,
+        "evidence_coverage": 0.6842,
+        "needs_review_count": 6
+      }
+    }
+  },
+  "next_step": "Review rating_review_queue.json, then approve/correct fields and recalculate rating."
+}

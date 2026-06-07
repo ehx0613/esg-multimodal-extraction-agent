@@ -1,0 +1,20 @@
+{
+  "total_fields": 60,
+  "route_a_extracted_fields": 14,
+  "route_b_matched_fields": 17,
+  "route_b_filled_fields": 17,
+  "route_b2_matched_fields": 2,
+  "route_b2_filled_fields": 2,
+  "merged_extracted_fields": 33,
+  "missing_fields": 27,
+  "coverage_rate": 0.55,
+  "raw_coverage": 0.55,
+  "industry": "service",
+  "applicable_fields": 60,
+  "applicable_extracted_fields": 33,
+  "not_applicable_fields": 0,
+  "applicable_coverage": 0.55,
+  "route_a_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\001_002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告\\standard_esg_results.csv",
+  "route_b_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\001_002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告\\route_b_text_results.csv",
+  "route_b2_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\001_002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告\\route_b2_quant_results.csv"
+}

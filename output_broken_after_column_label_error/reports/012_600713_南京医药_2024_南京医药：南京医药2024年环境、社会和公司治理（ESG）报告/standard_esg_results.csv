@@ -1,8 +1,0 @@
-﻿field_key,field_name_cn,category,indicator_type,value_type,value,raw_value,unit,year,row_label,topic,table_title,page_image,evidence_text,status,confidence,match_reason
-total_ghg_emissions,温室气体排放总量,E,quantitative,number,,,,,,,,,,missing,0.0,not_found
-scope_1_emissions,范围一温室气体排放量,E,quantitative,number,,,,,,,,,,missing,0.0,not_found
-scope_2_emissions,范围二温室气体排放量,E,quantitative,number,,,,,,,,,,missing,0.0,not_found
-scope_3_emissions,范围三温室气体排放量,E,quantitative,number,,,,,,,,,,missing,0.0,not_found
-ghg_emissions_intensity,温室气体排放强度,E,quantitative,number,,,,,,,,,,missing,0.0,not_found
-energy_consumption_total,能源消耗总量,E,quantitative,number,,,,,,,,,,missing,0.0,not_found
-energy_consumption_intensity,能源消耗强度,E,quantitative,number,,,,,,,,,,missing,0.0,not_found

@@ -1,8 +1,15 @@
 .env
 __pycache__/
 *.pyc
+.pytest_cache/
 .idea/
 .vscode/
+node_modules/
+logs/
+*.log
+*.db
+*.db-shm
+*.db-wal
 data/raw/*
 data/processed/*
 output/page_images/*

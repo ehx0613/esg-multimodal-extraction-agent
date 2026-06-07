@@ -1,0 +1,58 @@
+{
+  "report_dir": "output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告",
+  "industry": "manufacturing",
+  "retrieval_profile": "bm25_query_agg_evidence_rerank_v1",
+  "skip_harness": true,
+  "harness": null,
+  "citations": {
+    "field_count": 60,
+    "auto_cited_count": 34,
+    "needs_review_count": 26,
+    "json_path": "output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\field_citations.json",
+    "csv_path": "output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\field_citations.csv"
+  },
+  "rating": {
+    "score": 55.7041,
+    "rating": "C",
+    "field_count": 53,
+    "scored_field_count": 31,
+    "needs_review_count": 26,
+    "json_path": "output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\simulated_rating.json",
+    "summary_csv_path": "output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\simulated_rating_summary.csv",
+    "review_queue_path": "output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\rating_review_queue.json",
+    "rating_run_id": "rating_9c2858636f124bb9",
+    "pillar_scores": {
+      "E": {
+        "score": 55.4538,
+        "rating": "C",
+        "field_count": 21,
+        "scored_field_count": 12,
+        "coverage": 0.5714,
+        "auto_cited_count": 12,
+        "evidence_coverage": 0.5714,
+        "needs_review_count": 9
+      },
+      "G": {
+        "score": 39.7667,
+        "rating": "C",
+        "field_count": 13,
+        "scored_field_count": 5,
+        "coverage": 0.3846,
+        "auto_cited_count": 5,
+        "evidence_coverage": 0.3846,
+        "needs_review_count": 8
+      },
+      "S": {
+        "score": 69.615,
+        "rating": "CCC",
+        "field_count": 19,
+        "scored_field_count": 14,
+        "coverage": 0.7368,
+        "auto_cited_count": 14,
+        "evidence_coverage": 0.7368,
+        "needs_review_count": 5
+      }
+    }
+  },
+  "next_step": "Review rating_review_queue.json, then approve/correct fields and recalculate rating."
+}

@@ -1,0 +1,10 @@
+{
+  "ingest_version": "route_a_page_scoring_v3_unit_density",
+  "pdf_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\data\\raw\\002973_侨银股份_2024_侨银股份：2024年度环境、社会及公司治理（ESG）报告.pdf",
+  "total_pages": 55,
+  "total_text_chars": 62245,
+  "text_available": true,
+  "chunk_size": 800,
+  "chunk_overlap": 120,
+  "chunk_count": 109
+}

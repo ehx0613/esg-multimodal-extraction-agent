@@ -1,10 +1,12 @@
 import base64
+import time
 from pathlib import Path
 from openai import OpenAI
 
 from config.settings import DASHSCOPE_API_KEY, VLM_MODEL
-from config.prompts import build_all_table_rows_prompt, build_forced_table_prompt
+from config.prompts import CHART_EXTRACTION_RULES, build_all_table_rows_prompt, build_forced_table_prompt
 from utils.json_utils import extract_json_from_text
+from utils.call_tracker import model_call_allowed, record_model_call
 
 
 def _image_to_data_url(image_path: Path) -> str:
@@ -33,31 +35,56 @@ def _get_client() -> OpenAI:
     )
 
 
-def _call_vlm(image_path: Path, prompt: str):
+def _call_vlm(image_path: Path, prompt: str, *, stage: str = "vlm_table_extract"):
+    if not model_call_allowed(stage):
+        return {
+            "page_image": image_path.name,
+            "page_type": "other",
+            "page_note": "model_call_budget_exhausted",
+            "tables": [],
+        }
     client = _get_client()
     image_url = _image_to_data_url(image_path)
 
-    resp = client.chat.completions.create(
-        model=VLM_MODEL,
-        messages=[
-            {
-                "role": "user",
-                "content": [
-                    {
-                        "type": "image_url",
-                        "image_url": {
-                            "url": image_url
+    started_at = time.time()
+    try:
+        resp = client.chat.completions.create(
+            model=VLM_MODEL,
+            messages=[
+                {
+                    "role": "user",
+                    "content": [
+                        {
+                            "type": "image_url",
+                            "image_url": {
+                                "url": image_url
+                            },
                         },
-                    },
-                    {
-                        "type": "text",
-                        "text": prompt,
-                    },
-                ],
-            }
-        ],
-        temperature=0,
-    )
+                        {
+                            "type": "text",
+                            "text": prompt,
+                        },
+                    ],
+                }
+            ],
+            temperature=0,
+        )
+        record_model_call(
+            stage=stage,
+            model=VLM_MODEL,
+            started_at=started_at,
+            response=resp,
+            metadata={"image": image_path.name},
+        )
+    except Exception as exc:
+        record_model_call(
+            stage=stage,
+            model=VLM_MODEL,
+            started_at=started_at,
+            metadata={"image": image_path.name},
+            error=str(exc),
+        )
+        raise
 
     content = resp.choices[0].message.content
     data = extract_json_from_text(content)
@@ -95,13 +122,14 @@ def _count_rows(result) -> int:
     return total
 
 
-def extract_all_table_rows_from_image(image_path):
+def extract_all_table_rows_from_image(image_path, *, stage: str = "vlm_table_extract"):
     image_path = Path(image_path)
 
     # 第一次：正常 Prompt
     result = _call_vlm(
         image_path=image_path,
-        prompt=build_all_table_rows_prompt(image_path.name),
+        prompt=build_all_table_rows_prompt(image_path.name) + "\n\n" + CHART_EXTRACTION_RULES,
+        stage=stage,
     )
 
     row_count = _count_rows(result)
@@ -110,7 +138,8 @@ def extract_all_table_rows_from_image(image_path):
     if result.get("page_type") != "performance_data_table" or row_count == 0:
         retry_result = _call_vlm(
             image_path=image_path,
-            prompt=build_forced_table_prompt(image_path.name),
+            prompt=build_forced_table_prompt(image_path.name) + "\n\n" + CHART_EXTRACTION_RULES,
+            stage=stage,
         )
 
         retry_count = _count_rows(retry_result)

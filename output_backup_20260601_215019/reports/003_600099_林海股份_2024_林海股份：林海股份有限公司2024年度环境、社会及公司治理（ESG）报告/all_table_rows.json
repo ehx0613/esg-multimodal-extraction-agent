@@ -1,0 +1,3095 @@
+[
+  {
+    "page_image": "page_11.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "党建关键绩效",
+        "columns": [
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "公司党委数量",
+            "unit": "个",
+            "values": {
+              "2024年": "1"
+            },
+            "evidence_text": "报告期内，公司党委数量 1 个，党支部数量 6 个，召开党委会 25 次。前工报告期末，公司党员数量 111 人。"
+          },
+          {
+            "metric_name": "党支部数量",
+            "unit": "个",
+            "values": {
+              "2024年": "6"
+            },
+            "evidence_text": "报告期内，公司党委数量 1 个，党支部数量 6 个，召开党委会 25 次。前工报告期末，公司党员数量 111 人。"
+          },
+          {
+            "metric_name": "召开党委会次数",
+            "unit": "次",
+            "values": {
+              "2024年": "25"
+            },
+            "evidence_text": "报告期内，公司党委数量 1 个，党支部数量 6 个，召开党委会 25 次。前工报告期末，公司党员数量 111 人。"
+          },
+          {
+            "metric_name": "公司党员数量",
+            "unit": "人",
+            "values": {
+              "2024年": "111"
+            },
+            "evidence_text": "报告期内，公司党委数量 1 个，党支部数量 6 个，召开党委会 25 次。前工报告期末，公司党员数量 111 人。"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_12.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "关键绩效表-党建活动",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "党建活动",
+            "metric_name": "国有企业党培训人次",
+            "unit": "人次",
+            "values": {
+              "2024年": "632"
+            },
+            "evidence_text": "党建活动 国有企业党培训人次 人次 2024年 632"
+          },
+          {
+            "topic": "党建活动",
+            "metric_name": "基层党组织书记培训人次",
+            "unit": "人次",
+            "values": {
+              "2024年": "21"
+            },
+            "evidence_text": "党建活动 基层党组织书记培训人次 人次 2024年 21"
+          },
+          {
+            "topic": "党建活动",
+            "metric_name": "党员年度集中学习培训达标人次",
+            "unit": "人次",
+            "values": {
+              "2024年": "111"
+            },
+            "evidence_text": "党建活动 党员年度集中学习培训达标人次 人次 2024年 111"
+          },
+          {
+            "topic": "党建活动",
+            "metric_name": "基层党组织书记年度集中学习培训达标人次",
+            "unit": "人次",
+            "values": {
+              "2024年": "7"
+            },
+            "evidence_text": "党建活动 基层党组织书记年度集中学习培训达标人次 人次 2024年 7"
+          }
+        ]
+      },
+      {
+        "table_title": "关键绩效表-董事会",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "董事会",
+            "metric_name": "公司共召开董事会次数",
+            "unit": "次",
+            "values": {
+              "2024年": "7"
+            },
+            "evidence_text": "董事会 公司共召开董事会次数 次 2024年 7"
+          },
+          {
+            "topic": "董事会",
+            "metric_name": "审议议案项数",
+            "unit": "项",
+            "values": {
+              "2024年": "33"
+            },
+            "evidence_text": "董事会 审议议案项数 项 2024年 33"
+          },
+          {
+            "topic": "董事会",
+            "metric_name": "公司董事会下设战略与ESG委员会、提名委员会、薪酬与考核委员会和审计委员会个数",
+            "unit": "个",
+            "values": {
+              "2024年": "4"
+            },
+            "evidence_text": "董事会 公司董事会下设战略与ESG委员会、提名委员会、薪酬与考核委员会和审计委员会个数 个 2024年 4"
+          },
+          {
+            "topic": "董事会",
+            "metric_name": "召开战略与ESG委员会会议次数",
+            "unit": "次",
+            "values": {
+              "2024年": "3"
+            },
+            "evidence_text": "董事会 召开战略与ESG委员会会议次数 次 2024年 3"
+          },
+          {
+            "topic": "董事会",
+            "metric_name": "薪酬与考核委员会会议次数",
+            "unit": "次",
+            "values": {
+              "2024年": "2"
+            },
+            "evidence_text": "董事会 薪酬与考核委员会会议次数 次 2024年 2"
+          },
+          {
+            "topic": "董事会",
+            "metric_name": "审计委员会会议次数",
+            "unit": "次",
+            "values": {
+              "2024年": "4"
+            },
+            "evidence_text": "董事会 审计委员会会议次数 次 2024年 4"
+          },
+          {
+            "topic": "董事会",
+            "metric_name": "截至报告期末，公司董事共有",
+            "unit": "名",
+            "values": {
+              "2024年": "9"
+            },
+            "evidence_text": "董事会 截至报告期末，公司董事共有 名 2024年 9"
+          }
+        ]
+      },
+      {
+        "table_title": "关键绩效表-董事会决议",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "董事会决议",
+            "metric_name": "报告期内，公司共召开股东大会次数",
+            "unit": "次",
+            "values": {
+              "2024年": "2"
+            },
+            "evidence_text": "董事会决议 报告期内，公司共召开股东大会次数 次 2024年 2"
+          },
+          {
+            "topic": "董事会决议",
+            "metric_name": "临时股东大会次数",
+            "unit": "次",
+            "values": {
+              "2024年": "1"
+            },
+            "evidence_text": "董事会决议 临时股东大会次数 次 2024年 1"
+          },
+          {
+            "topic": "董事会决议",
+            "metric_name": "审议共通过了关键绩效议题数量",
+            "unit": "项",
+            "values": {
+              "2024年": "10"
+            },
+            "evidence_text": "董事会决议 审议共通过了关键绩效议题数量 项 2024年 10"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_13.png",
+    "page_type": "performance_data_table",
+    "page_note": "页面包含治理维度的关键绩效数据，具体为董事会和监事会的相关指标。",
+    "tables": [
+      {
+        "table_title": "关键绩效表-治理维度",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "董事会",
+            "metric_name": "董事会独立性",
+            "unit": "%",
+            "values": {
+              "2024年": "33.33"
+            },
+            "evidence_text": "董事会 独立董事占比 % 2024年 33.33"
+          },
+          {
+            "topic": "监事会",
+            "metric_name": "监事会召开次数",
+            "unit": "次",
+            "values": {
+              "2024年": "4"
+            },
+            "evidence_text": "监事会 共召开监事会 次 2024年 4"
+          },
+          {
+            "topic": "监事会",
+            "metric_name": "监事会审议议案数",
+            "unit": "项",
+            "values": {
+              "2024年": "15"
+            },
+            "evidence_text": "监事会 共审议 项议案 2024年 15"
+          },
+          {
+            "topic": "监事会",
+            "metric_name": "监事会平均出席率",
+            "unit": "%",
+            "values": {
+              "2024年": "100"
+            },
+            "evidence_text": "监事会 监事平均出席率 % 2024年 100"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_14.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "关键绩效表-风险管理培训",
+        "columns": [
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "公司组织内部风险培训次数",
+            "unit": "次",
+            "values": {
+              "2024年": "6"
+            },
+            "evidence_text": "公司组织内部风险培训 6 次"
+          },
+          {
+            "metric_name": "培训总时长",
+            "unit": "小时",
+            "values": {
+              "2024年": "18"
+            },
+            "evidence_text": "培训总时长 18 小时"
+          },
+          {
+            "metric_name": "培训总人次",
+            "unit": "人次",
+            "values": {
+              "2024年": "180"
+            },
+            "evidence_text": "培训总人次 180 人次"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_17.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司研发制造理念介绍，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_17_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为林海股份的创新研发和匠心制造理念介绍，未包含具体ESG绩效数值表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_17_right.png",
+    "page_type": "other",
+    "page_note": "图片中未包含ESG绩效数据表格，仅展示了机械齿轮的黑白照片及两个可持续发展目标（SDGs）图标。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_18.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "关键绩效",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": null,
+            "metric_name": "林海技术中心建筑面积",
+            "unit": "m²",
+            "values": {
+              "2024年": "7,000"
+            },
+            "evidence_text": "林海技术中心建筑面积 m² 2024年 7,000"
+          },
+          {
+            "topic": null,
+            "metric_name": "室外试验场",
+            "unit": "m²",
+            "values": {
+              "2024年": "66,700"
+            },
+            "evidence_text": "室外试验场 m² 2024年 66,700"
+          },
+          {
+            "topic": null,
+            "metric_name": "科研设备仪器等固定资产原值",
+            "unit": "万元",
+            "values": {
+              "2024年": "4,000"
+            },
+            "evidence_text": "科研设备仪器等固定资产原值 万元 2024年 4,000"
+          }
+        ]
+      },
+      {
+        "table_title": "关键绩效-研发人员情况",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": null,
+            "metric_name": "研发人员数量",
+            "unit": "人",
+            "values": {
+              "2024年": "113"
+            },
+            "evidence_text": "研发人员数量 人 2024年 113"
+          },
+          {
+            "topic": null,
+            "metric_name": "研发人员数量占公司总人数的比例",
+            "unit": "%",
+            "values": {
+              "2024年": "20.50%"
+            },
+            "evidence_text": "研发人员数量占公司总人数的比例 % 2024年 20.50%"
+          }
+        ]
+      },
+      {
+        "table_title": "研发规划与投入-研发绩效",
+        "columns": [
+          "指标",
+          "单位",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "研发投入占营业收入比例",
+            "unit": "%",
+            "values": {
+              "2022年": "2.77%",
+              "2023年": "3.63%",
+              "2024年": "4.09%"
+            },
+            "evidence_text": "研发投入占营业收入比例 % 2022年 2.77% 2023年 3.63% 2024年 4.09%"
+          },
+          {
+            "metric_name": "研发投入",
+            "unit": "万元",
+            "values": {
+              "2022年": "2,022.38",
+              "2023年": "2,552.49",
+              "2024年": "4,295.80"
+            },
+            "evidence_text": "研发投入 万元 2022年 2,022.38 2023年 2,552.49 2024年 4,295.80"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_19.png",
+    "page_type": "other",
+    "page_note": "页面内容主要为研发创新措施、案例介绍及知识产权相关内容，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_19_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为研发创新措施和2024年揭榜挂帅项目案例，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_19_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为林海股份有限公司与江苏大学农业工程学院开展产学研合作的案例介绍，未包含具体ESG绩效数值表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_20.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "关键绩效",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": null,
+            "metric_name": "公司累计有效专利",
+            "unit": "件",
+            "values": {
+              "2024年": "79"
+            },
+            "evidence_text": "公司累计有效专利 件 2024年 79"
+          },
+          {
+            "topic": null,
+            "metric_name": "发明专利",
+            "unit": "件",
+            "values": {
+              "2024年": "11"
+            },
+            "evidence_text": "发明专利 件 2024年 11"
+          },
+          {
+            "topic": null,
+            "metric_name": "实用新型专利",
+            "unit": "件",
+            "values": {
+              "2024年": "60"
+            },
+            "evidence_text": "实用新型专利 件 2024年 60"
+          },
+          {
+            "topic": null,
+            "metric_name": "外观设计专利",
+            "unit": "件",
+            "values": {
+              "2024年": "8"
+            },
+            "evidence_text": "外观设计专利 件 2024年 8"
+          },
+          {
+            "topic": null,
+            "metric_name": "2024年共申请专利",
+            "unit": "件",
+            "values": {
+              "2024年": "36"
+            },
+            "evidence_text": "2024年共申请专利 件 2024年 36"
+          },
+          {
+            "topic": null,
+            "metric_name": "发明专利",
+            "unit": "件",
+            "values": {
+              "2024年": "18"
+            },
+            "evidence_text": "发明专利 件 2024年 18"
+          },
+          {
+            "topic": null,
+            "metric_name": "实用新型专利",
+            "unit": "件",
+            "values": {
+              "2024年": "17"
+            },
+            "evidence_text": "实用新型专利 件 2024年 17"
+          },
+          {
+            "topic": null,
+            "metric_name": "外观设计专利",
+            "unit": "件",
+            "values": {
+              "2024年": "1"
+            },
+            "evidence_text": "外观设计专利 件 2024年 1"
+          },
+          {
+            "topic": null,
+            "metric_name": "授权专利",
+            "unit": "件",
+            "values": {
+              "2024年": "3"
+            },
+            "evidence_text": "授权专利 件 2024年 3"
+          },
+          {
+            "topic": null,
+            "metric_name": "发表论文",
+            "unit": "篇",
+            "values": {
+              "2024年": "1"
+            },
+            "evidence_text": "发表论文 篇 2024年 1"
+          },
+          {
+            "topic": null,
+            "metric_name": "产品质量合格率",
+            "unit": "%",
+            "values": {
+              "2024年": "98.30"
+            },
+            "evidence_text": "产品质量合格率 % 2024年 98.30"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_30.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "关键绩效表",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "员工",
+            "metric_name": "公司困难帮扶人数",
+            "unit": "人",
+            "values": {
+              "2024年": "10"
+            },
+            "evidence_text": "员工 公司困难帮扶人数 人 2024年 10"
+          },
+          {
+            "topic": "员工",
+            "metric_name": "累计金额",
+            "unit": "元",
+            "values": {
+              "2024年": "14,500"
+            },
+            "evidence_text": "员工 累计金额 元 2024年 14,500"
+          },
+          {
+            "topic": "员工",
+            "metric_name": "2024年为员工发放福利",
+            "unit": "万元",
+            "values": {
+              "2024年": "37.14"
+            },
+            "evidence_text": "员工 2024年为员工发放福利 万元 2024年 37.14"
+          },
+          {
+            "topic": "安全生产",
+            "metric_name": "公司工伤事故",
+            "unit": "人",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "安全生产 公司工伤事故 人 2024年 0"
+          },
+          {
+            "topic": "安全生产",
+            "metric_name": "设备事故",
+            "unit": "元",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "安全生产 设备事故 元 2024年 0"
+          },
+          {
+            "topic": "安全生产",
+            "metric_name": "火灾、爆炸、火警事故",
+            "unit": "万元",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "安全生产 火灾、爆炸、火警事故 万元 2024年 0"
+          },
+          {
+            "topic": "安全生产",
+            "metric_name": "三违查处率",
+            "unit": "%",
+            "values": {
+              "2024年": "100"
+            },
+            "evidence_text": "安全生产 三违查处率 % 2024年 100"
+          },
+          {
+            "topic": "安全生产",
+            "metric_name": "微险改率",
+            "unit": "%",
+            "values": {
+              "2024年": "100"
+            },
+            "evidence_text": "安全生产 微险改率 % 2024年 100"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_31.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "量化数据绩效表-安全生产",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "安全生产管理责任制度",
+            "metric_name": "安全投入金额",
+            "unit": "万元",
+            "values": {
+              "2024年": "284.75"
+            },
+            "evidence_text": "关键绩效 报告期内。 全公司开展了安全生产各类检查（各单位自查、班组检查等），安全投入 284.75 万元"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_32.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "关键绩效表-安全教育",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "安全教育",
+            "metric_name": "公司共开展应急演练活动",
+            "unit": "次",
+            "values": {
+              "2024年": "12"
+            },
+            "evidence_text": "安全教育 公司共开展应急演练活动 次 2024年 12"
+          },
+          {
+            "topic": "安全教育",
+            "metric_name": "累计参与人次",
+            "unit": "人次",
+            "values": {
+              "2024年": "400"
+            },
+            "evidence_text": "安全教育 累计参与人次 人次 2024年 400"
+          }
+        ]
+      },
+      {
+        "table_title": "关键绩效表-员工健康",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "员工健康",
+            "metric_name": "公司开展各种安全生产制度、安全操作规程、消防安全、交安安全等培训，累计安全培训人次",
+            "unit": "人次",
+            "values": {
+              "2024年": "1,329"
+            },
+            "evidence_text": "员工健康 公司开展各种安全生产制度、安全操作规程、消防安全、交安安全等培训，累计安全培训人次 人次 2024年 1,329"
+          },
+          {
+            "topic": "员工健康",
+            "metric_name": "公司员工职业健康体检覆盖率",
+            "unit": "%",
+            "values": {
+              "2024年": "100"
+            },
+            "evidence_text": "员工健康 公司员工职业健康体检覆盖率 % 2024年 100"
+          },
+          {
+            "topic": "员工健康",
+            "metric_name": "无新增职业病病例",
+            "unit": "例",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "员工健康 无新增职业病病例 例 2024年 0"
+          },
+          {
+            "topic": "员工健康",
+            "metric_name": "职业病发病率",
+            "unit": "%",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "员工健康 职业病发病率 % 2024年 0"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_33.png",
+    "page_type": "error",
+    "page_note": "Error code: 400 - {'error': {'message': '<400> InternalError.Algo.InvalidParameter: Multimodal file size is too large', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_parameter_error'}, 'id': 'chatcmpl-a7875b3e-34bd-9731-8df4-7c5ab6843367', 'request_id': 'a7875b3e-34bd-9731-8df4-7c5ab6843367'}",
+    "tables": []
+  },
+  {
+    "page_image": "page_34.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "关键绩效表",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "生态环保保护目标",
+            "metric_name": "全年生态环境保护投入",
+            "unit": "万元",
+            "values": {
+              "2024年": "34.55"
+            },
+            "evidence_text": "生态环保保护目标 全年生态环境保护投入 万元 2024年 34.55"
+          },
+          {
+            "topic": "生态环保保护目标",
+            "metric_name": "年度缴纳环保税",
+            "unit": "万元",
+            "values": {
+              "2024年": "28.99"
+            },
+            "evidence_text": "生态环保保护目标 年度缴纳环保税 万元 2024年 28.99"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_35.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "关键绩效",
+        "columns": [
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "发生环境事故次数",
+            "unit": "起",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "发生环境事故次数 起 2024年 0"
+          }
+        ]
+      },
+      {
+        "table_title": "能源节约与生态环境保护领导小组工作职责",
+        "columns": [
+          "岗位名称",
+          "工作职责"
+        ],
+        "rows": [
+          {
+            "topic": "能源节约与生态环境保护领导小组",
+            "metric_name": "落实工作要求和工作目标",
+            "unit": null,
+            "values": null,
+            "evidence_text": "能源节约与生态环境保护领导小组 落实工作要求和工作目标"
+          },
+          {
+            "topic": "能源节约与生态环境保护领导小组",
+            "metric_name": "审定相关制度",
+            "unit": null,
+            "values": null,
+            "evidence_text": "能源节约与生态环境保护领导小组 审定相关制度"
+          },
+          {
+            "topic": "能源节约与生态环境保护领导小组",
+            "metric_name": "负责公司井构、新建、改建、扩建等投资活动的评审决策",
+            "unit": null,
+            "values": null,
+            "evidence_text": "能源节约与生态环境保护领导小组 负责公司井构、新建、改建、扩建等投资活动的评审决策"
+          },
+          {
+            "topic": "能源节约与生态环境保护领导小组",
+            "metric_name": "决定相关奖惩事项",
+            "unit": null,
+            "values": null,
+            "evidence_text": "能源节约与生态环境保护领导小组 决定相关奖惩事项"
+          },
+          {
+            "topic": "能源节约与生态环境保护领导小组",
+            "metric_name": "指导公司各单位能源节约与生态环境保护工作",
+            "unit": null,
+            "values": null,
+            "evidence_text": "能源节约与生态环境保护领导小组 指导公司各单位能源节约与生态环境保护工作"
+          }
+        ]
+      },
+      {
+        "table_title": "能源节约与生态环境保护办公室工作职责",
+        "columns": [
+          "岗位名称",
+          "工作职责"
+        ],
+        "rows": [
+          {
+            "topic": "能源节约与生态环境保护办公室",
+            "metric_name": "制定相关工作程序和管理制度，建立健全科学、规范的组织管理、统计监测和考核奖惩体系（以下简称“三大体系”）",
+            "unit": null,
+            "values": null,
+            "evidence_text": "能源节约与生态环境保护办公室 制定相关工作程序和管理制度，建立健全科学、规范的组织管理、统计监测和考核奖惩体系（以下简称“三大体系”）"
+          },
+          {
+            "topic": "能源节约与生态环境保护办公室",
+            "metric_name": "建立相关考核奖惩制度，对各单位各部门实施考核，并开展监督检查工作，建立问责制度",
+            "unit": null,
+            "values": null,
+            "evidence_text": "能源节约与生态环境保护办公室 建立相关考核奖惩制度，对各单位各部门实施考核，并开展监督检查工作，建立问责制度"
+          },
+          {
+            "topic": "能源节约与生态环境保护办公室",
+            "metric_name": "统计监测能源消耗和污染物排放",
+            "unit": null,
+            "values": null,
+            "evidence_text": "能源节约与生态环境保护办公室 统计监测能源消耗和污染物排放"
+          },
+          {
+            "topic": "能源节约与生态环境保护办公室",
+            "metric_name": "定期向集团上报工作完成情况、能源节约与生态环境保护工作涉及的重大事项",
+            "unit": null,
+            "values": null,
+            "evidence_text": "能源节约与生态环境保护办公室 定期向集团上报工作完成情况、能源节约与生态环境保护工作涉及的重大事项"
+          },
+          {
+            "topic": "能源节约与生态环境保护办公室",
+            "metric_name": "负责相关项目及配套专项资金的申报、预算编制、使用监管工作，组织开展相关技术创新与技术改造工作",
+            "unit": null,
+            "values": null,
+            "evidence_text": "能源节约与生态环境保护办公室 负责相关项目及配套专项资金的申报、预算编制、使用监管工作，组织开展相关技术创新与技术改造工作"
+          },
+          {
+            "topic": "能源节约与生态环境保护办公室",
+            "metric_name": "组织扩训培训、交流和宣传工作",
+            "unit": null,
+            "values": null,
+            "evidence_text": "能源节约与生态环境保护办公室 组织扩训培训、交流和宣传工作"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_36.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "2024年公司能源消耗情况",
+        "columns": [
+          "能源种类",
+          "单位",
+          "数量"
+        ],
+        "rows": [
+          {
+            "metric_name": "电力消耗量",
+            "unit": "度（千瓦时）",
+            "values": {
+              "2024年": "1,817,405"
+            },
+            "evidence_text": "电力消耗量 度（千瓦时） 1,817,405"
+          },
+          {
+            "metric_name": "用电强度",
+            "unit": "千瓦时/百万营收",
+            "values": {
+              "2024年": "1,729.65"
+            },
+            "evidence_text": "用电强度 千瓦时/百万营收 1,729.65"
+          },
+          {
+            "metric_name": "汽油消耗量",
+            "unit": "吨",
+            "values": {
+              "2024年": "59"
+            },
+            "evidence_text": "汽油消耗量 吨 59"
+          },
+          {
+            "metric_name": "柴油消耗量",
+            "unit": "吨",
+            "values": {
+              "2024年": "7"
+            },
+            "evidence_text": "柴油消耗量 吨 7"
+          },
+          {
+            "metric_name": "能源消耗总量",
+            "unit": "吨标准煤",
+            "values": {
+              "2024年": "320.37"
+            },
+            "evidence_text": "能源消耗总量 吨标准煤 320.37"
+          },
+          {
+            "metric_name": "能源消耗强度",
+            "unit": "吨标准煤/百万营收",
+            "values": {
+              "2024年": "0.3"
+            },
+            "evidence_text": "能源消耗强度 吨标准煤/百万营收 0.3"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_37.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "水资源管理关键绩效",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "水资源管理",
+            "metric_name": "公司水资源消耗总量",
+            "unit": "吨",
+            "values": {
+              "2024年": "23,199"
+            },
+            "evidence_text": "公司水资源消耗总量 吨 2024年 23,199"
+          },
+          {
+            "topic": "水资源管理",
+            "metric_name": "用水强度",
+            "unit": "吨/百万元营收",
+            "values": {
+              "2024年": "22.08"
+            },
+            "evidence_text": "用水强度 吨/百万元营收 2024年 22.08"
+          }
+        ]
+      },
+      {
+        "table_title": "物料管理关键绩效",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "物料管理",
+            "metric_name": "公司在装耗材使用总量",
+            "unit": "吨",
+            "values": {
+              "2024年": "910.22"
+            },
+            "evidence_text": "公司在装耗材使用总量 吨 2024年 910.22"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_38.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "2024年温室气体排放情况",
+        "columns": [
+          "排放行业",
+          "单位",
+          "数量"
+        ],
+        "rows": [
+          {
+            "topic": null,
+            "metric_name": "直接温室气体排放量（范围一）",
+            "unit": "吨二氧化碳当量",
+            "values": {
+              "2024年": "460.2"
+            },
+            "evidence_text": "直接温室气体排放量（范围一） 吨二氧化碳当量 2024年 460.2"
+          },
+          {
+            "topic": null,
+            "metric_name": "间接温室气体排放量（范围二）",
+            "unit": "吨二氧化碳当量",
+            "values": {
+              "2024年": "1291.3"
+            },
+            "evidence_text": "间接温室气体排放量（范围二） 吨二氧化碳当量 2024年 1291.3"
+          },
+          {
+            "topic": null,
+            "metric_name": "温室气体排放总量",
+            "unit": "吨二氧化碳当量",
+            "values": {
+              "2024年": "1751.5"
+            },
+            "evidence_text": "温室气体排放总量 吨二氧化碳当量 2024年 1751.5"
+          },
+          {
+            "topic": null,
+            "metric_name": "温室气体排放强度",
+            "unit": "吨二氧化碳当量/百万营收",
+            "values": {
+              "2024年": "1.67"
+            },
+            "evidence_text": "温室气体排放强度 吨二氧化碳当量/百万营收 2024年 1.67"
+          }
+        ]
+      },
+      {
+        "table_title": "废弃物管理-2024年",
+        "columns": [
+          "排放指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": null,
+            "metric_name": "一般废弃物产生量",
+            "unit": "吨",
+            "values": {
+              "2024年": "50"
+            },
+            "evidence_text": "一般废弃物产生量 吨 2024年 50"
+          },
+          {
+            "topic": null,
+            "metric_name": "一般废弃物处置量",
+            "unit": "吨",
+            "values": {
+              "2024年": "50"
+            },
+            "evidence_text": "一般废弃物处置量 吨 2024年 50"
+          },
+          {
+            "topic": null,
+            "metric_name": "危险废弃物产生量",
+            "unit": "吨",
+            "values": {
+              "2024年": "13.86"
+            },
+            "evidence_text": "危险废弃物产生量 吨 2024年 13.86"
+          },
+          {
+            "topic": null,
+            "metric_name": "危险废弃物处置量",
+            "unit": "吨",
+            "values": {
+              "2024年": "13.86"
+            },
+            "evidence_text": "危险废弃物处置量 吨 2024年 13.86"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_39.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "绿色研发成果",
+        "columns": [
+          "发动机",
+          "主要内容"
+        ],
+        "rows": [
+          {
+            "topic": null,
+            "metric_name": null,
+            "unit": null,
+            "values": null,
+            "evidence_text": "F320 中采用了节能型环保发动机，功率、扭矩、油耗（4.2L/100公里）等性能指标达到客户要求，排气满足欧洲与美国市场的法规要求，产品性能达到国内外同类产品的先进水平。",
+            "engineer": "发动机",
+            "main_content": "F320 中采用了节能型环保发动机，功率、扭矩、油耗（4.2L/100公里）等性能指标达到客户要求，排气满足欧洲与美国市场的法规要求，产品性能达到国内外同类产品的先进水平。"
+          },
+          {
+            "topic": null,
+            "metric_name": null,
+            "unit": null,
+            "values": null,
+            "evidence_text": "新研发有三款清洁能源的新品特种车辆，这些产品将使用电动引擎，可以完全消除排放，实现零污染。通过电动化，可以促进更加清洁、低碳的未来；LH50DA，使用7.5KW 永磁同步电机72V150AH 的磷酸铁锂电池已经研发完成，开始批量生产；LH80DU-C(7.5kW 农游同步电机，7ZV12/AH 铅酸电池)和LH100DU-C(10kW 永磁同步电机，7ZV173AH 铅酸铁锂电池)也已经完成研发，并各制订了2 辆通过测试即将量产。",
+            "engineer": "电动引擎",
+            "main_content": "新研发有三款清洁能源的新品特种车辆，这些产品将使用电动引擎，可以完全消除排放，实现零污染。通过电动化，可以促进更加清洁、低碳的未来；LH50DA，使用7.5KW 永磁同步电机72V150AH 的磷酸铁锂电池已经研发完成，开始批量生产；LH80DU-C(7.5kW 农游同步电机，7ZV12/AH 铅酸电池)和LH100DU-C(10kW 永磁同步电机，7ZV173AH 铅酸铁锂电池)也已经完成研发，并各制订了2 辆通过测试即将量产。"
+          },
+          {
+            "topic": null,
+            "metric_name": null,
+            "unit": null,
+            "values": null,
+            "evidence_text": "使用轻质材料来减轻车轮重量，同时通过减少阻力改善车轮的空气动力学性能等措施来提高燃油效率并减少尾气排放。",
+            "engineer": "车身",
+            "main_content": "使用轻质材料来减轻车轮重量，同时通过减少阻力改善车轮的空气动力学性能等措施来提高燃油效率并减少尾气排放。"
+          },
+          {
+            "topic": null,
+            "metric_name": null,
+            "unit": null,
+            "values": null,
+            "evidence_text": "公司通过技术创新，研发了多款续加第三代电技术方案，使T BOSS 系列车型在废气排放和燃油效率方面表现优异，实现了更环保、更节能的产品目标。T-BOSS 系列车里成功通过了美国加州 CARB 认证和欧盟认证，满足国际市场对环保性能的严苛要求。其中，采用通用 CARB 认证不仅对废气排放提出了更高标准，还兼顾了燃油集发系统的管控要求；欧五认证则对产品排放设定了近乎苛刻的限制。",
+            "engineer": "排气净化和燃油效率",
+            "main_content": "公司通过技术创新，研发了多款续加第三代电技术方案，使T BOSS 系列车型在废气排放和燃油效率方面表现优异，实现了更环保、更节能的产品目标。T-BOSS 系列车里成功通过了美国加州 CARB 认证和欧盟认证，满足国际市场对环保性能的严苛要求。其中，采用通用 CARB 认证不仅对废气排放提出了更高标准，还兼顾了燃油集发系统的管控要求；欧五认证则对产品排放设定了近乎苛刻的限制。"
+          },
+          {
+            "topic": null,
+            "metric_name": null,
+            "unit": null,
+            "values": null,
+            "evidence_text": "采用模块化设计方法进行产品零部件开发和整机集成开发，重点对发动机安装部件、水冷部件、油冷部件、底盘车架、作业平台、插补部件、后桥部件等关键部件进行模块化设计，根据用户需求通过模块组合完成满足用户不同功能需求的整机集成创新，节省开发资源，提高产品开发效率。",
+            "engineer": "高速插秧机",
+            "main_content": "采用模块化设计方法进行产品零部件开发和整机集成开发，重点对发动机安装部件、水冷部件、油冷部件、底盘车架、作业平台、插补部件、后桥部件等关键部件进行模块化设计，根据用户需求通过模块组合完成满足用户不同功能需求的整机集成创新，节省开发资源，提高产品开发效率。"
+          },
+          {
+            "topic": null,
+            "metric_name": null,
+            "unit": null,
+            "values": null,
+            "evidence_text": "为适应人口老龄化、农业从业人员减少的趋势，进行插秧机辅助驾驶作业，全自动无人插秧作业技术开发，减少插秧机作业时人力需求，提高水稻种植效益。",
+            "engineer": "智能化技术开发",
+            "main_content": "为适应人口老龄化、农业从业人员减少的趋势，进行插秧机辅助驾驶作业，全自动无人插秧作业技术开发，减少插秧机作业时人力需求，提高水稻种植效益。"
+          },
+          {
+            "topic": null,
+            "metric_name": null,
+            "unit": null,
+            "values": null,
+            "evidence_text": "对森林消防泵体、汽油动力等部件轻量化技术、可靠性技术、性能提升技术等技术进行研究，开发出便携式冷水离心大流量森林消防泵，具有扬程高、流量大、重量轻、使用可靠等特点，为国家提供可靠的森林消防装备。",
+            "engineer": "系列森林消防产品开发",
+            "main_content": "对森林消防泵体、汽油动力等部件轻量化技术、可靠性技术、性能提升技术等技术进行研究，开发出便携式冷水离心大流量森林消防泵，具有扬程高、流量大、重量轻、使用可靠等特点，为国家提供可靠的森林消防装备。"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_40.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "E: 环境管理",
+        "columns": [
+          "一级指标",
+          "二级指标",
+          "三级指标",
+          "2024年数据"
+        ],
+        "rows": [
+          {
+            "topic": "环保",
+            "metric_name": "环保投入(万元)",
+            "unit": "万元",
+            "values": {
+              "2024年": "34.55"
+            },
+            "evidence_text": "环保 环保投入(万元) 34.55"
+          },
+          {
+            "topic": "环保",
+            "metric_name": "环保费(万元)",
+            "unit": "万元",
+            "values": {
+              "2024年": "28.99"
+            },
+            "evidence_text": "环保 环保费(万元) 28.99"
+          },
+          {
+            "topic": "环保",
+            "metric_name": "环境事故",
+            "unit": "起",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "环保 环境事故 起 0"
+          },
+          {
+            "topic": "环保",
+            "metric_name": "处以罚款(元)",
+            "unit": "元",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "环保 处以罚款(元) 0"
+          }
+        ]
+      },
+      {
+        "table_title": "S1: 员工权益",
+        "columns": [
+          "一级指标",
+          "二级指标",
+          "三级指标",
+          "2024年数据"
+        ],
+        "rows": [
+          {
+            "topic": "员工雇佣",
+            "metric_name": "员工总数(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "551"
+            },
+            "evidence_text": "员工雇佣 员工总数(人) 551"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "按性别",
+            "unit": "",
+            "values": {
+              "2024年": ""
+            },
+            "evidence_text": "员工雇佣 按性别"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "男性(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "406"
+            },
+            "evidence_text": "员工雇佣 男性(人) 406"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "女性(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "145"
+            },
+            "evidence_text": "员工雇佣 女性(人) 145"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "按雇佣类型",
+            "unit": "",
+            "values": {
+              "2024年": ""
+            },
+            "evidence_text": "员工雇佣 按雇佣类型"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "劳动合同制(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "535"
+            },
+            "evidence_text": "员工雇佣 劳动合同制(人) 535"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "劳务派遣制(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "16"
+            },
+            "evidence_text": "员工雇佣 劳务派遣制(人) 16"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "按年龄",
+            "unit": "",
+            "values": {
+              "2024年": ""
+            },
+            "evidence_text": "员工雇佣 按年龄"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "50岁以上(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "128"
+            },
+            "evidence_text": "员工雇佣 50岁以上(人) 128"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "30至50岁(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "363"
+            },
+            "evidence_text": "员工雇佣 30至50岁(人) 363"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "30岁以下(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "60"
+            },
+            "evidence_text": "员工雇佣 30岁以下(人) 60"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "在中国大陆工作的员工(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "551"
+            },
+            "evidence_text": "员工雇佣 在中国大陆工作的员工(人) 551"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "在来发台工作的员工(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "员工雇佣 在来发台工作的员工(人) 0"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "在其他国家和地区(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "员工雇佣 在其他国家和地区(人) 0"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "按学历",
+            "unit": "",
+            "values": {
+              "2024年": ""
+            },
+            "evidence_text": "员工雇佣 按学历"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "博士",
+            "unit": "人",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "员工雇佣 博士 人 0"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "硕士",
+            "unit": "人",
+            "values": {
+              "2024年": "1"
+            },
+            "evidence_text": "员工雇佣 硕士 人 1"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "本科(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "125"
+            },
+            "evidence_text": "员工雇佣 本科(人) 125"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "大专",
+            "unit": "人",
+            "values": {
+              "2024年": "89"
+            },
+            "evidence_text": "员工雇佣 大专 人 89"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "大专以下",
+            "unit": "人",
+            "values": {
+              "2024年": "336"
+            },
+            "evidence_text": "员工雇佣 大专以下 人 336"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "按职位类别",
+            "unit": "",
+            "values": {
+              "2024年": ""
+            },
+            "evidence_text": "员工雇佣 按职位类别"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "基层员工总数(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "481"
+            },
+            "evidence_text": "员工雇佣 基层员工总数(人) 481"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "中级管理层员工总数(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "65"
+            },
+            "evidence_text": "员工雇佣 中级管理层员工总数(人) 65"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "高级管理层员工数(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "5"
+            },
+            "evidence_text": "员工雇佣 高级管理层员工数(人) 5"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "新进员工人数(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "8"
+            },
+            "evidence_text": "员工雇佣 新进员工人数(人) 8"
+          },
+          {
+            "topic": "员工雇佣",
+            "metric_name": "签订劳动合同的人数(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "551"
+            },
+            "evidence_text": "员工雇佣 签订劳动合同的人数(人) 551"
+          },
+          {
+            "topic": "员工流失率",
+            "metric_name": "离职人数(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "22"
+            },
+            "evidence_text": "员工流失率 离职人数(人) 22"
+          },
+          {
+            "topic": "员工流失率",
+            "metric_name": "按性别",
+            "unit": "",
+            "values": {
+              "2024年": ""
+            },
+            "evidence_text": "员工流失率 按性别"
+          },
+          {
+            "topic": "员工流失率",
+            "metric_name": "男性(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "13"
+            },
+            "evidence_text": "员工流失率 男性(人) 13"
+          },
+          {
+            "topic": "员工流失率",
+            "metric_name": "女性(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "9"
+            },
+            "evidence_text": "员工流失率 女性(人) 9"
+          },
+          {
+            "topic": "员工流失率",
+            "metric_name": "按雇佣类型",
+            "unit": "",
+            "values": {
+              "2024年": ""
+            },
+            "evidence_text": "员工流失率 按雇佣类型"
+          },
+          {
+            "topic": "员工流失率",
+            "metric_name": "劳动合同制(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "20"
+            },
+            "evidence_text": "员工流失率 劳动合同制(人) 20"
+          },
+          {
+            "topic": "员工流失率",
+            "metric_name": "劳务派遣制(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "2"
+            },
+            "evidence_text": "员工流失率 劳务派遣制(人) 2"
+          },
+          {
+            "topic": "员工流失率",
+            "metric_name": "按年龄",
+            "unit": "",
+            "values": {
+              "2024年": ""
+            },
+            "evidence_text": "员工流失率 按年龄"
+          },
+          {
+            "topic": "员工流失率",
+            "metric_name": "50岁以上(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "14"
+            },
+            "evidence_text": "员工流失率 50岁以上(人) 14"
+          },
+          {
+            "topic": "员工流失率",
+            "metric_name": "30至50岁(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "2"
+            },
+            "evidence_text": "员工流失率 30至50岁(人) 2"
+          },
+          {
+            "topic": "员工流失率",
+            "metric_name": "30岁以下(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "6"
+            },
+            "evidence_text": "员工流失率 30岁以下(人) 6"
+          }
+        ]
+      },
+      {
+        "table_title": "S2: 人才发展",
+        "columns": [
+          "一级指标",
+          "二级指标",
+          "三级指标",
+          "2024年数据"
+        ],
+        "rows": [
+          {
+            "topic": "职业发展",
+            "metric_name": "接受绩效考核或职业发展考评的员工总人数(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "519"
+            },
+            "evidence_text": "职业发展 接受绩效考核或职业发展考评的员工总人数(人) 519"
+          },
+          {
+            "topic": "职业发展",
+            "metric_name": "按性别划分",
+            "unit": "",
+            "values": {
+              "2024年": ""
+            },
+            "evidence_text": "职业发展 按性别划分"
+          },
+          {
+            "topic": "职业发展",
+            "metric_name": "接受考核的男性员工人数(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "390"
+            },
+            "evidence_text": "职业发展 接受考核的男性员工人数(人) 390"
+          },
+          {
+            "topic": "职业发展",
+            "metric_name": "接受考核的女性员工人数(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "129"
+            },
+            "evidence_text": "职业发展 接受考核的女性员工人数(人) 129"
+          },
+          {
+            "topic": "职业发展",
+            "metric_name": "按雇员类别划分",
+            "unit": "",
+            "values": {
+              "2024年": ""
+            },
+            "evidence_text": "职业发展 按雇员类别划分"
+          },
+          {
+            "topic": "职业发展",
+            "metric_name": "接受考核的基层员工人数(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "449"
+            },
+            "evidence_text": "职业发展 接受考核的基层员工人数(人) 449"
+          },
+          {
+            "topic": "职业发展",
+            "metric_name": "接受考核的中级管理层员工人数(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "65"
+            },
+            "evidence_text": "职业发展 接受考核的中级管理层员工人数(人) 65"
+          },
+          {
+            "topic": "职业发展",
+            "metric_name": "接受考核的高级管理层员工人数(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "5"
+            },
+            "evidence_text": "职业发展 接受考核的高级管理层员工人数(人) 5"
+          },
+          {
+            "topic": "员工培训",
+            "metric_name": "员工培训投入(元)",
+            "unit": "元",
+            "values": {
+              "2024年": "96,824,05"
+            },
+            "evidence_text": "员工培训 员工培训投入(元) 96,824,05"
+          },
+          {
+            "topic": "员工培训",
+            "metric_name": "接受培训的员工总人数(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "519"
+            },
+            "evidence_text": "员工培训 接受培训的员工总人数(人) 519"
+          },
+          {
+            "topic": "员工培训",
+            "metric_name": "员工培训覆盖率(%)",
+            "unit": "%",
+            "values": {
+              "2024年": "100"
+            },
+            "evidence_text": "员工培训 员工培训覆盖率(%) 100"
+          },
+          {
+            "topic": "员工培训",
+            "metric_name": "按雇员类别划分",
+            "unit": "",
+            "values": {
+              "2024年": ""
+            },
+            "evidence_text": "员工培训 按雇员类别划分"
+          },
+          {
+            "topic": "员工培训",
+            "metric_name": "接受培训的基层员工人数(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "449"
+            },
+            "evidence_text": "员工培训 接受培训的基层员工人数(人) 449"
+          },
+          {
+            "topic": "员工培训",
+            "metric_name": "接受培训的中级管理层员工人数(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "65"
+            },
+            "evidence_text": "员工培训 接受培训的中级管理层员工人数(人) 65"
+          },
+          {
+            "topic": "员工培训",
+            "metric_name": "接受培训的高级管理层员工人数(人)",
+            "unit": "人",
+            "values": {
+              "2024年": "5"
+            },
+            "evidence_text": "员工培训 接受培训的高级管理层员工人数(人) 5"
+          },
+          {
+            "topic": "员工培训",
+            "metric_name": "员工接受培训的总时长(小时)",
+            "unit": "小时",
+            "values": {
+              "2024年": "3,746"
+            },
+            "evidence_text": "员工培训 员工接受培训的总时长(小时) 3,746"
+          }
+        ]
+      },
+      {
+        "table_title": "S3: 员工关怀",
+        "columns": [
+          "一级指标",
+          "二级指标",
+          "三级指标",
+          "2024年数据"
+        ],
+        "rows": [
+          {
+            "topic": "员工关怀",
+            "metric_name": "员工福利(万元)",
+            "unit": "万元",
+            "values": {
+              "2024年": "103.64"
+            },
+            "evidence_text": "员工关怀 员工福利(万元) 103.64"
+          },
+          {
+            "topic": "员工关怀",
+            "metric_name": "员工满意度(%)",
+            "unit": "%",
+            "values": {
+              "2024年": "99.51"
+            },
+            "evidence_text": "员工关怀 员工满意度(%) 99.51"
+          },
+          {
+            "topic": "员工关怀",
+            "metric_name": "残疾人就业保障金(万元)",
+            "unit": "万元",
+            "values": {
+              "2024年": "57.31"
+            },
+            "evidence_text": "员工关怀 残疾人就业保障金(万元) 57.31"
+          },
+          {
+            "topic": "员工关怀",
+            "metric_name": "体检费用投入(万元)",
+            "unit": "万元",
+            "values": {
+              "2024年": "1.48"
+            },
+            "evidence_text": "员工关怀 体检费用投入(万元) 1.48"
+          },
+          {
+            "topic": "员工关怀",
+            "metric_name": "员工生病住院补助(万元)",
+            "unit": "万元",
+            "values": {
+              "2024年": "10.04"
+            },
+            "evidence_text": "员工关怀 员工生病住院补助(万元) 10.04"
+          }
+        ]
+      },
+      {
+        "table_title": "S3: 供应商",
+        "columns": [
+          "一级指标",
+          "二级指标",
+          "三级指标",
+          "2024年数据"
+        ],
+        "rows": [
+          {
+            "topic": "供应商",
+            "metric_name": "供应商总数(家)",
+            "unit": "家",
+            "values": {
+              "2024年": "325"
+            },
+            "evidence_text": "供应商 供应商总数(家) 325"
+          },
+          {
+            "topic": "供应商",
+            "metric_name": "按地区划分",
+            "unit": "",
+            "values": {
+              "2024年": ""
+            },
+            "evidence_text": "供应商 按地区划分"
+          },
+          {
+            "topic": "供应商",
+            "metric_name": "中国大陆供应商(家)",
+            "unit": "家",
+            "values": {
+              "2024年": "323"
+            },
+            "evidence_text": "供应商 中国大陆供应商(家) 323"
+          },
+          {
+            "topic": "供应商",
+            "metric_name": "港澳台及海外供应商(家)",
+            "unit": "家",
+            "values": {
+              "2024年": "2"
+            },
+            "evidence_text": "供应商 港澳台及海外供应商(家) 2"
+          },
+          {
+            "topic": "供应商",
+            "metric_name": "签订供应商廉洁条款(%)",
+            "unit": "%",
+            "values": {
+              "2024年": "8"
+            },
+            "evidence_text": "供应商 签订供应商廉洁条款(%) 8"
+          },
+          {
+            "topic": "供应商",
+            "metric_name": "取得了ISO 9001认证的供应商数(家)",
+            "unit": "家",
+            "values": {
+              "2024年": "86"
+            },
+            "evidence_text": "供应商 取得了ISO 9001认证的供应商数(家) 86"
+          },
+          {
+            "topic": "供应商",
+            "metric_name": "取得了ISO 14001认证的供应商数(家)",
+            "unit": "家",
+            "values": {
+              "2024年": "48"
+            },
+            "evidence_text": "供应商 取得了ISO 14001认证的供应商数(家) 48"
+          },
+          {
+            "topic": "供应商",
+            "metric_name": "取得了ISO 45001认证的供应商数(家)",
+            "unit": "家",
+            "values": {
+              "2024年": "14"
+            },
+            "evidence_text": "供应商 取得了ISO 45001认证的供应商数(家) 14"
+          },
+          {
+            "topic": "供应商",
+            "metric_name": "新供应商总数(家)",
+            "unit": "家",
+            "values": {
+              "2024年": "32"
+            },
+            "evidence_text": "供应商 新供应商总数(家) 32"
+          },
+          {
+            "topic": "供应商",
+            "metric_name": "采购本地的供应商占比(%)(%))",
+            "unit": "%",
+            "values": {
+              "2024年": "24"
+            },
+            "evidence_text": "供应商 采购本地的供应商占比(%)(%) 24"
+          },
+          {
+            "topic": "供应商",
+            "metric_name": "公司内部通过可持续采购激励的供应商比例(%)",
+            "unit": "%",
+            "values": {
+              "2024年": "100"
+            },
+            "evidence_text": "供应商 公司内部通过可持续采购激励的供应商比例(%) 100"
+          },
+          {
+            "topic": "供应商",
+            "metric_name": "中止合作的供应商数量(家)",
+            "unit": "家",
+            "values": {
+              "2024年": "12"
+            },
+            "evidence_text": "供应商 中止合作的供应商数量(家) 12"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_41.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "S5: 职业健康与安全-安全生产",
+        "columns": [
+          "一级指标",
+          "二级指标",
+          "2024年数据"
+        ],
+        "rows": [
+          {
+            "topic": "安全生产",
+            "metric_name": "安全生产事故数(起)",
+            "unit": "",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "安全生产 安全生产事故数(起) 2024年 0"
+          },
+          {
+            "topic": "安全生产",
+            "metric_name": "工伤事故起数(起)",
+            "unit": "",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "安全生产 工伤事故起数(起) 2024年 0"
+          },
+          {
+            "topic": "安全生产",
+            "metric_name": "工伤人数(人)",
+            "unit": "",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "安全生产 工伤人数(人) 2024年 0"
+          },
+          {
+            "topic": "安全生产",
+            "metric_name": "工伤率(%)",
+            "unit": "",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "安全生产 工伤率(%) 2024年 0"
+          },
+          {
+            "topic": "安全生产",
+            "metric_name": "因工伤亡导致的缺勤天数(天)",
+            "unit": "",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "安全生产 因工伤亡导致的缺勤天数(天) 2024年 0"
+          },
+          {
+            "topic": "安全生产",
+            "metric_name": "因工死亡事故起数(起)",
+            "unit": "",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "安全生产 因工死亡事故起数(起) 2024年 0"
+          },
+          {
+            "topic": "安全生产",
+            "metric_name": "因工死亡事故人数(人)",
+            "unit": "",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "安全生产 因工死亡事故人数(人) 2024年 0"
+          },
+          {
+            "topic": "安全生产",
+            "metric_name": "接受安全培训的员工人数(人)",
+            "unit": "",
+            "values": {
+              "2024年": "519"
+            },
+            "evidence_text": "安全生产 接受安全培训的员工人数(人) 2024年 519"
+          },
+          {
+            "topic": "安全生产",
+            "metric_name": "员工参加安全培训总时数(小时)",
+            "unit": "",
+            "values": {
+              "2024年": "1,557"
+            },
+            "evidence_text": "安全生产 员工参加安全培训总时数(小时) 2024年 1,557"
+          },
+          {
+            "topic": "安全生产",
+            "metric_name": "安全生产费用投入(万元)",
+            "unit": "",
+            "values": {
+              "2024年": "411"
+            },
+            "evidence_text": "安全生产 安全生产费用投入(万元) 2024年 411"
+          },
+          {
+            "topic": "安全生产",
+            "metric_name": "承包商：工伤人数(人)",
+            "unit": "",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "安全生产 承包商：工伤人数(人) 2024年 0"
+          },
+          {
+            "topic": "安全生产",
+            "metric_name": "承包商：因工死亡事故人数(人)",
+            "unit": "",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "安全生产 承包商：因工死亡事故人数(人) 2024年 0"
+          },
+          {
+            "topic": "安全生产",
+            "metric_name": "承包商：损失工时工作事故率(LTIR)(每百万工时)",
+            "unit": "",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "安全生产 承包商：损失工时工作事故率(LTIR)(每百万工时) 2024年 0"
+          },
+          {
+            "topic": "职业健康",
+            "metric_name": "职业病防治岗位员工人数(人)",
+            "unit": "",
+            "values": {
+              "2024年": "33"
+            },
+            "evidence_text": "职业健康 职业病防治岗位员工人数(人) 2024年 33"
+          },
+          {
+            "topic": "职业健康",
+            "metric_name": "参加职业病体检人数(人)",
+            "unit": "",
+            "values": {
+              "2024年": "33"
+            },
+            "evidence_text": "职业健康 参加职业病体检人数(人) 2024年 33"
+          },
+          {
+            "topic": "职业健康",
+            "metric_name": "职业病发病员工人数(人)",
+            "unit": "",
+            "values": {
+              "2024年": "0"
+            },
+            "evidence_text": "职业健康 职业病发病员工人数(人) 2024年 0"
+          }
+        ]
+      },
+      {
+        "table_title": "G1: 经营绩效",
+        "columns": [
+          "一级指标",
+          "二级指标",
+          "三级指标",
+          "2024年数据"
+        ],
+        "rows": [
+          {
+            "topic": "经济指标",
+            "metric_name": "营业收入(万元)",
+            "unit": "",
+            "values": {
+              "2024年": "105,073.70"
+            },
+            "evidence_text": "经济指标 营业收入(万元) 2024年 105,073.70"
+          },
+          {
+            "topic": "经济指标",
+            "metric_name": "净利润(万元)",
+            "unit": "",
+            "values": {
+              "2024年": "1,842.79"
+            },
+            "evidence_text": "经济指标 净利润(万元) 2024年 1,842.79"
+          },
+          {
+            "topic": "经济指标",
+            "metric_name": "纳税额(万元)",
+            "unit": "",
+            "values": {
+              "2024年": "1,705.39"
+            },
+            "evidence_text": "经济指标 纳税额(万元) 2024年 1,705.39"
+          },
+          {
+            "topic": "平均对待中小企业",
+            "metric_name": "报告期末应付账款(含应付票据)余额(万元)",
+            "unit": "",
+            "values": {
+              "2024年": "33,347.16"
+            },
+            "evidence_text": "平均对待中小企业 报告期末应付账款(含应付票据)余额(万元) 2024年 33,347.16"
+          },
+          {
+            "topic": "平均对待中小企业",
+            "metric_name": "报告期末应付账款(含应付票据)余额占总资产比重(%)",
+            "unit": "%",
+            "values": {
+              "2024年": "32.40"
+            },
+            "evidence_text": "平均对待中小企业 报告期末应付账款(含应付票据)余额占总资产比重(%) 2024年 32.40"
+          },
+          {
+            "topic": "平均对待中小企业",
+            "metric_name": "报告期末未支付款项金额(万元)",
+            "unit": "",
+            "values": {
+              "2024年": "33,347.16"
+            },
+            "evidence_text": "平均对待中小企业 报告期末未支付款项金额(万元) 2024年 33,347.16"
+          },
+          {
+            "topic": "平均对待中小企业",
+            "metric_name": "报告期末未支付中小企业款项金额(万元)",
+            "unit": "",
+            "values": {
+              "2024年": "33,347.16"
+            },
+            "evidence_text": "平均对待中小企业 报告期末未支付中小企业款项金额(万元) 2024年 33,347.16"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_42.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "量化数据绩效表",
+        "columns": [
+          "GB/T 标准",
+          "披露项目",
+          "章节"
+        ],
+        "rows": [
+          {
+            "topic": null,
+            "metric_name": "5. 利益相关方参与",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "5.",
+              "披露项目": "利益相关方参与的方法",
+              "章节": "ESG 管理"
+            },
+            "evidence_text": "5. 利益相关方参与 利益相关方参与的方法 ESG 管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "2-29",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "2-29",
+              "披露项目": "利益相关方参与的方法",
+              "章节": "ESG 管理"
+            },
+            "evidence_text": "2-29 利益相关方参与的方法 ESG 管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "2-30",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "2-30",
+              "披露项目": "集体谈判协议",
+              "章节": "员工权益"
+            },
+            "evidence_text": "2-30 集体谈判协议 员工权益"
+          },
+          {
+            "topic": null,
+            "metric_name": "GRI 3: 实质性议题 2021",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "GRI 3: 实质性议题 2021",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "GRI 3: 实质性议题 2021"
+          },
+          {
+            "topic": null,
+            "metric_name": "2-31",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "2-31",
+              "披露项目": "确定实质性议题的过程",
+              "章节": "ESG 管理"
+            },
+            "evidence_text": "2-31 确定实质性议题的过程 ESG 管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "2-32",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "2-32",
+              "披露项目": "实质性议题的清单",
+              "章节": "ESG 管理"
+            },
+            "evidence_text": "2-32 实质性议题的清单 ESG 管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "2-33",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "2-33",
+              "披露项目": "实质性议题的管理",
+              "章节": "ESG 管理"
+            },
+            "evidence_text": "2-33 实质性议题的管理 ESG 管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "议题标准 (GRI 2020)",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "议题标准 (GRI 2020)",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "议题标准 (GRI 2020)"
+          },
+          {
+            "topic": null,
+            "metric_name": "201: 经济绩效 2016",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "201: 经济绩效 2016",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "201: 经济绩效 2016"
+          },
+          {
+            "topic": null,
+            "metric_name": "201-1",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "201-1",
+              "披露项目": "直接产生和分配的经济价值",
+              "章节": "见年报"
+            },
+            "evidence_text": "201-1 直接产生和分配的经济价值 见年报"
+          },
+          {
+            "topic": null,
+            "metric_name": "201-2",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "201-2",
+              "披露项目": "气候变化带来的财务影响以及其它风险和机遇",
+              "章节": "不涉及"
+            },
+            "evidence_text": "201-2 气候变化带来的财务影响以及其它风险和机遇 不涉及"
+          },
+          {
+            "topic": null,
+            "metric_name": "201-3",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "201-3",
+              "披露项目": "固定福利计划和其他退休计划",
+              "章节": "员工关怀"
+            },
+            "evidence_text": "201-3 固定福利计划和其他退休计划 员工关怀"
+          },
+          {
+            "topic": null,
+            "metric_name": "201-4",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "201-4",
+              "披露项目": "政府给予的财政补贴",
+              "章节": "见年报"
+            },
+            "evidence_text": "201-4 政府给予的财政补贴 见年报"
+          },
+          {
+            "topic": null,
+            "metric_name": "202: 市场表现 2016",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "202: 市场表现 2016",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "202: 市场表现 2016"
+          },
+          {
+            "topic": null,
+            "metric_name": "202-1",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "202-1",
+              "披露项目": "按性别划分的标准和精水平工资与当地最低工资之比",
+              "章节": "员工权益"
+            },
+            "evidence_text": "202-1 按性别划分的标准和精水平工资与当地最低工资之比 员工权益"
+          },
+          {
+            "topic": null,
+            "metric_name": "202-2",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "202-2",
+              "披露项目": "从当地社区雇用高比例的比例",
+              "章节": "员工权益"
+            },
+            "evidence_text": "202-2 从当地社区雇用高比例的比例 员工权益"
+          },
+          {
+            "topic": null,
+            "metric_name": "203: 间接经济影响 2016",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "203: 间接经济影响 2016",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "203: 间接经济影响 2016"
+          },
+          {
+            "topic": null,
+            "metric_name": "203.1",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "203.1",
+              "披露项目": "基础设施投资和支持性服务",
+              "章节": "不涉及"
+            },
+            "evidence_text": "203.1 基础设施投资和支持性服务 不涉及"
+          },
+          {
+            "topic": null,
+            "metric_name": "203.2",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "203.2",
+              "披露项目": "重大国际经济影响",
+              "章节": "关于本集团"
+            },
+            "evidence_text": "203.2 重大国际经济影响 关于本集团"
+          },
+          {
+            "topic": null,
+            "metric_name": "204: 采购实践 2016",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "204: 采购实践 2016",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "204: 采购实践 2016"
+          },
+          {
+            "topic": null,
+            "metric_name": "204-1",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "204-1",
+              "披露项目": "向当地供应商采购的支出比例",
+              "章节": "供应链管理"
+            },
+            "evidence_text": "204-1 向当地供应商采购的支出比例 供应链管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "205: 反腐败 2016",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "205: 反腐败 2016",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "205: 反腐败 2016"
+          },
+          {
+            "topic": null,
+            "metric_name": "205-1",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "205-1",
+              "披露项目": "已进行风险评估的运营点",
+              "章节": "廉洁管理"
+            },
+            "evidence_text": "205-1 已进行风险评估的运营点 廉洁管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "205-2",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "205-2",
+              "披露项目": "反腐败政策和程序的传达及培训",
+              "章节": "廉政管理"
+            },
+            "evidence_text": "205-2 反腐败政策和程序的传达及培训 廉政管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "205-3",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "205-3",
+              "披露项目": "经确认的腐败事件和采取的行动",
+              "章节": "廉政管理"
+            },
+            "evidence_text": "205-3 经确认的腐败事件和采取的行动 廉政管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "206: 反竞争行为 2016",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "206: 反竞争行为 2016",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "206: 反竞争行为 2016"
+          },
+          {
+            "topic": null,
+            "metric_name": "206-1",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "206-1",
+              "披露项目": "针对反竞争行为、反托拉斯和反垄断实质的法律诉讼",
+              "章节": "廉洁管理"
+            },
+            "evidence_text": "206-1 针对反竞争行为、反托拉斯和反垄断实质的法律诉讼 廉洁管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "207: 税务 2019",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "207: 税务 2019",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "207: 税务 2019"
+          },
+          {
+            "topic": null,
+            "metric_name": "207-1",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "207-1",
+              "披露项目": "税务方针",
+              "章节": "税务管理"
+            },
+            "evidence_text": "207-1 税务方针 税务管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "207-2",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "207-2",
+              "披露项目": "税务治理、控制及风险管理",
+              "章节": "税务管理"
+            },
+            "evidence_text": "207-2 税务治理、控制及风险管理 税务管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "207-3",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "207-3",
+              "披露项目": "与税务关系相关的利益相关方参与及管理",
+              "章节": "税务管理"
+            },
+            "evidence_text": "207-3 与税务关系相关的利益相关方参与及管理 税务管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "207-4",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "207-4",
+              "披露项目": "国别报告",
+              "章节": "见年报"
+            },
+            "evidence_text": "207-4 国别报告 见年报"
+          },
+          {
+            "topic": null,
+            "metric_name": "议题标准 (GRI 300)",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "议题标准 (GRI 300)",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "议题标准 (GRI 300)"
+          },
+          {
+            "topic": null,
+            "metric_name": "301: 资料 2016",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "301: 资料 2016",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "301: 资料 2016"
+          },
+          {
+            "topic": null,
+            "metric_name": "301-1",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "301-1",
+              "披露项目": "所用物料的重量或体积",
+              "章节": "资源利用"
+            },
+            "evidence_text": "301-1 所用物料的重量或体积 资源利用"
+          },
+          {
+            "topic": null,
+            "metric_name": "301-2",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "301-2",
+              "披露项目": "所用淡水利用的量",
+              "章节": "资源利用"
+            },
+            "evidence_text": "301-2 所用淡水利用的量 资源利用"
+          },
+          {
+            "topic": null,
+            "metric_name": "301-3",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "301-3",
+              "披露项目": "再生产品及其包装材料",
+              "章节": "资源利用"
+            },
+            "evidence_text": "301-3 再生产品及其包装材料 资源利用"
+          },
+          {
+            "topic": null,
+            "metric_name": "302: 能耗 2016",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "302: 能耗 2016",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "302: 能耗 2016"
+          },
+          {
+            "topic": null,
+            "metric_name": "302-1",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "302-1",
+              "披露项目": "组织内部的能源消耗量",
+              "章节": "能源管理"
+            },
+            "evidence_text": "302-1 组织内部的能源消耗量 能源管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "302-2",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "302-2",
+              "披露项目": "组织外部的能源消耗量",
+              "章节": "能源管理"
+            },
+            "evidence_text": "302-2 组织外部的能源消耗量 能源管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "302-3",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "302-3",
+              "披露项目": "能源强度",
+              "章节": "能源管理"
+            },
+            "evidence_text": "302-3 能源强度 能源管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "303: 水资源和污水 2018",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "303: 水资源和污水 2018",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "303: 水资源和污水 2018"
+          },
+          {
+            "topic": null,
+            "metric_name": "303-1",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "303-1",
+              "披露项目": "组织与水作为共有资源的相互影响",
+              "章节": "资源利用"
+            },
+            "evidence_text": "303-1 组织与水作为共有资源的相互影响 资源利用"
+          },
+          {
+            "topic": null,
+            "metric_name": "303-2",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "303-2",
+              "披露项目": "管理与排水相关的影响",
+              "章节": "资源利用"
+            },
+            "evidence_text": "303-2 管理与排水相关的影响 资源利用"
+          },
+          {
+            "topic": null,
+            "metric_name": "303-3",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "303-3",
+              "披露项目": "取水",
+              "章节": "资源利用"
+            },
+            "evidence_text": "303-3 取水 资源利用"
+          },
+          {
+            "topic": null,
+            "metric_name": "303-4",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "303-4",
+              "披露项目": "排水",
+              "章节": "资源利用"
+            },
+            "evidence_text": "303-4 排水 资源利用"
+          },
+          {
+            "topic": null,
+            "metric_name": "303-4",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "303-4",
+              "披露项目": "防治环境污染",
+              "章节": "资源利用"
+            },
+            "evidence_text": "303-4 防治环境污染 资源利用"
+          },
+          {
+            "topic": null,
+            "metric_name": "304: 生物多样性 2016",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "304: 生物多样性 2016",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "304: 生物多样性 2016"
+          },
+          {
+            "topic": null,
+            "metric_name": "304-1",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "304-1",
+              "披露项目": "组织在位于或邻近保护区和保护区外的生物多样性丰富区域拥有、租赁、管理必远地点",
+              "章节": "不涉及"
+            },
+            "evidence_text": "304-1 组织在位于或邻近保护区和保护区外的生物多样性丰富区域拥有、租赁、管理必远地点 不涉及"
+          },
+          {
+            "topic": null,
+            "metric_name": "304-2",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "304-2",
+              "披露项目": "活动、产品和服务对生物多样性的重大影响",
+              "章节": "不涉及"
+            },
+            "evidence_text": "304-2 活动、产品和服务对生物多样性的重大影响 不涉及"
+          },
+          {
+            "topic": null,
+            "metric_name": "304-3",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "304-3",
+              "披露项目": "受保护或濒危的栖息地",
+              "章节": "不涉及"
+            },
+            "evidence_text": "304-3 受保护或濒危的栖息地 不涉及"
+          },
+          {
+            "topic": null,
+            "metric_name": "304-4",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "304-4",
+              "披露项目": "运营影响的栖息地中已被列入世界自然保育联盟 (IUCN) 红色名录及国家保育名册中的物种",
+              "章节": "不涉及"
+            },
+            "evidence_text": "304-4 运营影响的栖息地中已被列入世界自然保育联盟 (IUCN) 红色名录及国家保育名册中的物种 不涉及"
+          },
+          {
+            "topic": null,
+            "metric_name": "305: 排放 2016",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "305: 排放 2016",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "305: 排放 2016"
+          },
+          {
+            "topic": null,
+            "metric_name": "305-1",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "305-1",
+              "披露项目": "直接 (范围 1) 温室气体排放",
+              "章节": "应对气候变化"
+            },
+            "evidence_text": "305-1 直接 (范围 1) 温室气体排放 应对气候变化"
+          },
+          {
+            "topic": null,
+            "metric_name": "305-2",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "305-2",
+              "披露项目": "能源间接 (范围 2) 温室气体排放",
+              "章节": "应对气候变化"
+            },
+            "evidence_text": "305-2 能源间接 (范围 2) 温室气体排放 应对气候变化"
+          },
+          {
+            "topic": null,
+            "metric_name": "305-3",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "305-3",
+              "披露项目": "其他间接 (范围 3) 温室气体排放",
+              "章节": "应对气候变化"
+            },
+            "evidence_text": "305-3 其他间接 (范围 3) 温室气体排放 应对气候变化"
+          },
+          {
+            "topic": null,
+            "metric_name": "305-4",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "305-4",
+              "披露项目": "温室气体排放免度",
+              "章节": "应对气候变化"
+            },
+            "evidence_text": "305-4 温室气体排放免度 应对气候变化"
+          },
+          {
+            "topic": null,
+            "metric_name": "305-5",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "305-5",
+              "披露项目": "温室气体减排量",
+              "章节": "应对气候变化"
+            },
+            "evidence_text": "305-5 温室气体减排量 应对气候变化"
+          },
+          {
+            "topic": null,
+            "metric_name": "305-6",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "305-6",
+              "披露项目": "臭氧消耗物质 (ODS) 的排放",
+              "章节": "不涉及"
+            },
+            "evidence_text": "305-6 臭氧消耗物质 (ODS) 的排放 不涉及"
+          },
+          {
+            "topic": null,
+            "metric_name": "305-7",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "305-7",
+              "披露项目": "氧化物 (NOX)、硫化物 (SOX) 和其他重大大气体排放",
+              "章节": "不涉及"
+            },
+            "evidence_text": "305-7 氧化物 (NOX)、硫化物 (SOX) 和其他重大大气体排放 不涉及"
+          },
+          {
+            "topic": null,
+            "metric_name": "306: 废弃物 2020",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "306: 废弃物 2020",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "306: 废弃物 2020"
+          },
+          {
+            "topic": null,
+            "metric_name": "306-1",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "306-1",
+              "披露项目": "废弃物的产生及废弃物相关重大影响",
+              "章节": "防治环境污染"
+            },
+            "evidence_text": "306-1 废弃物的产生及废弃物相关重大影响 防治环境污染"
+          },
+          {
+            "topic": null,
+            "metric_name": "306-2",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "306-2",
+              "披露项目": "废弃物相关重大影响的管理",
+              "章节": "防治环境污染"
+            },
+            "evidence_text": "306-2 废弃物相关重大影响的管理 防治环境污染"
+          },
+          {
+            "topic": null,
+            "metric_name": "306-3",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "306-3",
+              "披露项目": "产生的废弃物",
+              "章节": "防治环境污染"
+            },
+            "evidence_text": "306-3 产生的废弃物 防治环境污染"
+          },
+          {
+            "topic": null,
+            "metric_name": "306-4",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "306-4",
+              "披露项目": "从厂区中转移的废弃物",
+              "章节": "防治环境污染"
+            },
+            "evidence_text": "306-4 从厂区中转移的废弃物 防治环境污染"
+          },
+          {
+            "topic": null,
+            "metric_name": "306-5",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "306-5",
+              "披露项目": "进入处置厂的废弃物",
+              "章节": "防治环境污染"
+            },
+            "evidence_text": "306-5 进入处置厂的废弃物 防治环境污染"
+          },
+          {
+            "topic": null,
+            "metric_name": "308: 供应商环境评核 2016",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "308: 供应商环境评核 2016",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "308: 供应商环境评核 2016"
+          },
+          {
+            "topic": null,
+            "metric_name": "308-1",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "308-1",
+              "披露项目": "使用环境评价涵盖所筛选的新供应商",
+              "章节": "供应商管理"
+            },
+            "evidence_text": "308-1 使用环境评价涵盖所筛选的新供应商 供应商管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "308-2",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "308-2",
+              "披露项目": "供应商的负面环境影响以及采取的行动",
+              "章节": "供应商管理"
+            },
+            "evidence_text": "308-2 供应商的负面环境影响以及采取的行动 供应商管理"
+          },
+          {
+            "topic": null,
+            "metric_name": "议题标准 (GRI 400)",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "议题标准 (GRI 400)",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "议题标准 (GRI 400)"
+          },
+          {
+            "topic": null,
+            "metric_name": "401: 员工 2016",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "401: 员工 2016",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "401: 员工 2016"
+          },
+          {
+            "topic": null,
+            "metric_name": "401-1",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "401-1",
+              "披露项目": "新进员工雇佣率和员工流动率",
+              "章节": "员工权益"
+            },
+            "evidence_text": "401-1 新进员工雇佣率和员工流动率 员工权益"
+          },
+          {
+            "topic": null,
+            "metric_name": "401-2",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "401-2",
+              "披露项目": "提供给全职员工（不包括临时或兼职员工）的福利",
+              "章节": "薪酬福利"
+            },
+            "evidence_text": "401-2 提供给全职员工（不包括临时或兼职员工）的福利 薪酬福利"
+          },
+          {
+            "topic": null,
+            "metric_name": "401-3",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "401-3",
+              "披露项目": "育儿假",
+              "章节": "薪酬福利"
+            },
+            "evidence_text": "401-3 育儿假 薪酬福利"
+          },
+          {
+            "topic": null,
+            "metric_name": "402: 分资关系 2016",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "402: 分资关系 2016",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "402: 分资关系 2016"
+          },
+          {
+            "topic": null,
+            "metric_name": "402-1",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "402-1",
+              "披露项目": "有关劳资变更的最短通知期",
+              "章节": "不涉及"
+            },
+            "evidence_text": "402-1 有关劳资变更的最短通知期 不涉及"
+          },
+          {
+            "topic": null,
+            "metric_name": "403: 职业健康与安全 2018",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "403: 职业健康与安全 2018",
+              "披露项目": null,
+              "章节": null
+            },
+            "evidence_text": "403: 职业健康与安全 2018"
+          },
+          {
+            "topic": null,
+            "metric_name": "403-1",
+            "unit": null,
+            "values": {
+              "GB/T 标准": "403-1",
+              "披露项目": "职业健康安全管理体系",
+              "章节": "职业健康与安全"
+            },
+            "evidence_text": "403-1 职业健康安全管理体系 职业健康与安全"
+          }
+        ]
+      }
+    ],
+    "retry_used": true,
+    "retry_reason": "first_pass_no_rows_or_not_table"
+  }
+]

@@ -1,0 +1,393 @@
+[
+  {
+    "field_key": "ghg_emissions_intensity",
+    "field_name_cn": "温室气体排放强度",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 9,
+    "citation_chunk_id": "p9_17",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "于公司在环境保护、社会责 任履行、产品质量与服务、社 区关系等方面的表现，旨在收 集外部利益相关方对公司可 持续发展的意见和建议。 问卷 调查 影响重要性 财 务 重 要 性 员工权益与薪酬福利 员工平等雇佣 投资者权益 研发与创新 风险管理 环境管理 乡村振兴 能源管理 产品/服务质量与安全 员工培训与发展 污染物排放 供应链管理 循环经济 社会贡献 数据安全与客户隐私保护 公司治理 客户服务 废弃物处 利益相关方沟通 反商业贿赂及..."
+  },
+  {
+    "field_key": "energy_consumption_intensity",
+    "field_name_cn": "能源消耗强度",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 53,
+    "citation_chunk_id": "p53_104",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "附录：关键绩效表 经济绩效 营业收入 万元 万元 纳税总额 指标 单位 2024 391,441.96 22,687.20 环境绩效 类型 单位 2024 治理绩效 柴油总量 能源 水资源 温室气体排放 汽油总量 直接能源消耗 电力总量 全年能源消耗总量 间接能源消耗 全年能源消耗强度 市政购水量 总耗水强度=总耗水量/每百万营收 温室气体排放（范围一） 温室气体排放（范围二） 温室气体排放总量 36,265,333.68 4,029..."
+  },
+  {
+    "field_key": "natural_gas_consumption",
+    "field_name_cn": "天然气消耗量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 24,
+    "citation_chunk_id": "p24_46",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "在作业执行环节，平台推出的“调度一张图”功能，为指挥调度工作提 供了强大的可视化解决方案。该功能依托地图系统，能够实时动态呈现 车辆、船舶及人员的位置信息，使管理的透明度与灵活度得到大幅提升。 例如，作业管理人员轻点定位按钮，便能精准锁定目标车辆，实时查看 其运行状态与历史轨迹；借助胸卡、手环打卡数据，系统可以直观展示 人员分布情况，作业管理人员通过出勤数据分析，能够科学优化任务分 配方案。 升级AI管理 精服务品质 在数字化时代，A..."
+  },
+  {
+    "field_key": "wastewater_discharge",
+    "field_name_cn": "废水排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 9,
+    "citation_chunk_id": "p9_17",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "于公司在环境保护、社会责 任履行、产品质量与服务、社 区关系等方面的表现，旨在收 集外部利益相关方对公司可 持续发展的意见和建议。 问卷 调查 影响重要性 财 务 重 要 性 员工权益与薪酬福利 员工平等雇佣 投资者权益 研发与创新 风险管理 环境管理 乡村振兴 能源管理 产品/服务质量与安全 员工培训与发展 污染物排放 供应链管理 循环经济 社会贡献 数据安全与客户隐私保护 公司治理 客户服务 废弃物处 利益相关方沟通 反商业贿赂及..."
+  },
+  {
+    "field_key": "air_pollutant_emissions",
+    "field_name_cn": "废气或大气污染物排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 9,
+    "citation_chunk_id": "p9_17",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "于公司在环境保护、社会责 任履行、产品质量与服务、社 区关系等方面的表现，旨在收 集外部利益相关方对公司可 持续发展的意见和建议。 问卷 调查 影响重要性 财 务 重 要 性 员工权益与薪酬福利 员工平等雇佣 投资者权益 研发与创新 风险管理 环境管理 乡村振兴 能源管理 产品/服务质量与安全 员工培训与发展 污染物排放 供应链管理 循环经济 社会贡献 数据安全与客户隐私保护 公司治理 客户服务 废弃物处 利益相关方沟通 反商业贿赂及..."
+  },
+  {
+    "field_key": "non_hazardous_waste",
+    "field_name_cn": "一般废弃物产生量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 9,
+    "citation_chunk_id": "p9_17",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "于公司在环境保护、社会责 任履行、产品质量与服务、社 区关系等方面的表现，旨在收 集外部利益相关方对公司可 持续发展的意见和建议。 问卷 调查 影响重要性 财 务 重 要 性 员工权益与薪酬福利 员工平等雇佣 投资者权益 研发与创新 风险管理 环境管理 乡村振兴 能源管理 产品/服务质量与安全 员工培训与发展 污染物排放 供应链管理 循环经济 社会贡献 数据安全与客户隐私保护 公司治理 客户服务 废弃物处 利益相关方沟通 反商业贿赂及..."
+  },
+  {
+    "field_key": "hazardous_waste",
+    "field_name_cn": "危险废弃物产生量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 9,
+    "citation_chunk_id": "p9_17",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "于公司在环境保护、社会责 任履行、产品质量与服务、社 区关系等方面的表现，旨在收 集外部利益相关方对公司可 持续发展的意见和建议。 问卷 调查 影响重要性 财 务 重 要 性 员工权益与薪酬福利 员工平等雇佣 投资者权益 研发与创新 风险管理 环境管理 乡村振兴 能源管理 产品/服务质量与安全 员工培训与发展 污染物排放 供应链管理 循环经济 社会贡献 数据安全与客户隐私保护 公司治理 客户服务 废弃物处 利益相关方沟通 反商业贿赂及..."
+  },
+  {
+    "field_key": "environmental_investment",
+    "field_name_cn": "环保投入金额",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 16,
+    "citation_chunk_id": "p16_29",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "在生态文明建设的漫漫征途上，侨银股份正以实际行动汇聚点滴力量， 为构建人与自然和谐共生的美好未来添砖加瓦，推动整个社会迈向更加 绿色、可持续的发展新境界。 环保创新技术项目 侨银股份以坚定的专业信仰与深沉的责任担当为锚，积极投身于环保创新技术项目的探索与实践。 在污水处理、垃圾处理以及病死畜禽无害化处置等关键领域，侨银股份凭借一系列切实可行的项 目推进，成功开辟出一条通往生态和谐的前行路径，为生态优化行动提供了有力支撑。 侨银股份所推..."
+  },
+  {
+    "field_key": "environmental_penalty_count",
+    "field_name_cn": "环境违规或处罚事件数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 45,
+    "citation_chunk_id": "p45_90",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "业健康安全风险管控 每月30日前，运营管理中心指定专人审查 项目安全会议纪要，并对30个以上项目进 行抽检，确保安全会议要求落实到位。 安全会议监督 ·持续更新高违章、高发事故点统计 ·每月对项目路查情况进行督促与抽查 ·对超限违章情况进行重点跟进和专业指导 违章与事故管理 ·通过先进监控设备精准识别高风险驾驶员 ·每月筛选高风险驾驶员名单 ·针对性开展靶向培训和回炉整改 驾驶员风险管控 ·严格执行\"四不放过\"整改原则 ·对重大事故进..."
+  },
+  {
+    "field_key": "training_total_hours",
+    "field_name_cn": "员工培训总时长",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 38,
+    "citation_chunk_id": "p38_74",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "关怀温暖同行 创幸福职场 赋能员工成长 展职业风采 凝聚侨银人才 强根基力量 以人为本，关爱为怀。侨银股份将人才视为核心资产，以员工的职业发展与幸福 感受为尺度，构建人才成长与关怀体系。通过完善的培训机制、广阔的晋升空间 和贴心的员工关怀活动，公司不断激发员工潜能，增强员工归属感，让每位员工 在实现自我价值的同时，为公司发展注入强劲动力。 人为尺度 人为尺度 构建职业幸福坐标系 73 74"
+  },
+  {
+    "field_key": "training_hours_per_employee",
+    "field_name_cn": "人均培训时长",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 26,
+    "citation_chunk_id": "p26_51",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "研发流程及研发投入 侨银股份为充分激发员工的创新潜能，大力加强知识产权保护，构建了一套科学完备且富有激励 性的研发激励机制。这一机制全面覆盖发明、实用新型、外观设计以及软件著作权等多个领域， 以激发员工的创新热情，提升公司在市场中的核心竞争力。 侨银股份明确界定第一和第二发明人的标准，确保奖励分配公平，提升员工参与创新的积极性。 研发流程及研发投入 创新驱动发展，侨银股份深耕产学研合作生态，主动链接顶尖科研资源。通过精准对接学术机构 ..."
+  },
+  {
+    "field_key": "training_coverage_rate",
+    "field_name_cn": "员工培训覆盖率",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 54,
+    "citation_chunk_id": "p54_105",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "附录：关键绩效表 社会绩效 指标 单位 2024 研发投入资金 4,473.75 万元 研发投入占营收比 1.14 % 研发人员数量 261 人 研发人员占比 0.50 % 软件著作权 29 件 每百万营收软件著作权数 0.0074 件/百万元 有效专利总数 203 件 每百万营收有效专利数 0.0519 件/百万元 绩效考核覆盖率 100 % 发放职工生育补贴 38.72 万元 发放残疾人补贴 51.8 万元 商业保险覆盖率 100..."
+  },
+  {
+    "field_key": "social_security_coverage",
+    "field_name_cn": "社会保险覆盖率",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 47,
+    "citation_chunk_id": "p47_93",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "91 92 粤剧夏令营 暑期亲子研学活动 工伤与意外事故的妥善处理关乎员工的切身权益和公司的稳定发展。为切实保障员工在遭遇工 伤、意外事故时能够迅速获得专业医疗救治，并及时获得合理的经济补偿，侨银股份依据《中华 人民共和国安全生产法》《中华人民共和国劳动法》《工伤保险条例》等相关法律法规，紧密结 合公司实际运营情况，制定了《员工保险与工伤事故处理管理制度》。 公司根据工伤认定标准,详细界定工伤的认定范围,包括明确哪些情形应认定为工伤、..."
+  },
+  {
+    "field_key": "employee_medical_checkup_coverage",
+    "field_name_cn": "员工体检覆盖率",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 8,
+    "citation_chunk_id": "p8_13",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "公司积极回应联合国可持续发展目标，根据自身业务经营实际识别出重点响应的11项可持续发展目标并持续深化行动， 以期通过具体实践解决社会问题，促进全社会的可持续发展。 公司为员工提供年度健康体检，同时不断丰富文 化活动，在保障身体健康的同时关爱员工心理健 康，致力于打造幸福职场。 公司积极响应我国“30·60”承诺，将应对气候变 化融入公司项目开发、客户服务中，积极开发碳 资产并建立碳普惠平台，积极参与低碳联盟促进 社会低碳实践，在实现绿..."
+  },
+  {
+    "field_key": "trained_employees_count",
+    "field_name_cn": "受训员工人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 38,
+    "citation_chunk_id": "p38_74",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "关怀温暖同行 创幸福职场 赋能员工成长 展职业风采 凝聚侨银人才 强根基力量 以人为本，关爱为怀。侨银股份将人才视为核心资产，以员工的职业发展与幸福 感受为尺度，构建人才成长与关怀体系。通过完善的培训机制、广阔的晋升空间 和贴心的员工关怀活动，公司不断激发员工潜能，增强员工归属感，让每位员工 在实现自我价值的同时，为公司发展注入强劲动力。 人为尺度 人为尺度 构建职业幸福坐标系 73 74"
+  },
+  {
+    "field_key": "safety_accident_count",
+    "field_name_cn": "安全生产事故数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 46,
+    "citation_chunk_id": "p46_91",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "为有效守护员工的心血管健康，公司开发了《关于新智慧环卫平台2.0(一线员工血压监测)》功 能，实现对员工血压数据的实时监测。项目组配备了高血压测量工具，定期为项目员工进行高血 压监测。一旦发现血压异常人员，便每日跟踪其血压情况；对于持续高血压的员工，安排他们前 往医院进行身体检查，以便科学评估其是否适合继续从事当前岗位工作。除了血压监测，公司还 持续跟踪高血压患病人群的健康状况，并为这一特殊人群购买医疗险种，进一步为员工的健康筑 牢防..."
+  },
+  {
+    "field_key": "occupational_health_safety_investment",
+    "field_name_cn": "安全生产投入",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 9,
+    "citation_chunk_id": "p9_17",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "于公司在环境保护、社会责 任履行、产品质量与服务、社 区关系等方面的表现，旨在收 集外部利益相关方对公司可 持续发展的意见和建议。 问卷 调查 影响重要性 财 务 重 要 性 员工权益与薪酬福利 员工平等雇佣 投资者权益 研发与创新 风险管理 环境管理 乡村振兴 能源管理 产品/服务质量与安全 员工培训与发展 污染物排放 供应链管理 循环经济 社会贡献 数据安全与客户隐私保护 公司治理 客户服务 废弃物处 利益相关方沟通 反商业贿赂及..."
+  },
+  {
+    "field_key": "safety_emergency_drill_count",
+    "field_name_cn": "安全应急演练次数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 24,
+    "citation_chunk_id": "p24_47",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "体监测管理体系”。智能装备，如配备传感器的垃圾车、智 能清扫机器人和水域监测船，不仅是作业的执行者，更是数据采集的前端触角。这些装备实时收集 地面垃圾分布、空气质量和水体状况等信息，与卫星遥感技术形成互补，共同构成了覆盖天空、地 面和水域的多层次监测网络。平台通过AI 算法分析这些海量数据，实现了城市环境的全维度实时监 控。例如，智能垃圾车在巡检中发现某区域雨季垃圾堆积频发，系统会自动标记问题点并生成分析 报告，以图表形式直观呈现，帮..."
+  },
+  {
+    "field_key": "lost_work_days_due_to_injury",
+    "field_name_cn": "因工伤损失工作日数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 35,
+    "citation_chunk_id": "p35_69",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "络员，协助信息化部监管下属分公司数据安全工作。在这一 体系中，下属分公司需要定期向事业部汇报数据安全工作进展情况，确保事业部能够全面掌握 基层数据安全动态。事业部则将收集到的信息进行汇总分析，提炼出关键问题和重要成果，再 上报给信息安全领导小组。这种层层递进的汇报机制，使得信息能够及时、准确地传递，让公 司高层能够依据这些信息做出科学决策，保障公司数据安全管理工作得以有序推进，为公司的 稳定发展筑牢数据安全防线。 侨银城市管理股份有限..."
+  },
+  {
+    "field_key": "public_welfare_investment",
+    "field_name_cn": "公益投入金额",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 51,
+    "citation_chunk_id": "p51_101",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "赤诚之心筑 牢生命防线，累计实施水域救援30余次，成功挽 救2 0 余名落水者生命，用行动诠释“ 城市大管 家”的责任担当，让义勇为精神成为流淌在珠江血 脉中的文明基因。2024年，侨银股份全年社会捐 赠总金额达448,720元。未来，侨银股份将继续秉 持公益之心，持续关注社会需求，加大在公益领域 的投入，用实际行动践行企业使命，为构建更加美 好的社会贡献更多力量。 爱心助学 扶危济困 支持公益项目 帮助困难学子完成学业 改善其学习环..."
+  },
+  {
+    "field_key": "board_size",
+    "field_name_cn": "董事会人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 2,
+    "citation_chunk_id": "p2_1",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "目录 时间范围 报告说明 2024年1月1日至2024年12月31日，为增强报告可比性及前瞻 性，部分内容适当溯及以往年份并增加2024年相关的期后事 项。 本报告是侨银城市管理股份有限公司发布的第4份环境、社会及 治理（ESG）报告，披露了公司2024年度在环境、社会及公司 治理等责任方面的发展实践和主要成效，帮助企业投资者、合 作伙伴、员工和其他利益相关者深入透视公司的社会责任实践 活动。 本公司董事会及全体董事保证本报告内容不存..."
+  },
+  {
+    "field_key": "independent_directors",
+    "field_name_cn": "独立董事人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 30,
+    "citation_chunk_id": "p30_58",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "关键绩效 董事会下设战略委员会、审计委员会、薪酬与考核委员会、提名委员会 4 个专门委员会，协助董 事会履行相应职能，对促进公司规范运作、健康发展等方面发挥重要作用。其中，战略委员会在 公司的长远规划与战略布局中扮演关键角色。为进一步推动公司可持续发展，公司于战略委员会 下设立 ESG 工作小组。ESG 工作小组由各职能部门和下属子公司组成，负责落实并沟通可持续 发展各项议题的具体举措和反馈意见。基于此，公司能充分整合各部门和子公司的..."
+  },
+  {
+    "field_key": "independent_director_ratio",
+    "field_name_cn": "独立董事比例",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 2,
+    "citation_chunk_id": "p2_1",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "目录 时间范围 报告说明 2024年1月1日至2024年12月31日，为增强报告可比性及前瞻 性，部分内容适当溯及以往年份并增加2024年相关的期后事 项。 本报告是侨银城市管理股份有限公司发布的第4份环境、社会及 治理（ESG）报告，披露了公司2024年度在环境、社会及公司 治理等责任方面的发展实践和主要成效，帮助企业投资者、合 作伙伴、员工和其他利益相关者深入透视公司的社会责任实践 活动。 本公司董事会及全体董事保证本报告内容不存..."
+  },
+  {
+    "field_key": "anti_corruption_training_sessions",
+    "field_name_cn": "反腐败培训次数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 9,
+    "citation_chunk_id": "p9_17",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "于公司在环境保护、社会责 任履行、产品质量与服务、社 区关系等方面的表现，旨在收 集外部利益相关方对公司可 持续发展的意见和建议。 问卷 调查 影响重要性 财 务 重 要 性 员工权益与薪酬福利 员工平等雇佣 投资者权益 研发与创新 风险管理 环境管理 乡村振兴 能源管理 产品/服务质量与安全 员工培训与发展 污染物排放 供应链管理 循环经济 社会贡献 数据安全与客户隐私保护 公司治理 客户服务 废弃物处 利益相关方沟通 反商业贿赂及..."
+  },
+  {
+    "field_key": "anti_corruption_training_participants",
+    "field_name_cn": "反腐败培训人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 9,
+    "citation_chunk_id": "p9_17",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "于公司在环境保护、社会责 任履行、产品质量与服务、社 区关系等方面的表现，旨在收 集外部利益相关方对公司可 持续发展的意见和建议。 问卷 调查 影响重要性 财 务 重 要 性 员工权益与薪酬福利 员工平等雇佣 投资者权益 研发与创新 风险管理 环境管理 乡村振兴 能源管理 产品/服务质量与安全 员工培训与发展 污染物排放 供应链管理 循环经济 社会贡献 数据安全与客户隐私保护 公司治理 客户服务 废弃物处 利益相关方沟通 反商业贿赂及..."
+  },
+  {
+    "field_key": "confirmed_corruption_cases",
+    "field_name_cn": "确认腐败案件数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 54,
+    "citation_chunk_id": "p54_105",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "附录：关键绩效表 社会绩效 指标 单位 2024 研发投入资金 4,473.75 万元 研发投入占营收比 1.14 % 研发人员数量 261 人 研发人员占比 0.50 % 软件著作权 29 件 每百万营收软件著作权数 0.0074 件/百万元 有效专利总数 203 件 每百万营收有效专利数 0.0519 件/百万元 绩效考核覆盖率 100 % 发放职工生育补贴 38.72 万元 发放残疾人补贴 51.8 万元 商业保险覆盖率 100..."
+  },
+  {
+    "field_key": "environmental_management_system",
+    "field_name_cn": "环境管理体系",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 9,
+    "citation_chunk_id": "p9_17",
+    "citation_review_reasons": [
+      "source_page_mismatch"
+    ],
+    "text_excerpt": "于公司在环境保护、社会责 任履行、产品质量与服务、社 区关系等方面的表现，旨在收 集外部利益相关方对公司可 持续发展的意见和建议。 问卷 调查 影响重要性 财 务 重 要 性 员工权益与薪酬福利 员工平等雇佣 投资者权益 研发与创新 风险管理 环境管理 乡村振兴 能源管理 产品/服务质量与安全 员工培训与发展 污染物排放 供应链管理 循环经济 社会贡献 数据安全与客户隐私保护 公司治理 客户服务 废弃物处 利益相关方沟通 反商业贿赂及..."
+  },
+  {
+    "field_key": "water_management_measures",
+    "field_name_cn": "水资源管理措施",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 9,
+    "citation_chunk_id": "p9_17",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "于公司在环境保护、社会责 任履行、产品质量与服务、社 区关系等方面的表现，旨在收 集外部利益相关方对公司可 持续发展的意见和建议。 问卷 调查 影响重要性 财 务 重 要 性 员工权益与薪酬福利 员工平等雇佣 投资者权益 研发与创新 风险管理 环境管理 乡村振兴 能源管理 产品/服务质量与安全 员工培训与发展 污染物排放 供应链管理 循环经济 社会贡献 数据安全与客户隐私保护 公司治理 客户服务 废弃物处 利益相关方沟通 反商业贿赂及..."
+  }
+]

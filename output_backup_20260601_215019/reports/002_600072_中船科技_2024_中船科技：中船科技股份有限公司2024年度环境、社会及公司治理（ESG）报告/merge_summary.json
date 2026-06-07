@@ -1,0 +1,20 @@
+{
+  "total_fields": 60,
+  "route_a_extracted_fields": 15,
+  "route_b_matched_fields": 17,
+  "route_b_filled_fields": 17,
+  "route_b2_matched_fields": 3,
+  "route_b2_filled_fields": 3,
+  "merged_extracted_fields": 35,
+  "missing_fields": 25,
+  "coverage_rate": 0.5833,
+  "raw_coverage": 0.5833,
+  "industry": "manufacturing",
+  "applicable_fields": 60,
+  "applicable_extracted_fields": 35,
+  "not_applicable_fields": 0,
+  "applicable_coverage": 0.5833,
+  "route_a_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\standard_esg_results.csv",
+  "route_b_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\route_b_text_results.csv",
+  "route_b2_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\002_600072_中船科技_2024_中船科技：中船科技股份有限公司2024年度环境、社会及公司治理（ESG）报告\\route_b2_quant_results.csv"
+}

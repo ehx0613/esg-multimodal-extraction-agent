@@ -1,0 +1,58 @@
+{
+  "report_dir": "output\\reports\\003_600099_林海股份_2024_林海股份：林海股份有限公司2024年度环境、社会及公司治理（ESG）报告",
+  "industry": "manufacturing",
+  "retrieval_profile": "bm25_query_agg_evidence_rerank_v1",
+  "skip_harness": true,
+  "harness": null,
+  "citations": {
+    "field_count": 60,
+    "auto_cited_count": 39,
+    "needs_review_count": 21,
+    "json_path": "output\\reports\\003_600099_林海股份_2024_林海股份：林海股份有限公司2024年度环境、社会及公司治理（ESG）报告\\field_citations.json",
+    "csv_path": "output\\reports\\003_600099_林海股份_2024_林海股份：林海股份有限公司2024年度环境、社会及公司治理（ESG）报告\\field_citations.csv"
+  },
+  "rating": {
+    "score": 64.1066,
+    "rating": "CC",
+    "field_count": 53,
+    "scored_field_count": 35,
+    "needs_review_count": 21,
+    "json_path": "output\\reports\\003_600099_林海股份_2024_林海股份：林海股份有限公司2024年度环境、社会及公司治理（ESG）报告\\simulated_rating.json",
+    "summary_csv_path": "output\\reports\\003_600099_林海股份_2024_林海股份：林海股份有限公司2024年度环境、社会及公司治理（ESG）报告\\simulated_rating_summary.csv",
+    "review_queue_path": "output\\reports\\003_600099_林海股份_2024_林海股份：林海股份有限公司2024年度环境、社会及公司治理（ESG）报告\\rating_review_queue.json",
+    "rating_run_id": "rating_c397104cb7cb4179",
+    "pillar_scores": {
+      "E": {
+        "score": 59.2673,
+        "rating": "C",
+        "field_count": 21,
+        "scored_field_count": 13,
+        "coverage": 0.619,
+        "auto_cited_count": 13,
+        "evidence_coverage": 0.619,
+        "needs_review_count": 8
+      },
+      "G": {
+        "score": 49.74,
+        "rating": "C",
+        "field_count": 13,
+        "scored_field_count": 6,
+        "coverage": 0.4615,
+        "auto_cited_count": 6,
+        "evidence_coverage": 0.4615,
+        "needs_review_count": 7
+      },
+      "S": {
+        "score": 81.26,
+        "rating": "BBB",
+        "field_count": 19,
+        "scored_field_count": 16,
+        "coverage": 0.8421,
+        "auto_cited_count": 15,
+        "evidence_coverage": 0.7895,
+        "needs_review_count": 4
+      }
+    }
+  },
+  "next_step": "Review rating_review_queue.json, then approve/correct fields and recalculate rating."
+}

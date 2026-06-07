@@ -1,0 +1,544 @@
+[
+  {
+    "chunk_id": "mineru_table_p9_table_0",
+    "source_region_id": "p9_table_0",
+    "page_number": 9,
+    "bbox": [
+      47,
+      317,
+      444,
+      937
+    ],
+    "quality_score": 0.8857,
+    "needs_visual": false,
+    "reasons": [
+      "inconsistent_column_counts"
+    ],
+    "features": {
+      "table_kind": "qualitative",
+      "row_count": 14,
+      "dominant_column_count": 4,
+      "inconsistent_row_count": 4,
+      "empty_cell_ratio": 0.0,
+      "number_count": 0,
+      "numeric_row_density": 0.0,
+      "year_count": 0,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p15_table_0",
+    "source_region_id": "p15_table_0",
+    "page_number": 15,
+    "bbox": [
+      551,
+      510,
+      947,
+      885
+    ],
+    "quality_score": 1.0,
+    "needs_visual": false,
+    "reasons": [],
+    "features": {
+      "table_kind": "quantitative",
+      "row_count": 5,
+      "dominant_column_count": 3,
+      "inconsistent_row_count": 0,
+      "empty_cell_ratio": 0.0,
+      "number_count": 11,
+      "numeric_row_density": 2.2,
+      "year_count": 0,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p19_table_0",
+    "source_region_id": "p19_table_0",
+    "page_number": 19,
+    "bbox": [
+      552,
+      566,
+      944,
+      830
+    ],
+    "quality_score": 1.0,
+    "needs_visual": false,
+    "reasons": [],
+    "features": {
+      "table_kind": "qualitative",
+      "row_count": 5,
+      "dominant_column_count": 3,
+      "inconsistent_row_count": 0,
+      "empty_cell_ratio": 0.0,
+      "number_count": 0,
+      "numeric_row_density": 0.0,
+      "year_count": 0,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p23_table_0",
+    "source_region_id": "p23_table_0",
+    "page_number": 23,
+    "bbox": [
+      48,
+      376,
+      445,
+      848
+    ],
+    "quality_score": 0.7011,
+    "needs_visual": false,
+    "reasons": [
+      "inconsistent_column_counts",
+      "high_empty_cell_ratio"
+    ],
+    "features": {
+      "table_kind": "qualitative",
+      "row_count": 7,
+      "dominant_column_count": 4,
+      "inconsistent_row_count": 2,
+      "empty_cell_ratio": 0.6154,
+      "number_count": 3,
+      "numeric_row_density": 0.4286,
+      "year_count": 0,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p23_table_1",
+    "source_region_id": "p23_table_1",
+    "page_number": 23,
+    "bbox": [
+      551,
+      247,
+      945,
+      831
+    ],
+    "quality_score": 0.92,
+    "needs_visual": false,
+    "reasons": [
+      "inconsistent_column_counts"
+    ],
+    "features": {
+      "table_kind": "quantitative",
+      "row_count": 5,
+      "dominant_column_count": 2,
+      "inconsistent_row_count": 1,
+      "empty_cell_ratio": 0.0,
+      "number_count": 4,
+      "numeric_row_density": 0.8,
+      "year_count": 0,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p25_table_0",
+    "source_region_id": "p25_table_0",
+    "page_number": 25,
+    "bbox": [
+      551,
+      309,
+      945,
+      820
+    ],
+    "quality_score": 0.8545,
+    "needs_visual": false,
+    "reasons": [
+      "inconsistent_column_counts"
+    ],
+    "features": {
+      "table_kind": "quantitative",
+      "row_count": 11,
+      "dominant_column_count": 5,
+      "inconsistent_row_count": 4,
+      "empty_cell_ratio": 0.0,
+      "number_count": 11,
+      "numeric_row_density": 1.0,
+      "year_count": 0,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p27_table_0",
+    "source_region_id": "p27_table_0",
+    "page_number": 27,
+    "bbox": [
+      53,
+      299,
+      443,
+      396
+    ],
+    "quality_score": 1.0,
+    "needs_visual": false,
+    "reasons": [],
+    "features": {
+      "table_kind": "qualitative",
+      "row_count": 3,
+      "dominant_column_count": 2,
+      "inconsistent_row_count": 0,
+      "empty_cell_ratio": 0.0,
+      "number_count": 2,
+      "numeric_row_density": 0.6667,
+      "year_count": 0,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p27_table_1",
+    "source_region_id": "p27_table_1",
+    "page_number": 27,
+    "bbox": [
+      53,
+      667,
+      444,
+      800
+    ],
+    "quality_score": 1.0,
+    "needs_visual": false,
+    "reasons": [],
+    "features": {
+      "table_kind": "quantitative",
+      "row_count": 4,
+      "dominant_column_count": 2,
+      "inconsistent_row_count": 0,
+      "empty_cell_ratio": 0.125,
+      "number_count": 3,
+      "numeric_row_density": 0.75,
+      "year_count": 0,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p33_table_0",
+    "source_region_id": "p33_table_0",
+    "page_number": 33,
+    "bbox": [
+      561,
+      737,
+      944,
+      897
+    ],
+    "quality_score": 1.0,
+    "needs_visual": false,
+    "reasons": [],
+    "features": {
+      "table_kind": "quantitative",
+      "row_count": 4,
+      "dominant_column_count": 4,
+      "inconsistent_row_count": 0,
+      "empty_cell_ratio": 0.0,
+      "number_count": 12,
+      "numeric_row_density": 3.0,
+      "year_count": 3,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p35_table_0",
+    "source_region_id": "p35_table_0",
+    "page_number": 35,
+    "bbox": [
+      57,
+      541,
+      445,
+      842
+    ],
+    "quality_score": 1.0,
+    "needs_visual": false,
+    "reasons": [],
+    "features": {
+      "table_kind": "quantitative",
+      "row_count": 3,
+      "dominant_column_count": 3,
+      "inconsistent_row_count": 0,
+      "empty_cell_ratio": 0.0,
+      "number_count": 20,
+      "numeric_row_density": 6.6667,
+      "year_count": 0,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p53_table_0",
+    "source_region_id": "p53_table_0",
+    "page_number": 53,
+    "bbox": [
+      42,
+      152,
+      453,
+      255
+    ],
+    "quality_score": 1.0,
+    "needs_visual": false,
+    "reasons": [],
+    "features": {
+      "table_kind": "quantitative",
+      "row_count": 3,
+      "dominant_column_count": 3,
+      "inconsistent_row_count": 0,
+      "empty_cell_ratio": 0.0,
+      "number_count": 3,
+      "numeric_row_density": 1.0,
+      "year_count": 1,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p53_table_1",
+    "source_region_id": "p53_table_1",
+    "page_number": 53,
+    "bbox": [
+      41,
+      319,
+      453,
+      749
+    ],
+    "quality_score": 0.9077,
+    "needs_visual": false,
+    "reasons": [
+      "inconsistent_column_counts"
+    ],
+    "features": {
+      "table_kind": "quantitative",
+      "row_count": 13,
+      "dominant_column_count": 3,
+      "inconsistent_row_count": 3,
+      "empty_cell_ratio": 0.0,
+      "number_count": 13,
+      "numeric_row_density": 1.0,
+      "year_count": 1,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p53_table_2",
+    "source_region_id": "p53_table_2",
+    "page_number": 53,
+    "bbox": [
+      544,
+      154,
+      956,
+      586
+    ],
+    "quality_score": 0.8769,
+    "needs_visual": false,
+    "reasons": [
+      "inconsistent_column_counts"
+    ],
+    "features": {
+      "table_kind": "quantitative",
+      "row_count": 13,
+      "dominant_column_count": 3,
+      "inconsistent_row_count": 4,
+      "empty_cell_ratio": 0.0,
+      "number_count": 13,
+      "numeric_row_density": 1.0,
+      "year_count": 1,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p53_table_3",
+    "source_region_id": "p53_table_3",
+    "page_number": 53,
+    "bbox": [
+      544,
+      650,
+      956,
+      882
+    ],
+    "quality_score": 0.9429,
+    "needs_visual": false,
+    "reasons": [
+      "inconsistent_column_counts"
+    ],
+    "features": {
+      "table_kind": "quantitative",
+      "row_count": 7,
+      "dominant_column_count": 3,
+      "inconsistent_row_count": 1,
+      "empty_cell_ratio": 0.0,
+      "number_count": 7,
+      "numeric_row_density": 1.0,
+      "year_count": 1,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p54_table_0",
+    "source_region_id": "p54_table_0",
+    "page_number": 54,
+    "bbox": [
+      42,
+      152,
+      453,
+      685
+    ],
+    "quality_score": 0.925,
+    "needs_visual": false,
+    "reasons": [
+      "inconsistent_column_counts"
+    ],
+    "features": {
+      "table_kind": "quantitative",
+      "row_count": 16,
+      "dominant_column_count": 3,
+      "inconsistent_row_count": 3,
+      "empty_cell_ratio": 0.0,
+      "number_count": 16,
+      "numeric_row_density": 1.0,
+      "year_count": 1,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p54_table_1",
+    "source_region_id": "p54_table_1",
+    "page_number": 54,
+    "bbox": [
+      543,
+      154,
+      956,
+      882
+    ],
+    "quality_score": 0.658,
+    "needs_visual": true,
+    "reasons": [
+      "inconsistent_column_counts",
+      "high_empty_cell_ratio"
+    ],
+    "features": {
+      "table_kind": "quantitative",
+      "row_count": 43,
+      "dominant_column_count": 5,
+      "inconsistent_row_count": 25,
+      "empty_cell_ratio": 0.3649,
+      "number_count": 51,
+      "numeric_row_density": 1.186,
+      "year_count": 1,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p55_table_0",
+    "source_region_id": "p55_table_0",
+    "page_number": 55,
+    "bbox": [
+      43,
+      137,
+      455,
+      539
+    ],
+    "quality_score": 1.0,
+    "needs_visual": false,
+    "reasons": [],
+    "features": {
+      "table_kind": "quantitative",
+      "row_count": 11,
+      "dominant_column_count": 4,
+      "inconsistent_row_count": 0,
+      "empty_cell_ratio": 0.3182,
+      "number_count": 40,
+      "numeric_row_density": 3.6364,
+      "year_count": 0,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p55_table_1",
+    "source_region_id": "p55_table_1",
+    "page_number": 55,
+    "bbox": [
+      42,
+      579,
+      439,
+      707
+    ],
+    "quality_score": 1.0,
+    "needs_visual": false,
+    "reasons": [],
+    "features": {
+      "table_kind": "quantitative",
+      "row_count": 3,
+      "dominant_column_count": 4,
+      "inconsistent_row_count": 0,
+      "empty_cell_ratio": 0.0,
+      "number_count": 11,
+      "numeric_row_density": 3.6667,
+      "year_count": 0,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p55_table_2",
+    "source_region_id": "p55_table_2",
+    "page_number": 55,
+    "bbox": [
+      41,
+      741,
+      454,
+      878
+    ],
+    "quality_score": 1.0,
+    "needs_visual": false,
+    "reasons": [],
+    "features": {
+      "table_kind": "quantitative",
+      "row_count": 3,
+      "dominant_column_count": 4,
+      "inconsistent_row_count": 0,
+      "empty_cell_ratio": 0.25,
+      "number_count": 29,
+      "numeric_row_density": 9.6667,
+      "year_count": 0,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  },
+  {
+    "chunk_id": "mineru_table_p55_table_3",
+    "source_region_id": "p55_table_3",
+    "page_number": 55,
+    "bbox": [
+      543,
+      139,
+      952,
+      505
+    ],
+    "quality_score": 0.8575,
+    "needs_visual": false,
+    "reasons": [
+      "high_empty_cell_ratio"
+    ],
+    "features": {
+      "table_kind": "quantitative",
+      "row_count": 8,
+      "dominant_column_count": 5,
+      "inconsistent_row_count": 0,
+      "empty_cell_ratio": 0.475,
+      "number_count": 45,
+      "numeric_row_density": 5.625,
+      "year_count": 0,
+      "header_cell_count": 0
+    },
+    "cross_source_conflicts": []
+  }
+]

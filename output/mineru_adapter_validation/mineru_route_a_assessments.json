@@ -1,0 +1,367 @@
+[
+  {
+    "score": 0,
+    "selected": false,
+    "reasons": [],
+    "row_count": 14,
+    "numeric_rows": 0,
+    "block_id": "p9_table_0",
+    "page_number": 9,
+    "bbox": [
+      47,
+      317,
+      444,
+      937
+    ]
+  },
+  {
+    "score": 2,
+    "selected": false,
+    "reasons": [
+      "metric_header"
+    ],
+    "row_count": 5,
+    "numeric_rows": 0,
+    "block_id": "p15_table_0",
+    "page_number": 15,
+    "bbox": [
+      551,
+      510,
+      947,
+      885
+    ]
+  },
+  {
+    "score": 0,
+    "selected": false,
+    "reasons": [],
+    "row_count": 5,
+    "numeric_rows": 0,
+    "block_id": "p19_table_0",
+    "page_number": 19,
+    "bbox": [
+      552,
+      566,
+      944,
+      830
+    ]
+  },
+  {
+    "score": 2,
+    "selected": false,
+    "reasons": [
+      "metric_header"
+    ],
+    "row_count": 7,
+    "numeric_rows": 0,
+    "block_id": "p23_table_0",
+    "page_number": 23,
+    "bbox": [
+      48,
+      376,
+      445,
+      848
+    ]
+  },
+  {
+    "score": 2,
+    "selected": false,
+    "reasons": [
+      "metric_header"
+    ],
+    "row_count": 5,
+    "numeric_rows": 0,
+    "block_id": "p23_table_1",
+    "page_number": 23,
+    "bbox": [
+      551,
+      247,
+      945,
+      831
+    ]
+  },
+  {
+    "score": 2,
+    "selected": false,
+    "reasons": [
+      "metric_header"
+    ],
+    "row_count": 11,
+    "numeric_rows": 0,
+    "block_id": "p25_table_0",
+    "page_number": 25,
+    "bbox": [
+      551,
+      309,
+      945,
+      820
+    ]
+  },
+  {
+    "score": 5,
+    "selected": false,
+    "reasons": [
+      "metric_header",
+      "unit_header",
+      "numeric_rows"
+    ],
+    "row_count": 3,
+    "numeric_rows": 2,
+    "block_id": "p27_table_0",
+    "page_number": 27,
+    "bbox": [
+      53,
+      299,
+      443,
+      396
+    ]
+  },
+  {
+    "score": 2,
+    "selected": false,
+    "reasons": [
+      "unit_header"
+    ],
+    "row_count": 4,
+    "numeric_rows": 0,
+    "block_id": "p27_table_1",
+    "page_number": 27,
+    "bbox": [
+      53,
+      667,
+      444,
+      800
+    ]
+  },
+  {
+    "score": 5,
+    "selected": false,
+    "reasons": [
+      "year_header",
+      "numeric_rows"
+    ],
+    "row_count": 4,
+    "numeric_rows": 3,
+    "block_id": "p33_table_0",
+    "page_number": 33,
+    "bbox": [
+      561,
+      737,
+      944,
+      897
+    ]
+  },
+  {
+    "score": 2,
+    "selected": false,
+    "reasons": [
+      "metric_header"
+    ],
+    "row_count": 3,
+    "numeric_rows": 0,
+    "block_id": "p35_table_0",
+    "page_number": 35,
+    "bbox": [
+      57,
+      541,
+      445,
+      842
+    ]
+  },
+  {
+    "score": 11,
+    "selected": true,
+    "reasons": [
+      "performance_term:经济绩效",
+      "metric_header",
+      "unit_header",
+      "year_header",
+      "numeric_rows"
+    ],
+    "row_count": 3,
+    "numeric_rows": 2,
+    "block_id": "p53_table_0",
+    "page_number": 53,
+    "bbox": [
+      42,
+      152,
+      453,
+      255
+    ]
+  },
+  {
+    "score": 14,
+    "selected": true,
+    "reasons": [
+      "performance_term:环境绩效",
+      "metric_header",
+      "unit_header",
+      "year_header",
+      "numeric_rows"
+    ],
+    "row_count": 13,
+    "numeric_rows": 12,
+    "block_id": "p53_table_1",
+    "page_number": 53,
+    "bbox": [
+      41,
+      319,
+      453,
+      749
+    ]
+  },
+  {
+    "score": 14,
+    "selected": true,
+    "reasons": [
+      "performance_term:治理绩效",
+      "metric_header",
+      "unit_header",
+      "year_header",
+      "numeric_rows"
+    ],
+    "row_count": 13,
+    "numeric_rows": 12,
+    "block_id": "p53_table_2",
+    "page_number": 53,
+    "bbox": [
+      544,
+      154,
+      956,
+      586
+    ]
+  },
+  {
+    "score": 13,
+    "selected": true,
+    "reasons": [
+      "performance_term:社会绩效",
+      "metric_header",
+      "unit_header",
+      "year_header",
+      "numeric_rows"
+    ],
+    "row_count": 7,
+    "numeric_rows": 6,
+    "block_id": "p53_table_3",
+    "page_number": 53,
+    "bbox": [
+      544,
+      650,
+      956,
+      882
+    ]
+  },
+  {
+    "score": 19,
+    "selected": true,
+    "reasons": [
+      "performance_term:关键绩效",
+      "performance_term:社会绩效",
+      "metric_header",
+      "unit_header",
+      "year_header",
+      "numeric_rows"
+    ],
+    "row_count": 16,
+    "numeric_rows": 15,
+    "block_id": "p54_table_0",
+    "page_number": 54,
+    "bbox": [
+      42,
+      152,
+      453,
+      685
+    ]
+  },
+  {
+    "score": 14,
+    "selected": true,
+    "reasons": [
+      "performance_term:关键绩效",
+      "unit_header",
+      "year_header",
+      "numeric_rows"
+    ],
+    "row_count": 43,
+    "numeric_rows": 42,
+    "block_id": "p54_table_1",
+    "page_number": 54,
+    "bbox": [
+      543,
+      154,
+      956,
+      882
+    ]
+  },
+  {
+    "score": -5,
+    "selected": false,
+    "reasons": [
+      "performance_term:关键绩效",
+      "index_table"
+    ],
+    "row_count": 11,
+    "numeric_rows": 1,
+    "block_id": "p55_table_0",
+    "page_number": 55,
+    "bbox": [
+      43,
+      137,
+      455,
+      539
+    ]
+  },
+  {
+    "score": 5,
+    "selected": false,
+    "reasons": [
+      "performance_term:关键绩效"
+    ],
+    "row_count": 3,
+    "numeric_rows": 0,
+    "block_id": "p55_table_1",
+    "page_number": 55,
+    "bbox": [
+      42,
+      579,
+      439,
+      707
+    ]
+  },
+  {
+    "score": 5,
+    "selected": false,
+    "reasons": [
+      "performance_term:关键绩效"
+    ],
+    "row_count": 3,
+    "numeric_rows": 1,
+    "block_id": "p55_table_2",
+    "page_number": 55,
+    "bbox": [
+      41,
+      741,
+      454,
+      878
+    ]
+  },
+  {
+    "score": -5,
+    "selected": false,
+    "reasons": [
+      "performance_term:关键绩效",
+      "index_table"
+    ],
+    "row_count": 8,
+    "numeric_rows": 0,
+    "block_id": "p55_table_3",
+    "page_number": 55,
+    "bbox": [
+      543,
+      139,
+      952,
+      505
+    ]
+  }
+]

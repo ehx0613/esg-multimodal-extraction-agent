@@ -1,0 +1,2201 @@
+[
+  {
+    "field_key": "female_directors",
+    "field_name_cn": "女性董事人数",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中虽有‘董事’相关数据（如董事会成员人数），但未出现‘女性董事人数’、‘女董事人数’等同义词或明确数值；‘女性’相关数据仅出现在研发人员性别划分中，与董事无关；且无任何句子或表格行明确对应女性董事人数及其年份，不符合matched=true条件",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中虽有‘董事’相关数据（如董事会成员人数），但未出现‘女性董事人数’、‘女董事人数’等同义词或明确数值；‘女性’相关数据仅出现在研发人员性别划分中，与董事无关；且无任何句子或表格行明确对应女性董事人数及其年份，不符合matched=true条件",
+    "retrieval_priority": 92.5944,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p46_76",
+        "page_number": 46,
+        "retrieval_score": 51,
+        "bm25_score": 8.2829,
+        "vector_score": 0.329719,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事",
+          "数量"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p54_93",
+        "page_number": 54,
+        "retrieval_score": 47,
+        "bm25_score": 10.131,
+        "vector_score": 0.253747,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事",
+          "人数",
+          "数量"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 90
+      },
+      {
+        "chunk_id": "p55_96",
+        "page_number": 55,
+        "retrieval_score": 46,
+        "bm25_score": 7.2489,
+        "vector_score": 0.203339,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "女性",
+          "数量"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 105
+      },
+      {
+        "chunk_id": "p49_83",
+        "page_number": 49,
+        "retrieval_score": 42,
+        "bm25_score": 3.4434,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "人数"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 12
+      },
+      {
+        "chunk_id": "p30_50",
+        "page_number": 30,
+        "retrieval_score": 39,
+        "bm25_score": 3.4434,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "人数"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [],
+        "number_count": 13
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "independent_directors",
+    "field_name_cn": "独立董事人数",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中提及董事会成员人数，但未出现独立董事人数、数量或独董人数等同义词，也未区分独立董事与非独立董事，且存在‘董事’‘董事会成员’等模糊表述，无法确认是否为独立董事，符合forbidden_any排除条件（虽无%但无明确独立性标识），故不能匹配",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中提及董事会成员人数，但未出现独立董事人数、数量或独董人数等同义词，也未区分独立董事与非独立董事，且存在‘董事’‘董事会成员’等模糊表述，无法确认是否为独立董事，符合forbidden_any排除条件（虽无%但无明确独立性标识），故不能匹配",
+    "retrieval_priority": 92.2814,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p46_76",
+        "page_number": 46,
+        "retrieval_score": 51,
+        "bm25_score": 10.7872,
+        "vector_score": 0.314069,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "独立",
+          "董事",
+          "数量"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p54_93",
+        "page_number": 54,
+        "retrieval_score": 46,
+        "bm25_score": 10.131,
+        "vector_score": 0.248727,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "董事",
+          "人数",
+          "数量"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 90
+      },
+      {
+        "chunk_id": "p55_96",
+        "page_number": 55,
+        "retrieval_score": 45,
+        "bm25_score": 4.6194,
+        "vector_score": 0.174819,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "数量"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 105
+      },
+      {
+        "chunk_id": "p30_50",
+        "page_number": 30,
+        "retrieval_score": 43,
+        "bm25_score": 3.4434,
+        "vector_score": 0.209917,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "人数"
+        ],
+        "hit_units": [
+          "人",
+          "名"
+        ],
+        "hit_forbidden": [],
+        "number_count": 13
+      },
+      {
+        "chunk_id": "p49_83",
+        "page_number": 49,
+        "retrieval_score": 42,
+        "bm25_score": 3.4434,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "人数"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 12
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "occupational_health_safety_investment",
+    "field_name_cn": "安全生产投入",
+    "category": "S",
+    "matched": false,
+    "value": "3032",
+    "raw_value": "3,032万元",
+    "unit": "万元",
+    "target_unit": "元",
+    "conversion": "万元转元，乘以10000",
+    "year": "2024",
+    "evidence": "2024年，公司环保总投入总金额为3,032万元。",
+    "source_pages": [
+      13
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence",
+    "retrieval_priority": 90.8764,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p56_98",
+        "page_number": 56,
+        "retrieval_score": 50,
+        "bm25_score": 25.8534,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "安全",
+          "职业健康"
+        ],
+        "hit_query_terms": [
+          "安全",
+          "生产",
+          "职业",
+          "业健",
+          "健康",
+          "康安",
+          "职业健",
+          "业健康",
+          "健康安",
+          "康安全",
+          "职业健康"
+        ],
+        "hit_units": [
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 106
+      },
+      {
+        "chunk_id": "p13_20",
+        "page_number": 13,
+        "retrieval_score": 49,
+        "bm25_score": 17.0046,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "安全"
+        ],
+        "hit_query_terms": [
+          "安全",
+          "全生",
+          "生产",
+          "投入",
+          "安全生",
+          "全生产"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p35_57",
+        "page_number": 35,
+        "retrieval_score": 46,
+        "bm25_score": 59.3956,
+        "vector_score": 0.293821,
+        "hit_keywords": [
+          "安全",
+          "职业健康"
+        ],
+        "hit_query_terms": [
+          "安全",
+          "全生",
+          "生产",
+          "安全生",
+          "全生产",
+          "职业",
+          "业健",
+          "健康",
+          "康安",
+          "职业健",
+          "业健康",
+          "健康安"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 11
+      },
+      {
+        "chunk_id": "p20_33",
+        "page_number": 20,
+        "retrieval_score": 45,
+        "bm25_score": 3.0098,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "安全"
+        ],
+        "hit_query_terms": [
+          "安全",
+          "全生"
+        ],
+        "hit_units": [
+          "万元",
+          "元",
+          "百万元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 9
+      },
+      {
+        "chunk_id": "p19_31",
+        "page_number": 19,
+        "retrieval_score": 43,
+        "bm25_score": 3.0317,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "安全"
+        ],
+        "hit_query_terms": [
+          "安全",
+          "生产"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "safety_accident_count",
+    "field_name_cn": "安全生产事故数量",
+    "category": "S",
+    "matched": false,
+    "value": "11",
+    "raw_value": "11",
+    "unit": "起",
+    "target_unit": "起",
+    "conversion": "无需转换",
+    "year": "2024",
+    "evidence": "安全生产事故数\t起\t3\t3\t11",
+    "source_pages": [
+      57
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence",
+    "retrieval_priority": 90.0988,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p57_100",
+        "page_number": 57,
+        "retrieval_score": 50,
+        "bm25_score": 57.1369,
+        "vector_score": 0.254938,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "安全",
+          "全生",
+          "生产",
+          "产事",
+          "事故",
+          "故数",
+          "安全生",
+          "全生产",
+          "生产事",
+          "产事故",
+          "事故数",
+          "产安"
+        ],
+        "hit_units": [
+          "起",
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 72
+      },
+      {
+        "chunk_id": "p55_96",
+        "page_number": 55,
+        "retrieval_score": 46,
+        "bm25_score": 4.6194,
+        "vector_score": 0.210836,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "数量"
+        ],
+        "hit_units": [
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 105
+      },
+      {
+        "chunk_id": "p54_93",
+        "page_number": 54,
+        "retrieval_score": 45,
+        "bm25_score": 2.9396,
+        "vector_score": 0.170757,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "数量"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 90
+      },
+      {
+        "chunk_id": "p56_98",
+        "page_number": 56,
+        "retrieval_score": 45,
+        "bm25_score": 6.7507,
+        "vector_score": 0.177156,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "安全",
+          "生产",
+          "数量"
+        ],
+        "hit_units": [
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 106
+      },
+      {
+        "chunk_id": "p13_20",
+        "page_number": 13,
+        "retrieval_score": 42,
+        "bm25_score": 14.5003,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "安全",
+          "全生",
+          "生产",
+          "安全生",
+          "全生产"
+        ],
+        "hit_units": [
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "total_ghg_emissions",
+    "field_name_cn": "温室气体排放总量",
+    "category": "E",
+    "matched": true,
+    "value": "913572.36",
+    "raw_value": "91.357236万吨",
+    "unit": "万吨",
+    "target_unit": "吨",
+    "conversion": "万吨转吨，乘以10000",
+    "year": "2024",
+    "evidence": "2024年温室气体排放量为91.357236万吨CO2e。",
+    "source_pages": [
+      13
+    ],
+    "confidence": 0.95,
+    "reason": "定位到目标字段同义词“温室气体排放量”（符合“温室气体排放总量”同义词），有明确年份2024，原始数值为91.357236万吨CO2e，单位“万吨”可转换为“吨”，符合所有规则且无 forbidden_any 干扰;soft_penalty:soft_pass_strong_unit_anchor:co2e;vector=0.2568",
+    "b2_validation_ok": true,
+    "b2_validation_reason": "soft_pass_strong_unit_anchor:co2e;vector=0.2568",
+    "retrieval_priority": 89.1363,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p13_20",
+        "page_number": 13,
+        "retrieval_score": 49,
+        "bm25_score": 62.9899,
+        "vector_score": 0.174356,
+        "hit_keywords": [
+          "温室气体排放量"
+        ],
+        "hit_query_terms": [
+          "温室",
+          "室气",
+          "气体",
+          "体排",
+          "排放",
+          "温室气",
+          "室气体",
+          "气体排",
+          "体排放",
+          "温室气体排放量",
+          "放量",
+          "排放量"
+        ],
+        "hit_units": [
+          "吨CO2e"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p19_31",
+        "page_number": 19,
+        "retrieval_score": 44,
+        "bm25_score": 15.5627,
+        "vector_score": 0.256814,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "排放",
+          "放量",
+          "排放量",
+          "氧化"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p18_29",
+        "page_number": 18,
+        "retrieval_score": 43,
+        "bm25_score": 11.2694,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "碳排放"
+        ],
+        "hit_query_terms": [
+          "排放",
+          "总量",
+          "碳排",
+          "碳排放"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 19
+      },
+      {
+        "chunk_id": "p19_32",
+        "page_number": 19,
+        "retrieval_score": 43,
+        "bm25_score": 9.4426,
+        "vector_score": 0.220168,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "排放",
+          "放量",
+          "排放量"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p13_21",
+        "page_number": 13,
+        "retrieval_score": 39,
+        "bm25_score": 35.6394,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "碳排放",
+          "二氧化碳"
+        ],
+        "hit_query_terms": [
+          "排放",
+          "碳排",
+          "碳排放",
+          "二氧化碳",
+          "二氧",
+          "氧化",
+          "化碳",
+          "二氧化",
+          "氧化碳",
+          "万吨"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 8
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "anti_corruption_training_participants",
+    "field_name_cn": "反腐败培训人数",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中提及环保培训、员工培训、技能提升等，但未出现反腐败、廉洁、反舞弊、商业道德等相关同义词，且‘接受培训总人次’等数据未明确指向反腐败培训，存在 forbidden_any 的‘人次’但无法确认为本字段，故无法匹配",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中提及环保培训、员工培训、技能提升等，但未出现反腐败、廉洁、反舞弊、商业道德等相关同义词，且‘接受培训总人次’等数据未明确指向反腐败培训，存在 forbidden_any 的‘人次’但无法确认为本字段，故无法匹配",
+    "retrieval_priority": 85.6381,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p16_26",
+        "page_number": 16,
+        "retrieval_score": 45,
+        "bm25_score": 4.4273,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "人次"
+        ],
+        "hit_units": [
+          "人",
+          "人次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 12
+      },
+      {
+        "chunk_id": "p56_99",
+        "page_number": 56,
+        "retrieval_score": 44,
+        "bm25_score": 8.2259,
+        "vector_score": 0.273475,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "人数",
+          "人次"
+        ],
+        "hit_units": [
+          "人",
+          "人次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 74
+      },
+      {
+        "chunk_id": "p56_98",
+        "page_number": 56,
+        "retrieval_score": 42,
+        "bm25_score": 4.2381,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "人数"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 106
+      },
+      {
+        "chunk_id": "p30_49",
+        "page_number": 30,
+        "retrieval_score": 41,
+        "bm25_score": 6.0854,
+        "vector_score": 0.281903,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "人数"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 44
+      },
+      {
+        "chunk_id": "p30_50",
+        "page_number": 30,
+        "retrieval_score": 41,
+        "bm25_score": 5.8746,
+        "vector_score": 0.256274,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "人数"
+        ],
+        "hit_units": [
+          "人"
+        ],
+        "hit_forbidden": [],
+        "number_count": 13
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "non_hazardous_waste",
+    "field_name_cn": "一般废弃物产生量",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中提及‘危险废物’‘废切削液’‘废油污’等 forbidden_any 内容，但未出现目标字段或其同义词（如一般废弃物、无害废弃物等）与明确数值的对应语句；虽有‘金属边角料’‘包装材料’等回收内容，但未量化为‘一般废弃物产生量’，无法满足 matched=true 条件",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中提及‘危险废物’‘废切削液’‘废油污’等 forbidden_any 内容，但未出现目标字段或其同义词（如一般废弃物、无害废弃物等）与明确数值的对应语句；虽有‘金属边角料’‘包装材料’等回收内容，但未量化为‘一般废弃物产生量’，无法满足 matched=true 条件",
+    "retrieval_priority": 85.3563,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p18_29",
+        "page_number": 18,
+        "retrieval_score": 46,
+        "bm25_score": 2.9396,
+        "vector_score": 0.215093,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "总量"
+        ],
+        "hit_units": [
+          "吨"
+        ],
+        "hit_forbidden": [],
+        "number_count": 19
+      },
+      {
+        "chunk_id": "p19_31",
+        "page_number": 19,
+        "retrieval_score": 46,
+        "bm25_score": 11.2402,
+        "vector_score": 0.217813,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "危险",
+          "险废",
+          "危险废"
+        ],
+        "hit_units": [
+          "吨"
+        ],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p54_94",
+        "page_number": 54,
+        "retrieval_score": 45,
+        "bm25_score": 5.2155,
+        "vector_score": 0.15906,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "总量"
+        ],
+        "hit_units": [
+          "吨"
+        ],
+        "hit_forbidden": [],
+        "number_count": 60
+      },
+      {
+        "chunk_id": "p13_20",
+        "page_number": 13,
+        "retrieval_score": 42,
+        "bm25_score": 3.3916,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "产生"
+        ],
+        "hit_units": [
+          "吨"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p17_27",
+        "page_number": 17,
+        "retrieval_score": 42,
+        "bm25_score": 5.2155,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "总量"
+        ],
+        "hit_units": [
+          "吨"
+        ],
+        "hit_forbidden": [],
+        "number_count": 42
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "environmental_penalty_count",
+    "field_name_cn": "环境违规或处罚事件数量",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中虽有环境培训、环保投入、能源管理等指标，但未出现环境违规、处罚、违法违规事件等目标字段或其同义词与明确数值的对应表述，无法满足matched=true条件",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中虽有环境培训、环保投入、能源管理等指标，但未出现环境违规、处罚、违法违规事件等目标字段或其同义词与明确数值的对应表述，无法满足matched=true条件",
+    "retrieval_priority": 85.31,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p54_93",
+        "page_number": 54,
+        "retrieval_score": 46,
+        "bm25_score": 10.4116,
+        "vector_score": 0.215501,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "环境",
+          "数量",
+          "次数",
+          "环保"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 90
+      },
+      {
+        "chunk_id": "p49_83",
+        "page_number": 49,
+        "retrieval_score": 45,
+        "bm25_score": 2.9396,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "次数"
+        ],
+        "hit_units": [
+          "次",
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 12
+      },
+      {
+        "chunk_id": "p56_98",
+        "page_number": 56,
+        "retrieval_score": 45,
+        "bm25_score": 27.7657,
+        "vector_score": 0.175095,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "环境",
+          "事件",
+          "件数",
+          "数量",
+          "事件数",
+          "件数量",
+          "行政"
+        ],
+        "hit_units": [
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 106
+      },
+      {
+        "chunk_id": "p57_100",
+        "page_number": 57,
+        "retrieval_score": 45,
+        "bm25_score": 3.2083,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "环境",
+          "次数"
+        ],
+        "hit_units": [
+          "次",
+          "起"
+        ],
+        "hit_forbidden": [],
+        "number_count": 72
+      },
+      {
+        "chunk_id": "p16_26",
+        "page_number": 16,
+        "retrieval_score": 42,
+        "bm25_score": 3.0845,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "环境",
+          "环保"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 12
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "female_employee_ratio",
+    "field_name_cn": "女性员工比例",
+    "category": "S",
+    "matched": false,
+    "value": 10.78,
+    "raw_value": "925人",
+    "unit": "人",
+    "target_unit": "%",
+    "conversion": "女性员工数925人除以员工总人数8581人，乘以100%得到10.78%",
+    "year": "2024",
+    "evidence": "按性别划分的员工数\n女性\n人\n925\n男\n人\n7,656",
+    "source_pages": [
+      56
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence;ratio_field_without_percent_unit",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence;ratio_field_without_percent_unit",
+    "retrieval_priority": 85.0756,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p34_56",
+        "page_number": 34,
+        "retrieval_score": 44,
+        "bm25_score": 41.6032,
+        "vector_score": 0.303778,
+        "hit_keywords": [
+          "女性员工占比"
+        ],
+        "hit_query_terms": [
+          "女性",
+          "性员",
+          "员工",
+          "女性员",
+          "性员工",
+          "女性员工占比",
+          "工占",
+          "占比",
+          "员工占",
+          "工占比"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 9
+      },
+      {
+        "chunk_id": "p54_94",
+        "page_number": 54,
+        "retrieval_score": 42,
+        "bm25_score": 3.8123,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "比例"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 60
+      },
+      {
+        "chunk_id": "p56_98",
+        "page_number": 56,
+        "retrieval_score": 42,
+        "bm25_score": 4.7486,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "女性",
+          "员工"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 106
+      },
+      {
+        "chunk_id": "p57_100",
+        "page_number": 57,
+        "retrieval_score": 42,
+        "bm25_score": 6.2852,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "雇员"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 72
+      },
+      {
+        "chunk_id": "p13_20",
+        "page_number": 13,
+        "retrieval_score": 41,
+        "bm25_score": 2.7726,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "比例"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "scope_1_emissions",
+    "field_name_cn": "范围一温室气体排放量",
+    "category": "E",
+    "matched": false,
+    "value": "913572.36",
+    "raw_value": "91.357236万吨CO2e",
+    "unit": "万吨",
+    "target_unit": "吨",
+    "conversion": "万吨转吨，乘以10000",
+    "year": "2024",
+    "evidence": "2024年温室气体排放量为91.357236万吨CO2e。",
+    "source_pages": [
+      13
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence;scope_1_requires_explicit_scope_or_direct_emission",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence;scope_1_requires_explicit_scope_or_direct_emission",
+    "retrieval_priority": 85.0606,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p13_20",
+        "page_number": 13,
+        "retrieval_score": 46,
+        "bm25_score": 57.9888,
+        "vector_score": 0.20303,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "温室",
+          "室气",
+          "气体",
+          "体排",
+          "排放",
+          "放量",
+          "温室气",
+          "室气体",
+          "气体排",
+          "体排放",
+          "排放量",
+          "co"
+        ],
+        "hit_units": [
+          "吨CO2e"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p19_31",
+        "page_number": 19,
+        "retrieval_score": 42,
+        "bm25_score": 12.171,
+        "vector_score": 0.186611,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "排放",
+          "放量",
+          "排放量"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p17_27",
+        "page_number": 17,
+        "retrieval_score": 39,
+        "bm25_score": 3.7281,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "直接"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 42
+      },
+      {
+        "chunk_id": "p19_32",
+        "page_number": 19,
+        "retrieval_score": 39,
+        "bm25_score": 12.0721,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "排放",
+          "放量",
+          "排放量",
+          "co"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p54_93",
+        "page_number": 54,
+        "retrieval_score": 39,
+        "bm25_score": 3.7281,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "直接"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 90
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "training_hours_per_employee",
+    "field_name_cn": "人均培训时长",
+    "category": "S",
+    "matched": false,
+    "value": "0.0586",
+    "raw_value": "38小时",
+    "unit": "小时",
+    "target_unit": "小时",
+    "conversion": "无需转换",
+    "year": "2024",
+    "evidence": "开展法律培训时数\n38小时",
+    "source_pages": [
+      49
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence",
+    "retrieval_priority": 83.6284,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p54_93",
+        "page_number": 54,
+        "retrieval_score": 45,
+        "bm25_score": 19.1656,
+        "vector_score": 0.163861,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "训时",
+          "培训时",
+          "时数",
+          "训时数",
+          "小时"
+        ],
+        "hit_units": [
+          "小时"
+        ],
+        "hit_forbidden": [],
+        "number_count": 90
+      },
+      {
+        "chunk_id": "p19_31",
+        "page_number": 19,
+        "retrieval_score": 43,
+        "bm25_score": 5.5334,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "平均"
+        ],
+        "hit_query_terms": [
+          "培训",
+          "平均"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p49_83",
+        "page_number": 49,
+        "retrieval_score": 42,
+        "bm25_score": 20.36,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "训时",
+          "培训时",
+          "员工",
+          "时数",
+          "训时数",
+          "小时"
+        ],
+        "hit_units": [
+          "小时"
+        ],
+        "hit_forbidden": [],
+        "number_count": 12
+      },
+      {
+        "chunk_id": "p18_30",
+        "page_number": 18,
+        "retrieval_score": 36,
+        "bm25_score": 5.3704,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "人均"
+        ],
+        "hit_query_terms": [
+          "人均",
+          "员工"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 9
+      },
+      {
+        "chunk_id": "p30_49",
+        "page_number": 30,
+        "retrieval_score": 36,
+        "bm25_score": 3.5794,
+        "vector_score": 0.181418,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训",
+          "员工"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 44
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "ghg_emissions_intensity",
+    "field_name_cn": "温室气体排放强度",
+    "category": "E",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中虽有温室气体排放总量（91.357236万吨CO2e）和营收相关数据（如用水强度单位为吨/万元营收），但未出现温室气体排放强度、单位营收温室气体排放等目标字段或同义词与数值的直接对应语句，无法确认排放强度计算依据（如营收总额缺失），且无明确强度指标表达，不符合matched=true条件",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中虽有温室气体排放总量（91.357236万吨CO2e）和营收相关数据（如用水强度单位为吨/万元营收），但未出现温室气体排放强度、单位营收温室气体排放等目标字段或同义词与数值的直接对应语句，无法确认排放强度计算依据（如营收总额缺失），且无明确强度指标表达，不符合matched=true条件",
+    "retrieval_priority": 82.7259,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p19_31",
+        "page_number": 19,
+        "retrieval_score": 43,
+        "bm25_score": 5.4628,
+        "vector_score": 0.236295,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "排放",
+          "单位"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p13_20",
+        "page_number": 13,
+        "retrieval_score": 42,
+        "bm25_score": 50.3054,
+        "vector_score": 0.149512,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "温室",
+          "室气",
+          "气体",
+          "体排",
+          "排放",
+          "温室气",
+          "室气体",
+          "气体排",
+          "体排放",
+          "单位"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p19_32",
+        "page_number": 19,
+        "retrieval_score": 42,
+        "bm25_score": 4.3886,
+        "vector_score": 0.17768,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "排放",
+          "单位"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p54_95",
+        "page_number": 54,
+        "retrieval_score": 41,
+        "bm25_score": 9.5986,
+        "vector_score": 0.220731,
+        "hit_keywords": [
+          "强度"
+        ],
+        "hit_query_terms": [
+          "排放",
+          "强度",
+          "营收"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 39
+      },
+      {
+        "chunk_id": "p18_30",
+        "page_number": 18,
+        "retrieval_score": 40,
+        "bm25_score": 28.6592,
+        "vector_score": 0.0,
+        "hit_keywords": [
+          "碳排放强度",
+          "强度"
+        ],
+        "hit_query_terms": [
+          "排放",
+          "放强",
+          "强度",
+          "排放强",
+          "放强度",
+          "碳排放强度",
+          "碳排",
+          "碳排放"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 9
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "employee_turnover_rate",
+    "field_name_cn": "员工流失率",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "没有找到字段名或同义词（员工流失率、员工离职率等）与任何数值明确对应的证据，所有证据均涉及培训、员工总数、性别年龄结构等，但无流失或离职相关数据",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "没有找到字段名或同义词（员工流失率、员工离职率等）与任何数值明确对应的证据，所有证据均涉及培训、员工总数、性别年龄结构等，但无流失或离职相关数据",
+    "retrieval_priority": 81.7905,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p57_100",
+        "page_number": 57,
+        "retrieval_score": 42,
+        "bm25_score": 6.2852,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "雇员"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 72
+      },
+      {
+        "chunk_id": "p31_51",
+        "page_number": 31,
+        "retrieval_score": 40,
+        "bm25_score": 11.2472,
+        "vector_score": 0.239524,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "雇员",
+          "流动"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 23
+      },
+      {
+        "chunk_id": "p56_99",
+        "page_number": 56,
+        "retrieval_score": 40,
+        "bm25_score": 5.2246,
+        "vector_score": 0.203199,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "雇员"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 74
+      },
+      {
+        "chunk_id": "p30_49",
+        "page_number": 30,
+        "retrieval_score": 39,
+        "bm25_score": 7.2597,
+        "vector_score": 0.156106,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工",
+          "雇员"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 44
+      },
+      {
+        "chunk_id": "p56_98",
+        "page_number": 56,
+        "retrieval_score": 37,
+        "bm25_score": 2.1191,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "员工"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 106
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "scope_2_emissions",
+    "field_name_cn": "范围二温室气体排放量",
+    "category": "E",
+    "matched": false,
+    "value": "913572.36",
+    "raw_value": "91.357236万吨CO2e",
+    "unit": "万吨",
+    "target_unit": "吨",
+    "conversion": "万吨转吨，乘以10000",
+    "year": "2024",
+    "evidence": "2024年温室气体排放量为91.357236万吨CO2e。",
+    "source_pages": [
+      13
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence;scope_2_requires_explicit_scope_or_indirect_emission",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence;scope_2_requires_explicit_scope_or_indirect_emission",
+    "retrieval_priority": 80.178,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p13_20",
+        "page_number": 13,
+        "retrieval_score": 42,
+        "bm25_score": 57.9888,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "温室",
+          "室气",
+          "气体",
+          "体排",
+          "排放",
+          "放量",
+          "温室气",
+          "室气体",
+          "气体排",
+          "体排放",
+          "排放量",
+          "co"
+        ],
+        "hit_units": [
+          "吨CO2e"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p19_31",
+        "page_number": 19,
+        "retrieval_score": 42,
+        "bm25_score": 12.171,
+        "vector_score": 0.158901,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "排放",
+          "放量",
+          "排放量"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p19_32",
+        "page_number": 19,
+        "retrieval_score": 42,
+        "bm25_score": 12.0721,
+        "vector_score": 0.156302,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "排放",
+          "放量",
+          "排放量",
+          "co"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      },
+      {
+        "chunk_id": "p17_27",
+        "page_number": 17,
+        "retrieval_score": 39,
+        "bm25_score": 3.7281,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "间接"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 42
+      },
+      {
+        "chunk_id": "p54_93",
+        "page_number": 54,
+        "retrieval_score": 39,
+        "bm25_score": 3.7281,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "间接"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 90
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "public_welfare_investment",
+    "field_name_cn": "公益投入金额",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中提及环保投入、安全培训投入、固废处置收益等，但未出现公益投入金额、慈善捐赠、对外捐赠等目标字段或其同义词，且无任何与社会公益相关的资金投入数据，无法满足matched=true条件",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中提及环保投入、安全培训投入、固废处置收益等，但未出现公益投入金额、慈善捐赠、对外捐赠等目标字段或其同义词，且无任何与社会公益相关的资金投入数据，无法满足matched=true条件",
+    "retrieval_priority": 80.0,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p13_20",
+        "page_number": 13,
+        "retrieval_score": 45,
+        "bm25_score": 5.6446,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "投入",
+          "金额"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p54_93",
+        "page_number": 54,
+        "retrieval_score": 45,
+        "bm25_score": 5.6446,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "投入",
+          "金额"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 90
+      },
+      {
+        "chunk_id": "p57_100",
+        "page_number": 57,
+        "retrieval_score": 44,
+        "bm25_score": 2.8246,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "投入",
+          "社会"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 72
+      },
+      {
+        "chunk_id": "p46_76",
+        "page_number": 46,
+        "retrieval_score": 42,
+        "bm25_score": 2.9497,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "社会",
+          "会公"
+        ],
+        "hit_units": [
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p20_33",
+        "page_number": 20,
+        "retrieval_score": 40,
+        "bm25_score": 2.7726,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "对外"
+        ],
+        "hit_units": [
+          "万元",
+          "元",
+          "百万元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 9
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "independent_director_ratio",
+    "field_name_cn": "独立董事比例",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中未出现独立董事比例、独立董事占比、独董比例、独董占比等目标字段或同义词，且所有内容均围绕能源、水资源、排放等ESG环境指标，无任何公司治理（G）相关董事会结构信息，符合forbidden_any的排除条件（无相关字段），无法满足matched=true的任何条件",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中未出现独立董事比例、独立董事占比、独董比例、独董占比等目标字段或同义词，且所有内容均围绕能源、水资源、排放等ESG环境指标，无任何公司治理（G）相关董事会结构信息，符合forbidden_any的排除条件（无相关字段），无法满足matched=true的任何条件",
+    "retrieval_priority": 77.0,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p54_94",
+        "page_number": 54,
+        "retrieval_score": 42,
+        "bm25_score": 3.8123,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "比例"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 60
+      },
+      {
+        "chunk_id": "p13_20",
+        "page_number": 13,
+        "retrieval_score": 41,
+        "bm25_score": 2.7726,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "比例"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p17_27",
+        "page_number": 17,
+        "retrieval_score": 41,
+        "bm25_score": 2.7726,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "比例"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 42
+      },
+      {
+        "chunk_id": "p18_29",
+        "page_number": 18,
+        "retrieval_score": 41,
+        "bm25_score": 2.7726,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "比例"
+        ],
+        "hit_units": [
+          "%"
+        ],
+        "hit_forbidden": [],
+        "number_count": 19
+      },
+      {
+        "chunk_id": "p19_31",
+        "page_number": 19,
+        "retrieval_score": 36,
+        "bm25_score": 2.5043,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "独立"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 16
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "anti_corruption_training_sessions",
+    "field_name_cn": "反腐败培训次数",
+    "category": "G",
+    "matched": false,
+    "value": "270",
+    "raw_value": "270次",
+    "unit": "次",
+    "target_unit": "次",
+    "conversion": "无需转换",
+    "year": "2024",
+    "evidence": "常态化督促各单位召开警示会议等270次，",
+    "source_pages": [
+      43
+    ],
+    "confidence": 0.0,
+    "reason": "b2_validation_failed:required_keyword_missing_in_evidence",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "required_keyword_missing_in_evidence",
+    "retrieval_priority": 74.0,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p43_70",
+        "page_number": 43,
+        "retrieval_score": 39,
+        "bm25_score": 4.6652,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "廉洁"
+        ],
+        "hit_units": [
+          "次",
+          "场"
+        ],
+        "hit_forbidden": [],
+        "number_count": 13
+      },
+      {
+        "chunk_id": "p43_71",
+        "page_number": 43,
+        "retrieval_score": 35,
+        "bm25_score": 4.1321,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "廉洁"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 9
+      },
+      {
+        "chunk_id": "p6_7",
+        "page_number": 6,
+        "retrieval_score": 32,
+        "bm25_score": 2.293,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "商业"
+        ],
+        "hit_units": [
+          "场"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p9_13",
+        "page_number": 9,
+        "retrieval_score": 31,
+        "bm25_score": 34.4829,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "反腐",
+          "腐败",
+          "反腐败",
+          "商业",
+          "业道",
+          "道德",
+          "商业道",
+          "业道德"
+        ],
+        "hit_units": [
+          "场"
+        ],
+        "hit_forbidden": [],
+        "number_count": 29
+      },
+      {
+        "chunk_id": "p31_52",
+        "page_number": 31,
+        "retrieval_score": 31,
+        "bm25_score": 2.2967,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "培训"
+        ],
+        "hit_units": [
+          "次"
+        ],
+        "hit_forbidden": [],
+        "number_count": 9
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "confirmed_corruption_cases",
+    "field_name_cn": "确认腐败案件数量",
+    "category": "G",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "没有找到字段名或其同义词（如确认腐败案件数量、贪污腐败案件等）与明确数值和年份对应的证据；虽有合规、法律培训、合同审核等信息，但属于 forbidden_any 相关内容且不涉及腐败案件数量",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "没有找到字段名或其同义词（如确认腐败案件数量、贪污腐败案件等）与明确数值和年份对应的证据；虽有合规、法律培训、合同审核等信息，但属于 forbidden_any 相关内容且不涉及腐败案件数量",
+    "retrieval_priority": 65.8102,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p56_98",
+        "page_number": 56,
+        "retrieval_score": 48,
+        "bm25_score": 14.6869,
+        "vector_score": 0.140509,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "件数",
+          "数量",
+          "件数量"
+        ],
+        "hit_units": [
+          "件",
+          "宗"
+        ],
+        "hit_forbidden": [],
+        "number_count": 106
+      },
+      {
+        "chunk_id": "p55_96",
+        "page_number": 55,
+        "retrieval_score": 44,
+        "bm25_score": 4.6194,
+        "vector_score": 0.107101,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "数量"
+        ],
+        "hit_units": [
+          "件"
+        ],
+        "hit_forbidden": [],
+        "number_count": 105
+      },
+      {
+        "chunk_id": "p46_76",
+        "page_number": 46,
+        "retrieval_score": 39,
+        "bm25_score": 4.9748,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "数量"
+        ],
+        "hit_units": [],
+        "hit_forbidden": [],
+        "number_count": 14
+      },
+      {
+        "chunk_id": "p25_40",
+        "page_number": 25,
+        "retrieval_score": 35,
+        "bm25_score": 2.293,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "商业"
+        ],
+        "hit_units": [
+          "件",
+          "起"
+        ],
+        "hit_forbidden": [],
+        "number_count": 25
+      },
+      {
+        "chunk_id": "p49_83",
+        "page_number": 49,
+        "retrieval_score": 34,
+        "bm25_score": 4.9348,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "案件"
+        ],
+        "hit_units": [
+          "件"
+        ],
+        "hit_forbidden": [
+          "培训"
+        ],
+        "number_count": 12
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  },
+  {
+    "field_key": "r_and_d_expense",
+    "field_name_cn": "研发投入金额",
+    "category": "S",
+    "matched": false,
+    "value": null,
+    "raw_value": "",
+    "unit": "",
+    "target_unit": "",
+    "conversion": "",
+    "year": "",
+    "evidence": "",
+    "source_pages": [],
+    "confidence": 0.0,
+    "reason": "证据中虽出现'研发人员总数'等同义词相关条目，但未出现'研发投入金额'、'研发投入'、'研发费用'或'研发支出'等目标字段或其同义词与明确数值的对应语句；环保投入、安全培训投入等其他投入数据不构成研发投入的替代或等价表达，且无任何金额数值与研发支出直接关联",
+    "b2_validation_ok": false,
+    "b2_validation_reason": "证据中虽出现'研发人员总数'等同义词相关条目，但未出现'研发投入金额'、'研发投入'、'研发费用'或'研发支出'等目标字段或其同义词与明确数值的对应语句；环保投入、安全培训投入等其他投入数据不构成研发投入的替代或等价表达，且无任何金额数值与研发支出直接关联",
+    "retrieval_priority": 62.9268,
+    "industry": "manufacturing",
+    "applicability": "core",
+    "retrieved_chunks": [
+      {
+        "chunk_id": "p13_20",
+        "page_number": 13,
+        "retrieval_score": 45,
+        "bm25_score": 8.0503,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "研发",
+          "投入",
+          "金额"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 10
+      },
+      {
+        "chunk_id": "p54_93",
+        "page_number": 54,
+        "retrieval_score": 45,
+        "bm25_score": 5.6446,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "投入",
+          "金额"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 90
+      },
+      {
+        "chunk_id": "p56_98",
+        "page_number": 56,
+        "retrieval_score": 42,
+        "bm25_score": 4.2389,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "支出"
+        ],
+        "hit_units": [
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 106
+      },
+      {
+        "chunk_id": "p57_100",
+        "page_number": 57,
+        "retrieval_score": 42,
+        "bm25_score": 2.5043,
+        "vector_score": 0.0,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "投入"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [],
+        "number_count": 72
+      },
+      {
+        "chunk_id": "p55_96",
+        "page_number": 55,
+        "retrieval_score": 39,
+        "bm25_score": 2.8066,
+        "vector_score": 0.14634,
+        "hit_keywords": [],
+        "hit_query_terms": [
+          "研发"
+        ],
+        "hit_units": [
+          "万元",
+          "元"
+        ],
+        "hit_forbidden": [
+          "研发人员"
+        ],
+        "number_count": 105
+      }
+    ],
+    "route": "B2_quant_text_rag"
+  }
+]

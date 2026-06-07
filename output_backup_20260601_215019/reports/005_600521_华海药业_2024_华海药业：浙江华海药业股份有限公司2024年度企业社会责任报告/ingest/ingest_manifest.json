@@ -1,0 +1,10 @@
+{
+  "ingest_version": "route_a_page_scoring_v3_unit_density",
+  "pdf_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\data\\raw\\600521_华海药业_2024_华海药业：浙江华海药业股份有限公司2024年度企业社会责任报告.pdf",
+  "total_pages": 62,
+  "total_text_chars": 60039,
+  "text_available": true,
+  "chunk_size": 800,
+  "chunk_overlap": 120,
+  "chunk_count": 111
+}

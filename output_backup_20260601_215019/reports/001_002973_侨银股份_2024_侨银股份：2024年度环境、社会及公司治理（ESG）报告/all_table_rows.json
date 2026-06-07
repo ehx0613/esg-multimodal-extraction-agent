@@ -1,0 +1,1497 @@
+[
+  {
+    "page_image": "page_19.png",
+    "page_type": "performance_data_table",
+    "page_note": "页面包含供应商评级分类表格，属于ESG绩效数据表。",
+    "tables": [
+      {
+        "table_title": "供应商评级分类",
+        "columns": [
+          "供应商分类",
+          "对应等级",
+          "选用优先级别"
+        ],
+        "rows": [
+          {
+            "topic": null,
+            "metric_name": "优秀供应商",
+            "unit": null,
+            "values": {
+              "2024年": "A级"
+            },
+            "evidence_text": "优秀供应商 A级 同等条件下优先选用，可加大采购量"
+          },
+          {
+            "topic": null,
+            "metric_name": "良好供应商",
+            "unit": null,
+            "values": {
+              "2024年": "B级"
+            },
+            "evidence_text": "良好供应商 B级 重点培养及扶持对象"
+          },
+          {
+            "topic": null,
+            "metric_name": "合格供应商",
+            "unit": null,
+            "values": {
+              "2024年": "C级"
+            },
+            "evidence_text": "合格供应商 C级 限制使用或有条件使用，必要时对供应商进行现场考核"
+          },
+          {
+            "topic": null,
+            "metric_name": "不合格供应商",
+            "unit": null,
+            "values": {
+              "2024年": "D级"
+            },
+            "evidence_text": "不合格供应商 D级 予以淘汰，同时从《合格供应商名录》中予以删除"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_20.png",
+    "page_type": "performance_data_table",
+    "page_note": "页面包含ESG报告中的关键绩效数据，具体为供应商培训与激励、内部培训及关键绩效的相关量化数据。",
+    "tables": [
+      {
+        "table_title": "关键绩效表",
+        "columns": [
+          "类别",
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "topic": "供应商培育与激励",
+            "metric_name": "公司面向外部供应商开展培训共计",
+            "unit": "次",
+            "values": {
+              "2024年": "4"
+            },
+            "evidence_text": "公司面向外部供应商开展培训共计 次 2024年 4"
+          },
+          {
+            "topic": "供应商培育与激励",
+            "metric_name": "培训累计时长共计",
+            "unit": "次",
+            "values": {
+              "2024年": "10"
+            },
+            "evidence_text": "培训累计时长共计 次 2024年 10"
+          },
+          {
+            "topic": "内部培训",
+            "metric_name": "公司针对内部员工采购培训共计",
+            "unit": "次",
+            "values": {
+              "2024年": "9"
+            },
+            "evidence_text": "公司针对内部员工采购培训共计 次 2024年 9"
+          },
+          {
+            "topic": "内部培训",
+            "metric_name": "培训累计时长为",
+            "unit": "小时",
+            "values": {
+              "2024年": "4.5"
+            },
+            "evidence_text": "培训累计时长为 小时 2024年 4.5"
+          },
+          {
+            "topic": "内部培训",
+            "metric_name": "公司内部通过可持续采购培训得采购员",
+            "unit": "人",
+            "values": {
+              "2024年": "17"
+            },
+            "evidence_text": "公司内部通过可持续采购培训得采购员 人 2024年 17"
+          },
+          {
+            "topic": "内部培训",
+            "metric_name": "占比为",
+            "unit": "%",
+            "values": {
+              "2024年": "100"
+            },
+            "evidence_text": "占比为 % 2024年 100"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_21.png",
+    "page_type": "other",
+    "page_note": "页面内容为文字描述和案例展示，未包含具体ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_21_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为文字描述和案例介绍，未包含具体ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_21_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为案例介绍，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_22.png",
+    "page_type": "other",
+    "page_note": "页面内容为智慧城市服务的宣传图，未包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_22_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为文字描述和图标，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_22_right.png",
+    "page_type": "other",
+    "page_note": "该页面为插图页面，未包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_24.png",
+    "page_type": "other",
+    "page_note": "页面内容为关于AI管理在环卫行业应用的描述，未包含具体的ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_24_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为关于AI管理提升环卫服务品质的描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_24_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为关于可视化调度功能的描述，未包含具体ESG绩效数值表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_25.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "研发成果",
+        "columns": [
+          "产品类型",
+          "产品名称",
+          "研发进度",
+          "应用场景",
+          "功能特点"
+        ],
+        "rows": [
+          {
+            "product_type": "扫地机器人",
+            "product_name": "Model-Y 室外1吨级无人扫地机器人",
+            "development_progress": "2代机已落地",
+            "application_scenario": "室外开放和半开放场所",
+            "feature_description": "多传感器定位、高精度地图路径规划，全自主清洁/加水/充电/垃圾处理"
+          },
+          {
+            "product_type": "扫地机器人",
+            "product_name": "Model-Q100园区半吨级无人扫地机器人",
+            "development_progress": "1代机已落地",
+            "application_scenario": "公园、企业园区、广场",
+            "feature_description": "封闭场所定制，多传感器定位避障，自主清扫路径规划，配备和尘吸尘系统"
+          },
+          {
+            "product_type": "扫地机器人",
+            "product_name": "Model-Q200园区半吨级无人扫地机器人",
+            "development_progress": "2代机已落地",
+            "application_scenario": "公园、企业园区、广场等大面积区域",
+            "feature_description": "多传感器避障、高精度地图路径规划，全自主清洁/加水/充电/垃圾处理"
+          },
+          {
+            "product_type": "扫地机器人",
+            "product_name": "Model-I 室内超轻无人清洁机器人",
+            "development_progress": "2代机已落地",
+            "application_scenario": "室内商超",
+            "feature_description": "高精度导航，断点续扫，五合一清洁（吸/扫/洗/吸/尘），自主加水/排污/回充适应多种地形，多传感器避障，自主清扫/垃圾收集/洗地/支持人机协同"
+          },
+          {
+            "product_type": "室外清扫车",
+            "product_name": "Model-W 室外3吨级无人清扫车",
+            "development_progress": "研发中",
+            "application_scenario": "各类室外场地",
+            "feature_description": "无人驾驶+人脸识别/边缘计算，激光雷达/GPS实时感知，自主巡检/配送"
+          },
+          {
+            "product_type": "巡逻/配送机器人",
+            "product_name": "Model-AC 城管公安无人巡逻配送机器人",
+            "development_progress": "1代机已落地",
+            "application_scenario": "公安、安防、城管、停车场管理",
+            "feature_description": "六自由度机械臂+智能底座，异常识别/垃圾捡拾/分类，智能避障"
+          },
+          {
+            "product_type": "多任务作业机器人",
+            "product_name": "Model-AN 城服无人化综合作业机器人",
+            "development_progress": "研发中",
+            "application_scenario": "城市管理相关场景",
+            "feature_description": "精准注水+无线充电，智能管理机器人状态，无人值守运行"
+          },
+          {
+            "product_type": "辅助工作站",
+            "product_name": "Model-Y & Model-Q200 自动工作站",
+            "development_progress": "2代机已落地",
+            "application_scenario": "户外、园区环境",
+            "feature_description": "客户/项目/机器/售后管理，远程监控/升级识别/任务修改/材耗监控"
+          },
+          {
+            "product_type": "管理软件",
+            "product_name": "侨银无人清扫机器人运营管理后台",
+            "development_progress": "研发中",
+            "application_scenario": "机器人运营管理",
+            "feature_description": "实时状态查看，远程操控/任务下发、设备添加，售后工单处理，教程支持"
+          },
+          {
+            "product_type": "管理软件",
+            "product_name": "侨银无人清扫机器人客户端APP",
+            "development_progress": "研发中",
+            "application_scenario": "用户操作与管理",
+            "feature_description": "实时状态查看，远程操控/任务下发、设备添加，售后工单处理，教程支持"
+          }
+        ]
+      },
+      {
+        "table_title": "关键绩效",
+        "columns": [
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "公司研发总投入",
+            "unit": "万元",
+            "values": {
+              "2024年": "4,473.75"
+            },
+            "evidence_text": "公司研发总投入 万元 2024年 4,473.75"
+          },
+          {
+            "metric_name": "研发人员总数",
+            "unit": "人",
+            "values": {
+              "2024年": "216"
+            },
+            "evidence_text": "研发人员总数 人 2024年 216"
+          },
+          {
+            "metric_name": "占员工总数的",
+            "unit": "%",
+            "values": {
+              "2024年": "0.5"
+            },
+            "evidence_text": "占员工总数的 % 2024年 0.5"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_26.png",
+    "page_type": "other",
+    "page_note": "页面内容主要为侨银股份在产学研合作、研发激励等方面的描述，未包含具体的ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_26_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为侨银股份2024年度环境、社会及公司治理（ESG）报告中的产学研合作章节，未包含具体ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_26_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司未来发展方向、研发激励机制等描述性文字，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_27.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "知识产权数量统计表",
+        "columns": [
+          "指标",
+          "单位",
+          "截至报告期末"
+        ],
+        "rows": [
+          {
+            "metric_name": "累计软件著作权数量",
+            "unit": "个",
+            "values": {
+              "截至报告期末": "29"
+            },
+            "evidence_text": "累计软件著作权数量 个 截至报告期末 29"
+          },
+          {
+            "metric_name": "累计专利数量",
+            "unit": "个",
+            "values": {
+              "截至报告期末": "203"
+            },
+            "evidence_text": "累计专利数量 个 截至报告期末 203"
+          }
+        ]
+      },
+      {
+        "table_title": "荔湾区新型研发机构名单",
+        "columns": [
+          "序号",
+          "荔湾区新型研发机构名称",
+          "申报单位",
+          "所在街道"
+        ],
+        "rows": [
+          {
+            "metric_name": "1",
+            "topic": null,
+            "unit": null,
+            "values": null,
+            "evidence_text": "1 施佬因人将明实验室 广州市施亮照明科技有限公司 中南街",
+            "custom_data": {
+              "机构名称": "施佬因人将明实验室",
+              "申报单位": "广州市施亮照明科技有限公司",
+              "所在街道": "中南街"
+            }
+          },
+          {
+            "metric_name": "2",
+            "topic": null,
+            "unit": null,
+            "values": null,
+            "evidence_text": "2 广州职安健安全科技创新中心 广州职安健安全科技有限公司 昌华街",
+            "custom_data": {
+              "机构名称": "广州职安健安全科技创新中心",
+              "申报单位": "广州职安健安全科技有限公司",
+              "所在街道": "昌华街"
+            }
+          },
+          {
+            "metric_name": "3",
+            "topic": null,
+            "unit": null,
+            "values": null,
+            "evidence_text": "3 广州侨银数智无人环卫设备研发中心 广州侨银数智城市有限责任公司 东濠街",
+            "custom_data": {
+              "机构名称": "广州侨银数智无人环卫设备研发中心",
+              "申报单位": "广州侨银数智城市有限责任公司",
+              "所在街道": "东濠街"
+            }
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_28.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司价值观和战略描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_28_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为一幅插图，展示了一个未来科技城市的场景，包含机器人、智能建筑和数据可视化元素，未包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_28_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司价值观和战略方向的描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_29.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司治理结构和股东大会运作情况的描述，未包含具体的ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_29_left.png",
+    "page_type": "other",
+    "page_note": "该页面为公司治理结构介绍，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_29_right.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "股东大会运作情况",
+        "columns": [
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "股东大会召开次数",
+            "unit": "次",
+            "values": {
+              "2024年": "4"
+            },
+            "evidence_text": "股东大会召开次数 次 2024年 4"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_42.png",
+    "page_type": "other",
+    "page_note": "页面内容主要为公司薪酬及绩效考核体系的描述，未包含具体的 ESG 绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_42_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司员工晋升机制的描述，未包含具体的 ESG 绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_42_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为薪酬及绩效考核的描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_43.png",
+    "page_type": "other",
+    "page_note": "页面内容主要为绩效考核及人才激励的描述性文字，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_43_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为绩效考核及申诉的相关描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_43_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为人才激励流程图，不属于ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_44.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司培训赋能和案例介绍，未包含具体ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_44_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为培训赋能介绍，未包含具体 ESG 绩效数值表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_44_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为侨银股份的培训赋能环卫作业安全高效案例，未包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_45.png",
+    "page_type": "other",
+    "page_note": "页面内容为关于企业安全管理和职业健康安全的描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_45_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司关于职业健康与安全的描述，未包含具体ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_45_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为安全监管机制和奖惩机制的描述，未包含具体ESG绩效数值表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_52.png",
+    "page_type": "other",
+    "page_note": "页面内容为侨银股份2024年度环境、社会及公司治理（ESG）报告中的志愿奉献部分，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_52_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为侨银股份2024年度环境、社会及公司治理（ESG）报告中的志愿奉献章节，主要描述了侨银股份在环卫工人关爱活动中的参与情况，并未包含具体的ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_52_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为文字描述和插图，未包含具体ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_53.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "经济绩效",
+        "columns": [
+          "指标",
+          "单位",
+          "2024"
+        ],
+        "rows": [
+          {
+            "metric_name": "营业收入",
+            "unit": "万元",
+            "values": {
+              "2024": "391,441.96"
+            },
+            "evidence_text": "营业收入 万元 391,441.96"
+          },
+          {
+            "metric_name": "纳税总额",
+            "unit": "万元",
+            "values": {
+              "2024": "22,687.20"
+            },
+            "evidence_text": "纳税总额 万元 22,687.20"
+          }
+        ]
+      },
+      {
+        "table_title": "环境绩效-能源",
+        "columns": [
+          "类型",
+          "2024",
+          "单位"
+        ],
+        "rows": [
+          {
+            "topic": "能源",
+            "metric_name": "柴油总量",
+            "unit": "升",
+            "values": {
+              "2024": "36,265,333.68"
+            },
+            "evidence_text": "能源 柴油总量 2024 36,265,333.68 升"
+          },
+          {
+            "topic": "能源",
+            "metric_name": "汽油总量",
+            "unit": "升",
+            "values": {
+              "2024": "4,029,540.24"
+            },
+            "evidence_text": "能源 汽油总量 2024 4,029,540.24 升"
+          },
+          {
+            "topic": "能源",
+            "metric_name": "直接能源消耗",
+            "unit": "吨标准煤",
+            "values": {
+              "2024": "59,232.26"
+            },
+            "evidence_text": "能源 直接能源消耗 2024 59,232.26 吨标准煤"
+          },
+          {
+            "topic": "能源",
+            "metric_name": "电力总量",
+            "unit": "千瓦时",
+            "values": {
+              "2024": "2,281,669.00"
+            },
+            "evidence_text": "能源 电力总量 2024 2,281,669.00 千瓦时"
+          },
+          {
+            "topic": "能源",
+            "metric_name": "间接能源消耗",
+            "unit": "吨标准煤",
+            "values": {
+              "2024": "280.42"
+            },
+            "evidence_text": "能源 间接能源消耗 2024 280.42 吨标准煤"
+          },
+          {
+            "topic": "能源",
+            "metric_name": "全年能源消耗总量",
+            "unit": "吨标准煤",
+            "values": {
+              "2024": "59,512.67"
+            },
+            "evidence_text": "能源 全年能源消耗总量 2024 59,512.67 吨标准煤"
+          },
+          {
+            "topic": "能源",
+            "metric_name": "全年能源消耗强度",
+            "unit": "吨标准煤/百万元",
+            "values": {
+              "2024": "15.20"
+            },
+            "evidence_text": "能源 全年能源消耗强度 2024 15.20 吨标准煤/百万元"
+          }
+        ]
+      },
+      {
+        "table_title": "环境绩效-水资源",
+        "columns": [
+          "类型",
+          "2024",
+          "单位"
+        ],
+        "rows": [
+          {
+            "topic": "水资源",
+            "metric_name": "市政购水量",
+            "unit": "吨",
+            "values": {
+              "2024": "25,041"
+            },
+            "evidence_text": "水资源 市政购水量 2024 25,041 吨"
+          },
+          {
+            "topic": "水资源",
+            "metric_name": "总耗水强度=总耗水量/每百万营收",
+            "unit": "吨/百万元",
+            "values": {
+              "2024": "6.40"
+            },
+            "evidence_text": "水资源 总耗水强度=总耗水量/每百万营收 2024 6.40 吨/百万元"
+          }
+        ]
+      },
+      {
+        "table_title": "环境绩效-温室气体排放",
+        "columns": [
+          "类型",
+          "2024",
+          "单位"
+        ],
+        "rows": [
+          {
+            "topic": "温室气体排放",
+            "metric_name": "温室气体排放（范围一）",
+            "unit": "二氧化碳当量公吨数",
+            "values": {
+              "2024": "124,060.83"
+            },
+            "evidence_text": "温室气体排放 温室气体排放（范围一） 2024 124,060.83 二氧化碳当量公吨数"
+          },
+          {
+            "topic": "温室气体排放",
+            "metric_name": "温室气体排放（范围二）",
+            "unit": "二氧化碳当量公吨数",
+            "values": {
+              "2024": "1,224.34"
+            },
+            "evidence_text": "温室气体排放 温室气体排放（范围二） 2024 1,224.34 二氧化碳当量公吨数"
+          },
+          {
+            "topic": "温室气体排放",
+            "metric_name": "温室气体排放总量",
+            "unit": "二氧化碳当量公吨数",
+            "values": {
+              "2024": "125,285.17"
+            },
+            "evidence_text": "温室气体排放 温室气体排放总量 2024 125,285.17 二氧化碳当量公吨数"
+          }
+        ]
+      },
+      {
+        "table_title": "治理绩效",
+        "columns": [
+          "指标",
+          "2024",
+          "单位"
+        ],
+        "rows": [
+          {
+            "metric_name": "股东大会召开次数",
+            "values": {
+              "2024": "4"
+            },
+            "unit": "次",
+            "evidence_text": "股东大会召开次数 2024 4 次"
+          },
+          {
+            "metric_name": "董事会召开次数",
+            "values": {
+              "2024": "15"
+            },
+            "unit": "次",
+            "evidence_text": "董事会召开次数 2024 15 次"
+          },
+          {
+            "metric_name": "监事会召开次数",
+            "values": {
+              "2024": "5"
+            },
+            "unit": "次",
+            "evidence_text": "监事会召开次数 2024 5 次"
+          },
+          {
+            "metric_name": "战略委员会会议召开次数",
+            "values": {
+              "2024": "1"
+            },
+            "unit": "次",
+            "evidence_text": "战略委员会会议召开次数 2024 1 次"
+          },
+          {
+            "metric_name": "薪酬与考核委员会会议召开次数",
+            "values": {
+              "2024": "2"
+            },
+            "unit": "次",
+            "evidence_text": "薪酬与考核委员会会议召开次数 2024 2 次"
+          },
+          {
+            "metric_name": "提名委员会会议召开次数",
+            "values": {
+              "2024": "2"
+            },
+            "unit": "次",
+            "evidence_text": "提名委员会会议召开次数 2024 2 次"
+          },
+          {
+            "metric_name": "审计委员会会议召开次数",
+            "values": {
+              "2024": "3"
+            },
+            "unit": "次",
+            "evidence_text": "审计委员会会议召开次数 2024 3 次"
+          },
+          {
+            "metric_name": "开展税务合规培训场次",
+            "values": {
+              "2024": "4"
+            },
+            "unit": "次",
+            "evidence_text": "开展税务合规培训场次 2024 4 次"
+          },
+          {
+            "metric_name": "税务培训覆盖率",
+            "values": {
+              "2024": "95"
+            },
+            "unit": "%",
+            "evidence_text": "税务培训覆盖率 2024 95 %"
+          },
+          {
+            "metric_name": "发布公告数量",
+            "values": {
+              "2024": "210"
+            },
+            "unit": "个",
+            "evidence_text": "发布公告数量 2024 210 个"
+          },
+          {
+            "metric_name": "开展数据安全相关培训场次",
+            "values": {
+              "2024": "1"
+            },
+            "unit": "次",
+            "evidence_text": "开展数据安全相关培训场次 2024 1 次"
+          },
+          {
+            "metric_name": "培训累计时长",
+            "values": {
+              "2024": "2"
+            },
+            "unit": "小时",
+            "evidence_text": "培训累计时长 2024 2 小时"
+          }
+        ]
+      },
+      {
+        "table_title": "社会绩效-供应商管理",
+        "columns": [
+          "指标",
+          "2024",
+          "单位"
+        ],
+        "rows": [
+          {
+            "metric_name": "针对内部开展培训场次",
+            "values": {
+              "2024": "9"
+            },
+            "unit": "次",
+            "evidence_text": "针对内部开展培训场次 2024 9 次"
+          },
+          {
+            "metric_name": "内部培训累计时长",
+            "values": {
+              "2024": "4.5"
+            },
+            "unit": "小时",
+            "evidence_text": "内部培训累计时长 2024 4.5 小时"
+          },
+          {
+            "metric_name": "针对供应商开展培训场次",
+            "values": {
+              "2024": "4"
+            },
+            "unit": "次",
+            "evidence_text": "针对供应商开展培训场次 2024 4 次"
+          },
+          {
+            "metric_name": "供应商培训累计时长",
+            "values": {
+              "2024": "10"
+            },
+            "unit": "小时",
+            "evidence_text": "供应商培训累计时长 2024 10 小时"
+          },
+          {
+            "metric_name": "供应商总数",
+            "values": {
+              "2024": "12"
+            },
+            "unit": "家",
+            "evidence_text": "供应商总数 2024 12 家"
+          },
+          {
+            "metric_name": "公司内部通过可持续采购培训的采购员比例",
+            "values": {
+              "2024": "100"
+            },
+            "unit": "%",
+            "evidence_text": "公司内部通过可持续采购培训的采购员比例 2024 100 %"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_54.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "附录：关键绩效表-社会绩效",
+        "columns": [
+          "指标",
+          "2024",
+          "单位"
+        ],
+        "rows": [
+          {
+            "metric_name": "研发投入资金",
+            "values": {
+              "2024年": "4,473.75"
+            },
+            "unit": "万元",
+            "evidence_text": "研发投入资金 4,473.75 万元"
+          },
+          {
+            "metric_name": "研发投入占营收比",
+            "values": {
+              "2024年": "1.14"
+            },
+            "unit": "%",
+            "evidence_text": "研发投入占营收比 1.14 %"
+          },
+          {
+            "metric_name": "研发人员数量",
+            "values": {
+              "2024年": "261"
+            },
+            "unit": "人",
+            "evidence_text": "研发人员数量 261 人"
+          },
+          {
+            "metric_name": "研发人员占比",
+            "values": {
+              "2024年": "0.50"
+            },
+            "unit": "%",
+            "evidence_text": "研发人员占比 0.50 %"
+          },
+          {
+            "metric_name": "软件著作权",
+            "values": {
+              "2024年": "29"
+            },
+            "unit": "件",
+            "evidence_text": "软件著作权 29 件"
+          },
+          {
+            "metric_name": "每百万营收软件著作权数",
+            "values": {
+              "2024年": "0.0074"
+            },
+            "unit": "件/百万元",
+            "evidence_text": "每百万营收软件著作权数 0.0074 件/百万元"
+          },
+          {
+            "metric_name": "有效专利总数",
+            "values": {
+              "2024年": "203"
+            },
+            "unit": "件",
+            "evidence_text": "有效专利总数 203 件"
+          },
+          {
+            "metric_name": "每百万营收有效专利数",
+            "values": {
+              "2024年": "0.0519"
+            },
+            "unit": "件/百万元",
+            "evidence_text": "每百万营收有效专利数 0.0519 件/百万元"
+          },
+          {
+            "metric_name": "绩效考核覆盖率",
+            "values": {
+              "2024年": "100"
+            },
+            "unit": "%",
+            "evidence_text": "绩效考核覆盖率 100 %"
+          },
+          {
+            "metric_name": "发放职工生育补贴",
+            "values": {
+              "2024年": "38.72"
+            },
+            "unit": "万元",
+            "evidence_text": "发放职工生育补贴 38.72 万元"
+          },
+          {
+            "metric_name": "发放残疾人补贴",
+            "values": {
+              "2024年": "51.8"
+            },
+            "unit": "万元",
+            "evidence_text": "发放残疾人补贴 51.8 万元"
+          },
+          {
+            "metric_name": "商业保险覆盖率",
+            "values": {
+              "2024年": "100"
+            },
+            "unit": "%",
+            "evidence_text": "商业保险覆盖率 100 %"
+          },
+          {
+            "metric_name": "爱心助学投入金额",
+            "values": {
+              "2024年": "21,960"
+            },
+            "unit": "元",
+            "evidence_text": "爱心助学投入金额 21,960 元"
+          },
+          {
+            "metric_name": "扶贫济困投入金额",
+            "values": {
+              "2024年": "117,919"
+            },
+            "unit": "元",
+            "evidence_text": "扶贫济困投入金额 117,919 元"
+          },
+          {
+            "metric_name": "支持公益项目投入金额",
+            "values": {
+              "2024年": "308,841"
+            },
+            "unit": "元",
+            "evidence_text": "支持公益项目投入金额 308,841 元"
+          }
+        ]
+      },
+      {
+        "table_title": "员工雇佣情况",
+        "columns": [
+          "指标",
+          "2024",
+          "单位"
+        ],
+        "rows": [
+          {
+            "metric_name": "在岗员工总数",
+            "values": {
+              "2024年": "52,411"
+            },
+            "unit": "人",
+            "evidence_text": "在岗员工总数 52,411 人"
+          },
+          {
+            "metric_name": "报告期内新进员工",
+            "values": {
+              "2024年": "20,244"
+            },
+            "unit": "人",
+            "evidence_text": "报告期内新进员工 20,244 人"
+          },
+          {
+            "metric_name": "残障员工总数",
+            "values": {
+              "2024年": "432"
+            },
+            "unit": "人",
+            "evidence_text": "残障员工总数 432 人"
+          },
+          {
+            "metric_name": "劳动合同签约率",
+            "values": {
+              "2024年": "100"
+            },
+            "unit": "%",
+            "evidence_text": "劳动合同签约率 100 %"
+          },
+          {
+            "metric_name": "报告期内享受产假女员工",
+            "values": {
+              "2024年": "22"
+            },
+            "unit": "人",
+            "evidence_text": "报告期内享受产假女员工 22 人"
+          },
+          {
+            "metric_name": "女员工产假消返率",
+            "values": {
+              "2024年": "35.29"
+            },
+            "unit": "%",
+            "evidence_text": "女员工产假消返率 35.29 %"
+          },
+          {
+            "metric_name": "按用工形式",
+            "values": {
+              "2024年": "52,233"
+            },
+            "unit": "人",
+            "evidence_text": "按用工形式 52,233 人"
+          },
+          {
+            "metric_name": "正式员工",
+            "values": {
+              "2024年": "21,233"
+            },
+            "unit": "人",
+            "evidence_text": "正式员工 21,233 人"
+          },
+          {
+            "metric_name": "劳务人员",
+            "values": {
+              "2024年": "31,176"
+            },
+            "unit": "人",
+            "evidence_text": "劳务人员 31,176 人"
+          },
+          {
+            "metric_name": "实习员工",
+            "values": {
+              "2024年": "2"
+            },
+            "unit": "人",
+            "evidence_text": "实习员工 2 人"
+          },
+          {
+            "metric_name": "按性别",
+            "values": {
+              "2024年": "29,429"
+            },
+            "unit": "人",
+            "evidence_text": "按性别 29,429 人"
+          },
+          {
+            "metric_name": "男性",
+            "values": {
+              "2024年": "22,982"
+            },
+            "unit": "人",
+            "evidence_text": "男性 22,982 人"
+          },
+          {
+            "metric_name": "女性",
+            "values": {
+              "2024年": "6,447"
+            },
+            "unit": "人",
+            "evidence_text": "女性 6,447 人"
+          },
+          {
+            "metric_name": "女性员工比例",
+            "values": {
+              "2024年": "56.15"
+            },
+            "unit": "%",
+            "evidence_text": "女性员工比例 56.15 %"
+          },
+          {
+            "metric_name": "按年龄",
+            "values": {
+              "2024年": "702"
+            },
+            "unit": "人",
+            "evidence_text": "按年龄 702 人"
+          },
+          {
+            "metric_name": "30岁及以下",
+            "values": {
+              "2024年": "702"
+            },
+            "unit": "人",
+            "evidence_text": "30岁及以下 702 人"
+          },
+          {
+            "metric_name": "41至50岁",
+            "values": {
+              "2024年": "11,340"
+            },
+            "unit": "人",
+            "evidence_text": "41至50岁 11,340 人"
+          },
+          {
+            "metric_name": "50岁及以下",
+            "values": {
+              "2024年": "40,369"
+            },
+            "unit": "人",
+            "evidence_text": "50岁及以下 40,369 人"
+          },
+          {
+            "metric_name": "按职级",
+            "values": {
+              "2024年": "129"
+            },
+            "unit": "人",
+            "evidence_text": "按职级 129 人"
+          },
+          {
+            "metric_name": "高级管理",
+            "values": {
+              "2024年": "129"
+            },
+            "unit": "人",
+            "evidence_text": "高级管理 129 人"
+          },
+          {
+            "metric_name": "中级管理",
+            "values": {
+              "2024年": "216"
+            },
+            "unit": "人",
+            "evidence_text": "中级管理 216 人"
+          },
+          {
+            "metric_name": "普通员工",
+            "values": {
+              "2024年": "52,066"
+            },
+            "unit": "人",
+            "evidence_text": "普通员工 52,066 人"
+          },
+          {
+            "metric_name": "中国大陆员工",
+            "values": {
+              "2024年": "52,406"
+            },
+            "unit": "人",
+            "evidence_text": "中国大陆员工 52,406 人"
+          },
+          {
+            "metric_name": "港澳台地区员工",
+            "values": {
+              "2024年": "5"
+            },
+            "unit": "人",
+            "evidence_text": "港澳台地区员工 5 人"
+          },
+          {
+            "metric_name": "海外员工",
+            "values": {
+              "2024年": "0"
+            },
+            "unit": "人",
+            "evidence_text": "海外员工 0 人"
+          },
+          {
+            "metric_name": "按民族",
+            "values": {
+              "2024年": "51,518"
+            },
+            "unit": "人",
+            "evidence_text": "按民族 51,518 人"
+          },
+          {
+            "metric_name": "汉族员工",
+            "values": {
+              "2024年": "51,518"
+            },
+            "unit": "人",
+            "evidence_text": "汉族员工 51,518 人"
+          },
+          {
+            "metric_name": "少数民族员工",
+            "values": {
+              "2024年": "893"
+            },
+            "unit": "人",
+            "evidence_text": "少数民族员工 893 人"
+          },
+          {
+            "metric_name": "少数民族员工比例",
+            "values": {
+              "2024年": "1.73"
+            },
+            "unit": "%",
+            "evidence_text": "少数民族员工比例 1.73 %"
+          },
+          {
+            "metric_name": "按学历",
+            "values": {
+              "2024年": "51,432"
+            },
+            "unit": "人",
+            "evidence_text": "按学历 51,432 人"
+          },
+          {
+            "metric_name": "中专及以下",
+            "values": {
+              "2024年": "51,432"
+            },
+            "unit": "人",
+            "evidence_text": "中专及以下 51,432 人"
+          },
+          {
+            "metric_name": "本、专科",
+            "values": {
+              "2024年": "941"
+            },
+            "unit": "人",
+            "evidence_text": "本、专科 941 人"
+          },
+          {
+            "metric_name": "硕士及以上",
+            "values": {
+              "2024年": "38"
+            },
+            "unit": "人",
+            "evidence_text": "硕士及以上 38 人"
+          },
+          {
+            "metric_name": "按性别",
+            "values": {
+              "2024年": "10,888"
+            },
+            "unit": "人",
+            "evidence_text": "按性别 10,888 人"
+          },
+          {
+            "metric_name": "男性",
+            "values": {
+              "2024年": "9,390"
+            },
+            "unit": "人",
+            "evidence_text": "男性 9,390 人"
+          },
+          {
+            "metric_name": "女性",
+            "values": {
+              "2024年": "1,498"
+            },
+            "unit": "人",
+            "evidence_text": "女性 1,498 人"
+          },
+          {
+            "metric_name": "按年龄",
+            "values": {
+              "2024年": "536"
+            },
+            "unit": "人",
+            "evidence_text": "按年龄 536 人"
+          },
+          {
+            "metric_name": "30岁及以下",
+            "values": {
+              "2024年": "536"
+            },
+            "unit": "人",
+            "evidence_text": "30岁及以下 536 人"
+          },
+          {
+            "metric_name": "41至50岁",
+            "values": {
+              "2024年": "4,380"
+            },
+            "unit": "人",
+            "evidence_text": "41至50岁 4,380 人"
+          },
+          {
+            "metric_name": "50岁及以下",
+            "values": {
+              "2024年": "15,362"
+            },
+            "unit": "人",
+            "evidence_text": "50岁及以下 15,362 人"
+          },
+          {
+            "metric_name": "按职级",
+            "values": {
+              "2024年": "31"
+            },
+            "unit": "人",
+            "evidence_text": "按职级 31 人"
+          },
+          {
+            "metric_name": "中级管理层",
+            "values": {
+              "2024年": "31"
+            },
+            "unit": "人",
+            "evidence_text": "中级管理层 31 人"
+          },
+          {
+            "metric_name": "高级管理层",
+            "values": {
+              "2024年": "20,244"
+            },
+            "unit": "人",
+            "evidence_text": "高级管理层 20,244 人"
+          },
+          {
+            "metric_name": "中国内地员工",
+            "values": {
+              "2024年": "20,277"
+            },
+            "unit": "人",
+            "evidence_text": "中国内地员工 20,277 人"
+          },
+          {
+            "metric_name": "中国港澳台地区员工",
+            "values": {
+              "2024年": "1"
+            },
+            "unit": "人",
+            "evidence_text": "中国港澳台地区员工 1 人"
+          },
+          {
+            "metric_name": "海外员工",
+            "values": {
+              "2024年": "0"
+            },
+            "unit": "人",
+            "evidence_text": "海外员工 0 人"
+          },
+          {
+            "metric_name": "按地区",
+            "values": {
+              "2024年": "19,976"
+            },
+            "unit": "人",
+            "evidence_text": "按地区 19,976 人"
+          },
+          {
+            "metric_name": "中专及以下",
+            "values": {
+              "2024年": "19,976"
+            },
+            "unit": "人",
+            "evidence_text": "中专及以下 19,976 人"
+          },
+          {
+            "metric_name": "本、专科",
+            "values": {
+              "2024年": "286"
+            },
+            "unit": "人",
+            "evidence_text": "本、专科 286 人"
+          },
+          {
+            "metric_name": "硕士及以上",
+            "values": {
+              "2024年": "16"
+            },
+            "unit": "人",
+            "evidence_text": "硕士及以上 16 人"
+          },
+          {
+            "metric_name": "员工流失情况",
+            "values": {
+              "2024年": "27.90"
+            },
+            "unit": "%",
+            "evidence_text": "员工流失情况 27.90 %"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_55.png",
+    "page_type": "content_index",
+    "page_note": "该页面为可持续发展报告对标索引表，不包含具体ESG绩效数值。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_55_left.png",
+    "page_type": "content_index",
+    "page_note": "该页面为可持续发展报告对标索引表，不包含具体ESG绩效数值。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_55_right.png",
+    "page_type": "content_index",
+    "page_note": "该页面为ESG报告附录中的指标索引表格，列出了章节、GRI标准、《深圳证券交易所上市公司自律监管指引第17号——可持续发展报告（试行）》以及对应的SDGs目标，并未包含具体的ESG绩效数值。",
+    "tables": [],
+    "retry_used": false
+  }
+]

@@ -1,0 +1,491 @@
+[
+  {
+    "field_key": "total_ghg_emissions",
+    "field_name_cn": "温室气体排放总量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 11,
+    "citation_chunk_id": "p11_19",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "关键部门负责人，最终汇总形成各议题的财务 重要性评估结果。 步骤三：评估、确定ESG 议题的重要性程度 社会贡献 产品和服务安全与质量 创新驱动 员工 循环经济 污染物排放 水资源利用 废弃物处理 能源利用 反不正当竞争 乡村振兴 尽职调查 供应链安全 环境合规管理 利益相关方沟通数据安全与客户隐私保护 应对气候变化 生态系统和生物多样性保护 反商业贿赂及反贪污 财务重要性 低 高 影 响 重 要 性 高"
+  },
+  {
+    "field_key": "ghg_emissions_intensity",
+    "field_name_cn": "温室气体排放强度",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 35,
+    "citation_chunk_id": "p35_78",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "型防腐方案开发 开发天然高效的生物型防腐方案若干，减少传统化学防腐剂使用，为客户提供更健 康友好的保鲜解决方案。 ESG 特色 2025 年创新成果 通过降低热加工强度 与延长货架期，助力 减少能源消耗与食品 损耗 减少化学添加剂使 用，契合健康消费与 合规趋势 缩短研发周期、大幅 度减少研发过程能源 及物料消耗 截至2025 年末 其中硕博占比超 18% （含博士3 名、硕士27 名） 公司研发团队共 160 人 65"
+  },
+  {
+    "field_key": "scope_1_emissions",
+    "field_name_cn": "范围一温室气体排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 15,
+    "citation_chunk_id": "p15_25",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 圣达绿境 低碳先行 25 26 影响、风险和机遇管理 指标与目标 公司已逐步将低碳发展全面融入经营管理和业务发展之中，现阶段各产业板块已在战略业务和关键项目上实现节能减碳的 有效布局，并积极开展一系列试点和推广工作，在绿色低碳转型上取得显着成效。进一步信息请见“能源利用”章节。 同时，公司已针对主要产品（包括生物素、叶酸、2% 生物素等）开展全生命周期碳足迹核算及认证工作。公司将在今后 工作中进一..."
+  },
+  {
+    "field_key": "scope_2_emissions",
+    "field_name_cn": "范围二温室气体排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 15,
+    "citation_chunk_id": "p15_25",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 圣达绿境 低碳先行 25 26 影响、风险和机遇管理 指标与目标 公司已逐步将低碳发展全面融入经营管理和业务发展之中，现阶段各产业板块已在战略业务和关键项目上实现节能减碳的 有效布局，并积极开展一系列试点和推广工作，在绿色低碳转型上取得显着成效。进一步信息请见“能源利用”章节。 同时，公司已针对主要产品（包括生物素、叶酸、2% 生物素等）开展全生命周期碳足迹核算及认证工作。公司将在今后 工作中进一..."
+  },
+  {
+    "field_key": "energy_consumption_total",
+    "field_name_cn": "能源消耗总量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 11,
+    "citation_chunk_id": "p11_17",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 圣达使命 善治有道 17 18 步骤二：识别与 ESG 议题相关的当前或可能发生的影响、风险与机遇 针对《上海证券交易所上市公司自律监管指引第14 号——可持续发展报告（试行）》中的21 项 ESG 议题，公司基于自身 所处行业和经营业务的特点，首先展开适用性及相关性判定，结果表明“科技伦理”和“平等对待中小企业”议题对于公司、 下属子公司均不适用。因此，本报告不对这两项议题进行评估和回应。 基于..."
+  },
+  {
+    "field_key": "energy_consumption_intensity",
+    "field_name_cn": "能源消耗强度",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 35,
+    "citation_chunk_id": "p35_76",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 圣达担当 价值共创 65 66 影响、风险和机遇管理 可持续创新硕果 圣达生物将创新驱动作为推动企业高质量发展和提升核心竞争力的重要引擎。公司立足维生素及食品添加剂等核心业务领 域，依托长期积累的技术基础，持续优化产品配方、生产工艺与质量控制流程，加快推进生产自动化与数字化升级，持续 提升可持续发展能力。 公司研发创新战略以“精益生产、资源集约、健康安全”为核心抓手，制定《研发项目组织管理制度》《..."
+  },
+  {
+    "field_key": "natural_gas_consumption",
+    "field_name_cn": "天然气消耗量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 35,
+    "citation_chunk_id": "p35_76",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 圣达担当 价值共创 65 66 影响、风险和机遇管理 可持续创新硕果 圣达生物将创新驱动作为推动企业高质量发展和提升核心竞争力的重要引擎。公司立足维生素及食品添加剂等核心业务领 域，依托长期积累的技术基础，持续优化产品配方、生产工艺与质量控制流程，加快推进生产自动化与数字化升级，持续 提升可持续发展能力。 公司研发创新战略以“精益生产、资源集约、健康安全”为核心抓手，制定《研发项目组织管理制度》《..."
+  },
+  {
+    "field_key": "electricity_consumption",
+    "field_name_cn": "用电量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 15,
+    "citation_chunk_id": "p15_26",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "低碳技术替代 现有生产线面临淘汰 技术改造投资需求大 技术转换期产能下降 企业运营 中长期 持续研发绿色工艺技术 逐步改造生产设备 与科研机构合作创新 申请绿色技术专利 声誉 风险 利益相关方对于 公司不及时应对 气候变化问题的 负面反馈 未及时与利益相关方沟通企 业应对气候变化进展，产生 负面回馈，导致商誉受损 价值链上游 企业运营 价值链下游 长期 通过信息披露、ESG 评级 等沟通应对气候变化进展 畅通利益相关方沟通渠 道，定期..."
+  },
+  {
+    "field_key": "water_consumption",
+    "field_name_cn": "用水量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 42,
+    "citation_chunk_id": "p42_91",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 附录 79 80 创新驱动 社会贡献 反商业贿赂及反贪污 指标 2025 年 单位 研发投入金额 5,367.42 万元 研发团队人数 160 人 - 博士研究生 3 人 - 硕士研究生 27 人 - 本科及以下 130 人 研发团队占员工总数比例 14.77 % 国家授权专利数量 19 项 - 发明专利 12 项 - 实用新型专利 7 项 新增申请发明专利数量 11 项 指标 2025 年 单位..."
+  },
+  {
+    "field_key": "wastewater_discharge",
+    "field_name_cn": "废水排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 16,
+    "citation_chunk_id": "p16_29",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "集，先进行预 处理，再与其他低浓度废水统一汇入收集池，并通过提升泵及明管输送至厂内 污水处理车间，采用物化处理和/ 或生化处理工艺进行深度、有效处理，达到纳 管标准后排入市政污水管网，送往污水厂进一步处理。针对生活污水，则经污 水处理系统初步处理，达到纳管标准后接入市政污水管网，送往污水厂统一处理。 除部分排放口配备在线监测设备实时传输排放数据至生态环境部门及公司管控 平台外，公司及各子公司每年定期委托有资质单位对生产废水、雨水排放口..."
+  },
+  {
+    "field_key": "air_pollutant_emissions",
+    "field_name_cn": "废气或大气污染物排放量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 17,
+    "citation_chunk_id": "p17_31",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 圣达绿境 低碳先行 29 30 2025 年废气排放情况 其中，废气中主要特征污染物合规排放情况为： 圣达生物 万立方米 17,732 安徽圣达 万立方米 4,817 通辽圣达 万立方米 51,210 新银象（含溢滔食品） 万立方米 83,016 公司名称 主要特征污染物 排放总量（吨） 核定的排放总量（吨/ 年） 超标排放情况 圣达生物 二氧化硫 氮氧化物 VOCs 颗粒物 二氧化硫：0.532..."
+  },
+  {
+    "field_key": "non_hazardous_waste",
+    "field_name_cn": "一般废弃物产生量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 17,
+    "citation_chunk_id": "p17_33",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "频次，减少溶剂、 机油等消耗，推进源头控制和安全环保。 2025 年废弃物排放情况 有害废弃物产生总量 圣达生物 吨 699 无害废弃物产生总量 圣达生物 吨 40 安徽圣达 吨 149 安徽圣达 吨 30 14,228 通辽圣达 吨 通辽圣达 吨 1 新银象（含溢滔食品） 吨 2 新银象（含溢滔食品） 吨 3,881"
+  },
+  {
+    "field_key": "environmental_investment",
+    "field_name_cn": "环保投入金额",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 41,
+    "citation_chunk_id": "p41_89",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 附录 77 78 环境合规管理 员工 指标 2025 年 单位 重大环保违规事件 0 件 因环境合规问题受到行政处罚或追究刑事责任 0 件 环境保护总投入金额 5,756.46 万元 环境保护相关培训活动次数 25 次 环境保护相关培训活动参与人次 1,001 人次 指标 次级指标 2025 年 单位 期末在职员工总人数 / 1,083 人 期末在职员工结构（按性别） 男性 710 人 女性 37..."
+  },
+  {
+    "field_key": "environmental_penalty_count",
+    "field_name_cn": "环境违规或处罚事件数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 28,
+    "citation_chunk_id": "p28_56",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 圣达担当 价值共创 51 52 供应链管理 可持续采购 圣达生物高度重视与行业伙伴的合作，持续加强供应链风险管理，积极践行负责任采购，推动落实供应链可持续发展要求， 致力于与供应商等价值链伙伴建立长期、稳定、可持续的合作关系。依托《采购运行管理办法》《招标管理办法》及《可 持续采购管理制度与目标》，公司采购部、质量部等牵头各级管理部门协同实施供应商可持续管理的执行落地。 通过可持续供应链的建设和完..."
+  },
+  {
+    "field_key": "male_employees",
+    "field_name_cn": "男性员工人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 11,
+    "citation_chunk_id": "p11_19",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "关键部门负责人，最终汇总形成各议题的财务 重要性评估结果。 步骤三：评估、确定ESG 议题的重要性程度 社会贡献 产品和服务安全与质量 创新驱动 员工 循环经济 污染物排放 水资源利用 废弃物处理 能源利用 反不正当竞争 乡村振兴 尽职调查 供应链安全 环境合规管理 利益相关方沟通数据安全与客户隐私保护 应对气候变化 生态系统和生物多样性保护 反商业贿赂及反贪污 财务重要性 低 高 影 响 重 要 性 高"
+  },
+  {
+    "field_key": "female_employees",
+    "field_name_cn": "女性员工人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 24,
+    "citation_chunk_id": "p24_48",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "聘、无障碍培训、公平晋升及合理便利措施等举措，确保全体员工获得平等、公平的发展机会。 同时，公司特制定《反歧视骚扰管理程序》，明确鼓励和支持全体员工，不因种族、宗教、地域、性别、年龄、语言、身 体能力等方面的不同而受到歧视，一经发现违规行为，将采用人身安全保护、工作安排调整、专业心理咨询及法律支持等 补救措施。公司设立公开的投诉举报热线、实体申诉箱及在线“CEO 直通车”等立体化投诉举报渠道，鼓励员工以实名或 匿名、口头或书面地形式报..."
+  },
+  {
+    "field_key": "female_employee_ratio",
+    "field_name_cn": "女性员工比例",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 24,
+    "citation_chunk_id": "p24_47",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 圣达担当 价值共创 43 44 激励保障 女性员工关爱 为进一步提高员工凝聚力和公司竞争力，促进公司长期、持续、健康发展，圣达生物制定了《浙江圣达生物药业股份有限 公司2024 年员工持股计划》，对公司的董事，监事，高级管理人员和其他核心骨干展开不超过公司股本总额10% 的股份 激励计划，并通过全体持股人选举产生管理委员会，对持股计划全程进行监督和管理。 2025 年，公司推进员工持股计划 落地实..."
+  },
+  {
+    "field_key": "employee_turnover_rate",
+    "field_name_cn": "员工流失率",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 10,
+    "citation_chunk_id": "p10_15",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "体系 • 保持良好的盈利能力 • 定期发布年报、公告等公开信息 • 定期业绩说明会 国内外客户 • 尽职调查（不定期） • 行业展会（每年） • 客户拜访（不定期） • 客户满意度调查（每年） • 高质量、安全创新 的产品 • 便捷、高效的服务 • 可持续采购 • 推动产品与服务创新 • 持续提升产品质量、确保产品安全 • 加强客户关系维护，听取客户反馈 意见 • 全面提升可持续绩效与表现 供应商与合作伙伴 • 供应商大会（每年） •..."
+  },
+  {
+    "field_key": "training_total_hours",
+    "field_name_cn": "员工培训总时长",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 25,
+    "citation_chunk_id": "p25_51",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "人 30 岁及以下 30 岁至50 岁 硕士研究生 博士研究生 大专 人 617 人 41 人 3 254 人 人 205 2025 年员工情况 男性 期末在职员工总人数 销售人员 行政人员 女性 生产人员 人 人 人 人 710 1,083 42 89 人 373 人 765 人 员工培训总次数 440 员工培训覆盖率 100% 次 员工培训总时数 830 小时 劳动合同签订比例 100% 员工五险一金覆盖比例 100% 劳动诉讼、..."
+  },
+  {
+    "field_key": "training_hours_per_employee",
+    "field_name_cn": "人均培训时长",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 14,
+    "citation_chunk_id": "p14_24",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "情况 审核对外气候信息披露内容 执行具体的气候行动项目和减排措施 收集、统计和分析碳排放数据 识别和评估运营层面的气候风险 编制气候相关报告/ 报告章节 组织气候相关培训和能力建设 层级 组织机构 主要职责 战略 2025 年，公司结合法规政策、市场环境及自身行业特性、运营模式等内外部因素，初步识别和评估气候相关风险和机遇， 并分析其具体影响，从而制定相应的应对措施。下一步，公司将依据上海证券交易所披露建议及国际能源署（IEA）和气候..."
+  },
+  {
+    "field_key": "social_security_coverage",
+    "field_name_cn": "社会保险覆盖率",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 22,
+    "citation_chunk_id": "p22_42",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 圣达担当 价值共创 39 40 员工 劳工权益保障 圣达生物严格遵守《中华人民共和国劳动法》《中华人民共和国劳动合同法》《中华人民共和国社会保险法》等法律法规， 始终坚持以人为本的发展理念，将员工视为企业可持续发展的核心动力，持续完善员工权益保障与劳工权益管理体系，依 法合规用工，切实维护员工的合法权益与职业尊严。为此，公司制定了《劳动人权管理目标与制度》，通过建立涵盖员工 健康与安全、工作条件、..."
+  },
+  {
+    "field_key": "employee_medical_checkup_coverage",
+    "field_name_cn": "员工体检覆盖率",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 26,
+    "citation_chunk_id": "p26_53",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "考核直接挂钩。 公司构建并持续优化以 “风险预控、关口前移” 为核心的安全风险分级管控和隐患排查治理双重预防机制。 在风险分级管控方面，公司采用HAZOP（危险与可操作性分析）对生产工艺、设备设施、作业活动进行系统性安全风险辨识， 重点分析火灾、爆炸、中毒窒息、泄漏、腐蚀等典型危险化学品风险。此外，公司对风险进行量化评级，划分为重大（红）、 较大（橙）、一般（黄）、低（蓝）四个等级，针对不同等级进行分级管控——制定并落实“工程技术、维..."
+  },
+  {
+    "field_key": "trained_employees_count",
+    "field_name_cn": "受训员工人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 25,
+    "citation_chunk_id": "p25_51",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "人 30 岁及以下 30 岁至50 岁 硕士研究生 博士研究生 大专 人 617 人 41 人 3 254 人 人 205 2025 年员工情况 男性 期末在职员工总人数 销售人员 行政人员 女性 生产人员 人 人 人 人 710 1,083 42 89 人 373 人 765 人 员工培训总次数 440 员工培训覆盖率 100% 次 员工培训总时数 830 小时 劳动合同签订比例 100% 员工五险一金覆盖比例 100% 劳动诉讼、..."
+  },
+  {
+    "field_key": "safety_accident_count",
+    "field_name_cn": "安全生产事故数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 26,
+    "citation_chunk_id": "p26_52",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 圣达担当 价值共创 47 48 职业健康安全 深化安全责任 守护生产安全 职业健康与安全生产是保障员工生命健康、降低事故风险、促进企业稳定与可持续发展的基石。圣达生物严格遵守《中华 人民共和国安全生产法》《中华人民共和国职业病防治法》《生产安全事故应急预案管理办法》等相关法律法规，内部制 定并落实《安全生产责任制度》《职业病危害防治责任制度》《安全检查和隐患整改管理制度》《工伤事故管理制度》《劳 ..."
+  },
+  {
+    "field_key": "occupational_health_safety_investment",
+    "field_name_cn": "安全生产投入",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 10,
+    "citation_chunk_id": "p10_15",
+    "citation_review_reasons": [
+      "source_page_mismatch"
+    ],
+    "text_excerpt": "体系 • 保持良好的盈利能力 • 定期发布年报、公告等公开信息 • 定期业绩说明会 国内外客户 • 尽职调查（不定期） • 行业展会（每年） • 客户拜访（不定期） • 客户满意度调查（每年） • 高质量、安全创新 的产品 • 便捷、高效的服务 • 可持续采购 • 推动产品与服务创新 • 持续提升产品质量、确保产品安全 • 加强客户关系维护，听取客户反馈 意见 • 全面提升可持续绩效与表现 供应商与合作伙伴 • 供应商大会（每年） •..."
+  },
+  {
+    "field_key": "lost_work_days_due_to_injury",
+    "field_name_cn": "因工伤损失工作日数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 27,
+    "citation_chunk_id": "p27_55",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 圣达担当 价值共创 49 50 安全文化建设 公司坚持“安全第一、预防为主”，深耕安全文化建设。 通过全员参与、全域覆盖的宣教体系，推动安全理念由“被 动合规”向“主动预防”深度转变，筑牢安全生产人民防线， 为高质量发展提供坚实的安全保障。2025 年，圣达生物及 其子公司共计开展职业健康与安全相关培训活动93 场， 总参与人次5,230 人次，内容包括生产知识培训，事故方 案措施，急救知识培训等..."
+  },
+  {
+    "field_key": "r_and_d_personnel_count",
+    "field_name_cn": "研发人员数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 12,
+    "citation_chunk_id": "p12_20",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 圣达使命 善治有道 19 20 公司将每年定期开展重要性议题评估的回顾，并基于最新法规及标准更新和完善双重重要性评估的方法学和流程机制，以 更加精准回应利益相关方诉求，持续提升 ESG 管理成效。 议题 维度 影响重要性 财务重要性 应对气候变化 环境 污染物排放 废弃物处理 生态系统和生物多样性保护 环境合规管理 能源利用 水资源利用 循环经济 乡村振兴 社会 社会贡献 创新驱动 科技伦理 不适..."
+  },
+  {
+    "field_key": "public_welfare_investment",
+    "field_name_cn": "公益投入金额",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 37,
+    "citation_chunk_id": "p37_81",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 圣达担当 价值共创 69 70 社会贡献 圣达生物紧跟国家政策导向和社会发展趋势，积极履行企业社会责任，围绕助残、兴教、安老、济贫等领域开展帮扶行动， 传递企业温度与社会价值。圣达集团以推动社会公益事业发展为己任，于2009 年12 月创办圣爱慈善基金会。多年来，圣 达生物及其子公司联合基金会开展了一系列公益慈善活动，为弘扬中华民族乐善好施、扶贫济困的传统美德贡献了积极圣 达力量。2025 年，公..."
+  },
+  {
+    "field_key": "board_size",
+    "field_name_cn": "董事会人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 9,
+    "citation_chunk_id": "p9_12",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "目标，在企业管理和运营中推进系统性的 ESG 实践，以全面提 升公司 ESG 管理能力。2025 年，公司探索建立“决策层 - 管理层 - 执行层”三层 ESG 管治架构，搭建 ESG 工作网络，全 面统筹协调 ESG 相关工作。 其中，董事会及下设战略委员会作为ESG“决策层”，董事会作为圣达生物ESG工作的最高决策机构，承担ESG治理最终责任， 负责审议批准公司ESG 发展战略、中长期规划及年度工作计划、ESG 风险与机遇的识别及..."
+  },
+  {
+    "field_key": "independent_directors",
+    "field_name_cn": "独立董事人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 9,
+    "citation_chunk_id": "p9_11",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 圣达使命 善治有道 13 14 决策层 董事会 战略委员会 管理层 执行层 可持续发展领导小组 企业管治 圣达生物严格遵守《中华人民共和国公司法》《中华人民共和国证券法》《上市公司治理准则》、中国证监会有关规定和《上 海证券交易所股票上市规则》等法律法规，持续完善公司治理机制。公司董事会负责监督管理本公司所有重要事项，包括 制定及批准所有政策、整体战略、风险管理和内部监控系统，以及监察管理团队的表..."
+  },
+  {
+    "field_key": "independent_director_ratio",
+    "field_name_cn": "独立董事比例",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 33,
+    "citation_chunk_id": "p33_72",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "创新业务的商业化路径和市场策略 审议批准知识产权战略和核心技术保护方案 监督研发团队建设和核心人才保留情况，审议研发人员激励方案 审批重大研发投资项目和并购决策 批准研发投入预算及占营收比例目标 将创新指标纳入公司整体战略目标 战略委员会 评估与管理研发创新相关的影响、风险与机遇，包括对公司品牌价值和市场竞争力的影响 制定3-5 年创新发展战略和技术路线图，规划创新业务布局和产品管线 审议重大研发项目立项和资源投入，包括人才引进计划 ..."
+  },
+  {
+    "field_key": "shareholder_meetings",
+    "field_name_cn": "股东大会会议次数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 22,
+    "citation_chunk_id": "p22_44",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "会福利、节假日礼品、生日会活动等。此外，针对外来员工，公司特制定《外来人才福利管理制度》，通过提供免费住宿， 异地探亲假期及补贴等举措为外来员工营造良好工作氛围，提升员工归属感，进一步增强公司人才吸引力与留用稳定性。 民主管理 建设 公司持续完善民主管理机制，积极推进工会组织建设。根据《中华人民共和国工会法》《中国工 会章程》 《工会基层组织选举工作条例》等有关规定，公司于2020年正式成立工会并选举职工代表， 每年定期召开职工代表大..."
+  },
+  {
+    "field_key": "anti_corruption_training_sessions",
+    "field_name_cn": "反腐败培训次数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 29,
+    "citation_chunk_id": "p29_59",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 圣达担当 价值共创 53 54 产品和服务安全与质量 公司通过供应链金融手段（如预付账款、缩短账期），支持供应商提前备货生产所需原材料， 保障生产计划的顺利执行。 由圣达生物杭州技术研究院及公司生产部门派出专家前往供应商现场开展专业指导与技术赋能， 协助其提升生产能力与工艺水平，实现供需双方的技术共进。 公司正积极探索与原料供应商、服务商、施工承包商及废弃物处置单位等相关主体协同开展温 室气体减排..."
+  },
+  {
+    "field_key": "anti_corruption_training_participants",
+    "field_name_cn": "反腐败培训人数",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 27,
+    "citation_chunk_id": "p27_55",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 圣达担当 价值共创 49 50 安全文化建设 公司坚持“安全第一、预防为主”，深耕安全文化建设。 通过全员参与、全域覆盖的宣教体系，推动安全理念由“被 动合规”向“主动预防”深度转变，筑牢安全生产人民防线， 为高质量发展提供坚实的安全保障。2025 年，圣达生物及 其子公司共计开展职业健康与安全相关培训活动93 场， 总参与人次5,230 人次，内容包括生产知识培训，事故方 案措施，急救知识培训等..."
+  },
+  {
+    "field_key": "confirmed_corruption_cases",
+    "field_name_cn": "确认腐败案件数量",
+    "reason": "citation_needs_review",
+    "status": "pending",
+    "recommended_action": "人工核对候选页是否能支持该字段，必要时补录字段值。",
+    "citation_page_number": 42,
+    "citation_chunk_id": "p42_91",
+    "citation_review_reasons": [
+      "missing_existing_evidence",
+      "source_page_inferred_from_retrieval"
+    ],
+    "text_excerpt": "2025 年环境、社会及公司治理报告 附录 79 80 创新驱动 社会贡献 反商业贿赂及反贪污 指标 2025 年 单位 研发投入金额 5,367.42 万元 研发团队人数 160 人 - 博士研究生 3 人 - 硕士研究生 27 人 - 本科及以下 130 人 研发团队占员工总数比例 14.77 % 国家授权专利数量 19 项 - 发明专利 12 项 - 实用新型专利 7 项 新增申请发明专利数量 11 项 指标 2025 年 单位..."
+  }
+]

@@ -1,0 +1,1093 @@
+[
+  {
+    "page_image": "page_5.png",
+    "page_type": "other",
+    "page_note": "页面内容为董事长致辞，未包含具体ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_5_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为董事长致辞，未包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_5_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为董事长致辞，主要描述西安银行在绿色金融、人才建设及品牌价值方面的成就和未来规划，并未包含具体的ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_6.png",
+    "page_type": "other",
+    "page_note": "该页面主要为公司简介和荣誉奖项信息，不包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_6_left.png",
+    "page_type": "performance_data_table",
+    "page_note": "页面包含西安银行的ESG报告中的公司简介和关键绩效数据。",
+    "tables": [
+      {
+        "table_title": "西安银行关键绩效数据",
+        "columns": [
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "员工总数",
+            "unit": "人",
+            "values": {
+              "2024年": "3,284"
+            },
+            "evidence_text": "截至2024年末，公司员工3,284人"
+          },
+          {
+            "metric_name": "营业网点数量",
+            "unit": "家",
+            "values": {
+              "2024年": "178"
+            },
+            "evidence_text": "下设总行营业部、9家省内分行、10家区域支行和12家直属支行等在内的共178家营业网点"
+          },
+          {
+            "metric_name": "省内分行数量",
+            "unit": "家",
+            "values": {
+              "2024年": "9"
+            },
+            "evidence_text": "9家省内分行"
+          },
+          {
+            "metric_name": "村镇银行控股数量",
+            "unit": "家",
+            "values": {
+              "2024年": "2"
+            },
+            "evidence_text": "控股2家村镇银行"
+          },
+          {
+            "metric_name": "汽车金融公司参股数量",
+            "unit": "家",
+            "values": {
+              "2024年": "1"
+            },
+            "evidence_text": "参股1家汽车金融公司"
+          },
+          {
+            "metric_name": "全球银行品牌价值排名",
+            "unit": "位",
+            "values": {
+              "2024年": "356"
+            },
+            "evidence_text": "公司在英国《银行家》全球前1000家银行排名中位列第356位"
+          },
+          {
+            "metric_name": "主体长期信用等级",
+            "unit": "",
+            "values": {
+              "2024年": "AAA"
+            },
+            "evidence_text": "公司主体长期信用等级AAA（最高级）"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_6_right.png",
+    "page_type": "other",
+    "page_note": "该页面为荣誉奖项列表，不属于ESG绩效数据表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_7.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "行业组织专业机构获奖情况",
+        "columns": [
+          "分类",
+          "获奖名称",
+          "颁奖机构"
+        ],
+        "rows": [
+          {
+            "topic": "行业组织专业机构",
+            "metric_name": "'2024年中国银行业100名单'第67位",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "行业组织专业机构 '2024年中国银行业100名单'第67位 中国银行业协会"
+          },
+          {
+            "topic": "行业组织专业机构",
+            "metric_name": "2024年口碑评价综合排名第19位",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "行业组织专业机构 2024年口碑评价综合排名第19位 中国银行业协会"
+          },
+          {
+            "topic": "行业组织专业机构",
+            "metric_name": "2023年银行业金融机构组'保障民生'好新闻",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "行业组织专业机构 2023年银行业金融机构组'保障民生'好新闻 中国银行业协会"
+          },
+          {
+            "topic": "行业组织专业机构",
+            "metric_name": "全省银行业服务陕西经济发展劳动竞赛先进单位",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "行业组织专业机构 全省银行业服务陕西经济发展劳动竞赛先进单位 陕西省银行业协会"
+          },
+          {
+            "topic": "行业组织专业机构",
+            "metric_name": "陕西省金融学会关于'培育金融文化 赋力金融强国'主题活动征文一等奖",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "行业组织专业机构 陕西省金融学会关于'培育金融文化 赋力金融强国'主题活动征文一等奖 陕西省金融学会"
+          },
+          {
+            "topic": "行业组织专业机构",
+            "metric_name": "在2024年'金融数字化发展金穗奖'评选中荣获'年度最具特色信用卡产品奖'",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "行业组织专业机构 在2024年'金融数字化发展金穗奖'评选中荣获'年度最具特色信用卡产品奖' 金融数字化发展联盟"
+          },
+          {
+            "topic": "行业组织专业机构",
+            "metric_name": "'2023年度银行理财产品评价'中获评'五星产品'",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "行业组织专业机构 '2023年度银行理财产品评价'中获评'五星产品' 中国投资协会金融业资产管理专业委员会"
+          },
+          {
+            "topic": "行业组织专业机构",
+            "metric_name": "'2024年上半年银行理财产品评价'中获评'四星产品'",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "行业组织专业机构 '2024年上半年银行理财产品评价'中获评'四星产品' 中国投资协会金融业资产管理专业委员会"
+          },
+          {
+            "topic": "行业组织专业机构",
+            "metric_name": "CFP-易方达·中国金融理财师大赛'最佳组织奖'",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "行业组织专业机构 CFP-易方达·中国金融理财师大赛'最佳组织奖' 国际金融理财标准委员会及易方达基金"
+          },
+          {
+            "topic": "行业组织专业机构",
+            "metric_name": "养老金示范服务机构",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "行业组织专业机构 养老金示范服务机构 北京国家金融科技认证中心"
+          },
+          {
+            "topic": "行业组织专业机构",
+            "metric_name": "在'普惠标准普益奖'评选中荣获'优秀回收类理财产品'奖项",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "行业组织专业机构 在'普惠标准普益奖'评选中荣获'优秀回收类理财产品'奖项 普益标准"
+          },
+          {
+            "topic": "行业组织专业机构",
+            "metric_name": "人才工作贡献单位",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "行业组织专业机构 人才工作贡献单位 西安市人才协会"
+          }
+        ]
+      },
+      {
+        "table_title": "其他获奖情况",
+        "columns": [
+          "分类",
+          "获奖名称",
+          "颁奖机构"
+        ],
+        "rows": [
+          {
+            "topic": "其他",
+            "metric_name": "2023年度银联卡风险防范贡献奖",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "其他 2023年度银联卡风险防范贡献奖 中国银联股份有限公司陕西分公司"
+          },
+          {
+            "topic": "其他",
+            "metric_name": "2023年跨境人民币业务特色示范网点",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "其他 2023年跨境人民币业务特色示范网点 陕西省银行业协会和中国人民银行西安分行营业管理部"
+          },
+          {
+            "topic": "其他",
+            "metric_name": "理财风控先锋奖",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "其他 理财风控先锋奖 联信智汇数字科技有限公司"
+          },
+          {
+            "topic": "其他",
+            "metric_name": "'数据要素X'大赛陕西分赛金融服务赛道'二等奖'和'最具发展潜力奖'",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "其他 '数据要素X'大赛陕西分赛金融服务赛道'二等奖'和'最具发展潜力奖' '数据要素X'大赛陕西分赛组委会"
+          },
+          {
+            "topic": "其他",
+            "metric_name": "2023年度'优秀合作成员'称号",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "其他 2023年度'优秀合作成员'称号 城银清算服务有限责任公司"
+          },
+          {
+            "topic": "其他",
+            "metric_name": "入选'2024年度城市金融服务优秀案例'中的反诈宣传优秀案例、支付清算创新优秀案例",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "其他 入选'2024年度城市金融服务优秀案例'中的反诈宣传优秀案例、支付清算创新优秀案例 城银清算服务有限责任公司"
+          },
+          {
+            "topic": "其他",
+            "metric_name": "在'鑫智奖'评选中荣获'数字运营优秀案例奖'",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "其他 在'鑫智奖'评选中荣获'数字运营优秀案例奖' 金科创新社"
+          },
+          {
+            "topic": "其他",
+            "metric_name": "在'第四届'金信通'金融科技创新应用案例'评选中荣获'卓越案例奖'",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "其他 在'第四届'金信通'金融科技创新应用案例'评选中荣获'卓越案例奖' 中国信息通信研究院"
+          },
+          {
+            "topic": "其他",
+            "metric_name": "第二届西安国际养老产业博览会优秀参展商",
+            "unit": null,
+            "values": {
+              "2024年": null
+            },
+            "evidence_text": "其他 第二届西安国际养老产业博览会优秀参展商 西安国际养老产业博览会"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_8.png",
+    "page_type": "other",
+    "page_note": "该页面为品牌主张与发展宗旨的描述，未包含具体的ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_8_left.png",
+    "page_type": "other",
+    "page_note": "该页面为2024年社会责任（ESG）报告中的使命价值观与社会责任理念部分，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_8_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为社会责任理念的描述，未包含具体ESG绩效数值表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_9.png",
+    "page_type": "other",
+    "page_note": "该页面为环境主题的插图，包含绿色能源相关的图标和文字描述，但未包含具体的 ESG 绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_9_left.png",
+    "page_type": "other",
+    "page_note": "该页面为环境篇的宣传内容，未包含具体的 ESG 绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_9_right.png",
+    "page_type": "other",
+    "page_note": "图片内容为绿色主题的插画，包含风力发电机、树木、无人机等元素，未显示任何 ESG 绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_10.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "绿色贷款余额及增长情况",
+        "columns": [
+          "指标",
+          "单位",
+          "2023年",
+          "2024年",
+          "较上年末增长"
+        ],
+        "rows": [
+          {
+            "metric_name": "绿色贷款余额",
+            "unit": "亿元",
+            "values": {
+              "2023年": "17.18",
+              "2024年": "52.01",
+              "较上年末增长": "202.75%"
+            },
+            "evidence_text": "绿色贷款余额 亿元 2023年 17.18 2024年 52.01 较上年末增长 202.75%"
+          }
+        ]
+      },
+      {
+        "table_title": "绿色金融债券发行情况",
+        "columns": [
+          "指标",
+          "单位",
+          "数值"
+        ],
+        "rows": [
+          {
+            "metric_name": "绿色金融债券",
+            "unit": "亿元",
+            "values": {
+              "2024年": "15"
+            },
+            "evidence_text": "绿色金融债券 亿元 2024年 15"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_11.png",
+    "page_type": "other",
+    "page_note": "页面内容为ESG案例介绍和风险管理措施，未包含具体ESG绩效数值表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_11_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为ESG投资案例和绿色服务效能介绍，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_11_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为环境管理策略说明，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_12.png",
+    "page_type": "other",
+    "page_note": "页面内容为ESG报告的文字描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_12_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为ESG报告中的风险管理措施说明，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_12_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司倡导绿色发展和开启绿色运营模式的描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_20.png",
+    "page_type": "other",
+    "page_note": "页面内容为ESG报告中的社会绩效部分，主要描述了优化支付服务、推出线上购票租赁服务、提升业务办理效率和提供多项优惠服务等措施，并未包含具体的量化数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_20_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为优化支付服务的案例介绍，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_20_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为文字描述和案例展示，未包含具体 ESG 绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_21.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司社会责任报告的文字描述，包含消费者权益保护、金融知识宣传教育普及活动及网络安全防护体系建设等内容，未发现符合ESG绩效数据表格定义的具体数值表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_21_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为维护客户权益的相关描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_21_right.png",
+    "page_type": "performance_data_table",
+    "page_note": "页面包含消费者金融知识宣传教育普及活动的相关数据，属于社会绩效范畴。",
+    "tables": [
+      {
+        "table_title": "消费者金融知识宣传教育普及活动数据",
+        "columns": [
+          "指标",
+          "单位",
+          "2024年"
+        ],
+        "rows": [
+          {
+            "metric_name": "线上线下宣传次数",
+            "unit": "余次",
+            "values": {
+              "2024年": "1,600"
+            },
+            "evidence_text": "线上线下宣传 1,600 余次"
+          },
+          {
+            "metric_name": "发放宣传资料数量",
+            "unit": "万余份",
+            "values": {
+              "2024年": "7"
+            },
+            "evidence_text": "发放宣传资料 7 万余份"
+          },
+          {
+            "metric_name": "大型集中宣传活动次数",
+            "unit": "次",
+            "values": {
+              "2024年": "4"
+            },
+            "evidence_text": "大型集中宣传活动 4 次"
+          },
+          {
+            "metric_name": "宣传受众人数",
+            "unit": "余万人",
+            "values": {
+              "2024年": "30"
+            },
+            "evidence_text": "宣传受众达 30 余万人"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_22.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司关于精准治理电信网络诈骗和社会关怀员工成长的描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_22_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为关于精准治理电信网络诈骗的措施描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_22_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司关于员工成长和权益维护的描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_23.png",
+    "page_type": "other",
+    "page_note": "页面内容为ESG报告的社会责任部分，包含员工活动、关爱活动及演讲比赛等描述，未发现具体的ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_23_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为文字描述和图片，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_23_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为社会篇中的员工关爱活动和女职工主题活动介绍，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_24.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司社会责任活动介绍，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_24_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为公益行动介绍，未包含具体 ESG 绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_24_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为案例介绍，未包含具体 ESG 绩效数值表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_25.png",
+    "page_type": "other",
+    "page_note": "页面内容为案例介绍，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_25_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为ESG报告中的案例介绍，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_25_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为社会案例描述，未包含具体 ESG 绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_26.png",
+    "page_type": "other",
+    "page_note": "该页面为公司治理相关内容的插图，未包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_26_left.png",
+    "page_type": "other",
+    "page_note": "该页面为公司治理相关内容的宣传图，未包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_26_right.png",
+    "page_type": "other",
+    "page_note": "图片中未包含ESG绩效数据表格，仅展示城市景观插画。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_27.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司治理和党建引领的相关文字描述，未包含具体的ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_27_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司党建引领和党风廉政建设的相关描述，未包含具体的 ESG 绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_27_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司治理相关描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_28.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司治理和风险管理的相关描述，未包含具体的ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_28_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为2024年社会责任（ESG）报告的文字描述，未包含具体ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_28_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为风险管理架构描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_29.png",
+    "page_type": "other",
+    "page_note": "页面内容为ESG报告的文字描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_29_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为ESG报告的文字描述，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_29_right.png",
+    "page_type": "other",
+    "page_note": "页面内容为治理篇的描述性文字，未包含具体ESG绩效数值表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_30.png",
+    "page_type": "performance_data_table",
+    "page_note": null,
+    "tables": [
+      {
+        "table_title": "关键绩效表-经济类",
+        "columns": [
+          "指标类型",
+          "指标名称",
+          "2024年",
+          "2023年",
+          "2022年"
+        ],
+        "rows": [
+          {
+            "metric_name": "总资产（千元）",
+            "values": {
+              "2024年": "480,570,120",
+              "2023年": "432,201,562",
+              "2022年": "405,858,548"
+            },
+            "evidence_text": "总资产（千元） 2024年 480,570,120 2023年 432,201,562 2022年 405,858,548"
+          },
+          {
+            "metric_name": "贷款和垫款本金总额（千元）",
+            "values": {
+              "2024年": "237,254,098",
+              "2023年": "202,922,010",
+              "2022年": "189,688,151"
+            },
+            "evidence_text": "贷款和垫款本金总额（千元） 2024年 237,254,098 2023年 202,922,010 2022年 189,688,151"
+          },
+          {
+            "metric_name": "存款本金总额（千元）",
+            "values": {
+              "2024年": "522,030,543",
+              "2023年": "293,786,596",
+              "2022年": "280,560,457"
+            },
+            "evidence_text": "存款本金总额（千元） 2024年 522,030,543 2023年 293,786,596 2022年 280,560,457"
+          },
+          {
+            "metric_name": "营业收入（千元）",
+            "values": {
+              "2024年": "8,190,241",
+              "2023年": "7,204,769",
+              "2022年": "6,567,550"
+            },
+            "evidence_text": "营业收入（千元） 2024年 8,190,241 2023年 7,204,769 2022年 6,567,550"
+          },
+          {
+            "metric_name": "纳税总额（千元）",
+            "values": {
+              "2024年": "914,546",
+              "2023年": "1,034,958",
+              "2022年": "1,302,191"
+            },
+            "evidence_text": "纳税总额（千元） 2024年 914,546 2023年 1,034,958 2022年 1,302,191"
+          },
+          {
+            "metric_name": "归属于母公司股东的净利润（千元）",
+            "values": {
+              "2024年": "2,558,554",
+              "2023年": "2,462,237",
+              "2022年": "2,424,443"
+            },
+            "evidence_text": "归属于母公司股东的净利润（千元） 2024年 2,558,554 2023年 2,462,237 2022年 2,424,443"
+          },
+          {
+            "metric_name": "总资产收益率（%）",
+            "values": {
+              "2024年": "0.56",
+              "2023年": "0.59",
+              "2022年": "0.65"
+            },
+            "evidence_text": "总资产收益率（%） 2024年 0.56 2023年 0.59 2022年 0.65"
+          },
+          {
+            "metric_name": "加权平均净资产收益率（%）",
+            "values": {
+              "2024年": "7.97",
+              "2023年": "8.22",
+              "2022年": "8.57"
+            },
+            "evidence_text": "加权平均净资产收益率（%） 2024年 7.97 2023年 8.22 2022年 8.57"
+          },
+          {
+            "metric_name": "不良贷款率（%）",
+            "values": {
+              "2024年": "1.72",
+              "2023年": "1.35",
+              "2022年": "1.25"
+            },
+            "evidence_text": "不良贷款率（%） 2024年 1.72 2023年 1.35 2022年 1.25"
+          },
+          {
+            "metric_name": "资本充足率（%）",
+            "values": {
+              "2024年": "12.41",
+              "2023年": "13.14",
+              "2022年": "12.84"
+            },
+            "evidence_text": "资本充足率（%） 2024年 12.41 2023年 13.14 2022年 12.84"
+          },
+          {
+            "metric_name": "拨备覆盖率（%）",
+            "values": {
+              "2024年": "184.06",
+              "2023年": "197.07",
+              "2022年": "201.63"
+            },
+            "evidence_text": "拨备覆盖率（%） 2024年 184.06 2023年 197.07 2022年 201.63"
+          },
+          {
+            "metric_name": "营业网点数（个）",
+            "values": {
+              "2024年": "178",
+              "2023年": "178",
+              "2022年": "177"
+            },
+            "evidence_text": "营业网点数（个） 2024年 178 2023年 178 2022年 177"
+          },
+          {
+            "metric_name": "自助设备数（台）",
+            "values": {
+              "2024年": "688",
+              "2023年": "619",
+              "2022年": "619"
+            },
+            "evidence_text": "自助设备数（台） 2024年 688 2023年 619 2022年 619"
+          },
+          {
+            "metric_name": "员工总数（人）",
+            "values": {
+              "2024年": "3,284",
+              "2023年": "3,275",
+              "2022年": "3,273"
+            },
+            "evidence_text": "员工总数（人） 2024年 3,284 2023年 3,275 2022年 3,273"
+          },
+          {
+            "metric_name": "30岁以下员工数（人）",
+            "values": {
+              "2024年": "523",
+              "2023年": "534",
+              "2022年": "665"
+            },
+            "evidence_text": "30岁以下员工数（人） 2024年 523 2023年 534 2022年 665"
+          },
+          {
+            "metric_name": "31-50岁员工数（人）",
+            "values": {
+              "2024年": "1,888",
+              "2023年": "1,967",
+              "2022年": "1,896"
+            },
+            "evidence_text": "31-50岁员工数（人） 2024年 1,888 2023年 1,967 2022年 1,896"
+          },
+          {
+            "metric_name": "50岁以上员工数（人）",
+            "values": {
+              "2024年": "873",
+              "2023年": "774",
+              "2022年": "712"
+            },
+            "evidence_text": "50岁以上员工数（人） 2024年 873 2023年 774 2022年 712"
+          },
+          {
+            "metric_name": "女性员工比例（%）",
+            "values": {
+              "2024年": "61.69",
+              "2023年": "61.80",
+              "2022年": "61.90"
+            },
+            "evidence_text": "女性员工比例（%） 2024年 61.69 2023年 61.80 2022年 61.90"
+          },
+          {
+            "metric_name": "男性员工比例（%）",
+            "values": {
+              "2024年": "38.31",
+              "2023年": "38.20",
+              "2022年": "38.10"
+            },
+            "evidence_text": "男性员工比例（%） 2024年 38.31 2023年 38.20 2022年 38.10"
+          },
+          {
+            "metric_name": "少数民族员工占比（%）",
+            "values": {
+              "2024年": "1.93",
+              "2023年": "1.98",
+              "2022年": "2.08"
+            },
+            "evidence_text": "少数民族员工占比（%） 2024年 1.93 2023年 1.98 2022年 2.08"
+          },
+          {
+            "metric_name": "劳动合同签约率（%）",
+            "values": {
+              "2024年": "100.00",
+              "2023年": "100.00",
+              "2022年": "100.00"
+            },
+            "evidence_text": "劳动合同签约率（%） 2024年 100.00 2023年 100.00 2022年 100.00"
+          },
+          {
+            "metric_name": "社会保险覆盖率（%）",
+            "values": {
+              "2024年": "100.00",
+              "2023年": "100.00",
+              "2022年": "100.00"
+            },
+            "evidence_text": "社会保险覆盖率（%） 2024年 100.00 2023年 100.00 2022年 100.00"
+          },
+          {
+            "metric_name": "客户投诉解决率（%）",
+            "values": {
+              "2024年": "100.00",
+              "2023年": "100.00",
+              "2022年": "100.00"
+            },
+            "evidence_text": "客户投诉解决率（%） 2024年 100.00 2023年 100.00 2022年 100.00"
+          },
+          {
+            "metric_name": "反洗钱培训次数（次）",
+            "values": {
+              "2024年": "96",
+              "2023年": "67",
+              "2022年": "44"
+            },
+            "evidence_text": "反洗钱培训次数（次） 2024年 96 2023年 67 2022年 44"
+          },
+          {
+            "metric_name": "反洗钱培训覆盖人次（人）",
+            "values": {
+              "2024年": "4,907",
+              "2023年": "4,097",
+              "2022年": "3,649"
+            },
+            "evidence_text": "反洗钱培训覆盖人次（人） 2024年 4,907 2023年 4,097 2022年 3,649"
+          },
+          {
+            "metric_name": "反向偏见培训次数（次）",
+            "values": {
+              "2024年": "5",
+              "2023年": "4",
+              "2022年": "2"
+            },
+            "evidence_text": "反向偏见培训次数（次） 2024年 5 2023年 4 2022年 2"
+          },
+          {
+            "metric_name": "反映低薪培训覆盖人次（人）",
+            "values": {
+              "2024年": "3,464",
+              "2023年": "4,024",
+              "2022年": "4,546"
+            },
+            "evidence_text": "反映低薪培训覆盖人次（人） 2024年 3,464 2023年 4,024 2022年 4,546"
+          },
+          {
+            "metric_name": "投资教育活动（次）",
+            "values": {
+              "2024年": "1,610",
+              "2023年": "1,592",
+              "2022年": "1,187"
+            },
+            "evidence_text": "投资教育活动（次） 2024年 1,610 2023年 1,592 2022年 1,187"
+          }
+        ]
+      },
+      {
+        "table_title": "关键绩效表-环境类",
+        "columns": [
+          "指标类型",
+          "指标名称",
+          "2024年",
+          "2023年",
+          "2022年"
+        ],
+        "rows": [
+          {
+            "metric_name": "绿色贷款余额（千元）",
+            "values": {
+              "2024年": "5,200,650",
+              "2023年": "1,717,809",
+              "2022年": "1,160,409"
+            },
+            "evidence_text": "绿色贷款余额（千元） 2024年 5,200,650 2023年 1,717,809 2022年 1,160,409"
+          },
+          {
+            "metric_name": "个人网银交易金额（千元）",
+            "values": {
+              "2024年": "9,146,818",
+              "2023年": "15,999,187",
+              "2022年": "11,898,698"
+            },
+            "evidence_text": "个人网银交易金额（千元） 2024年 9,146,818 2023年 15,999,187 2022年 11,898,698"
+          },
+          {
+            "metric_name": "总行人均耗水量（吨/人）",
+            "values": {
+              "2024年": "20.05",
+              "2023年": "19.36",
+              "2022年": "22.44"
+            },
+            "evidence_text": "总行人均耗水量（吨/人） 2024年 20.05 2023年 19.36 2022年 22.44"
+          },
+          {
+            "metric_name": "总行人均用电量（度/人）",
+            "values": {
+              "2024年": "2,796",
+              "2023年": "2,543",
+              "2022年": "2,424"
+            },
+            "evidence_text": "总行人均用电量（度/人） 2024年 2,796 2023年 2,543 2022年 2,424"
+          },
+          {
+            "metric_name": "总行公务车油耗总量（升）",
+            "values": {
+              "2024年": "23,641",
+              "2023年": "35,532",
+              "2022年": "41,670"
+            },
+            "evidence_text": "总行公务车油耗总量（升） 2024年 23,641 2023年 35,532 2022年 41,670"
+          },
+          {
+            "metric_name": "总行办公用品总量（吨）",
+            "values": {
+              "2024年": "9.57",
+              "2023年": "8.52",
+              "2022年": "8.00"
+            },
+            "evidence_text": "总行办公用品总量（吨） 2024年 9.57 2023年 8.52 2022年 8.00"
+          }
+        ]
+      }
+    ],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_31.png",
+    "page_type": "content_index",
+    "page_note": "该页面为利益相关方期待的治理框架说明，包含利益相关方、期望诉求、沟通方式和回应举措等内容，未包含具体ESG绩效数值表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_31_left.png",
+    "page_type": "content_index",
+    "page_note": "该页面为利益相关方期待的说明表格，不包含具体 ESG 绩效数值，因此不属于绩效数据表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_31_right.png",
+    "page_type": "other",
+    "page_note": "该页面为利益相关方期望诉求、沟通方式及回应举措的说明表格，不包含具体ESG绩效数值，因此不属于量化数据绩效表。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_32.png",
+    "page_type": "other",
+    "page_note": "页面内容为公司未来展望的文字描述和相关插图，未包含具体的 ESG 绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_32_left.png",
+    "page_type": "other",
+    "page_note": "页面内容为未来展望的文字描述，未包含具体ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  },
+  {
+    "page_image": "page_32_right.png",
+    "page_type": "other",
+    "page_note": "页面为插画内容，未包含ESG绩效数据表格。",
+    "tables": [],
+    "retry_used": false
+  }
+]
