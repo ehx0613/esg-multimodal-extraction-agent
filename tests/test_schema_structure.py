@@ -1,12 +1,20 @@
 import unittest
 
 from config.core_schema import CORE_SCHEMA, schema_summary
-from config.schema import ESG_SCHEMA, ROUTE_A_FIELD_KEYS, ROUTE_B_FIELD_KEYS
+from config.schema import (
+    CORE_SCHEMA_FIELD_COUNT,
+    CORE_SCHEMA_VERSION,
+    ESG_SCHEMA,
+    ROUTE_A_FIELD_KEYS,
+    ROUTE_B_FIELD_KEYS,
+)
 
 
 class SchemaStructureTests(unittest.TestCase):
     def test_core_schema_total_count(self) -> None:
         self.assertEqual(len(CORE_SCHEMA), 60)
+        self.assertEqual(CORE_SCHEMA_FIELD_COUNT, 60)
+        self.assertEqual(CORE_SCHEMA_VERSION, "core_esg_v4.1_60")
 
     def test_schema_summary_counts(self) -> None:
         self.assertEqual(

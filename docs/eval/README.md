@@ -1,5 +1,7 @@
 # ESG Evaluation Workspace
 
+> Historical evaluation notes below may use the retired 68-field denominator. New evaluations must use the canonical runtime schema count (currently 60).
+
 ## Purpose
 
 This directory stores evaluation inputs, reviewer guidance, and per-report quality outputs for the ESG Multimodal Extraction Agent project.

@@ -3,12 +3,14 @@ import json
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Union
 
+from config.schema import CORE_SCHEMA_FIELD_COUNT
+
 
 PathLike = Union[str, Path]
 
 
 class SupervisorAgent:
-    def __init__(self, expected_core_fields: int = 68):
+    def __init__(self, expected_core_fields: int = CORE_SCHEMA_FIELD_COUNT):
         self.expected_core_fields = expected_core_fields
         self.high_unknown_metric_threshold = 200
 

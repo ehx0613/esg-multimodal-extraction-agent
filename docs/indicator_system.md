@@ -1,11 +1,13 @@
 # ESG Indicator System
 
+> Status: canonical core schema. Version: `core_esg_v4.1_60`.
+
 ## Current Scope
 
 The core schema is intentionally kept near the competition requirement instead of expanding every possible table row into a target field.
 
-- Total indicators: 52
-- Quantitative indicators: 34
+- Total indicators: 60
+- Quantitative indicators: 42
 - Qualitative indicators: 18
 - Route A: quantitative appendix/table extraction
 - Route B: qualitative main-text RAG extraction
@@ -14,8 +16,8 @@ The core schema is intentionally kept near the competition requirement instead o
 
 | Category | Count |
 | --- | ---: |
-| E | 18 |
-| S | 19 |
+| E | 21 |
+| S | 24 |
 | G | 15 |
 
 ## Quantitative Indicators

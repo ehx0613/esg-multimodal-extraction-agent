@@ -13,6 +13,8 @@ stop depending on one oversized schema module directly.
 from .views import (
     ALL_SCHEMA,
     APPENDIX_TABLE_SCHEMA,
+    CORE_SCHEMA_FIELD_COUNT,
+    CORE_SCHEMA_VERSION,
     E_FIELD_KEYS,
     E_SCHEMA,
     ESG_FIELD_KEYS,
@@ -57,6 +59,8 @@ from .huazheng_public_mapping import (
 __all__ = [
     "ALL_SCHEMA",
     "APPENDIX_TABLE_SCHEMA",
+    "CORE_SCHEMA_FIELD_COUNT",
+    "CORE_SCHEMA_VERSION",
     "E_FIELD_KEYS",
     "E_SCHEMA",
     "ESG_FIELD_KEYS",

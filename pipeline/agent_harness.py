@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Union
 
 from agents.supervisor_agent import SupervisorAgent
+from config.schema import CORE_SCHEMA_FIELD_COUNT
 from pipeline.merge_pipeline import ESGMergePipeline
 from utils.result_guard import (
     safe_write_json,
@@ -21,7 +22,7 @@ class ESGAgentHarness:
     def __init__(
         self,
         report_dir: PathLike,
-        expected_core_fields: int = 68,
+        expected_core_fields: int = CORE_SCHEMA_FIELD_COUNT,
         allow_route_b: bool = False,
     ):
         self.report_dir = Path(report_dir)

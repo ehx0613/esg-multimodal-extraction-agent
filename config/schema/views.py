@@ -7,6 +7,8 @@ from .route_a_atoms import enrich_route_a_item
 
 
 ALL_SCHEMA = [enrich_route_a_item(item) for item in ALL_SCHEMA_DATA]
+CORE_SCHEMA_VERSION = "core_esg_v4.1_60"
+CORE_SCHEMA_FIELD_COUNT = len(ALL_SCHEMA)
 
 E_SCHEMA = filter_by_category(ALL_SCHEMA, "E")
 S_SCHEMA = filter_by_category(ALL_SCHEMA, "S")

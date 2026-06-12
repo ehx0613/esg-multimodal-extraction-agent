@@ -1,5 +1,7 @@
 # ESG Multimodal Extraction Agent - v1.0 Stable
 
+> Historical results below may use the retired 68-field denominator. The canonical runtime schema is `core_esg_v4.1_60` with 60 fields.
+
 ## Version
 
 v1.0-stable

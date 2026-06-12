@@ -1,5 +1,7 @@
 # ESG Multimodal Extraction Agent v1.2 Design
 
+> Historical design document. References to 68 fields below are archived planning assumptions. The canonical runtime schema is `core_esg_v4.1_60` with 60 fields.
+
 ## Purpose
 
 This document defines the planned v1.2 architecture upgrade for the current stable v1.1 baseline.
