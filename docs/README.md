@@ -1,89 +1,26 @@
 # Documentation Guide
 
-## Purpose
+## Current Sources Of Truth
 
-This directory contains the current architecture documents, implementation plans, evaluation workspace, and historical baseline results for the ESG Multimodal Extraction Agent project.
+1. [`architecture_current.md`](architecture_current.md) - current architecture,
+   Mermaid diagrams, runtime sequence, ownership, and artifact contracts.
+2. [`project_memory/ARCHITECTURE_AND_OPERATIONS.md`](project_memory/ARCHITECTURE_AND_OPERATIONS.md)
+   - current operating commands, diagnostics, and source map.
+3. [`worklogs/2026-06-12_architecture_upgrade.md`](worklogs/2026-06-12_architecture_upgrade.md)
+   - implementation record for the MinerU ingestion and unified pipeline upgrade.
 
-## Recommended Reading Order
+## Evaluation And Schema
 
-### If you want to understand the current system
+- `schema/core_schema_readable.md` - readable canonical 60-field schema.
+- `schema_60_migration_summary.md` - schema migration record.
+- `eval/README.md` - evaluation workflow and metric definitions.
+- `v1_results/` - historical baseline and regression artifacts.
 
-1. `architecture.md`
-2. `runbook.md`
-3. `project_map.md`
+## Historical And Planning Documents
 
-### If you want to understand the next architecture step
+- `architecture.md` - former v1.1 baseline; historical reference only.
+- `architecture_v1_2_design.md` - original target design; largely implemented.
+- `implementation_plan_v1_2.md` - original implementation plan.
 
-1. `architecture_v1_2_design.md`
-2. `implementation_plan_v1_2.md`
-
-### If you want to evaluate model and extraction quality
-
-1. `eval/README.md`
-2. `eval/golden_set.csv`
-3. `eval/per_report_eval.csv`
-4. `eval/reviewer_checklist.md`
-
-### If you want historical baseline evidence
-
-1. `v1_results/README.md`
-
-## Document Map
-
-### `architecture.md`
-
-Describes the current stable v1.1 baseline architecture.
-
-### `architecture_v1_2_design.md`
-
-Defines the target v1.2 orchestration design, including run manifest, state contracts, evaluation, and human review.
-
-### `implementation_plan_v1_2.md`
-
-Turns the v1.2 design into a practical implementation order and ownership checklist.
-
-### `runbook.md`
-
-Documents the stable operational sequence for rerun, Route B, merge, and result validation.
-
-### `project_map.md`
-
-Explains the code-level repository structure and where to start reading different parts of the system.
-
-### `eval/`
-
-Stores the current evaluation workspace:
-
-- `README.md`
-  - evaluation purpose and metric definitions
-- `golden_set.csv`
-  - curated evaluation sample list
-- `per_report_eval.csv`
-  - per-report evaluation output
-- `reviewer_checklist.md`
-  - manual scoring guide
-
-### `v1_results/`
-
-Stores historical baseline evaluation artifacts and regression outputs from the earlier stable runs.
-
-### `../archive/`
-
-Stores archived experiment or failure snapshots that are not part of the active workflow.
-
-## Status Guidance
-
-- `architecture.md`
-  - current truth for stable architecture
-- `runbook.md`
-  - current truth for stable operation
-- `architecture_v1_2_design.md`
-  - target-state design
-- `implementation_plan_v1_2.md`
-  - active execution plan
-- `eval/`
-  - active evaluation workspace
-- `v1_results/`
-  - historical reference outputs
-- `../archive/`
-  - archived experiment snapshots
+When documents disagree, use `architecture_current.md` as the architecture
+source of truth and verify behavior against `pipeline/unified_pipeline.py`.
