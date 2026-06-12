@@ -1,0 +1,3656 @@
+{
+  "generated_at": "2026-06-12T17:58:16+08:00",
+  "project_root": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent",
+  "git": {
+    "branch": "v1.2-agent-harness",
+    "commit": "eead013fe84daee704d1f382bbcabe5e711557da",
+    "commit_subject": "fix: unify core ESG schema at 60 fields",
+    "status": [
+      "M .gitignore",
+      " M agents/schema_match_agent.py",
+      " M agents/supervisor_agent.py",
+      " M agents/validation_agent.py",
+      " M config/schema/__init__.py",
+      " M config/settings.py",
+      " M docs/eval/README.md",
+      " M docs/schema/core_schema_readable.json",
+      " M docs/schema/core_schema_readable.md",
+      " M \"output/mineru_test/600587_\\346\\226\\260\\345\\215\\216\\345\\214\\273\\347\\226\\227_2024_\\346\\226\\260\\345\\215\\216\\345\\214\\273\\347\\226\\227\\357\\274\\232\\346\\226\\260\\345\\215\\216\\345\\214\\273\\347\\226\\2272024\\345\\271\\264\\345\\272\\246ESG\\346\\212\\245\\345\\221\\212/auto/600587_\\346\\226\\260\\345\\215\\216\\345\\214\\273\\347\\226\\227_2024_\\346\\226\\260\\345\\215\\216\\345\\214\\273\\347\\226\\227\\357\\274\\232\\346\\226\\260\\345\\215\\216\\345\\214\\273\\347\\226\\2272024\\345\\271\\264\\345\\272\\246ESG\\346\\212\\245\\345\\221\\212_origin.pdf\"",
+      " M pipeline/agent_harness.py",
+      " M pipeline/unified_pipeline.py",
+      " M scripts/analyze_v1_results.py",
+      " M scripts/inspect_agent_state.py",
+      " M scripts/run_agent_harness_batch.py",
+      " M tests/test_mineru_ingest.py",
+      " M tests/test_unified_pipeline_architecture.py",
+      " M utils/document_model.py",
+      " M utils/mineru_parser.py",
+      " M utils/mineru_route_a.py",
+      " M utils/pdf_ingest.py",
+      "?? .github/",
+      "?? config/schema/route_b_candidates.py",
+      "?? config/schema/runtime.py",
+      "?? config/schema/topics.py",
+      "?? docs/architecture_current.md",
+      "?? docs/eval/golden_set_field_annotations.csv",
+      "?? docs/eval/quantitative_golden_set_template.xlsx",
+      "?? docs/eval/reviews/",
+      "?? docs/project_memory/",
+      "?? docs/schema_evolution_plan.md",
+      "?? docs/worklogs/2026-06-12_architecture_upgrade.md",
+      "?? scripts/create_quantitative_golden_template.py",
+      "?? scripts/prepare_field_review.py",
+      "?? scripts/update_project_memory.py",
+      "?? tests/test_architecture_upgrade.py",
+      "?? tests/test_metric_artifact_chain.py",
+      "?? tests/test_prepare_field_review.py",
+      "?? tests/test_schema_layers.py",
+      "?? utils/performance_table_detector.py",
+      "?? utils/project_memory.py",
+      "?? utils/raw_metric_store.py"
+    ],
+    "remote": [
+      "origin\thttps://github.com/ehx0613/esg-multimodal-extraction-agent.git (fetch)",
+      "origin\thttps://github.com/ehx0613/esg-multimodal-extraction-agent.git (push)"
+    ]
+  },
+  "source_inventory": [
+    {
+      "path": "agents/__init__.py",
+      "purpose": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "agents/appendix_sniffer_agent.py",
+      "purpose": "",
+      "classes": [
+        "AppendixSnifferAgent"
+      ],
+      "functions": []
+    },
+    {
+      "path": "agents/base_agent.py",
+      "purpose": "",
+      "classes": [
+        "BaseAgent"
+      ],
+      "functions": []
+    },
+    {
+      "path": "agents/page_render_agent.py",
+      "purpose": "",
+      "classes": [
+        "PageRenderAgent"
+      ],
+      "functions": []
+    },
+    {
+      "path": "agents/schema_match_agent.py",
+      "purpose": "",
+      "classes": [
+        "SchemaMatchAgent"
+      ],
+      "functions": [
+        "standard_item",
+        "item_priority"
+      ]
+    },
+    {
+      "path": "agents/supervisor_agent.py",
+      "purpose": "",
+      "classes": [
+        "SupervisorAgent"
+      ],
+      "functions": []
+    },
+    {
+      "path": "agents/validation_agent.py",
+      "purpose": "",
+      "classes": [
+        "ValidationAgent"
+      ],
+      "functions": []
+    },
+    {
+      "path": "agents/vlm_table_ocr_agent.py",
+      "purpose": "",
+      "classes": [
+        "VLMTableOCRAgent"
+      ],
+      "functions": []
+    },
+    {
+      "path": "backend/__init__.py",
+      "purpose": "Backend package for API and persistent task tracking.",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "backend/app.py",
+      "purpose": "",
+      "classes": [
+        "ReportCreate",
+        "TaskCreate",
+        "TaskStatusUpdate",
+        "RunReportDirRequest",
+        "AnalyzeUploadedReportRequest",
+        "RatingReviewApplyRequest",
+        "RatingReviewQueueRequest",
+        "RatingRecalculateRequest"
+      ],
+      "functions": [
+        "lifespan",
+        "safe_upload_stem",
+        "next_report_dir",
+        "parse_multipart_upload",
+        "dump_model",
+        "generate_report_artifacts",
+        "_read_json_if_exists",
+        "build_report_summary",
+        "_review_url",
+        "_review_apply_url",
+        "_review_evidence_url",
+        "_page_image_path",
+        "_page_image_url",
+        "_load_chunk_text",
+        "_find_review_item",
+        "_build_correction_from_query",
+        "_persist_review_rating_run",
+        "render_review_html",
+        "_render_review_item_html",
+        "render_dashboard_html",
+        "render_home_html",
+        "render_dashboard_html",
+        "render_home_html",
+        "home",
+        "health",
+        "report_summary_endpoint",
+        "dashboard_endpoint",
+        "review_page_endpoint",
+        "review_evidence_endpoint",
+        "report_page_image_endpoint",
+        "apply_review_from_page_endpoint",
+        "create_report_endpoint",
+        "upload_report_endpoint",
+        "create_task_endpoint",
+        "list_tasks_endpoint",
+        "get_task_endpoint",
+        "update_task_status_endpoint",
+        "get_task_trace_endpoint",
+        "list_task_review_items_endpoint",
+        "rating_review_queue_endpoint",
+        "apply_rating_review_endpoint",
+        "recalculate_rating_endpoint",
+        "list_rating_runs_endpoint",
+        "get_rating_run_endpoint",
+        "analyze_uploaded_report_endpoint",
+        "run_report_dir_endpoint"
+      ]
+    },
+    {
+      "path": "backend/database.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "now_iso",
+        "new_id",
+        "json_dumps",
+        "json_loads",
+        "get_db_path",
+        "connect",
+        "connection",
+        "init_db",
+        "row_to_dict",
+        "rows_to_dicts",
+        "create_report",
+        "get_report",
+        "create_task",
+        "get_task",
+        "list_tasks",
+        "update_task_status",
+        "upsert_prompt_version",
+        "start_agent_run",
+        "finish_agent_run",
+        "create_review_item",
+        "create_retrieval_eval_record",
+        "list_retrieval_eval_records",
+        "_rating_score_item_rows",
+        "create_rating_record",
+        "list_rating_runs",
+        "get_rating_run",
+        "list_review_items",
+        "get_task_trace"
+      ]
+    },
+    {
+      "path": "config/__init__.py",
+      "purpose": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "config/core_schema.py",
+      "purpose": "Core ESG Schema v4.1",
+      "classes": [],
+      "functions": [
+        "get_core_schema_prompt_text"
+      ]
+    },
+    {
+      "path": "config/industry_applicability.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "get_applicability",
+        "get_priority_weight",
+        "is_applicable"
+      ]
+    },
+    {
+      "path": "config/prompts.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "build_all_table_rows_prompt",
+        "build_forced_table_prompt"
+      ]
+    },
+    {
+      "path": "config/schema/__init__.py",
+      "purpose": "Schema package layout",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "config/schema/all_data.py",
+      "purpose": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "config/schema/e.py",
+      "purpose": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "config/schema/e_data.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "q_field"
+      ]
+    },
+    {
+      "path": "config/schema/g.py",
+      "purpose": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "config/schema/g_data.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "q_field"
+      ]
+    },
+    {
+      "path": "config/schema/huazheng_public_mapping.py",
+      "purpose": "Huazheng-public ESG framework mapping.",
+      "classes": [],
+      "functions": [
+        "_field",
+        "_indicator_index",
+        "get_mapping_for_field",
+        "get_applicable_field_keys",
+        "framework_summary"
+      ]
+    },
+    {
+      "path": "config/schema/industry/__init__.py",
+      "purpose": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "config/schema/industry/finance.py",
+      "purpose": "Draft industry schema for banking / securities / broader finance reports.",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "config/schema/industry/manufacturing.py",
+      "purpose": "Draft industry schema for manufacturing / heavy industry reports.",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "config/schema/industry/pharma.py",
+      "purpose": "Draft industry schema for pharma / healthcare reports.",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "config/schema/industry/shared.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "q_field"
+      ]
+    },
+    {
+      "path": "config/schema/qualitative_data.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "t_field"
+      ]
+    },
+    {
+      "path": "config/schema/route_a.py",
+      "purpose": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "config/schema/route_a_atoms.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "atom",
+        "enrich_route_a_item"
+      ]
+    },
+    {
+      "path": "config/schema/route_b.py",
+      "purpose": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "config/schema/route_b_candidates.py",
+      "purpose": "Candidate Route B fields. These do not count toward the frozen 60-field core schema.",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "config/schema/runtime.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "build_runtime_schema"
+      ]
+    },
+    {
+      "path": "config/schema/s.py",
+      "purpose": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "config/schema/s_data.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "q_field"
+      ]
+    },
+    {
+      "path": "config/schema/shared.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "filter_by_category",
+        "filter_by_preferred_source"
+      ]
+    },
+    {
+      "path": "config/schema/topics.py",
+      "purpose": "Disclosure-topic layer above the frozen 60-field core schema.",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "config/schema/views.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "get_schema_item",
+        "get_aliases",
+        "get_unit_examples",
+        "schema_summary"
+      ]
+    },
+    {
+      "path": "config/settings.py",
+      "purpose": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "pipeline/__init__.py",
+      "purpose": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "pipeline/agent_harness.py",
+      "purpose": "",
+      "classes": [
+        "ESGAgentHarness"
+      ],
+      "functions": []
+    },
+    {
+      "path": "pipeline/appendix_pipeline.py",
+      "purpose": "",
+      "classes": [
+        "ESGAppendixPipeline"
+      ],
+      "functions": []
+    },
+    {
+      "path": "pipeline/batch_pipeline.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "safe_name",
+        "run_one",
+        "write_summary",
+        "run_batch"
+      ]
+    },
+    {
+      "path": "pipeline/merge_pipeline.py",
+      "purpose": "",
+      "classes": [
+        "ESGMergePipeline"
+      ],
+      "functions": [
+        "load_csv",
+        "build_empty_route_a_rows",
+        "to_float",
+        "parse_bool",
+        "parse_source_pages",
+        "has_evidence",
+        "is_zero_like",
+        "is_nonzero_like",
+        "b2_should_override_route_a",
+        "is_route_a_extracted",
+        "is_route_b_matched",
+        "b2_context_is_safe",
+        "normalize_route_a_row",
+        "apply_route_b_to_merged",
+        "apply_route_b2_to_merged",
+        "budget_exhausted_field_keys",
+        "apply_missing_status"
+      ]
+    },
+    {
+      "path": "pipeline/quant_text_pipeline.py",
+      "purpose": "",
+      "classes": [
+        "ESGQuantTextPipeline"
+      ],
+      "functions": [
+        "_to_float",
+        "_normalized_number",
+        "_normalized_label",
+        "_chunk_value_for_year",
+        "detect_route_a_conflict",
+        "choose_fusion_action",
+        "compute_b2_target_priority"
+      ]
+    },
+    {
+      "path": "pipeline/rating_data_harness.py",
+      "purpose": "",
+      "classes": [
+        "ESGRatingDataHarness"
+      ],
+      "functions": [
+        "read_json_safe",
+        "infer_task_status",
+        "route_payload"
+      ]
+    },
+    {
+      "path": "pipeline/text_pipeline.py",
+      "purpose": "",
+      "classes": [
+        "ESGTextPipeline"
+      ],
+      "functions": []
+    },
+    {
+      "path": "pipeline/unified_pipeline.py",
+      "purpose": "",
+      "classes": [
+        "UnifiedESGPipeline"
+      ],
+      "functions": []
+    },
+    {
+      "path": "scripts/analyze_v1_results.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "read_csv",
+        "to_float",
+        "to_int",
+        "to_bool",
+        "clean_stem",
+        "report_dir_name",
+        "pdf_stem",
+        "strip_prefix_index",
+        "build_index",
+        "lookup_row",
+        "safe_avg",
+        "safe_median",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/attach_field_citations.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "parse_args",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/build_eval_from_outputs.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "read_csv",
+        "read_json",
+        "to_float",
+        "to_int",
+        "to_bool_str",
+        "path_name",
+        "strip_prefix_index",
+        "add_index_keys",
+        "build_report_index",
+        "build_existing_eval_index",
+        "route_b_match_rate",
+        "build_auto_note",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/check_result_guard.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "build_warning_messages",
+        "check_report_dir",
+        "collect_report_dirs",
+        "build_summary",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/create_quantitative_golden_template.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "style_header",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/evaluate_retrieval.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "read_csv",
+        "read_json",
+        "parse_args",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/export_schema_readable.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "_json_dump",
+        "build_markdown",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/generate_simulated_rating.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "parse_args",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/inspect_agent_state.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "collect_report_dirs",
+        "serialize_list",
+        "build_csv_row",
+        "build_summary",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/llm_analyze_unknown_metrics.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "norm",
+        "read_unknown_csv",
+        "collect_unknown_rows",
+        "build_metric_groups",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/prepare_field_review.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "read_csv",
+        "read_json",
+        "resolve_report_dir",
+        "compact",
+        "parse_pages",
+        "choose_evidence",
+        "choose_pages",
+        "review_priority",
+        "build_review_rows",
+        "write_csv",
+        "write_instructions",
+        "parse_args",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/rerun_schema_match.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "load_json",
+        "norm",
+        "parse_year_from_key",
+        "choose_latest_year_value",
+        "parse_value",
+        "empty_standard_item",
+        "flatten_all_table_rows",
+        "build_extracted_item",
+        "build_unknown_item",
+        "extracted_item_priority",
+        "find_latest_report_dir",
+        "rerun_schema_match",
+        "parse_args",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/rerun_schema_match_batch.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/review_rating_item.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "parse_args",
+        "build_correction",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/run_agent_harness_batch.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "collect_report_dirs",
+        "serialize_list",
+        "build_csv_row",
+        "build_json_payload",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/run_batch.py",
+      "purpose": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "scripts/run_full_extraction.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "resolve_pdf",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/run_full_rating_workflow.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "parse_args",
+        "run_harness_step",
+        "generate_citations_step",
+        "generate_rating_step",
+        "run_workflow",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/run_full_rating_workflow_batch.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "parse_args",
+        "collect_report_dirs",
+        "pillar_value",
+        "build_success_row",
+        "build_error_row",
+        "build_batch_payload",
+        "run_batch",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/run_merge_batch.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/run_merge_for_raw_batch.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "find_report_dir_for_pdf",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/run_merge_single.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "find_latest_report_dir",
+        "parse_args",
+        "resolve_report_dir",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/run_rating_data_harness_single.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "parse_args",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/run_route_b2_batch.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/run_route_b2_single.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "parse_args",
+        "resolve_pdf_arg",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/run_route_b_batch.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "find_route_a_report_dir",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/run_route_b_single.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "parse_args",
+        "resolve_pdf_arg",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/run_selected.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/run_single.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "find_first_pdf",
+        "resolve_pdf_arg"
+      ]
+    },
+    {
+      "path": "scripts/suggest_metric_mappings.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "norm",
+        "compact_examples",
+        "load_unknown_rows",
+        "discover_unknown_csvs",
+        "parse_values",
+        "build_validation_row",
+        "candidate_score",
+        "suggest_for_group",
+        "build_suggestions",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/summarize_unknown_metrics.py",
+      "purpose": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "scripts/update_project_memory.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "utils/__init__.py",
+      "purpose": "",
+      "classes": [],
+      "functions": []
+    },
+    {
+      "path": "utils/b2_result_validator.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "norm",
+        "contains_any",
+        "_field_key_has",
+        "_append_reason",
+        "_hits_schema_words",
+        "_strong_unit_soft_pass",
+        "_has_strong_unit_anchor",
+        "_scope_specific_missing",
+        "_field_anchor_soft_pass",
+        "_can_ignore_board_size_forbidden",
+        "validate_b2_quant_result"
+      ]
+    },
+    {
+      "path": "utils/b_text_result_validator.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "_norm",
+        "_candidate_pages",
+        "_ngram_coverage",
+        "validate_route_b_text_result"
+      ]
+    },
+    {
+      "path": "utils/bm25_retriever.py",
+      "purpose": "",
+      "classes": [
+        "BM25Retriever"
+      ],
+      "functions": [
+        "normalize_text",
+        "tokenize"
+      ]
+    },
+    {
+      "path": "utils/call_tracker.py",
+      "purpose": "",
+      "classes": [
+        "LLMCallTracker"
+      ],
+      "functions": [
+        "_usage_value",
+        "get_active_tracker",
+        "get_active_run_mode",
+        "model_call_allowed",
+        "record_model_call"
+      ]
+    },
+    {
+      "path": "utils/csv_export.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "export_standard_results_csv",
+        "export_unknown_metrics_csv"
+      ]
+    },
+    {
+      "path": "utils/document_model.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "build_document_model",
+        "document_blocks_to_markdown",
+        "pages_to_document_blocks",
+        "document_blocks_to_pages",
+        "_chunk_type",
+        "chunk_document_blocks"
+      ]
+    },
+    {
+      "path": "utils/evidence_store.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "_source_region_id",
+        "_base_record",
+        "build_evidence_records",
+        "write_evidence_store"
+      ]
+    },
+    {
+      "path": "utils/field_citations.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "read_json",
+        "parse_source_pages",
+        "choose_existing_evidence",
+        "choose_source_pages",
+        "compact_text",
+        "_citation_payload",
+        "_table_citation",
+        "_has_table_evidence",
+        "attach_field_citations",
+        "flatten_for_csv"
+      ]
+    },
+    {
+      "path": "utils/hybrid_retriever.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "_merge_bm25_query_hits",
+        "_evidence_score",
+        "_rerank_with_evidence",
+        "retrieve_hybrid_chunks"
+      ]
+    },
+    {
+      "path": "utils/industry_detector.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "_page_texts_to_text",
+        "detect_industry_from_text",
+        "detect_industry",
+        "detect_industry_from_report_dir"
+      ]
+    },
+    {
+      "path": "utils/json_utils.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "save_json",
+        "load_json",
+        "extract_json_from_text"
+      ]
+    },
+    {
+      "path": "utils/llm_quant_extractor.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "_retrieval_context",
+        "build_route_b2_prompt",
+        "_default_result",
+        "normalize_quant_result",
+        "extract_quant_indicator_with_llm"
+      ]
+    },
+    {
+      "path": "utils/llm_schema_matcher.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "_get_client",
+        "extract_json",
+        "_norm",
+        "_row_text",
+        "_candidate_score",
+        "_ranked_candidate",
+        "select_schema_candidates_with_diagnostics",
+        "select_schema_candidates",
+        "build_schema_text",
+        "build_prompt",
+        "_normalize_judge_result",
+        "_call_schema_judge",
+        "_should_escalate",
+        "llm_match_row_to_schema"
+      ]
+    },
+    {
+      "path": "utils/llm_text_extractor.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "build_route_b_prompt",
+        "extract_text_indicator_with_llm"
+      ]
+    },
+    {
+      "path": "utils/llm_unknown_metric_analyzer.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "extract_json",
+        "build_core_schema_brief",
+        "build_prompt",
+        "analyze_unknown_metric_group"
+      ]
+    },
+    {
+      "path": "utils/metric_normalizer.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "norm",
+        "contains_any",
+        "infer_from_markers",
+        "infer_category",
+        "infer_unit_type",
+        "unit_types_compatible",
+        "normalize_metric_row",
+        "_schema_atom_values",
+        "_mutex_values",
+        "candidate_atom_score",
+        "candidate_compatibility",
+        "filter_compatible_candidates"
+      ]
+    },
+    {
+      "path": "utils/metric_planner.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "build_metric_plan",
+        "build_metric_plans"
+      ]
+    },
+    {
+      "path": "utils/mineru_parser.py",
+      "purpose": "",
+      "classes": [
+        "_HTMLTextExtractor"
+      ],
+      "functions": [
+        "run_mineru_for_pdf",
+        "html_to_plain_text",
+        "_source_signature",
+        "find_mineru_content_list",
+        "_text_from_item",
+        "parse_mineru_content_list"
+      ]
+    },
+    {
+      "path": "utils/mineru_route_a.py",
+      "purpose": "",
+      "classes": [
+        "_HTMLTableParser"
+      ],
+      "functions": [
+        "_positive_int",
+        "html_table_to_grid",
+        "_context_text",
+        "score_performance_table",
+        "_header_index",
+        "grid_to_route_a_rows",
+        "build_mineru_route_a_pages"
+      ]
+    },
+    {
+      "path": "utils/pdf_geometry.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "bbox_to_pdf_rect",
+        "render_pdf_bbox"
+      ]
+    },
+    {
+      "path": "utils/pdf_ingest.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "_hits_from_patterns",
+        "_hits_from_words",
+        "_line_table_density",
+        "_unit_density",
+        "build_page_features",
+        "select_route_a_candidate_pages",
+        "_file_signature",
+        "_select_parser_source",
+        "ingest_pdf"
+      ]
+    },
+    {
+      "path": "utils/pdf_text_utils.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "extract_pdf_text_by_page",
+        "has_enough_text_layer"
+      ]
+    },
+    {
+      "path": "utils/pdf_utils.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "normalize_text",
+        "unique_sorted",
+        "expand_page_indices",
+        "sniff_esg_appendix",
+        "render_pdf_pages_to_images",
+        "render_pdf_page_split_images"
+      ]
+    },
+    {
+      "path": "utils/performance_table_detector.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "detect_performance_tables"
+      ]
+    },
+    {
+      "path": "utils/project_memory.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "_read_json",
+        "_git",
+        "_source_inventory",
+        "_latest_report",
+        "_csv_rows",
+        "_report_snapshot",
+        "build_project_snapshot",
+        "write_project_memory"
+      ]
+    },
+    {
+      "path": "utils/query_rewriter.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "_unique",
+        "rewrite_field_queries"
+      ]
+    },
+    {
+      "path": "utils/rag_vector_store.py",
+      "purpose": "",
+      "classes": [
+        "FaissChunkVectorStore"
+      ],
+      "functions": [
+        "_normalize_rows",
+        "_hash_ngram_vector",
+        "_local_embed",
+        "_dashscope_embed",
+        "embed_texts",
+        "build_query_text",
+        "_chunks_signature"
+      ]
+    },
+    {
+      "path": "utils/rating_review.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "now_iso",
+        "load_json_list",
+        "find_field_row",
+        "apply_correction",
+        "append_review_history",
+        "recalculate_rating",
+        "apply_review_decision",
+        "load_review_queue"
+      ]
+    },
+    {
+      "path": "utils/raw_metric_store.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "flatten_raw_table_metrics",
+        "write_raw_metric_store"
+      ]
+    },
+    {
+      "path": "utils/raw_pdf_utils.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "list_raw_pdfs",
+        "find_raw_pdf_by_name"
+      ]
+    },
+    {
+      "path": "utils/result_guard.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "_to_path",
+        "count_csv_rows",
+        "validate_csv_min_rows",
+        "validate_standard_results",
+        "validate_merged_results",
+        "collect_fieldnames",
+        "safe_write_csv",
+        "safe_write_json"
+      ]
+    },
+    {
+      "path": "utils/retrieval_eval.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "evaluate_retrieval"
+      ]
+    },
+    {
+      "path": "utils/route_b2_retriever.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "norm",
+        "tokenize_query",
+        "has_number",
+        "has_year",
+        "_unique",
+        "_is_generic_query_term",
+        "_field_context_forbidden_hits",
+        "_strong_unit_hits",
+        "_build_query_terms",
+        "_bm25_scores",
+        "retrieve_quant_chunks"
+      ]
+    },
+    {
+      "path": "utils/route_b_retriever.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "norm",
+        "retrieve_relevant_chunks"
+      ]
+    },
+    {
+      "path": "utils/rrf.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "reciprocal_rank_fusion"
+      ]
+    },
+    {
+      "path": "utils/schema_match_cache.py",
+      "purpose": "",
+      "classes": [
+        "SchemaMatchCache"
+      ],
+      "functions": [
+        "_normalize",
+        "row_hash"
+      ]
+    },
+    {
+      "path": "utils/schema_match_validator.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "norm",
+        "contains_any",
+        "choose_latest_raw_value",
+        "is_numeric_like",
+        "unit_matches",
+        "ghg_unit_pivot_check",
+        "field_specific_soft_check",
+        "validate_schema_match"
+      ]
+    },
+    {
+      "path": "utils/schema_matcher.py",
+      "purpose": "Schema Matcher",
+      "classes": [],
+      "functions": [
+        "norm",
+        "norm_metric_name",
+        "normalize_alias_text",
+        "contains_any",
+        "apply_ocr_corrections",
+        "row_text",
+        "row_alias_text",
+        "metric_alias_text",
+        "row_context_text",
+        "result_no_match",
+        "fuzzy_ratio",
+        "is_index_row",
+        "is_business_performance",
+        "values_contain_key",
+        "pick_value_by_key",
+        "virtual_metric_match",
+        "policy_precheck",
+        "is_emission_factor_or_method_row",
+        "heuristic_match",
+        "alias_match",
+        "alias_match_candidates",
+        "accept_or_reject",
+        "accept_llm_or_reject",
+        "match_row_to_schema"
+      ]
+    },
+    {
+      "path": "utils/semantic_text_chunker.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "_normalize_line",
+        "_split_sentences",
+        "_looks_like_title",
+        "_line_is_table_like",
+        "_unit_hits",
+        "_is_index_like",
+        "_chunk_type",
+        "_build_blocks",
+        "_format_chunk",
+        "chunk_pages_semantic_esg"
+      ]
+    },
+    {
+      "path": "utils/simulated_rating.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "read_json",
+        "to_float",
+        "is_successful_field",
+        "rating_for_score",
+        "field_weight",
+        "field_score",
+        "_weighted_average",
+        "build_simulated_rating",
+        "flatten_rating_summary"
+      ]
+    },
+    {
+      "path": "utils/structured_rag_chunks.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "_page_number_from_image",
+        "_flatten_values",
+        "_row_text",
+        "_build_route_a_chunks",
+        "_build_mineru_table_chunks",
+        "build_structured_chunks_from_all_table_rows"
+      ]
+    },
+    {
+      "path": "utils/table_arbitrator.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "_page_number_from_item",
+        "extract_arbitration_candidates",
+        "apply_arbitration_candidates",
+        "load_standard_results"
+      ]
+    },
+    {
+      "path": "utils/table_quality.py",
+      "purpose": "",
+      "classes": [
+        "_TableGridParser"
+      ],
+      "functions": [
+        "_parse_grid",
+        "assess_table_chunk",
+        "assess_mineru_tables",
+        "apply_cross_source_consistency"
+      ]
+    },
+    {
+      "path": "utils/text_chunker.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "chunk_pages"
+      ]
+    },
+    {
+      "path": "utils/text_utils.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "norm",
+        "parse_number",
+        "choose_latest_year_value"
+      ]
+    },
+    {
+      "path": "utils/visual_arbitration.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "build_table_arbitration_queue",
+        "prepare_table_arbitration_images"
+      ]
+    },
+    {
+      "path": "utils/visual_followup.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "_normalize",
+        "_is_matched",
+        "build_visual_followup_queue"
+      ]
+    },
+    {
+      "path": "utils/vlm_client.py",
+      "purpose": "",
+      "classes": [],
+      "functions": [
+        "_image_to_data_url",
+        "_get_client",
+        "_call_vlm",
+        "_count_rows",
+        "extract_all_table_rows_from_image"
+      ]
+    }
+  ],
+  "latest_report": {
+    "available": true,
+    "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告",
+    "report_name": "603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告",
+    "summaries": {
+      "unified_pipeline_summary.json": {
+        "status": "completed",
+        "run_mode": "balanced",
+        "pdf_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\data\\raw\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告.pdf",
+        "report_dir": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告",
+        "document_ingest": {
+          "cache_used": false,
+          "text_available": true,
+          "total_pages": 43,
+          "parser_name": "pymupdf",
+          "block_count": 41,
+          "document_model_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\document_model.json",
+          "pdf_fingerprint": "ad0448f455a5865188c8edd38e6dd604cac995be413d17f4b54bf5a9bbc657a1"
+        },
+        "metric_plans": {
+          "count": 60,
+          "path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\metric_execution_plans.json"
+        },
+        "visual_plan": {
+          "mode": "summary_table",
+          "run_active_visual_extraction": true,
+          "active_candidate_pages": [
+            39,
+            40,
+            41,
+            42,
+            43
+          ],
+          "visual_proxy_pages": [
+            7,
+            9,
+            14,
+            16,
+            17,
+            19,
+            20,
+            24,
+            25,
+            28,
+            29,
+            32,
+            33,
+            35,
+            37,
+            40,
+            41,
+            42
+          ],
+          "selection": {
+            "found": true,
+            "total_pages": 43,
+            "candidates": [
+              {
+                "page_number": 41,
+                "char_count": 971,
+                "score": 224,
+                "title_hits": [
+                  "附录\\s*\\d*",
+                  "指标",
+                  "单位",
+                  "20[0-3][0-9]年"
+                ],
+                "strong_title_hits": [],
+                "metric_hits": [
+                  "培训",
+                  "安全生产",
+                  "工伤",
+                  "客户投诉",
+                  "供应商"
+                ],
+                "unit_hits": [
+                  "万元",
+                  "元",
+                  "%",
+                  "人",
+                  "人次",
+                  "小时",
+                  "次",
+                  "件",
+                  "起"
+                ],
+                "unit_density_score": 5,
+                "unit_occurrence_count": 82,
+                "distinct_unit_categories": [
+                  "count",
+                  "money",
+                  "percentage",
+                  "person",
+                  "time"
+                ],
+                "table_header_hits": [
+                  "指标",
+                  "单位"
+                ],
+                "chart_hits": [
+                  "员工结构",
+                  "男性",
+                  "女性",
+                  "博士",
+                  "硕士",
+                  "本科",
+                  "50岁及以上",
+                  "比例"
+                ],
+                "year_hits": [
+                  "2025"
+                ],
+                "number_count": 58,
+                "numeric_lines": 57,
+                "table_like_lines": 1,
+                "page_ratio": 0.9535,
+                "in_route_a_tail": true,
+                "index_hits": [],
+                "force_keep": true,
+                "high_unit_density": true,
+                "chart_force_keep": true,
+                "reasons": [
+                  "title_hits:附录\\s*\\d*,指标,单位,20[0-3][0-9]年",
+                  "metric_hits:培训,安全生产,工伤,客户投诉,供应商",
+                  "unit_hits:万元,元,%,人,人次,小时,次,件,起",
+                  "unit_density:5:count,money,percentage,person,time",
+                  "unit_occurrences:82",
+                  "year_hits:2025",
+                  "table_header_hits:指标,单位",
+                  "chart_hits:员工结构,男性,女性,博士,硕士,本科,50岁及以上,比例",
+                  "table_header:indicator_unit_year",
+                  "number_dense:58",
+                  "numeric_lines:57",
+                  "tail_35_percent",
+                  "tail_20_percent",
+                  "force_keep:high_unit_density",
+                  "chart_candidate_for_b2"
+                ]
+              },
+              {
+                "page_number": 40,
+                "char_count": 992,
+                "score": 213,
+                "title_hits": [
+                  "关键绩效表",
+                  "ESG\\s*关键绩效",
+                  "附录\\s*\\d*",
+                  "单位",
+                  "20[0-3][0-9]年"
+                ],
+                "strong_title_hits": [
+                  "关键绩效",
+                  "绩效表",
+                  "ESG关键绩效"
+                ],
+                "metric_hits": [
+                  "废水",
+                  "废弃物",
+                  "无害废弃物",
+                  "培训",
+                  "专利",
+                  "董事"
+                ],
+                "unit_hits": [
+                  "吨",
+                  "立方米",
+                  "万立方米",
+                  "人",
+                  "次",
+                  "项"
+                ],
+                "unit_density_score": 4,
+                "unit_occurrence_count": 29,
+                "distinct_unit_categories": [
+                  "count",
+                  "mass",
+                  "person",
+                  "volume"
+                ],
+                "table_header_hits": [
+                  "单位",
+                  "项目"
+                ],
+                "chart_hits": [],
+                "year_hits": [
+                  "2025"
+                ],
+                "number_count": 30,
+                "numeric_lines": 28,
+                "table_like_lines": 2,
+                "page_ratio": 0.9302,
+                "in_route_a_tail": true,
+                "index_hits": [],
+                "force_keep": true,
+                "high_unit_density": false,
+                "chart_force_keep": false,
+                "reasons": [
+                  "title_hits:关键绩效表,ESG\\s*关键绩效,附录\\s*\\d*,单位,20[0-3][0-9]年",
+                  "strong_title_hits:关键绩效,绩效表,ESG关键绩效",
+                  "metric_hits:废水,废弃物,无害废弃物,培训,专利,董事",
+                  "unit_hits:吨,立方米,万立方米,人,次,项",
+                  "unit_density:4:count,mass,person,volume",
+                  "unit_occurrences:29",
+                  "year_hits:2025",
+                  "table_header_hits:单位,项目",
+                  "number_dense:30",
+                  "numeric_lines:28",
+                  "tail_35_percent",
+                  "tail_20_percent",
+                  "force_keep:strong_performance_title"
+                ]
+              },
+              {
+                "page_number": 42,
+                "char_count": 760,
+                "score": 212,
+                "title_hits": [
+                  "附录\\s*\\d*",
+                  "指标",
+                  "单位",
+                  "20[0-3][0-9]年"
+                ],
+                "strong_title_hits": [],
+                "metric_hits": [
+                  "能源",
+                  "水资源",
+                  "废弃物",
+                  "员工总数",
+                  "研发投入",
+                  "专利",
+                  "反贪污",
+                  "反商业贿赂"
+                ],
+                "unit_hits": [
+                  "万元",
+                  "元",
+                  "%",
+                  "人",
+                  "人次",
+                  "小时",
+                  "次",
+                  "件",
+                  "项",
+                  "家"
+                ],
+                "unit_density_score": 5,
+                "unit_occurrence_count": 24,
+                "distinct_unit_categories": [
+                  "count",
+                  "money",
+                  "percentage",
+                  "person",
+                  "time"
+                ],
+                "table_header_hits": [
+                  "指标",
+                  "单位"
+                ],
+                "chart_hits": [
+                  "博士",
+                  "硕士",
+                  "本科",
+                  "比例"
+                ],
+                "year_hits": [
+                  "2025"
+                ],
+                "number_count": 43,
+                "numeric_lines": 43,
+                "table_like_lines": 0,
+                "page_ratio": 0.9767,
+                "in_route_a_tail": true,
+                "index_hits": [],
+                "force_keep": true,
+                "high_unit_density": true,
+                "chart_force_keep": true,
+                "reasons": [
+                  "title_hits:附录\\s*\\d*,指标,单位,20[0-3][0-9]年",
+                  "metric_hits:能源,水资源,废弃物,员工总数,研发投入,专利,反贪污,反商业贿赂",
+                  "unit_hits:万元,元,%,人,人次,小时,次,件,项,家",
+                  "unit_density:5:count,money,percentage,person,time",
+                  "unit_occurrences:24",
+                  "year_hits:2025",
+                  "table_header_hits:指标,单位",
+                  "chart_hits:博士,硕士,本科,比例",
+                  "table_header:indicator_unit_year",
+                  "number_dense:43",
+                  "numeric_lines:43",
+                  "tail_35_percent",
+                  "tail_20_percent",
+                  "force_keep:high_unit_density",
+                  "chart_candidate_for_b2"
+                ]
+              }
+            ],
+            "expanded_page_numbers": [
+              39,
+              40,
+              41,
+              42,
+              43
+            ],
+            "candidate_pages": [
+              39,
+              40,
+              41,
+              42,
+              43
+            ],
+            "selection_strategy": {
+              "source": "pdf_ingest_page_features",
+              "top_k": 3,
+              "min_score": 25,
+              "tail_start_ratio": 0.65,
+              "expand_before": 1,
+              "expand_after": 2
+            }
+          },
+          "mineru_route_a_available": false,
+          "mineru_selected_tables": 0,
+          "mineru_row_count": 0
+        },
+        "table_arbitration": {
+          "assessed_tables": 0,
+          "needs_visual": 0,
+          "queued_regions": 0,
+          "prepared_regions": 0,
+          "region_budget": 3,
+          "quality_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\table_quality_assessments.json",
+          "queue_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\table_arbitration_queue.json",
+          "prepared_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\table_arbitration_prepared.json",
+          "vlm": {
+            "status": "not_needed",
+            "applied_updates": 0,
+            "proposed_updates": 0
+          }
+        },
+        "visual_extraction": {
+          "status": "completed",
+          "raw_row_count": 96,
+          "extracted_fields": 13
+        },
+        "extraction": {
+          "route_b_available": true,
+          "unified_route_b": true,
+          "text_available": true,
+          "industry": "pharma",
+          "total_pages": 43,
+          "text_chunks": 375,
+          "structured_chunks": 96,
+          "combined_chunks": 471,
+          "target_fields": 18,
+          "matched_fields": 16,
+          "llm_calls": 18,
+          "qualitative": {
+            "target_fields": 18,
+            "matched_fields": 16,
+            "llm_calls": 18,
+            "skipped_no_relevant_chunks": 0,
+            "skipped_by_model_budget": 0
+          },
+          "quantitative_fallback": {
+            "route_b2_available": true,
+            "quantitative_fallback_available": true,
+            "enabled": true,
+            "target_fields": 42,
+            "attempted_fields": 25,
+            "retrieved_fields": 39,
+            "llm_attempted_fields": 25,
+            "retrieval_only_fields": 9,
+            "verified_route_a_fields": 3,
+            "missing_route_a_fields": 29,
+            "matched_fields": 3,
+            "llm_calls": 25,
+            "industry": "pharma",
+            "text_chunk_count": 375,
+            "structured_chunk_count": 96,
+            "combined_chunk_count": 471,
+            "skipped_by_budget": 5,
+            "skipped_by_industry": 0,
+            "skipped_by_unlikely": 0,
+            "skipped_no_relevant_chunks": 3,
+            "total_llm_calls_cost": 25,
+            "ingest_cache_used": true,
+            "reused_unified_ingest": true,
+            "ingest_paths": {
+              "page_texts": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\page_texts.json",
+              "page_features": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\page_features.json",
+              "text_chunks": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\text_chunks.json",
+              "document_blocks": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\document_blocks.json",
+              "document_model": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\document_model.json",
+              "manifest": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\ingest_manifest.json"
+            },
+            "retrieval_ranked_targets": [
+              {
+                "field_key": "female_directors",
+                "applicability": "core",
+                "retrieval_priority": 99.9933,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "p9_22",
+                "top_page_number": 9,
+                "top_retrieval_score": 57,
+                "top_vector_score": 0.331633
+              },
+              {
+                "field_key": "independent_directors",
+                "applicability": "core",
+                "retrieval_priority": 97.439,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "p9_22",
+                "top_page_number": 9,
+                "top_retrieval_score": 56,
+                "top_vector_score": 0.257349
+              },
+              {
+                "field_key": "environmental_penalty_count",
+                "applicability": "core",
+                "retrieval_priority": 92.1679,
+                "fusion_action": "verify_route_a",
+                "fusion_reason": "route_a_zero_value",
+                "top_chunk_id": "route_a_row_4_0_1",
+                "top_page_number": 41,
+                "top_retrieval_score": 49,
+                "top_vector_score": 0.408395
+              },
+              {
+                "field_key": "safety_accident_count",
+                "applicability": "core",
+                "retrieval_priority": 91.473,
+                "fusion_action": "verify_route_a",
+                "fusion_reason": "route_a_zero_value",
+                "top_chunk_id": "route_a_row_4_2_5",
+                "top_page_number": 41,
+                "top_retrieval_score": 49,
+                "top_vector_score": 0.373648
+              },
+              {
+                "field_key": "female_employee_ratio",
+                "applicability": "core",
+                "retrieval_priority": 88.3595,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "route_a_row_4_1_2",
+                "top_page_number": 41,
+                "top_retrieval_score": 46,
+                "top_vector_score": 0.367975
+              },
+              {
+                "field_key": "confirmed_corruption_cases",
+                "applicability": "core",
+                "retrieval_priority": 87.2527,
+                "fusion_action": "verify_route_a",
+                "fusion_reason": "route_a_zero_value",
+                "top_chunk_id": "route_a_row_5_2_0",
+                "top_page_number": 42,
+                "top_retrieval_score": 47,
+                "top_vector_score": 0.262634
+              },
+              {
+                "field_key": "male_employees",
+                "applicability": "core",
+                "retrieval_priority": 86.0846,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "route_a_row_4_1_0",
+                "top_page_number": 41,
+                "top_retrieval_score": 49,
+                "top_vector_score": 0.404228
+              },
+              {
+                "field_key": "public_welfare_investment",
+                "applicability": "core",
+                "retrieval_priority": 84.7959,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "route_a_row_4_2_6",
+                "top_page_number": 41,
+                "top_retrieval_score": 50,
+                "top_vector_score": 0.289794
+              },
+              {
+                "field_key": "employee_medical_checkup_coverage",
+                "applicability": "core",
+                "retrieval_priority": 83.9011,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "route_a_row_4_2_7",
+                "top_page_number": 41,
+                "top_retrieval_score": 48,
+                "top_vector_score": 0.345057
+              },
+              {
+                "field_key": "energy_consumption_intensity",
+                "applicability": "core",
+                "retrieval_priority": 78.0,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "p42_365",
+                "top_page_number": 42,
+                "top_retrieval_score": 43,
+                "top_vector_score": 0.0
+              },
+              {
+                "field_key": "water_consumption",
+                "applicability": "core",
+                "retrieval_priority": 77.3286,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "route_a_row_3_1_0",
+                "top_page_number": 40,
+                "top_retrieval_score": 45,
+                "top_vector_score": 0.0
+              },
+              {
+                "field_key": "energy_consumption_total",
+                "applicability": "core",
+                "retrieval_priority": 77.1802,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "p3_3",
+                "top_page_number": 3,
+                "top_retrieval_score": 33,
+                "top_vector_score": 0.0
+              },
+              {
+                "field_key": "independent_director_ratio",
+                "applicability": "core",
+                "retrieval_priority": 75.9394,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "p9_22",
+                "top_page_number": 9,
+                "top_retrieval_score": 37,
+                "top_vector_score": 0.196969
+              },
+              {
+                "field_key": "total_ghg_emissions",
+                "applicability": "core",
+                "retrieval_priority": 74.0359,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "p16_111",
+                "top_page_number": 16,
+                "top_retrieval_score": 34,
+                "top_vector_score": 0.251793
+              },
+              {
+                "field_key": "ghg_emissions_intensity",
+                "applicability": "core",
+                "retrieval_priority": 74.0,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "p42_365",
+                "top_page_number": 42,
+                "top_retrieval_score": 39,
+                "top_vector_score": 0.0
+              },
+              {
+                "field_key": "wastewater_discharge",
+                "applicability": "core",
+                "retrieval_priority": 74.0,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "route_a_row_3_1_0",
+                "top_page_number": 40,
+                "top_retrieval_score": 45,
+                "top_vector_score": 0.0
+              },
+              {
+                "field_key": "lost_work_days_due_to_injury",
+                "applicability": "core",
+                "retrieval_priority": 73.0,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "route_a_row_4_2_6",
+                "top_page_number": 41,
+                "top_retrieval_score": 39,
+                "top_vector_score": 0.0
+              },
+              {
+                "field_key": "scope_2_emissions",
+                "applicability": "core",
+                "retrieval_priority": 72.7152,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "p3_3",
+                "top_page_number": 3,
+                "top_retrieval_score": 33,
+                "top_vector_score": 0.0
+              },
+              {
+                "field_key": "natural_gas_consumption",
+                "applicability": "core",
+                "retrieval_priority": 71.2671,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "p3_3",
+                "top_page_number": 3,
+                "top_retrieval_score": 33,
+                "top_vector_score": 0.0
+              },
+              {
+                "field_key": "air_pollutant_emissions",
+                "applicability": "core",
+                "retrieval_priority": 71.0,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "route_a_row_3_2_0",
+                "top_page_number": 40,
+                "top_retrieval_score": 42,
+                "top_vector_score": 0.0
+              },
+              {
+                "field_key": "safety_emergency_drill_count",
+                "applicability": "core",
+                "retrieval_priority": 71.0,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "p31_273",
+                "top_page_number": 31,
+                "top_retrieval_score": 38,
+                "top_vector_score": 0.0
+              },
+              {
+                "field_key": "board_size",
+                "applicability": "core",
+                "retrieval_priority": 71.0,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "route_a_row_4_1_6",
+                "top_page_number": 41,
+                "top_retrieval_score": 42,
+                "top_vector_score": 0.0
+              },
+              {
+                "field_key": "board_meetings",
+                "applicability": "core",
+                "retrieval_priority": 69.3893,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "p9_22",
+                "top_page_number": 9,
+                "top_retrieval_score": 47,
+                "top_vector_score": 0.369463
+              },
+              {
+                "field_key": "electricity_consumption",
+                "applicability": "core",
+                "retrieval_priority": 68.4109,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "p20_177",
+                "top_page_number": 20,
+                "top_retrieval_score": 33,
+                "top_vector_score": 0.170545
+              },
+              {
+                "field_key": "scope_1_emissions",
+                "applicability": "core",
+                "retrieval_priority": 68.0,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "p3_3",
+                "top_page_number": 3,
+                "top_retrieval_score": 33,
+                "top_vector_score": 0.0
+              },
+              {
+                "field_key": "female_employees",
+                "applicability": "core",
+                "retrieval_priority": 67.6208,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "route_a_row_4_1_0",
+                "top_page_number": 41,
+                "top_retrieval_score": 49,
+                "top_vector_score": 0.381038
+              },
+              {
+                "field_key": "shareholder_meetings",
+                "applicability": "core",
+                "retrieval_priority": 65.0,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "p29_253",
+                "top_page_number": 29,
+                "top_retrieval_score": 33,
+                "top_vector_score": 0.0
+              },
+              {
+                "field_key": "employee_turnover_rate",
+                "applicability": "core",
+                "retrieval_priority": 54.0,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "p34_300",
+                "top_page_number": 34,
+                "top_retrieval_score": 26,
+                "top_vector_score": 0.0
+              },
+              {
+                "field_key": "training_hours_per_employee",
+                "applicability": "core",
+                "retrieval_priority": 53.0,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "p14_88",
+                "top_page_number": 14,
+                "top_retrieval_score": 27,
+                "top_vector_score": 0.0
+              },
+              {
+                "field_key": "anti_corruption_training_sessions",
+                "applicability": "core",
+                "retrieval_priority": 47.0,
+                "fusion_action": "extract_missing",
+                "fusion_reason": "route_a_missing",
+                "top_chunk_id": "p29_253",
+                "top_page_number": 29,
+                "top_retrieval_score": 33,
+                "top_vector_score": 0.0
+              },
+              {
+                "field_key": "training_coverage_rate",
+                "applicability": "core",
+                "retrieval_priority": 124.0605,
+                "fusion_action": "retrieval_only",
+                "fusion_reason": "route_a_high_confidence_no_conflict",
+                "top_chunk_id": "route_a_row_4_1_21",
+                "top_page_number": 41,
+                "top_retrieval_score": 78,
+                "top_vector_score": 0.683717
+              },
+              {
+                "field_key": "r_and_d_expense",
+                "applicability": "core",
+                "retrieval_priority": 121.5827,
+                "fusion_action": "retrieval_only",
+                "fusion_reason": "route_a_high_confidence_no_conflict",
+                "top_chunk_id": "route_a_row_5_0_0",
+                "top_page_number": 42,
+                "top_retrieval_score": 78,
+                "top_vector_score": 0.479133
+              },
+              {
+                "field_key": "non_hazardous_waste",
+                "applicability": "core",
+                "retrieval_priority": 114.0849,
+                "fusion_action": "retrieval_only",
+                "fusion_reason": "route_a_high_confidence_no_conflict",
+                "top_chunk_id": "route_a_row_3_2_1",
+                "top_page_number": 40,
+                "top_retrieval_score": 66,
+                "top_vector_score": 0.654244
+              },
+              {
+                "field_key": "occupational_health_safety_investment",
+                "applicability": "core",
+                "retrieval_priority": 110.7475,
+                "fusion_action": "retrieval_only",
+                "fusion_reason": "route_a_high_confidence_no_conflict",
+                "top_chunk_id": "route_a_row_4_2_2",
+                "top_page_number": 41,
+                "top_retrieval_score": 71,
+                "top_vector_score": 0.537374
+              },
+              {
+                "field_key": "total_employees",
+                "applicability": "core",
+                "retrieval_priority": 108.0668,
+                "fusion_action": "retrieval_only",
+                "fusion_reason": "route_a_high_confidence_no_conflict",
+                "top_chunk_id": "route_a_row_4_1_0",
+                "top_page_number": 41,
+                "top_retrieval_score": 66,
+                "top_vector_score": 0.653342
+              },
+              {
+                "field_key": "hazardous_waste",
+                "applicability": "core",
+                "retrieval_priority": 107.4707,
+                "fusion_action": "retrieval_only",
+                "fusion_reason": "route_a_high_confidence_no_conflict",
+                "top_chunk_id": "route_a_row_3_2_0",
+                "top_page_number": 40,
+                "top_retrieval_score": 62,
+                "top_vector_score": 0.435295
+              },
+              {
+                "field_key": "environmental_investment",
+                "applicability": "core",
+                "retrieval_priority": 86.5772,
+                "fusion_action": "retrieval_only",
+                "fusion_reason": "route_a_high_confidence_no_conflict",
+                "top_chunk_id": "route_a_row_4_0_2",
+                "top_page_number": 41,
+                "top_retrieval_score": 51,
+                "top_vector_score": 0.32886
+              },
+              {
+                "field_key": "social_security_coverage",
+                "applicability": "core",
+                "retrieval_priority": 83.7413,
+                "fusion_action": "retrieval_only",
+                "fusion_reason": "route_a_high_confidence_no_conflict",
+                "top_chunk_id": "route_a_row_4_2_7",
+                "top_page_number": 41,
+                "top_retrieval_score": 48,
+                "top_vector_score": 0.337067
+              },
+              {
+                "field_key": "r_and_d_personnel_count",
+                "applicability": "core",
+                "retrieval_priority": 83.6778,
+                "fusion_action": "retrieval_only",
+                "fusion_reason": "route_a_high_confidence_no_conflict",
+                "top_chunk_id": "route_a_row_5_0_1",
+                "top_page_number": 42,
+                "top_retrieval_score": 48,
+                "top_vector_score": 0.333889
+              }
+            ],
+            "token_budget": {
+              "route_b2_top_k": 5,
+              "route_b2_use_vector_rag": true,
+              "route_b2_vector_top_k": 8,
+              "route_b2_skip_unlikely": true,
+              "route_b2_fusion_enabled": true,
+              "route_b2_verify_route_a_max_confidence": 0.85,
+              "route_b2_verify_route_a_zero": true,
+              "route_b2_verify_conflicts": true,
+              "route_b_chunk_strategy": "semantic_esg_v1",
+              "route_b_chunk_size": 800,
+              "route_b_chunk_overlap": 120,
+              "max_b2_llm_calls_per_report": 40
+            }
+          },
+          "total_llm_calls": 43,
+          "token_budget": {
+            "route_b_top_k": 4,
+            "route_b_recall_k": 12,
+            "route_b_use_vector_rag": true,
+            "route_b_enable_quant_fallback": true,
+            "route_b_chunk_strategy": "semantic_esg_v1",
+            "route_b_chunk_size": 800,
+            "route_b_chunk_overlap": 120,
+            "max_llm_calls_per_report": 30
+          },
+          "ingest_cache_used": true,
+          "ingest_paths": {
+            "page_texts": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\page_texts.json",
+            "page_features": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\page_features.json",
+            "text_chunks": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\text_chunks.json",
+            "document_blocks": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\document_blocks.json",
+            "document_model": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\document_model.json",
+            "manifest": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\ingest_manifest.json"
+          }
+        },
+        "evidence_store": {
+          "evidence_count": 489,
+          "evidence_type_counts": {
+            "body_text": 375,
+            "parsed_table": 96,
+            "visual_proxy": 18
+          },
+          "unique_source_regions": 407,
+          "path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\evidence_records.json"
+        },
+        "visual_followup": {
+          "queued_metrics": 28,
+          "enabled": true,
+          "max_pages": 1,
+          "execution": {
+            "status": "completed",
+            "pages": [
+              17
+            ],
+            "raw_row_count": 0,
+            "detected_fields": 0,
+            "added_fields": 0,
+            "added_field_keys": [],
+            "extracted_fields": 13,
+            "full_text_rerun_skipped": true
+          },
+          "path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\visual_followup_queue.json"
+        },
+        "cost_tracking": {
+          "summary_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\run_cost_summary.json",
+          "events_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\run_call_events.json"
+        },
+        "merge": {
+          "total_fields": 60,
+          "route_a_available": true,
+          "route_a_status": "available_with_results",
+          "route_a_extracted_fields": 13,
+          "route_b_matched_fields": 16,
+          "route_b_filled_fields": 16,
+          "route_b2_matched_fields": 3,
+          "route_b2_filled_fields": 3,
+          "merged_extracted_fields": 32,
+          "missing_fields": 28,
+          "coverage_rate": 0.5333,
+          "raw_coverage": 0.5333,
+          "industry": "pharma",
+          "applicable_fields": 60,
+          "applicable_extracted_fields": 32,
+          "not_applicable_fields": 0,
+          "applicable_coverage": 0.5333,
+          "route_a_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\standard_esg_results.csv",
+          "route_b_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\route_b_text_results.csv",
+          "route_b2_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\route_b_quant_results.csv",
+          "route_b_quant_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\route_b_quant_results.csv"
+        }
+      },
+      "run_cost_summary.json": {
+        "run_mode": "balanced",
+        "elapsed_ms": 784839.32,
+        "calls": 90,
+        "prompt_tokens": 136405,
+        "completion_tokens": 80391,
+        "total_tokens": 216796,
+        "calls_without_usage": 0,
+        "by_stage": {
+          "vlm_table_extract": {
+            "calls": 12,
+            "latency_ms": 118011.39,
+            "prompt_tokens": 35740,
+            "completion_tokens": 8254,
+            "total_tokens": 43994
+          },
+          "schema_judge": {
+            "calls": 35,
+            "latency_ms": 541432.75,
+            "prompt_tokens": 36366,
+            "completion_tokens": 64939,
+            "total_tokens": 101305
+          },
+          "qualitative_extract": {
+            "calls": 18,
+            "latency_ms": 34725.0,
+            "prompt_tokens": 19041,
+            "completion_tokens": 3342,
+            "total_tokens": 22383
+          },
+          "quantitative_extract": {
+            "calls": 25,
+            "latency_ms": 42890.21,
+            "prompt_tokens": 45258,
+            "completion_tokens": 3856,
+            "total_tokens": 49114
+          }
+        },
+        "events_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\run_call_events.json"
+      },
+      "merge_summary.json": {
+        "total_fields": 60,
+        "route_a_available": true,
+        "route_a_status": "available_with_results",
+        "route_a_extracted_fields": 13,
+        "route_b_matched_fields": 16,
+        "route_b_filled_fields": 16,
+        "route_b2_matched_fields": 3,
+        "route_b2_filled_fields": 3,
+        "merged_extracted_fields": 32,
+        "missing_fields": 28,
+        "coverage_rate": 0.5333,
+        "raw_coverage": 0.5333,
+        "industry": "pharma",
+        "applicable_fields": 60,
+        "applicable_extracted_fields": 32,
+        "not_applicable_fields": 0,
+        "applicable_coverage": 0.5333,
+        "route_a_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\standard_esg_results.csv",
+        "route_b_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\route_b_text_results.csv",
+        "route_b2_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\route_b_quant_results.csv",
+        "route_b_quant_path": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\route_b_quant_results.csv"
+      },
+      "validation_summary.json": {
+        "total_fields": 60,
+        "extracted_fields": 0,
+        "missing_fields": 60,
+        "coverage_rate": 0.0,
+        "raw_row_count": 0,
+        "unknown_metrics": 0,
+        "needs_route_b2": true,
+        "route_b2_reason": "route_a_extracted_below_18"
+      },
+      "route_b_summary.json": {
+        "route_b_available": true,
+        "unified_route_b": true,
+        "text_available": true,
+        "industry": "pharma",
+        "total_pages": 43,
+        "text_chunks": 375,
+        "structured_chunks": 96,
+        "combined_chunks": 471,
+        "target_fields": 18,
+        "matched_fields": 16,
+        "llm_calls": 18,
+        "qualitative": {
+          "target_fields": 18,
+          "matched_fields": 16,
+          "llm_calls": 18,
+          "skipped_no_relevant_chunks": 0,
+          "skipped_by_model_budget": 0
+        },
+        "quantitative_fallback": {
+          "route_b2_available": true,
+          "quantitative_fallback_available": true,
+          "enabled": true,
+          "target_fields": 42,
+          "attempted_fields": 25,
+          "retrieved_fields": 39,
+          "llm_attempted_fields": 25,
+          "retrieval_only_fields": 9,
+          "verified_route_a_fields": 3,
+          "missing_route_a_fields": 29,
+          "matched_fields": 3,
+          "llm_calls": 25,
+          "industry": "pharma",
+          "text_chunk_count": 375,
+          "structured_chunk_count": 96,
+          "combined_chunk_count": 471,
+          "skipped_by_budget": 5,
+          "skipped_by_industry": 0,
+          "skipped_by_unlikely": 0,
+          "skipped_no_relevant_chunks": 3,
+          "total_llm_calls_cost": 25,
+          "ingest_cache_used": true,
+          "reused_unified_ingest": true,
+          "ingest_paths": {
+            "page_texts": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\page_texts.json",
+            "page_features": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\page_features.json",
+            "text_chunks": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\text_chunks.json",
+            "document_blocks": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\document_blocks.json",
+            "document_model": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\document_model.json",
+            "manifest": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\ingest_manifest.json"
+          },
+          "retrieval_ranked_targets": [
+            {
+              "field_key": "female_directors",
+              "applicability": "core",
+              "retrieval_priority": 99.9933,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "p9_22",
+              "top_page_number": 9,
+              "top_retrieval_score": 57,
+              "top_vector_score": 0.331633
+            },
+            {
+              "field_key": "independent_directors",
+              "applicability": "core",
+              "retrieval_priority": 97.439,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "p9_22",
+              "top_page_number": 9,
+              "top_retrieval_score": 56,
+              "top_vector_score": 0.257349
+            },
+            {
+              "field_key": "environmental_penalty_count",
+              "applicability": "core",
+              "retrieval_priority": 92.1679,
+              "fusion_action": "verify_route_a",
+              "fusion_reason": "route_a_zero_value",
+              "top_chunk_id": "route_a_row_4_0_1",
+              "top_page_number": 41,
+              "top_retrieval_score": 49,
+              "top_vector_score": 0.408395
+            },
+            {
+              "field_key": "safety_accident_count",
+              "applicability": "core",
+              "retrieval_priority": 91.473,
+              "fusion_action": "verify_route_a",
+              "fusion_reason": "route_a_zero_value",
+              "top_chunk_id": "route_a_row_4_2_5",
+              "top_page_number": 41,
+              "top_retrieval_score": 49,
+              "top_vector_score": 0.373648
+            },
+            {
+              "field_key": "female_employee_ratio",
+              "applicability": "core",
+              "retrieval_priority": 88.3595,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "route_a_row_4_1_2",
+              "top_page_number": 41,
+              "top_retrieval_score": 46,
+              "top_vector_score": 0.367975
+            },
+            {
+              "field_key": "confirmed_corruption_cases",
+              "applicability": "core",
+              "retrieval_priority": 87.2527,
+              "fusion_action": "verify_route_a",
+              "fusion_reason": "route_a_zero_value",
+              "top_chunk_id": "route_a_row_5_2_0",
+              "top_page_number": 42,
+              "top_retrieval_score": 47,
+              "top_vector_score": 0.262634
+            },
+            {
+              "field_key": "male_employees",
+              "applicability": "core",
+              "retrieval_priority": 86.0846,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "route_a_row_4_1_0",
+              "top_page_number": 41,
+              "top_retrieval_score": 49,
+              "top_vector_score": 0.404228
+            },
+            {
+              "field_key": "public_welfare_investment",
+              "applicability": "core",
+              "retrieval_priority": 84.7959,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "route_a_row_4_2_6",
+              "top_page_number": 41,
+              "top_retrieval_score": 50,
+              "top_vector_score": 0.289794
+            },
+            {
+              "field_key": "employee_medical_checkup_coverage",
+              "applicability": "core",
+              "retrieval_priority": 83.9011,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "route_a_row_4_2_7",
+              "top_page_number": 41,
+              "top_retrieval_score": 48,
+              "top_vector_score": 0.345057
+            },
+            {
+              "field_key": "energy_consumption_intensity",
+              "applicability": "core",
+              "retrieval_priority": 78.0,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "p42_365",
+              "top_page_number": 42,
+              "top_retrieval_score": 43,
+              "top_vector_score": 0.0
+            },
+            {
+              "field_key": "water_consumption",
+              "applicability": "core",
+              "retrieval_priority": 77.3286,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "route_a_row_3_1_0",
+              "top_page_number": 40,
+              "top_retrieval_score": 45,
+              "top_vector_score": 0.0
+            },
+            {
+              "field_key": "energy_consumption_total",
+              "applicability": "core",
+              "retrieval_priority": 77.1802,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "p3_3",
+              "top_page_number": 3,
+              "top_retrieval_score": 33,
+              "top_vector_score": 0.0
+            },
+            {
+              "field_key": "independent_director_ratio",
+              "applicability": "core",
+              "retrieval_priority": 75.9394,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "p9_22",
+              "top_page_number": 9,
+              "top_retrieval_score": 37,
+              "top_vector_score": 0.196969
+            },
+            {
+              "field_key": "total_ghg_emissions",
+              "applicability": "core",
+              "retrieval_priority": 74.0359,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "p16_111",
+              "top_page_number": 16,
+              "top_retrieval_score": 34,
+              "top_vector_score": 0.251793
+            },
+            {
+              "field_key": "ghg_emissions_intensity",
+              "applicability": "core",
+              "retrieval_priority": 74.0,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "p42_365",
+              "top_page_number": 42,
+              "top_retrieval_score": 39,
+              "top_vector_score": 0.0
+            },
+            {
+              "field_key": "wastewater_discharge",
+              "applicability": "core",
+              "retrieval_priority": 74.0,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "route_a_row_3_1_0",
+              "top_page_number": 40,
+              "top_retrieval_score": 45,
+              "top_vector_score": 0.0
+            },
+            {
+              "field_key": "lost_work_days_due_to_injury",
+              "applicability": "core",
+              "retrieval_priority": 73.0,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "route_a_row_4_2_6",
+              "top_page_number": 41,
+              "top_retrieval_score": 39,
+              "top_vector_score": 0.0
+            },
+            {
+              "field_key": "scope_2_emissions",
+              "applicability": "core",
+              "retrieval_priority": 72.7152,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "p3_3",
+              "top_page_number": 3,
+              "top_retrieval_score": 33,
+              "top_vector_score": 0.0
+            },
+            {
+              "field_key": "natural_gas_consumption",
+              "applicability": "core",
+              "retrieval_priority": 71.2671,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "p3_3",
+              "top_page_number": 3,
+              "top_retrieval_score": 33,
+              "top_vector_score": 0.0
+            },
+            {
+              "field_key": "air_pollutant_emissions",
+              "applicability": "core",
+              "retrieval_priority": 71.0,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "route_a_row_3_2_0",
+              "top_page_number": 40,
+              "top_retrieval_score": 42,
+              "top_vector_score": 0.0
+            },
+            {
+              "field_key": "safety_emergency_drill_count",
+              "applicability": "core",
+              "retrieval_priority": 71.0,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "p31_273",
+              "top_page_number": 31,
+              "top_retrieval_score": 38,
+              "top_vector_score": 0.0
+            },
+            {
+              "field_key": "board_size",
+              "applicability": "core",
+              "retrieval_priority": 71.0,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "route_a_row_4_1_6",
+              "top_page_number": 41,
+              "top_retrieval_score": 42,
+              "top_vector_score": 0.0
+            },
+            {
+              "field_key": "board_meetings",
+              "applicability": "core",
+              "retrieval_priority": 69.3893,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "p9_22",
+              "top_page_number": 9,
+              "top_retrieval_score": 47,
+              "top_vector_score": 0.369463
+            },
+            {
+              "field_key": "electricity_consumption",
+              "applicability": "core",
+              "retrieval_priority": 68.4109,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "p20_177",
+              "top_page_number": 20,
+              "top_retrieval_score": 33,
+              "top_vector_score": 0.170545
+            },
+            {
+              "field_key": "scope_1_emissions",
+              "applicability": "core",
+              "retrieval_priority": 68.0,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "p3_3",
+              "top_page_number": 3,
+              "top_retrieval_score": 33,
+              "top_vector_score": 0.0
+            },
+            {
+              "field_key": "female_employees",
+              "applicability": "core",
+              "retrieval_priority": 67.6208,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "route_a_row_4_1_0",
+              "top_page_number": 41,
+              "top_retrieval_score": 49,
+              "top_vector_score": 0.381038
+            },
+            {
+              "field_key": "shareholder_meetings",
+              "applicability": "core",
+              "retrieval_priority": 65.0,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "p29_253",
+              "top_page_number": 29,
+              "top_retrieval_score": 33,
+              "top_vector_score": 0.0
+            },
+            {
+              "field_key": "employee_turnover_rate",
+              "applicability": "core",
+              "retrieval_priority": 54.0,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "p34_300",
+              "top_page_number": 34,
+              "top_retrieval_score": 26,
+              "top_vector_score": 0.0
+            },
+            {
+              "field_key": "training_hours_per_employee",
+              "applicability": "core",
+              "retrieval_priority": 53.0,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "p14_88",
+              "top_page_number": 14,
+              "top_retrieval_score": 27,
+              "top_vector_score": 0.0
+            },
+            {
+              "field_key": "anti_corruption_training_sessions",
+              "applicability": "core",
+              "retrieval_priority": 47.0,
+              "fusion_action": "extract_missing",
+              "fusion_reason": "route_a_missing",
+              "top_chunk_id": "p29_253",
+              "top_page_number": 29,
+              "top_retrieval_score": 33,
+              "top_vector_score": 0.0
+            },
+            {
+              "field_key": "training_coverage_rate",
+              "applicability": "core",
+              "retrieval_priority": 124.0605,
+              "fusion_action": "retrieval_only",
+              "fusion_reason": "route_a_high_confidence_no_conflict",
+              "top_chunk_id": "route_a_row_4_1_21",
+              "top_page_number": 41,
+              "top_retrieval_score": 78,
+              "top_vector_score": 0.683717
+            },
+            {
+              "field_key": "r_and_d_expense",
+              "applicability": "core",
+              "retrieval_priority": 121.5827,
+              "fusion_action": "retrieval_only",
+              "fusion_reason": "route_a_high_confidence_no_conflict",
+              "top_chunk_id": "route_a_row_5_0_0",
+              "top_page_number": 42,
+              "top_retrieval_score": 78,
+              "top_vector_score": 0.479133
+            },
+            {
+              "field_key": "non_hazardous_waste",
+              "applicability": "core",
+              "retrieval_priority": 114.0849,
+              "fusion_action": "retrieval_only",
+              "fusion_reason": "route_a_high_confidence_no_conflict",
+              "top_chunk_id": "route_a_row_3_2_1",
+              "top_page_number": 40,
+              "top_retrieval_score": 66,
+              "top_vector_score": 0.654244
+            },
+            {
+              "field_key": "occupational_health_safety_investment",
+              "applicability": "core",
+              "retrieval_priority": 110.7475,
+              "fusion_action": "retrieval_only",
+              "fusion_reason": "route_a_high_confidence_no_conflict",
+              "top_chunk_id": "route_a_row_4_2_2",
+              "top_page_number": 41,
+              "top_retrieval_score": 71,
+              "top_vector_score": 0.537374
+            },
+            {
+              "field_key": "total_employees",
+              "applicability": "core",
+              "retrieval_priority": 108.0668,
+              "fusion_action": "retrieval_only",
+              "fusion_reason": "route_a_high_confidence_no_conflict",
+              "top_chunk_id": "route_a_row_4_1_0",
+              "top_page_number": 41,
+              "top_retrieval_score": 66,
+              "top_vector_score": 0.653342
+            },
+            {
+              "field_key": "hazardous_waste",
+              "applicability": "core",
+              "retrieval_priority": 107.4707,
+              "fusion_action": "retrieval_only",
+              "fusion_reason": "route_a_high_confidence_no_conflict",
+              "top_chunk_id": "route_a_row_3_2_0",
+              "top_page_number": 40,
+              "top_retrieval_score": 62,
+              "top_vector_score": 0.435295
+            },
+            {
+              "field_key": "environmental_investment",
+              "applicability": "core",
+              "retrieval_priority": 86.5772,
+              "fusion_action": "retrieval_only",
+              "fusion_reason": "route_a_high_confidence_no_conflict",
+              "top_chunk_id": "route_a_row_4_0_2",
+              "top_page_number": 41,
+              "top_retrieval_score": 51,
+              "top_vector_score": 0.32886
+            },
+            {
+              "field_key": "social_security_coverage",
+              "applicability": "core",
+              "retrieval_priority": 83.7413,
+              "fusion_action": "retrieval_only",
+              "fusion_reason": "route_a_high_confidence_no_conflict",
+              "top_chunk_id": "route_a_row_4_2_7",
+              "top_page_number": 41,
+              "top_retrieval_score": 48,
+              "top_vector_score": 0.337067
+            },
+            {
+              "field_key": "r_and_d_personnel_count",
+              "applicability": "core",
+              "retrieval_priority": 83.6778,
+              "fusion_action": "retrieval_only",
+              "fusion_reason": "route_a_high_confidence_no_conflict",
+              "top_chunk_id": "route_a_row_5_0_1",
+              "top_page_number": 42,
+              "top_retrieval_score": 48,
+              "top_vector_score": 0.333889
+            }
+          ],
+          "token_budget": {
+            "route_b2_top_k": 5,
+            "route_b2_use_vector_rag": true,
+            "route_b2_vector_top_k": 8,
+            "route_b2_skip_unlikely": true,
+            "route_b2_fusion_enabled": true,
+            "route_b2_verify_route_a_max_confidence": 0.85,
+            "route_b2_verify_route_a_zero": true,
+            "route_b2_verify_conflicts": true,
+            "route_b_chunk_strategy": "semantic_esg_v1",
+            "route_b_chunk_size": 800,
+            "route_b_chunk_overlap": 120,
+            "max_b2_llm_calls_per_report": 40
+          }
+        },
+        "total_llm_calls": 43,
+        "token_budget": {
+          "route_b_top_k": 4,
+          "route_b_recall_k": 12,
+          "route_b_use_vector_rag": true,
+          "route_b_enable_quant_fallback": true,
+          "route_b_chunk_strategy": "semantic_esg_v1",
+          "route_b_chunk_size": 800,
+          "route_b_chunk_overlap": 120,
+          "max_llm_calls_per_report": 30
+        },
+        "ingest_cache_used": true,
+        "ingest_paths": {
+          "page_texts": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\page_texts.json",
+          "page_features": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\page_features.json",
+          "text_chunks": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\text_chunks.json",
+          "document_blocks": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\document_blocks.json",
+          "document_model": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\document_model.json",
+          "manifest": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\ingest_manifest.json"
+        }
+      },
+      "route_b_quant_summary.json": {
+        "route_b2_available": true,
+        "quantitative_fallback_available": true,
+        "enabled": true,
+        "target_fields": 42,
+        "attempted_fields": 25,
+        "retrieved_fields": 39,
+        "llm_attempted_fields": 25,
+        "retrieval_only_fields": 9,
+        "verified_route_a_fields": 3,
+        "missing_route_a_fields": 29,
+        "matched_fields": 3,
+        "llm_calls": 25,
+        "industry": "pharma",
+        "text_chunk_count": 375,
+        "structured_chunk_count": 96,
+        "combined_chunk_count": 471,
+        "skipped_by_budget": 5,
+        "skipped_by_industry": 0,
+        "skipped_by_unlikely": 0,
+        "skipped_no_relevant_chunks": 3,
+        "total_llm_calls_cost": 25,
+        "ingest_cache_used": true,
+        "reused_unified_ingest": true,
+        "ingest_paths": {
+          "page_texts": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\page_texts.json",
+          "page_features": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\page_features.json",
+          "text_chunks": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\text_chunks.json",
+          "document_blocks": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\document_blocks.json",
+          "document_model": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\document_model.json",
+          "manifest": "C:\\Users\\18130\\PycharmProjects\\爬虫\\esg-multimodal-extraction-agent\\output\\reports\\603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告\\ingest\\ingest_manifest.json"
+        },
+        "retrieval_ranked_targets": [
+          {
+            "field_key": "female_directors",
+            "applicability": "core",
+            "retrieval_priority": 99.9933,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "p9_22",
+            "top_page_number": 9,
+            "top_retrieval_score": 57,
+            "top_vector_score": 0.331633
+          },
+          {
+            "field_key": "independent_directors",
+            "applicability": "core",
+            "retrieval_priority": 97.439,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "p9_22",
+            "top_page_number": 9,
+            "top_retrieval_score": 56,
+            "top_vector_score": 0.257349
+          },
+          {
+            "field_key": "environmental_penalty_count",
+            "applicability": "core",
+            "retrieval_priority": 92.1679,
+            "fusion_action": "verify_route_a",
+            "fusion_reason": "route_a_zero_value",
+            "top_chunk_id": "route_a_row_4_0_1",
+            "top_page_number": 41,
+            "top_retrieval_score": 49,
+            "top_vector_score": 0.408395
+          },
+          {
+            "field_key": "safety_accident_count",
+            "applicability": "core",
+            "retrieval_priority": 91.473,
+            "fusion_action": "verify_route_a",
+            "fusion_reason": "route_a_zero_value",
+            "top_chunk_id": "route_a_row_4_2_5",
+            "top_page_number": 41,
+            "top_retrieval_score": 49,
+            "top_vector_score": 0.373648
+          },
+          {
+            "field_key": "female_employee_ratio",
+            "applicability": "core",
+            "retrieval_priority": 88.3595,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "route_a_row_4_1_2",
+            "top_page_number": 41,
+            "top_retrieval_score": 46,
+            "top_vector_score": 0.367975
+          },
+          {
+            "field_key": "confirmed_corruption_cases",
+            "applicability": "core",
+            "retrieval_priority": 87.2527,
+            "fusion_action": "verify_route_a",
+            "fusion_reason": "route_a_zero_value",
+            "top_chunk_id": "route_a_row_5_2_0",
+            "top_page_number": 42,
+            "top_retrieval_score": 47,
+            "top_vector_score": 0.262634
+          },
+          {
+            "field_key": "male_employees",
+            "applicability": "core",
+            "retrieval_priority": 86.0846,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "route_a_row_4_1_0",
+            "top_page_number": 41,
+            "top_retrieval_score": 49,
+            "top_vector_score": 0.404228
+          },
+          {
+            "field_key": "public_welfare_investment",
+            "applicability": "core",
+            "retrieval_priority": 84.7959,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "route_a_row_4_2_6",
+            "top_page_number": 41,
+            "top_retrieval_score": 50,
+            "top_vector_score": 0.289794
+          },
+          {
+            "field_key": "employee_medical_checkup_coverage",
+            "applicability": "core",
+            "retrieval_priority": 83.9011,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "route_a_row_4_2_7",
+            "top_page_number": 41,
+            "top_retrieval_score": 48,
+            "top_vector_score": 0.345057
+          },
+          {
+            "field_key": "energy_consumption_intensity",
+            "applicability": "core",
+            "retrieval_priority": 78.0,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "p42_365",
+            "top_page_number": 42,
+            "top_retrieval_score": 43,
+            "top_vector_score": 0.0
+          },
+          {
+            "field_key": "water_consumption",
+            "applicability": "core",
+            "retrieval_priority": 77.3286,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "route_a_row_3_1_0",
+            "top_page_number": 40,
+            "top_retrieval_score": 45,
+            "top_vector_score": 0.0
+          },
+          {
+            "field_key": "energy_consumption_total",
+            "applicability": "core",
+            "retrieval_priority": 77.1802,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "p3_3",
+            "top_page_number": 3,
+            "top_retrieval_score": 33,
+            "top_vector_score": 0.0
+          },
+          {
+            "field_key": "independent_director_ratio",
+            "applicability": "core",
+            "retrieval_priority": 75.9394,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "p9_22",
+            "top_page_number": 9,
+            "top_retrieval_score": 37,
+            "top_vector_score": 0.196969
+          },
+          {
+            "field_key": "total_ghg_emissions",
+            "applicability": "core",
+            "retrieval_priority": 74.0359,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "p16_111",
+            "top_page_number": 16,
+            "top_retrieval_score": 34,
+            "top_vector_score": 0.251793
+          },
+          {
+            "field_key": "ghg_emissions_intensity",
+            "applicability": "core",
+            "retrieval_priority": 74.0,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "p42_365",
+            "top_page_number": 42,
+            "top_retrieval_score": 39,
+            "top_vector_score": 0.0
+          },
+          {
+            "field_key": "wastewater_discharge",
+            "applicability": "core",
+            "retrieval_priority": 74.0,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "route_a_row_3_1_0",
+            "top_page_number": 40,
+            "top_retrieval_score": 45,
+            "top_vector_score": 0.0
+          },
+          {
+            "field_key": "lost_work_days_due_to_injury",
+            "applicability": "core",
+            "retrieval_priority": 73.0,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "route_a_row_4_2_6",
+            "top_page_number": 41,
+            "top_retrieval_score": 39,
+            "top_vector_score": 0.0
+          },
+          {
+            "field_key": "scope_2_emissions",
+            "applicability": "core",
+            "retrieval_priority": 72.7152,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "p3_3",
+            "top_page_number": 3,
+            "top_retrieval_score": 33,
+            "top_vector_score": 0.0
+          },
+          {
+            "field_key": "natural_gas_consumption",
+            "applicability": "core",
+            "retrieval_priority": 71.2671,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "p3_3",
+            "top_page_number": 3,
+            "top_retrieval_score": 33,
+            "top_vector_score": 0.0
+          },
+          {
+            "field_key": "air_pollutant_emissions",
+            "applicability": "core",
+            "retrieval_priority": 71.0,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "route_a_row_3_2_0",
+            "top_page_number": 40,
+            "top_retrieval_score": 42,
+            "top_vector_score": 0.0
+          },
+          {
+            "field_key": "safety_emergency_drill_count",
+            "applicability": "core",
+            "retrieval_priority": 71.0,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "p31_273",
+            "top_page_number": 31,
+            "top_retrieval_score": 38,
+            "top_vector_score": 0.0
+          },
+          {
+            "field_key": "board_size",
+            "applicability": "core",
+            "retrieval_priority": 71.0,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "route_a_row_4_1_6",
+            "top_page_number": 41,
+            "top_retrieval_score": 42,
+            "top_vector_score": 0.0
+          },
+          {
+            "field_key": "board_meetings",
+            "applicability": "core",
+            "retrieval_priority": 69.3893,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "p9_22",
+            "top_page_number": 9,
+            "top_retrieval_score": 47,
+            "top_vector_score": 0.369463
+          },
+          {
+            "field_key": "electricity_consumption",
+            "applicability": "core",
+            "retrieval_priority": 68.4109,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "p20_177",
+            "top_page_number": 20,
+            "top_retrieval_score": 33,
+            "top_vector_score": 0.170545
+          },
+          {
+            "field_key": "scope_1_emissions",
+            "applicability": "core",
+            "retrieval_priority": 68.0,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "p3_3",
+            "top_page_number": 3,
+            "top_retrieval_score": 33,
+            "top_vector_score": 0.0
+          },
+          {
+            "field_key": "female_employees",
+            "applicability": "core",
+            "retrieval_priority": 67.6208,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "route_a_row_4_1_0",
+            "top_page_number": 41,
+            "top_retrieval_score": 49,
+            "top_vector_score": 0.381038
+          },
+          {
+            "field_key": "shareholder_meetings",
+            "applicability": "core",
+            "retrieval_priority": 65.0,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "p29_253",
+            "top_page_number": 29,
+            "top_retrieval_score": 33,
+            "top_vector_score": 0.0
+          },
+          {
+            "field_key": "employee_turnover_rate",
+            "applicability": "core",
+            "retrieval_priority": 54.0,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "p34_300",
+            "top_page_number": 34,
+            "top_retrieval_score": 26,
+            "top_vector_score": 0.0
+          },
+          {
+            "field_key": "training_hours_per_employee",
+            "applicability": "core",
+            "retrieval_priority": 53.0,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "p14_88",
+            "top_page_number": 14,
+            "top_retrieval_score": 27,
+            "top_vector_score": 0.0
+          },
+          {
+            "field_key": "anti_corruption_training_sessions",
+            "applicability": "core",
+            "retrieval_priority": 47.0,
+            "fusion_action": "extract_missing",
+            "fusion_reason": "route_a_missing",
+            "top_chunk_id": "p29_253",
+            "top_page_number": 29,
+            "top_retrieval_score": 33,
+            "top_vector_score": 0.0
+          },
+          {
+            "field_key": "training_coverage_rate",
+            "applicability": "core",
+            "retrieval_priority": 124.0605,
+            "fusion_action": "retrieval_only",
+            "fusion_reason": "route_a_high_confidence_no_conflict",
+            "top_chunk_id": "route_a_row_4_1_21",
+            "top_page_number": 41,
+            "top_retrieval_score": 78,
+            "top_vector_score": 0.683717
+          },
+          {
+            "field_key": "r_and_d_expense",
+            "applicability": "core",
+            "retrieval_priority": 121.5827,
+            "fusion_action": "retrieval_only",
+            "fusion_reason": "route_a_high_confidence_no_conflict",
+            "top_chunk_id": "route_a_row_5_0_0",
+            "top_page_number": 42,
+            "top_retrieval_score": 78,
+            "top_vector_score": 0.479133
+          },
+          {
+            "field_key": "non_hazardous_waste",
+            "applicability": "core",
+            "retrieval_priority": 114.0849,
+            "fusion_action": "retrieval_only",
+            "fusion_reason": "route_a_high_confidence_no_conflict",
+            "top_chunk_id": "route_a_row_3_2_1",
+            "top_page_number": 40,
+            "top_retrieval_score": 66,
+            "top_vector_score": 0.654244
+          },
+          {
+            "field_key": "occupational_health_safety_investment",
+            "applicability": "core",
+            "retrieval_priority": 110.7475,
+            "fusion_action": "retrieval_only",
+            "fusion_reason": "route_a_high_confidence_no_conflict",
+            "top_chunk_id": "route_a_row_4_2_2",
+            "top_page_number": 41,
+            "top_retrieval_score": 71,
+            "top_vector_score": 0.537374
+          },
+          {
+            "field_key": "total_employees",
+            "applicability": "core",
+            "retrieval_priority": 108.0668,
+            "fusion_action": "retrieval_only",
+            "fusion_reason": "route_a_high_confidence_no_conflict",
+            "top_chunk_id": "route_a_row_4_1_0",
+            "top_page_number": 41,
+            "top_retrieval_score": 66,
+            "top_vector_score": 0.653342
+          },
+          {
+            "field_key": "hazardous_waste",
+            "applicability": "core",
+            "retrieval_priority": 107.4707,
+            "fusion_action": "retrieval_only",
+            "fusion_reason": "route_a_high_confidence_no_conflict",
+            "top_chunk_id": "route_a_row_3_2_0",
+            "top_page_number": 40,
+            "top_retrieval_score": 62,
+            "top_vector_score": 0.435295
+          },
+          {
+            "field_key": "environmental_investment",
+            "applicability": "core",
+            "retrieval_priority": 86.5772,
+            "fusion_action": "retrieval_only",
+            "fusion_reason": "route_a_high_confidence_no_conflict",
+            "top_chunk_id": "route_a_row_4_0_2",
+            "top_page_number": 41,
+            "top_retrieval_score": 51,
+            "top_vector_score": 0.32886
+          },
+          {
+            "field_key": "social_security_coverage",
+            "applicability": "core",
+            "retrieval_priority": 83.7413,
+            "fusion_action": "retrieval_only",
+            "fusion_reason": "route_a_high_confidence_no_conflict",
+            "top_chunk_id": "route_a_row_4_2_7",
+            "top_page_number": 41,
+            "top_retrieval_score": 48,
+            "top_vector_score": 0.337067
+          },
+          {
+            "field_key": "r_and_d_personnel_count",
+            "applicability": "core",
+            "retrieval_priority": 83.6778,
+            "fusion_action": "retrieval_only",
+            "fusion_reason": "route_a_high_confidence_no_conflict",
+            "top_chunk_id": "route_a_row_5_0_1",
+            "top_page_number": 42,
+            "top_retrieval_score": 48,
+            "top_vector_score": 0.333889
+          }
+        ],
+        "token_budget": {
+          "route_b2_top_k": 5,
+          "route_b2_use_vector_rag": true,
+          "route_b2_vector_top_k": 8,
+          "route_b2_skip_unlikely": true,
+          "route_b2_fusion_enabled": true,
+          "route_b2_verify_route_a_max_confidence": 0.85,
+          "route_b2_verify_route_a_zero": true,
+          "route_b2_verify_conflicts": true,
+          "route_b_chunk_strategy": "semantic_esg_v1",
+          "route_b_chunk_size": 800,
+          "route_b_chunk_overlap": 120,
+          "max_b2_llm_calls_per_report": 40
+        }
+      }
+    },
+    "artifacts": [
+      {
+        "name": "all_table_rows.json",
+        "size_bytes": 34132,
+        "csv_rows": null
+      },
+      {
+        "name": "evidence_records.json",
+        "size_bytes": 664419,
+        "csv_rows": null
+      },
+      {
+        "name": "evidence_summary.json",
+        "size_bytes": 437,
+        "csv_rows": null
+      },
+      {
+        "name": "merge_summary.json",
+        "size_bytes": 1663,
+        "csv_rows": null
+      },
+      {
+        "name": "merged_esg_results.csv",
+        "size_bytes": 34358,
+        "csv_rows": 60
+      },
+      {
+        "name": "merged_esg_results.json",
+        "size_bytes": 92871,
+        "csv_rows": null
+      },
+      {
+        "name": "metric_execution_plans.json",
+        "size_bytes": 42755,
+        "csv_rows": null
+      },
+      {
+        "name": "pipeline_state.json",
+        "size_bytes": 110937,
+        "csv_rows": null
+      },
+      {
+        "name": "route_b_chunks.json",
+        "size_bytes": 508403,
+        "csv_rows": null
+      },
+      {
+        "name": "route_b_combined_chunks.json",
+        "size_bytes": 614781,
+        "csv_rows": null
+      },
+      {
+        "name": "route_b_quant_results.csv",
+        "size_bytes": 75553,
+        "csv_rows": 42
+      },
+      {
+        "name": "route_b_quant_results.json",
+        "size_bytes": 130950,
+        "csv_rows": null
+      },
+      {
+        "name": "route_b_quant_summary.json",
+        "size_bytes": 16877,
+        "csv_rows": null
+      },
+      {
+        "name": "route_b_summary.json",
+        "size_bytes": 20410,
+        "csv_rows": null
+      },
+      {
+        "name": "route_b_text_pages.json",
+        "size_bytes": 145253,
+        "csv_rows": null
+      },
+      {
+        "name": "route_b_text_results.csv",
+        "size_bytes": 27719,
+        "csv_rows": 18
+      },
+      {
+        "name": "route_b_text_results.json",
+        "size_bytes": 39602,
+        "csv_rows": null
+      },
+      {
+        "name": "run_call_events.json",
+        "size_bytes": 30544,
+        "csv_rows": null
+      },
+      {
+        "name": "run_cost_summary.json",
+        "size_bytes": 1212,
+        "csv_rows": null
+      },
+      {
+        "name": "schema_match_cache.json",
+        "size_bytes": 29136,
+        "csv_rows": null
+      },
+      {
+        "name": "standard_esg_results.csv",
+        "size_bytes": 10216,
+        "csv_rows": 60
+      },
+      {
+        "name": "standard_esg_results.json",
+        "size_bytes": 23106,
+        "csv_rows": null
+      },
+      {
+        "name": "table_arbitration_prepared.json",
+        "size_bytes": 2,
+        "csv_rows": null
+      },
+      {
+        "name": "table_arbitration_queue.json",
+        "size_bytes": 2,
+        "csv_rows": null
+      },
+      {
+        "name": "table_quality_assessments.json",
+        "size_bytes": 2,
+        "csv_rows": null
+      },
+      {
+        "name": "unified_pipeline_summary.json",
+        "size_bytes": 35687,
+        "csv_rows": null
+      },
+      {
+        "name": "unknown_metrics.csv",
+        "size_bytes": 21140,
+        "csv_rows": 75
+      },
+      {
+        "name": "unknown_metrics.json",
+        "size_bytes": 34564,
+        "csv_rows": null
+      },
+      {
+        "name": "validation_summary.json",
+        "size_bytes": 229,
+        "csv_rows": null
+      },
+      {
+        "name": "visual_extraction_plan.json",
+        "size_bytes": 7508,
+        "csv_rows": null
+      },
+      {
+        "name": "visual_followup_queue.json",
+        "size_bytes": 22480,
+        "csv_rows": null
+      }
+    ]
+  }
+}

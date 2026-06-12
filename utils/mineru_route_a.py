@@ -3,6 +3,7 @@ from html.parser import HTMLParser
 from typing import Any, Dict, Iterable, List
 
 
+
 YEAR_RE = re.compile(r"20[0-3][0-9]")
 NUMBER_RE = re.compile(r"^-?\d+(?:,\d{3})*(?:\.\d+)?%?$|^-?\d+(?:\.\d+)?%?$")
 PERFORMANCE_TERMS = ("关键绩效", "经济绩效", "环境绩效", "社会绩效", "治理绩效", "绩效指标")
@@ -223,23 +224,16 @@ def grid_to_route_a_rows(grid: List[List[str]], table_title: str) -> List[Dict[s
 
 
 def build_mineru_route_a_pages(blocks: Iterable[Dict[str, Any]]) -> Dict[str, Any]:
+    from utils.performance_table_detector import detect_performance_tables
+
     pages: List[Dict[str, Any]] = []
-    assessments: List[Dict[str, Any]] = []
-    for block in blocks:
-        if block.get("content_type") != "table":
-            continue
-        grid = html_table_to_grid(str(block.get("raw_content") or ""))
-        assessment = score_performance_table(block, grid)
-        assessment.update(
-            {
-                "block_id": block.get("block_id"),
-                "page_number": block.get("page_number"),
-                "bbox": block.get("bbox"),
-            }
-        )
-        assessments.append(assessment)
+    block_index = {block.get("block_id"): block for block in blocks}
+    assessments = detect_performance_tables(blocks)
+    for assessment in assessments:
         if not assessment["selected"]:
             continue
+        block = block_index.get(assessment.get("block_id"), {})
+        grid = assessment["grid"]
         metadata = block.get("metadata") if isinstance(block.get("metadata"), dict) else {}
         captions = metadata.get("table_caption") or []
         if not isinstance(captions, list):
@@ -271,7 +265,7 @@ def build_mineru_route_a_pages(blocks: Iterable[Dict[str, Any]]) -> Dict[str, An
         )
     return {
         "pages": pages,
-        "assessments": assessments,
+        "assessments": [{key: value for key, value in item.items() if key != "grid"} for item in assessments],
         "selected_tables": len(pages),
         "row_count": sum(len(table["rows"]) for page in pages for table in page["tables"]),
     }

@@ -55,12 +55,16 @@ from .huazheng_public_mapping import (
     get_applicable_field_keys,
     get_mapping_for_field,
 )
+from .route_b_candidates import ROUTE_B_CANDIDATE_FIELD_KEYS, ROUTE_B_CANDIDATE_SCHEMA
+from .runtime import build_runtime_schema
+from .topics import DISCLOSURE_TOPICS, TOPIC_INDEX
 
 __all__ = [
     "ALL_SCHEMA",
     "APPENDIX_TABLE_SCHEMA",
     "CORE_SCHEMA_FIELD_COUNT",
     "CORE_SCHEMA_VERSION",
+    "DISCLOSURE_TOPICS",
     "E_FIELD_KEYS",
     "E_SCHEMA",
     "ESG_FIELD_KEYS",
@@ -85,10 +89,14 @@ __all__ = [
     "ROUTE_A_SCHEMA",
     "ROUTE_B_FIELD_KEYS",
     "ROUTE_B_SCHEMA",
+    "ROUTE_B_CANDIDATE_FIELD_KEYS",
+    "ROUTE_B_CANDIDATE_SCHEMA",
     "SCHEMA_VERSION",
     "S_FIELD_KEYS",
     "S_SCHEMA",
     "TEXT_FIELD_KEYS",
+    "TOPIC_INDEX",
+    "build_runtime_schema",
     "framework_summary",
     "get_aliases",
     "get_applicable_field_keys",

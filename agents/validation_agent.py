@@ -17,6 +17,8 @@ class ValidationAgent(BaseAgent):
             "coverage_rate": round(extracted / total, 4) if total else 0,
             "raw_row_count": state.get("raw_row_count", 0),
             "unknown_metrics": len(state.get("unknown_metrics", [])),
+            "metric_candidates": len(state.get("metric_candidates", [])),
+            "validated_metrics": len(state.get("validated_metrics", [])),
             "needs_route_b2": needs_route_b2,
             "route_b2_reason": (
                 f"route_a_extracted_below_{ROUTE_A_B2_MIN_EXTRACTED_FIELDS}"

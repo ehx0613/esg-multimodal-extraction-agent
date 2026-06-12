@@ -237,11 +237,13 @@ class UnifiedPipelineArchitectureTests(unittest.TestCase):
                     "pipeline.unified_pipeline.build_structured_chunks_from_all_table_rows",
                     return_value=[],
                 ),
+                patch("pipeline.unified_pipeline.detect_industry", return_value="general"),
             ):
                 summary = pipeline.run(Path(tmp) / "report.pdf")
 
         route_a_run.assert_not_called()
         self.assertEqual(summary["visual_extraction"]["status"], "completed_no_summary_table")
+        self.assertEqual(summary["schema"]["core_fields"], len(ESG_FIELD_KEYS))
 
     def test_unified_pipeline_executes_budgeted_visual_followup_without_rerunning_text(self):
         ingest = {

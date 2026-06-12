@@ -1,0 +1,53 @@
+# Project Memory Update Log
+
+- Generated: 2026-06-12T17:58:16+08:00
+- Source modules indexed: 129
+- Latest report detected: `603079_圣达生物_2024_圣达生物：浙江圣达生物药业股份有限公司2025年度环境、社会及公司治理（ESG）报告`
+- Dirty Git entries: 42
+- Snapshot: `docs/project_memory/latest_snapshot.json`
+- Result: `docs/project_memory/LATEST_RESULT.md`
+
+## Git Status
+
+- `M .gitignore`
+- ` M agents/schema_match_agent.py`
+- ` M agents/supervisor_agent.py`
+- ` M agents/validation_agent.py`
+- ` M config/schema/__init__.py`
+- ` M config/settings.py`
+- ` M docs/eval/README.md`
+- ` M docs/schema/core_schema_readable.json`
+- ` M docs/schema/core_schema_readable.md`
+- ` M "output/mineru_test/600587_\346\226\260\345\215\216\345\214\273\347\226\227_2024_\346\226\260\345\215\216\345\214\273\347\226\227\357\274\232\346\226\260\345\215\216\345\214\273\347\226\2272024\345\271\264\345\272\246ESG\346\212\245\345\221\212/auto/600587_\346\226\260\345\215\216\345\214\273\347\226\227_2024_\346\226\260\345\215\216\345\214\273\347\226\227\357\274\232\346\226\260\345\215\216\345\214\273\347\226\2272024\345\271\264\345\272\246ESG\346\212\245\345\221\212_origin.pdf"`
+- ` M pipeline/agent_harness.py`
+- ` M pipeline/unified_pipeline.py`
+- ` M scripts/analyze_v1_results.py`
+- ` M scripts/inspect_agent_state.py`
+- ` M scripts/run_agent_harness_batch.py`
+- ` M tests/test_mineru_ingest.py`
+- ` M tests/test_unified_pipeline_architecture.py`
+- ` M utils/document_model.py`
+- ` M utils/mineru_parser.py`
+- ` M utils/mineru_route_a.py`
+- ` M utils/pdf_ingest.py`
+- `?? .github/`
+- `?? config/schema/route_b_candidates.py`
+- `?? config/schema/runtime.py`
+- `?? config/schema/topics.py`
+- `?? docs/architecture_current.md`
+- `?? docs/eval/golden_set_field_annotations.csv`
+- `?? docs/eval/quantitative_golden_set_template.xlsx`
+- `?? docs/eval/reviews/`
+- `?? docs/project_memory/`
+- `?? docs/schema_evolution_plan.md`
+- `?? docs/worklogs/2026-06-12_architecture_upgrade.md`
+- `?? scripts/create_quantitative_golden_template.py`
+- `?? scripts/prepare_field_review.py`
+- `?? scripts/update_project_memory.py`
+- `?? tests/test_architecture_upgrade.py`
+- `?? tests/test_metric_artifact_chain.py`
+- `?? tests/test_prepare_field_review.py`
+- `?? tests/test_schema_layers.py`
+- `?? utils/performance_table_detector.py`
+- `?? utils/project_memory.py`
+- `?? utils/raw_metric_store.py`

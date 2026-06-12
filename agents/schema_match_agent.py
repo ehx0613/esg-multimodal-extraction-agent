@@ -55,6 +55,9 @@ class SchemaMatchAgent(BaseAgent):
     def run(self, state):
         standard = {}
         unknown = []
+        raw_table_metrics = []
+        metric_candidates = []
+        validated_metrics = []
         raw_rows = 0
         cache = SchemaMatchCache(state["output_dir"] / "schema_match_cache.json")
         cache_hits = 0
@@ -67,7 +70,22 @@ class SchemaMatchAgent(BaseAgent):
                 title = table.get("table_title")
                 for row in table.get("rows", []):
                     raw_rows += 1
-                    if is_index_row(title, row):
+                    raw_metric = {
+                        "raw_metric_id": f"raw_metric_{raw_rows:05d}",
+                        "page_image": page.get("page_image"),
+                        "page_number": page.get("page_number"),
+                        "source_type": page.get("source_type") or "appendix_table",
+                        "source_region_id": page.get("source_region_id") or "",
+                        "table_title": title,
+                        "topic": row.get("topic"),
+                        "metric_name": row.get("metric_name"),
+                        "unit": row.get("unit"),
+                        "values": row.get("values"),
+                        "evidence_text": row.get("evidence_text"),
+                        "is_index_row": is_index_row(title, row),
+                    }
+                    raw_table_metrics.append(raw_metric)
+                    if raw_metric["is_index_row"]:
                         continue
                     mapping_row = {**row, "table_title": title}
                     key = row_hash(mapping_row)
@@ -79,6 +97,14 @@ class SchemaMatchAgent(BaseAgent):
                         cache_misses += 1
                     else:
                         cache_hits += 1
+                    candidate = {
+                        **raw_metric,
+                        "matched": bool(match.get("matched")),
+                        "field_key": match.get("field_key"),
+                        "confidence": match.get("confidence", 0.0),
+                        "match_reason": match.get("reason", ""),
+                    }
+                    metric_candidates.append(candidate)
                     if match["matched"]:
                         item = standard_item(
                             row,
@@ -93,12 +119,16 @@ class SchemaMatchAgent(BaseAgent):
                         old = standard.get(match["field_key"])
                         if old is None or item_priority(item) > item_priority(old):
                             standard[match["field_key"]] = item
+                        validated_metrics.append({**candidate, "validation_status": "accepted"})
                     else:
                         unknown.append({"page_image": page.get("page_image"), "table_title": title, "topic": row.get("topic"), "metric_name": row.get("metric_name"), "unit": row.get("unit"), "values": row.get("values"), "evidence_text": row.get("evidence_text"), "reason": match["reason"]})
         final = {}
         for f in ESG_FIELD_KEYS:
             final[f] = standard.get(f) or {"field_key": f, "value": None, "status": "missing", "confidence": 0.0, "name_cn": ESG_SCHEMA[f]["name_cn"], "category": ESG_SCHEMA[f]["category"], "indicator_type": ESG_SCHEMA[f]["indicator_type"]}
         state["raw_row_count"] = raw_rows
+        state["raw_table_metrics"] = raw_table_metrics
+        state["metric_candidates"] = metric_candidates
+        state["validated_metrics"] = validated_metrics
         state["standard_results"] = final
         state["unknown_metrics"] = unknown
         state["extracted_fields"] = [k for k, v in final.items() if v.get("status") == "extracted"]
@@ -111,5 +141,8 @@ class SchemaMatchAgent(BaseAgent):
         cache.save()
         save_json(final, state["output_dir"] / "standard_esg_results.json")
         save_json(unknown, state["output_dir"] / "unknown_metrics.json")
+        save_json(raw_table_metrics, state["output_dir"] / "raw_table_metrics.json")
+        save_json(metric_candidates, state["output_dir"] / "metric_candidates.json")
+        save_json(validated_metrics, state["output_dir"] / "validated_metrics.json")
         self.log(f"raw_rows={raw_rows}, extracted={len(state['extracted_fields'])}, unknown={len(unknown)}")
         return state

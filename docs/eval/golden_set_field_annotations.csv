@@ -1,0 +1,2 @@
+report_id,field_key,schema_layer,applicability,expected_status,expected_value,expected_unit,expected_year,evidence_page,evidence_text,reviewer,review_status,notes
+example_report,total_ghg_emissions,core,core,extracted,1000,tCO2e,2024,10,示例证据文本,,pending,

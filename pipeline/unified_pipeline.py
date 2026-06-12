@@ -1,9 +1,10 @@
 import hashlib
 import json
+from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict
 
-from config.schema import ALL_SCHEMA
+from config.schema import ALL_SCHEMA, build_runtime_schema
 from config.settings import (
     ROUTE_A_CANDIDATE_MIN_SCORE,
     ROUTE_A_CANDIDATE_TOP_K,
@@ -22,10 +23,12 @@ from config.settings import (
 from utils.call_tracker import LLMCallTracker
 from utils.evidence_store import build_evidence_records, write_evidence_store
 from utils.json_utils import load_json
+from utils.industry_detector import detect_industry
 from utils.metric_planner import build_metric_plans
 from utils.mineru_route_a import build_mineru_route_a_pages
 from utils.pdf_ingest import ingest_pdf, select_route_a_candidate_pages
 from utils.result_guard import safe_write_json
+from utils.raw_metric_store import write_raw_metric_store
 from utils.structured_rag_chunks import build_structured_chunks_from_all_table_rows
 from utils.table_arbitrator import (
     apply_arbitration_candidates,
@@ -58,6 +61,9 @@ class UnifiedESGPipeline:
             for block in iter(lambda: file.read(1024 * 1024), b""):
                 digest.update(block)
         return digest.hexdigest()
+
+    def _write_run_manifest(self, payload: Dict[str, Any]) -> None:
+        safe_write_json(self.report_dir / "run_manifest.json", payload)
 
     def _can_reuse_visual_results(self, pdf_fingerprint: str) -> bool:
         standard_path = self.report_dir / "standard_esg_results.csv"
@@ -105,12 +111,14 @@ class UnifiedESGPipeline:
 
         result = build_mineru_route_a_pages(ingest.get("blocks", []))
         safe_write_json(self.report_dir / "mineru_route_a_assessments.json", result["assessments"])
+        raw_metric_store = write_raw_metric_store(self.report_dir, result["pages"])
         if not result["selected_tables"] or result["row_count"] < MINERU_ROUTE_A_MIN_ROWS:
             return {
                 "available": False,
                 "reason": "no_valid_mineru_performance_tables",
                 "selected_tables": result["selected_tables"],
                 "row_count": result["row_count"],
+                "raw_metric_store": raw_metric_store,
             }
 
         from agents.schema_match_agent import SchemaMatchAgent
@@ -139,6 +147,7 @@ class UnifiedESGPipeline:
             "reason": "mineru_performance_tables",
             "selected_tables": result["selected_tables"],
             "row_count": result["row_count"],
+            "raw_metric_store": raw_metric_store,
         }
 
     def _run_text_extraction(self, pdf_path: Path) -> Dict[str, Any]:
@@ -400,7 +409,38 @@ class UnifiedESGPipeline:
     def _run_impl(self, pdf_path: Path, *, reuse_visual_results: bool = True) -> Dict[str, Any]:
         pdf_path = Path(pdf_path)
         pdf_fingerprint = self._pdf_fingerprint(pdf_path)
+        started_at = datetime.now().astimezone().isoformat(timespec="seconds")
+        manifest = {
+            "manifest_version": "v2.0",
+            "run_id": f"{pdf_path.stem}_{datetime.now().strftime('%Y%m%d_%H%M%S')}",
+            "status": "running",
+            "started_at": started_at,
+            "finished_at": None,
+            "pdf_path": str(pdf_path),
+            "report_dir": str(self.report_dir),
+            "run_mode": self.run_mode,
+            "routes": {
+                "document_ingest": {"status": "running"},
+                "route_a_performance_tables": {"status": "pending"},
+                "route_b_document_extraction": {"status": "pending"},
+                "fusion": {"status": "pending"},
+            },
+            "artifacts": {},
+            "warnings": [],
+            "errors": [],
+        }
+        self._write_run_manifest(manifest)
         ingest = ingest_pdf(pdf_path, self.report_dir)
+        manifest["routes"]["document_ingest"] = {
+            "status": "completed",
+            "parser_name": ingest["manifest"].get("parser_name"),
+            "selection_reason": ingest["manifest"].get("parser_selection_reason"),
+        }
+        manifest["routes"]["route_a_performance_tables"]["status"] = "running"
+        self._write_run_manifest(manifest)
+        industry = detect_industry(pdf_path.stem, ingest.get("pages", []))
+        runtime_schema = build_runtime_schema(industry)
+        safe_write_json(self.report_dir / "runtime_schema.json", runtime_schema)
         metric_plans = build_metric_plans(ALL_SCHEMA)
         safe_write_json(self.report_dir / "metric_execution_plans.json", metric_plans)
         visual_plan = self._visual_plan(ingest)
@@ -443,10 +483,23 @@ class UnifiedESGPipeline:
                 "raw_row_count": 0,
                 "extracted_fields": 0,
             }
+        manifest["routes"]["route_a_performance_tables"] = {
+            "status": "completed",
+            "summary": visual_summary,
+            "raw_metric_store": mineru_route_a.get("raw_metric_store", {}),
+        }
+        manifest["routes"]["route_b_document_extraction"]["status"] = "running"
+        self._write_run_manifest(manifest)
 
         table_arbitration_summary = self._prepare_table_arbitration(pdf_path)
         table_arbitration_summary["vlm"] = self._run_table_arbitration_vlm()
         extraction_summary = self._run_text_extraction(pdf_path)
+        manifest["routes"]["route_b_document_extraction"] = {
+            "status": "completed",
+            "summary": extraction_summary,
+        }
+        manifest["routes"]["fusion"]["status"] = "running"
+        self._write_run_manifest(manifest)
 
         evidence_summary, visual_followup_queue = self._build_evidence_and_followup(
             ingest=ingest,
@@ -477,12 +530,22 @@ class UnifiedESGPipeline:
             )
             targeted_visual_summary["full_text_rerun_skipped"] = True
         merge_summary = self._run_merge()
+        manifest["routes"]["fusion"] = {"status": "completed", "summary": merge_summary}
 
         summary = {
             "status": "completed",
             "run_mode": self.run_mode,
             "pdf_path": str(pdf_path),
             "report_dir": str(self.report_dir),
+            "schema": {
+                "industry": industry,
+                "core_fields": len(ALL_SCHEMA),
+                "runtime_fields": len(runtime_schema),
+                "industry_extension_fields": sum(
+                    item.get("schema_layer") == "industry_extension" for item in runtime_schema
+                ),
+                "path": str(self.report_dir / "runtime_schema.json"),
+            },
             "document_ingest": {
                 "cache_used": ingest["cache_used"],
                 "text_available": ingest["manifest"].get("text_available", False),
@@ -515,4 +578,15 @@ class UnifiedESGPipeline:
             "merge": merge_summary,
         }
         safe_write_json(self.report_dir / "unified_pipeline_summary.json", summary)
+        manifest["status"] = "completed"
+        manifest["finished_at"] = datetime.now().astimezone().isoformat(timespec="seconds")
+        manifest["artifacts"] = {
+            "document_model": ingest.get("paths", {}).get("document_model", ""),
+            "markdown": ingest.get("paths", {}).get("markdown", ""),
+            "raw_table_metrics": str(self.report_dir / "raw_table_metrics.json"),
+            "merged_results": str(self.report_dir / "merged_esg_results.json"),
+            "summary": str(self.report_dir / "unified_pipeline_summary.json"),
+            "cost_summary": str(self.report_dir / "run_cost_summary.json"),
+        }
+        self._write_run_manifest(manifest)
         return summary

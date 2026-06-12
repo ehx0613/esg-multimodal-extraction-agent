@@ -76,3 +76,24 @@ Recommended initial workflow:
 4. fill `per_report_eval.csv`
 5. score manual fields with `reviewer_checklist.md`
 6. summarize recurring failure patterns before changing prompts or matching logic
+
+## Field-Level Manual Review
+
+Generate a review sheet from one report's final merged output:
+
+```powershell
+python -m scripts.prepare_field_review "600587_新华医疗_2024"
+```
+
+The command accepts either a complete report directory or a unique partial
+directory name. It writes a CSV and instructions under `docs/eval/reviews/`.
+
+Fill the `review_result` column with one of:
+
+- `correct`
+- `wrong`
+- `correct_missing`
+- `missed`
+
+For `wrong` and `missed`, also fill the golden value/evidence columns and
+`error_type`. Start with rows whose `review_priority` begins with `high_`.

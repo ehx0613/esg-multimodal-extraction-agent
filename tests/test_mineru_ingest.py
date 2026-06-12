@@ -75,7 +75,12 @@ class MinerUIngestTests(unittest.TestCase):
             )
 
             self.assertEqual(ingest["manifest"]["parser_name"], "mineru")
-            self.assertEqual(ingest["manifest"]["document_model_version"], "1.0")
+            self.assertEqual(ingest["manifest"]["document_model_version"], "1.1")
+            self.assertEqual(
+                ingest["manifest"]["parser_selection_reason"],
+                "mineru_content_list_available",
+            )
+            self.assertTrue(Path(ingest["paths"]["markdown"]).exists())
             self.assertEqual(len(ingest["pages"]), 1)
             self.assertIn("用水量", ingest["pages"][0]["text"])
             self.assertNotIn("公司名称", ingest["pages"][0]["text"])

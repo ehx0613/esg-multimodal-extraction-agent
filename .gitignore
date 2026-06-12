@@ -16,6 +16,9 @@ output/page_images/*
 output/json/*
 output/csv/*
 output/reports/*
+output/mineru_test/*
+output/mineru_adapter_validation/*
+output_backup_*/
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !output/page_images/.gitkeep

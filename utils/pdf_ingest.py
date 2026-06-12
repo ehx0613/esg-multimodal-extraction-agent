@@ -4,6 +4,9 @@ from typing import Any, Dict, List
 
 from config.settings import (
     MINERU_FALLBACK_TO_PYMUPDF,
+    MINERU_AUTO_RUN_ENABLED,
+    MINERU_AUTO_RUN_TIMEOUT_SECONDS,
+    MINERU_COMMAND,
     MINERU_OUTPUT_ROOT,
     PDF_PARSER_BACKEND,
     ROUTE_A_INCLUDE_CHART_PAGES,
@@ -21,9 +24,10 @@ from utils.document_model import (
     chunk_document_blocks,
     document_blocks_to_pages,
     pages_to_document_blocks,
+    document_blocks_to_markdown,
 )
 from utils.json_utils import load_json, save_json
-from utils.mineru_parser import find_mineru_content_list, parse_mineru_content_list
+from utils.mineru_parser import find_mineru_content_list, parse_mineru_content_list, run_mineru_for_pdf
 from utils.pdf_text_utils import extract_pdf_text_by_page, has_enough_text_layer
 from utils.pdf_utils import INDEX_NEGATIVE_WORDS, METRIC_WORDS, TITLE_PATTERNS, UNIT_WORDS, expand_page_indices, normalize_text
 from utils.semantic_text_chunker import chunk_pages_semantic_esg
@@ -33,7 +37,7 @@ from utils.text_chunker import chunk_pages
 DEFAULT_ROUTE_A_TOP_K = 3
 DEFAULT_ROUTE_A_EXPAND_BEFORE = 1
 DEFAULT_ROUTE_A_EXPAND_AFTER = 2
-INGEST_VERSION = "document_model_v1_mineru_adapter_v1"
+INGEST_VERSION = "document_model_v1_1_mineru_adapter_v2"
 
 STRONG_PERFORMANCE_TITLE_WORDS = [
     "关键绩效",
@@ -380,13 +384,24 @@ def _select_parser_source(
         raise ValueError(f"Unsupported PDF_PARSER_BACKEND: {parser_backend}")
 
     mineru_path = None
+    mineru_run = {"attempted": False, "status": "not_requested", "error": ""}
     if parser_backend in {"auto", "mineru"}:
         mineru_path = find_mineru_content_list(pdf_path, output_dir, mineru_output_root)
+        if not mineru_path and MINERU_AUTO_RUN_ENABLED:
+            mineru_run = run_mineru_for_pdf(
+                pdf_path,
+                mineru_output_root,
+                command_template=MINERU_COMMAND,
+                timeout_seconds=MINERU_AUTO_RUN_TIMEOUT_SECONDS,
+            )
+            mineru_path = find_mineru_content_list(pdf_path, output_dir, mineru_output_root)
     if mineru_path:
         return {
             "parser_name": "mineru",
             "source_path": str(mineru_path),
             "source_signature": _file_signature(mineru_path),
+            "selection_reason": "mineru_content_list_available",
+            "mineru_run": mineru_run,
         }
     if parser_backend == "mineru" and not MINERU_FALLBACK_TO_PYMUPDF:
         raise FileNotFoundError(f"MinerU content_list.json not found for: {pdf_path}")
@@ -394,6 +409,12 @@ def _select_parser_source(
         "parser_name": "pymupdf",
         "source_path": str(pdf_path),
         "source_signature": _file_signature(pdf_path),
+        "selection_reason": (
+            "mineru_auto_run_failed_fallback"
+            if mineru_run.get("attempted")
+            else "mineru_content_list_not_found_fallback"
+        ),
+        "mineru_run": mineru_run,
     }
 
 
@@ -417,6 +438,7 @@ def ingest_pdf(
     text_chunks_path = ingest_dir / "text_chunks.json"
     document_blocks_path = ingest_dir / "document_blocks.json"
     document_model_path = ingest_dir / "document_model.json"
+    markdown_path = ingest_dir / "document.md"
     manifest_path = ingest_dir / "ingest_manifest.json"
     parser_source = _select_parser_source(
         pdf_path,
@@ -468,6 +490,7 @@ def ingest_pdf(
                 "text_chunks": str(text_chunks_path),
                 "document_blocks": str(document_blocks_path),
                 "document_model": str(document_model_path),
+                "markdown": str(markdown_path),
                 "manifest": str(manifest_path),
             },
         }
@@ -511,6 +534,7 @@ def ingest_pdf(
         source_signature=parser_source["source_signature"],
         blocks=blocks,
     )
+    markdown_path.write_text(document_blocks_to_markdown(blocks), encoding="utf-8")
     manifest = {
         "ingest_version": INGEST_VERSION,
         "pdf_path": str(pdf_path),
@@ -518,6 +542,8 @@ def ingest_pdf(
         "parser_name": parser_source["parser_name"],
         "parser_version": parser_version,
         "parser_source_path": parser_source["source_path"],
+        "parser_selection_reason": parser_source.get("selection_reason", ""),
+        "mineru_run": parser_source.get("mineru_run", {}),
         "parser_source_signature": parser_source["source_signature"],
         "document_model_version": document_model["document_model_version"],
         "total_pages": len(pages),
@@ -555,7 +581,8 @@ def ingest_pdf(
             "page_features": str(page_features_path),
             "text_chunks": str(text_chunks_path),
             "document_blocks": str(document_blocks_path),
-            "document_model": str(document_model_path),
+                "document_model": str(document_model_path),
+                "markdown": str(markdown_path),
             "manifest": str(manifest_path),
         },
     }

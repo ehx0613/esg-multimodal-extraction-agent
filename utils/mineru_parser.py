@@ -1,11 +1,48 @@
 import html
 import os
 import re
+import shlex
+import subprocess
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, Dict, List
 
 from utils.json_utils import load_json
+
+
+def run_mineru_for_pdf(
+    pdf_path: Path,
+    configured_root: str,
+    *,
+    command_template: str,
+    timeout_seconds: int,
+) -> Dict[str, Any]:
+    """Run a user-configured MinerU command and return structured diagnostics."""
+    if not command_template.strip():
+        return {"attempted": False, "status": "not_configured", "error": ""}
+    output_root = Path(configured_root)
+    output_root.mkdir(parents=True, exist_ok=True)
+    command = command_template.format(pdf=str(Path(pdf_path).resolve()), output=str(output_root.resolve()))
+    try:
+        completed = subprocess.run(
+            shlex.split(command, posix=os.name != "nt"),
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            timeout=timeout_seconds,
+            check=False,
+        )
+        return {
+            "attempted": True,
+            "status": "completed" if completed.returncode == 0 else "failed",
+            "return_code": completed.returncode,
+            "stdout_tail": completed.stdout[-2000:],
+            "stderr_tail": completed.stderr[-2000:],
+            "error": "",
+        }
+    except Exception as exc:
+        return {"attempted": True, "status": "exception", "error": str(exc)}
 
 
 class _HTMLTextExtractor(HTMLParser):

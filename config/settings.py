@@ -31,6 +31,9 @@ ROUTE_B_SEMANTIC_BLOCK_OVERLAP = int(os.getenv("ROUTE_B_SEMANTIC_BLOCK_OVERLAP",
 PDF_PARSER_BACKEND = os.getenv("PDF_PARSER_BACKEND", "auto").lower()
 MINERU_OUTPUT_ROOT = os.getenv("MINERU_OUTPUT_ROOT", str(PROJECT_ROOT / "output" / "mineru_test"))
 MINERU_FALLBACK_TO_PYMUPDF = os.getenv("MINERU_FALLBACK_TO_PYMUPDF", "true").lower() == "true"
+MINERU_AUTO_RUN_ENABLED = os.getenv("MINERU_AUTO_RUN_ENABLED", "false").lower() == "true"
+MINERU_COMMAND = os.getenv("MINERU_COMMAND", "")
+MINERU_AUTO_RUN_TIMEOUT_SECONDS = int(os.getenv("MINERU_AUTO_RUN_TIMEOUT_SECONDS", "1800"))
 MINERU_ROUTE_A_ENABLED = os.getenv("MINERU_ROUTE_A_ENABLED", "true").lower() == "true"
 MINERU_ROUTE_A_MIN_ROWS = int(os.getenv("MINERU_ROUTE_A_MIN_ROWS", "3"))
 MAX_LLM_CALLS_PER_REPORT = int(os.getenv("MAX_LLM_CALLS_PER_REPORT", "30"))
@@ -63,6 +66,7 @@ TABLE_QUALITY_VISUAL_THRESHOLD = float(os.getenv("TABLE_QUALITY_VISUAL_THRESHOLD
 UNIFIED_PREPARE_ARBITRATION_IMAGES = os.getenv("UNIFIED_PREPARE_ARBITRATION_IMAGES", "true").lower() == "true"
 UNIFIED_ARBITRATION_MAX_REGIONS = int(os.getenv("UNIFIED_ARBITRATION_MAX_REGIONS", "10"))
 UNIFIED_ENABLE_TABLE_ARBITRATION_VLM = os.getenv("UNIFIED_ENABLE_TABLE_ARBITRATION_VLM", "true").lower() == "true"
+UNIFIED_PARALLEL_ROUTES = os.getenv("UNIFIED_PARALLEL_ROUTES", "false").lower() == "true"
 ENABLE_LLM_FOR_QUANTITATIVE = os.getenv("ENABLE_LLM_FOR_QUANTITATIVE", "false").lower() == "true"
 LLM_ONLY_FOR_LOW_CONFIDENCE = os.getenv("LLM_ONLY_FOR_LOW_CONFIDENCE", "true").lower() == "true"
 CACHE_LLM_RESULTS = os.getenv("CACHE_LLM_RESULTS", "true").lower() == "true"
@@ -81,6 +85,7 @@ TOKEN_BUDGET = {
     "pdf_parser_backend": PDF_PARSER_BACKEND,
     "mineru_output_root": MINERU_OUTPUT_ROOT,
     "mineru_fallback_to_pymupdf": MINERU_FALLBACK_TO_PYMUPDF,
+    "mineru_auto_run_enabled": MINERU_AUTO_RUN_ENABLED,
     "mineru_route_a_enabled": MINERU_ROUTE_A_ENABLED,
     "mineru_route_a_min_rows": MINERU_ROUTE_A_MIN_ROWS,
     "max_llm_calls_per_report": MAX_LLM_CALLS_PER_REPORT,
@@ -121,6 +126,7 @@ TOKEN_BUDGET = {
     "unified_prepare_arbitration_images": UNIFIED_PREPARE_ARBITRATION_IMAGES,
     "unified_arbitration_max_regions": UNIFIED_ARBITRATION_MAX_REGIONS,
     "unified_enable_table_arbitration_vlm": UNIFIED_ENABLE_TABLE_ARBITRATION_VLM,
+    "unified_parallel_routes": UNIFIED_PARALLEL_ROUTES,
     "enable_llm_for_quantitative": ENABLE_LLM_FOR_QUANTITATIVE,
     "llm_only_for_low_confidence": LLM_ONLY_FOR_LOW_CONFIDENCE,
     "cache_llm_results": CACHE_LLM_RESULTS,

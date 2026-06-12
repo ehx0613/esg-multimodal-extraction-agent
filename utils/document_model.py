@@ -17,7 +17,7 @@ def build_document_model(
     blocks: List[Dict[str, Any]],
 ) -> Dict[str, Any]:
     return {
-        "document_model_version": "1.0",
+        "document_model_version": "1.1",
         "pdf_path": str(Path(pdf_path)),
         "parser_name": parser_name,
         "parser_version": parser_version,
@@ -25,6 +25,23 @@ def build_document_model(
         "block_count": len(blocks),
         "blocks": blocks,
     }
+
+
+def document_blocks_to_markdown(blocks: Iterable[Dict[str, Any]]) -> str:
+    parts: List[str] = []
+    for block in blocks:
+        content_type = str(block.get("content_type") or "")
+        text = str(block.get("plain_text") or "").strip()
+        if not text:
+            continue
+        if content_type == "title":
+            level = min(max(len(block.get("section_path") or []), 1), 6)
+            parts.append(f"{'#' * level} {text}")
+        elif content_type == "table" and str(block.get("raw_content") or "").strip():
+            parts.append(str(block["raw_content"]).strip())
+        else:
+            parts.append(text)
+    return "\n\n".join(parts).strip() + "\n"
 
 
 def pages_to_document_blocks(pages: Iterable[Dict[str, Any]]) -> List[Dict[str, Any]]:

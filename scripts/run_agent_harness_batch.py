@@ -10,7 +10,9 @@ from pipeline.agent_harness import ESGAgentHarness
 from utils.result_guard import safe_write_csv, safe_write_json
 
 
-EXPECTED_ROWS = 68
+from config.schema import CORE_SCHEMA_FIELD_COUNT
+
+EXPECTED_ROWS = CORE_SCHEMA_FIELD_COUNT
 
 
 def collect_report_dirs(reports_root: Path) -> List[Path]:

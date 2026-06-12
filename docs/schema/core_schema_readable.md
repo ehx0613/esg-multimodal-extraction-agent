@@ -2,11 +2,11 @@
 
 ## Summary
 
-- Total: 68
-- Quantitative: 63
-- Qualitative: 5
-- E: 26
-- S: 27
+- Total: 60
+- Quantitative: 42
+- Qualitative: 18
+- E: 21
+- S: 24
 - G: 15
 
 ## Fields
@@ -21,57 +21,12 @@
 - `unit_type`: ghg
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["温室气体排放总量", "温室气体总排放量", "碳排放总量", "温室气体排放量"]
-- `required_any`: ["温室气体排放总量", "温室气体总排放量", "碳排放总量", "温室气体排放量"]
-- `forbidden_any`: ["范围一", "范围1", "范围 1", "scope1", "scope 1", "直接温室气体", "范围二", "范围2", "范围 2", "scope2", "scope 2", "间接温室气体", "范围三", "范围3", "范围 3", "scope3", "scope 3", "排放强度", "密度"]
-- `unit_examples`: ["吨CO2e", "吨二氧化碳当量", "万吨CO2e"]
+- `aliases`: ["温室气体排放总量", "温室气体排放总计", "碳排放总量", "GHG排放总量"]
+- `required_any`: ["温室气体排放总量", "温室气体排放总计", "碳排放总量", "GHG排放总量"]
+- `forbidden_any`: ["范围一", "范围1", "Scope 1", "范围二", "范围2", "Scope 2", "范围三", "范围3", "Scope 3", "强度"]
+- `unit_examples`: ["吨CO2e", "吨二氧化碳当量", "二氧化碳当量公吨数", "tCO2e"]
 
-### 2. `scope_1_emissions`
-
-- `name_cn`: 范围一温室气体排放量
-- `category`: E
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: ghg
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["范围一排放", "范围一温室气体排放", "直接温室气体排放", "直接温室气体排放量", "直接温室气体排放总量"]
-- `required_any`: ["范围一", "范围1", "范围 1", "scope1", "scope 1", "直接温室气体"]
-- `forbidden_any`: ["范围二", "Scope2", "间接温室气体", "排放强度"]
-- `unit_examples`: ["吨CO2e", "吨二氧化碳当量"]
-
-### 3. `scope_2_emissions`
-
-- `name_cn`: 范围二温室气体排放量
-- `category`: E
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: ghg
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["范围二排放", "范围二温室气体排放", "间接温室气体排放", "间接温室气体排放量", "间接温室气体排放总量"]
-- `required_any`: ["范围二", "范围2", "范围 2", "scope2", "scope 2", "间接温室气体"]
-- `forbidden_any`: ["范围一", "Scope1", "直接温室气体", "排放强度"]
-- `unit_examples`: ["吨CO2e", "吨二氧化碳当量"]
-
-### 4. `scope_3_emissions`
-
-- `name_cn`: 范围三温室气体排放量
-- `category`: E
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: ghg
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["范围三排放", "范围三温室气体排放", "范围三温室气体排放量", "范围 3 温室气体排放量", "范围3温室气体排放量", "Scope 3 排放", "Scope3 排放"]
-- `required_any`: ["范围三", "范围3", "范围 3", "scope3", "scope 3"]
-- `forbidden_any`: ["范围一", "范围1", "范围二", "范围2", "排放强度", "密度", "上游", "下游", "上游排放", "下游排放", "外购商品和服务", "员工通勤", "商务旅行", "差旅", "资本货物", "燃料和能源相关活动"]
-- `unit_examples`: ["吨CO2e", "吨二氧化碳当量", "万吨二氧化碳当量"]
-
-### 5. `ghg_emissions_intensity`
+### 2. `ghg_emissions_intensity`
 
 - `name_cn`: 温室气体排放强度
 - `category`: E
@@ -81,12 +36,42 @@
 - `unit_type`: intensity
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["温室气体排放强度", "碳排放强度", "单位收入碳排放", "单位产值碳排放", "温室气体排放密度", "碳排放密度", "单位营收温室气体排放"]
-- `required_any`: ["排放强度", "碳排放强度", "单位收入碳排放", "单位产值碳排放", "温室气体排放密度", "碳排放密度", "单位营收温室气体排放"]
-- `forbidden_any`: ["排放总量"]
-- `unit_examples`: ["吨CO2e/万元", "吨CO2e/吨产品"]
+- `aliases`: ["温室气体排放强度", "温室气体排放密度", "碳排放强度", "碳排放密度", "GHG排放强度", "单位营收温室气体排放", "单位收入温室气体排放"]
+- `required_any`: ["强度", "密度", "单位营收", "单位收入"]
+- `forbidden_any`: ["总量", "范围一", "范围1", "Scope 1", "范围二", "范围2", "Scope 2"]
+- `unit_examples`: ["吨CO2e/万元", "吨二氧化碳当量/万元", "tCO2e/百万元"]
 
-### 6. `energy_consumption_total`
+### 3. `scope_1_emissions`
+
+- `name_cn`: 范围一温室气体排放量
+- `category`: E
+- `indicator_type`: quantitative
+- `value_type`: number
+- `preferred_source`: appendix_table
+- `unit_type`: ghg
+- `unit_required`: True
+- `year_required`: True
+- `aliases`: ["范围一温室气体排放量", "范围1温室气体排放量", "Scope 1排放", "直接温室气体排放"]
+- `required_any`: ["范围一", "范围1", "Scope 1", "直接温室气体"]
+- `forbidden_any`: ["范围二", "范围2", "Scope 2", "范围三", "范围3", "Scope 3"]
+- `unit_examples`: ["吨CO2e", "吨二氧化碳当量", "二氧化碳当量公吨数", "tCO2e"]
+
+### 4. `scope_2_emissions`
+
+- `name_cn`: 范围二温室气体排放量
+- `category`: E
+- `indicator_type`: quantitative
+- `value_type`: number
+- `preferred_source`: appendix_table
+- `unit_type`: ghg
+- `unit_required`: True
+- `year_required`: True
+- `aliases`: ["范围二温室气体排放量", "范围2温室气体排放量", "Scope 2排放", "间接温室气体排放"]
+- `required_any`: ["范围二", "范围2", "Scope 2", "间接温室气体"]
+- `forbidden_any`: ["范围一", "范围1", "Scope 1", "范围三", "范围3", "Scope 3"]
+- `unit_examples`: ["吨CO2e", "吨二氧化碳当量", "二氧化碳当量公吨数", "tCO2e"]
+
+### 5. `energy_consumption_total`
 
 - `name_cn`: 能源消耗总量
 - `category`: E
@@ -96,12 +81,12 @@
 - `unit_type`: energy
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["能源消耗总量", "综合能耗", "总能源消耗", "综合能源消耗量", "能源消耗量"]
-- `required_any`: ["能源消耗总量", "综合能耗", "总能源消耗", "综合能源消耗量", "能源消耗量"]
-- `forbidden_any`: ["强度", "单位", "电使用量", "用电量", "耗电量", "外购电力"]
-- `unit_examples`: ["吨标准煤", "吨标煤", "MWh", "万千瓦时"]
+- `aliases`: ["能源消耗总量", "综合能源消耗", "能源使用总量", "直接能源消耗"]
+- `required_any`: ["能源消耗总量", "综合能源消耗", "能源使用总量", "直接能源消耗"]
+- `forbidden_any`: ["强度", "密度", "单位产值"]
+- `unit_examples`: ["兆瓦时", "MWh", "千瓦时", "吨标准煤"]
 
-### 7. `energy_consumption_intensity`
+### 6. `energy_consumption_intensity`
 
 - `name_cn`: 能源消耗强度
 - `category`: E
@@ -111,104 +96,44 @@
 - `unit_type`: intensity
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["能源消耗强度", "综合能耗强度", "能耗强度", "单位收入能耗", "单位产值能耗", "能源消耗密度", "能源使用密度", "单位营收能源消耗"]
-- `required_any`: ["强度", "单位收入能耗", "单位产值能耗", "能耗强度", "能源消耗密度", "能源使用密度", "单位营收能源消耗"]
-- `forbidden_any`: ["能源消耗总量", "综合能耗总量"]
-- `unit_examples`: ["吨标准煤/万元", "吨标煤/万元"]
+- `aliases`: ["能源消耗强度", "能源消耗密度", "综合能源消耗强度", "综合能源消耗密度", "单位能源消耗", "单位产值综合能耗", "单位营收能源消耗", "能耗强度", "能耗密度"]
+- `required_any`: ["强度", "密度", "单位", "单耗"]
+- `forbidden_any`: ["总量", "总能耗", "综合能源消耗量"]
+- `unit_examples`: ["吨标准煤/万元", "吨标煤/万元", "千瓦时/万元", "兆瓦时/万元"]
 
-### 8. `electricity_consumption`
-
-- `name_cn`: 电力消耗量
-- `category`: E
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: energy
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["电力消耗", "用电量", "耗电量", "外购电力", "电使用量", "营业办公消耗电力", "电力使用量", "电力"]
-- `required_any`: ["电力消耗", "用电量", "耗电量", "外购电力", "电使用量", "营业办公消耗电力", "电力使用量", "电力"]
-- `forbidden_any`: ["光伏", "新能源发电量", "清洁能源", "可再生能源", "绿色电力"]
-- `unit_examples`: ["千瓦时", "万千瓦时", "MWh", "兆瓦时"]
-
-### 9. `renewable_energy_consumption`
-
-- `name_cn`: 可再生能源使用量
-- `category`: E
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: energy
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["可再生能源使用量", "可再生能源消耗量", "绿色电力", "清洁能源使用量", "光伏等新能源发电量", "新能源发电量"]
-- `required_any`: ["可再生能源", "绿色电力", "清洁能源", "光伏", "新能源发电"]
-- `forbidden_any`: ["化石能源", "煤炭", "天然气"]
-- `unit_examples`: ["千瓦时", "万千瓦时", "吨标准煤"]
-
-### 10. `natural_gas_consumption`
+### 7. `natural_gas_consumption`
 
 - `name_cn`: 天然气消耗量
 - `category`: E
 - `indicator_type`: quantitative
 - `value_type`: number
 - `preferred_source`: appendix_table
-- `unit_type`: gas
+- `unit_type`: energy
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["天然气消耗量", "天然气使用量", "天然气用量"]
+- `aliases`: ["天然气", "天然气消耗量", "天然气使用量", "天然气用量", "天然气耗用量"]
 - `required_any`: ["天然气"]
-- `forbidden_any`: []
-- `unit_examples`: ["立方米", "万立方米"]
+- `forbidden_any`: ["排放因子", "排放系数", "换算系数", "核算方法"]
+- `unit_examples`: ["立方米", "万立方米", "m3", "m³", "吉焦"]
 
-### 11. `coal_consumption`
+### 8. `electricity_consumption`
 
-- `name_cn`: 煤炭消耗量
+- `name_cn`: 用电量
 - `category`: E
 - `indicator_type`: quantitative
 - `value_type`: number
 - `preferred_source`: appendix_table
-- `unit_type`: mass
+- `unit_type`: energy
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["煤炭消耗量", "煤耗", "原煤消耗量", "煤使用量"]
-- `required_any`: ["煤炭", "煤耗", "原煤"]
-- `forbidden_any`: ["替代化石能源"]
-- `unit_examples`: ["吨", "万吨"]
+- `aliases`: ["用电量", "耗电量", "电力消耗", "电力总量", "外购电力"]
+- `required_any`: ["用电量", "耗电量", "电力消耗", "电力总量", "外购电力"]
+- `forbidden_any`: ["绿电", "可再生能源"]
+- `unit_examples`: ["千瓦时", "兆瓦时", "kWh", "MWh"]
 
-### 12. `water_consumption`
+### 9. `water_consumption`
 
-- `name_cn`: 水资源消耗量
-- `category`: E
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: water
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["总耗水量", "用水量", "取水量", "耗水量", "新鲜水用量", "营业办公耗水", "水资源消耗量"]
-- `required_any`: ["总耗水量", "用水量", "取水量", "耗水量", "新鲜水用量", "营业办公耗水", "水资源消耗量"]
-- `forbidden_any`: ["废水", "循环", "回用", "节水", "强度", "密度"]
-- `unit_examples`: ["吨", "万吨", "立方米", "万立方米"]
-
-### 13. `water_consumption_intensity`
-
-- `name_cn`: 水资源消耗强度
-- `category`: E
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: intensity
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["水资源消耗强度", "用水强度", "耗水强度", "单位收入耗水", "单位产值耗水", "水资源使用强度", "水资源使用密度", "单位营收水资源使用量"]
-- `required_any`: ["用水强度", "耗水强度", "水资源消耗强度", "单位收入耗水", "单位产值耗水", "水资源使用强度", "水资源使用密度", "单位营收水资源使用量"]
-- `forbidden_any`: ["总耗水量", "总用水量"]
-- `unit_examples`: ["吨/万元", "立方米/万元"]
-
-### 14. `recycled_water_volume`
-
-- `name_cn`: 循环水或回用水量
+- `name_cn`: 用水量
 - `category`: E
 - `indicator_type`: quantitative
 - `value_type`: number
@@ -216,12 +141,12 @@
 - `unit_type`: water
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["循环水使用量", "循环用水量", "循环水量", "回用水量", "中水回用量", "再生水使用量"]
-- `required_any`: ["循环水", "循环用水", "回用水", "中水回用", "再生水"]
-- `forbidden_any`: ["总耗水量", "废水排放量"]
-- `unit_examples`: ["吨", "万吨", "立方米", "万立方米"]
+- `aliases`: ["用水量", "取水量", "新鲜水用量", "总耗水量", "市政用水量", "市政购水量"]
+- `required_any`: ["用水量", "取水量", "新鲜水用量", "总耗水量", "市政用水量", "市政购水量"]
+- `forbidden_any`: ["废水", "回用水", "循环水", "强度"]
+- `unit_examples`: ["吨", "立方米"]
 
-### 15. `wastewater_discharge`
+### 10. `wastewater_discharge`
 
 - `name_cn`: 废水排放量
 - `category`: E
@@ -231,14 +156,14 @@
 - `unit_type`: water
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["废水排放量", "污水排放量"]
-- `required_any`: ["废水排放", "污水排放"]
-- `forbidden_any`: ["废水处理", "废水达标率", "循环水", "回用水"]
-- `unit_examples`: ["吨", "万吨", "立方米", "万立方米"]
+- `aliases`: ["废水排放量", "污水排放量", "废水排放总量"]
+- `required_any`: ["废水排放量", "污水排放量", "废水排放总量"]
+- `forbidden_any`: ["回用水", "循环水"]
+- `unit_examples`: ["吨", "立方米"]
 
-### 16. `cod_emissions`
+### 11. `air_pollutant_emissions`
 
-- `name_cn`: 化学需氧量排放量
+- `name_cn`: 废气或大气污染物排放量
 - `category`: E
 - `indicator_type`: quantitative
 - `value_type`: number
@@ -246,74 +171,14 @@
 - `unit_type`: mass
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["化学需氧量排放量", "COD排放量", "COD", "化学需氧量"]
-- `required_any`: ["化学需氧量", "COD"]
+- `aliases`: ["废气排放量", "大气污染物排放量", "氮氧化物排放量", "二氧化硫排放量", "颗粒物排放量", "VOCs排放量"]
+- `required_any`: ["废气排放量", "大气污染物排放量", "氮氧化物排放量", "二氧化硫排放量", "颗粒物排放量", "VOCs排放量"]
 - `forbidden_any`: []
 - `unit_examples`: ["吨", "千克"]
 
-### 17. `ammonia_nitrogen_emissions`
+### 12. `non_hazardous_waste`
 
-- `name_cn`: 氨氮排放量
-- `category`: E
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: mass
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["氨氮排放量", "氨氮"]
-- `required_any`: ["氨氮"]
-- `forbidden_any`: []
-- `unit_examples`: ["吨", "千克"]
-
-### 18. `so2_emissions`
-
-- `name_cn`: 二氧化硫排放量
-- `category`: E
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: mass
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["二氧化硫排放量", "SO2排放量", "硫氧化物排放量", "硫氧化物", "氧化硫", "SOX", "SOx"]
-- `required_any`: ["二氧化硫", "SO2", "硫氧化物", "氧化硫", "SOx", "SOX"]
-- `forbidden_any`: ["氮氧化物", "NOx", "NOX", "削减", "削减量", "减排", "减排量", "减少量"]
-- `unit_examples`: ["吨", "千克"]
-
-### 19. `nox_emissions`
-
-- `name_cn`: 氮氧化物排放量
-- `category`: E
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: mass
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["氮氧化物排放量", "NOx排放量", "NOX排放量", "氮氧化物"]
-- `required_any`: ["氮氧化物", "NOx", "NOX"]
-- `forbidden_any`: ["二氧化硫", "SO2", "硫氧化物", "削减", "削减量", "减排", "减排量", "减少量"]
-- `unit_examples`: ["吨", "千克"]
-
-### 20. `particulate_matter_emissions`
-
-- `name_cn`: 颗粒物排放量
-- `category`: E
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: mass
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["颗粒物排放量", "烟尘排放量", "颗粒物", "烟尘"]
-- `required_any`: ["颗粒物", "烟尘"]
-- `forbidden_any`: ["削减", "削减量", "减排", "减排量", "减少量"]
-- `unit_examples`: ["吨", "千克"]
-
-### 21. `hazardous_waste`
-
-- `name_cn`: 危险废弃物产生或排放量
+- `name_cn`: 一般废弃物产生量
 - `category`: E
 - `indicator_type`: quantitative
 - `value_type`: number
@@ -321,14 +186,14 @@
 - `unit_type`: waste
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["危险废物", "危险废弃物", "有害废弃物", "危废", "危险废弃物排放量", "危险废弃物产生量"]
-- `required_any`: ["危险废物", "危险废弃物", "有害废弃物", "危废"]
-- `forbidden_any`: ["一般固体废弃物", "无害废弃物", "非危险废物", "密度", "强度", "单位营收", "单位收入", "每万元", "每亿元", "循环利用", "回收利用", "再利用", "利用量", "回收量"]
-- `unit_examples`: ["吨", "万吨"]
+- `aliases`: ["一般废弃物产生量", "一般废弃物产生总量", "无害废弃物量", "无害废弃物产生量", "无害废弃物产生总量", "无害废弃物总量", "非危险废弃物", "非危险废弃物量", "非危险废弃物产生总量", "一般固体废弃物"]
+- `required_any`: ["一般废弃物产生量", "一般废弃物产生总量", "无害废弃物量", "无害废弃物产生量", "无害废弃物产生总量", "无害废弃物总量", "非危险废弃物", "非危险废弃物量", "非危险废弃物产生总量", "一般固体废弃物"]
+- `forbidden_any`: ["危险废弃物", "危废"]
+- `unit_examples`: ["吨", "千克"]
 
-### 22. `non_hazardous_waste`
+### 13. `hazardous_waste`
 
-- `name_cn`: 无害废弃物产生或排放量
+- `name_cn`: 危险废弃物产生量
 - `category`: E
 - `indicator_type`: quantitative
 - `value_type`: number
@@ -336,42 +201,12 @@
 - `unit_type`: waste
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["一般固体废弃物", "无害废弃物", "非危险废物", "一般废弃物", "无害废弃物产生量"]
-- `required_any`: ["一般固体废弃物", "无害废弃物", "非危险废物", "一般废弃物"]
-- `forbidden_any`: ["危险废物", "危险废弃物", "有害废弃物", "危废", "密度", "强度", "单位营收", "单位收入", "每万元", "每亿元", "循环利用", "回收利用", "再利用", "利用量", "回收量"]
-- `unit_examples`: ["吨", "万吨"]
-
-### 23. `total_waste`
-
-- `name_cn`: 废弃物总量
-- `category`: E
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: waste
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["废弃物产生总量", "固体废弃物总量", "废弃物总量", "废弃物排放总量"]
-- `required_any`: ["废弃物总量", "废弃物产生总量", "固体废弃物总量", "废弃物排放总量"]
-- `forbidden_any`: ["危险废物", "危险废弃物", "一般固体废弃物", "无害废弃物", "回收利用", "循环利用", "再利用", "利用量", "回收量"]
-- `unit_examples`: ["吨", "万吨"]
-
-### 24. `waste_recycling_rate`
-
-- `name_cn`: 废弃物回收利用率
-- `category`: E
-- `indicator_type`: quantitative
-- `value_type`: percentage
-- `preferred_source`: appendix_table
-- `unit_type`: percentage
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["废弃物回收利用率", "回收利用率", "回收率", "废弃物回收率"]
-- `required_any`: ["回收利用率", "回收率"]
+- `aliases`: ["危险废弃物产生量", "危废产生量", "有害废弃物", "危险废物"]
+- `required_any`: ["危险废弃物产生量", "危废产生量", "有害废弃物", "危险废物"]
 - `forbidden_any`: []
-- `unit_examples`: ["%"]
+- `unit_examples`: ["吨", "千克"]
 
-### 25. `environmental_investment`
+### 14. `environmental_investment`
 
 - `name_cn`: 环保投入金额
 - `category`: E
@@ -381,12 +216,12 @@
 - `unit_type`: money
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["环保投入", "环境保护投入", "环保投资", "环保总投资", "环境治理投入金额", "环保总投入"]
-- `required_any`: ["环保投入", "环境保护投入", "环保投资", "环保总投资", "环境治理投入", "环保总投入"]
-- `forbidden_any`: ["培训投入", "研发投入"]
-- `unit_examples`: ["万元", "亿元"]
+- `aliases`: ["环保投入", "环保总投资", "环保总投入", "环境保护投入", "环保投资"]
+- `required_any`: ["环保投入", "环保总投资", "环保总投入", "环境保护投入", "环保投资"]
+- `forbidden_any`: []
+- `unit_examples`: ["万元", "元", "百万元"]
 
-### 26. `environmental_violation_cases`
+### 15. `environmental_penalty_count`
 
 - `name_cn`: 环境违规或处罚事件数量
 - `category`: E
@@ -396,12 +231,12 @@
 - `unit_type`: count
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["环境违规事件数量", "环境处罚次数", "环保处罚", "环境违法事件", "因环境事件受到生态环境等有关部门重大行政处罚的处罚事件", "环境行政处罚事件"]
-- `required_any`: ["环境违规", "环境处罚", "环保处罚", "环境违法", "重大行政处罚", "生态环境"]
-- `forbidden_any`: ["培训", "演练"]
-- `unit_examples`: ["次", "件", "宗"]
+- `aliases`: ["环境违规或处罚事件数量", "环境处罚次数", "环保处罚", "环境违法违规事件", "环境行政处罚"]
+- `required_any`: ["环境违规或处罚事件数量", "环境处罚次数", "环保处罚", "环境违法违规事件", "环境行政处罚"]
+- `forbidden_any`: []
+- `unit_examples`: ["次", "件", "起"]
 
-### 27. `total_employees`
+### 16. `total_employees`
 
 - `name_cn`: 员工总数
 - `category`: S
@@ -411,12 +246,12 @@
 - `unit_type`: person_count
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["员工总数", "员工总人数", "雇员总数", "人员总数", "员工人数", "总员工数"]
-- `required_any`: ["员工总数", "员工总人数", "雇员总数", "人员总数", "员工人数", "总员工数"]
-- `forbidden_any`: ["男性", "女性", "少数民族", "30岁", "40岁", "50岁", "培训", "反腐败", "反贪污", "反商业贿赂", "参加", "参与", "受训", "按性别", "按年龄"]
+- `aliases`: ["员工总数", "雇员总数", "员工人数", "在职员工总数", "员工总人数"]
+- `required_any`: ["员工总数", "雇员总数", "员工人数", "在职员工总数", "员工总人数"]
+- `forbidden_any`: ["男性", "女性", "少数民族", "30岁", "50岁", "按年龄", "按性别", "按职位", "按员工类别", "培训", "董事", "体检", "探亲"]
 - `unit_examples`: ["人", "名"]
 
-### 28. `male_employees`
+### 17. `male_employees`
 
 - `name_cn`: 男性员工人数
 - `category`: S
@@ -426,12 +261,12 @@
 - `unit_type`: person_count
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["男性员工人数", "男性员工数量", "男员工人数", "男性员工", "男性"]
-- `required_any`: ["男性员工", "男员工", "男性"]
-- `forbidden_any`: ["比例", "占比", "%", "女性", "管理层"]
+- `aliases`: ["男性员工人数", "男员工人数", "男性雇员人数", "男性员工"]
+- `required_any`: ["男性员工人数", "男员工人数", "男性雇员人数", "男性员工"]
+- `forbidden_any`: ["比例", "%", "女性", "高级管理层", "执行管理层", "管理层"]
 - `unit_examples`: ["人", "名"]
 
-### 29. `female_employees`
+### 18. `female_employees`
 
 - `name_cn`: 女性员工人数
 - `category`: S
@@ -441,12 +276,12 @@
 - `unit_type`: person_count
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["女性员工人数", "女性员工数量", "女员工人数", "女性员工", "女性"]
-- `required_any`: ["女性员工", "女员工", "女性"]
-- `forbidden_any`: ["比例", "占比", "%", "男性", "管理层", "女性管理"]
+- `aliases`: ["女性员工人数", "女员工人数", "女性雇员人数", "女性员工"]
+- `required_any`: ["女性员工人数", "女员工人数", "女性雇员人数", "女性员工"]
+- `forbidden_any`: ["比例", "%", "男性", "女性管理层", "高级管理层", "执行管理层", "管理层", "育儿假", "产假", "生育假", "享受假期"]
 - `unit_examples`: ["人", "名"]
 
-### 30. `female_employee_ratio`
+### 19. `female_employee_ratio`
 
 - `name_cn`: 女性员工比例
 - `category`: S
@@ -456,87 +291,12 @@
 - `unit_type`: percentage
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["女性员工比例", "女性员工占比", "女性雇员比例"]
-- `required_any`: ["女性员工比例", "女性员工占比", "女性雇员比例"]
-- `forbidden_any`: ["女性管理层", "女性管理人员", "中层管理层"]
+- `aliases`: ["女性员工比例", "女性员工占比", "女员工占比", "女性雇员比例"]
+- `required_any`: ["女性员工比例", "女性员工占比", "女员工占比", "女性雇员比例"]
+- `forbidden_any`: ["女性管理层", "女性董事"]
 - `unit_examples`: ["%"]
 
-### 31. `female_management_ratio`
-
-- `name_cn`: 女性管理层比例
-- `category`: S
-- `indicator_type`: quantitative
-- `value_type`: percentage
-- `preferred_source`: appendix_table
-- `unit_type`: percentage
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["女性管理层比例", "女性管理人员占比", "管理人员中女性人数比例", "中层管理层中的女性员工比例", "女性管理者比例"]
-- `required_any`: ["女性管理层", "女性管理人员", "管理人员中女性", "中层管理层中的女性", "女性管理者"]
-- `forbidden_any`: ["女性员工人数", "女性员工数量"]
-- `unit_examples`: ["%"]
-
-### 32. `minority_employees`
-
-- `name_cn`: 少数民族员工人数
-- `category`: S
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: person_count
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["少数民族员工人数", "少数民族员工数量", "少数民族人数", "少数民族"]
-- `required_any`: ["少数民族"]
-- `forbidden_any`: ["非少数民族"]
-- `unit_examples`: ["人", "名"]
-
-### 33. `employees_under_30`
-
-- `name_cn`: 30岁以下员工人数
-- `category`: S
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: person_count
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["30岁以下员工人数", "30岁以下", "30周岁以下", "30岁及30岁以下", "30岁以下（不含30岁）", "<30岁", "小于30岁"]
-- `required_any`: ["30岁以下", "30周岁以下", "30岁及30岁以下", "<30岁", "小于30岁"]
-- `forbidden_any`: ["30-40", "30至40", "40-50", "40至50", "50岁"]
-- `unit_examples`: ["人", "名"]
-
-### 34. `employees_30_to_50`
-
-- `name_cn`: 30至50岁员工人数
-- `category`: S
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: person_count
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["30至50岁员工人数", "30-50岁员工人数", "30岁至50岁员工人数", "30岁-50岁", "30岁至50岁", "大于30岁且小于50岁"]
-- `required_any`: ["30至50", "30-50", "30岁至50", "30岁-50岁", "30岁至50岁", "大于30岁且小于50岁"]
-- `forbidden_any`: ["30岁以下", "50岁以上", "50岁及以上", "30-40", "30至40", "40-50", "40至50"]
-- `unit_examples`: ["人", "名"]
-
-### 35. `employees_over_50`
-
-- `name_cn`: 50岁以上员工人数
-- `category`: S
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: person_count
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["50岁以上员工人数", "50岁及以上", "50周岁以上", "50岁及50岁以上", ">50岁", "大于50岁"]
-- `required_any`: ["50岁以上", "50岁及以上", "50周岁以上", "50岁及50岁以上", ">50岁", "大于50岁"]
-- `forbidden_any`: ["30岁以下", "30-40", "30至40", "40-50", "40至50"]
-- `unit_examples`: ["人", "名"]
-
-### 36. `employee_turnover_rate`
+### 20. `employee_turnover_rate`
 
 - `name_cn`: 员工流失率
 - `category`: S
@@ -546,12 +306,12 @@
 - `unit_type`: percentage
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["员工流失率", "离职率", "员工离职率"]
-- `required_any`: ["员工流失率", "离职率", "员工离职率"]
-- `forbidden_any`: ["人数", "数量"]
+- `aliases`: ["员工流失率", "员工离职率", "雇员流失率", "员工流动率"]
+- `required_any`: ["员工流失率", "员工离职率", "雇员流失率", "员工流动率"]
+- `forbidden_any`: []
 - `unit_examples`: ["%"]
 
-### 37. `training_total_hours`
+### 21. `training_total_hours`
 
 - `name_cn`: 员工培训总时长
 - `category`: S
@@ -561,12 +321,12 @@
 - `unit_type`: hour
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["员工培训总时长", "培训总小时数", "培训总时数", "员工受训总时数", "员工培训总学时", "培训总学时", "全体员工培训总学时", "全体员工总受训时长"]
-- `required_any`: ["培训总时长", "培训总小时", "培训总时数", "员工受训总时数", "员工培训总学时", "培训总学时", "全体员工培训总学时", "全体员工总受训时长"]
-- `forbidden_any`: ["人均", "平均", "志愿服务", "公益慈善", "反腐败", "反贪污", "反商业贿赂", "安全生产", "安全培训", "环保培训", "质量培训"]
-- `unit_examples`: ["小时", "学时"]
+- `aliases`: ["员工培训总时长", "培训总时长", "培训总小时", "员工培训总小时数", "累计培训时长", "安全培训总时长"]
+- `required_any`: ["员工培训总时长", "培训总时长", "培训总小时", "员工培训总小时数", "累计培训时长", "安全培训总时长"]
+- `forbidden_any`: ["人均", "供应商", "反腐败", "廉洁", "商业道德"]
+- `unit_examples`: ["小时"]
 
-### 38. `training_hours_per_employee`
+### 22. `training_hours_per_employee`
 
 - `name_cn`: 人均培训时长
 - `category`: S
@@ -576,12 +336,12 @@
 - `unit_type`: hour
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["人均培训时长", "人均培训小时数", "员工平均培训时数", "员工受训平均时数", "平均培训时数", "每名员工培训时数"]
-- `required_any`: ["人均培训", "平均培训时数", "员工平均培训时数", "员工受训平均时数", "每名员工培训时数"]
-- `forbidden_any`: ["高层", "中层", "基层", "新员工", "新入职", "男性", "女性", "反腐败", "反贪污", "反商业贿赂", "安全生产", "安全培训", "培训总时长"]
+- `aliases`: ["人均培训时长", "员工平均培训时数", "员工受训平均时数", "平均培训时数", "平均培训小时数"]
+- `required_any`: ["人均", "平均"]
+- `forbidden_any`: ["高层", "中层", "基层", "新员工", "新入职", "反腐败", "廉洁", "安全培训"]
 - `unit_examples`: ["小时", "小时/人"]
 
-### 39. `training_coverage_rate`
+### 23. `training_coverage_rate`
 
 - `name_cn`: 员工培训覆盖率
 - `category`: S
@@ -591,87 +351,12 @@
 - `unit_type`: percentage
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["员工培训覆盖率", "培训覆盖率", "员工受训覆盖率", "受训员工比例", "参加培训的员工覆盖率"]
-- `required_any`: ["员工培训覆盖率", "培训覆盖率", "员工受训覆盖率", "受训员工比例", "参加培训的员工覆盖率"]
-- `forbidden_any`: ["反腐败", "反贪污", "反商业贿赂", "安全生产", "健康档案", "工伤保险", "采购", "供应商", "专项培训", "环保培训", "安全培训", "质量培训"]
+- `aliases`: ["员工培训覆盖率", "培训覆盖率", "受训员工比例", "员工培训参与率"]
+- `required_any`: ["员工培训覆盖率", "培训覆盖率", "受训员工比例", "员工培训参与率"]
+- `forbidden_any`: ["税务", "供应商", "安全", "质量", "环保", "反腐败", "反贪污", "商业贿赂", "廉洁", "合规"]
 - `unit_examples`: ["%"]
 
-### 40. `training_expense`
-
-- `name_cn`: 培训投入金额
-- `category`: S
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: money
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["培训投入", "培训费用", "培训支出费用", "培训费用总支出", "员工培训投入金额"]
-- `required_any`: ["培训投入", "培训费用", "培训支出"]
-- `forbidden_any`: ["培训总时长", "人均培训", "志愿服务"]
-- `unit_examples`: ["万元", "元"]
-
-### 41. `trained_employees_count`
-
-- `name_cn`: 受训员工人数或人次
-- `category`: S
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: person_time
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["参加培训的员工总数", "受训员工人数", "参加培训员工人数", "培训总人次", "受训员工人次", "员工受训总人次", "全体员工受训总人次", "累计参加培训学员人数"]
-- `required_any`: ["参加培训", "受训员工", "培训总人次", "员工受训总人次", "全体员工受训总人次", "累计参加培训学员人数"]
-- `forbidden_any`: ["培训覆盖率", "人均培训", "培训费用", "培训总时长", "小时", "学时", "反腐败", "反贪污", "反商业贿赂", "安全生产", "安全培训", "环保", "环境保护", "环境合规"]
-- `unit_examples`: ["人", "人次"]
-
-### 42. `work_injury_rate`
-
-- `name_cn`: 工伤率
-- `category`: S
-- `indicator_type`: quantitative
-- `value_type`: number_or_percentage
-- `preferred_source`: appendix_table
-- `unit_type`: percentage_or_rate
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["工伤率", "工伤事故率"]
-- `required_any`: ["工伤率", "工伤事故率"]
-- `forbidden_any`: ["因工死亡", "工亡", "损失工作日", "损失工时", "总工伤人数", "安全事故数"]
-- `unit_examples`: ["%", "次/百万工时"]
-
-### 43. `work_related_fatalities`
-
-- `name_cn`: 因工死亡人数
-- `category`: S
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: person_count
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["因工死亡人数", "工亡人数", "工作相关死亡人数", "因工作关系死亡总人数", "因工作关系死亡人数"]
-- `required_any`: ["因工死亡", "工亡", "工作相关死亡", "因工作关系死亡"]
-- `forbidden_any`: ["工伤率", "损失工作日", "损失工时"]
-- `unit_examples`: ["人", "次"]
-
-### 44. `lost_workdays_due_to_injury`
-
-- `name_cn`: 因工伤损失工作日数
-- `category`: S
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: day_or_hour
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["因工伤损失工作日数", "因工伤损失工时", "损失工作日", "损失工时", "员工因工伤损失总天数", "工伤损失总天数"]
-- `required_any`: ["损失工作日", "损失工时", "员工因工伤损失总天数", "工伤损失总天数"]
-- `forbidden_any`: ["因工死亡", "工亡"]
-- `unit_examples`: ["天", "小时"]
-
-### 45. `social_insurance_coverage_rate`
+### 24. `social_security_coverage`
 
 - `name_cn`: 社会保险覆盖率
 - `category`: S
@@ -681,14 +366,14 @@
 - `unit_type`: percentage
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["社会保险覆盖率", "社保覆盖率", "工伤保险人员覆盖率", "工伤保险覆盖率"]
-- `required_any`: ["社会保险覆盖率", "社保覆盖率", "工伤保险人员覆盖率", "工伤保险覆盖率"]
-- `forbidden_any`: ["培训覆盖率", "健康档案"]
+- `aliases`: ["社会保险覆盖率", "社保覆盖率", "员工社保覆盖率", "社会保险参保率", "社会保险缴纳覆盖率"]
+- `required_any`: ["社会保险", "社保"]
+- `forbidden_any`: []
 - `unit_examples`: ["%"]
 
-### 46. `employee_health_record_coverage_rate`
+### 25. `employee_medical_checkup_coverage`
 
-- `name_cn`: 员工健康档案或体检覆盖率
+- `name_cn`: 员工体检覆盖率
 - `category`: S
 - `indicator_type`: quantitative
 - `value_type`: percentage
@@ -696,14 +381,44 @@
 - `unit_type`: percentage
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["员工健康档案覆盖率", "职业健康档案覆盖率", "健康档案覆盖率", "员工体检覆盖率", "体检覆盖率"]
-- `required_any`: ["健康档案覆盖率", "职业健康档案覆盖率", "员工体检覆盖率", "体检覆盖率"]
-- `forbidden_any`: ["培训覆盖率", "社保覆盖率", "社会保险"]
+- `aliases`: ["员工体检覆盖率", "体检覆盖率", "员工健康体检覆盖率", "职业健康体检覆盖率"]
+- `required_any`: ["体检", "健康体检"]
+- `forbidden_any`: []
 - `unit_examples`: ["%"]
 
-### 47. `r_and_d_investment`
+### 26. `trained_employees_count`
 
-- `name_cn`: 研发投入金额
+- `name_cn`: 受训员工人数
+- `category`: S
+- `indicator_type`: quantitative
+- `value_type`: number
+- `preferred_source`: appendix_table
+- `unit_type`: person_time
+- `unit_required`: True
+- `year_required`: True
+- `aliases`: ["受训员工人数", "培训员工人数", "参与培训员工人数", "员工培训人次", "受训人次", "接受培训总人数", "接受培训总人次", "员工接受培训总人数"]
+- `required_any`: ["受训员工人数", "培训员工人数", "参与培训员工人数", "员工培训人次", "受训人次", "接受培训总人数", "接受培训总人次", "员工接受培训总人数"]
+- `forbidden_any`: []
+- `unit_examples`: ["人", "人次"]
+
+### 27. `safety_accident_count`
+
+- `name_cn`: 安全生产事故数量
+- `category`: S
+- `indicator_type`: quantitative
+- `value_type`: number
+- `preferred_source`: appendix_table
+- `unit_type`: count
+- `unit_required`: True
+- `year_required`: True
+- `aliases`: ["安全生产事故数量", "安全事故数", "生产安全事故数", "生产安全事故", "工伤事故数量"]
+- `required_any`: ["安全生产事故数量", "安全事故数", "生产安全事故数", "生产安全事故", "工伤事故数量"]
+- `forbidden_any`: []
+- `unit_examples`: ["起", "次", "件"]
+
+### 28. `occupational_health_safety_investment`
+
+- `name_cn`: 安全生产投入
 - `category`: S
 - `indicator_type`: quantitative
 - `value_type`: number
@@ -711,12 +426,42 @@
 - `unit_type`: money
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["研发投入", "科技研发投入", "研发费用", "研发资金投入"]
-- `required_any`: ["研发投入", "科技研发投入", "研发费用", "研发资金"]
-- `forbidden_any`: ["研发人员", "研发团队", "研发队伍", "比例", "占比"]
-- `unit_examples`: ["万元", "亿元"]
+- `aliases`: ["安全生产投入", "职业健康安全投入", "安全投入", "安全生产费用", "安全费用投入"]
+- `required_any`: ["安全", "职业健康"]
+- `forbidden_any`: ["事故", "次数", "演练"]
+- `unit_examples`: ["万元", "元", "百万元"]
 
-### 48. `r_and_d_employees`
+### 29. `safety_emergency_drill_count`
+
+- `name_cn`: 安全应急演练次数
+- `category`: S
+- `indicator_type`: quantitative
+- `value_type`: number
+- `preferred_source`: appendix_table
+- `unit_type`: count
+- `unit_required`: True
+- `year_required`: True
+- `aliases`: ["安全应急演练次数", "应急演练次数", "安全演练次数", "应急演练场次", "安全应急演练场次"]
+- `required_any`: ["演练"]
+- `forbidden_any`: ["培训", "投入", "事故"]
+- `unit_examples`: ["次", "场"]
+
+### 30. `lost_work_days_due_to_injury`
+
+- `name_cn`: 因工伤损失工作日数
+- `category`: S
+- `indicator_type`: quantitative
+- `value_type`: number
+- `preferred_source`: appendix_table
+- `unit_type`: count
+- `unit_required`: True
+- `year_required`: True
+- `aliases`: ["因工伤损失工作日数", "工伤损失工作日", "损失工时", "因工伤损失天数"]
+- `required_any`: ["因工伤损失工作日数", "工伤损失工作日", "损失工时", "因工伤损失天数"]
+- `forbidden_any`: []
+- `unit_examples`: ["天", "日", "小时"]
+
+### 31. `r_and_d_personnel_count`
 
 - `name_cn`: 研发人员数量
 - `category`: S
@@ -726,57 +471,42 @@
 - `unit_type`: person_count
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["研发人员数量", "研发队伍人数", "研发员工人数", "研发团队总人数", "研发团队人数", "研发人员总数"]
-- `required_any`: ["研发人员", "研发团队", "研发队伍", "研发员工"]
-- `forbidden_any`: ["研发投入", "研发费用", "研发资金", "比例", "占比", "%"]
+- `aliases`: ["研发人员数量", "研发人员人数", "研发员工人数", "研发人员总数"]
+- `required_any`: ["研发人员数量", "研发人员人数", "研发员工人数", "研发人员总数"]
+- `forbidden_any`: ["比例", "%", "投入"]
 - `unit_examples`: ["人", "名"]
 
-### 49. `authorized_patents_new`
+### 32. `r_and_d_expense`
 
-- `name_cn`: 当年新增授权专利数量
+- `name_cn`: 研发投入金额
 - `category`: S
 - `indicator_type`: quantitative
 - `value_type`: number
 - `preferred_source`: appendix_table
-- `unit_type`: count
+- `unit_type`: money
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["新增授权专利数量", "新增授权专利数", "当年授权专利数量", "报告当年授权的专利总数", "获得科技发明专利授权证书"]
-- `required_any`: ["新增授权专利", "当年授权专利", "报告当年授权", "获得科技发明专利授权证书"]
-- `forbidden_any`: ["累计", "有效期内", "有效专利拥有量"]
-- `unit_examples`: ["项", "件", "个"]
+- `aliases`: ["研发投入金额", "研发投入", "公司研发总投入", "研发费用", "研发支出"]
+- `required_any`: ["研发投入金额", "研发投入", "公司研发总投入", "研发费用", "研发支出"]
+- `forbidden_any`: ["研发人员"]
+- `unit_examples`: ["万元", "元", "百万元"]
 
-### 50. `authorized_patents_total`
+### 33. `public_welfare_investment`
 
-- `name_cn`: 累计授权专利数量
+- `name_cn`: 公益投入金额
 - `category`: S
 - `indicator_type`: quantitative
 - `value_type`: number
 - `preferred_source`: appendix_table
-- `unit_type`: count
+- `unit_type`: money
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["累计拥有授权专利数量", "累计授权专利数量", "有效专利拥有量", "授权且有效专利拥有量", "授权专利累计数", "授权专利累计数（有效期内的专利数）", "截至报告期末有效专利数量", "有效专利数量", "报告期末有效专利数量", "有效期内的专利数", "报告期内有效专利数"]
-- `required_any`: ["累计授权专利", "授权专利累计", "有效期内的专利", "有效专利拥有量", "授权且有效专利", "报告期内有效专利数", "截至报告期末有效专利数量", "有效专利数量", "报告期末有效专利数量"]
-- `forbidden_any`: ["新增", "当年", "申请"]
-- `unit_examples`: ["项", "件", "个"]
+- `aliases`: ["公益投入金额", "公益投入", "社会公益投入", "慈善捐赠金额", "对外捐赠", "对外捐赠金额"]
+- `required_any`: ["公益投入金额", "公益投入", "社会公益投入", "慈善捐赠金额", "对外捐赠", "对外捐赠金额"]
+- `forbidden_any`: []
+- `unit_examples`: ["万元", "元", "百万元"]
 
-### 51. `customer_complaints`
-
-- `name_cn`: 客户投诉数量
-- `category`: S
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: count
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["客户投诉数量", "客户投诉案件数量", "客户投诉次数", "投诉数量"]
-- `required_any`: ["客户投诉", "投诉数量", "投诉次数"]
-- `forbidden_any`: ["投诉解决率", "举报", "申诉", "举报机制"]
-- `unit_examples`: ["件", "起", "次"]
-
-### 52. `board_size`
+### 34. `board_size`
 
 - `name_cn`: 董事会人数
 - `category`: G
@@ -786,12 +516,12 @@
 - `unit_type`: person_count
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["董事会人数", "董事人数"]
-- `required_any`: ["董事会人数", "董事人数", "董事会成员", "董事会成员的人数"]
-- `forbidden_any`: ["培训", "反腐败", "反贪污", "反商业贿赂", "占比", "比例", "百分比", "%", "不兼任", "不兼任高管", "高管职务"]
+- `aliases`: ["董事会人数", "董事人数", "董事会成员人数", "董事总数"]
+- `required_any`: ["董事会人数", "董事人数", "董事会成员人数", "董事总数"]
+- `forbidden_any`: ["独立董事", "女性董事", "%", "比例", "高管", "高级管理人员"]
 - `unit_examples`: ["人", "名"]
 
-### 53. `independent_directors`
+### 35. `independent_directors`
 
 - `name_cn`: 独立董事人数
 - `category`: G
@@ -803,10 +533,10 @@
 - `year_required`: True
 - `aliases`: ["独立董事人数", "独立董事数量", "独董人数"]
 - `required_any`: ["独立董事人数", "独立董事数量", "独董人数"]
-- `forbidden_any`: ["独立董事比例", "独立董事占比", "%"]
+- `forbidden_any`: ["比例", "%"]
 - `unit_examples`: ["人", "名"]
 
-### 54. `independent_director_ratio`
+### 36. `independent_director_ratio`
 
 - `name_cn`: 独立董事比例
 - `category`: G
@@ -816,12 +546,12 @@
 - `unit_type`: percentage
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["独立董事比例", "独立董事占比"]
-- `required_any`: ["独立董事比例", "独立董事占比"]
-- `forbidden_any`: ["独立董事人数", "独立董事数量"]
+- `aliases`: ["独立董事比例", "独立董事占比", "独董比例", "独董占比"]
+- `required_any`: ["独立董事比例", "独立董事占比", "独董比例", "独董占比"]
+- `forbidden_any`: ["人数", "数量", "审计委员会", "提名委员会", "薪酬与考核委员会", "专门委员会"]
 - `unit_examples`: ["%"]
 
-### 55. `female_directors`
+### 37. `female_directors`
 
 - `name_cn`: 女性董事人数
 - `category`: G
@@ -831,12 +561,12 @@
 - `unit_type`: person_count
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["女性董事人数", "女性董事数量"]
-- `required_any`: ["女性董事人数", "女性董事数量"]
-- `forbidden_any`: ["女性董事比例", "女性董事占比", "%"]
+- `aliases`: ["女性董事人数", "女董事人数", "女性董事数量", "女性董事"]
+- `required_any`: ["女性董事人数", "女董事人数", "女性董事数量", "女性董事"]
+- `forbidden_any`: ["比例", "%"]
 - `unit_examples`: ["人", "名"]
 
-### 56. `board_meetings`
+### 38. `board_meetings`
 
 - `name_cn`: 董事会会议次数
 - `category`: G
@@ -846,12 +576,12 @@
 - `unit_type`: count
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["董事会会议次数", "董事会召开次数", "董事会次数", "董事会会议召开次数"]
-- `required_any`: ["董事会会议", "董事会召开"]
-- `forbidden_any`: ["股东大会", "监事会", "审议", "议案"]
-- `unit_examples`: ["次"]
+- `aliases`: ["董事会会议次数", "董事会召开次数", "召开董事会", "董事会会议"]
+- `required_any`: ["董事会会议次数", "董事会召开次数", "召开董事会", "董事会会议"]
+- `forbidden_any`: ["股东大会", "监事会", "专门委员会", "战略委员会", "审计委员会", "提名委员会", "薪酬与考核委员会"]
+- `unit_examples`: ["次", "场"]
 
-### 57. `shareholder_meetings`
+### 39. `shareholder_meetings`
 
 - `name_cn`: 股东大会会议次数
 - `category`: G
@@ -861,12 +591,12 @@
 - `unit_type`: count
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["股东大会召开次数", "股东大会会议次数", "股东大会次数", "股东大会会议召开次数"]
-- `required_any`: ["股东大会"]
-- `forbidden_any`: ["董事会", "监事会", "审议", "议案"]
-- `unit_examples`: ["次"]
+- `aliases`: ["股东大会会议次数", "股东大会召开次数", "股东大会次数", "召开股东大会"]
+- `required_any`: ["股东大会会议次数", "股东大会召开次数", "股东大会次数", "召开股东大会"]
+- `forbidden_any`: ["董事会", "监事会"]
+- `unit_examples`: ["次", "场"]
 
-### 58. `anti_corruption_training_sessions`
+### 40. `anti_corruption_training_sessions`
 
 - `name_cn`: 反腐败培训次数
 - `category`: G
@@ -876,14 +606,14 @@
 - `unit_type`: count
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["反腐败培训次数", "反贪污培训次数", "廉洁培训次数", "反商业贿赂培训次数"]
-- `required_any`: ["反腐败培训", "反贪污培训", "廉洁培训", "反商业贿赂培训"]
-- `forbidden_any`: ["参与人数", "培训人数", "培训人次", "培训时数", "培训总时长", "小时", "学时", "%", "百分比"]
-- `unit_examples`: ["次", "场次"]
+- `aliases`: ["反腐败培训次数", "廉洁培训次数", "反舞弊培训次数", "商业道德培训次数"]
+- `required_any`: ["反腐败培训次数", "廉洁培训次数", "反舞弊培训次数", "商业道德培训次数"]
+- `forbidden_any`: ["人数", "人次", "小时"]
+- `unit_examples`: ["次", "场"]
 
-### 59. `anti_corruption_training_participants`
+### 41. `anti_corruption_training_participants`
 
-- `name_cn`: 反腐败培训参与人数或人次
+- `name_cn`: 反腐败培训人数
 - `category`: G
 - `indicator_type`: quantitative
 - `value_type`: number
@@ -891,29 +621,14 @@
 - `unit_type`: person_time
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["反腐败培训参与人数", "反腐败培训人次", "反贪污培训人次", "员工反腐败培训人次", "管理人员反腐败培训人次", "参加反商业贿赂及反贪污培训的员工人数", "参加反商业贿赂及反贪污培训的董事及高级管理人员人数"]
-- `required_any`: ["反腐败培训", "反贪污培训", "反商业贿赂", "廉洁培训"]
-- `forbidden_any`: ["培训次数", "培训时数", "培训总时长", "培训小时", "平均时长", "覆盖率", "百分比", "%", "占比"]
+- `aliases`: ["反腐败培训人数", "廉洁培训人数", "反舞弊培训人数", "商业道德培训人数", "反腐败培训人次"]
+- `required_any`: ["反腐败培训人数", "廉洁培训人数", "反舞弊培训人数", "商业道德培训人数", "反腐败培训人次"]
+- `forbidden_any`: ["次数", "小时"]
 - `unit_examples`: ["人", "人次"]
 
-### 60. `anti_corruption_training_hours`
+### 42. `confirmed_corruption_cases`
 
-- `name_cn`: 反腐败培训总时长
-- `category`: G
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: hour
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["反腐败培训时数", "反腐败培训总时长", "反腐败培训小时数", "反贪污培训时数", "反商业贿赂培训时数", "员工反腐败培训时数", "管理人员反腐败培训时数", "反商业贿赂及反贪污培训总时长", "提供的反商业贿赂及反贪污培训总时长", "向董事及高级管理人员提供的反商业贿赂及反贪污培训总时长"]
-- `required_any`: ["反腐败培训", "反贪污培训", "反商业贿赂", "廉洁培训"]
-- `forbidden_any`: ["培训次数", "培训人次", "培训人数", "覆盖率", "百分比", "%", "平均"]
-- `unit_examples`: ["小时", "学时"]
-
-### 61. `confirmed_corruption_cases`
-
-- `name_cn`: 确认的腐败事件数量
+- `name_cn`: 确认腐败案件数量
 - `category`: G
 - `indicator_type`: quantitative
 - `value_type`: number
@@ -921,44 +636,194 @@
 - `unit_type`: count
 - `unit_required`: True
 - `year_required`: True
-- `aliases`: ["确认的腐败事件数量", "腐败事件数量", "贪腐事件数量", "已确认腐败事件"]
-- `required_any`: ["确认", "腐败事件", "贪腐事件"]
-- `forbidden_any`: ["培训", "举报"]
-- `unit_examples`: ["件", "起", "次"]
+- `aliases`: ["确认腐败案件数量", "腐败案件数量", "贪污腐败案件", "商业贿赂案件"]
+- `required_any`: ["确认腐败案件数量", "腐败案件数量", "贪污腐败案件", "商业贿赂案件"]
+- `forbidden_any`: ["培训"]
+- `unit_examples`: ["件", "起", "宗"]
 
-### 62. `whistleblowing_cases`
+### 43. `esg_strategy_targets`
 
-- `name_cn`: 举报案件数量
-- `category`: G
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: count
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["举报案件数量", "投诉举报案件数量", "申诉案件数量", "举报数量", "反贪污腐败举报事件总数", "举报事件总数"]
-- `required_any`: ["举报案件", "投诉举报", "申诉案件", "举报数量", "举报事件"]
-- `forbidden_any`: ["客户投诉", "举报机制", "举报渠道"]
-- `unit_examples`: ["件", "起", "次"]
+- `name_cn`: ESG战略目标
+- `category`: E
+- `indicator_type`: qualitative
+- `value_type`: boolean_or_text
+- `preferred_source`: main_text_rag
+- `unit_type`: text
+- `unit_required`: False
+- `year_required`: False
+- `aliases`: ["ESG战略目标", "可持续发展目标", "ESG目标", "可持续发展战略"]
+- `required_any`: ["ESG", "目标", "战略"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
+- `unit_examples`: []
 
-### 63. `patent_applications_new`
+### 44. `climate_risk_management`
 
-- `name_cn`: 当年申请专利数量
+- `name_cn`: 气候风险识别与管理
+- `category`: E
+- `indicator_type`: qualitative
+- `value_type`: boolean_or_text
+- `preferred_source`: main_text_rag
+- `unit_type`: text
+- `unit_required`: False
+- `year_required`: False
+- `aliases`: ["气候风险管理", "气候变化风险", "气候相关风险", "气候风险识别"]
+- `required_any`: ["气候", "风险"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
+- `unit_examples`: []
+
+### 45. `environmental_management_system`
+
+- `name_cn`: 环境管理体系
+- `category`: E
+- `indicator_type`: qualitative
+- `value_type`: boolean_or_text
+- `preferred_source`: main_text_rag
+- `unit_type`: text
+- `unit_required`: False
+- `year_required`: False
+- `aliases`: ["环境管理体系", "环境管理制度", "ISO 14001", "环境保护管理"]
+- `required_any`: ["环境", "管理"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
+- `unit_examples`: []
+
+### 46. `energy_saving_measures`
+
+- `name_cn`: 节能减排措施
+- `category`: E
+- `indicator_type`: qualitative
+- `value_type`: boolean_or_text
+- `preferred_source`: main_text_rag
+- `unit_type`: text
+- `unit_required`: False
+- `year_required`: False
+- `aliases`: ["节能减排措施", "节能措施", "减排措施", "降碳措施", "节能降耗"]
+- `required_any`: ["节能", "减排", "降碳"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
+- `unit_examples`: []
+
+### 47. `water_management_measures`
+
+- `name_cn`: 水资源管理措施
+- `category`: E
+- `indicator_type`: qualitative
+- `value_type`: boolean_or_text
+- `preferred_source`: main_text_rag
+- `unit_type`: text
+- `unit_required`: False
+- `year_required`: False
+- `aliases`: ["水资源管理", "节水措施", "用水管理", "水资源保护"]
+- `required_any`: ["水", "节水", "用水"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
+- `unit_examples`: []
+
+### 48. `waste_management_measures`
+
+- `name_cn`: 废弃物管理措施
+- `category`: E
+- `indicator_type`: qualitative
+- `value_type`: boolean_or_text
+- `preferred_source`: main_text_rag
+- `unit_type`: text
+- `unit_required`: False
+- `year_required`: False
+- `aliases`: ["废弃物管理", "固体废弃物管理", "危险废弃物管理", "废物处置"]
+- `required_any`: ["废弃物", "废物", "危废"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
+- `unit_examples`: []
+
+### 49. `employee_rights_policy`
+
+- `name_cn`: 员工权益保障政策
 - `category`: S
-- `indicator_type`: quantitative
-- `value_type`: number
-- `preferred_source`: appendix_table
-- `unit_type`: count
-- `unit_required`: True
-- `year_required`: True
-- `aliases`: ["申报专利数", "专利申请数", "专利申请数量", "申请专利数量", "当年申请专利数量", "报告当年申请的专利总数", "新增专利申请数", "报告期内发明专利的申请数", "发明专利申请数"]
-- `required_any`: ["申报专利", "专利申请", "申请专利", "专利申请数", "报告当年申请", "报告期内发明专利的申请数", "发明专利的申请数", "发明专利申请数"]
-- `forbidden_any`: ["授权", "累计", "有效专利"]
-- `unit_examples`: ["项", "件", "个"]
+- `indicator_type`: qualitative
+- `value_type`: boolean_or_text
+- `preferred_source`: main_text_rag
+- `unit_type`: text
+- `unit_required`: False
+- `year_required`: False
+- `aliases`: ["员工权益保障", "员工权益保护", "劳动权益", "雇员权益", "员工关怀"]
+- `required_any`: ["员工", "权益"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
+- `unit_examples`: []
 
-### 64. `board_esg_oversight`
+### 50. `occupational_health_safety_system`
 
-- `name_cn`: 董事会 ESG 监督机制
+- `name_cn`: 职业健康安全管理体系
+- `category`: S
+- `indicator_type`: qualitative
+- `value_type`: boolean_or_text
+- `preferred_source`: main_text_rag
+- `unit_type`: text
+- `unit_required`: False
+- `year_required`: False
+- `aliases`: ["职业健康安全管理体系", "职业健康安全", "安全生产管理体系", "EHS管理"]
+- `required_any`: ["职业健康", "安全"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
+- `unit_examples`: []
+
+### 51. `employee_training_development`
+
+- `name_cn`: 员工培训与发展机制
+- `category`: S
+- `indicator_type`: qualitative
+- `value_type`: boolean_or_text
+- `preferred_source`: main_text_rag
+- `unit_type`: text
+- `unit_required`: False
+- `year_required`: False
+- `aliases`: ["员工培训与发展", "人才培养机制", "员工发展", "培训体系", "职业发展"]
+- `required_any`: ["员工", "培训", "发展"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
+- `unit_examples`: []
+
+### 52. `diversity_equal_opportunity`
+
+- `name_cn`: 多元化与平等雇佣政策
+- `category`: S
+- `indicator_type`: qualitative
+- `value_type`: boolean_or_text
+- `preferred_source`: main_text_rag
+- `unit_type`: text
+- `unit_required`: False
+- `year_required`: False
+- `aliases`: ["多元化与平等", "平等雇佣", "多元化雇佣", "反歧视", "机会平等"]
+- `required_any`: ["多元", "平等", "雇佣"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
+- `unit_examples`: []
+
+### 53. `supplier_esg_assessment`
+
+- `name_cn`: 供应商ESG管理机制
+- `category`: S
+- `indicator_type`: qualitative
+- `value_type`: boolean_or_text
+- `preferred_source`: main_text_rag
+- `unit_type`: text
+- `unit_required`: False
+- `year_required`: False
+- `aliases`: ["供应商ESG管理", "供应商社会责任", "供应商可持续发展管理", "供应商评估", "责任采购"]
+- `required_any`: ["供应商", "ESG", "可持续", "社会责任"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
+- `unit_examples`: []
+
+### 54. `data_security_privacy`
+
+- `name_cn`: 数据安全与隐私保护机制
+- `category`: S
+- `indicator_type`: qualitative
+- `value_type`: boolean_or_text
+- `preferred_source`: main_text_rag
+- `unit_type`: text
+- `unit_required`: False
+- `year_required`: False
+- `aliases`: ["数据安全", "隐私保护", "信息安全", "客户隐私", "个人信息保护"]
+- `required_any`: ["数据安全", "隐私", "信息安全", "个人信息"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
+- `unit_examples`: []
+
+### 55. `board_esg_oversight`
+
+- `name_cn`: 董事会ESG监督机制
 - `category`: G
 - `indicator_type`: qualitative
 - `value_type`: boolean_or_text
@@ -966,14 +831,14 @@
 - `unit_type`: text
 - `unit_required`: False
 - `year_required`: False
-- `aliases`: ["董事会ESG监督", "董事会可持续发展监督", "董事会审议ESG", "董事会参与ESG管理"]
-- `required_any`: ["董事会", "ESG", "可持续发展"]
-- `forbidden_any`: ["指标索引", "内容索引", "报告页码", "对应章节", "GRI"]
+- `aliases`: ["董事会ESG监督", "董事会可持续发展监督", "董事会监督ESG", "董事会负责ESG"]
+- `required_any`: ["董事会", "ESG"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
 - `unit_examples`: []
 
-### 65. `esg_committee`
+### 56. `esg_committee`
 
-- `name_cn`: ESG 委员会或可持续发展委员会
+- `name_cn`: ESG治理架构或委员会
 - `category`: G
 - `indicator_type`: qualitative
 - `value_type`: boolean_or_text
@@ -981,12 +846,12 @@
 - `unit_type`: text
 - `unit_required`: False
 - `year_required`: False
-- `aliases`: ["ESG委员会", "可持续发展委员会", "社会责任委员会", "ESG工作小组"]
-- `required_any`: ["ESG委员会", "可持续发展委员会", "社会责任委员会", "ESG工作小组"]
-- `forbidden_any`: ["指标索引", "内容索引", "报告页码", "对应章节", "GRI"]
+- `aliases`: ["ESG委员会", "可持续发展委员会", "ESG工作小组", "ESG治理架构"]
+- `required_any`: ["ESG", "委员会", "工作小组", "治理架构"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
 - `unit_examples`: []
 
-### 66. `anti_corruption_policy`
+### 57. `anti_corruption_policy`
 
 - `name_cn`: 反腐败政策
 - `category`: G
@@ -996,14 +861,14 @@
 - `unit_type`: text
 - `unit_required`: False
 - `year_required`: False
-- `aliases`: ["反腐败政策", "反贪污政策", "反商业贿赂制度", "廉洁从业制度", "商业道德政策"]
-- `required_any`: ["反腐败", "反贪污", "反商业贿赂", "廉洁", "商业道德"]
-- `forbidden_any`: ["指标索引", "内容索引", "报告页码", "对应章节", "GRI"]
+- `aliases`: ["反腐败政策", "反贪污政策", "反舞弊制度", "廉洁从业制度", "商业道德政策"]
+- `required_any`: ["反腐败", "反贪污", "反舞弊", "廉洁"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
 - `unit_examples`: []
 
-### 67. `whistleblowing_mechanism`
+### 58. `whistleblowing_mechanism`
 
-- `name_cn`: 举报机制
+- `name_cn`: 举报机制与举报人保护
 - `category`: G
 - `indicator_type`: qualitative
 - `value_type`: boolean_or_text
@@ -1011,22 +876,37 @@
 - `unit_type`: text
 - `unit_required`: False
 - `year_required`: False
-- `aliases`: ["举报机制", "举报渠道", "投诉机制", "申诉机制", "举报邮箱", "举报热线"]
-- `required_any`: ["举报机制", "举报渠道", "投诉机制", "申诉机制", "举报邮箱", "举报热线"]
-- `forbidden_any`: ["指标索引", "内容索引", "报告页码", "对应章节", "GRI"]
+- `aliases`: ["举报机制", "举报人保护", "投诉举报渠道", " whistleblowing", "举报渠道"]
+- `required_any`: ["举报", "投诉", "保护"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
 - `unit_examples`: []
 
-### 68. `supplier_esg_assessment`
+### 59. `business_ethics_training`
 
-- `name_cn`: 供应商 ESG 评估机制
-- `category`: S
+- `name_cn`: 商业道德培训机制
+- `category`: G
 - `indicator_type`: qualitative
 - `value_type`: boolean_or_text
 - `preferred_source`: main_text_rag
 - `unit_type`: text
 - `unit_required`: False
 - `year_required`: False
-- `aliases`: ["供应商ESG评估", "供应商环境社会评估", "供应商可持续发展评估", "供应商社会责任评估", "供应商审核", "供应商评价"]
-- `required_any`: ["供应商", "ESG", "环境社会", "可持续", "社会责任", "审核", "评价"]
-- `forbidden_any`: ["指标索引", "内容索引", "报告页码", "对应章节", "GRI"]
+- `aliases`: ["商业道德培训", "反腐败培训", "廉洁培训", "合规培训", "反舞弊培训"]
+- `required_any`: ["培训", "廉洁", "反腐败", "商业道德"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
+- `unit_examples`: []
+
+### 60. `investor_communication`
+
+- `name_cn`: 信息披露与投资者沟通机制
+- `category`: G
+- `indicator_type`: qualitative
+- `value_type`: boolean_or_text
+- `preferred_source`: main_text_rag
+- `unit_type`: text
+- `unit_required`: False
+- `year_required`: False
+- `aliases`: ["信息披露", "投资者沟通", "投资者关系", "股东沟通", "业绩说明会"]
+- `required_any`: ["信息披露", "投资者", "沟通"]
+- `forbidden_any`: ["指标索引", "内容索引", "GRI", "目录"]
 - `unit_examples`: []

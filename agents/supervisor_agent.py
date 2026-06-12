@@ -45,6 +45,9 @@ class SupervisorAgent:
         report_path = Path(report_dir)
 
         all_table_rows_path = report_path / "all_table_rows.json"
+        raw_table_metrics_path = report_path / "raw_table_metrics.json"
+        metric_candidates_path = report_path / "metric_candidates.json"
+        validated_metrics_path = report_path / "validated_metrics.json"
         standard_results_path = report_path / "standard_esg_results.csv"
         unknown_metrics_path = report_path / "unknown_metrics.csv"
         route_b_results_path = report_path / "route_b_text_results.csv"
@@ -65,6 +68,9 @@ class SupervisorAgent:
             "report_name": report_path.name,
             "artifacts": {
                 "all_table_rows_json": str(all_table_rows_path),
+                "raw_table_metrics_json": str(raw_table_metrics_path),
+                "metric_candidates_json": str(metric_candidates_path),
+                "validated_metrics_json": str(validated_metrics_path),
                 "standard_results_csv": str(standard_results_path),
                 "unknown_metrics_csv": str(unknown_metrics_path),
                 "route_b_results_csv": str(route_b_results_path),
@@ -72,6 +78,9 @@ class SupervisorAgent:
                 "merged_results_csv": str(merged_results_path),
             },
             "has_all_table_rows": all_table_rows_path.exists(),
+            "has_raw_table_metrics": raw_table_metrics_path.exists(),
+            "has_metric_candidates": metric_candidates_path.exists(),
+            "has_validated_metrics": validated_metrics_path.exists(),
             "has_standard_results": standard_results_path.exists(),
             "has_unknown_metrics": unknown_metrics_path.exists(),
             "has_route_b_results": route_b_results_path.exists(),

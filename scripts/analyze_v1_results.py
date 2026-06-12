@@ -177,7 +177,7 @@ def main():
 
         raw_rows = to_int(a_row.get("raw_row_count"))
         route_a_extracted = to_int(a_row.get("extracted_fields"))
-        route_a_total = to_int(a_row.get("total_fields"), 68)
+        route_a_total = to_int(a_row.get("total_fields"), len(ESG_FIELD_KEYS))
         unknown_metrics = to_int(a_row.get("unknown_metrics"))
 
         route_b_available = False

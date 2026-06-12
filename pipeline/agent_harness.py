@@ -122,7 +122,7 @@ class ESGAgentHarness:
 
     def _build_manifest(self, state: Dict[str, Any]) -> Dict[str, Any]:
         return {
-            "manifest_version": "v1.2-draft",
+            "manifest_version": "v2.0-legacy-harness",
             "run_id": f"{self.report_name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}",
             "report_id": state.get("report_id", self.report_name),
             "report_name": self.report_name,
