@@ -2,6 +2,8 @@
 
 ## 当前事实来源
 
+0. [`quickstart_cn.md`](quickstart_cn.md)
+   - 新用户安装、`.env` 配置、PDF 输入、运行命令与输出说明。
 1. [`architecture_current.md`](architecture_current.md)
    - 当前架构、Mermaid 图、运行时序、模块职责和产物契约。
 2. [`project_memory/ARCHITECTURE_AND_OPERATIONS.md`](project_memory/ARCHITECTURE_AND_OPERATIONS.md)
