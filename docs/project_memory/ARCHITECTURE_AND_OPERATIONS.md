@@ -1,91 +1,88 @@
-# Architecture And Operations
+# 架构与运维总览
 
-## Current System
+## 当前系统
 
-The project runs a unified, manifest-driven ESG extraction pipeline over the
-canonical 60-field schema. The architecture diagram and component ownership
-are maintained in [`../architecture_current.md`](../architecture_current.md).
+项目使用统一、由 Manifest 驱动的 ESG 抽取流水线处理规范化 60 字段 Schema。
+完整架构图和模块职责维护在
+[`../architecture_current.md`](../architecture_current.md)。
 
 ```mermaid
 flowchart LR
-    PDF["PDF"] --> INGEST["MinerU / PyMuPDF ingest"]
-    INGEST --> A["Route A<br/>tables and quantitative metrics"]
-    INGEST --> B["Route B<br/>hybrid RAG and qualitative fields"]
-    A --> F["Evidence arbitration and conservative fusion"]
+    PDF["PDF"] --> INGEST["MinerU / PyMuPDF 文档解析"]
+    INGEST --> A["路线 A<br/>表格与定量指标"]
+    INGEST --> B["路线 B<br/>Hybrid RAG 与定性字段"]
+    A --> F["证据仲裁与保守融合"]
     B --> F
-    F --> M["Merged ESG results"]
-    M --> R["Citations, rating, and human review"]
-    R --> T["FastAPI / SQLite trace"]
+    F --> M["合并后的 ESG 结果"]
+    M --> R["字段引用、模拟评级与人工复核"]
+    R --> T["FastAPI / SQLite Trace"]
 ```
 
-## Recommended Commands
+## 推荐命令
 
-Run the canonical extraction workflow:
+运行标准抽取流程：
 
 ```powershell
 python -m scripts.run_full_extraction <pdf> --mode fast
 ```
 
-Refresh project memory after a meaningful run:
+完成重要运行后刷新项目记忆：
 
 ```powershell
 python -m scripts.update_project_memory
 ```
 
-Run tests:
+运行测试：
 
 ```powershell
 python -m pytest -q
 ```
 
-Start the review API:
+启动审核 API：
 
 ```powershell
 python -m uvicorn backend.app:app --reload --host 127.0.0.1 --port 8000
 ```
 
-## Operational Rules
+## 运维规则
 
-1. Treat `pipeline/unified_pipeline.py` as the canonical orchestration owner.
-2. Treat `run_manifest.json` as the lifecycle and artifact index for a report.
-3. Preserve `raw_table_metrics.json`; it is the pre-schema audit trail for
-   selected performance-table rows.
-4. Use Route B quantitative results as verified supplement or fallback, not an
-   unconditional replacement for Route A.
-5. Keep conflicts and low-confidence evidence in the review queue.
-6. Do not run Route A and Route B concurrently against the same report
-   directory until route-local staging is implemented.
-7. Do not commit large generated `output/` artifacts to Git.
+1. 将 `pipeline/unified_pipeline.py` 视为标准编排入口。
+2. 将 `run_manifest.json` 视为单份报告的生命周期与产物索引。
+3. 必须保留 `raw_table_metrics.json`，它是 Schema Match 前的原始表格指标审计链路。
+4. 路线 B 定量结果只能作为验证、补充或安全回退，不能无条件覆盖路线 A。
+5. 冲突与低置信度证据必须进入人工复核队列。
+6. 在实现路线级临时目录前，不要对同一报告目录并行运行路线 A 和路线 B。
+7. 不要向 Git 提交大型 `output/` 运行产物。
 
-## Run Diagnostics
+## 运行诊断
 
-| Question | Inspect |
+| 问题 | 检查文件 |
 |---|---|
-| Which parser was used and why? | ingest metadata and `run_manifest.json` |
-| What did Route A see before schema matching? | `raw_table_metrics.json` |
-| Why was a field selected or rejected? | validation, evidence, arbitration, and merge summaries |
-| Which model calls consumed budget? | `run_call_events.json`, `run_cost_summary.json` |
-| What still needs review? | `rating_review_queue.json`, `human_review_queue.json` |
-| What happened across the full run? | `unified_pipeline_summary.json`, `run_manifest.json` |
+| 使用了哪个解析器，为什么？ | 文档解析元数据与 `run_manifest.json` |
+| 路线 A 在 Schema Match 前识别了什么？ | `raw_table_metrics.json` |
+| 某字段为什么被采用或拒绝？ | 验证、证据、仲裁与合并摘要 |
+| 哪些模型调用消耗了预算？ | `run_call_events.json`, `run_cost_summary.json` |
+| 哪些结果仍需人工复核？ | `rating_review_queue.json`, `human_review_queue.json` |
+| 完整运行过程发生了什么？ | `unified_pipeline_summary.json`, `run_manifest.json` |
 
-## Source Map
+## 源码目录
 
-| Directory | Responsibility |
+| 目录 | 职责 |
 |---|---|
-| `agents/` | Route A step agents and supervisor logic |
-| `pipeline/` | Unified pipeline, extraction routes, merge, and tracking harnesses |
-| `utils/` | Ingest, retrieval, matching, evidence, scoring, guards, and model calls |
-| `config/` | Canonical schema, prompts, settings, and industry applicability |
-| `scripts/` | CLI workflows, evaluation, repair, and analysis |
-| `backend/` | FastAPI endpoints and SQLite persistence |
-| `frontend/` | Result and review presentation |
-| `tests/` | Architecture, route, merge, backend, and evaluation regression tests |
+| `agents/` | 路线 A 步骤级 Agent 与 Supervisor |
+| `pipeline/` | 统一流水线、抽取路线、合并与追踪 Harness |
+| `utils/` | 解析、检索、匹配、证据、评分、守卫与模型调用 |
+| `config/` | Schema、Prompt、设置与行业适用性 |
+| `scripts/` | 命令行工作流、评估、修复和分析 |
+| `backend/` | FastAPI 接口与 SQLite 持久化 |
+| `frontend/` | 结果与人工复核展示 |
+| `tests/` | 架构、路线、合并、后端与评估回归测试 |
 
-## Documentation Policy
+## 文档规则
 
-- Current architecture: `docs/architecture_current.md`
-- Current operations: this file
-- Latest implementation change log: `docs/worklogs/2026-06-12_architecture_upgrade.md`
-- Generated run memory: `docs/project_memory/latest_snapshot.json`,
-  `LATEST_LOG.md`, and `LATEST_RESULT.md`
-- Former v1.1 design: `docs/architecture.md` (historical only)
+- 当前架构：`docs/architecture_current.md`
+- 当前运维：本文档
+- 最新升级记录：`docs/worklogs/2026-06-12_architecture_upgrade.md`
+- 自动生成的运行记忆：`docs/project_memory/latest_snapshot.json`、
+  `LATEST_LOG.md` 和 `LATEST_RESULT.md`
+- 旧版 v1.1 设计：`docs/architecture.md`，仅作为历史参考

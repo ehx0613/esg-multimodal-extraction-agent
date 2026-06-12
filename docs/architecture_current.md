@@ -1,85 +1,85 @@
-# Current Architecture
+# 当前架构
 
-This document is the source of truth for the current ESG extraction architecture.
-The canonical schema is `core_esg_v4.1_60` with 60 fields.
+本文档是当前 ESG 抽取系统架构的唯一事实来源。
+规范化 Schema 为 `core_esg_v4.1_60`，共 60 个字段。
 
-## System Architecture
+## 系统架构图
 
 ```mermaid
 flowchart TB
-    PDF["ESG report PDF"] --> UP["UnifiedESGPipeline<br/>run mode: fast / balanced / deep"]
-    UP --> INGEST["Document ingest"]
-    INGEST --> MINERU["MinerU auto-run adapter"]
-    INGEST --> FALLBACK["PyMuPDF fallback<br/>with explicit reason"]
-    MINERU --> DOC["Unified DocModel<br/>document.md / pages / blocks / HTML tables / bbox"]
+    PDF["ESG 报告 PDF"] --> UP["统一抽取流水线 UnifiedESGPipeline<br/>fast / balanced / deep"]
+    UP --> INGEST["文档解析层"]
+    INGEST --> MINERU["MinerU 自动调用适配器"]
+    INGEST --> FALLBACK["PyMuPDF 回退<br/>显式记录回退原因"]
+    MINERU --> DOC["统一 DocModel<br/>document.md / 页面 / 文本块 / HTML 表格 / bbox"]
     FALLBACK --> DOC
 
-    DOC --> DETECT["Deterministic performance-table detector"]
-    DETECT --> RA["Route A: quantitative table extraction"]
-    RA --> RAW["raw_table_metrics.json<br/>all selected KPI rows"]
-    RAW --> MATCH["Deterministic schema matching + validation"]
+    DOC --> DETECT["确定性绩效表格检测器"]
+    DETECT --> RA["路线 A：定量表格抽取"]
+    RA --> RAW["raw_table_metrics.json<br/>保留全部候选 KPI 行"]
+    RAW --> MATCH["确定性 Schema Match 与验证"]
 
-    DOC --> RB["Route B: shared hybrid RAG"]
-    RB --> QUAL["Qualitative extraction"]
-    RB --> QUANT["Quantitative verification and fallback"]
+    DOC --> RB["路线 B：共享 Hybrid RAG"]
+    RB --> QUAL["定性字段抽取"]
+    RB --> QUANT["定量字段验证与补充"]
 
-    MATCH --> ARB["Evidence quality and table arbitration"]
+    MATCH --> ARB["证据质量评估与表格仲裁"]
     QUANT --> ARB
-    ARB --> FOLLOW["Targeted visual follow-up<br/>balanced / deep modes"]
-    FOLLOW --> FUSION["Conservative fusion and merge"]
+    ARB --> FOLLOW["定向视觉补跑<br/>balanced / deep 模式"]
+    FOLLOW --> FUSION["保守融合与合并"]
     QUAL --> FUSION
     MATCH --> FUSION
 
-    FUSION --> RESULT["Merged 60-field ESG result"]
-    RESULT --> CITATION["Field citations and evidence records"]
-    RESULT --> RATING["Simulated rating"]
-    CITATION --> REVIEW["Human review queue"]
+    FUSION --> RESULT["合并后的 60 字段 ESG 结果"]
+    RESULT --> CITATION["字段引用与证据记录"]
+    RESULT --> RATING["模拟评级"]
+    CITATION --> REVIEW["人工复核队列"]
     RATING --> REVIEW
 
-    UP --> MANIFEST["run_manifest.json<br/>lifecycle, artifacts, diagnostics"]
-    UP --> COST["run_cost_summary.json<br/>model call events"]
-    REVIEW --> API["FastAPI + SQLite<br/>dashboard, trace, review"]
+    UP --> MANIFEST["run_manifest.json<br/>生命周期、产物与诊断"]
+    UP --> COST["run_cost_summary.json<br/>模型调用与成本"]
+    REVIEW --> API["FastAPI + SQLite<br/>Dashboard、Trace 与审核"]
 ```
 
-## Runtime Sequence
+## 运行时序图
 
 ```mermaid
 sequenceDiagram
     participant CLI as run_full_extraction
     participant U as UnifiedESGPipeline
-    participant I as Ingest
-    participant A as Route A
-    participant B as Route B
-    participant F as Fusion
-    participant O as Artifacts
+    participant I as 文档解析
+    participant A as 路线 A
+    participant B as 路线 B
+    participant F as 融合层
+    participant O as 运行产物
 
     CLI->>U: run(pdf, mode)
-    U->>O: initialize run_manifest.json
-    U->>I: parse or reuse document artifacts
-    I-->>U: DocModel + parser diagnostics
-    U->>A: detect and extract performance tables
-    A-->>O: raw_table_metrics + standard results
-    U->>B: build shared corpus and extract fields
-    B-->>O: qualitative + quantitative results
-    U->>F: arbitrate evidence and merge routes
-    F-->>O: merged results + review queue
-    U->>O: finalize manifest and cost summary
+    U->>O: 初始化 run_manifest.json
+    U->>I: 解析或复用文档产物
+    I-->>U: DocModel 与解析器诊断
+    U->>A: 检测并抽取绩效表格
+    A-->>O: 原始指标与标准化结果
+    U->>B: 构建共享语料并抽取字段
+    B-->>O: 定性与定量结果
+    U->>F: 仲裁证据并合并路线
+    F-->>O: 合并结果与人工复核队列
+    U->>O: 完成 Manifest 与成本摘要
 ```
 
-## Ownership And Responsibilities
+## 模块职责
 
-| Component | Current owner | Responsibility |
+| 模块 | 当前实现 | 职责 |
 |---|---|---|
-| Top-level orchestration | `pipeline/unified_pipeline.py` | Owns the canonical run lifecycle, modes, manifests, follow-up, and merge |
-| Document ingest | `utils/pdf_ingest.py`, MinerU adapter | Selects parser and produces reusable document artifacts |
-| Route A | `pipeline/appendix_pipeline.py`, step agents | Extracts quantitative table rows and maps validated rows to schema |
-| Route B | `pipeline/text_pipeline.py`, `pipeline/quant_text_pipeline.py` | Uses one shared retrieval corpus for qualitative extraction and quantitative verification |
-| Arbitration and evidence | table/evidence utilities | Scores source quality, preserves provenance, and identifies conflicts |
-| Merge | `pipeline/merge_pipeline.py` | Applies conservative source selection and preserves uncertain cases |
-| Compatibility harness | `pipeline/agent_harness.py` | Supports legacy artifact inspection and resumable wrapper workflows |
-| Tracking and review | `pipeline/rating_data_harness.py`, `backend/` | Persists tasks, traces, ratings, and human review actions |
+| 顶层编排 | `pipeline/unified_pipeline.py` | 管理标准运行生命周期、模式、Manifest、补跑与合并 |
+| 文档解析 | `utils/pdf_ingest.py`、MinerU 适配器 | 选择解析器并生成可复用文档产物 |
+| 路线 A | `pipeline/appendix_pipeline.py`、步骤级 Agent | 抽取定量表格行并将通过验证的行映射到 Schema |
+| 路线 B | `pipeline/text_pipeline.py`、`pipeline/quant_text_pipeline.py` | 使用共享检索语料抽取定性字段并验证定量字段 |
+| 仲裁与证据 | 表格仲裁和证据工具 | 评估来源质量、保留溯源并识别冲突 |
+| 合并 | `pipeline/merge_pipeline.py` | 执行保守来源选择并保留不确定结果 |
+| 兼容 Harness | `pipeline/agent_harness.py` | 支持旧产物检查和可恢复包装流程 |
+| 追踪与复核 | `pipeline/rating_data_harness.py`、`backend/` | 保存任务、Trace、评级和人工审核动作 |
 
-## Canonical Entry Point
+## 标准入口
 
 ```powershell
 python -m scripts.run_full_extraction <pdf> --mode fast
@@ -87,31 +87,30 @@ python -m scripts.run_full_extraction <pdf> --mode balanced
 python -m scripts.run_full_extraction <pdf> --mode deep
 ```
 
-- `fast`: favors reusable structured artifacts and controlled model use.
-- `balanced`: enables limited targeted visual follow-up.
-- `deep`: allows the largest follow-up and arbitration budgets.
+- `fast`：优先复用结构化产物并控制模型调用。
+- `balanced`：启用有限的定向视觉补跑。
+- `deep`：允许更高的补跑与仲裁预算。
 
-## Principal Artifacts
+## 主要产物
 
-| Stage | Principal artifacts |
+| 阶段 | 主要产物 |
 |---|---|
-| Ingest | `document.md`, `document_model.json`, page/block/table artifacts |
-| Route A | `all_table_rows.json`, `raw_table_metrics.json`, `standard_esg_results.*`, `unknown_metrics.*` |
-| Route B | `route_b_combined_chunks.json`, `route_b_text_results.*`, `route_b_quant_results.*`, `rag_index/*` |
-| Evidence and arbitration | `evidence_records.json`, `evidence_summary.json`, `table_quality_assessments.json`, `visual_followup_queue.json` |
-| Fusion | `merged_esg_results.*`, `merge_summary.json` |
-| Run control | `run_manifest.json`, `unified_pipeline_summary.json`, `run_cost_summary.json`, `run_call_events.json` |
-| Review and rating | `field_citations.*`, `simulated_rating.*`, `rating_review_queue.json`, `rating_review_history.json` |
+| 文档解析 | `document.md`, `document_model.json`、页面、文本块和表格产物 |
+| 路线 A | `all_table_rows.json`, `raw_table_metrics.json`, `standard_esg_results.*`, `unknown_metrics.*` |
+| 路线 B | `route_b_combined_chunks.json`, `route_b_text_results.*`, `route_b_quant_results.*`, `rag_index/*` |
+| 证据与仲裁 | `evidence_records.json`, `evidence_summary.json`, `table_quality_assessments.json`, `visual_followup_queue.json` |
+| 融合 | `merged_esg_results.*`, `merge_summary.json` |
+| 运行控制 | `run_manifest.json`, `unified_pipeline_summary.json`, `run_cost_summary.json`, `run_call_events.json` |
+| 复核与评级 | `field_citations.*`, `simulated_rating.*`, `rating_review_queue.json`, `rating_review_history.json` |
 
-## Parallelism Constraint
+## 并行约束
 
-Route A and Route B are logically independent after ingest, but physical
-parallel execution remains disabled by default. Both routes currently write
-shared report-directory artifacts. Safe concurrency requires route-local
-staging directories followed by an explicit publish step.
+路线 A 和路线 B 在文档解析后逻辑上相互独立，但当前默认不进行物理并行。
+两条路线仍会向同一报告目录写入共享产物。要安全并行，需要先引入路线级临时目录，
+再通过显式发布步骤合并产物。
 
-## Historical Documents
+## 历史文档
 
-`docs/architecture.md` describes the former v1.1 baseline and is retained only
-for historical context. New implementation and operational decisions must use
-this document and `docs/project_memory/ARCHITECTURE_AND_OPERATIONS.md`.
+`docs/architecture.md` 描述旧版 v1.1 基线，仅保留作为历史参考。
+新的实现与运维决策应以本文档和
+`docs/project_memory/ARCHITECTURE_AND_OPERATIONS.md` 为准。
