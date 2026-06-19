@@ -7,6 +7,7 @@ from backend.database import (
     create_retrieval_eval_record,
     create_report,
     create_task,
+    list_extraction_results,
     get_rating_run,
     finish_agent_run,
     get_task_trace,
@@ -14,7 +15,9 @@ from backend.database import (
     list_rating_runs,
     list_retrieval_eval_records,
     list_tasks,
+    replace_extraction_results,
     start_agent_run,
+    update_task_progress,
     update_task_status,
     upsert_prompt_version,
 )
@@ -88,6 +91,76 @@ class BackendDatabaseTests(unittest.TestCase):
         self.assertEqual(trace["task"]["id"], task["id"])
         self.assertEqual(trace["agent_runs"][0]["agent_name"], "SupervisorAgent")
         self.assertEqual(trace["agent_runs"][0]["output_json"]["next_actions"], ["route_a"])
+
+    def test_task_progress_updates_metadata_timeline(self) -> None:
+        report = create_report(
+            file_name="demo.pdf",
+            file_path="data/raw/demo.pdf",
+            db_path=self.db_path,
+        )
+        task = create_task(
+            report_id=report["id"],
+            industry=None,
+            schema_version=SCHEMA_VERSION,
+            retrieval_profile="baseline",
+            db_path=self.db_path,
+        )
+
+        updated = update_task_progress(
+            task["id"],
+            status="running",
+            stage="route_b",
+            progress=55,
+            message="Running hybrid RAG",
+            db_path=self.db_path,
+        )
+
+        self.assertEqual(updated["status"], "running")
+        self.assertEqual(updated["metadata_json"]["progress"]["stage"], "route_b")
+        self.assertEqual(updated["metadata_json"]["progress"]["progress"], 55)
+        self.assertEqual(updated["metadata_json"]["timeline"][0]["message"], "Running hybrid RAG")
+
+    def test_replace_extraction_results_round_trip(self) -> None:
+        report = create_report(
+            file_name="demo.pdf",
+            file_path="data/raw/demo.pdf",
+            db_path=self.db_path,
+        )
+        task = create_task(
+            report_id=report["id"],
+            industry="manufacturing",
+            schema_version=SCHEMA_VERSION,
+            retrieval_profile="baseline",
+            db_path=self.db_path,
+        )
+
+        rows = replace_extraction_results(
+            task_id=task["id"],
+            report_id=report["id"],
+            rows=[
+                {
+                    "field_key": "total_ghg_emissions",
+                    "value": "2000",
+                    "unit": "tCO2e",
+                    "year": "2024",
+                    "confidence": "0.95",
+                    "source_route": "route_a_appendix_table",
+                    "page_number": "39",
+                    "chunk_id": "table_page_39",
+                    "evidence_text": "Total GHG emissions were 2000 tCO2e.",
+                    "review_status": "auto_cited",
+                    "metadata": {"category": "E"},
+                }
+            ],
+            db_path=self.db_path,
+        )
+        fetched = list_extraction_results(task_id=task["id"], db_path=self.db_path)
+
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(fetched[0]["field_key"], "total_ghg_emissions")
+        self.assertEqual(fetched[0]["confidence"], 0.95)
+        self.assertEqual(fetched[0]["page_number"], 39)
+        self.assertEqual(fetched[0]["metadata_json"]["category"], "E")
 
     def test_prompt_version_upsert_is_stable(self) -> None:
         first = upsert_prompt_version(

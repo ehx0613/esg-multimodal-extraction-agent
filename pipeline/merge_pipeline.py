@@ -6,6 +6,7 @@ from typing import Any, Dict, List
 from config.industry_applicability import NOT_APPLICABLE, get_applicability, is_applicable
 from config.schema import ALL_SCHEMA, ESG_FIELD_KEYS
 from config.settings import ROUTE_B2_MIN_CONFIDENCE
+from config.settings import SCHEMA_JUDGE_MIN_CONFIDENCE
 from utils.industry_detector import detect_industry_from_report_dir
 from utils.result_guard import safe_write_csv, safe_write_json, validate_standard_results
 
@@ -326,6 +327,54 @@ def apply_route_b2_to_merged(
                 item["merge_reason"] = "route_a_kept_over_b2"
 
 
+def apply_semantic_judge_to_merged(
+    merged_by_key: Dict[str, Dict[str, Any]],
+    semantic_rows: List[Dict[str, Any]],
+    min_confidence: float = SCHEMA_JUDGE_MIN_CONFIDENCE,
+) -> None:
+    for row in semantic_rows:
+        field_key = row.get("field_key", "")
+        if not field_key or field_key not in merged_by_key:
+            continue
+        if not parse_bool(row.get("matched")):
+            continue
+        if str(row.get("status", "")).strip() not in {"extracted", ""}:
+            continue
+        if to_float(row.get("confidence"), 0.0) < min_confidence:
+            continue
+        if str(row.get("b2_validation_ok", "")).strip() and not parse_bool(row.get("b2_validation_ok")):
+            continue
+
+        item = merged_by_key[field_key]
+        item["semantic_judge_matched"] = "true"
+        item["semantic_judge_confidence"] = row.get("confidence", "")
+        item["semantic_judge_value"] = row.get("value", "")
+        item["semantic_judge_raw_value"] = row.get("raw_value", "")
+        item["semantic_judge_unit"] = row.get("unit", "")
+        item["semantic_judge_year"] = row.get("year", "")
+        item["semantic_judge_evidence"] = row.get("evidence", "")
+        item["semantic_judge_source_pages"] = row.get("source_pages", "")
+        item["semantic_judge_reason"] = row.get("reason", "")
+
+        if item.get("status") == "extracted":
+            continue
+
+        item["status"] = "extracted"
+        item["value"] = row.get("value", "")
+        item["raw_value"] = row.get("raw_value") or row.get("value", "")
+        item["unit"] = row.get("unit", "")
+        item["year"] = row.get("year", "")
+        item["source_route"] = "semantic_judge"
+        item["confidence"] = row.get("confidence", "0")
+        item["merge_reason"] = "semantic_judge_filled_missing_route_a"
+        item["evidence"] = row.get("evidence", "")
+        item["source_pages"] = row.get("source_pages", "")
+        item["row_label"] = row.get("field_name_cn", "")
+        item["topic"] = row.get("source_type", "semantic_judge")
+        item["table_title"] = ""
+        item["page_image"] = ""
+
+
 def budget_exhausted_field_keys(*row_groups: List[Dict[str, Any]]) -> set[str]:
     reasons = {
         "model_call_budget_exhausted",
@@ -373,6 +422,7 @@ class ESGMergePipeline:
         route_b_path = self.report_dir / "route_b_text_results.csv"
         route_b_quant_path = self.report_dir / "route_b_quant_results.csv"
         route_b2_path = route_b_quant_path
+        semantic_judge_path = self.report_dir / "semantic_judge_results.csv"
 
         route_a_validation = validate_standard_results(
             route_a_path,
@@ -390,6 +440,7 @@ class ESGMergePipeline:
         route_a_rows = load_csv(route_a_path) if route_a_available else build_empty_route_a_rows()
         route_b_rows = load_csv(route_b_path)
         route_b2_rows = load_csv(route_b2_path)
+        semantic_judge_rows = load_csv(semantic_judge_path)
 
         if route_b_rows and any(parse_bool(row.get("matched")) for row in route_b_rows):
             has_validation_contract = any(
@@ -417,6 +468,10 @@ class ESGMergePipeline:
         apply_route_b2_to_merged(
             merged_by_key=merged_by_key,
             route_b2_rows=route_b2_rows,
+        )
+        apply_semantic_judge_to_merged(
+            merged_by_key=merged_by_key,
+            semantic_rows=semantic_judge_rows,
         )
         budget_exhausted_keys = budget_exhausted_field_keys(route_b_rows, route_b2_rows)
 
@@ -453,6 +508,12 @@ class ESGMergePipeline:
         route_b2_matched = sum(
             1 for row in final_rows if row.get("route_b2_matched") == "true"
         )
+        semantic_judge_filled = sum(
+            1 for row in final_rows if row.get("source_route") == "semantic_judge"
+        )
+        semantic_judge_matched = sum(
+            1 for row in final_rows if row.get("semantic_judge_matched") == "true"
+        )
         total_extracted = sum(1 for row in final_rows if row.get("status") == "extracted")
         total_fields = len(final_rows)
         applicable_rows = [row for row in final_rows if is_applicable(industry, row.get("field_key", ""))]
@@ -477,6 +538,8 @@ class ESGMergePipeline:
             "route_b_filled_fields": route_b_filled,
             "route_b2_matched_fields": route_b2_matched,
             "route_b2_filled_fields": route_b2_filled,
+            "semantic_judge_matched_fields": semantic_judge_matched,
+            "semantic_judge_filled_fields": semantic_judge_filled,
             "merged_extracted_fields": total_extracted,
             "missing_fields": total_fields - total_extracted,
             "coverage_rate": round(total_extracted / total_fields, 4) if total_fields else 0.0,
@@ -490,6 +553,7 @@ class ESGMergePipeline:
             "route_b_path": str(route_b_path),
             "route_b2_path": str(route_b2_path),
             "route_b_quant_path": str(route_b_quant_path),
+            "semantic_judge_path": str(semantic_judge_path),
         }
 
         safe_write_json(self.report_dir / "merged_esg_results.json", final_rows)
@@ -501,6 +565,8 @@ class ESGMergePipeline:
         print(f"[Merge] route_b_filled={route_b_filled}")
         print(f"[Merge] route_b2_matched={route_b2_matched}")
         print(f"[Merge] route_b2_filled={route_b2_filled}")
+        print(f"[Merge] semantic_judge_matched={semantic_judge_matched}")
+        print(f"[Merge] semantic_judge_filled={semantic_judge_filled}")
         print(f"[Merge] merged_extracted={total_extracted}/{total_fields}")
 
         return summary

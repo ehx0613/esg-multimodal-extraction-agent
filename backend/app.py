@@ -36,12 +36,16 @@ from .database import (
     create_report,
     create_task,
     get_rating_run,
+    get_report,
     get_task,
     get_task_trace,
     init_db,
+    list_extraction_results,
     list_rating_runs,
     list_tasks,
     list_review_items,
+    replace_extraction_results,
+    update_task_progress,
     update_task_status,
 )
 
@@ -62,6 +66,8 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "http://127.0.0.1:5173",
+        "http://localhost:4173",
+        "http://127.0.0.1:4173",
     ],
     allow_credentials=True,
     allow_methods=["*"],
@@ -88,6 +94,10 @@ class TaskCreate(BaseModel):
 
 class TaskStatusUpdate(BaseModel):
     status: str
+    stage: Optional[str] = None
+    progress: Optional[int] = None
+    message: Optional[str] = None
+    error_message: Optional[str] = None
 
 
 class RunReportDirRequest(BaseModel):
@@ -107,6 +117,7 @@ class AnalyzeUploadedReportRequest(BaseModel):
     pdf_path: Optional[str] = None
     task_id: Optional[str] = None
     industry: Optional[str] = None
+    run_mode: str = "balanced"
 
 
 class RatingReviewApplyRequest(BaseModel):
@@ -260,6 +271,217 @@ def _read_json_if_exists(path: Path, default: Any) -> Any:
         return read_citation_json(path)
     except Exception:
         return default
+
+
+def _first_present(row: Dict[str, Any], keys: list[str], default: Any = None) -> Any:
+    for key in keys:
+        value = row.get(key)
+        if value not in (None, ""):
+            return value
+    return default
+
+
+def _normalize_confidence(value: Any) -> float | None:
+    if value in (None, ""):
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def normalize_field_result(row: Dict[str, Any]) -> Dict[str, Any]:
+    page_number = _first_present(row, ["citation_page_number", "page_number"])
+    return {
+        "field_key": str(row.get("field_key") or ""),
+        "field_name_cn": str(row.get("field_name_cn") or ""),
+        "category": str(row.get("category") or ""),
+        "status": str(row.get("status") or ""),
+        "value": _first_present(row, ["value"]),
+        "raw_value": _first_present(row, ["raw_value", "original_value"]),
+        "standardized_value": _first_present(row, ["standardized_value", "normalized_value"]),
+        "unit": _first_present(row, ["unit"]),
+        "year": _first_present(row, ["year"]),
+        "confidence": _normalize_confidence(_first_present(row, ["confidence"])),
+        "source_route": _first_present(row, ["source_route"]),
+        "source_file": _first_present(row, ["source_file"]),
+        "page_number": page_number,
+        "chunk_id": _first_present(row, ["citation_chunk_id", "chunk_id"]),
+        "evidence_text": _first_present(
+            row,
+            ["citation_evidence_text", "evidence", "route_b_evidence", "route_b2_evidence", "evidence_text"],
+            "",
+        ),
+        "text_excerpt": _first_present(row, ["citation_text_excerpt", "text_excerpt"], ""),
+        "review_status": str(row.get("citation_review_status") or row.get("review_status") or "not_reviewed"),
+        "review_reasons": row.get("citation_review_reasons") or row.get("review_reasons") or [],
+        "citations": row.get("citations") or [],
+        "metadata": {
+            "raw": row,
+            "citation_rank": row.get("citation_rank"),
+            "citation_scores": {
+                "rrf": row.get("citation_rrf_score"),
+                "evidence": row.get("citation_evidence_score"),
+                "hybrid": row.get("citation_hybrid_score"),
+            },
+        },
+    }
+
+
+def load_report_field_results(report_dir: Path) -> list[Dict[str, Any]]:
+    citations_path = report_dir / "field_citations.json"
+    merged_path = report_dir / "merged_esg_results.json"
+    rows = _read_json_if_exists(citations_path, None)
+    if rows is None:
+        rows = _read_json_if_exists(merged_path, [])
+    if not isinstance(rows, list):
+        return []
+    return [normalize_field_result(row) for row in rows if isinstance(row, dict)]
+
+
+def summarize_field_results(rows: list[Dict[str, Any]]) -> Dict[str, Any]:
+    field_count = len(rows)
+    extracted_count = sum(row.get("status") == "extracted" for row in rows)
+    needs_review_count = sum(row.get("review_status") == "needs_review" for row in rows)
+    auto_cited_count = sum(row.get("review_status") in {"auto_cited", "reviewed_approved"} for row in rows)
+    by_category: Dict[str, Dict[str, int]] = {}
+    for row in rows:
+        category = str(row.get("category") or "unknown")
+        bucket = by_category.setdefault(category, {"field_count": 0, "extracted_count": 0, "needs_review_count": 0})
+        bucket["field_count"] += 1
+        if row.get("status") == "extracted":
+            bucket["extracted_count"] += 1
+        if row.get("review_status") == "needs_review":
+            bucket["needs_review_count"] += 1
+    return {
+        "field_count": field_count,
+        "extracted_count": extracted_count,
+        "missing_count": field_count - extracted_count,
+        "needs_review_count": needs_review_count,
+        "auto_cited_count": auto_cited_count,
+        "auto_cited_rate": round(auto_cited_count / field_count, 4) if field_count else 0.0,
+        "by_category": by_category,
+    }
+
+
+def persist_report_field_results(
+    *,
+    task_id: str | None,
+    report_id: str | None,
+    report_dir: Path,
+) -> Dict[str, Any] | None:
+    if not task_id or not report_id:
+        return None
+    task = get_task(task_id)
+    if task is None:
+        return None
+    rows = load_report_field_results(report_dir)
+    persisted = replace_extraction_results(task_id=task_id, report_id=report_id, rows=rows)
+    return {"count": len(persisted), "summary": summarize_field_results(rows)}
+
+
+TASK_STAGE_DEFINITIONS = [
+    {"stage": "uploaded", "label": "PDF uploaded", "progress": 5},
+    {"stage": "unified_pipeline", "label": "UnifiedESGPipeline", "progress": 10},
+    {"stage": "document_parsing", "label": "MinerU / PyMuPDF parsing", "progress": 18},
+    {"stage": "route_a", "label": "Route A performance tables", "progress": 35},
+    {"stage": "route_b", "label": "Route B shared Hybrid RAG", "progress": 55},
+    {"stage": "fusion", "label": "Evidence arbitration and conservative fusion", "progress": 70},
+    {"stage": "merged_results", "label": "Merged 60-field ESG results", "progress": 78},
+    {"stage": "citations", "label": "Field citations", "progress": 86},
+    {"stage": "rating", "label": "Simulated rating", "progress": 94},
+    {"stage": "review_ready", "label": "Human review ready", "progress": 100},
+]
+TASK_STAGE_PROGRESS = {item["stage"]: int(item["progress"]) for item in TASK_STAGE_DEFINITIONS}
+
+
+def _progress_payload(task: Dict[str, Any]) -> Dict[str, Any]:
+    metadata = task.get("metadata_json") or {}
+    progress = dict(metadata.get("progress") or {})
+    stage = str(progress.get("stage") or ("review_ready" if task.get("status") == "completed" else "uploaded"))
+    return {
+        "status": progress.get("status") or task.get("status"),
+        "stage": stage,
+        "progress": int(progress.get("progress") or TASK_STAGE_PROGRESS.get(stage, 0)),
+        "message": progress.get("message") or "",
+        "error_message": progress.get("error_message"),
+        "updated_at": progress.get("updated_at") or task.get("updated_at"),
+    }
+
+
+def _task_timeline(task: Dict[str, Any]) -> list[Dict[str, Any]]:
+    metadata = task.get("metadata_json") or {}
+    events = metadata.get("timeline") or []
+    if isinstance(events, list) and events:
+        return events
+    progress = _progress_payload(task)
+    return [
+        {
+            "stage": progress["stage"],
+            "status": progress["status"],
+            "progress": progress["progress"],
+            "message": progress["message"],
+            "error_message": progress["error_message"],
+            "created_at": progress["updated_at"],
+        }
+    ]
+
+
+def build_task_overview(task_id: str) -> Dict[str, Any]:
+    task = get_task(task_id)
+    if task is None:
+        raise HTTPException(status_code=404, detail="task not found")
+
+    report = get_report(task["report_id"])
+    report_metadata = report.get("metadata_json", {}) if report else {}
+    task_metadata = task.get("metadata_json") or {}
+    report_dir = (
+        report_metadata.get("report_dir")
+        or task_metadata.get("report_dir")
+        or task_metadata.get("progress", {}).get("report_dir")
+    )
+
+    field_items = list_extraction_results(task_id=task_id, limit=200)
+    field_summary = summarize_field_results(
+        [
+            {
+                "status": item.get("metadata_json", {}).get("raw", {}).get("status") or "",
+                "review_status": item.get("review_status"),
+                "category": item.get("metadata_json", {}).get("raw", {}).get("category") or "",
+            }
+            for item in field_items
+        ]
+    )
+    rating_runs = list_rating_runs(task_id=task_id, limit=1)
+    if not rating_runs and report_dir:
+        rating_runs = list_rating_runs(report_dir=str(report_dir), limit=1)
+
+    progress = _progress_payload(task)
+    urls = {
+        "trace": f"/tasks/{task_id}/trace",
+        "results": f"/tasks/{task_id}/results",
+        "review_items": f"/tasks/{task_id}/review-items",
+    }
+    if report_dir:
+        urls.update(
+            {
+                "report_fields": f"/reports/fields?report_dir={quote(str(report_dir))}",
+                "report_summary": f"/reports/summary?report_dir={quote(str(report_dir))}",
+                "dashboard": f"/dashboard?report_dir={quote(str(report_dir))}",
+                "review": _review_url(str(report_dir), industry=task.get("industry")),
+            }
+        )
+
+    return {
+        "task": task,
+        "report": report,
+        "progress": progress,
+        "stage_definitions": TASK_STAGE_DEFINITIONS,
+        "timeline": _task_timeline(task),
+        "field_summary": field_summary,
+        "rating_summary": rating_runs[0] if rating_runs else None,
+        "urls": urls,
+    }
 
 
 def build_report_summary(report_dir: Path) -> Dict[str, Any]:
@@ -1048,6 +1270,19 @@ def report_summary_endpoint(report_dir: str) -> Dict[str, Any]:
     return build_report_summary(Path(report_dir))
 
 
+@app.get("/reports/fields")
+def report_field_results_endpoint(report_dir: str) -> Dict[str, Any]:
+    report_path = Path(report_dir)
+    if not report_path.exists() or not report_path.is_dir():
+        raise HTTPException(status_code=404, detail="report_dir not found")
+    items = load_report_field_results(report_path)
+    return {
+        "report_dir": str(report_path),
+        "summary": summarize_field_results(items),
+        "items": items,
+    }
+
+
 @app.get("/dashboard", response_class=HTMLResponse)
 def dashboard_endpoint(report_dir: str) -> HTMLResponse:
     return HTMLResponse(render_dashboard_html(build_report_summary(Path(report_dir))))
@@ -1253,6 +1488,20 @@ async def upload_report_endpoint(request: Request) -> Dict[str, Any]:
             "source_type": "uploaded_pdf",
             "report_dir": str(report_dir),
             "raw_pdf_path": str(raw_path),
+            "progress": {
+                "status": "pending",
+                "stage": "uploaded",
+                "progress": 5,
+                "message": "PDF uploaded and ready for analysis",
+            },
+            "timeline": [
+                {
+                    "stage": "uploaded",
+                    "status": "pending",
+                    "progress": 5,
+                    "message": "PDF uploaded and ready for analysis",
+                }
+            ],
         },
     )
 
@@ -1288,10 +1537,25 @@ def get_task_endpoint(task_id: str) -> Dict[str, Any]:
 
 @app.patch("/tasks/{task_id}/status")
 def update_task_status_endpoint(task_id: str, payload: TaskStatusUpdate) -> Dict[str, Any]:
-    task = update_task_status(task_id, payload.status)
+    if payload.stage or payload.progress is not None or payload.message or payload.error_message:
+        task = update_task_progress(
+            task_id,
+            status=payload.status,
+            stage=payload.stage,
+            progress=payload.progress,
+            message=payload.message,
+            error_message=payload.error_message,
+        )
+    else:
+        task = update_task_status(task_id, payload.status)
     if not task:
         raise HTTPException(status_code=404, detail="task not found")
     return task
+
+
+@app.get("/tasks/{task_id}/overview")
+def get_task_overview_endpoint(task_id: str) -> Dict[str, Any]:
+    return build_task_overview(task_id)
 
 
 @app.get("/tasks/{task_id}/trace")
@@ -1299,7 +1563,32 @@ def get_task_trace_endpoint(task_id: str) -> Dict[str, Any]:
     trace = get_task_trace(task_id)
     if trace["task"] is None:
         raise HTTPException(status_code=404, detail="task not found")
+    trace["progress"] = _progress_payload(trace["task"])
+    trace["timeline"] = _task_timeline(trace["task"])
+    trace["stage_definitions"] = TASK_STAGE_DEFINITIONS
     return trace
+
+
+@app.get("/tasks/{task_id}/results")
+def get_task_results_endpoint(task_id: str) -> Dict[str, Any]:
+    task = get_task(task_id)
+    if task is None:
+        raise HTTPException(status_code=404, detail="task not found")
+    items = list_extraction_results(task_id=task_id, limit=200)
+    return {
+        "task": task,
+        "summary": summarize_field_results(
+            [
+                {
+                    "status": item.get("metadata_json", {}).get("raw", {}).get("status") or "",
+                    "review_status": item.get("review_status"),
+                    "category": item.get("metadata_json", {}).get("raw", {}).get("category") or "",
+                }
+                for item in items
+            ]
+        ),
+        "items": items,
+    }
 
 
 @app.get("/tasks/{task_id}/review-items")
@@ -1405,15 +1694,75 @@ def analyze_uploaded_report_endpoint(payload: AnalyzeUploadedReportRequest) -> D
         pdf_path = pdf_candidates[0]
 
     if payload.task_id:
-        update_task_status(payload.task_id, "running")
+        update_task_progress(
+            payload.task_id,
+            status="running",
+            stage="unified_pipeline",
+            progress=10,
+            message="Starting UnifiedESGPipeline",
+            metadata={"report_dir": str(report_dir)},
+        )
 
     try:
-        unified_summary = UnifiedESGPipeline(report_dir).run(pdf_path)
+        if payload.task_id:
+            update_task_progress(
+                payload.task_id,
+                status="running",
+                stage="document_parsing",
+                progress=18,
+                message="Parsing PDF with MinerU or PyMuPDF, then running Route A and Route B",
+            )
+        def progress_callback(stage: str, progress: int, message: str) -> None:
+            if not payload.task_id:
+                return
+            update_task_progress(
+                payload.task_id,
+                status="running",
+                stage=stage,
+                progress=progress,
+                message=message,
+            )
 
-        artifacts = generate_report_artifacts(report_dir, industry=payload.industry)
+        unified_summary = UnifiedESGPipeline(
+            report_dir,
+            run_mode=payload.run_mode,
+            progress_callback=progress_callback,
+        ).run(pdf_path)
 
         if payload.task_id:
-            update_task_status(payload.task_id, "completed")
+            update_task_progress(
+                payload.task_id,
+                status="running",
+                stage="citations",
+                progress=86,
+                message="Generating field citations",
+            )
+        artifacts = generate_report_artifacts(report_dir, industry=payload.industry)
+        if payload.task_id:
+            update_task_progress(
+                payload.task_id,
+                status="running",
+                stage="rating",
+                progress=94,
+                message="Simulated rating generated",
+            )
+        task = get_task(payload.task_id) if payload.task_id else None
+        field_results = persist_report_field_results(
+            task_id=payload.task_id,
+            report_id=task.get("report_id") if task else None,
+            report_dir=report_dir,
+        )
+        if field_results:
+            artifacts["field_results"] = field_results
+
+        if payload.task_id:
+            update_task_progress(
+                payload.task_id,
+                status="completed",
+                stage="review_ready",
+                progress=100,
+                message="Field citations, simulated rating, and human review queue are ready",
+            )
 
         return {
             "status": "completed",
@@ -1430,7 +1779,14 @@ def analyze_uploaded_report_endpoint(payload: AnalyzeUploadedReportRequest) -> D
         }
     except Exception as exc:
         if payload.task_id:
-            update_task_status(payload.task_id, "failed")
+            update_task_progress(
+                payload.task_id,
+                status="failed",
+                stage="failed",
+                progress=0,
+                message="Analysis failed",
+                error_message=str(exc),
+            )
         raise HTTPException(status_code=500, detail=str(exc)) from exc
 
 
@@ -1451,7 +1807,38 @@ def run_report_dir_endpoint(payload: RunReportDirRequest) -> Dict[str, Any]:
     ).run()
     artifacts = None
     if payload.generate_citations or payload.generate_rating:
+        update_task_progress(
+            result.get("backend_task_id", ""),
+            status="running",
+            stage="citations",
+            progress=86,
+            message="Generating field citations",
+            metadata={"report_dir": str(report_dir)},
+        )
         artifacts = generate_report_artifacts(report_dir, industry=payload.industry)
+        update_task_progress(
+            result.get("backend_task_id", ""),
+            status="running",
+            stage="rating",
+            progress=94,
+            message="Simulated rating generated",
+            metadata={"report_dir": str(report_dir)},
+        )
+        field_results = persist_report_field_results(
+            task_id=result.get("backend_task_id"),
+            report_id=result.get("backend_report_id"),
+            report_dir=report_dir,
+        )
+        if field_results:
+            artifacts["field_results"] = field_results
+        update_task_progress(
+            result.get("backend_task_id", ""),
+            status=result.get("backend_task_status") or "completed",
+            stage="review_ready",
+            progress=100,
+            message="Field citations, simulated rating, and human review queue are ready",
+            metadata={"report_dir": str(report_dir)},
+        )
 
     response = {
         "task_id": result["backend_task_id"],

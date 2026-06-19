@@ -186,6 +186,30 @@ class RouteB2Tests(unittest.TestCase):
         self.assertFalse(result["matched"])
         self.assertIn("employee_count_uses_ratio", result["b2_validation_reason"])
 
+    def test_validator_accepts_compact_gender_structure_row(self):
+        field_item = {
+            "field_key": "male_employees",
+            "required_any": ["男性员工"],
+            "aliases": ["男性员工"],
+            "forbidden_any": ["比例", "%", "女性"],
+        }
+        result = validate_b2_quant_result(
+            field_item,
+            {
+                "matched": True,
+                "value": "1822",
+                "raw_value": "1,822",
+                "unit": "人",
+                "year": "2024",
+                "evidence": "性别结构 男 人 1,822",
+                "confidence": 0.95,
+            },
+        )
+
+        self.assertTrue(result["matched"])
+        self.assertTrue(result["b2_validation_ok"])
+        self.assertIn("soft_pass_field_anchor", result["b2_validation_reason"])
+
     def test_validator_rejects_total_consumption_per_capita(self):
         field_item = {
             "field_key": "electricity_consumption",
@@ -638,6 +662,10 @@ class RouteB2Tests(unittest.TestCase):
 
     def test_detect_industry_and_applicability(self):
         self.assertEqual(detect_industry_from_text("西安银行股份有限公司社会责任报告"), "finance")
+        self.assertEqual(
+            detect_industry_from_text("永和股份_浙江永和制冷股份有限公司2024年度环境、社会及公司治理报告"),
+            "manufacturing",
+        )
         self.assertEqual(get_applicability("finance", "hazardous_waste"), "not_applicable")
 
 

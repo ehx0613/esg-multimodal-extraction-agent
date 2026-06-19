@@ -81,6 +81,30 @@ class FieldCitationTests(unittest.TestCase):
         self.assertEqual(enriched[0]["citation_page_number"], 39)
         self.assertEqual(enriched[0]["citation_review_status"], "auto_cited")
 
+    def test_missing_field_does_not_promote_candidate_to_evidence_text(self) -> None:
+        rows = [
+            {
+                "field_key": "hazardous_waste",
+                "field_name_cn": "危险废弃物产生量",
+                "category": "E",
+                "status": "missing",
+                "value": "",
+            }
+        ]
+        chunks = [
+            {
+                "chunk_id": "p23_1",
+                "page_number": 23,
+                "text": "废弃物排放总量83.45万吨，非危险废弃物排放总量81.50万吨。",
+            }
+        ]
+
+        enriched = attach_field_citations(rows, chunks, industry="manufacturing", top_k=1)
+
+        self.assertEqual(enriched[0]["citation_evidence_text"], "")
+        self.assertEqual(enriched[0]["citation_text_excerpt"], chunks[0]["text"])
+        self.assertEqual(enriched[0]["citation_review_status"], "needs_review")
+
 
 if __name__ == "__main__":
     unittest.main()

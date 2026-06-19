@@ -389,6 +389,167 @@ def update_task_status(
     return get_task(task_id, db_path=db_path) or {}
 
 
+def update_task_progress(
+    task_id: str,
+    *,
+    status: str | None = None,
+    stage: str | None = None,
+    progress: int | None = None,
+    message: str | None = None,
+    error_message: str | None = None,
+    metadata: Optional[Dict[str, Any]] = None,
+    db_path: str | Path | None = None,
+) -> Dict[str, Any]:
+    init_db(db_path)
+    task = get_task(task_id, db_path=db_path)
+    if task is None:
+        return {}
+
+    now = now_iso()
+    current_metadata = dict(task.get("metadata_json") or {})
+    progress_payload = dict(current_metadata.get("progress") or {})
+    if status is not None:
+        progress_payload["status"] = status
+    if stage is not None:
+        progress_payload["stage"] = stage
+    if progress is not None:
+        progress_payload["progress"] = max(0, min(100, int(progress)))
+    if message is not None:
+        progress_payload["message"] = message
+    if error_message is not None:
+        progress_payload["error_message"] = error_message
+    progress_payload["updated_at"] = now
+
+    timeline = list(current_metadata.get("timeline") or [])
+    if stage is not None or status is not None:
+        timeline.append(
+            {
+                "stage": stage or progress_payload.get("stage"),
+                "status": status or progress_payload.get("status") or task.get("status"),
+                "progress": progress_payload.get("progress", 0),
+                "message": message or progress_payload.get("message", ""),
+                "error_message": error_message,
+                "created_at": now,
+            }
+        )
+
+    current_metadata["progress"] = progress_payload
+    current_metadata["timeline"] = timeline
+    if metadata:
+        current_metadata.update(metadata)
+
+    next_status = status or task["status"]
+    with connection(db_path) as conn:
+        conn.execute(
+            "UPDATE tasks SET status = ?, metadata_json = ?, updated_at = ? WHERE id = ?",
+            (next_status, json_dumps(current_metadata), now, task_id),
+        )
+        conn.commit()
+    return get_task(task_id, db_path=db_path) or {}
+
+
+def _string_or_none(value: Any) -> str | None:
+    if value in (None, ""):
+        return None
+    return str(value)
+
+
+def _int_or_none(value: Any) -> int | None:
+    if value in (None, ""):
+        return None
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def _float_or_none(value: Any) -> float | None:
+    if value in (None, ""):
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def replace_extraction_results(
+    *,
+    task_id: str,
+    report_id: str,
+    rows: Iterable[Dict[str, Any]],
+    db_path: str | Path | None = None,
+) -> List[Dict[str, Any]]:
+    init_db(db_path)
+    created_at = now_iso()
+    with connection(db_path) as conn:
+        conn.execute("DELETE FROM extraction_results WHERE task_id = ?", (task_id,))
+        for row in rows:
+            metadata = row.get("metadata") if isinstance(row.get("metadata"), dict) else {}
+            conn.execute(
+                """
+                INSERT INTO extraction_results (
+                    id, task_id, report_id, field_key, value, raw_value,
+                    standardized_value, unit, year, confidence, source_route,
+                    source_file, page_number, chunk_id, evidence_text,
+                    review_status, metadata_json, created_at
+                )
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    new_id("extract"),
+                    task_id,
+                    report_id,
+                    str(row.get("field_key") or ""),
+                    _string_or_none(row.get("value")),
+                    _string_or_none(row.get("raw_value")),
+                    _string_or_none(row.get("standardized_value")),
+                    _string_or_none(row.get("unit")),
+                    _int_or_none(row.get("year")),
+                    _float_or_none(row.get("confidence")),
+                    _string_or_none(row.get("source_route")),
+                    _string_or_none(row.get("source_file")),
+                    _int_or_none(row.get("page_number")),
+                    _string_or_none(row.get("chunk_id")),
+                    _string_or_none(row.get("evidence_text")),
+                    str(row.get("review_status") or "not_reviewed"),
+                    json_dumps(metadata),
+                    created_at,
+                ),
+            )
+        conn.commit()
+    return list_extraction_results(task_id=task_id, db_path=db_path)
+
+
+def list_extraction_results(
+    *,
+    task_id: str | None = None,
+    report_id: str | None = None,
+    db_path: str | Path | None = None,
+    limit: int = 100,
+) -> List[Dict[str, Any]]:
+    init_db(db_path)
+    clauses = []
+    params: List[Any] = []
+    if task_id:
+        clauses.append("task_id = ?")
+        params.append(task_id)
+    if report_id:
+        clauses.append("report_id = ?")
+        params.append(report_id)
+    where_sql = " WHERE " + " AND ".join(clauses) if clauses else ""
+    params.append(limit)
+    with connection(db_path) as conn:
+        rows = conn.execute(
+            f"""
+            SELECT * FROM extraction_results{where_sql}
+            ORDER BY field_key, created_at DESC
+            LIMIT ?
+            """,
+            params,
+        ).fetchall()
+    return rows_to_dicts(rows)
+
+
 def upsert_prompt_version(
     *,
     agent_name: str,

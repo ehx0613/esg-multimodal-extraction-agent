@@ -47,8 +47,14 @@ PERSON_UNIT_WORDS = ["人", "名", "位", "人次"]
 
 FIELD_ANCHOR_SOFT_PASS = {
     "total_employees": ["在职员工数", "在职员工人数", "员工总数", "员工总人数", "雇员总数"],
+    "male_employees": ["男性员工人数", "男员工人数", "男性员工", "性别结构男", "男"],
+    "female_employees": ["女性员工人数", "女员工人数", "女性员工", "性别结构女", "女"],
     "board_size": ["董事会在任董事", "董事会董事", "董事会成员", "董事会人数"],
     "independent_directors": ["独立董事", "独董"],
+    "r_and_d_expense": ["研发总投入", "研发投入", "研发经费", "研发费用"],
+    "occupational_health_safety_investment": ["安全生产总投入", "安全生产投入", "安全投入", "职业健康安全投入"],
+    "environmental_investment": ["环保投入", "环境保护投入", "环境治理投入"],
+    "public_welfare_investment": ["公益投入", "公益捐赠", "慈善捐赠", "对外捐赠"],
 }
 
 BOARD_SIZE_FORBIDDEN_SOFT_PASS = ["独立董事", "独董"]
@@ -125,7 +131,7 @@ def _field_anchor_soft_pass(field_key: str, value_blob: str) -> Tuple[bool, str]
     if not anchor_hits:
         return False, ""
 
-    if field_key in {"total_employees", "board_size", "independent_directors"}:
+    if field_key in {"total_employees", "male_employees", "female_employees", "board_size", "independent_directors"}:
         if not contains_any(value_blob, PERSON_UNIT_WORDS):
             return False, ""
 

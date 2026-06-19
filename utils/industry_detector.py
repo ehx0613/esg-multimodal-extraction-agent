@@ -1,12 +1,55 @@
 from pathlib import Path
-from typing import Any, Dict, Iterable, List
+from typing import Any, Dict, Iterable, List, Tuple
 
 
-INDUSTRY_KEYWORDS = {
-    "finance": ["银行", "保险", "证券", "信托", "贷款", "理财", "金融机构"],
-    "pharma": ["药业", "生物", "医疗器械", "制药", "临床", "医药", "医疗"],
-    "manufacturing": ["制造", "设备", "零件", "重工", "机械", "材料", "船舶", "新材", "钢", "一重", "黄金", "林海"],
-    "service": ["服务", "零售", "物业", "环卫", "城市运营", "供应链", "侨银"],
+INDUSTRY_KEYWORDS: Dict[str, List[Tuple[str, int]]] = {
+    "finance": [
+        ("银行", 3),
+        ("保险", 3),
+        ("证券", 3),
+        ("信托", 3),
+        ("贷款", 2),
+        ("理财", 2),
+        ("金融机构", 4),
+    ],
+    "pharma": [
+        ("药业", 4),
+        ("生物", 2),
+        ("医疗器械", 4),
+        ("制药", 4),
+        ("临床", 2),
+        ("医药", 4),
+        ("医疗", 2),
+    ],
+    "manufacturing": [
+        ("制造", 3),
+        ("制冷", 4),
+        ("化工", 4),
+        ("氟化工", 5),
+        ("氟材料", 5),
+        ("含氟", 4),
+        ("冷媒", 4),
+        ("设备", 2),
+        ("零件", 2),
+        ("重工", 4),
+        ("机械", 3),
+        ("材料", 2),
+        ("船舶", 4),
+        ("新材", 3),
+        ("钢", 2),
+        ("一重", 4),
+        ("黄金", 3),
+        ("林海", 3),
+    ],
+    "service": [
+        ("服务", 1),
+        ("零售", 3),
+        ("物业", 4),
+        ("环卫", 4),
+        ("城市运营", 4),
+        ("供应链", 2),
+        ("侨银", 4),
+    ],
 }
 
 
@@ -28,7 +71,7 @@ def detect_industry_from_text(text: str) -> str:
     text = str(text or "")
     scores = {}
     for industry, keywords in INDUSTRY_KEYWORDS.items():
-        score = sum(text.count(keyword) for keyword in keywords)
+        score = sum(text.count(keyword) * weight for keyword, weight in keywords)
         if score:
             scores[industry] = score
 

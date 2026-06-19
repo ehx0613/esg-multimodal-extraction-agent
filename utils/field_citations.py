@@ -105,6 +105,10 @@ def _has_table_evidence(row: Dict[str, Any], source_pages: List[int], evidence: 
     return bool(evidence and source_pages and source_route.startswith("route_a"))
 
 
+def _is_extracted(row: Dict[str, Any]) -> bool:
+    return str(row.get("status", "") or "").strip().lower() == "extracted"
+
+
 def attach_field_citations(
     rows: List[Dict[str, Any]],
     chunks: List[Dict[str, Any]],
@@ -163,7 +167,9 @@ def attach_field_citations(
             review_reasons.append("source_page_inferred_from_retrieval")
 
         review_status = "needs_review" if review_reasons else "auto_cited"
-        evidence_text = existing_evidence or compact_text(str(primary.get("text", "")), limit=500)
+        evidence_text = existing_evidence
+        if not evidence_text and _is_extracted(row):
+            evidence_text = compact_text(str(primary.get("text", "")), limit=500)
 
         enriched.append(
             {

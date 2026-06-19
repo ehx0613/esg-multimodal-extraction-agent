@@ -2,7 +2,7 @@ import hashlib
 import json
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict
+from typing import Any, Callable, Dict
 
 from config.schema import ALL_SCHEMA, build_runtime_schema
 from config.settings import (
@@ -19,6 +19,7 @@ from config.settings import (
     UNIFIED_PREPARE_ARBITRATION_IMAGES,
     UNIFIED_VISUAL_FOLLOWUP_MAX_PAGES,
     DASHSCOPE_API_KEY,
+    SEMANTIC_JUDGE_ENABLED,
 )
 from utils.call_tracker import LLMCallTracker
 from utils.evidence_store import build_evidence_records, write_evidence_store
@@ -46,12 +47,23 @@ from utils.visual_followup import build_visual_followup_queue
 class UnifiedESGPipeline:
     """User-facing orchestration for text, table, visual, fusion, and merge."""
 
-    def __init__(self, report_dir: Path, run_mode: str = "fast"):
+    def __init__(
+        self,
+        report_dir: Path,
+        run_mode: str = "fast",
+        progress_callback: Callable[[str, int, str], None] | None = None,
+    ):
         if run_mode not in {"fast", "balanced", "deep"}:
             raise ValueError(f"Unsupported run mode: {run_mode}")
         self.report_dir = Path(report_dir)
         self.run_mode = run_mode
+        self.progress_callback = progress_callback
         self.report_dir.mkdir(parents=True, exist_ok=True)
+
+    def _progress(self, stage: str, progress: int, message: str) -> None:
+        if self.progress_callback is None:
+            return
+        self.progress_callback(stage, progress, message)
 
     def _pdf_fingerprint(self, pdf_path: Path) -> str:
         if not pdf_path.exists():
@@ -159,6 +171,16 @@ class UnifiedESGPipeline:
         from pipeline.merge_pipeline import ESGMergePipeline
 
         return ESGMergePipeline(self.report_dir).run()
+
+    def _run_semantic_judge(self) -> Dict[str, Any]:
+        if not SEMANTIC_JUDGE_ENABLED:
+            return {"status": "disabled", "accepted_count": 0, "candidate_count": 0}
+        if not DASHSCOPE_API_KEY:
+            return {"status": "skipped_missing_api_key", "accepted_count": 0, "candidate_count": 0}
+        from utils.semantic_metric_judge import run_semantic_metric_judge
+
+        summary = run_semantic_metric_judge(self.report_dir)
+        return {"status": "completed", **summary}
 
     @staticmethod
     def _merge_targeted_visual_rows(existing_rows: list[Any], targeted_rows: list[Any]) -> list[Any]:
@@ -430,6 +452,7 @@ class UnifiedESGPipeline:
             "errors": [],
         }
         self._write_run_manifest(manifest)
+        self._progress("document_parsing", 18, "Parsing PDF with MinerU or PyMuPDF")
         ingest = ingest_pdf(pdf_path, self.report_dir)
         manifest["routes"]["document_ingest"] = {
             "status": "completed",
@@ -438,6 +461,7 @@ class UnifiedESGPipeline:
         }
         manifest["routes"]["route_a_performance_tables"]["status"] = "running"
         self._write_run_manifest(manifest)
+        self._progress("route_a", 30, "Running Route A performance table extraction")
         industry = detect_industry(pdf_path.stem, ingest.get("pages", []))
         runtime_schema = build_runtime_schema(industry)
         safe_write_json(self.report_dir / "runtime_schema.json", runtime_schema)
@@ -490,6 +514,7 @@ class UnifiedESGPipeline:
         }
         manifest["routes"]["route_b_document_extraction"]["status"] = "running"
         self._write_run_manifest(manifest)
+        self._progress("route_b", 50, "Running Route B shared Hybrid RAG extraction")
 
         table_arbitration_summary = self._prepare_table_arbitration(pdf_path)
         table_arbitration_summary["vlm"] = self._run_table_arbitration_vlm()
@@ -500,6 +525,7 @@ class UnifiedESGPipeline:
         }
         manifest["routes"]["fusion"]["status"] = "running"
         self._write_run_manifest(manifest)
+        self._progress("fusion", 68, "Running evidence arbitration and conservative fusion")
 
         evidence_summary, visual_followup_queue = self._build_evidence_and_followup(
             ingest=ingest,
@@ -529,6 +555,8 @@ class UnifiedESGPipeline:
                 },
             )
             targeted_visual_summary["full_text_rerun_skipped"] = True
+        self._progress("merged_results", 76, "Generating merged 60-field ESG result")
+        semantic_judge_summary = self._run_semantic_judge()
         merge_summary = self._run_merge()
         manifest["routes"]["fusion"] = {"status": "completed", "summary": merge_summary}
 
@@ -563,6 +591,7 @@ class UnifiedESGPipeline:
             "table_arbitration": table_arbitration_summary,
             "visual_extraction": visual_summary,
             "extraction": extraction_summary,
+            "semantic_judge": semantic_judge_summary,
             "evidence_store": evidence_summary,
             "visual_followup": {
                 "queued_metrics": len(visual_followup_queue),

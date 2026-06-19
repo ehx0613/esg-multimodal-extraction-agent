@@ -62,6 +62,24 @@ class BackendApiTests(unittest.TestCase):
         trace = self.client.get(f"/tasks/{task['id']}/trace").json()
         self.assertEqual(trace["task"]["id"], task["id"])
         self.assertEqual(trace["agent_runs"], [])
+        self.assertEqual(trace["progress"]["stage"], "uploaded")
+
+        progress_response = self.client.patch(
+            f"/tasks/{task['id']}/status",
+            json={
+                "status": "running",
+                "stage": "route_b",
+                "progress": 55,
+                "message": "Running hybrid RAG",
+            },
+        )
+        self.assertEqual(progress_response.status_code, 200)
+
+        overview = self.client.get(f"/tasks/{task['id']}/overview").json()
+        self.assertEqual(overview["progress"]["stage"], "route_b")
+        self.assertEqual(overview["progress"]["progress"], 55)
+        self.assertEqual(overview["timeline"][-1]["message"], "Running hybrid RAG")
+        self.assertIn("/tasks/" + task["id"] + "/results", overview["urls"]["results"])
 
     def test_run_report_dir_endpoint(self) -> None:
         report_dir = Path(self.tmpdir.name) / "demo_report"
@@ -262,6 +280,22 @@ class BackendApiTests(unittest.TestCase):
             ),
             encoding="utf-8",
         )
+        (report_dir / "route_b_chunks.json").write_text(
+            json.dumps(
+                [
+                    {
+                        "chunk_id": "p39_66",
+                        "page_number": 39,
+                        "text": "FULL_EVIDENCE_CHUNK_TEXT for air pollutant review.",
+                    }
+                ],
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
+        page_image_dir = report_dir / "page_images"
+        page_image_dir.mkdir()
+        (page_image_dir / "page_39.png").write_bytes(b"fake png bytes")
         recalc_response = self.client.post(
             "/rating/recalculate",
             json={"report_dir": str(report_dir), "industry": "manufacturing"},
@@ -289,6 +323,55 @@ class BackendApiTests(unittest.TestCase):
         self.assertIn("/review?report_dir=", dashboard_response.text)
         self.assertIn("人工审核", dashboard_response.text)
 
+    def test_report_fields_endpoint_returns_frontend_contract(self) -> None:
+        report_dir = Path(self.tmpdir.name) / "field_contract_report"
+        report_dir.mkdir()
+        (report_dir / "field_citations.json").write_text(
+            json.dumps(
+                [
+                    {
+                        "field_key": "total_ghg_emissions",
+                        "field_name_cn": "温室气体排放总量",
+                        "category": "E",
+                        "status": "extracted",
+                        "value": "2000",
+                        "unit": "tCO2e",
+                        "year": 2024,
+                        "confidence": "0.95",
+                        "source_route": "route_a_appendix_table",
+                        "citation_review_status": "auto_cited",
+                        "citation_page_number": 39,
+                        "citation_chunk_id": "table_page_39",
+                        "citation_evidence_text": "温室气体排放总量为2000 tCO2e。",
+                    },
+                    {
+                        "field_key": "climate_risk_management",
+                        "field_name_cn": "气候风险管理",
+                        "category": "G",
+                        "status": "missing",
+                        "value": "",
+                        "citation_review_status": "needs_review",
+                        "citation_review_reasons": ["missing_existing_evidence"],
+                    },
+                ],
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
+
+        response = self.client.get("/reports/fields", params={"report_dir": str(report_dir)})
+
+        self.assertEqual(response.status_code, 200)
+        payload = response.json()
+        self.assertEqual(payload["summary"]["field_count"], 2)
+        self.assertEqual(payload["summary"]["extracted_count"], 1)
+        self.assertEqual(payload["summary"]["needs_review_count"], 1)
+        self.assertEqual(payload["summary"]["by_category"]["E"]["extracted_count"], 1)
+        self.assertEqual(payload["items"][0]["field_key"], "total_ghg_emissions")
+        self.assertEqual(payload["items"][0]["confidence"], 0.95)
+        self.assertEqual(payload["items"][0]["page_number"], 39)
+        self.assertIn("evidence_text", payload["items"][0])
+
     def test_review_page_rejects_pending_item(self) -> None:
         report_dir = Path(self.tmpdir.name) / "review_page_report"
         report_dir.mkdir()
@@ -311,6 +394,22 @@ class BackendApiTests(unittest.TestCase):
             ),
             encoding="utf-8",
         )
+        (report_dir / "route_b_chunks.json").write_text(
+            json.dumps(
+                [
+                    {
+                        "chunk_id": "p39_66",
+                        "page_number": 39,
+                        "text": "FULL_EVIDENCE_CHUNK_TEXT for air pollutant review.",
+                    }
+                ],
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
+        page_image_dir = report_dir / "page_images"
+        page_image_dir.mkdir()
+        (page_image_dir / "page_39.png").write_bytes(b"fake png bytes")
         recalc_response = self.client.post(
             "/rating/recalculate",
             json={"report_dir": str(report_dir), "industry": "manufacturing"},

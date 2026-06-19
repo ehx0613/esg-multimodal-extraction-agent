@@ -17,6 +17,7 @@ SCHEMA_JUDGE_ESCALATE_MAX_CONFIDENCE = float(os.getenv("SCHEMA_JUDGE_ESCALATE_MA
 SCHEMA_JUDGE_TOP_K = int(os.getenv("SCHEMA_JUDGE_TOP_K", "8"))
 SCHEMA_JUDGE_MIN_CONFIDENCE = float(os.getenv("SCHEMA_JUDGE_MIN_CONFIDENCE", "0.78"))
 SCHEMA_JUDGE_SOFT_ACCEPT_CONFIDENCE = float(os.getenv("SCHEMA_JUDGE_SOFT_ACCEPT_CONFIDENCE", "0.88"))
+SEMANTIC_JUDGE_ENABLED = os.getenv("SEMANTIC_JUDGE_ENABLED", "true").lower() == "true"
 ROUTE_B_TOP_K = int(os.getenv("ROUTE_B_TOP_K", "4"))
 ROUTE_B_RECALL_K = int(os.getenv("ROUTE_B_RECALL_K", "12"))
 ROUTE_B_USE_VECTOR_RAG = os.getenv("ROUTE_B_USE_VECTOR_RAG", "true").lower() == "true"
@@ -97,6 +98,7 @@ TOKEN_BUDGET = {
     "schema_judge_top_k": SCHEMA_JUDGE_TOP_K,
     "schema_judge_min_confidence": SCHEMA_JUDGE_MIN_CONFIDENCE,
     "schema_judge_soft_accept_confidence": SCHEMA_JUDGE_SOFT_ACCEPT_CONFIDENCE,
+    "semantic_judge_enabled": SEMANTIC_JUDGE_ENABLED,
     "route_b2_top_k": ROUTE_B2_TOP_K,
     "route_b2_vector_top_k": ROUTE_B2_VECTOR_TOP_K,
     "route_b2_use_vector_rag": ROUTE_B2_USE_VECTOR_RAG,
